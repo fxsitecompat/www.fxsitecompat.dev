@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+<html lang="{{ $.Site.LanguageCode }}">
+  <head>
+{{ partial "head.html" . }}
+    <title>{{ $strings.not_found_page.title }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ $strings.not_found_page.title }}">
+    <meta property="og:description" content="{{ $strings.not_found_page.description }}">
+    <meta name="description" content="{{ $strings.not_found_page.description }}">
+  </head>
+  <body class="single error" itemscope itemtype="http://schema.org/WebPage" itemref="copyright">
+    <meta itemprop="name" content="{{ $strings.not_found_page.title }}">
+    <meta itemprop="description" content="{{ $strings.not_found_page.description }}">
+    <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
+{{ partial "header.html" . }}
+    <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+      <p class="inner">
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}" itemprop="item"><span itemprop="name">{{ $strings.sections.home }}</span></a><meta itemprop="position" content="1"></span>
+      </p>
+    </nav>
+    <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
+      <section class="inner">
+        <header>
+          <h1 itemprop="name">{{ $strings.not_found_page.title }}</h1>
+          <p itemprop="description">{{ $strings.not_found_page.description }}</p>
+        </header>
+      </section>
+    </main>
+{{ partial "footer.html" . }}
+  </body>
+</html>

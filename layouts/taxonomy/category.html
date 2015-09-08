@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+{{ $category := index $strings.categories (.Title | urlize) }}
+{{ $title := replace $strings.category_index_page.title "%s" $category }}
+{{ $description := replace $strings.category_index_page.description "%s" $category }}
+<html lang="{{ $.Site.LanguageCode }}">
+  <head>
+{{ partial "head.html" . }}
+    <title>{{ $title }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ $title }}">
+    <meta property="og:description" content="{{ $description }}">
+    <meta name="description" content="{{ $description }}">
+  </head>
+  <body class="list docs term category" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright">
+    <meta itemprop="name" content="{{ $title }}">
+    <meta itemprop="description" content="{{ $description }}">
+    <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
+{{ partial "header.html" . }}
+    <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+      <p class="inner">
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}" itemprop="item"><span itemprop="name">{{ $strings.sections.home }}</span></a><meta itemprop="position" content="1"></span>
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="2"></span>
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}categories/" itemprop="item"><span itemprop="name">{{ $strings.sections.categories }}</span></a><meta itemprop="position" content="3"></span>
+      </p>
+    </nav>
+    <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
+      <section class="inner">
+        <header>
+          <h1 itemprop="name">{{ $title }}</h1>
+          <p itemprop="description">{{ $description }}</p>
+        </header>{{ range .Data.Pages.GroupByParam "versions" "desc" }}{{ $version := .Key }}
+        <section>
+          <h2>Firefox {{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</h2>
+          <ul>{{ range .Pages }}
+            <li>{{ if in .Params.tags "regression" }}<em class="tag regression">{{ $strings.tags.regression }}</em> {{ end }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
+          </ul>
+        </section>{{ end }}
+      </section>
+    </main>
+{{ partial "footer.html" . }}
+  </body>
+</html>

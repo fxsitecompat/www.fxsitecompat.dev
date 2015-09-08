@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+<html lang="{{ $.Site.LanguageCode }}">
+  <head>
+{{ partial "head.html" . }}
+    <title>{{ .Title }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:description" content="{{ substr .Summary 0 200 }} ...">
+    <meta name="description" content="{{ substr .Summary 0 200 }} ...">
+  </head>
+  <body class="single blog article" itemscope itemtype="http://schema.org/ItemPage" itemref="copyright">
+    <meta itemprop="name" content="{{ .Title }}">
+    <meta itemprop="description" content="{{ substr .Summary 0 200 }} ...">
+    <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
+{{ partial "header.html" . }}
+    <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+      <p class="inner">
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}" itemprop="item"><span itemprop="name">{{ $strings.sections.home }}</span></a><meta itemprop="position" content="1"></span>
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}blog/" itemprop="item"><span itemprop="name">{{ $strings.sections.blog }}</span></a><meta itemprop="position" content="2"></span>
+      </p>
+    </nav>
+    <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
+      <div class="inner" itemscope itemtype="http://schema.org/Blog">
+        <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          <header>
+            <h1 itemprop="headline">{{ .Title }}</h1>
+            <p><time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time></p>
+            <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
+          </header>
+          <div itemprop="articleBody">
+            {{ .Content }}
+          </div>
+        </article>
+        <aside>
+          <h2>{{ $strings.recent_blog_posts }}</h2>
+          <ul>{{ range first 10 (where $.Site.Pages "Section" "blog") }}
+            <li><a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
+          </ul>
+        </aside>
+      </div>
+    </main>
+{{ partial "footer.html" . }}
+  </body>
+</html>

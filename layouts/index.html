@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+<html lang="{{ $.Site.LanguageCode }}">
+  <head>
+{{ partial "head.html" . }}
+    <title>{{ $.Site.Title }} &mdash; {{ $strings.contentinfo.tagline }}</title>
+    <meta property="og:title" content="{{ $.Site.Title }}">
+    <meta property="og:description" content="{{ $strings.contentinfo.description }}">
+    <meta name="description" content="{{ $strings.contentinfo.description }}">
+  </head>
+  <body class="home" itemscope itemtype="http://schema.org/WebPage" itemref="copyright">
+    <!-- Google+ snippet should go first; see https://developers.google.com/+/web/snippet/ -->
+    <meta itemprop="name" content="{{ $.Site.Title }}">
+    <meta itemprop="description" content="{{ $strings.contentinfo.description }}">
+    <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
+{{ partial "header.html" . }}
+    <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
+      <div id="main-feature">
+        <header class="inner">
+          <h1 itemprop="name">{{ $strings.home_page.tagline | safeHTML }}</h1>
+          <p itemprop="description">{{ $strings.home_page.description | safeHTML }}</p>
+        </header>
+      </div>
+      <div id="main-content">
+        <div class="inner">
+          <section id="sec-blog" itemscope itemtype="http://schema.org/Blog">
+            <h2 itemprop="name">{{ $strings.latest_blog_post }}</h2>{{ range first 1 (where .Data.Pages "Section" "blog") }}
+            <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+              <header>
+                <h3 itemprop="headline"><a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}" itemprop="url">{{ .Title }}</a></h3>
+                <p><time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time></p>
+                <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
+              </header>
+              <div itemprop="articleBody">
+                {{ .Content }}
+              </div>
+            </article>{{ end }}
+          </section>
+          <section id="sec-docs">
+            <h2>{{ $strings.documents }}</h2>
+            <section id="sec-docs-version">
+              <h3>{{ $strings.browse_version }}</h3>
+              <ul>{{ range first 4 (.Data.Pages.GroupByParam "versions" "desc") }}{{ $version := .Key }}
+                <li><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/">{{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a></li>{{ end }}
+                <li><a href="{{ $.Site.Params.BaseDir }}versions/">{{ $strings.browse_all_versions }}</a></li>
+              </ul>
+            </section>
+            <section id="sec-docs-category">
+              <h3>{{ $strings.browse_category }}</h3>
+              <ul>{{ range $category, $taxonomy := $.Site.Taxonomies.categories }}
+                <li><a href="{{ $.Site.Params.BaseDir }}categories/{{ $category }}/">{{ index $strings.categories $category }}</a></li>{{ end }}
+              </ul>
+            </section>
+          </section>
+        </div>
+      </div>
+    </main>
+{{ partial "footer.html" . }}
+    <div itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="{{ $.Site.Title }}">
+      <meta itemprop="url" content="{{ $.Site.BaseURL }}">{{ range $.Site.Menus.External }}
+      <meta itemprop="sameAs" content="{{ .URL }}">{{ end }}
+    </div>
+  </body>
+</html>

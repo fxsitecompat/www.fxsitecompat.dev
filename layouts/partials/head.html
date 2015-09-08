@@ -1,0 +1,22 @@
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=false">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ $.Site.Title }}">
+    <meta property="og:locale" content="{{ replace $.Site.LanguageCode "-" "_" }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
+    <meta property="fb:admins" content="100003919776216">
+    <meta property="fb:page_id" content="633917723366737">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@FxSiteCompat">
+    <meta name="twitter:domain" content="FxSiteCompat.com">
+    <meta name="twitter:url" content="{{ .Permalink }}">
+    <link rel="canonical" hreflang="{{ $.Site.LanguageCode }}" href="{{ .Permalink }}">
+    <link rel="alternate" hreflang="x-default" href="{{ replace .Permalink (print "/" $.Site.LanguageCode "/") "/" }}">{{ range $.Site.Params.Locales }}
+    <link rel="alternate" hreflang="{{ .Code }}" href="{{ replace $.Permalink (print "/" $.Site.LanguageCode "/") (print "/" .Code "/") }}" title="{{ .Name }}">{{ end }}
+    <link rel="publisher" href="https://plus.google.com/+FxSiteCompatibility">
+    <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/fonts.css" type="text/css" media="screen,print">
+    <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/screen.css?v=201509081740" type="text/css" media="screen">
+    <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/print.css" type="text/css" media="print">
+    <link rel="shortcut icon" href="{{ $.Site.Params.BaseDir }}images/template/favicon.png" type="image/png">
+    <link rel="alternate" href="{{ $.Site.Params.BaseDir }}index.xml" type="application/atom+xml" title="{{ $.Site.Title }}">

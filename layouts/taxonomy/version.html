@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+{{ $version := .Title | urlize }}
+{{ $title := replace $strings.version_index_page.title "%s" $version }}
+{{ $description := replace $strings.version_index_page.description "%s" $version }}
+<html lang="{{ $.Site.LanguageCode }}">
+  <head>
+{{ partial "head.html" . }}
+    <title>{{ $title }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ $title }}">
+    <meta property="og:description" content="{{ $description }}">
+    <meta name="description" content="{{ $description }}">
+  </head>
+  <body class="list docs term version" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright">
+    <meta itemprop="name" content="{{ $title }}">
+    <meta itemprop="description" content="{{ $description }}">
+    <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
+{{ partial "header.html" . }}
+    <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+      <p class="inner">
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}" itemprop="item"><span itemprop="name">{{ $strings.sections.home }}</span></a><meta itemprop="position" content="1"></span>
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="2"></span>
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}versions/" itemprop="item"><span itemprop="name">{{ $strings.sections.versions }}</span></a><meta itemprop="position" content="3"></span>
+      </p>
+    </nav>
+    <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
+      <section class="inner">
+        <header>
+          <h1 itemprop="name">{{ $title }}</h1>
+          <p itemprop="description">{{ with index $.Site.Data.firefox.versions $version }}{{ replace (replace $strings.version_index_page.description_upcoming "%(version)s" $version) "%(channel)s" (index $.Site.Data.firefox.channels .) }}{{ else }}{{ $description }}{{ end }}</p>
+        </header>{{ range $category, $taxonomy := $.Site.Taxonomies.categories }}{{ with $pages := where $taxonomy.Pages "Params.versions" $version }}
+        <section>
+          <h2>{{ index $strings.categories $category }}</h2>
+          <ul>{{ range $pages }}
+            <li>{{ if in .Params.tags "regression" }}<em class="tag regression">{{ $strings.tags.regression }}</em> {{ end }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
+          </ul>
+        </section>{{ end }}{{ end }}
+      </section>
+    </main>
+{{ partial "footer.html" . }}
+  </body>
+</html>

@@ -1,0 +1,15 @@
+    <header role="banner" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="inner">
+        <h1 itemprop="name">
+          <a href="{{ $.Site.Params.BaseDir }}">{{ $.Site.Title }}</a>
+        </h1>
+        <nav>
+          <ul>{{ range $.Site.Menus.Main }}{{ if ne .Identifier "home" }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}{{ end }}
+          </ul>
+          <ul>{{ range $.Site.Menus.External }}
+            <li><a href="{{ .URL }}" class="fa replace {{ .Identifier }}">{{ .Name }}</a></li>{{ end }}
+          </ul>
+        </nav>
+      </div>
+    </header>

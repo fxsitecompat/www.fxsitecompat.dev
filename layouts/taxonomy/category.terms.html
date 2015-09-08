@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+<html lang="{{ $.Site.LanguageCode }}">
+  <head>
+{{ partial "head.html" . }}
+    <title>{{ $strings.all_categories_page.title }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ $strings.all_categories_page.title }}">
+    <meta property="og:description" content="{{ $strings.all_categories_page.description }}">
+    <meta name="description" content="{{ $strings.all_categories_page.description }}">
+  </head>
+  <body class="list docs taxonomy categories" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright">
+    <meta itemprop="name" content="{{ $strings.all_categories_page.title }}">
+    <meta itemprop="description" content="{{ $strings.all_categories_page.description }}">
+    <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
+{{ partial "header.html" . }}
+    <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+      <p class="inner">
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}" itemprop="item"><span itemprop="name">{{ $strings.sections.home }}</span></a><meta itemprop="position" content="1"></span>
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="2"></span>
+      </p>
+    </nav>
+    <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
+      <section class="inner">
+        <header>
+          <h1 itemprop="name">{{ $strings.all_categories_page.title }}</h1>
+          <p itemprop="description">{{ $strings.all_categories_page.description }}</p>
+        </header>
+        <ul>{{ range $category, $value := .Data.Terms }}
+          <li><a href="{{ $.Site.Params.BaseDir }}categories/{{ $category }}/">{{ index $strings.categories $category }}</a></li>{{ end }}
+        </ul>
+      </section>
+    </main>
+{{ partial "footer.html" . }}
+  </body>
+</html>

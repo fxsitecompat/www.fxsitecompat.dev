@@ -1,0 +1,30 @@
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>{{ $.Site.BaseURL }}</id>
+  <title>{{ .Title }}</title>{{ if not $.Date.IsZero }}
+  <updated>{{ $.Date.Format $.Site.Params.DateFormat.ISO8601 }}</updated>{{ end }}{{ with $.Site.Author.Name }}
+  <author>
+    <name>{{ . }}</name>{{ with $.Site.Author.Email }}
+    <email>{{ . }}</email>{{end}}
+  </author>{{ end }}
+  <link href="{{ .URL }}" rel="self" />
+  <category term="{{ $strings.contentinfo.category }}" />
+  <icon>{{ $.Site.BaseURL }}images/template/favicon.png</icon>
+  <logo>{{ $.Site.BaseURL }}images/template/logo-512.png</logo>{{ with .Site.Copyright }}
+  <rights>Copyright &#169; {{ . }}</rights>{{ end }}
+  <subtitle>{{ replace $strings.feed.recent_content "%s" .Title }}</subtitle>{{ range first 15 (where .Data.Pages "Section" "ne" "") }}
+  <entry>
+    <id>{{ .Permalink }}</id>
+    <title>{{ replace .Title "`" "" }}{{ if in .Params.tags "regression" }} ({{ $strings.tags.regression }}){{ end }}</title>
+    <updated>{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}</updated>{{ with $.Site.Author.Name }}
+    <author>
+      <name>{{ . }}</name>{{ with $.Site.Author.Email }}
+      <email>{{ . }}</email>{{end}}
+    </author>{{ end }}
+    <content type="html">
+      {{ .Content | html }}
+    </content>
+    <link rel="alternate" href="{{ .Permalink }}" />{{ range .Params.categories }}
+    <category term="{{ index $strings.categories . }}" />{{ end }}
+  </entry>{{ end }}
+</feed>

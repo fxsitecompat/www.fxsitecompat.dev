@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+<html lang="{{ $.Site.LanguageCode }}">
+  <head>
+{{ partial "head.html" . }}
+    <title>{{ .Title }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:description" content="{{ .Description }}">
+    <meta name="description" content="{{ .Description }}">
+  </head>
+  <body class="list" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright">
+    <meta itemprop="name" content="{{ .Title }}">
+    <meta itemprop="description" content="{{ .Description }}">
+    <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
+{{ partial "header.html" . }}
+    <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+      <p class="inner">
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}" itemprop="item"><span itemprop="name">{{ $strings.sections.home }}</span></a><meta itemprop="position" content="1"></span>
+      </p>
+    </nav>
+    <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
+      <section class="inner">
+        <header>
+          <h1 itemprop="name">{{ .Title }}</h1>
+        </header>
+        <ul>{{ range .Data.Pages }}
+          <li><a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title }}</a>{{ with .Params.categories }} <span class="categories">{{ delimit . ", " }}</span>{{ end }}</li>{{ end }}
+        </ul>
+      </section>
+    </main>
+{{ partial "footer.html" . }}
+  </body>
+</html>

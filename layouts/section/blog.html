@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+<html lang="{{ $.Site.LanguageCode }}">
+  <head>
+{{ partial "head.html" . }}
+    <title>{{ $strings.all_posts_page.title }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ $strings.all_posts_page.title }}">
+    <meta property="og:description" content="{{ $strings.all_posts_page.description }}">
+    <meta name="description" content="{{ $strings.all_posts_page.description }}">
+  </head>
+  <body class="list blog all" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright">
+    <meta itemprop="name" content="{{ $strings.all_posts_page.title }}">
+    <meta itemprop="description" content="{{ $strings.all_posts_page.description }}">
+    <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
+{{ partial "header.html" . }}
+    <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+      <p class="inner">
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}" itemprop="item"><span itemprop="name">{{ $strings.sections.home }}</span></a><meta itemprop="position" content="1"></span>
+      </p>
+    </nav>
+    <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
+      <section class="inner">
+        <header>
+          <h1 itemprop="name">{{ $strings.all_posts_page.title }}</h1>
+          <p itemprop="description">{{ $strings.all_posts_page.description }}</p>
+        </header>{{ range .Data.Pages.GroupByDate "2006" }}
+        <section>
+          <h2>{{ .Key }}</h2>
+          <ul>{{ range .Pages }}
+            <li><a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | safeHTML }}</a></li>{{ end }}
+          </ul>
+        </section>{{ end }}
+      </section>
+    </main>
+{{ partial "footer.html" . }}
+  </body>
+</html>

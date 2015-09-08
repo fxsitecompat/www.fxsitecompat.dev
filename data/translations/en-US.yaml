@@ -1,0 +1,99 @@
+# Sections
+sections:
+    home: Home
+    blog: Blog
+    docs: Documents
+    categories: Categories
+    versions: Versions
+    about: About
+
+# Categories
+categories:
+    audio-video: "Audio & Video"
+    css: "CSS"
+    dom: "DOM"
+    event-handling: "Event Handling"
+    file-handling: "File Handling"
+    html: "HTML"
+    javascript: "JavaScript"
+    mathml: "MathML"
+    misc: "Miscellaneous"
+    networking: "Networking"
+    plugins: "Plug-ins"
+    printing: "Printing"
+    privacy-security: "Privacy & Security"
+    svg: "SVG"
+    webgl: "WebGL"
+    webrtc: "WebRTC"
+
+# Tags:
+tags:
+    regression: "Regression"
+
+# Meta
+contentinfo:
+    organization: "<span>Firefox Site Compatibility</span> <span>Working Group</span>"
+    category: "Technology"
+    tagline: "Together, We Build a Better Web"
+    description: "A community-driven Web developer engagement initiative focusing on the backward compatibility and regressions of Firefox. Documents, latest updates & more."
+    legal: "Mozilla and Firefox are trademarks of The Mozilla Foundation. This initiative is not affiliated with Mozilla."
+
+# Home page
+latest_blog_post: "Latest blog post"
+documents: "Documents"
+browse_category: "Browse by category"
+browse_version: "Browse by version"
+browse_all_versions: "See all versions..."
+home_page:
+    tagline: "<span>Together, We Build</span> <span>a Better Web</span>"
+    description: "A community-driven Web developer engagement initiative focusing on the backward compatibility and regressions of Firefox. Documents, latest updates & more."
+
+# All blog posts page
+all_posts_page:
+    title: "All blog posts"
+    description: "Browse all our blog posts related to Firefox site compatibility."
+
+# All documents page
+all_docs_page:
+    title: "All documents"
+    description: "Browse all our documents related to Firefox site compatibility."
+
+# All vategories page
+all_categories_page:
+    title: "Browse documents by category"
+    description: "Browse all our Firefox site compatibility documents by technology category, including CSS, DOM, JavaScript, Plug-ins, Security & Privacy."
+
+# All versions page
+all_versions_page:
+    title: "Browse documents by version"
+    description: "Browse all our Firefox site compatibility documents by release version, from Firefox 17 to the latest Developer Edition."
+
+# Version index page
+version_index_page:
+    title: "Firefox %s site compatibility documents"
+    description: "Browse our Firefox site compatibility documents describing the changes made with Firefox version %s."
+    description_upcoming: "Browse our Firefox site compatibility documents describing the changes made with Firefox version %(version)s, which is currently in the %(channel)s channel."
+
+# Category index page
+category_index_page:
+    title: "%s documents"
+    description: "Browse our Firefox site compatibility documents describing the changes related to %s."
+
+# Single document page
+published: "Published"
+creativecommons: "Creative Commons"
+description: "Description"
+references: "References"
+docs_for_version: "Docs for Firefox %s"
+
+# Single blog page
+recent_blog_posts: "Recent blog posts"
+
+# 404 page
+not_found_page:
+    title: "Page Not Found"
+    description: "The page you are looking for could not be found. If you believe this is an error, please reach us out at webmaster@fxsitecompat.com."
+
+# Feed
+feed:
+    recent_content: "Recent articles on %s"

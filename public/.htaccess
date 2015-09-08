@@ -1,0 +1,54 @@
+# Charset
+AddDefaultCharset UTF-8
+AddCharset UTF-8 css js
+
+# MIME types
+AddType application/javascript js
+AddType application/vnd.ms-fontobject eot
+AddType application/font-sfnt ttf
+AddType application/font-woff woff
+AddType application/font-woff2 woff2
+
+# Options
+Options +SymLinksIfOwnerMatch -Indexes
+RewriteEngine on
+
+# Redirect: Japanese
+RewriteCond %{HTTP:Accept-Language} ^ja
+RewriteCond %{REQUEST_URI} !^/(en-US|ja)/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) /ja/$1 [R=302,L]
+
+# Redirect: English
+RewriteCond %{REQUEST_URI} !^/(en-US|ja)/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) /en-US/$1 [R=302,L]
+
+# 404 Not Found
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(en-US|ja)/ /$1/404.html [L]
+
+# Performance
+FileETag None
+Header always append Cache-Control private
+AddOutputFilterByType DEFLATE text/html text/css application/javascript
+ExpiresActive On
+ExpiresDefault "access plus 1 day"
+ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
+ExpiresByType application/font-sfnt "access plus 1 year"
+ExpiresByType application/font-woff "access plus 1 year"
+ExpiresByType application/font-woff2 "access plus 1 year"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
+ExpiresByType text/css "access plus 1 month"
+
+# Security
+Header always append Content-Security-Policy "\
+  default-src 'self';\
+  img-src 'self' https://www.google-analytics.com;\
+  script-src 'self' 'unsafe-inline' https://www.google-analytics.com"
+Header always append Strict-Transport-Security max-age=31536000
+Header always append X-Frame-Options SAMEORIGIN

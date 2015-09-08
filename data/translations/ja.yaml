@@ -1,0 +1,99 @@
+# Sections
+sections:
+    home: ホーム
+    blog: ブログ
+    docs: ドキュメント
+    categories: カテゴリ
+    versions: バージョン
+    about: 概要
+
+# Categories
+categories:
+    audio-video: "音声・動画"
+    css: "CSS"
+    dom: "DOM"
+    event-handling: "イベント処理"
+    file-handling: "ファイル処理"
+    html: "HTML"
+    javascript: "JavaScript"
+    mathml: "MathML"
+    misc: "その他"
+    networking: "ネットワーキング"
+    plugins: "プラグイン"
+    printing: "印刷"
+    privacy-security: "プライバシー・セキュリティ"
+    svg: "SVG"
+    webgl: "WebGL"
+    webrtc: "WebRTC"
+
+# Tags:
+tags:
+    regression: "リグレッション"
+
+# Meta
+contentinfo:
+    organization: "<span>Firefox サイト互換性</span> <span>ワーキンググループ</span>"
+    category: "テクノロジー"
+    tagline: "ともに、より良い Web を築こう"
+    description: "Firefox の後方互換性とリグレッションに焦点を当てた、コミュニティ主導の Web 開発者エンゲージメントイニシアチブ。ドキュメント、最新情報など。"
+    legal: "Mozilla と Firefox は Mozilla Foundation の商標です。このイニシアチブは Mozilla とは無関係です。"
+
+# Home page
+latest_blog_post: "最新のブログ記事"
+documents: "ドキュメント"
+browse_category: "カテゴリ別に参照"
+browse_version: "バージョン別に参照"
+browse_all_versions: "すべてのバージョンを見る..."
+home_page:
+    tagline: "<span>ともに、より良い</span> <span>Web を築こう</span>"
+    description: "<span>Firefox の後方互換性とリグレッションに焦点を当てた、</span><span>コミュニティ主導の Web 開発者エンゲージメントイニシアチブ。</span><span>ドキュメント、最新情報など。</span>"
+
+# All blog posts page
+all_posts_page:
+    title: "すべてのブログ記事"
+    description: "Firefox のサイト互換性に関するブログ記事一覧。"
+
+# All documents page
+all_docs_page:
+    title: "すべてのドキュメント"
+    description: "Firefox のサイト互換性に関するドキュメント一覧。"
+
+# All vategories page
+all_categories_page:
+    title: "カテゴリ別にドキュメントを参照"
+    description: "すべての Firefox サイト互換性ドキュメントを、CSS、DOM、JavaScript、セキュリティ & プライバシーなどの技術カテゴリ別に参照できます。"
+
+# All versions page
+all_versions_page:
+    title: "バージョン別にドキュメントを参照"
+    description: "すべての Firefox サイト互換性ドキュメントを、Firefox 17 から最新の Developer Edition まで、リリースバージョン別に参照できます。"
+
+# Version index page
+version_index_page:
+    title: "Firefox %s サイト互換性ドキュメント"
+    description: "Firefox のバージョン %s に含まれる変更点を解説した Firefox サイト互換性ドキュメントを参照できます。"
+    description_upcoming: "現在 %(channel)s チャンネルで提供されている Firefox のバージョン %(version)s に含まれる変更点を解説した Firefox サイト互換性ドキュメントを参照できます。"
+
+# Category index page
+category_index_page:
+    title: "%s 関連のドキュメント"
+    description: "%s に関する変更点を変更点を解説した Firefox サイト互換性ドキュメントを参照できます。"
+
+# Single document page
+published: "公開日"
+creativecommons: "Creative Commons"
+description: "概要"
+references: "参考資料"
+docs_for_version: "Firefox %s の記事"
+
+# Single blog page
+recent_blog_posts: "最近のブログ記事"
+
+# 404 page
+not_found_page:
+    title: "ページが見つかりません"
+    description: "あなたがお探しのページは見つかりませんでした。もしこれが何か間違いだと思われる場合は、webmaster@fxsitecompat.com までご連絡ください。"
+
+# Feed
+feed:
+    recent_content: "%s に関する最近の記事"

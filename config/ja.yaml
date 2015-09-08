@@ -1,0 +1,73 @@
+MetaDataFormat: "yaml"
+
+ContentDir: "content/ja"
+PublishDir: "public/ja"
+
+LanguageCode: ja
+BaseURL: "https://www.fxsitecompat.com/ja/"
+Title: "Firefox サイト互換性情報"
+Copyright: "Kohei Yoshino and individual contributors."
+
+Author:
+    Name: "Kohei Yoshino"
+    Email: "webmaster@fxsitecompat.com"
+
+Params:
+    BaseDir: "/ja/"
+    GoogleAnalyticsID: "UA-37352183-2"
+    Locales:
+         - Code: "en-US"
+           Name: "英語"
+         - Code: "ja"
+           Name: "日本語"
+    DateFormat:
+        ISO8601: "2006-01-02T15:04:05-07:00"
+        Localized: "2006 年 1 月 2 日"
+
+Taxonomies:
+    category: "categories"
+    version: "versions"
+
+Menu:
+    Main:
+        - Name: "ホーム"
+          Weight: 0
+          Identifier: "home"
+          URL: "/"
+        - Name: "ブログ"
+          Weight: 1
+          Identifier: "blog"
+          URL: "/blog/"
+        - Name: "ドキュメント"
+          Weight: 2
+          Identifier: "docs"
+          URL: "/docs/"
+        - Name: "概要"
+          Weight: 3
+          Identifier: "about"
+          URL: "/about/"
+        - Name: "協力"
+          Weight: 4
+          Identifier: "contribute"
+          URL: "/contribute/"
+    External:
+        - Name: "Twitter"
+          Weight: 0
+          Identifier: "twitter"
+          URL: "https://twitter.com/FxSiteCompat"
+        - Name: "Facebook"
+          Weight: 1
+          Identifier: "facebook"
+          URL: "https://www.facebook.com/FxSiteCompat"
+        - Name: "Google+"
+          Weight: 2
+          Identifier: "google-plus"
+          URL: "https://plus.google.com/+FxSiteCompatibility"
+        - Name: "Google グループ"
+          Weight: 3
+          Identifier: "google-group"
+          URL: "https://groups.google.com/forum/#!forum/fxsitecompat"
+        - Name: "GitHub"
+          Weight: 4
+          Identifier: "github"
+          URL: "https://github.com/fxsitecompat"
