@@ -37,6 +37,7 @@ contentinfo:
     tagline: "Together, We Build a Better Web"
     description: "A community-driven Web developer engagement initiative focusing on the backward compatibility and regressions of Firefox. Documents, latest updates & more."
     legal: "Mozilla and Firefox are trademarks of The Mozilla Foundation. This initiative is not affiliated with Mozilla."
+    generator: 'Powered by <a href="http://gohugo.io/" rel="nofollow">Hugo</a>.'
 
 # Home page
 latest_blog_post: "Latest blog post"
