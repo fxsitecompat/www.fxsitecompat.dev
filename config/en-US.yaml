@@ -14,6 +14,7 @@ Author:
 
 Params:
     BaseDir: "/en-US/"
+    AlternateBaseDir: "/ja/"
     GoogleAnalyticsID: "UA-37352183-2"
     Locales:
          - Code: "en-US"

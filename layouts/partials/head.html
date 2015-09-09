@@ -12,8 +12,8 @@
     <meta name="twitter:domain" content="FxSiteCompat.com">
     <meta name="twitter:url" content="{{ .Permalink }}">
     <link rel="canonical" hreflang="{{ $.Site.LanguageCode }}" href="{{ .Permalink }}">
-    <link rel="alternate" hreflang="x-default" href="{{ replace .Permalink (print "/" $.Site.LanguageCode "/") "/" }}">{{ range $.Site.Params.Locales }}
-    <link rel="alternate" hreflang="{{ .Code }}" href="{{ replace $.Permalink (print "/" $.Site.LanguageCode "/") (print "/" .Code "/") }}" title="{{ .Name }}">{{ end }}
+    <link rel="alternate" hreflang="x-default" href="{{ replace .Permalink $.Site.Params.BaseDir "/" }}">{{ range $.Site.Params.Locales }}
+    <link rel="alternate" hreflang="{{ .Code }}" href="{{ replace $.Permalink $.Site.Params.BaseDir (print "/" .Code "/") }}" title="{{ .Name }}">{{ end }}
     <link rel="publisher" href="https://plus.google.com/+FxSiteCompatibility">
     <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/fonts.css" type="text/css" media="screen,print">
     <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/screen.css?v=201509081740" type="text/css" media="screen">

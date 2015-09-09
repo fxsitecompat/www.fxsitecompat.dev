@@ -3,7 +3,8 @@
       <div class="inner">
         <div class="col wide">
           <h1 itemprop="name">{{ $strings.contentinfo.organization | safeHTML }}</h1>
-          <p id="copyright">Copyright &copy; <span itemprop="copyrightYear">{{ .Now.Format "2006" }}</span> <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person">{{ $.Site.Copyright }}{{ with $.Site.Author.Name }}<meta itemprop="name" content="{{ . }}">{{ end }}</span> {{ $strings.contentinfo.legal }}<br>{{ $strings.contentinfo.generator | safeHTML }}</p>
+          <p id="copyright">Copyright &copy; <span itemprop="copyrightYear">{{ .Now.Format "2006" }}</span> <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person">{{ $.Site.Copyright }}{{ with $.Site.Author.Name }}<meta itemprop="name" content="{{ . }}">{{ end }}</span> {{ $strings.contentinfo.legal }}</p>
+          <p>{{ $strings.contentinfo.generator | safeHTML }} {{ replace $strings.contentinfo.translation "%s" (replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.AlternateBaseDir) | safeHTML }}</p>
         </div>
         <div class="col">
           <nav>
