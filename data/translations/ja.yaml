@@ -97,3 +97,5 @@ not_found_page:
 # Feed
 feed:
     recent_content: "%s に関する最近の記事"
+    version: "バージョン"
+    category: "カテゴリ"

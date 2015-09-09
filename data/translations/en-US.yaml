@@ -97,3 +97,5 @@ not_found_page:
 # Feed
 feed:
     recent_content: "Recent articles on %s"
+    version: "Version"
+    category: "Category"

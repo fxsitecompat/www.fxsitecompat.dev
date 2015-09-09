@@ -1,0 +1,25 @@
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+  <entry>
+    <id>{{ .Permalink }}</id>
+    <title>{{ replace .Title "`" "" }}{{ if in .Params.tags "regression" }} ({{ $strings.tags.regression }}){{ end }}</title>
+    <updated>{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}</updated>{{ with $.Site.Author.Name }}
+    <author>
+      <name>{{ . }}</name>{{ with $.Site.Author.Email }}
+      <email>{{ . }}</email>{{end}}
+    </author>{{ end }}
+    <content type="html">{{ "<![CDATA[" | safeHTML }}{{ if eq .Section "docs" }}
+      <p>
+        <strong>{{ $strings.feed.version }}</strong>: Firefox {{ . }}{{ with index $.Site.Data.firefox.versions . }} {{ index $.Site.Data.firefox.channels . }}{{ end }}<br>{{ range .Params.categories }}
+        <strong>{{ $strings.feed.category }}</strong>: {{ index $strings.categories . }}<br>{{ end }}
+      </p>
+      <h2>{{ $strings.description }}</h2>
+      {{ .Content }}
+      <h2>{{ $strings.references }}</h2>
+      <ul>{{ range $link, $title := .Params.references }}
+        <li><a href="{{ $link }}">{{ $title }}</a></li>{{ end }}
+      </ul>{{ else }}
+      {{ .Content }}{{ end }}
+    {{ "]]>" | safeHTML }}</content>
+    <link rel="alternate" href="{{ .Permalink }}" />{{ range .Params.categories }}
+    <category term="{{ index $strings.categories . }}" />{{ end }}
+  </entry>

@@ -12,19 +12,6 @@
   <icon>{{ $.Site.BaseURL }}images/template/favicon.png</icon>
   <logo>{{ $.Site.BaseURL }}images/template/logo-512.png</logo>{{ with .Site.Copyright }}
   <rights>Copyright &#169; {{ . }}</rights>{{ end }}
-  <subtitle>{{ $strings.contentinfo.description }}</subtitle>{{ range first 150 (where .Data.Pages "Section" "ne" "") }}
-  <entry>
-    <id>{{ .Permalink }}</id>
-    <title>{{ replace .Title "`" "" }}{{ if in .Params.tags "regression" }} ({{ $strings.tags.regression }}){{ end }}</title>
-    <updated>{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}</updated>{{ with $.Site.Author.Name }}
-    <author>
-      <name>{{ . }}</name>{{ with $.Site.Author.Email }}
-      <email>{{ . }}</email>{{end}}
-    </author>{{ end }}
-    <content type="html">
-      {{ .Content | html }}
-    </content>
-    <link rel="alternate" href="{{ .Permalink }}" />{{ range .Params.categories }}
-    <category term="{{ index $strings.categories . }}" />{{ end }}
-  </entry>{{ end }}
+  <subtitle>{{ $strings.contentinfo.description }}</subtitle>
+{{ range first 15 (where .Data.Pages "Section" "ne" "") }}{{ partial "feed/entry" . }}{{ end }}
 </feed>
