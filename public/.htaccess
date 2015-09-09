@@ -17,13 +17,11 @@ RewriteEngine on
 RewriteCond %{HTTP:Accept-Language} ^ja
 RewriteCond %{REQUEST_URI} !^/(en-US|ja)/
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*) /ja/$1 [R=302,L]
 
 # Redirect: English
 RewriteCond %{REQUEST_URI} !^/(en-US|ja)/
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*) /en-US/$1 [R=302,L]
 
 # 404 Not Found
