@@ -341,8 +341,8 @@ body.docs.taxonomy main ul {
 }
 
 @media (max-width: 1023px) {
-  body.single main article,
-  body.single main article + aside {
+  body.single.article main article,
+  body.single.article main aside {
     float: none;
     width: auto;
   }
