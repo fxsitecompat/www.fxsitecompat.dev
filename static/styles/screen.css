@@ -170,8 +170,8 @@ em.tag.regression {
   padding: 0 16px;
 }
 
-[itemprop="breadcrumb"] [itemprop="itemListElement"]::after {
-  content: '\00A0\203A'; /* &nbsp;&rsaquo; */
+[itemprop="breadcrumb"] [itemprop="itemListElement"]::before {
+  content: '\203A\00A0'; /* &rsaquo;&nbsp; */
 }
 
 main {

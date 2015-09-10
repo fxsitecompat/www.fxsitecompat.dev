@@ -17,18 +17,18 @@
 {{ partial "header.html" . }}
     <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
       <p class="inner">
-        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}" itemprop="item"><span itemprop="name">{{ $strings.sections.home }}</span></a><meta itemprop="position" content="1"></span>
-        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="2"></span>
-        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}versions/" itemprop="item"><span itemprop="name">{{ $strings.sections.versions }}</span></a><meta itemprop="position" content="3"></span>
-        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/" itemprop="item"><span itemprop="name">Firefox {{ $version }}</span>{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a><meta itemprop="position" content="4"></span>
+        <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="1"></span>
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}versions/" itemprop="item"><span itemprop="name">{{ $strings.sections.versions }}</span></a><meta itemprop="position" content="2"></span>
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/" itemprop="item"><span itemprop="name">Firefox {{ $version }}</span>{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a><meta itemprop="position" content="3"></span>
       </p>
     </nav>{{ range .Params.categories }}
     <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
       <p class="inner">
-        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}" itemprop="item"><span itemprop="name">{{ $strings.sections.home }}</span></a><meta itemprop="position" content="1"></span>
-        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="2"></span>
-        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}categories/" itemprop="item"><span itemprop="name">{{ $strings.sections.categories }}</span></a><meta itemprop="position" content="3"></span>
-        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}categories/{{ . | urlize }}/" itemprop="item"><span itemprop="name">{{ index $strings.categories . }}</span></a><meta itemprop="position" content="4"></span>
+        <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="1"></span>
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}categories/" itemprop="item"><span itemprop="name">{{ $strings.sections.categories }}</span></a><meta itemprop="position" content="2"></span>
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}categories/{{ . | urlize }}/" itemprop="item"><span itemprop="name">{{ index $strings.categories . }}</span></a><meta itemprop="position" content="3"></span>
       </p>
     </nav>{{ end }}
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
