@@ -15,3 +15,5 @@ references:
 On the other hand, the prefixed method, which will be removed in the future, continues to pass an epoch-based [`DOMTimeStamp`](https://developer.mozilla.org/en-US/docs/Web/API/DOMTimeStamp) to callbacks. The passed-in value has millisecond precision and can be compared to [`mozAnimationStartTime`](https://developer.mozilla.org/en-US/docs/Web/API/window.mozAnimationStartTime).
 
 The unprefixed [`cancelAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window.cancelAnimationFrame) method has also been added. It has the same behavior as the prefixed `mozCancelAnimationFrame` method. Those `moz`-prefixed methods will be removed in the future.
+
+**Update**: Those prefixed methods have been [removed with Firefox 42](https://www.fxsitecompat.com/en-US/docs/2015/mozrequestanimationframe-and-related-apis-have-been-removed/).

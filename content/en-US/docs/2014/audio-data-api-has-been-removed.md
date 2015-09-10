@@ -8,4 +8,4 @@ cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=927245": "Bug 927245 – Remove deprecated Audio Data API implementation"
 ---
-The experimental, non-standard [Audio Data API](https://developer.mozilla.org/en-US/docs/Introducing_the_Audio_API_Extension), which has been deprecated since [Firefox 22](https://www.fxsitecompat.com/en-US/versions/22/) and disabled since [Firefox 28](https://www.fxsitecompat.com/en-US/versions/28/), is now completely removed. The standardized [Web Audio API](https://developer.mozilla.org/en-US/docs/Web_Audio_API) should be used instead.
+The experimental, non-standard [Audio Data API](https://developer.mozilla.org/en-US/docs/Introducing_the_Audio_API_Extension), which has been [deprecated since Firefox 22](https://www.fxsitecompat.com/en-US/docs/2013/audio-data-api-has-been-deprecated/) and [disabled since Firefox 28](https://www.fxsitecompat.com/en-US/docs/2013/audio-data-api-has-been-disabled/), is now completely removed. The standardized [Web Audio API](https://developer.mozilla.org/en-US/docs/Web_Audio_API) should be used instead.

@@ -8,4 +8,4 @@ cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=801562": "Bug 801562 – Remove Node.isSupported"
 ---
-The [`Node.isSupported`](https://developer.mozilla.org/en-US/docs/Web/API/Node.isSupported) method is no longer available, due to the removal from the spec. Since [Firefox 19](https://www.fxsitecompat.com/en-US/versions/19/), this method has always returned `true`.
+The [`Node.isSupported`](https://developer.mozilla.org/en-US/docs/Web/API/Node.isSupported) method is no longer available, due to the removal from the spec. Since [Firefox 19](https://www.fxsitecompat.com/en-US/docs/2012/hasfeature-issupported-methods-now-always-return-true/), this method has always returned `true`.

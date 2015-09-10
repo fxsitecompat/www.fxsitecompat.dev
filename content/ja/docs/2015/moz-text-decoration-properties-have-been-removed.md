@@ -8,4 +8,4 @@ cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1097922": "Bug 1097922 - Remove temporary aliases for -moz-text-decoration-*."
 ---
-[Firefox 36](http://www.fxsitecompat.com/ja/versions/36/) 以降廃止予定となっていた、[`text-decoration-color`](https://developer.mozilla.org/ja/docs/Web/CSS/text-decoration-color)、[`text-decoration-line`](https://developer.mozilla.org/ja/docs/Web/CSS/text-decoration-line)、[`text-decoration-style`](https://developer.mozilla.org/ja/docs/Web/CSS/text-decoration-style) 各プロパティの `moz` 接頭辞付き対応が削除されました。今後は接頭辞なしプロパティを使用してください。
+[Firefox 36 以降廃止予定となっていた](https://www.fxsitecompat.com/ja/docs/2014/css3-text-decoration-properties-have-been-unprefixed-text-decoration-becomes-a-shorthand/)、[`text-decoration-color`](https://developer.mozilla.org/ja/docs/Web/CSS/text-decoration-color)、[`text-decoration-line`](https://developer.mozilla.org/ja/docs/Web/CSS/text-decoration-line)、[`text-decoration-style`](https://developer.mozilla.org/ja/docs/Web/CSS/text-decoration-style) 各プロパティの `moz` 接頭辞付き対応が削除されました。今後は接頭辞なしプロパティを使用してください。
