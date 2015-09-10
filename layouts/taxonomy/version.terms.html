@@ -25,7 +25,7 @@
           <h1 itemprop="name">{{ $strings.all_versions_page.title }}</h1>
           <p itemprop="description">{{ $strings.all_versions_page.description }}</p>
         </header>
-        <ul>{{ range $key, $value := .Data.Terms.Alphabetical.Reverse }}{{ $version := $value.Name }}
+        <ul class="taxonomy terms">{{ range $key, $value := .Data.Terms.Alphabetical.Reverse }}{{ $version := $value.Name }}
           <li><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/">Firefox {{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a></li>{{ end }}
         </ul>
       </section>

@@ -52,12 +52,13 @@ home_page:
 
 # All blog posts page
 all_posts_page:
-    title: "All blog posts"
+    title: "Blog"
     description: "Browse all our blog posts related to Firefox site compatibility."
 
 # All documents page
+all_documents: "All documents"
 all_docs_page:
-    title: "All documents"
+    title: "Documents"
     description: "Browse all our documents related to Firefox site compatibility."
 
 # All vategories page
@@ -68,13 +69,13 @@ all_categories_page:
 # All versions page
 all_versions_page:
     title: "Browse documents by version"
-    description: "Browse all our Firefox site compatibility documents by release version, from Firefox 17 to the latest Developer Edition."
+    description: "Browse all our Firefox site compatibility documents by major release, up to the latest pre-release version."
 
 # Version index page
 version_index_page:
     title: "Firefox %s site compatibility documents"
     description: "Browse our Firefox site compatibility documents describing the changes made with Firefox version %s."
-    description_upcoming: "Browse our Firefox site compatibility documents describing the changes made with Firefox version %(version)s, which is currently in the %(channel)s channel."
+    description_upcoming: "Browse our Firefox site compatibility documents describing the changes made with Firefox version %(version)s, which is currently offered on the %(channel)s channel."
 
 # Category index page
 category_index_page:

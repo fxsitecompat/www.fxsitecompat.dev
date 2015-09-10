@@ -52,12 +52,13 @@ home_page:
 
 # All blog posts page
 all_posts_page:
-    title: "すべてのブログ記事"
+    title: "ブログ"
     description: "Firefox のサイト互換性に関するブログ記事一覧。"
 
 # All documents page
+all_documents: "すべてのドキュメント"
 all_docs_page:
-    title: "すべてのドキュメント"
+    title: "ドキュメント"
     description: "Firefox のサイト互換性に関するドキュメント一覧。"
 
 # All vategories page
@@ -68,7 +69,7 @@ all_categories_page:
 # All versions page
 all_versions_page:
     title: "バージョン別にドキュメントを参照"
-    description: "すべての Firefox サイト互換性ドキュメントを、Firefox 17 から最新の Developer Edition まで、リリースバージョン別に参照できます。"
+    description: "すべての Firefox サイト互換性ドキュメントを、最新のプレリリース版まで、メジャーリリース別に参照できます。"
 
 # Version index page
 version_index_page:

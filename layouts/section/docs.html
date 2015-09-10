@@ -23,17 +23,26 @@
         <header>
           <h1 itemprop="name">{{ $strings.all_docs_page.title }}</h1>
           <p itemprop="description">{{ $strings.all_docs_page.description }}</p>
-          <ul>
-            <li><a href="{{ $.Site.Params.BaseDir }}categories/">{{ $strings.browse_category }}</a></li>
-            <li><a href="{{ $.Site.Params.BaseDir }}versions/">{{ $strings.browse_version }}</a></li>
-          </ul>
-        </header>{{ range .Data.Pages.GroupByParam "versions" "desc" }}{{ $version := .Key }}
+        </header>
         <section>
-          <h2>Firefox {{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</h2>
-          <ul>{{ range .Pages }}
+          <h2>{{ $strings.browse_version }}</h2>
+          <ul class="taxonomy terms">{{ range first 7 (.Data.Pages.GroupByParam "versions" "desc") }}{{ $version := .Key }}
+            <li><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/">Firefox {{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a></li>{{ end }}
+            <li><a href="{{ $.Site.Params.BaseDir }}versions/">{{ $strings.browse_all_versions }}</a></li>
+          </ul>
+        </section>
+        <section>
+          <h2>{{ $strings.browse_category }}</h2>
+          <ul class="taxonomy terms">{{ range $category, $taxonomy := $.Site.Taxonomies.categories }}
+            <li><a href="{{ $.Site.Params.BaseDir }}categories/{{ $category }}/">{{ index $strings.categories $category }}</a></li>{{ end }}
+          </ul>
+        </section>
+        <section>
+          <h2>{{ $strings.all_documents }}</h2>
+          <ul>{{ range .Data.Pages }}
             <li>{{ if in .Params.tags "regression" }}<em class="tag regression">{{ $strings.tags.regression }}</em> {{ end }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
           </ul>
-        </section>{{ end }}
+        </section>
       </section>
     </main>
 {{ partial "footer.html" . }}

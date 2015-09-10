@@ -1,0 +1,12 @@
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+  <id>{{ $.Site.BaseURL }}</id>{{ if not $.Date.IsZero }}
+  <updated>{{ $.Date.Format $.Site.Params.DateFormat.ISO8601 }}</updated>{{ end }}{{ with $.Site.Author.Name }}
+  <author>
+    <name>{{ . }}</name>{{ with $.Site.Author.Email }}
+    <email>{{ . }}</email>{{end}}
+  </author>{{ end }}
+  <link href="{{ .URL }}" rel="self" />
+  <category term="{{ $strings.contentinfo.category }}" />
+  <icon>{{ $.Site.BaseURL }}images/template/favicon.png</icon>
+  <logo>{{ $.Site.BaseURL }}images/template/logo-512.png</logo>{{ with .Site.Copyright }}
+  <rights>Copyright &#169; {{ . }}</rights>{{ end }}
