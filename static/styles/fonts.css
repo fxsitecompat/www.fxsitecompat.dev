@@ -62,7 +62,7 @@ html[lang="ja"] * {
 }
 
 code, kbd {
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Fira Mono', monospace !important; /* Override prism.css */
   font-weight: 500;
   letter-spacing: -.05ex;
 }

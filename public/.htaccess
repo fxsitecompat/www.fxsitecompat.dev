@@ -39,9 +39,9 @@ ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
 ExpiresByType application/font-sfnt "access plus 1 year"
 ExpiresByType application/font-woff "access plus 1 year"
 ExpiresByType application/font-woff2 "access plus 1 year"
-ExpiresByType image/png "access plus 1 month"
-ExpiresByType application/javascript "access plus 1 month"
-ExpiresByType text/css "access plus 1 month"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType application/javascript "access plus 1 year"
+ExpiresByType text/css "access plus 1 year"
 ExpiresByType application/xml "access plus 1 hour"
 
 # Security

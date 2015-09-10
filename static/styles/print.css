@@ -23,6 +23,10 @@ p, li {
   line-height: 1.75;
 }
 
+pre {
+  line-height: 1.5;
+}
+
 a:link, a:hover, a:focus, a:active, a:visited {
   color: inherit;
 }

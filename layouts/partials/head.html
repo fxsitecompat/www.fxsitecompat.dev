@@ -15,8 +15,9 @@
     <link rel="alternate" hreflang="x-default" href="{{ replace .Permalink $.Site.Params.BaseDir "/" }}">{{ range $.Site.Params.Locales }}
     <link rel="alternate" hreflang="{{ .Code }}" href="{{ replace $.Permalink $.Site.Params.BaseDir (print "/" .Code "/") }}" title="{{ .Name }}">{{ end }}
     <link rel="publisher" href="https://plus.google.com/+FxSiteCompatibility">
-    <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/fonts.css" type="text/css" media="screen,print">
-    <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/screen.css?v=201509092012" type="text/css" media="screen">
-    <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/print.css" type="text/css" media="print">
+    <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/fonts.css?v=201509092114" type="text/css" media="screen,print">
+    <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/screen.css?v=201509092114" type="text/css" media="screen">
+    <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/print.css?v=201509092114" type="text/css" media="print">
+    <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/prism.css" type="text/css">
     <link rel="shortcut icon" href="{{ $.Site.Params.BaseDir }}images/template/favicon.png" type="image/png">
     <link rel="alternate" href="{{ $.Site.Params.BaseDir }}index.xml" type="application/atom+xml" title="{{ $.Site.Title }}">

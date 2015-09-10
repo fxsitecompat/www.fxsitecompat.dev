@@ -49,6 +49,12 @@ ul li::before {
   content: '\F0DA';
 }
 
+pre {
+  margin: 1em 0 !important; /* Override prism.css */
+  line-height: 1.5;
+  background-color: #FFF !important; /* Override prism.css */
+}
+
 a:link, a:visited {
   color: #D15227;
   text-decoration: none;
