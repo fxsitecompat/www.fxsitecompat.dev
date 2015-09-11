@@ -1,12 +1,12 @@
 ---
 date: "2015-08-30T22:50:24-04:00"
 title: "プロジェクトへの協力"
-description: "Web 開発者ですか？ 今日から Firefox Developer Edition を使って、私たちのボランティア活動に参加してください！"
+description: "あなたがもし Web 開発者なら、今日から Firefox Developer Edition を使って、私たちのボランティア活動に参加してください！"
 slug: "contribute"
 ---
 ## フォロー
 
-* **ソーシャルメディア**: [Twitter](https://twitter.com/FxSiteCompat)、[Facebook](https://www.facebook.com/FxSiteCompat) あるいは [Google+](https://plus.google.com/+FxSiteCompatibility) で私たちをフォローしてください。(これらのメディアでの情報発信は今のところ英語のみです)
+* **ソーシャルメディア**: [Twitter](https://twitter.com/FxSiteCompat)、[Facebook](https://www.facebook.com/FxSiteCompat) あるいは [Google+](https://plus.google.com/+FxSiteCompatibility) で私たちをフォローしてください。(これらのメディアでの情報発信は今のところ基本的に英語のみです)
 * **フィード**: このサイトの [Atom フィード](/ja/index.xml) を購読してください。
 * **フォーラム**: 私たちの [Google グループ](https://groups.google.com/forum/#!forum/fxsitecompat) に参加してください。
 

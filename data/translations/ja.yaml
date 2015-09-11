@@ -45,7 +45,7 @@ latest_blog_post: "最新のブログ記事"
 documents: "ドキュメント"
 browse_category: "カテゴリ別に参照"
 browse_version: "バージョン別に参照"
-browse_all_versions: "すべてのバージョンを見る..."
+browse_all_versions: "すべてのバージョン..."
 home_page:
     tagline: "<span>ともに、より良い</span> <span>Web を築こう</span>"
     description: "<span>Firefox の後方互換性とリグレッションに焦点を当てた、</span><span>コミュニティ主導の Web 開発者エンゲージメントイニシアチブ。</span><span>ドキュメント、最新情報など。</span>"
@@ -64,16 +64,16 @@ all_docs_page:
 # All vategories page
 all_categories_page:
     title: "カテゴリ別にドキュメントを参照"
-    description: "すべての Firefox サイト互換性ドキュメントを、CSS、DOM、JavaScript、セキュリティ & プライバシーなどの技術カテゴリ別に参照できます。"
+    description: "すべての Firefox サイト互換性ドキュメントを、CSS、DOM、JavaScript、セキュリティ & プライバシーなどの技術カテゴリごとに参照できます。"
 
 # All versions page
 all_versions_page:
     title: "バージョン別にドキュメントを参照"
-    description: "すべての Firefox サイト互換性ドキュメントを、最新のプレリリース版まで、メジャーリリース別に参照できます。"
+    description: "すべての Firefox サイト互換性ドキュメントを、最新のプレリリース版まで、メジャーリリースごとに参照できます。"
 
 # Version index page
 version_index_page:
-    title: "Firefox %s サイト互換性ドキュメント"
+    title: "Firefox %s のドキュメント"
     description: "Firefox のバージョン %s に含まれる変更点を解説した Firefox サイト互換性ドキュメントを参照できます。"
     description_upcoming: "現在 %(channel)s チャンネルで提供されている Firefox のバージョン %(version)s に含まれる変更点を解説した Firefox サイト互換性ドキュメントを参照できます。"
 

@@ -73,7 +73,7 @@ all_versions_page:
 
 # Version index page
 version_index_page:
-    title: "Firefox %s site compatibility documents"
+    title: "Firefox %s documents"
     description: "Browse our Firefox site compatibility documents describing the changes made with Firefox version %s."
     description_upcoming: "Browse our Firefox site compatibility documents describing the changes made with Firefox version %(version)s, which is currently offered on the %(channel)s channel."
 
