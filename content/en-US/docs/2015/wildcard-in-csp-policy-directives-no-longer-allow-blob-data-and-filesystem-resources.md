@@ -1,5 +1,5 @@
 ---
-title: "Wildcard in CSP policy directives no longer allow `blob:`, `data:` and `filesystem:` resources"
+title: "Wildcard in CSP policy directives no longer allows `blob:`, `data:` and `filesystem:` resources"
 date: "2015-04-27T13:17:23-04:00"
 categories: ["privacy-security"]
 tags: []

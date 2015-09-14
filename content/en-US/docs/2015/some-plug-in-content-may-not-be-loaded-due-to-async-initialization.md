@@ -13,4 +13,4 @@ Firefox 40 has enabled asynchronous plug-in initialization for a better performa
 
 **Update**: Due to considerable breakages, this change was backed out via the [Firefox hotfix add-on](https://bugzilla.mozilla.org/show_bug.cgi?id=1196000) updated on <time datetime="2015-08-19">August 19</time> as well as [Firefox 40.0.3](https://bugzilla.mozilla.org/show_bug.cgi?id=1198590) shipped on <time datetime="2015-08-27">August 27</time>. A [radical solution](https://bugzilla.mozilla.org/show_bug.cgi?id=1194600) to the issue has been created and implemented to Firefox 41.
 
-**Update**: In order to avoid conflict with the hotfix add-on, Firefox 41 has [renamed the preference](https://bugzilla.mozilla.org/show_bug.cgi?id=1200698) to `dom.ipc.plugins.asyncInit.enabled` while the default value (`true`) remain the same.
+**Update**: In order to avoid conflict with the hotfix add-on, Firefox 41 has [renamed the preference](https://bugzilla.mozilla.org/show_bug.cgi?id=1200698) to `dom.ipc.plugins.asyncInit.enabled` while the default value (`true`) remains the same.
