@@ -20,4 +20,4 @@ Firefox はこれまで、他のブラウザと同様に、[`<iframe>`](https://
 
 **更新**: ユーザからのフィードバックを受けて、この変更は  Firefox 41 Beta、42 Developer Edition および 43 Nightly から [バックアウト](https://bugzilla.mozilla.org/show_bug.cgi?id=1197944) され、`network.auth.allow-subresource-auth` 設定の既定値は `2` に戻されました。Firefox 40 向けにも、[以前の挙動に戻す](https://bugzilla.mozilla.org/show_bug.cgi?id=1201065) 組み込みホットフィックスアドオンの自動更新が <time datetime="2015-09-04">9 月 4 日</time> 以降に配信されています。
 
-**更新**: ホットフィックスアドオンとの矛盾を防ぐため、Firefox 41 で [設定名が変更され](https://bugzilla.mozilla.org/show_bug.cgi?id=1202421) `network.auth.subresource-http-auth-allow` になりました。取り得る値と既定値 (`2`) は変わりません。
+**更新**: ホットフィックスアドオンとの競合を防ぐため、Firefox 41 で [設定名が変更され](https://bugzilla.mozilla.org/show_bug.cgi?id=1202421) `network.auth.subresource-http-auth-allow` になりました。取り得る値と既定値 (`2`) は変わりません。

@@ -9,7 +9,7 @@ references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1064223": "Bug 1064223 - Retire backwards compatible RTCOfferOptions in about 6 weeks"
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1197021": "Bug 1197021 - Really retire backwards compatible RTCOfferOptions in 44"
 ---
-廃止予定となっており、Firefox 33 で一度削除されたものの、後方互換性のためすぐに警告付きで元に戻された、制約的 `RTCOfferOptions` への対応が Firefox 43 から削除されました。この古い構文は今後動作しなくなり、Firefox 44 まではエラーがログに残されます:
+廃止予定となっており、Firefox 33 で一度削除されたものの、後方互換性のためすぐに警告付きで元に戻された、制約的 `RTCOfferOptions` への対応が Firefox 43 から削除されました。以下のような古い構文は今後動作しなくなり、Firefox 44 まではエラーがログに残されます。
 
 ```js
 var options = {
