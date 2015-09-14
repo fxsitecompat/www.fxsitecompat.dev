@@ -73,7 +73,7 @@ all_versions_page:
 
 # Version index page
 version_index_page:
-    title: "Firefox %s のドキュメント"
+    title: "Firefox %s 互換性情報"
     description: "Firefox のバージョン %s に含まれる変更点を解説した Firefox サイト互換性ドキュメントを参照できます。"
     description_upcoming: "現在 %(channel)s チャンネルで提供されている Firefox のバージョン %(version)s に含まれる変更点を解説した Firefox サイト互換性ドキュメントを参照できます。"
 
