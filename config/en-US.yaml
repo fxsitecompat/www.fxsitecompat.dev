@@ -28,6 +28,7 @@ Params:
 Taxonomies:
     category: "categories"
     version: "versions"
+    status: "statuses"
 
 Menu:
     Main:

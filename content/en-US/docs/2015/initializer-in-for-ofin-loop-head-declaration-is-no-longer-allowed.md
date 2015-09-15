@@ -4,6 +4,7 @@ date: "2015-04-27T13:17:23-04:00"
 categories: ["javascript"]
 tags: []
 versions: "40"
+statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=748550": "Bug 748550 - Remove InitialiserNoIn[opt] from ... in for(var ... in obj) to help simplify ES6"

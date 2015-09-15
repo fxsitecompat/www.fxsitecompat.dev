@@ -4,6 +4,7 @@ date: "2013-09-19T23:58:13-04:00"
 categories: ["plugins"]
 tags: []
 versions: "26"
+statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=899080": "Bug 899080 – Make plugins default to click-to-play"

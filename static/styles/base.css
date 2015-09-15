@@ -200,17 +200,15 @@
     white-space: nowrap;
   }
 
-  em.tag {
-    margin: 0 .2em;
+  .status.prefix {
+    margin: 0 .2em 0 0;
     border-radius: .2em;
     padding: .2em .4em;
-    font-size: .8em;
-    vertical-align: .1em;
-  }
-
-  em.tag.regression {
     color: #FFF;
     background-color: #D65A1A;
+    font-size: .8em;
+    vertical-align: .1em;
+    cursor: default;
   }
 
   .inner {
@@ -444,7 +442,7 @@
     width: 608px;
   }
 
-  body.single.docs main article h1 .tag {
+  body.single.docs main article h1 .status.prefix {
     font-size: 16px;
     vertical-align: .3em;
   }
@@ -631,7 +629,7 @@
     color: inherit;
   }
 
-  .tag::after {
+  .status.prefix::after {
     content: ":";
   }
 

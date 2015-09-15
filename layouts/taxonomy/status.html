@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+{{ $title := replace $strings.status_index_page.title "%s" (index $strings.statuses (.Title | urlize)).label }}
+{{ $description := (index $strings.statuses (.Title | urlize)).desc_plural }}
+<html lang="{{ $.Site.LanguageCode }}">
+  <head>
+{{ partial "head.html" . }}
+    <title>{{ $title }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ $title }}">
+    <meta property="og:description" content="{{ $description }}">
+    <meta name="description" content="{{ $description }}">
+  </head>
+  <body class="list docs term status" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright">
+    <meta itemprop="name" content="{{ $title }}">
+    <meta itemprop="description" content="{{ $description }}">
+    <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
+{{ partial "header.html" . }}
+    <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+      <p class="inner">
+        <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="1"></span>
+      </p>
+    </nav>
+    <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
+      <section class="inner">
+        <header>
+          <h1 itemprop="name">{{ $title }}</h1>
+          <p itemprop="description">{{ $description }}</p>
+        </header>{{ range .Data.Pages.GroupByParam "versions" "desc" }}{{ $version := .Key }}
+        <section>
+          <h2>Firefox {{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</h2>
+          <ul>{{ range .Pages }}
+            <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
+          </ul>
+        </section>{{ end }}
+      </section>
+    </main>
+{{ partial "footer.html" . }}
+  </body>
+</html>

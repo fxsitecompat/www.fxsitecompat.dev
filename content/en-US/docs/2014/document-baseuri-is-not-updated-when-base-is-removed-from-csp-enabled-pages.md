@@ -2,8 +2,9 @@
 title: "`document.baseURI` is not updated when `<base>` is removed from CSP-enabled pages"
 date: "2014-10-17T22:50:44-04:00"
 categories: ["dom"]
-tags: ["regression"]
+tags: []
 versions: "35"
+statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1121857": "Bug 1121857 – document.baseURI does not get updated to document.location after base tag is removed from DOM for site with a CSP"

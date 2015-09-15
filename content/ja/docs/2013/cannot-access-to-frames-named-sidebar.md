@@ -2,8 +2,9 @@
 title: "`sidebar` という名前のフレームにアクセスできません"
 date: "2013-02-24T03:44:31-05:00"
 categories: ["dom"]
-tags: ["regression"]
+tags: []
 versions: "22"
+statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=888225": "Bug 888225 – firefox 22 breaks access to frames named \'sidebar\'"

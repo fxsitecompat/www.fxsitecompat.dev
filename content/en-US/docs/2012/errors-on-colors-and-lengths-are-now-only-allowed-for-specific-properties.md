@@ -4,6 +4,7 @@ date: "2012-12-03T03:50:54-05:00"
 categories: ["css"]
 tags: []
 versions: "17"
+statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=774122": "Bug 774122 – limit CSS parser hashless-color and unitless-length quirks to only the properties that need them"

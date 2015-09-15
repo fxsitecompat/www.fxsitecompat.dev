@@ -38,9 +38,15 @@
           </ul>
         </section>
         <section>
+          <h2>{{ $strings.browse_status }}</h2>
+          <ul class="taxonomy terms">{{ range $status, $taxonomy := $.Site.Taxonomies.statuses }}
+            <li><a href="{{ $.Site.Params.BaseDir }}statuses/{{ $status }}/">{{ (index $strings.statuses $status).label }}</a></li>{{ end }}
+          </ul>
+        </section>
+        <section>
           <h2>{{ $strings.all_documents }}</h2>
           <ul>{{ range .Data.Pages }}
-            <li>{{ if in .Params.tags "regression" }}<em class="tag regression">{{ $strings.tags.regression }}</em> {{ end }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
+            <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
           </ul>
         </section>
       </section>

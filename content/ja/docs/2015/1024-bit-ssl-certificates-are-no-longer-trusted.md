@@ -4,6 +4,7 @@ date: "2015-02-27T04:21:22-05:00"
 categories: ["privacy-security"]
 tags: []
 versions: "38"
+statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=881553": "Bug 881553 - Remove or turn off trust bits for 1024-bit root certs after December 31, 2013"
@@ -12,4 +13,4 @@ references:
 ---
 [1024 ビットルート証明書廃止](https://blog.mozilla.org/security/2014/09/08/phasing-out-certificates-with-1024-bit-rsa-keys/) の最終段階が Firefox 38 で完了となりました。ブログ記事に書かれている通り、お使いの SSL 証明書に 1024 ビットキーが含まれている場合、もしくは 1024 ビットキーの認証局から発行されている場合、新しい SSL 証明書を入手して Web サーバー上の古い証明書と入れ替える必要があります。
 
-**更新**: Equifax Secure Certificate Authority の 1024 ビットルート証明書が、相当数のサイトに影響することが判明したため、[一時的に再度有効化](https://bugzilla.mozilla.org/show_bug.cgi?id=1155279) されました。
+**更新**: *Equifax Secure Certificate Authority* の 1024 ビットルート証明書が、相当数のサイトに影響することが判明したため、[一時的に再度有効化](https://bugzilla.mozilla.org/show_bug.cgi?id=1155279) されました。

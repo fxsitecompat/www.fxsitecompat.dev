@@ -4,6 +4,7 @@ date: "2014-12-19T11:15:21-05:00"
 categories: ["privacy-security"]
 tags: []
 versions: "36"
+statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=947149": "Bug 947149 – Connection information claims RC4 is \"high grade\""

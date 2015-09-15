@@ -1,0 +1,1 @@
+{{ with $.Params.statuses }}{{ $status := index (index $.Site.Data.translations $.Site.LanguageCode).statuses . }}<em class="status prefix" itemprop="keywords" title="{{ index $status "description" }}">{{ index $status "label" }}</em> {{ end }}

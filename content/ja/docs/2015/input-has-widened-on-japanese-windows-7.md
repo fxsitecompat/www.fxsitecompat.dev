@@ -2,8 +2,9 @@
 title: "日本語版 Windows 7 で `<input>` の幅が広がっています"
 date: "2015-08-16T03:30:08-04:00"
 categories: ["html"]
-tags: ["regression"]
+tags: []
 versions: "40"
+statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1194055": "Bug 1194055 - Size of <input> elements has changed in Firefox 40"

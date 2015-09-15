@@ -1,7 +1,7 @@
 {{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
   <entry>
     <id>{{ .Permalink }}</id>
-    <title>{{ replace .Title "`" "" }}{{ if in .Params.tags "regression" }} ({{ $strings.tags.regression }}){{ end }}</title>
+    <title>{{ replace .Title "`" "" }}{{ partial "status-label/suffix" . }}</title>
     <updated>{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}</updated>{{ with $.Site.Author.Name }}
     <author>
       <name>{{ . }}</name>{{ with $.Site.Author.Email }}

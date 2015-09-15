@@ -4,6 +4,7 @@ date: "2015-08-05T00:48:18-04:00"
 categories: ["css"]
 tags: []
 versions: "42"
+statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1176496": "Bug 1176496 - Drop support for -moz-prefixed gradients (-moz-linear-gradient, -moz-radial-gradient)"

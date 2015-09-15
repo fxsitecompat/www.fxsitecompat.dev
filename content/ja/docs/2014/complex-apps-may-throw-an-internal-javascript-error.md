@@ -2,8 +2,9 @@
 title: "複雑なアプリが内部 JavaScript エラーを投げる場合があります "
 date: "2014-07-22T05:06:26-04:00"
 categories: ["javascript"]
-tags: ["regression"]
+tags: []
 versions: "33"
+statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1083913": "Bug 1083913 – Switch statement too large internal error"

@@ -2,8 +2,9 @@
 title: "Kerberos authentication doesn\'t work with aliases"
 date: "2014-10-17T22:50:44-04:00"
 categories: ["privacy-security"]
-tags: ["regression"]
+tags: []
 versions: "35"
+statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1108971": "Bug 1108971 – Kerberos authentication does not work with alias"

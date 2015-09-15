@@ -4,6 +4,7 @@ date: "2012-12-03T03:50:54-05:00"
 categories: ["javascript"]
 tags: []
 versions: "17"
+statuses: "reverted"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=588909": "Bug 588909 – Replace Gecko/<date> with Gecko/<version> in UA string"

@@ -2,8 +2,9 @@
 title: "Regex on Latin-1-only strings may cause a performance issue"
 date: "2014-07-22T05:06:26-04:00"
 categories: ["javascript"]
-tags: ["regression"]
+tags: []
 versions: "33"
+statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1081175": "Bug 1081175 – (latin1strings) Degraded regular expression performance (infinite loop?)"

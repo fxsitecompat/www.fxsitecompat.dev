@@ -4,6 +4,7 @@ date: "2014-07-22T05:06:26-04:00"
 categories: ["css"]
 tags: []
 versions: "33"
+statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1027647": "Bug 1027647 – invalid list-style-type makes ordered list from unordered list"

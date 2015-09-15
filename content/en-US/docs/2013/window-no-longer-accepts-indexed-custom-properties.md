@@ -4,6 +4,7 @@ date: "2013-02-06T08:44:10-05:00"
 categories: ["dom"]
 tags: []
 versions: "21"
+statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=828787": "Bug 828787 – Stop allowing indexed expandos on windows"

@@ -25,7 +25,7 @@
           <h1 itemprop="name">{{ $strings.all_categories_page.title }}</h1>
           <p itemprop="description">{{ $strings.all_categories_page.description }}</p>
         </header>
-        <ul class="taxonomy-terms">{{ range $category, $value := .Data.Terms }}
+        <ul class="taxonomy terms">{{ range $category, $value := .Data.Terms }}
           <li><a href="{{ $.Site.Params.BaseDir }}categories/{{ $category }}/">{{ index $strings.categories $category }}</a></li>{{ end }}
         </ul>
       </section>

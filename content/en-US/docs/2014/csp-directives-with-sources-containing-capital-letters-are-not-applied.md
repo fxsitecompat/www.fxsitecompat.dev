@@ -2,8 +2,9 @@
 title: "CSP directives with sources containing capital letters are not applied"
 date: "2014-10-17T22:50:44-04:00"
 categories: ["privacy-security"]
-tags: ["regression"]
+tags: []
 versions: "35"
+statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1122445": "Bug 1122445 – CSP change in behavior regards case sensitivity loading resources"

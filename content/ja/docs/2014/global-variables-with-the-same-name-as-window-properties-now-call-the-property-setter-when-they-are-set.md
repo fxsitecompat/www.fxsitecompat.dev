@@ -4,6 +4,7 @@ date: "2014-04-03T19:31:02-04:00"
 categories: ["dom"]
 tags: []
 versions: "31"
+statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=932322": "Bug 932322 – Make Window\'s WebIDL properties be own properties of window"

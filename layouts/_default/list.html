@@ -24,7 +24,7 @@
           <h1 itemprop="name">{{ .Title }}</h1>
         </header>
         <ul>{{ range .Data.Pages }}
-          <li><a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title }}</a>{{ with .Params.categories }} <span class="categories">{{ delimit . ", " }}</span>{{ end }}</li>{{ end }}
+          <li><a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
         </ul>
       </section>
     </main>

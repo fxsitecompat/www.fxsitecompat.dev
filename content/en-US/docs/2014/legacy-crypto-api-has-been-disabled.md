@@ -4,6 +4,7 @@ date: "2014-07-22T05:06:26-04:00"
 categories: ["privacy-security"]
 tags: []
 versions: "33"
+statuses: "reverted"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1036546": "Bug 1036546 – soft-disable proprietary window.crypto functions/properties before removing them entirely "

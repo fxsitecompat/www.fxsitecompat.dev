@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+<html lang="{{ $.Site.LanguageCode }}">
+  <head>
+{{ partial "head.html" . }}
+    <title>{{ $strings.all_statuses_page.title }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ $strings.all_statuses_page.title }}">
+    <meta property="og:description" content="{{ $strings.all_statuses_page.description }}">
+    <meta name="description" content="{{ $strings.all_statuses_page.description }}">
+  </head>
+  <body class="list docs taxonomy statuses" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright">
+    <meta itemprop="name" content="{{ $strings.all_statuses_page.title }}">
+    <meta itemprop="description" content="{{ $strings.all_statuses_page.description }}">
+    <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
+{{ partial "header.html" . }}
+    <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+      <p class="inner">
+        <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
+        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="1"></span>
+      </p>
+    </nav>
+    <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
+      <section class="inner">
+        <header>
+          <h1 itemprop="name">{{ $strings.all_statuses_page.title }}</h1>
+          <p itemprop="description">{{ $strings.all_statuses_page.description }}</p>
+        </header>
+        <ul class="taxonomy-terms">{{ range $category, $value := .Data.Terms }}
+          <li><a href="{{ $.Site.Params.BaseDir }}statuses/{{ $category }}/">{{ (index $strings.statuses $category).label }}</a></li>{{ end }}
+        </ul>
+      </section>
+    </main>
+{{ partial "footer.html" . }}
+  </body>
+</html>

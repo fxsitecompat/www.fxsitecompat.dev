@@ -2,8 +2,9 @@
 title: "`watch()` throws a `TypeError` on some interfaces"
 date: "2013-04-06T04:52:59-04:00"
 categories: ["dom"]
-tags: ["regression"]
+tags: []
 versions: "23"
+statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=903332": "Bug 903332 – document.watch() results in \"TypeError: can\'t watch non-native objects of class Proxy\""

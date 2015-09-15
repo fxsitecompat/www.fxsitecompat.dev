@@ -51,6 +51,12 @@
                 <li><a href="{{ $.Site.Params.BaseDir }}categories/{{ $category }}/">{{ index $strings.categories $category }}</a></li>{{ end }}
               </ul>
             </section>
+            <section>
+              <h3>{{ $strings.browse_status }}</h3>
+              <ul class="taxonomy terms">{{ range $status, $taxonomy := $.Site.Taxonomies.statuses }}
+                <li><a href="{{ $.Site.Params.BaseDir }}statuses/{{ $status }}/">{{ (index $strings.statuses $status).label }}</a></li>{{ end }}
+              </ul>
+            </section>
           </section>
         </div>
       </div>

@@ -4,6 +4,7 @@ date: "2015-06-13T15:20:46-04:00"
 categories: ["plugins"]
 tags: []
 versions: "42"
+statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1180792": "Bug 1180792 - enable 64-bit windows builds on release channel"

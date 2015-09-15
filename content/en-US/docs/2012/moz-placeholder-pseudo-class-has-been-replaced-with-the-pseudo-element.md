@@ -4,6 +4,7 @@ date: "2012-12-03T03:54:45-05:00"
 categories: ["css"]
 tags: []
 versions: "19"
+statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=737786": "Bug 737786 – Switch from :-moz-placeholder to ::-moz-placeholder (pseudo-class to pseudo-element)"

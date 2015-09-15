@@ -26,9 +26,20 @@ categories:
     webgl: "WebGL"
     webrtc: "WebRTC"
 
-# Tags:
-tags:
-    regression: "Regression"
+# Statuses:
+statuses:
+    affected:
+        label: "Affected"
+        description: "A change made for standard compliance, security or performance. A couple of sites were broken but those issues were fixed by themselves."
+        desc_plural: "This list contains changes made for standard compliance, security or performance. A couple of sites were broken but those issues were fixed by themselves."
+    reverted:
+        label: "Reverted"
+        description: "A change made for standard compliance, security or performance. Many sites were broken and therefore this change was reverted with a subsequent Firefox release."
+        desc_plural: "This list contains changes made for standard compliance, security or performance. Many sites were broken and therefore those changes were reverted with a subsequent Firefox release."
+    regressed:
+        label: "Regressed"
+        description: "A site compatibility issue unintentionally introduced and later discovered. One or more sites were broken and therefore this regression was fixed with a subsequent Firefox release."
+        desc_plural: "This list contains site compatibility issues unintentionally introduced and later discovered. One or more sites were broken and therefore those regressions were fixed with a subsequent Firefox release. Note that some issues are not documented yet."
 
 # Meta
 contentinfo:
@@ -45,7 +56,9 @@ latest_blog_post: "Latest blog post"
 documents: "Documents"
 browse_category: "Browse by category"
 browse_version: "Browse by version"
+browse_status: "Browse by status"
 browse_all_versions: "See all versions..."
+browse_all_categories: "See all categories..."
 home_page:
     tagline: "<span>Together, We Build</span> <span>a Better Web</span>"
     description: "A community-driven Web developer engagement initiative focusing on the backward compatibility and regressions of Firefox. Documents, latest updates & more."
@@ -61,10 +74,15 @@ all_docs_page:
     title: "Documents"
     description: "Browse all our documents related to Firefox site compatibility."
 
-# All vategories page
+# All categories page
 all_categories_page:
     title: "Browse documents by category"
     description: "Browse all our Firefox site compatibility documents by technology category, including CSS, DOM, JavaScript, Plug-ins, Security & Privacy."
+
+# All statuses page
+all_statuses_page:
+    title: "Browse documents by status"
+    description: "Browse all our Firefox site compatibility documents by issue status, including Affected, Regression and Reverted."
 
 # All versions page
 all_versions_page:
@@ -81,6 +99,10 @@ version_index_page:
 category_index_page:
     title: "%s documents"
     description: "Browse our Firefox site compatibility documents describing the changes related to %s."
+
+# Status index page
+status_index_page:
+    title: "Documents with the “%s” status"
 
 # Single document page
 published: "Published"

@@ -9,4 +9,4 @@ references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=881553": "Bug 881553 – Remove or turn off trust bits for 1024-bit root certs after December 31, 2013"
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1029561": "Bug 1029561 – Update Mozilla 32 to use NSS 3.16.3 after July 1st to include root CA updates"
 ---
-継続的な安全性向上の一環として、いくつかの 1024 ビットルート証明書に基づく SSL およびコード署名の信頼が、Firefox やその他の製品で使用されている [Network Security Services (NSS)](https://developer.mozilla.org/ja/docs/Mozilla/Projects/NSS) から削除されました。これには、AC Raíz Certicámara、Entrust.net、GTE CyberTrust、NetLock、TDC Internet、ValiCert、VeriSign が含まれます。1024 ビットの証明書はもはや安全と見なされていないことから、Firefox は今後数回のバージョンで [1024 ビットルート証明書をすべて削除します](https://wiki.mozilla.org/CA:MD5and1024)。
+継続的な安全性向上の一環として、いくつかの 1024 ビットルート証明書に基づく SSL およびコード署名の信頼が、Firefox やその他の製品で使用されている [Network Security Services (NSS)](https://developer.mozilla.org/ja/docs/Mozilla/Projects/NSS) から削除されました。これには、*AC Raíz Certicámara*、*Entrust.net*、*GTE CyberTrust*、*NetLock*、*TDC Internet*、*ValiCert*、*VeriSign* が含まれます。1024 ビットの証明書はもはや安全と見なされていないことから、Firefox は今後数回のバージョンで [1024 ビットルート証明書をすべて削除します](https://wiki.mozilla.org/CA:MD5and1024)。

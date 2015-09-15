@@ -2,8 +2,9 @@
 title: "Plug-in MIME types are written in lower-case"
 date: "2013-12-09T02:32:17-05:00"
 categories: ["dom", "plugins"]
-tags: ["regression"]
+tags: []
 versions: "28"
+statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=206659": "Bug 206659 - Plugin not found, because MIME type has upper-case letters"

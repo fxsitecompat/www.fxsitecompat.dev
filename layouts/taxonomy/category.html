@@ -31,7 +31,7 @@
         <section>
           <h2>Firefox {{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</h2>
           <ul>{{ range .Pages }}
-            <li>{{ if in .Params.tags "regression" }}<em class="tag regression">{{ $strings.tags.regression }}</em> {{ end }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
+            <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
           </ul>
         </section>{{ end }}
       </section>

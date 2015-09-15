@@ -1,0 +1,1 @@
+{{ with $.Params.statuses }} ({{ (index (index $.Site.Data.translations $.Site.LanguageCode).statuses .).label }}){{ end }}

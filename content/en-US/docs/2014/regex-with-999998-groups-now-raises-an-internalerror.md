@@ -2,8 +2,9 @@
 title: "Regex with 999998+ groups now raises an `InternalError`"
 date: "2014-02-07T11:57:09-05:00"
 categories: ["javascript"]
-tags: ["regression"]
+tags: []
 versions: "29"
+statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=953013": "Bug 953013 – Regexp groups can overflow some counter"

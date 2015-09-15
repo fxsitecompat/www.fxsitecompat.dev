@@ -2,8 +2,9 @@
 title: "`texSubImage2D` fails on float textures"
 date: "2014-02-07T11:57:09-05:00"
 categories: ["webgl"]
-tags: ["regression"]
+tags: []
 versions: "29"
+statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1003607": "Bug 1003607 – Header animation at acko.net is broken in FF 29 and above."

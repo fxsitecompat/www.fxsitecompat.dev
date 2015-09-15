@@ -26,9 +26,20 @@ categories:
     webgl: "WebGL"
     webrtc: "WebRTC"
 
-# Tags:
-tags:
-    regression: "リグレッション"
+# Statuses
+statuses:
+    affected:
+        label: "影響あり"
+        description: "標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更。少数のサイトに影響を及ぼしたものの、それらの問題はサイト側で修正されました。"
+        desc_plural: "このリストには、標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更が含まれます。少数のサイトに影響を及ぼしたものの、それらの問題はサイト側で修正されました。"
+    reverted:
+        label: "取り消し"
+        description: "標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更。相当数のサイトに影響を及ぼしたため、この変更は Firefox の後継バージョンで撤回されました。"
+        desc_plural: "このリストには、標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更が含まれます。相当数のサイトに影響を及ぼしたため、これらの変更は Firefox の後継バージョンで撤回されました。"
+    regressed:
+        label: "リグレッション"
+        description: "意図せず取り込まれ後日発見されたサイト互換性問題。ひとつもしくは複数のサイトに影響を及ぼしたため、このリグレッションは Firefox の後継バージョンで修正されました。"
+        desc_plural: "このリストには、意図せず取り込まれ後日発見されたサイト互換性問題が含まれます。ひとつもしくは複数のサイトに影響を及ぼしたため、これらのリグレッションは Firefox の後継バージョンで修正されました。なお、一部の問題はまだ文書化されていません。"
 
 # Meta
 contentinfo:
@@ -45,7 +56,9 @@ latest_blog_post: "最新のブログ記事"
 documents: "ドキュメント"
 browse_category: "カテゴリ別に参照"
 browse_version: "バージョン別に参照"
+browse_status: "ステータス別に参照"
 browse_all_versions: "すべてのバージョン..."
+browse_all_categories: "すべてのカテゴリ..."
 home_page:
     tagline: "<span>ともに、より良い</span> <span>Web を築こう</span>"
     description: "<span>Firefox の後方互換性とリグレッションに焦点を当てた、</span><span>コミュニティ主導の Web 開発者エンゲージメントイニシアチブ。</span><span>ドキュメント、最新情報など。</span>"
@@ -61,10 +74,15 @@ all_docs_page:
     title: "ドキュメント"
     description: "Firefox のサイト互換性に関するドキュメント一覧。"
 
-# All vategories page
+# All categories page
 all_categories_page:
     title: "カテゴリ別にドキュメントを参照"
     description: "すべての Firefox サイト互換性ドキュメントを、CSS、DOM、JavaScript、セキュリティ & プライバシーなどの技術カテゴリごとに参照できます。"
+
+# All statuses page
+all_statuses_page:
+    title: "ステータス別にドキュメントを参照"
+    description: "すべての Firefox サイト互換性ドキュメントを、影響あり、取り消し、リグレッションなどの問題ステータスごとに参照できます。"
 
 # All versions page
 all_versions_page:
@@ -81,6 +99,10 @@ version_index_page:
 category_index_page:
     title: "%s 関連のドキュメント"
     description: "%s に関する変更点を変更点を解説した Firefox サイト互換性ドキュメントを参照できます。"
+
+# Status index page
+status_index_page:
+    title: "「%s」ステータスのドキュメント"
 
 # Single document page
 published: "公開日"

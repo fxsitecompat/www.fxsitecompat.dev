@@ -4,6 +4,7 @@ date: "2014-06-09T02:46:54-04:00"
 categories: ["networking"]
 tags: []
 versions: "32"
+statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=913806": "Bug 913806 – Turn HTTP cache v2 on by default on all products"

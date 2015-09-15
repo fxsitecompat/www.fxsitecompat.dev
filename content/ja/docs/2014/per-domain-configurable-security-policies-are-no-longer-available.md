@@ -4,6 +4,7 @@ date: "2014-02-07T11:57:09-05:00"
 categories: ["privacy-security"]
 tags: []
 versions: "29"
+statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=913734": "Bug 913734 – Remove domain policy goop from CAPS"
@@ -14,6 +15,6 @@ Firefox の [設定可能セキュリティポリシー](http://kb.mozillazine.o
 
 法人ユーザの需要に応えるため、[`localfilelinks` ポリシー](http://kb.mozillazine.org/Links_to_local_pages_do_not_work) は Firefox 30 で復活しました。これは、特に社内アプリケーションにおいて、Web ページ (`http://` あるいは `https://`) 上にあるローカルファイルシステム (`file:///`) へのリンクを辿れるようにする機能です。差し当たって、[Firefox Beta](http://www.mozilla.org/ja/firefox/channel/) もしくは Mozilla 開発者によって作成された [caps-fileuri](https://addons.mozilla.org/ja/firefox/addon/caps-fileuri/) 拡張機能を使うことで、この制限を回避できます。
 
-[`allowclipboard` ポリシー](http://kb.mozillazine.org/Granting_JavaScript_access_to_the_clipboard) の廃止によって、CKEditor など一部のリッチテキストエディタにおいてコピーや貼り付けボタンが動作しなくなっています。標準 [Clipboard API](https://developer.mozilla.org/ja/docs/Web/API/ClipboardEvent) の「クリックでコピー」対応が近い将来実装されます。<kbd>Ctrl</kbd>+<kbd>C</kbd>、<kbd>Ctrl</kbd>+<kbd>V</kbd> といった通常のキーボードショートカットは常に動作するはずです。
+[`allowclipboard` ポリシー](http://kb.mozillazine.org/Granting_JavaScript_access_to_the_clipboard) の廃止によって、*CKEditor* など一部のリッチテキストエディタにおいてコピーや貼り付けボタンが動作しなくなっています。標準 [Clipboard API](https://developer.mozilla.org/ja/docs/Web/API/ClipboardEvent) の「クリックでコピー」対応が近い将来実装されます。<kbd>Ctrl</kbd>+<kbd>C</kbd>、<kbd>Ctrl</kbd>+<kbd>V</kbd> といった通常のキーボードショートカットは常に動作するはずです。
 
 **更新**: 「クリックでコピー」対応は [Firefox 41 で実装されました](https://www.fxsitecompat.com/ja/docs/2015/document-execcommand-for-cut-copy-and-paste-no-longer-throws/)。

@@ -4,6 +4,7 @@ date: "2015-06-13T15:20:46-04:00"
 categories: ["dom"]
 tags: []
 versions: "41"
+statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1093611": "Bug 1093611 – AnchorElement.hash should be the encoded version of the href attribute\'s fragment"

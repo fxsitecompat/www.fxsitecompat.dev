@@ -2,8 +2,9 @@
 title: "Latin-1 のみの文字列に対する正規表現がパフォーマンス問題を引き起こす場合があります "
 date: "2014-07-22T05:06:26-04:00"
 categories: ["javascript"]
-tags: ["regression"]
+tags: []
 versions: "33"
+statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1081175": "Bug 1081175 – (latin1strings) Degraded regular expression performance (infinite loop?)"

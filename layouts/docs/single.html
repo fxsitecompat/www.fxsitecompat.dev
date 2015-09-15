@@ -5,13 +5,13 @@
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
-    <title>{{ $title }}{{ if in .Params.tags "regression" }} ({{ $strings.tags.regression }}){{ end }} | {{ $.Site.Title }}</title>
-    <meta property="og:title" content="{{ $title | html }}{{ if in .Params.tags "regression" }} ({{ $strings.tags.regression }}){{ end }}">
+    <title>{{ $title }}{{ partial "status-label/suffix" . }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ $title | html }}{{ partial "status-label/suffix" . }}">
     <meta property="og:description" content="{{ substr .Summary 0 250 | safeHTML }} ...">
     <meta name="description" content="{{ substr .Summary 0 250 | safeHTML }} ...">
   </head>
   <body class="single docs article" itemscope itemtype="http://schema.org/ItemPage" itemref="copyright">
-    <meta itemprop="name" content="{{ $title | html }}{{ if in .Params.tags "regression" }} ({{ $strings.tags.regression }}){{ end }}">
+    <meta itemprop="name" content="{{ $title | html }}{{ partial "status-label/suffix" . }}">
     <meta itemprop="description" content="{{ substr .Summary 0 250 | safeHTML }} ...">
     <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
 {{ partial "header.html" . }}
@@ -33,7 +33,7 @@
       <div class="inner">
         <article itemscope itemtype="http://schema.org/TechArticle">
           <header>
-            <h1>{{ if in .Params.tags "regression" }}<em class="tag regression">{{ $strings.tags.regression }}</em> {{ end }}<span itemprop="headline">{{ .Title | markdownify }}</span></h1>
+            <h1>{{ partial "status-label/prefix-itemprop" . }}<span itemprop="headline">{{ .Title | markdownify }}</span></h1>
             <p>{{ $strings.published }}: <time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time>{{ with .Params.cclicense }} | <span class="fa replace cc">{{ $strings.creativecommons }}</span> {{ . }}{{ end }}</p>
             <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
           </header>
@@ -53,7 +53,7 @@
         <aside>
           <h2>{{ replace $strings.docs_for_version "%s" $version }}</h2>
           <ul>{{ range where $.Site.Pages "Params.versions" $version }}
-            <li>{{ if in .Params.tags "regression" }}<em class="tag regression">{{ $strings.tags.regression }}</em> {{ end }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
+            <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
           </ul>
         </aside>
       </div>

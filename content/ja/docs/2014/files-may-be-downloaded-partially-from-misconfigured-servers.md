@@ -2,8 +2,9 @@
 title: "サーバの誤設定によりファイルが部分的にダウンロードされる場合があります "
 date: "2014-07-22T05:06:26-04:00"
 categories: ["networking"]
-tags: ["regression"]
+tags: []
 versions: "33"
+statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1083090": "Bug 1083090 – Broken CSS and JavaScript errors with Firefox 33 (regression) [partial transfer]"

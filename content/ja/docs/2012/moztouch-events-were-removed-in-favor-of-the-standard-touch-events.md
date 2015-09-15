@@ -4,6 +4,7 @@ date: "2012-12-03T03:53:26-05:00"
 categories: ["dom"]
 tags: []
 versions: "18"
+statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=726615": "Bug 726615 – Support W3C touch event instead of MozTouch event"
