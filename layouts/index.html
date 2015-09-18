@@ -38,6 +38,9 @@
           </section>
           <section id="sec-docs">
             <h2>{{ $strings.documents }}</h2>
+            <aside role="search" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+              {{ partial "searchbox.html" . }}
+            </aside>
             <section id="sec-docs-version">
               <h3>{{ $strings.browse_version }}</h3>
               <ul>{{ range sort (first 5 (.Data.Pages.GroupByParam "versions" "desc")) "Key" }}{{ $version := .Key }}
@@ -51,7 +54,7 @@
                 <li><a href="{{ $.Site.Params.BaseDir }}categories/{{ $category }}/">{{ index $strings.categories $category }}</a></li>{{ end }}
               </ul>
             </section>
-            <section>
+            <section id="sec-docs-status">
               <h3>{{ $strings.browse_status }}</h3>
               <ul class="taxonomy terms">{{ range $status, $taxonomy := $.Site.Taxonomies.statuses }}
                 <li><a href="{{ $.Site.Params.BaseDir }}statuses/{{ $status }}/">{{ (index $strings.statuses $status).label }}</a></li>{{ end }}

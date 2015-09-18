@@ -51,6 +51,10 @@ contentinfo:
     generator: 'Powered by <a href="http://gohugo.io/" rel="nofollow">Hugo</a>.'
     translation: '<span lang="ja">このページは <a href="%s">日本語</a> でも読めます。</span>'
 
+# Search box
+search: "Search"
+search_placeholder: "Search documents"
+
 # Home page
 latest_blog_post: "Latest blog post"
 documents: "Documents"

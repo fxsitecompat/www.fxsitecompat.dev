@@ -1,0 +1,10 @@
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+        <form action="https://cse.google.com/cse">
+          <div>
+            <meta itemprop="target" content="https://cse.google.com/cse/?cx={{ $.Site.Params.GoogleSiteSearchID }}&amp;lr=lang_{{ $.Site.Params.GoogleSiteSearchLang }}&amp;q={query}">
+            <input type="hidden" name="cx" value="{{ $.Site.Params.GoogleSiteSearchID }}">
+            <input type="hidden" name="lr" value="lang_{{ $.Site.Params.GoogleSiteSearchLang }}">
+            <input itemprop="query" type="search" name="q" placeholder="{{ $strings.search_placeholder }}">
+            <button>{{ $strings.search }}</button>
+          </div>
+        </form>

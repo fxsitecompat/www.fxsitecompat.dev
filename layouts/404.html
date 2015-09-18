@@ -13,11 +13,8 @@
     <meta itemprop="description" content="{{ $strings.not_found_page.description }}">
     <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
 {{ partial "header.html" . }}
-    <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
-      <p class="inner">
-        <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
-      </p>
-    </nav>
+{{ partial "search.html" . }}
+{{ partial "breadcrumbs/home.html" . }}
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
       <section class="inner">
         <header>

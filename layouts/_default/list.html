@@ -13,11 +13,7 @@
     <meta itemprop="description" content="{{ .Description }}">
     <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
 {{ partial "header.html" . }}
-    <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
-      <p class="inner">
-        <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
-      </p>
-    </nav>
+{{ partial "breadcrumbs/home.html" . }}
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
       <section class="inner">
         <header>

@@ -51,6 +51,10 @@ contentinfo:
     generator: 'このサイトは <a href="http://gohugo.io/" rel="nofollow">Hugo</a> で作成しました。'
     translation: '<span lang="en-US">This page is also available in <a href="%s">English</a>.</span>'
 
+# Search box
+search: "検索"
+search_placeholder: "ドキュメントを検索"
+
 # Home page
 latest_blog_post: "最新のブログ記事"
 documents: "ドキュメント"

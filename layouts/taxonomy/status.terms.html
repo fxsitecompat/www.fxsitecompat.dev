@@ -13,12 +13,8 @@
     <meta itemprop="description" content="{{ $strings.all_statuses_page.description }}">
     <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
 {{ partial "header.html" . }}
-    <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
-      <p class="inner">
-        <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
-        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="1"></span>
-      </p>
-    </nav>
+{{ partial "search.html" . }}
+{{ partial "breadcrumbs/docs.html" . }}
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
       <section class="inner">
         <header>

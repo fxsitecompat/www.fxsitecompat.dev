@@ -15,19 +15,24 @@
     <meta itemprop="description" content="{{ substr .Summary 0 250 | safeHTML }} ...">
     <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
 {{ partial "header.html" . }}
+{{ partial "search.html" . }}
     <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
-      <p class="inner">
-        <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
-        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="1"></span>
-        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/" itemprop="item"><span itemprop="name">Firefox {{ $version }}</span>{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a><meta itemprop="position" content="2"></span>
-      </p>
+      <div class="inner">
+        <p>
+          <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="1"></span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/" itemprop="item"><span itemprop="name">Firefox {{ $version }}</span>{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a><meta itemprop="position" content="2"></span>
+        </p>
+      </div>
     </nav>{{ range .Params.categories }}
     <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
-      <p class="inner">
-        <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
-        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="1"></span>
-        <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}categories/{{ . | urlize }}/" itemprop="item"><span itemprop="name">{{ index $strings.categories . }}</span></a><meta itemprop="position" content="2"></span>
-      </p>
+      <div class="inner">
+        <p>
+          <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="1"></span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}categories/{{ . | urlize }}/" itemprop="item"><span itemprop="name">{{ index $strings.categories . }}</span></a><meta itemprop="position" content="2"></span>
+        </p>
+      </div>
     </nav>{{ end }}
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
       <div class="inner">
@@ -50,7 +55,7 @@
             </section>
           </div>
         </article>
-        <aside>
+        <aside class="nocontent">
           <h2>{{ replace $strings.docs_for_version "%s" $version }}</h2>
           <ul>{{ range where $.Site.Pages "Params.versions" $version }}
             <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
