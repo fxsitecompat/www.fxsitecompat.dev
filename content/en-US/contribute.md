@@ -25,6 +25,6 @@ Please report any regressions you encountered through one of the following ways:
 
 ## Improve the documents
 
-If you find a mistake on our document or something not covered yet, please [file an issue](https://github.com/fxsitecompat/www.fxsitecompat.com/issues/new) to help us improve our useful developer resources.
+If you find a mistake on our document or something not covered yet, please [tweet us](https://twitter.com/intent/tweet?text=@fxsitecompat&related=fxsitecompat) or [file an issue](https://github.com/fxsitecompat/www.fxsitecompat.com/issues/new) to help us improve our useful developer resources.
 
 Together, we build a better Web!
