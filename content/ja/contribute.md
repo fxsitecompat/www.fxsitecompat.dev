@@ -27,4 +27,8 @@ Firefox ユーザがあなたの「壊れた」サイトを訪れる前に Firef
 
 ドキュメントに間違いを見つけた場合、あるいは何かまだ文書化されていない問題を見つけた場合は、[ツイート](https://twitter.com/intent/tweet?text=@fxsitecompat&related=fxsitecompat) するか [Issue を登録](https://github.com/fxsitecompat/www.fxsitecompat.com/issues/new) して私たちの有益な開発者リソースの改善にご協力ください。
 
+## 寄付
+
+私たちが提供するリソースがあなたの役に立っているなら、ぜひプロジェクトマネージャの Kohei Yoshino を通じて [少額の寄付を行う](https://www.paypal.me/kohei/5) ことを検討してください。あなたの投げ銭は [サーバー](https://www.digitalocean.com/?refcode=79ce8405cfad) やドメインの費用に充てられ、この独立したコミュニティイニシアチブの持続可能性を確保するための助けとなります。どうぞよろしくお願いします。
+
 ともに、より良い Web の世界を築きましょう！

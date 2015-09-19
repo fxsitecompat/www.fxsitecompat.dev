@@ -6,7 +6,7 @@ slug: "about"
 ---
 ## Who we are
 
-The Firefox Site Compatibility Working Group is a community initiative that tackles the backward compatibility and regressions of Firefox through monitoring sources, providing documents and promoting engagement with Web developers. While Mozilla's [Compatibility team](https://wiki.mozilla.org/Compatibility) is doing a fantastic job in improving cross-browser compatibility, there are no staffers intensively covering compatibility issues in Firefox itself, so we are here to serve voluntarily. Our missions are to:
+The Firefox Site Compatibility Working Group is an independent community initiative that tackles the backward compatibility and regressions of Firefox through monitoring sources, providing documents and promoting engagement with Web developers. While Mozilla's [Compatibility team](https://wiki.mozilla.org/Compatibility) is doing a fantastic job in improving cross-browser compatibility, there are no staffers intensively covering compatibility issues in Firefox itself, so we are here to serve voluntarily. Our missions are to:
 
 * Improve Firefox user experience by preventing site breakages
 * Engage more with Web developers through various channels
