@@ -13,6 +13,10 @@ AddType application/font-woff2 woff2
 Options +SymLinksIfOwnerMatch -Indexes
 RewriteEngine on
 
+# Site Search
+RewriteCond %{QUERY_STRING} cx=006388931142546140887:uidl4-zslfu
+RewriteRule ^(en-US|ja)/search/$ https://cse.google.com/cse [L]
+
 # Redirect: Japanese
 RewriteCond %{HTTP:Accept-Language} ^ja
 RewriteCond %{REQUEST_URI} !^/(en-US|ja)/
@@ -32,6 +36,7 @@ RewriteRule ^(en-US|ja)/ /$1/404.html [L]
 # Performance
 FileETag None
 Header always append Cache-Control private
+Header always append Vary Accept-Language
 AddOutputFilterByType DEFLATE text/html text/css application/javascript
 ExpiresActive On
 ExpiresDefault "access plus 1 day"

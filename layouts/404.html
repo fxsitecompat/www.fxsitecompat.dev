@@ -8,10 +8,9 @@
     <meta property="og:description" content="{{ $strings.not_found_page.description }}">
     <meta name="description" content="{{ $strings.not_found_page.description }}">
   </head>
-  <body class="single error" itemscope itemtype="http://schema.org/WebPage" itemref="copyright">
+  <body class="single error" itemscope itemtype="http://schema.org/WebPage" itemref="copyright translation">
     <meta itemprop="name" content="{{ $strings.not_found_page.title }}">
     <meta itemprop="description" content="{{ $strings.not_found_page.description }}">
-    <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
 {{ partial "header.html" . }}
 {{ partial "search.html" . }}
 {{ partial "breadcrumbs/home.html" . }}

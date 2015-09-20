@@ -10,47 +10,39 @@
     <meta property="og:description" content="{{ substr .Summary 0 250 | safeHTML }} ...">
     <meta name="description" content="{{ substr .Summary 0 250 | safeHTML }} ...">
   </head>
-  <body class="single docs article" itemscope itemtype="http://schema.org/ItemPage" itemref="copyright">
+  <body class="single docs article" itemscope itemtype="http://schema.org/ItemPage" itemref="copyright translation">
     <meta itemprop="name" content="{{ $title | html }}{{ partial "status-label/suffix" . }}">
     <meta itemprop="description" content="{{ substr .Summary 0 250 | safeHTML }} ...">
-    <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
 {{ partial "header.html" . }}
 {{ partial "search.html" . }}
     <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
       <div class="inner">
         <p>
           <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
-          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="1"></span>
-          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/" itemprop="item"><span itemprop="name">Firefox {{ $version }}</span>{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a><meta itemprop="position" content="2"></span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" rel="index" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="1"></span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/" rel="up" itemprop="item"><span itemprop="name">Firefox {{ $version }}</span>{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a><meta itemprop="position" content="2"></span>
         </p>
       </div>
-    </nav>{{ range .Params.categories }}
-    <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
-      <div class="inner">
-        <p>
-          <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
-          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="1"></span>
-          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}categories/{{ . | urlize }}/" itemprop="item"><span itemprop="name">{{ index $strings.categories . }}</span></a><meta itemprop="position" content="2"></span>
-        </p>
-      </div>
-    </nav>{{ end }}
+    </nav>
+
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
       <div class="inner">
-        <article itemscope itemtype="http://schema.org/TechArticle">
+        <article itemscope itemtype="http://schema.org/TechArticle" itemref="meta-general copyright translation">
           <header>
             <h1>{{ partial "status-label/prefix-itemprop" . }}<span itemprop="headline">{{ .Title | markdownify }}</span></h1>
-            <p>{{ $strings.published }}: <time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time>{{ with .Params.cclicense }} | <span class="fa replace cc">{{ $strings.creativecommons }}</span> {{ . }}{{ end }}</p>
-            <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
+            <p>{{ $strings.published }}: <time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time> | Categories: <span class="categories">{{ range .Params.categories }}<span itemprop="keywords"><a href="{{ $.Site.Params.BaseDir }}categories/{{ . | urlize }}/">{{ index $strings.categories . }}</a></span> {{ end }}</span>{{ with .Params.cclicense }} | <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" itemprop="license"><span class="fa replace cc">{{ $strings.creativecommons }}</span> {{ . }}</a>{{ end }}</p>
           </header>
-          <div itemprop="articleBody">
+          <div>
             <section>
               <h2>{{ $strings.description }}</h2>
-              {{ .Content }}
+              <div itemprop="articleBody">
+                {{ .Content }}
+              </div>
             </section>
             <section>
               <h2>{{ $strings.references }}</h2>
               <ul>{{ range $link, $title := .Params.references }}
-                <li><a href="{{ $link }}">{{ $title }}</a></li>{{ end }}
+                <li><a href="{{ $link }}" itemprop="citation">{{ $title }}</a></li>{{ end }}
               </ul>
             </section>
           </div>

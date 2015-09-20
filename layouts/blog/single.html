@@ -8,26 +8,25 @@
     <meta property="og:description" content="{{ substr .Summary 0 250 }} ...">
     <meta name="description" content="{{ substr .Summary 0 250 }} ...">
   </head>
-  <body class="single blog article" itemscope itemtype="http://schema.org/ItemPage" itemref="copyright">
+  <body class="single blog article" itemscope itemtype="http://schema.org/ItemPage" itemref="copyright translation">
     <meta itemprop="name" content="{{ .Title }}">
     <meta itemprop="description" content="{{ substr .Summary 0 250 }} ...">
-    <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
 {{ partial "header.html" . }}
     <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
       <div class="inner">
         <p>
           <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
-          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}blog/" itemprop="item"><span itemprop="name">{{ $strings.sections.blog }}</span></a><meta itemprop="position" content="1"></span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}blog/" rel="index" itemprop="item"><span itemprop="name">{{ $strings.sections.blog }}</span></a><meta itemprop="position" content="1"></span>
         </p>
       </div>
     </nav>
+
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
       <div class="inner" itemscope itemtype="http://schema.org/Blog">
-        <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+        <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" itemref="meta-general copyright translation">
           <header>
             <h1 itemprop="headline">{{ .Title }}</h1>
             <p><time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time></p>
-            <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
           </header>
           <div itemprop="articleBody">
             {{ .Content }}

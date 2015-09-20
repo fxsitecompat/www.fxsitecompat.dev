@@ -8,11 +8,10 @@
     <meta property="og:description" content="{{ $strings.contentinfo.description }}">
     <meta name="description" content="{{ $strings.contentinfo.description }}">
   </head>
-  <body class="home" itemscope itemtype="http://schema.org/WebPage" itemref="copyright">
+  <body class="home" itemscope itemtype="http://schema.org/WebPage" itemref="sec-docs copyright translation">
     <!-- Google+ snippet should go first; see https://developers.google.com/+/web/snippet/ -->
     <meta itemprop="name" content="{{ $.Site.Title }}">
     <meta itemprop="description" content="{{ $strings.contentinfo.description }}">
-    <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
 {{ partial "header.html" . }}
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
       <div id="main-feature">
@@ -27,7 +26,7 @@
             <h2 itemprop="name">{{ $strings.latest_blog_post }}</h2>{{ range first 1 (where .Data.Pages "Section" "blog") }}
             <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
               <header>
-                <h3 itemprop="headline"><a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}" itemprop="url">{{ .Title }}</a></h3>
+                <h3 itemprop="headline"><a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}" rel="bookmark" itemprop="url">{{ .Title }}</a></h3>
                 <p><time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time></p>
                 <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
               </header>
@@ -65,10 +64,5 @@
       </div>
     </main>
 {{ partial "footer.html" . }}
-    <div itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="{{ $.Site.Title }}">
-      <meta itemprop="url" content="{{ $.Site.BaseURL }}">{{ range $.Site.Menus.External }}
-      <meta itemprop="sameAs" content="{{ .URL }}">{{ end }}
-    </div>
   </body>
 </html>

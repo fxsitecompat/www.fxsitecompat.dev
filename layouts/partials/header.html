@@ -1,3 +1,32 @@
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+    <meta itemprop="url" content="{{ .Permalink }}">
+    <div id="meta-general">
+      <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
+      <meta itemprop="genre" content="{{ $strings.contentinfo.category }}">
+      <meta itemprop="inLanguage" content="{{ $.Site.LanguageCode }}">
+      <div itemprop="mainEntityOfPage" itemscope itemtype="http://schema.org/CreativeWork">
+        <meta itemprop="name" content="Mozilla Firefox">
+      </div>
+      <div itemprop="audience" itemscope itemtype="http://schema.org/Audience">
+        <meta itemprop="audienceType" content="{{ $strings.contentinfo.audienceType }}">
+      </div>
+      <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="{{ $.Site.Author.Name }}">
+      </div>
+      <div itemprop="translator" itemscope itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="{{ $.Site.Author.Name }}">
+      </div>
+    </div>
+    <div itemscope itemtype="http://schema.org/WebSite">
+      <meta itemprop="name" content="{{ $.Site.Title }}">
+      <meta itemprop="url" content="{{ $.Site.BaseURL }}">
+    </div>
+    <div itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="{{ $.Site.Title }}">
+      <meta itemprop="url" content="{{ $.Site.BaseURL }}">{{ range $.Site.Menus.External }}
+      <meta itemprop="sameAs" content="{{ .URL }}">{{ end }}
+    </div>
+
     <header role="banner" itemscope itemtype="http://schema.org/WPHeader">
       <div class="inner">
         <h1 itemprop="name">

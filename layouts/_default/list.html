@@ -8,10 +8,9 @@
     <meta property="og:description" content="{{ .Description }}">
     <meta name="description" content="{{ .Description }}">
   </head>
-  <body class="list" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright">
+  <body class="list" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright translation">
     <meta itemprop="name" content="{{ .Title }}">
     <meta itemprop="description" content="{{ .Description }}">
-    <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
 {{ partial "header.html" . }}
 {{ partial "breadcrumbs/home.html" . }}
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">

@@ -4,7 +4,7 @@
         <div class="col wide">
           <h1 itemprop="name">{{ $strings.contentinfo.organization | safeHTML }}</h1>
           <p id="copyright">Copyright &copy; <span itemprop="copyrightYear">{{ .Now.Format "2006" }}</span> <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person">{{ $.Site.Copyright }}{{ with $.Site.Author.Name }}<meta itemprop="name" content="{{ . }}">{{ end }}</span> {{ $strings.contentinfo.legal }}</p>
-          <p>{{ $strings.contentinfo.generator | safeHTML }} {{ replace $strings.contentinfo.translation "%s" (replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.AlternateBaseDir) | safeHTML }}</p>
+          <p>{{ $strings.contentinfo.generator | safeHTML }} <span id="translation" lang="{{ $.Site.Params.AlternateLangCode }}"><span itemprop="workTranslation" itemscope itemtype="http://schema.org/CreativeWork">{{ replace $strings.contentinfo.translation "%s" (replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.AlternateBaseDir) | safeHTML }}<meta itemprop="inLanguage" content="{{ $.Site.Params.AlternateLangCode }}"></span></span></p>
         </div>
         <div class="col">
           <nav>
@@ -22,6 +22,7 @@
         </div>
       </div>
     </footer>{{ with $.Site.Params.GoogleAnalyticsID }}
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

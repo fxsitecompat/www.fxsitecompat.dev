@@ -45,11 +45,12 @@ statuses:
 contentinfo:
     organization: "<span>Firefox Site Compatibility</span> <span>Working Group</span>"
     category: "Technology"
+    audienceType: "Web developers"
     tagline: "Together, We Build a Better Web"
     description: "A community-driven Web developer engagement initiative focusing on the backward compatibility and regressions of Firefox. Documents, latest updates & more."
     legal: "Mozilla and Firefox are trademarks of The Mozilla Foundation. This initiative is not affiliated with Mozilla."
     generator: 'Powered by <a href="http://gohugo.io/" rel="nofollow">Hugo</a>.'
-    translation: '<span lang="ja">このページは <a href="%s">日本語</a> でも読めます。</span>'
+    translation: 'このページは <a href="%s" itemprop="url">日本語</a> でも読めます。'
 
 # Search box
 search: "Search"

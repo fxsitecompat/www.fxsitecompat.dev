@@ -11,13 +11,26 @@ Copyright: "Kohei Yoshino and individual contributors."
 Author:
     Name: "Kohei Yoshino"
     Email: "webmaster@fxsitecompat.com"
+    GoogleUserName: "KoheiYoshino"
+    TwitterUserName: "koyoskeh"
+    FacebookID: "100003919776216"
+    FacebookUserName: "kohei.yoshino.aqr"
 
 Params:
+    Domain: "FxSiteCompat.com"
+    Publisher:
+        Name: "Firefox サイト互換性ワーキンググループ"
+        GoogleUserName: "FxSiteCompatibility"
+        TwitterUserName: "FxSiteCompat"
+        FacebookID: "633917723366737"
+        FacebookUserName: "FxSiteCompat"
     BaseDir: "/ja/"
     AlternateBaseDir: "/en-US/"
+    AlternateLangCode: "en-US"
     GoogleAnalyticsID: "UA-37352183-2"
     GoogleSiteSearchID: "006388931142546140887:uidl4-zslfu"
-    GoogleSiteSearchLang: "ja"
+    GoogleSiteSearchLangCode: "ja"
+    FacebookLangCode: "ja_JP"
     Locales:
          - Code: "en-US"
            Name: "英語"

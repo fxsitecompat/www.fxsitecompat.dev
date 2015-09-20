@@ -1,21 +1,26 @@
+{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=false">
-    <meta property="og:type" content="website">
+    <meta name="viewport" content="width=device-width, user-scalable=false">{{ if or (eq .Section "blog") (eq .Section "docs") }}
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}">
+    <meta property="article:section" content="{{ $strings.contentinfo.category }}">
+    <meta property="article:author" content="https://www.facebook.com/{{ $.Site.Author.FacebookUserName }}">
+    <meta property="article:publisher" content="https://www.facebook.com/{{ $.Site.Params.Publisher.FacebookUserName }}">{{ else }}
+    <meta property="og:type" content="website">{{ end }}
     <meta property="og:site_name" content="{{ $.Site.Title }}">
-    <meta property="og:locale" content="{{ replace $.Site.LanguageCode "-" "_" }}">
+    <meta property="og:locale" content="{{ $.Site.Params.FacebookLangCode }}">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
-    <meta property="fb:admins" content="100003919776216">
-    <meta property="fb:page_id" content="633917723366737">
+    <meta property="fb:admins" content="{{ $.Site.Author.FacebookID }}">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@FxSiteCompat">
-    <meta name="twitter:domain" content="FxSiteCompat.com">
-    <meta name="twitter:url" content="{{ .Permalink }}">
+    <meta name="twitter:site" content="@{{ $.Site.Params.Publisher.TwitterUserName }}">
+    <meta name="twitter:creator" content="@{{ $.Site.Author.TwitterUserName }}">
+    <link rel="author" href="https://plus.google.com/&#43;{{ $.Site.Author.GoogleUserName }}">
+    <link rel="publisher" href="https://plus.google.com/&#43;{{ $.Site.Params.Publisher.GoogleUserName }}">
     <link rel="canonical" hreflang="{{ $.Site.LanguageCode }}" href="{{ .Permalink }}">
     <link rel="alternate" hreflang="x-default" href="{{ replace .Permalink $.Site.Params.BaseDir "/" }}">{{ range $.Site.Params.Locales }}
     <link rel="alternate" hreflang="{{ .Code }}" href="{{ replace $.Permalink $.Site.Params.BaseDir (print "/" .Code "/") }}" title="{{ .Name }}">{{ end }}
-    <link rel="publisher" href="https://plus.google.com/+FxSiteCompatibility">
-    <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/base.css?v=201509181100">
-    <link rel="shortcut icon" href="{{ $.Site.Params.BaseDir }}images/template/favicon.png" type="image/png">
-    <link rel="alternate" href="{{ $.Site.Params.BaseDir }}index.xml" type="application/atom+xml" title="{{ $.Site.Title }}">
-    <link rel="search" type="application/opensearchdescription+xml" title="FxSiteCompat.com" href="{{ $.Site.Params.BaseDir }}search/index.xml">
+    <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/base.css?v=201509201100">
+    <link rel="icon" type="image/png" href="{{ $.Site.Params.BaseDir }}images/template/favicon.png">
+    <link rel="alternate" type="application/atom+xml" href="{{ $.Site.Params.BaseDir }}index.xml" title="{{ $.Site.Title }}">
+    <link rel="search" type="application/opensearchdescription+xml" href="{{ $.Site.Params.BaseDir }}search/index.xml" title="{{ $.Site.Params.Domain }}">
