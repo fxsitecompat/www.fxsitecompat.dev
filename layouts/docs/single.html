@@ -30,7 +30,7 @@
         <article itemscope itemtype="http://schema.org/TechArticle" itemref="meta-general copyright translation">
           <header>
             <h1>{{ partial "status-label/prefix-itemprop" . }}<span itemprop="headline">{{ .Title | markdownify }}</span></h1>
-            <p>{{ $strings.published }}: <time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time> | Categories: <span class="categories">{{ range .Params.categories }}<span itemprop="keywords"><a href="{{ $.Site.Params.BaseDir }}categories/{{ . | urlize }}/">{{ index $strings.categories . }}</a></span> {{ end }}</span>{{ with .Params.cclicense }} | <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" itemprop="license"><span class="fa replace cc">{{ $strings.creativecommons }}</span> {{ . }}</a>{{ end }}</p>
+            <p>{{ $strings.published }}: <time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time> | {{ $strings.sections.categories }}: <span class="categories">{{ range .Params.categories }}<span itemprop="keywords"><a href="{{ $.Site.Params.BaseDir }}categories/{{ . | urlize }}/">{{ index $strings.categories . }}</a></span> {{ end }}</span>{{ with .Params.cclicense }} | <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" itemprop="license"><span class="fa replace cc">{{ $strings.creativecommons }}</span> {{ . }}</a>{{ end }}</p>
           </header>
           <div>
             <section>
