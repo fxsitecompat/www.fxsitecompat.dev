@@ -30,8 +30,8 @@ categories:
 statuses:
     affected:
         label: "Affected"
-        description: "A change made for standard compliance, security or performance. A couple of sites were broken but those issues were fixed by themselves."
-        desc_plural: "This list contains changes made for standard compliance, security or performance. A couple of sites were broken but those issues were fixed by themselves."
+        description: "A change made for standard compliance, security or performance. A couple of sites were broken but those issues were or should be fixed by themselves."
+        desc_plural: "This list contains changes made for standard compliance, security or performance. A couple of sites were broken but those issues were or should be fixed by themselves."
     reverted:
         label: "Reverted"
         description: "A change made for standard compliance, security or performance. Many sites were broken and therefore this change was reverted with a subsequent Firefox release."

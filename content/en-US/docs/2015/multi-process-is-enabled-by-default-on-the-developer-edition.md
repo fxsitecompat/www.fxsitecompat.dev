@@ -4,7 +4,7 @@ date: "2015-08-05T00:48:18-04:00"
 categories: ["misc"]
 tags: []
 versions: "42"
-statuses: "affected"
+statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1188605": "Bug 1188605 - Turn e10s on by default for 42/aurora"
