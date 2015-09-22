@@ -1,5 +1,5 @@
 ---
-title: "間違ったリファラポリシー実装が修正されました"
+title: "間違った Referrer Policy 実装が修正されました"
 date: "2015-09-21T21:07:00-04:00"
 categories: ["html", "privacy-security"]
 tags: []
