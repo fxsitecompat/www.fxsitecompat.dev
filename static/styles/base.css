@@ -76,6 +76,17 @@
     line-height: 1.5;
   }
 
+  table {
+    margin: 1em auto;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #CCC;
+    padding: .4em .8em;
+    text-align: left;
+  }
+
   code, kbd {
     font-family: 'Fira Mono', monospace !important; /* Override prism.css */
     font-weight: 500;
