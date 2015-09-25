@@ -21,7 +21,7 @@
       <section class="inner">
         <header>
           <h1 itemprop="name">{{ $title }}</h1>
-          <p itemprop="description">{{ with index $.Site.Data.firefox.versions $version }}{{ replace (replace $strings.version_index_page.description_upcoming "%(version)s" $version) "%(channel)s" (index $.Site.Data.firefox.channels .) }}{{ else }}{{ $description }}{{ end }}</p>
+          <p itemprop="description">{{ with index $.Site.Data.firefox.versions $version }}{{ replace (replace $strings.version_index_page.description_upcoming "%(version)s" $version) "%(channel)s" (index $.Site.Data.firefox.channels .) }}{{ else }}{{ $description }}{{ end }} {{ replace $strings.version_index_page.description_secondary "%s" $version | safeHTML }}</p>
         </header>{{ range $category, $taxonomy := $.Site.Taxonomies.categories }}{{ with $pages := where $taxonomy.Pages "Params.versions" $version }}
         <section>
           <h2>{{ index $strings.categories $category }}</h2>

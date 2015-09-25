@@ -95,9 +95,10 @@ all_versions_page:
 
 # Version index page
 version_index_page:
-    title: "Firefox %s compatibility information"
+    title: "Firefox %s Compatibility Information"
     description: "Browse our Firefox site compatibility documents describing the changes made with Firefox version %s."
-    description_upcoming: "Browse our Firefox site compatibility documents describing the changes made with Firefox version %(version)s, which is currently offered on the %(channel)s channel."
+    description_upcoming: "Browse our Firefox site compatibility documents describing the changes made with Firefox version %(version)s, currently offered on the %(channel)s channel."
+    description_secondary: 'This list will be updated when a further change is made or a new regression is found, so please subscribe to our <a href="/en-US/index.xml">site feed</a> for updates. The general developer information for Firefox %s, including the new features and enhancements, can be found on the <a href="https://developer.mozilla.org/en-US/Firefox/Releases/%s">Mozilla Developer Network</a>.'
 
 # Category index page
 category_index_page:
