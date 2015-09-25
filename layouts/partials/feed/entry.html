@@ -1,4 +1,5 @@
 {{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+{{ $version := .Params.versions }}
   <entry>
     <id>{{ .Permalink }}</id>
     <title>{{ replace .Title "`" "" }}{{ partial "status-label/suffix" . }}</title>
@@ -9,8 +10,8 @@
     </author>{{ end }}
     <content type="html">{{ "<![CDATA[" | safeHTML }}{{ if eq .Section "docs" }}
       <p>
-        <strong>{{ $strings.feed.version }}</strong>: Firefox {{ .Params.versions }}{{ with index $.Site.Data.firefox.versions .Params.versions }} <em>{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}<br>{{ range .Params.categories }}
-        <strong>{{ $strings.feed.category }}</strong>: {{ index $strings.categories . }}<br>{{ end }}
+        <strong>{{ $strings.feed.version }}</strong>: <a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/">Firefox {{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em>{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a><br>{{ range .Params.categories }}
+        <strong>{{ $strings.feed.category }}</strong>: <a href="{{ $.Site.Params.BaseDir }}categories/{{ . }}/">{{ index $strings.categories . }}</a><br>{{ end }}
       </p>
       <h2>{{ $strings.description }}</h2>
       {{ .Content }}
