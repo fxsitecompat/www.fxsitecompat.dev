@@ -1,7 +1,7 @@
 ---
 title: "一部の `RTCPeerConnection` メソッドが近々コールバック必須となります"
 date: "2014-10-17T22:50:44-04:00"
-categories: ["webrtc"]
+categories: ["audio-video"]
 tags: []
 versions: "35"
 cclicense: "BY-SA 3.0"

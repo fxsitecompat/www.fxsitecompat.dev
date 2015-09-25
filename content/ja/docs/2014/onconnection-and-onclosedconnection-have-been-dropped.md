@@ -1,7 +1,7 @@
 ---
 title: "`onconnection` と `onclosedconnection` が削除されました"
 date: "2014-06-09T02:46:54-04:00"
-categories: ["webrtc"]
+categories: ["audio-video"]
 tags: []
 versions: "32"
 cclicense: "BY-SA 3.0"

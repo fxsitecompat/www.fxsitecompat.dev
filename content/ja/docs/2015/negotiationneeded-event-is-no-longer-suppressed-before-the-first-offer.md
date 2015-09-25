@@ -1,7 +1,7 @@
 ---
 title: "`negotiationneeded` イベントが初回オファー前に抑制されなくなりました"
 date: "2015-04-27T13:17:23-04:00"
-categories: ["webrtc"]
+categories: ["audio-video"]
 tags: []
 versions: "40"
 cclicense: "BY-SA 3.0"

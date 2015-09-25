@@ -1,7 +1,7 @@
 ---
 title: "`negotiationneeded` event is no longer suppressed before the first offer"
 date: "2015-04-27T13:17:23-04:00"
-categories: ["webrtc"]
+categories: ["audio-video"]
 tags: []
 versions: "40"
 cclicense: "BY-SA 3.0"

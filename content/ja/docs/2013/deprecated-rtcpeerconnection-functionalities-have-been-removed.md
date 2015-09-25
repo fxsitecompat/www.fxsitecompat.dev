@@ -1,7 +1,7 @@
 ---
 title: "廃止予定となっていた `RTCPeerConnection` の各機能が削除されました"
 date: "2013-10-08T20:15:35-04:00"
-categories: ["webrtc"]
+categories: ["audio-video"]
 tags: []
 versions: "27"
 cclicense: "BY-SA 3.0"

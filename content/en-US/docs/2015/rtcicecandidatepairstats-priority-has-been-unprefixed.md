@@ -1,7 +1,7 @@
 ---
 title: "`RTCIceCandidatePairStats.priority` has been unprefixed"
 date: "2015-08-05T00:48:18-04:00"
-categories: ["webrtc"]
+categories: ["audio-video"]
 tags: []
 versions: "42"
 cclicense: "BY-SA 3.0"

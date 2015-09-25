@@ -1,7 +1,7 @@
 ---
 title: "制約的 `RTCOfferOptions` への対応が打ち切られました"
 date: "2015-09-09T15:49:00-04:00"
-categories: ["webrtc"]
+categories: ["audio-video"]
 tags: []
 versions: "43"
 references:
