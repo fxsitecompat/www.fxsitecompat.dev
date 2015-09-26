@@ -47,12 +47,12 @@
             </section>
           </div>
         </article>
-        <aside class="nocontent">
+        <nav class="nocontent">
           <h2>{{ replace $strings.docs_for_version "%s" $version }}</h2>
           <ul>{{ range where $.Site.Pages "Params.versions" $version }}
             <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
           </ul>
-        </aside>
+        </nav>
       </div>
     </main>
 {{ partial "footer.html" . }}

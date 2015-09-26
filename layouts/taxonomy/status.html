@@ -17,18 +17,26 @@
 {{ partial "search.html" . }}
 {{ partial "breadcrumbs/docs.html" . }}
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
-      <section class="inner">
-        <header>
-          <h1 itemprop="name">{{ $title }}</h1>
-          <p itemprop="description">{{ $description }}</p>
-        </header>{{ range .Data.Pages.GroupByParam "versions" "desc" }}{{ $version := .Key }}
+      <div class="inner">
         <section>
-          <h2>Firefox {{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</h2>
-          <ul>{{ range .Pages }}
-            <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
+          <header>
+            <h1 itemprop="name">{{ $title }}</h1>
+            <p itemprop="description">{{ $description }}</p>
+          </header>{{ range .Data.Pages.GroupByParam "versions" "desc" }}{{ $version := .Key }}
+          <section>
+            <h2>Firefox {{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</h2>
+            <ul>{{ range .Pages }}
+              <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
+            </ul>
+          </section>{{ end }}
+        </section>
+        <nav class="nocontent">
+          <h2>{{ $strings.browse_status }}</h2>
+          <ul class="taxonomy terms">{{ range $status, $taxonomy := $.Site.Taxonomies.statuses }}
+            <li><a href="{{ $.Site.Params.BaseDir }}statuses/{{ $status }}/">{{ (index $strings.statuses $status).label }}</a></li>{{ end }}
           </ul>
-        </section>{{ end }}
-      </section>
+        </nav>
+      </div>
     </main>
 {{ partial "footer.html" . }}
   </body>

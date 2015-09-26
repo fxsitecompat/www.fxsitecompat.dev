@@ -507,11 +507,13 @@
     display: none;
   }
 
-  body.single.article main .inner {
+  body.single.article main .inner,
+  body.list.term main .inner {
     padding: 0;
   }
 
-  body.single.article main article {
+  body.single.article main .inner > article,
+  body.list.term main .inner > section {
     float: left;
     overflow: hidden;
     margin: 0 16px;
@@ -527,7 +529,8 @@
     font-size: 14px;
   }
 
-  body.single.article main aside {
+  body.single.article main .inner > nav,
+  body.list.term main .inner > nav {
     float: right;
     overflow: hidden;
     margin: 0 16px;
@@ -536,8 +539,10 @@
 }
 
 @media screen and (max-width: 1023px) {
-  body.single.article main article,
-  body.single.article main aside {
+  body.single.article main .inner > article,
+  body.single.article main .inner > nav,
+  body.list.term main .inner > section,
+  body.list.term main .inner > nav {
     float: none;
     width: auto;
   }

@@ -32,12 +32,12 @@
             {{ .Content }}
           </div>
         </article>
-        <aside class="nocontent">
+        <nav class="nocontent">
           <h2>{{ $strings.recent_blog_posts }}</h2>
           <ul>{{ range first 10 (where $.Site.Pages "Section" "blog") }}
             <li><a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
           </ul>
-        </aside>
+        </nav>
       </div>
     </main>
 {{ partial "footer.html" . }}
