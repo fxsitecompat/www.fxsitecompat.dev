@@ -55,14 +55,14 @@ contentinfo:
 
 # Search box
 search: "Search"
-search_placeholder: "Search documents"
+search_placeholder: "Search Documents"
 
 # Home page
-latest_blog_post: "Latest blog post"
+latest_blog_post: "Latest Blog Post"
 documents: "Documents"
-browse_category: "Browse by category"
-browse_version: "Browse by version"
-browse_status: "Browse by status"
+browse_category: "Browse by Category"
+browse_version: "Browse by Cersion"
+browse_status: "Browse by Status"
 browse_all_versions: "See all versions..."
 browse_all_categories: "See all categories..."
 home_page:
@@ -75,41 +75,41 @@ all_posts_page:
     description: "Browse all our blog posts related to Firefox site compatibility."
 
 # All documents page
-all_documents: "All documents"
+all_documents: "All Documents"
 all_docs_page:
     title: "Documents"
     description: "Browse all our documents related to Firefox site compatibility."
 
 # All categories page
 all_categories_page:
-    title: "Browse documents by category"
+    title: "Browse Documents by Category"
     description: "Browse all our Firefox site compatibility documents by technology category, including CSS, DOM, JavaScript, Plug-ins, Security & Privacy."
 
 # All statuses page
 all_statuses_page:
-    title: "Browse documents by status"
+    title: "Browse Documents by Status"
     description: "Browse all our Firefox site compatibility documents by issue status, including Affected, Regression and Reverted."
 
 # All versions page
 all_versions_page:
-    title: "Browse documents by version"
+    title: "Browse Documents by Version"
     description: "Browse all our Firefox site compatibility documents by major release, up to the latest pre-release version."
 
 # Version index page
 version_index_page:
-    title: "Firefox %s Compatibility Information"
-    description: "Browse our Firefox site compatibility documents describing the changes made with Firefox version %s."
-    description_upcoming: "Browse our Firefox site compatibility documents describing the changes made with Firefox version %(version)s, currently offered on the %(channel)s channel."
+    title: "Firefox %s Site Compatibility"
+    description: "Browse our site compatibility documents describing the changes made with Firefox version %s."
+    description_upcoming: "Browse our site compatibility documents describing the changes made with Firefox version %(version)s, currently offered on the <em>%(channel)s</em> channel."
     description_secondary: 'This list will be updated when a further change is made or a new regression is found, so please subscribe to our <a href="/en-US/index.xml">site feed</a> for updates. The general developer information for Firefox %s, including the new features and enhancements, can be found on the <a href="https://developer.mozilla.org/en-US/Firefox/Releases/%s">Mozilla Developer Network</a>.'
 
 # Category index page
 category_index_page:
-    title: "%s documents"
+    title: "%s Compatibility Documents"
     description: "Browse our Firefox site compatibility documents describing the changes related to %s."
 
 # Status index page
 status_index_page:
-    title: "Documents with the “%s” status"
+    title: "Documents with the “%s” Status"
 
 # Single document page
 published: "Published"
@@ -119,7 +119,7 @@ references: "References"
 docs_for_version: "Docs for Firefox %s"
 
 # Single blog page
-recent_blog_posts: "Recent blog posts"
+recent_blog_posts: "Recent Blog Posts"
 
 # 404 page
 not_found_page:
@@ -128,6 +128,6 @@ not_found_page:
 
 # Feed
 feed:
-    recent_content: "Recent articles on %s"
+    recent_content: "Recent Articles on %s"
     version: "Version"
     category: "Category"

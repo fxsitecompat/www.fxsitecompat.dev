@@ -97,14 +97,14 @@ all_versions_page:
 
 # Version index page
 version_index_page:
-    title: "Firefox %s 互換性情報"
-    description: "Firefox のバージョン %s に含まれる変更点を解説した Firefox サイト互換性ドキュメントを参照できます。"
-    description_upcoming: "現在 %(channel)s チャンネルで提供されている Firefox のバージョン %(version)s に含まれる変更点を解説した Firefox サイト互換性ドキュメントを参照できます。"
+    title: "Firefox %s サイト互換性情報"
+    description: "Firefox のバージョン %s に含まれる変更点を解説したサイト互換性ドキュメントを参照できます。"
+    description_upcoming: "現在 <em>%(channel)s</em> チャンネルで提供されている Firefox のバージョン %(version)s に含まれる変更点を解説したサイト互換性ドキュメントを参照できます。"
     description_secondary: 'このリストは、さらなる変更が行われたり新たなリグレッションが発見された場合には更新されますので、<a href="/ja/index.xml">サイトのフィード</a> を購読し、最新情報を入手してください。新機能や改良点など Firefox %s の一般的な開発者情報は <a href="https://developer.mozilla.org/ja/Firefox/Releases/%s">Mozilla Developer Network</a> で公開されています。'
 
 # Category index page
 category_index_page:
-    title: "%s 関連のドキュメント"
+    title: "%s 関連の互換性ドキュメント"
     description: "%s に関する変更点を変更点を解説した Firefox サイト互換性ドキュメントを参照できます。"
 
 # Status index page
@@ -116,7 +116,7 @@ published: "公開日"
 creativecommons: "Creative Commons"
 description: "概要"
 references: "参考資料"
-docs_for_version: "Firefox %s の記事"
+docs_for_version: "Firefox %s のドキュメント"
 
 # Single blog page
 recent_blog_posts: "最近のブログ記事"
