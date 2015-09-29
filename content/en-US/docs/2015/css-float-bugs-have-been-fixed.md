@@ -15,4 +15,4 @@ A couple of longstanding issues regarding CSS [`float`](https://developer.mozill
 
 In the first bug, the `margin-top` and `margin-bottom` properties were wrongly applied when used in conjunction with the `float` property under certain circumstances. In the second bug, a `<table>` after a floated element was not cleared properly, resulting in overlapped content. In the third bug, two floated elements with different widths led to a misplacement of the subsequent element, resulting in overlapped content as well.
 
-Whle those changes should align with the specification and other browsers' behavior, some pages may be broken if those are relying on the previous behavior of Firefox. Actually, Mozilla's own site is known to be affected.
+While those changes should align with the specification and other browsers' behavior, some pages may be broken if those are relying on the previous behavior of Firefox. Actually, Mozilla's own site is known to be affected.
