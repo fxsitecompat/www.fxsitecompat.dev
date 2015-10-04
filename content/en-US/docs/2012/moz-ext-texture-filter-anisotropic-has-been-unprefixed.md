@@ -1,7 +1,7 @@
 ---
 title: "`MOZ_EXT_texture_filter_anisotropic` has been unprefixed"
 date: "2012-12-03T03:53:26-05:00"
-categories: ["webgl"]
+categories: ["canvas-webgl"]
 tags: []
 versions: "18"
 cclicense: "BY-SA 3.0"

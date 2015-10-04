@@ -1,7 +1,7 @@
 ---
 title: "`HTMLCanvasElement.mozGetAsFile` が廃止予定となりました"
 date: "2013-09-19T23:58:13-04:00"
-categories: ["dom"]
+categories: ["canvas-webgl", "dom"]
 tags: []
 versions: "26"
 cclicense: "BY-SA 3.0"

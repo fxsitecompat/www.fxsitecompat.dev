@@ -1,7 +1,7 @@
 ---
 title: "`moz-webgl` コンテキストリクエストが廃止されました"
 date: "2014-02-07T11:57:09-05:00"
-categories: ["webgl"]
+categories: ["canvas-webgl"]
 tags: []
 versions: "29"
 cclicense: "BY-SA 3.0"

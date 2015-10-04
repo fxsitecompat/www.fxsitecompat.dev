@@ -9,7 +9,8 @@ sections:
 
 # Categories
 categories:
-    audio-video: "音声・動画"
+    audio-video: "音声 & 動画"
+    canvas-webgl: "Canvas & WebGL"
     css: "CSS"
     dom: "DOM"
     event-handling: "イベント処理"
@@ -21,9 +22,8 @@ categories:
     networking: "ネットワーキング"
     plugins: "プラグイン"
     printing: "印刷"
-    privacy-security: "プライバシー・セキュリティ"
+    privacy-security: "プライバシー & セキュリティ"
     svg: "SVG"
-    webgl: "WebGL"
 
 # Statuses
 statuses:

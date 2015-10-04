@@ -1,7 +1,7 @@
 ---
 title: "Prefixed extensions have been deprecated"
 date: "2013-10-08T20:15:35-04:00"
-categories: ["webgl"]
+categories: ["canvas-webgl"]
 tags: []
 versions: "27"
 cclicense: "BY-SA 3.0"

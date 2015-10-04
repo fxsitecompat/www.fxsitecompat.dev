@@ -10,6 +10,7 @@ sections:
 # Categories
 categories:
     audio-video: "Audio & Video"
+    canvas-webgl: "Canvas & WebGL"
     css: "CSS"
     dom: "DOM"
     event-handling: "Event Handling"
@@ -23,7 +24,6 @@ categories:
     printing: "Printing"
     privacy-security: "Privacy & Security"
     svg: "SVG"
-    webgl: "WebGL"
 
 # Statuses:
 statuses:
