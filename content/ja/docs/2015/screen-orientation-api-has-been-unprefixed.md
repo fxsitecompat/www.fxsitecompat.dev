@@ -10,4 +10,4 @@ references:
 ---
 Firefox 43 で最新の標準 [Screen Orientation API](https://w3c.github.io/screen-orientation/) が実装されました。これは `window.screen.orientation` 上で `type`、`angle`、`onchange` の各プロパティと `lock`、`unlock` 両メソッドを提供します。
 
-Firefox 14 以降利用可能な実験的接頭辞付き実装には、[`window.screen`](https://developer.mozilla.org/en-US/docs/Web/API/Screen) 上の `mozOrientation`、`onmozorientationchange` 両プロパティと `mozLockOrientation`、`mozUnlockOrientation` 両メソッドが含まれますが、これらは将来的に削除されます。
+Firefox 14 以降利用可能な実験的接頭辞付き実装には、[`window.screen`](https://developer.mozilla.org/ja/docs/Web/API/Screen) 上の `mozOrientation`、`onmozorientationchange` 両プロパティと `mozLockOrientation`、`mozUnlockOrientation` 両メソッドが含まれますが、これらは将来的に削除されます。
