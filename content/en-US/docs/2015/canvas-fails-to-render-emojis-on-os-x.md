@@ -8,4 +8,4 @@ statuses: "regressed"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1209480": "Bug 1209480 - Canvas no longer able to render emojis (caused by switch to Skia)"
 ---
-The [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) is no longer able to render emoji characters on Firefox 41 and later for the OS X platform, due to the switch to the Skia 2D graphics library. This broke the emoji detection feature of *WordPress*. Mozilla developers are working on the solution.
+The [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) is no longer able to render emoji characters on Firefox 41 and later for the OS X platform, due to the switch to the Skia 2D graphics library. This broke the emoji detection feature of *Modernizr* used by *WordPress* and others. Mozilla developers are working on the solution.
