@@ -8,4 +8,4 @@ cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=771390": "Bug 771390 – [css3-mediaqueries] resolution units (dpi, dpcm, dppx) should be dots per CSS inch/centimeter/pixel, not per physical in/cm/px"
 ---
-The CSS3 Media Queries spec has been updated, and resolution units such as `dpi`, `dpcm` and `dppx`, now correspond to dots per CSS pixel instead of physical units. The Firefox implementation has been updated accordingly.
+The [CSS3 Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries) spec has been updated, and [resolution units](https://developer.mozilla.org/en-US/docs/Web/CSS/resolution), such as `dpi`, `dpcm` and `dppx`, now correspond to dots per CSS pixel instead of physical units. The Firefox implementation has been updated accordingly.

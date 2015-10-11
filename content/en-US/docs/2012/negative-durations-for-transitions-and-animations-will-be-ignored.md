@@ -8,4 +8,4 @@ cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=773102": "Bug 773102 – transition-duration and animation-duration should reject negative values at parse time"
 ---
-Previously, negative values specified for the [`transition-duration`](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration) and [`animation-duration`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration) properties were interpreted as `0s`, the default value. Such values are now considered invalid and the declaration itself will be ignored.
+Previously, negative values specified for the [`transition-duration`](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration) and [`animation-duration`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration) properties were interpreted as `0s`, the [initial value](https://developer.mozilla.org/en-US/docs/Web/CSS/initial_value). Such values are now considered invalid and the declaration itself will be ignored.
