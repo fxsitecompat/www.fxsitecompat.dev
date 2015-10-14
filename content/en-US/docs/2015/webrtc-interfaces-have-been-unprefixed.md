@@ -6,5 +6,8 @@ tags: []
 versions: "44"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1155923": "Bug 1155923 - Unprefix WebRTC"
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=1206982": "Bug 1206982 - getUserMedia spec switched from PermissionDeniedError to SecurityError"
 ---
 The [`RTCPeerConnection`](https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection), [`RTCSessionDescription`](https://developer.mozilla.org/en-US/docs/Web/API/RTCSessionDescription) and `RTCIceCandidate` interfaces have been unprefixed. The `navigator.mozGetUserMedia` method has also been deprecated in favor of [`navigator.mediaDevices.getUserMedia`](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia). The `moz`-prefixed interfaces and method will be removed soon.
+
+Also, the `PermissionDeniedError` error code, passed to the error callback of the `getUserMedia` method when the permission to use a media device is denied, has been renamed to `SecurityError` according to the latest spec.
