@@ -42,7 +42,7 @@
             </aside>
             <section id="sec-docs-version">
               <h3>{{ $strings.browse_version }}</h3>
-              <ul>{{ range sort (first 5 (.Data.Pages.GroupByParam "versions" "desc")) "Key" }}{{ $version := .Key }}
+              <ul>{{ range first 5 $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}
                 <li><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/">{{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a></li>{{ end }}
                 <li><a href="{{ $.Site.Params.BaseDir }}versions/">{{ $strings.browse_all_versions }}</a></li>
               </ul>

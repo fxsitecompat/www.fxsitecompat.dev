@@ -3,7 +3,7 @@ title: "大文字を含むソースの CSP ディレクティブが適用され�
 date: "2014-10-17T22:50:44-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: "35"
+versions: ["35"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

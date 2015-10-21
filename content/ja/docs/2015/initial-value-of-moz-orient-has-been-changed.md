@@ -3,7 +3,7 @@ title: "`-moz-orient` の初期値が変更されました"
 date: "2015-04-27T13:17:23-04:00"
 categories: ["css"]
 tags: []
-versions: "40"
+versions: ["40"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1028716": "Bug 1028716 – update values of -moz-orient for <progress> and <meter> to remove \'auto\', and add \'inline\' (new initial value) and \'block\' values with writing-mode support"

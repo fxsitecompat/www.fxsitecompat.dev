@@ -3,7 +3,7 @@ title: "Windows 64 ビット版 Firefox が一般公開、対応プラグイン�
 date: "2015-06-13T15:20:46-04:00"
 categories: ["plugins"]
 tags: []
-versions: "42"
+versions: ["42"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

@@ -3,7 +3,7 @@ title: "MathML default font has been changed"
 date: "2015-06-13T15:20:46-04:00"
 categories: ["mathml"]
 tags: []
-versions: "41"
+versions: ["41"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=947654": "Bug 947654 - Default fonts for MathML"

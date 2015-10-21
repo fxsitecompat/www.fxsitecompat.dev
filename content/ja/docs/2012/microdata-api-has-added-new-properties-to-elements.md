@@ -3,7 +3,7 @@ title: "Microdata API によって新たなプロパティが要素に追加さ�
 date: "2012-10-15T06:00:00-04:00"
 categories: ["dom"]
 tags: []
-versions: "16"
+versions: ["16"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

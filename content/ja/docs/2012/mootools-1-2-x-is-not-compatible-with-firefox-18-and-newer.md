@@ -3,7 +3,7 @@ title: "Mootools 1.2.x は Firefox 18 以上と互換性がありません"
 date: "2012-12-03T03:53:26-05:00"
 categories: ["javascript"]
 tags: []
-versions: "18"
+versions: ["18"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

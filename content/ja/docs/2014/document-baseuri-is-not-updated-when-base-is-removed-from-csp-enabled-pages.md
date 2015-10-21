@@ -3,7 +3,7 @@ title: "CSP が有効になっているページから `<base>` が削除され�
 date: "2014-10-17T22:50:44-04:00"
 categories: ["dom"]
 tags: []
-versions: "35"
+versions: ["35"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

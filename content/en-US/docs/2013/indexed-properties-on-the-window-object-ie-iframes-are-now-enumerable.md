@@ -3,7 +3,7 @@ title: "Indexed properties on the `window` object (ie. `iframe`s) are now enumer
 date: "2013-02-06T08:44:10-05:00"
 categories: ["dom"]
 tags: []
-versions: "21"
+versions: ["21"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=823228": "Bug 823228 - Move indexed properties from nsWindowSH::GetProperty to the outer window proxy"

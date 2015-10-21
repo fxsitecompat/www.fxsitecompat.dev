@@ -3,7 +3,7 @@ title: "`Function.length` がデフォルト引数を数えなくなりました
 date: "2013-01-03T03:53:26-05:00"
 categories: ["javascript"]
 tags: []
-versions: "18"
+versions: ["18"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=777061": "Bug 777061 – Function .length property should not count rest parameters or parameters with default values"

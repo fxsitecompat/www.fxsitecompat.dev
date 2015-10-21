@@ -3,7 +3,7 @@ title: "`@-moz-document` 対応が打ち切られました"
 date: "2015-10-13T13:17:00-04:00"
 categories: ["css", "privacy-security"]
 tags: []
-versions: "44"
+versions: ["44"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1035091": "Bug 1035091 - limit @-moz-document to user and UA sheets (Makes it useless for exfiltration in CSS-injection attacks)"
 ---

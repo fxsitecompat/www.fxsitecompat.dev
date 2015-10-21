@@ -3,7 +3,7 @@ title: "SHA-1 対応が廃止予定となりました"
 date: "2014-12-19T11:15:21-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: "36"
+versions: ["36"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

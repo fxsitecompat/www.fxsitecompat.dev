@@ -3,7 +3,7 @@ title: "デバッガ有効時に `eval` 内のコードが動作しません "
 date: "2014-03-21T04:50:04-04:00"
 categories: ["javascript"]
 tags: []
-versions: "30"
+versions: ["30"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

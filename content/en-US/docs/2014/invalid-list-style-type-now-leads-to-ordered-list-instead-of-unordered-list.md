@@ -3,7 +3,7 @@ title: "Invalid `list-style-type` now leads to ordered list instead of unordered
 date: "2014-07-22T05:06:26-04:00"
 categories: ["css"]
 tags: []
-versions: "33"
+versions: ["33"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

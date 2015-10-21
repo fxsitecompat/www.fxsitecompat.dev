@@ -23,17 +23,17 @@
           <header>
             <h1 itemprop="name">{{ $title }}</h1>
             <p itemprop="description">{{ with index $.Site.Data.firefox.versions $version }}{{ replace (replace $strings.version_index_page.description_upcoming "%(version)s" $version) "%(channel)s" (index $.Site.Data.firefox.channels .) | safeHTML }}{{ else }}{{ $description }}{{ end }} {{ replace $strings.version_index_page.description_secondary "%s" $version | safeHTML }}</p>
-          </header>{{ range $category, $taxonomy := $.Site.Taxonomies.categories }}{{ with $pages := where $taxonomy.Pages "Params.versions" $version }}
+          </header>{{ range $category, $taxonomy := $.Site.Taxonomies.categories }}
           <section>
             <h2>{{ index $strings.categories $category }}</h2>
-            <ul>{{ range $pages }}
-              <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
+            <ul>{{ range $taxonomy.Pages }}{{ if in .Params.versions $version }}
+              <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}{{ end }}
             </ul>
-          </section>{{ end }}{{ end }}
+          </section>{{ end }}
         </section>
         <nav class="nocontent">
           <h2>{{ $strings.browse_version }}</h2>
-          <ul class="taxonomy terms">{{ range first 7 ($.Site.Pages.GroupByParam "versions" "desc") }}{{ $version := .Key }}
+          <ul class="taxonomy terms">{{ range first 7 $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}
             <li><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/">Firefox {{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a></li>{{ end }}
             <li><a href="{{ $.Site.Params.BaseDir }}versions/">{{ $strings.browse_all_versions }}</a></li>
           </ul>

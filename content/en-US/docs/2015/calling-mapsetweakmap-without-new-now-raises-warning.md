@@ -3,7 +3,7 @@ title: "Calling `Map`/`Set`/`WeakMap` without `new` now raises warning"
 date: "2015-02-27T04:21:22-05:00"
 categories: ["javascript"]
 tags: []
-versions: "38"
+versions: ["38"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1062075": "Bug 1108930 – Throw for ES6 built-in constructors called without `new`"

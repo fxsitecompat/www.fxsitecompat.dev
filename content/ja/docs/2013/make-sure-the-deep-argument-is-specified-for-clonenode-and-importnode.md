@@ -3,7 +3,7 @@ title: "`cloneNode` と `importNode` の `deep` 引数は必ず指定してく�
 date: "2013-12-09T02:32:17-05:00"
 categories: ["dom"]
 tags: []
-versions: "28"
+versions: ["28"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=937465": "Bug 937465 – Add a warning when cloneNode/importNode is used without a boolean argument on a node with children"

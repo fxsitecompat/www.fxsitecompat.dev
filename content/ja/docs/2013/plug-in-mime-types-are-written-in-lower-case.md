@@ -3,7 +3,7 @@ title: "プラグインの MIME タイプが小文字表記になっています
 date: "2013-12-09T02:32:17-05:00"
 categories: ["dom", "plugins"]
 tags: []
-versions: "28"
+versions: ["28"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

@@ -3,7 +3,7 @@ title: "`window._content`, `controllers`, `pkcs11` and `LoadStatus` have been re
 date: "2014-02-07T11:57:09-05:00"
 categories: ["dom"]
 tags: []
-versions: "29"
+versions: ["29"]
 statuses: "reverted"
 cclicense: "BY-SA 3.0"
 references:

@@ -3,7 +3,7 @@ title: "`LSProgressEvent` has been removed"
 date: "2013-02-24T03:44:31-05:00"
 categories: ["dom"]
 tags: []
-versions: "22"
+versions: ["22"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=845631": "Bug 845631 – Remove nsXMLHttpProgressEvent"

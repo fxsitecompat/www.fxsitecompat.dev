@@ -3,7 +3,7 @@ title: "`<option>` cannot be selected in certain circumstances"
 date: "2015-08-16T03:45:05-04:00"
 categories: ["html"]
 tags: []
-versions: "40"
+versions: ["40"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

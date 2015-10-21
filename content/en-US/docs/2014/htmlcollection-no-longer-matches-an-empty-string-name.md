@@ -3,7 +3,7 @@ title: "`HTMLCollection` no longer matches an empty string name"
 date: "2014-06-09T02:46:54-04:00"
 categories: ["dom"]
 tags: []
-versions: "32"
+versions: ["32"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=891952": "Bug 891952 – Update empty string handling in named getters to spec changes"

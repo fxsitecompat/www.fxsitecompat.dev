@@ -3,7 +3,7 @@ title: "DHE keys less than 1023-bit are no longer accepted"
 date: "2015-03-17T14:02:59-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: "39"
+versions: ["39"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

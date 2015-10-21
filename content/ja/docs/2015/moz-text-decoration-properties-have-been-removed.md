@@ -3,7 +3,7 @@ title: "`-moz-text-decoration-*` プロパティが削除されました"
 date: "2015-04-27T13:17:23-04:00"
 categories: ["css"]
 tags: []
-versions: "40"
+versions: ["40"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1097922": "Bug 1097922 - Remove temporary aliases for -moz-text-decoration-*."

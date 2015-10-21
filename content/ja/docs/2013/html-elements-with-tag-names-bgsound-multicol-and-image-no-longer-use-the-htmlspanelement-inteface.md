@@ -3,7 +3,7 @@ title: "`bgsound`、`multicol`、`image` のタグ名を持つ HTML 要素が `H
 date: "2013-02-24T03:44:31-05:00"
 categories: ["dom"]
 tags: []
-versions: "22"
+versions: ["22"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=844127": "Bug 844127 – Stop using the HTMLSpanElement interface for bgsound, multicol, image"

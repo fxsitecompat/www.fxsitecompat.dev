@@ -3,7 +3,7 @@ title: "`Content-Disposition` header\'s `name` parameter is no longer supported"
 date: "2012-12-03T03:54:45-05:00"
 categories: ["file-handling"]
 tags: []
-versions: "19"
+versions: ["19"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=776339": "Bug 776339 – remove support of Content-Disposition \"name\" parameter"

@@ -3,7 +3,7 @@ title: "`beforeunload` confirmation dialog will no longer be displayed unless us
 date: "2015-09-29T10:25:00-04:00"
 categories: ["dom"]
 tags: []
-versions: "44"
+versions: ["44"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=636905": "Bug 636905 - Don't allow onbeforeunload dialog unless I have interacted with the page"
     "https://bugzilla.mozilla.org/show_bug.cgi?id=578828": "Bug 578828 - Default to not allowing onbeforeunload dialogs"

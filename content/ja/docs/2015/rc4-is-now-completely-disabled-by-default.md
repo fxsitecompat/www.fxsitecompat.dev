@@ -3,7 +3,7 @@ title: "RC4 が初期設定で完全に無効化されました"
 date: "2015-10-20T14:47:00-07:00"
 categories: ["privacy-security"]
 tags: []
-versions: "44"
+versions: ["44"]
 statuses: "affected"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1201025": "Bug 1201025 - Disable fallback whitelist by default, in all releases"

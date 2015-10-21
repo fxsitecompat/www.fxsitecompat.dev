@@ -3,7 +3,7 @@ title: "ブラウザウィンドウの最小幅が設定されました"
 date: "2014-02-07T11:57:09-05:00"
 categories: ["misc"]
 tags: []
-versions: "29"
+versions: ["29"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=897160": "Bug 897160 – Set a minimum width for the Firefox window"

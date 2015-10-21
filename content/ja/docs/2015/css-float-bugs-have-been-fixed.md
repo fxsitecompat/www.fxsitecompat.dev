@@ -3,7 +3,7 @@ title: "CSS `float` 関連のバグが修正されました"
 date: "2015-09-23T07:14:00-04:00"
 categories: ["css"]
 tags: []
-versions: "42"
+versions: ["42"]
 statuses: "affected"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=451791": "Bug 451791 - CSS margin-top collapses across cleared element inside previous sibling and out top of previous sibling (works in Safari, but Firefox has a bug)"

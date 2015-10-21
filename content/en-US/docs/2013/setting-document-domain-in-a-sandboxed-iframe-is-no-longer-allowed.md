@@ -3,7 +3,7 @@ title: "Setting `document.domain` in a sandboxed `iframe` is no longer allowed"
 date: "2013-09-19T23:58:13-04:00"
 categories: ["dom"]
 tags: []
-versions: "26"
+versions: ["26"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=907892": "Bug 907892 – Disallow setting document.domain in sandboxed iframes"

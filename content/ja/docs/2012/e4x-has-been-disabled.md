@@ -3,7 +3,7 @@ title: "E4X が無効化されました"
 date: "2012-12-03T03:50:54-05:00"
 categories: ["javascript"]
 tags: []
-versions: "17"
+versions: ["17"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

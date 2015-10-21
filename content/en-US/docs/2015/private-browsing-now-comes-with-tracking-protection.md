@@ -3,7 +3,7 @@ title: "Private Browsing now comes with Tracking Protection"
 date: "2015-09-29T21:32:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: "42"
+versions: ["42"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1029886": "Bug 1029886 - tracking bug for tracking protection"
     "https://blog.mozilla.org/futurereleases/2015/09/23/help-test-private-browsing-with-tracking-protection-in-firefox-beta/": "Help Test Private Browsing with Tracking Protection in Firefox Beta"

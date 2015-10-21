@@ -3,7 +3,7 @@ title: "`MozConnection` interface is no longer a global object"
 date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []
-versions: "30"
+versions: ["30"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=960945": "Bug 960945 – MozConnection should be NoInterfaceObject"

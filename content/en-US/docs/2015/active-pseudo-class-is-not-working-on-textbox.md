@@ -3,7 +3,7 @@ title: "`:active` pseudo-class is not working on textbox"
 date: "2015-10-21T02:20:00-07:00"
 categories: ["css"]
 tags: []
-versions: "38"
+versions: ["38"]
 statuses: "regressed"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1168055": "Bug 1168055 - Active Pseudo class not working for textbox in firefox 38"

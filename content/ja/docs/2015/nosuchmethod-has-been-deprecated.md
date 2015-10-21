@@ -3,7 +3,7 @@ title: "`__noSuchMethod__` が廃止予定となりました"
 date: "2015-03-17T14:02:59-04:00"
 categories: ["javascript"]
 tags: []
-versions: "39"
+versions: ["39"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=683218": "Bug 683218 - can we remove __noSuchMethod__, use proxies instead?"

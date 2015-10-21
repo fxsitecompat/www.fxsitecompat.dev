@@ -3,7 +3,7 @@ title: "XHR マルチパートレスポンス対応が削除されました"
 date: "2013-02-24T03:44:31-05:00"
 categories: ["dom"]
 tags: []
-versions: "22"
+versions: ["22"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=843508": "Bug 843508 – Remove support for multipart XHR responses"

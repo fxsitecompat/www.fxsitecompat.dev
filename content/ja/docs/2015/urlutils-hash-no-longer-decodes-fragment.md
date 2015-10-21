@@ -3,7 +3,7 @@ title: "`URLUtils.hash` がフラグメントをデコードしなくなりま�
 date: "2015-06-13T15:20:46-04:00"
 categories: ["dom"]
 tags: []
-versions: "41"
+versions: ["41"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

@@ -3,7 +3,7 @@ title: "`-moz` 接頭辞付きグラデーション対応が廃止予定のた�
 date: "2015-08-05T00:48:18-04:00"
 categories: ["css"]
 tags: []
-versions: "42"
+versions: ["42"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

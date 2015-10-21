@@ -3,7 +3,7 @@ title: "`CSSStyleSheet.insertRule` will throw when there are more than one rule"
 date: "2013-02-06T08:44:10-05:00"
 categories: ["dom"]
 tags: []
-versions: "21"
+versions: ["21"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=765599": "Bug 765599 – CSSStyleSheet.insertRule should throw when there are more than one rule"

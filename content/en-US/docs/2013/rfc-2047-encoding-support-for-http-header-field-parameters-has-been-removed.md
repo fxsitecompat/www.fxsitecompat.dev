@@ -3,7 +3,7 @@ title: "RFC 2047 encoding support for HTTP header field parameters has been remo
 date: "2013-02-24T03:44:31-05:00"
 categories: ["file-handling"]
 tags: []
-versions: "22"
+versions: ["22"]
 statuses: "reverted"
 cclicense: "BY-SA 3.0"
 references:

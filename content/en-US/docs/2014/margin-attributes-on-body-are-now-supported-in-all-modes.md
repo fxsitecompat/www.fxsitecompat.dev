@@ -3,7 +3,7 @@ title: "Margin attributes on `<body>` are now supported in all modes"
 date: "2014-10-17T22:50:44-04:00"
 categories: ["html"]
 tags: []
-versions: "35"
+versions: ["35"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=95530": "Bug 95530 – topmargin and leftmargin attributes on the BODY element should be honored in all modes (not just Quirks mode)"

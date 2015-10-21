@@ -3,7 +3,7 @@ title: "1024 ビット SSL 証明書の信頼が打ち切られました"
 date: "2015-02-27T04:21:22-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: "38"
+versions: ["38"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

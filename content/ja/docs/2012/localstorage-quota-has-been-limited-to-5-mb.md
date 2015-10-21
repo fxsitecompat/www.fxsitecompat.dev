@@ -3,7 +3,7 @@ title: "`localStorage` の保存上限サイズが 5 MB に変更されました
 date: "2012-12-03T03:53:26-05:00"
 categories: ["dom"]
 tags: []
-versions: "18"
+versions: ["18"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=776416": "Bug 776416 – Remove exceptions to 5MB quota rule in localStorage"

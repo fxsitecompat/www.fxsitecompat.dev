@@ -3,7 +3,7 @@ title: "XHR multipart support is now deprecated"
 date: "2012-12-29T08:29:30-05:00"
 categories: ["dom"]
 tags: []
-versions: "20"
+versions: ["20"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=844792": "Bug 844792 – Warn about the upcoming removal of multipart support in XHR"

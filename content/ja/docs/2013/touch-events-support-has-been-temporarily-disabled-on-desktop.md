@@ -3,7 +3,7 @@ title: "タッチイベント対応がデスクトップで一時的に無効化
 date: "2013-05-19T07:35:00-04:00"
 categories: [event-handling]
 tags: []
-versions: "24"
+versions: ["24"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

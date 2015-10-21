@@ -3,7 +3,7 @@ title: "`HTMLCollection` が空白の文字列名に一致しなくなりまし�
 date: "2014-06-09T02:46:54-04:00"
 categories: ["dom"]
 tags: []
-versions: "32"
+versions: ["32"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=891952": "Bug 891952 – Update empty string handling in named getters to spec changes"

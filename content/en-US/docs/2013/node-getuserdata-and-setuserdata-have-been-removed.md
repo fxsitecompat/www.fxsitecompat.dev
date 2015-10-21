@@ -3,7 +3,7 @@ title: "`Node.getUserData` and `setUserData` have been removed"
 date: "2013-02-24T03:44:31-05:00"
 categories: ["dom"]
 tags: []
-versions: "22"
+versions: ["22"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

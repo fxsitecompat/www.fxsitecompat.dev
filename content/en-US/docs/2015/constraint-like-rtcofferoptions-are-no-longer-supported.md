@@ -3,7 +3,7 @@ title: "Constraint-like `RTCOfferOptions` are no longer supported"
 date: "2015-09-09T15:49:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: "43"
+versions: ["43"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1063808": "Bug 1063808 - createOffer options spec-change to RTCOfferOptions abruptly breaks things in 33"
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1064223": "Bug 1064223 - Retire backwards compatible RTCOfferOptions in about 6 weeks"

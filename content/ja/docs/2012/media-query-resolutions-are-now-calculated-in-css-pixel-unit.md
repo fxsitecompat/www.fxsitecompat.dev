@@ -3,7 +3,7 @@ title: "メディアクエリの解像度が CSS ピクセル単位で計算さ�
 date: "2012-10-09T06:00:00-04:00"
 categories: ["css"]
 tags: []
-versions: "16"
+versions: ["16"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=771390": "Bug 771390 – [css3-mediaqueries] resolution units (dpi, dpcm, dppx) should be dots per CSS inch/centimeter/pixel, not per physical in/cm/px"

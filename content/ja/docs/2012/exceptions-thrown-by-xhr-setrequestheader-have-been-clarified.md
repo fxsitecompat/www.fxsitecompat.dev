@@ -3,7 +3,7 @@ title: "`XHR.setRequestHeader()` で投げられる例外が明確化されま�
 date: "2012-12-03T03:50:54-05:00"
 categories: ["dom"]
 tags: []
-versions: "17"
+versions: ["17"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=600111": "Bug 600111 – XMLHttpRequest.setRequestHeader() throws NS_ERROR_FAILURE inappropriately"

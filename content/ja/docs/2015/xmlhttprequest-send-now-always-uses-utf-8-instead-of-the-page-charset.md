@@ -3,7 +3,7 @@ title: "`XMLHttpRequest.send` がページの文字コードではなく常に U
 date: "2015-01-16T09:37:54-05:00"
 categories: ["dom"]
 tags: []
-versions: "37"
+versions: ["37"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1109486": "Bug 1109486 – XMLHttpRequest.send(document) should unconditionally encode as UTF-8"

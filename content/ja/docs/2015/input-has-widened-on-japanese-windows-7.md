@@ -3,7 +3,7 @@ title: "日本語版 Windows 7 で `<input>` の幅が広がっています"
 date: "2015-08-16T03:30:08-04:00"
 categories: ["html"]
 tags: []
-versions: "40"
+versions: ["40"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

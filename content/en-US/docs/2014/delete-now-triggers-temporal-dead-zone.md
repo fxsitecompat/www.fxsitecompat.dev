@@ -3,7 +3,7 @@ title: "`delete` now triggers \"temporal dead zone\""
 date: "2014-12-19T11:15:21-05:00"
 categories: ["javascript"]
 tags: []
-versions: "36"
+versions: ["36"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1074571": "Bug 1074571 – The delete operator should trigger TDZ"

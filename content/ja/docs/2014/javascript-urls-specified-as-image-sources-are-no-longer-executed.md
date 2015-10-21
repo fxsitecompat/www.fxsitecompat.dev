@@ -3,7 +3,7 @@ title: "画像ソースとして指定された `javascript` URL は実行され
 date: "2014-07-22T05:06:26-04:00"
 categories: ["javascript"]
 tags: []
-versions: "33"
+versions: ["33"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1018583": "Bug 1018583 – <style>background: url(\'javascript:while(true){}\');</style> hangs Firefox"

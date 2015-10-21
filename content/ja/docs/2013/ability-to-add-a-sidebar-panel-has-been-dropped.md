@@ -3,7 +3,7 @@ title: "サイドバーパネル追加機能が削除されました"
 date: "2013-04-06T04:52:59-04:00"
 categories: ["dom"]
 tags: []
-versions: "23"
+versions: ["23"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

@@ -3,7 +3,7 @@ title: "`document.referrer` の実装が最新仕様に合わせて更新され�
 date: "2012-12-03T03:54:45-05:00"
 categories: ["dom"]
 tags: []
-versions: "19"
+versions: ["19"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=809290": "Bug 809290 – document.referrer should be based on the script entry point"

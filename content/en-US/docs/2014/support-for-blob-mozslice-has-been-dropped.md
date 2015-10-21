@@ -3,7 +3,7 @@ title: "Support for `Blob.mozSlice` has been dropped"
 date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []
-versions: "30"
+versions: ["30"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=961804": "Bug 961804 – Drop support for Blob.mozSlice"

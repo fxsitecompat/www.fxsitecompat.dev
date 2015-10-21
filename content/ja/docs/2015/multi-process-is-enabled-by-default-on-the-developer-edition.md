@@ -3,7 +3,7 @@ title: "Developer Edition でマルチプロセスが初期設定で有効とな
 date: "2015-08-05T00:48:18-04:00"
 categories: ["misc"]
 tags: []
-versions: "43"
+versions: ["43"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

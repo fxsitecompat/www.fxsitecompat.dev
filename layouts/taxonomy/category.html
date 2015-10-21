@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 {{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
-{{ $category := index $strings.categories (.Title | urlize) }}
-{{ $title := replace $strings.category_index_page.title "%s" $category }}
-{{ $description := replace $strings.category_index_page.description "%s" $category }}
+{{ $category := .Title | urlize }}
+{{ $_category := index $strings.categories $category }}
+{{ $title := replace $strings.category_index_page.title "%s" $_category }}
+{{ $description := replace $strings.category_index_page.description "%s" $_category }}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
@@ -23,11 +24,11 @@
           <header>
             <h1 itemprop="name">{{ $title }}</h1>
             <p itemprop="description">{{ $description }}</p>
-          </header>{{ range .Data.Pages.GroupByParam "versions" "desc" }}{{ $version := .Key }}
+          </header>{{ range $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}
           <section>
             <h2>Firefox {{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</h2>
-            <ul>{{ range .Pages }}
-              <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
+            <ul>{{ range .Pages }}{{ if in .Params.categories $category }}
+              <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}{{ end }}
             </ul>
           </section>{{ end }}
         </section>

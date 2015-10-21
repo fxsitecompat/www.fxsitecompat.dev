@@ -3,7 +3,7 @@ title: "Cache backend has been overhauled"
 date: "2014-06-09T02:46:54-04:00"
 categories: ["networking"]
 tags: []
-versions: "32"
+versions: ["32"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

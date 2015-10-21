@@ -3,7 +3,7 @@ title: "Canvas fails to render emojis on OS X"
 date: "2015-10-03T22:54:00-04:00"
 categories: ["canvas-webgl"]
 tags: []
-versions: "41"
+versions: ["41", "42", "43", "44"]
 statuses: "regressed"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1209480": "Bug 1209480 - Canvas no longer able to render emojis (caused by switch to Skia)"

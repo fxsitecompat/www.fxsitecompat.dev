@@ -3,7 +3,7 @@ title: "`Object.__proto__` セッターの使用は避けるべきです"
 date: "2014-03-21T04:50:04-04:00"
 categories: ["javascript"]
 tags: []
-versions: "30"
+versions: ["30"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=948227": "Bug 948227 – Make the Object.prototype.__proto__ setter warn about perf impact when used, and suggest alternatives"

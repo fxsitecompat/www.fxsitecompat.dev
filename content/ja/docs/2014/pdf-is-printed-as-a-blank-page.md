@@ -3,7 +3,7 @@ title: "PDF が空白のページとして印刷されます"
 date: "2014-02-07T11:57:09-05:00"
 categories: ["printing"]
 tags: []
-versions: "29"
+versions: ["29"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

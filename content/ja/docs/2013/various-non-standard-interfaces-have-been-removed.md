@@ -3,7 +3,7 @@ title: "様々な非標準インタフェースが削除されました"
 date: "2013-09-19T23:58:13-04:00"
 categories: ["dom"]
 tags: []
-versions: "26"
+versions: ["26"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=899388": "Bug 899388 – Remove XUL-related interfaces and ChromeWindow from content"

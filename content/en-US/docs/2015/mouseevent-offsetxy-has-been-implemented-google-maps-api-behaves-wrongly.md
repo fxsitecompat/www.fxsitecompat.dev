@@ -3,7 +3,7 @@ title: "`MouseEvent.offsetX`/`Y` has been implemented; Google Maps API behaves w
 date: "2015-07-13T10:05:10-04:00"
 categories: ["dom"]
 tags: []
-versions: "39"
+versions: ["39"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

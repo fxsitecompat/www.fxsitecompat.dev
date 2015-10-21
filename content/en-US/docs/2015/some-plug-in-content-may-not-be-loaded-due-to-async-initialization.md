@@ -3,7 +3,7 @@ title: "Some plug-in content may not be loaded due to async initialization"
 date: "2015-08-12T22:39:43-04:00"
 categories: ["plugins"]
 tags: []
-versions: "40"
+versions: ["40"]
 statuses: "reverted"
 cclicense: "BY-SA 3.0"
 references:

@@ -3,7 +3,7 @@ title: "`Number` がバイナリと 8 進数リテラルに対応しました"
 date: "2014-12-19T11:15:21-05:00"
 categories: ["javascript"]
 tags: []
-versions: "36"
+versions: ["36"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1079120": "Bug 1079120 – Make ToNumber(string) support binary and octal literals"

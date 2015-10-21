@@ -3,7 +3,7 @@ title: "Carbon NPAPI Support has been dropped"
 date: "2012-12-03T03:54:45-05:00"
 categories: ["plugins"]
 tags: []
-versions: "19"
+versions: ["19"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=598397": "Bug 598397 - remove support for Carbon NPAPI"

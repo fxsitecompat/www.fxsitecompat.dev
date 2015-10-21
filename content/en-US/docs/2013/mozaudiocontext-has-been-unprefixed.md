@@ -3,7 +3,7 @@ title: "`mozAudioContext` has been unprefixed"
 date: "2013-02-06T08:44:10-05:00"
 categories: ["audio-video"]
 tags: []
-versions: "21"
+versions: ["21"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=833631": "Bug 833631 – Unprefix mozAudioContext"

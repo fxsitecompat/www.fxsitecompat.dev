@@ -3,7 +3,7 @@ title: "Files may be downloaded partially from misconfigured servers"
 date: "2014-07-22T05:06:26-04:00"
 categories: ["networking"]
 tags: []
-versions: "33"
+versions: ["33"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

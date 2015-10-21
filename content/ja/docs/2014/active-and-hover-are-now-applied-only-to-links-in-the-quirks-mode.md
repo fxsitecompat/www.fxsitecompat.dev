@@ -3,7 +3,7 @@ title: "Quirks モードで `:active` と `:hover` がリンクのみに適用�
 date: "2014-12-19T11:15:21-05:00"
 categories: ["css"]
 tags: []
-versions: "36"
+versions: ["36"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=783213": "Bug 783213 – :active and :hover quirk should only apply to links"

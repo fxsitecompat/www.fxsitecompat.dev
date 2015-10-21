@@ -3,7 +3,7 @@ title: "Initializer in `for-of`/`in` loop head declaration is no longer allowed"
 date: "2015-04-27T13:17:23-04:00"
 categories: ["javascript"]
 tags: []
-versions: "40"
+versions: ["40"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

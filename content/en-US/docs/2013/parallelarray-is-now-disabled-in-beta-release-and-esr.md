@@ -3,7 +3,7 @@ title: "`ParallelArray` is now disabled in Beta, Release and ESR"
 date: "2013-02-24T03:44:31-05:00"
 categories: ["javascript"]
 tags: []
-versions: "22"
+versions: ["22"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=853067": "Bug 853067 – Disable parallelarray in beta/release/esr for now"

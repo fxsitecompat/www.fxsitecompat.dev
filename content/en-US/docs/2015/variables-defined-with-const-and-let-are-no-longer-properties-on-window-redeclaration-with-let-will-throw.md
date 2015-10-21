@@ -3,7 +3,7 @@ title: "Variables defined with `const` and `let` are no longer properties on `wi
 date: "2015-10-13T20:37:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: "44"
+versions: ["44"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=589199": "Bug 589199 - Add an extra scope chain object for top-level script execution, encountered just before the global object, containing top-level |let| declaration bindings"
 aliases:

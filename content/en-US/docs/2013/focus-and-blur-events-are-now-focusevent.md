@@ -3,7 +3,7 @@ title: "`focus` and `blur` events are now `FocusEvent`"
 date: "2013-05-19T07:35:00-04:00"
 categories: ["dom"]
 tags: []
-versions: "24"
+versions: ["24"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=855741": "Bug 855741 – FocusEvent interface is missing"

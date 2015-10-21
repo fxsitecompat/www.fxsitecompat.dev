@@ -3,7 +3,7 @@ title: "Initial value of `min-width`/`height` on flex items has been reverted to
 date: "2014-09-01T22:12:15-04:00"
 categories: ["css"]
 tags: []
-versions: "34"
+versions: ["34"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

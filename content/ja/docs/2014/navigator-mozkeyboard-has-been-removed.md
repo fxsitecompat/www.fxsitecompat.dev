@@ -3,7 +3,7 @@ title: "`navigator.mozKeyboard` が削除されました"
 date: "2014-04-03T19:31:02-04:00"
 categories: ["dom"]
 tags: []
-versions: "31"
+versions: ["31"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=986992": "Bug 986992 – Remove navigator.mozKeyboard"

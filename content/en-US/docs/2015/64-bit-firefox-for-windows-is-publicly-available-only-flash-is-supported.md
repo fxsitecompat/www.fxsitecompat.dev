@@ -3,7 +3,7 @@ title: "64-bit Firefox for Windows is publicly available; only Flash is supporte
 date: "2015-06-13T15:20:46-04:00"
 categories: ["plugins"]
 tags: []
-versions: "42"
+versions: ["42"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

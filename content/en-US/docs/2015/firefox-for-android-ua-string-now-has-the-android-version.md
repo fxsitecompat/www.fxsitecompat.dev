@@ -3,7 +3,7 @@ title: "Firefox for Android UA string now has the Android version"
 date: "2015-06-13T15:20:46-04:00"
 categories: ["networking"]
 tags: []
-versions: "41"
+versions: ["41"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

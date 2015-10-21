@@ -3,7 +3,7 @@ title: "Setter with a rest parameter will throw"
 date: "2015-02-27T04:21:22-05:00"
 categories: ["javascript"]
 tags: []
-versions: "38"
+versions: ["38"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1089632": "Bug 1089632 – Setter with a RestParameter should be a SyntaxError"

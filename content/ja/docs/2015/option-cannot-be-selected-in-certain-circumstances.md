@@ -3,7 +3,7 @@ title: "特定の状況で `<option>` が選択できません"
 date: "2015-08-16T03:45:05-04:00"
 categories: ["html"]
 tags: []
-versions: "40"
+versions: ["40"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

@@ -3,7 +3,7 @@ title: "E4X 実装が完全に削除されました"
 date: "2013-02-06T08:44:10-05:00"
 categories: ["javascript"]
 tags: []
-versions: "21"
+versions: ["21"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=788293": "Bug 788293 – Remove E4X from Spidermonkey"

@@ -3,7 +3,7 @@ title: "`initCloseEvent` and `createEvent(\'CloseEvent\')` have been removed"
 date: "2015-06-13T15:20:46-04:00"
 categories: ["dom"]
 tags: []
-versions: "41"
+versions: ["41"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1161950": "Bug 1161950 - Remove support for createEvent(\"CloseEvent\") / initCloseEvent"

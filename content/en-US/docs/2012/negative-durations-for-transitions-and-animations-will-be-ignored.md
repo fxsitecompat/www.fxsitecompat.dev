@@ -3,7 +3,7 @@ title: "Negative durations for transitions and animations will be ignored"
 date: "2012-10-09T06:00:00-04:00"
 categories: ["css"]
 tags: []
-versions: "16"
+versions: ["16"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=773102": "Bug 773102 – transition-duration and animation-duration should reject negative values at parse time"

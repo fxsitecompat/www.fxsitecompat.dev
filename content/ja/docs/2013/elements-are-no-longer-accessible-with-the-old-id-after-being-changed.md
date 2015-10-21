@@ -3,7 +3,7 @@ title: "要素の `id` 変更後、変更前の `id` ではアクセスできな
 date: "2013-09-19T23:58:13-04:00"
 categories: ["dom"]
 tags: []
-versions: "26"
+versions: ["26"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=790601": "Bug 790601 – Javascript element should not exist with old id"

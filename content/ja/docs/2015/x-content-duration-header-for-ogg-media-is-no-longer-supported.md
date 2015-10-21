@@ -3,7 +3,7 @@ title: "Ogg メディア向け `X-Content-Duration` ヘッダの対応が打ち�
 date: "2015-09-15T23:38:00-04:00"
 categories: ["audio-video", "networking"]
 tags: []
-versions: "41"
+versions: ["41"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1160695": "Bug 1160695 - Clean up duration tracking and use mirroring for cross-thread access"
 ---

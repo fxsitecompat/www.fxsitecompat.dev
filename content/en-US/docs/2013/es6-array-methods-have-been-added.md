@@ -3,7 +3,7 @@ title: "ES6 array methods have been added"
 date: "2013-07-14T19:12:37-04:00"
 categories: ["javascript"]
 tags: []
-versions: "25"
+versions: ["25"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

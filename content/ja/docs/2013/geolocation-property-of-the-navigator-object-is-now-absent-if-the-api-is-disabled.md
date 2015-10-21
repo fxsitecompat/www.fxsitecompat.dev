@@ -3,7 +3,7 @@ title: "`navigator` オブジェクトの `geolocation` プロパティが API �
 date: "2013-07-14T19:12:37-04:00"
 categories: ["dom"]
 tags: []
-versions: "25"
+versions: ["25"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=884921": "Bug 884921 – Align navigator.geolocation with spec"

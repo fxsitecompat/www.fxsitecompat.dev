@@ -3,7 +3,7 @@ title: "ECMAScript `arguments` implementation has been updated"
 date: "2015-09-24T17:00:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: "43"
+versions: ["43"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=889158": "Bug 889158 - Calling an arrow function shouldn't create an 'arguments' binding"
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1175394": "Bug 1175394 - Mapped arguments object should only be created when its FormalParameters is a SimpleParameterList"

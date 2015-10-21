@@ -3,7 +3,7 @@ title: "ICO images now use the largest resource as the intrinsic size"
 date: "2015-09-25T03:09:00-04:00"
 categories: ["misc"]
 tags: []
-versions: "43"
+versions: ["43"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1201796": "Bug 1201796 - Add downscale-during-decode support for the ICO decoder"
 aliases:

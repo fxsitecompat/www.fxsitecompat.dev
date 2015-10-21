@@ -3,7 +3,7 @@ title: "Instantiation of `AnimationEvent` and `TransitionEvent` using `Document.
 date: "2013-04-06T04:52:59-04:00"
 categories: ["dom"]
 tags: []
-versions: "23"
+versions: ["23"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=868751": "Bug 868751 – Remove support for document.createEvent(\"AnimationEvent\"), document.createEvent(\"TransitionEvent\"), AnimationEvent.initAnimationEvent, and TransitionEvent.initTransitionEvent"

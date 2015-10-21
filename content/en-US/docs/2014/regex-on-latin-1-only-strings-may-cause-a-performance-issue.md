@@ -3,7 +3,7 @@ title: "Regex on Latin-1-only strings may cause a performance issue"
 date: "2014-07-22T05:06:26-04:00"
 categories: ["javascript"]
 tags: []
-versions: "33"
+versions: ["33"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

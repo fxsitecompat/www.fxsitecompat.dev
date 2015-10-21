@@ -3,7 +3,7 @@ title: "引数として `undefined` が渡された場合、デフォルト値�
 date: "2013-01-03T03:53:26-05:00"
 categories: ["javascript"]
 tags: []
-versions: "18"
+versions: ["18"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=781422": "Bug 781422 – parameters should get defaults whenever they are undefined"

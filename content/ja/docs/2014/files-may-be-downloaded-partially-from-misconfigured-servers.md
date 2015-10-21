@@ -3,7 +3,7 @@ title: "サーバの誤設定によりファイルが部分的にダウンロー
 date: "2014-07-22T05:06:26-04:00"
 categories: ["networking"]
 tags: []
-versions: "33"
+versions: ["33"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

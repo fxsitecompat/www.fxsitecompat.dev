@@ -3,7 +3,7 @@ title: "RC4 はホワイトリスト掲載サイトに限って許容される�
 date: "2015-09-25T00:54:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: "43"
+versions: ["43"]
 statuses: "reverted"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1201024": "Bug 1201024 - Disable unrestricted RC4 fallback"

@@ -3,7 +3,7 @@ title: "Code in `eval` doesn\'t work when the Debugger is activated"
 date: "2014-03-21T04:50:04-04:00"
 categories: ["javascript"]
 tags: []
-versions: "30"
+versions: ["30"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

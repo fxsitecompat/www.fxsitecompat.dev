@@ -3,7 +3,7 @@ title: "いくつかの 1024 ビットルート証明書が削除されました
 date: "2014-06-09T02:46:54-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: "32"
+versions: ["32"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=881553": "Bug 881553 – Remove or turn off trust bits for 1024-bit root certs after December 31, 2013"

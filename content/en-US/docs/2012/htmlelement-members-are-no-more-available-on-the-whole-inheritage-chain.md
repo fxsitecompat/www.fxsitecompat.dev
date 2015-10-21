@@ -3,7 +3,7 @@ title: "`HTMLElement` members are no more available on the whole inheritage chai
 date: "2012-12-29T08:29:30-05:00"
 categories: ["dom"]
 tags: []
-versions: "20"
+versions: ["20"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=821606": "Bug 821606 – Turn on WebIDL bindings for Element and HTMLElement"

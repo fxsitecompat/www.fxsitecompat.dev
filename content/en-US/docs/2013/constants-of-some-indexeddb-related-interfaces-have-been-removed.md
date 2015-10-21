@@ -3,7 +3,7 @@ title: "Constants of some IndexedDB-related interfaces have been removed"
 date: "2013-07-14T19:12:37-04:00"
 categories: ["dom"]
 tags: []
-versions: "25"
+versions: ["25"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=887524": "Bug 887524 – Move IDBRequest to WebIDL"

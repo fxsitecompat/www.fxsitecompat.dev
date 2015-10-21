@@ -3,7 +3,7 @@ title: "Firefox OS アプリは常にビューポート `<meta>` タグを指定
 date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []
-versions: "30"
+versions: ["30"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=845690": "Bug 845690 – Support meta viewport in Firefox OS apps"

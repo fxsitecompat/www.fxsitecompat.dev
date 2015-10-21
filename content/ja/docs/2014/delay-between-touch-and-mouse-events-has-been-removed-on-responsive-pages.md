@@ -3,7 +3,7 @@ title: "レスポンシブなページ上でタッチとマウスイベントの
 date: "2014-03-21T04:50:04-04:00"
 categories: [event-handling]
 tags: []
-versions: "30"
+versions: ["30"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

@@ -3,7 +3,7 @@ title: "スタイルの動的更新時に CSS カスケーディングがうま�
 date: "2015-10-04T22:08:00-04:00"
 categories: ["css"]
 tags: []
-versions: "41"
+versions: ["41", "42", "43"]
 statuses: "regressed"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1209603": "Bug 1209603 - specific combinations of em units and dynamic style changes can cause incorrect values of font properties"

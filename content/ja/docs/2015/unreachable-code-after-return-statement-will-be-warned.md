@@ -3,7 +3,7 @@ title: "`return` 命令文に続く到達不能コードに警告が表示され
 date: "2015-04-27T13:17:23-04:00"
 categories: ["javascript"]
 tags: []
-versions: "40"
+versions: ["40"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1005110": "Bug 1005110 - Warn about unreachable code after semicolon-less return statement"

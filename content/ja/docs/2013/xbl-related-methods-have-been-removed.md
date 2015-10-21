@@ -3,7 +3,7 @@ title: "XBL 関連のメソッドが削除されました"
 date: "2013-09-19T23:58:13-04:00"
 categories: ["dom"]
 tags: []
-versions: "26"
+versions: ["26"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

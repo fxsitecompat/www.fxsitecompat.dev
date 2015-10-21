@@ -3,7 +3,7 @@ title: "RSA certificates using weak signatures less than 1024-bit are no longer 
 date: "2014-07-22T05:06:26-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: "33"
+versions: ["33"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=360126": "Bug 360126 – Stop accepting certificates that use RSA 1023 or weaker signatures"

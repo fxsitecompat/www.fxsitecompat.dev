@@ -3,7 +3,7 @@ title: "`Proxy` handers may throw under specific conditions"
 date: "2015-03-17T14:02:59-04:00"
 categories: ["javascript"]
 tags: []
-versions: "39"
+versions: ["39"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1132522": "Bug 1132522 - Treat false return value from certain Proxy handler methods as failure"

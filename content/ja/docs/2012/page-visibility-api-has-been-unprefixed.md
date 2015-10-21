@@ -3,7 +3,7 @@ title: "Page Visibility API の接頭辞が外れました"
 date: "2012-12-03T03:53:26-05:00"
 categories: ["dom"]
 tags: []
-versions: "18"
+versions: ["18"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=812086": "Bug 812086 – Unprefix Page Visibility API"

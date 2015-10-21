@@ -3,7 +3,7 @@ title: "WebSockets disconnection now follows the latest spec"
 date: "2012-10-09T06:00:00-04:00"
 categories: ["networking"]
 tags: []
-versions: "16"
+versions: ["16"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=695636": "Bug 695636 - Update close steps to adhere to WS spec."

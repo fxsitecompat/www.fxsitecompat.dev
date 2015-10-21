@@ -3,7 +3,7 @@ title: "Screen Orientation API の接頭辞が外れました"
 date: "2015-09-09T17:20:00-04:00"
 categories: ["dom"]
 tags: []
-versions: "43"
+versions: ["43"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1131470": "Bug 1131470 - w3c screen orientation api has changed"
     "https://groups.google.com/d/topic/mozilla.dev.platform/zyGP6PemJlg/discussion": "Intent to Ship: Screen Orientation API"

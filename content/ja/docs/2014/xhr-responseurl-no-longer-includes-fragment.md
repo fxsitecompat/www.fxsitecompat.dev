@@ -3,7 +3,7 @@ title: "XHR `responseURL` にフラグメントが含まれなくなりました
 date: "2014-10-17T22:50:44-04:00"
 categories: ["dom"]
 tags: []
-versions: "35"
+versions: ["35"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1073882": "Bug 1073882 – XMLHttpRequest.prototype.responseURL should not have fragment per latest spec"

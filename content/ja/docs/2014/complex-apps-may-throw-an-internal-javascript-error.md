@@ -3,7 +3,7 @@ title: "複雑なアプリが内部 JavaScript エラーを投げる場合があ
 date: "2014-07-22T05:06:26-04:00"
 categories: ["javascript"]
 tags: []
-versions: "33"
+versions: ["33"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

@@ -3,7 +3,7 @@ title: "`preventDefault` on `keydown` now cancels `keypress`"
 date: "2013-07-14T19:12:37-04:00"
 categories: [event-handling]
 tags: []
-versions: "25"
+versions: ["25"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

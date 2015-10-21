@@ -3,7 +3,7 @@ title: "プライベートブラウジングにトラッキング保護機能が
 date: "2015-09-29T21:32:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: "42"
+versions: ["42"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1029886": "Bug 1029886 - tracking bug for tracking protection"
     "http://www.mozilla.jp/blog/entry/10504/": "ベータ版 Firefox でのトラッキング保護機能付きプライベートブラウジングのテストにご参加ください"

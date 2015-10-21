@@ -3,7 +3,7 @@ title: "非標準 `element.style` 拡張が実装されました"
 date: "2014-10-17T22:50:44-04:00"
 categories: ["dom"]
 tags: []
-versions: "35"
+versions: ["35"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=958887": "Bug 958887 – Add support for element.style[\"css-property-name\"] non-standard extension"

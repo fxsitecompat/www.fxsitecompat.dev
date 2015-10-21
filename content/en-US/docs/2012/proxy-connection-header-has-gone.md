@@ -3,7 +3,7 @@ title: "`Proxy-Connection` header has gone"
 date: "2012-12-03T03:53:26-05:00"
 categories: ["networking"]
 tags: []
-versions: "18"
+versions: ["18"]
 cclicense: "BY-SA 3.0"
 statuses: "affected"
 references:

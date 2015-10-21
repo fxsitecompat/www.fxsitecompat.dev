@@ -3,7 +3,7 @@ title: "Various interfaces are no longer available on `window`"
 date: "2013-07-14T19:12:37-04:00"
 categories: ["dom"]
 tags: []
-versions: "25"
+versions: ["25"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=898817": "Bug 898817 – Stop exposing nsIDOM* interfaces on the global automatically"

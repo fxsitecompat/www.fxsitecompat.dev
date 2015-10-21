@@ -3,7 +3,7 @@ title: "`CSSRule.cssText` now returns unprefixed `writing-mode`-aware properties
 date: "2015-09-22T11:24:00-04:00"
 categories: ["css"]
 tags: []
-versions: "42"
+versions: ["42"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1118103": "Bug 1118103 - swap the aliasing direction of -moz-margin-start <-> margin-inline-start etc."
 ---

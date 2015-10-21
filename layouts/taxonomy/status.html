@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 {{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
-{{ $title := replace $strings.status_index_page.title "%s" (index $strings.statuses (.Title | urlize)).label }}
-{{ $description := (index $strings.statuses (.Title | urlize)).desc_plural }}
+{{ $status := .Title | urlize }}
+{{ $title := replace $strings.status_index_page.title "%s" (index $strings.statuses $status).label }}
+{{ $description := (index $strings.statuses $status).desc_plural }}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
@@ -22,13 +23,13 @@
           <header>
             <h1 itemprop="name">{{ $title }}</h1>
             <p itemprop="description">{{ $description }}</p>
-          </header>{{ range .Data.Pages.GroupByParam "versions" "desc" }}{{ $version := .Key }}
+          </header>{{ range $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}{{ with $pages := where .Pages "Params.statuses" $status }}
           <section>
             <h2>Firefox {{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</h2>
-            <ul>{{ range .Pages }}
+            <ul>{{ range $pages }}
               <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
             </ul>
-          </section>{{ end }}
+          </section>{{ end }}{{ end }}
         </section>
         <nav class="nocontent">
           <h2>{{ $strings.browse_status }}</h2>

@@ -3,7 +3,7 @@ title: "Undefined pseudo-header fields are no longer accepted in HTTP/2"
 date: "2015-09-23T05:27:00-04:00"
 categories: ["networking"]
 tags: []
-versions: "42"
+versions: ["42"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1136727": "Bug 1136727 - Firefox accepts undefined or invalid pseudo-header fields in HTTP/2"
 ---

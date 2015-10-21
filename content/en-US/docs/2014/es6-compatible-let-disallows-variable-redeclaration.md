@@ -3,7 +3,7 @@ title: "ES6-compatible `let` disallows variable redeclaration"
 date: "2014-10-17T22:50:44-04:00"
 categories: ["javascript"]
 tags: []
-versions: "35"
+versions: ["35"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

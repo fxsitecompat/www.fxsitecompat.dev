@@ -3,7 +3,7 @@ title: "CSS `position:fixed` が常にスタック文脈を生成するように
 date: "2015-10-03T11:43:00-04:00"
 categories: ["css"]
 tags: []
-versions: "44"
+versions: ["44"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1179288": "Bug 1179288 - change position:fixed so it always creates a stacking context"
 ---

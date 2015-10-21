@@ -3,7 +3,7 @@ title: "Blink effect with `text-decoration:blink` has been dropped"
 date: "2013-04-06T04:52:59-04:00"
 categories: ["css"]
 tags: []
-versions: "23"
+versions: ["23"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

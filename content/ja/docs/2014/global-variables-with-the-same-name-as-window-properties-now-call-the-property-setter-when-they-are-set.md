@@ -3,7 +3,7 @@ title: "`window` プロパティと同名のグローバル変数が、設定時
 date: "2014-04-03T19:31:02-04:00"
 categories: ["dom"]
 tags: []
-versions: "31"
+versions: ["31"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

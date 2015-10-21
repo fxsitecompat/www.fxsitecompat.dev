@@ -3,7 +3,7 @@ title: "1024-bit SSL certificates are no longer trusted"
 date: "2015-02-27T04:21:22-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: "38"
+versions: ["38"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

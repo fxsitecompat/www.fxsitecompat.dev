@@ -3,7 +3,7 @@ title: "Proxyfied arrays without the `get` trap don\'t work properly"
 date: "2013-02-06T08:44:10-05:00"
 categories: ["javascript"]
 tags: []
-versions: "21"
+versions: ["21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

@@ -3,7 +3,7 @@ title: "`MozTouch` events were removed in favor of the standard touch events"
 date: "2012-12-03T03:53:26-05:00"
 categories: ["dom"]
 tags: []
-versions: "18"
+versions: ["18"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

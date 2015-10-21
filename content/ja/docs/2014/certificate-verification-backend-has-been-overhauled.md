@@ -3,7 +3,7 @@ title: "証明書検証バックエンドが刷新されました"
 date: "2014-04-03T19:31:02-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: "31"
+versions: ["31"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

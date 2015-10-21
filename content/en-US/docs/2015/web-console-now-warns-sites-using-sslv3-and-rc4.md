@@ -3,7 +3,7 @@ title: "Web Console now warns sites using SSLv3 and RC4"
 date: "2015-01-16T09:37:54-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: "37"
+versions: ["37"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1092835": "Bug 1092835 – Log usage of weak ciphers in the console"

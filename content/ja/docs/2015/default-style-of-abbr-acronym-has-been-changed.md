@@ -3,7 +3,7 @@ title: "`<abbr>`/`<acronym>` の既定のスタイルが変更されました"
 date: "2015-04-27T13:17:23-04:00"
 categories: ["css"]
 tags: []
-versions: "40"
+versions: ["40"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

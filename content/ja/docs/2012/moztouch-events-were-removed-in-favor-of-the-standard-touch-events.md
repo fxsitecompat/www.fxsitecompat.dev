@@ -3,7 +3,7 @@ title: "`MozTouch` イベントが廃止され、標準のタッチイベント�
 date: "2012-12-03T03:53:26-05:00"
 categories: ["dom"]
 tags: []
-versions: "18"
+versions: ["18"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

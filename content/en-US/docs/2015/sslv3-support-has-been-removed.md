@@ -3,7 +3,7 @@ title: "SSLv3 support has been removed"
 date: "2015-03-17T14:02:59-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: "39"
+versions: ["39"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1106470": "Bug 1106470 - Drop SSLv3 support entirely"

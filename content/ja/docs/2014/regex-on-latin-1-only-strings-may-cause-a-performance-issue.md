@@ -3,7 +3,7 @@ title: "Latin-1 のみの文字列に対する正規表現がパフォーマン�
 date: "2014-07-22T05:06:26-04:00"
 categories: ["javascript"]
 tags: []
-versions: "33"
+versions: ["33"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

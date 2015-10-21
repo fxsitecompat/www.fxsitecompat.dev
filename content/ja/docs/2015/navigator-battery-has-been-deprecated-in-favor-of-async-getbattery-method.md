@@ -3,7 +3,7 @@ title: "`navigator.battery` が廃止予定となり、非同期 `getBattery` �
 date: "2015-09-13T23:41:00-04:00"
 categories: ["dom"]
 tags: []
-versions: "43"
+versions: ["43"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1047119": "Bug 1047119 - Update Battery Status API to match latest Editors draft: navigator.getBattery(), etc"
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1050749": "Bug 1050749 - Expose BatteryManager via getBattery() returning a Promise instead of a synchronous accessor (navigator.battery)."

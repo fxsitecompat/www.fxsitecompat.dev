@@ -3,7 +3,7 @@ title: "`let` 式への対応が削除されました"
 date: "2015-06-13T15:20:46-04:00"
 categories: ["javascript"]
 tags: []
-versions: "41"
+versions: ["41"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1023609": "Bug 1023609 - Remove SpiderMonkey support for let expressions"

@@ -3,7 +3,7 @@ title: "`Map.size` and `Set.size` have been changed to properties"
 date: "2012-12-03T03:54:45-05:00"
 categories: ["javascript"]
 tags: []
-versions: "19"
+versions: ["19"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=807001": "Bug 807001 – Map.prototype.size and Set.prototype.size should be accessor properties"

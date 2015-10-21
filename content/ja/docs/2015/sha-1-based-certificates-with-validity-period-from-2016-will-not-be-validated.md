@@ -3,7 +3,7 @@ title: "2016 年からの有効期限が設定された SHA-1 ベースの証明
 date: "2015-09-13T21:46:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: "43"
+versions: ["43"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=942515": "Bug 942515 - Show Untrusted Connection Error for SHA-1-based SSL certificates with notBefore >= 2016-01-01"
     "https://blog.mozilla.org/security/2014/09/23/phasing-out-certificates-with-sha-1-based-signature-algorithms/": "Phasing Out Certificates with SHA-1 based Signature Algorithms"

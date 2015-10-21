@@ -3,7 +3,7 @@ title: "Encoding API has been updated for the latest spec"
 date: "2012-12-03T03:54:45-05:00"
 categories: ["dom"]
 tags: []
-versions: "19"
+versions: ["19"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=801487": "Bug 801487 – Update StringEncoding API per the latest spec and fix some bugs"

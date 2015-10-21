@@ -3,7 +3,7 @@ title: "`HTMLTrackElement` の `loaded` イベントが `load` へ変更され�
 date: "2014-07-22T05:06:26-04:00"
 categories: ["audio-video"]
 tags: []
-versions: "33"
+versions: ["33"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1035505": "Bug 1035505 – [webvtt] HTMLTrackElement should fire a \'load\' event not a \'loaded\'"

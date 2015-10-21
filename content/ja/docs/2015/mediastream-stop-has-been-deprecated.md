@@ -3,7 +3,7 @@ title: "`MediaStream.stop()` が廃止予定となりました"
 date: "2015-10-01T16:06:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: "44"
+versions: ["44"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1103188": "Bug 1103188 - Implement MediaStream.addTrack()/removeTrack()"
 ---

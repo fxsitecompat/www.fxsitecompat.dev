@@ -3,7 +3,7 @@ title: "WebRTC インタフェースの接頭辞が外れました"
 date: "2015-09-25T02:46:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: "44"
+versions: ["44"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1155923": "Bug 1155923 - Unprefix WebRTC"
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1206982": "Bug 1206982 - getUserMedia spec switched from PermissionDeniedError to SecurityError"

@@ -3,7 +3,7 @@ title: "`HTMLMediaElement.srcObject` has been unprefixed"
 date: "2015-08-05T00:48:18-04:00"
 categories: ["audio-video", "dom"]
 tags: []
-versions: "42"
+versions: ["42"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1175523": "Bug 1175523 - Unprefix mozSrcObject (to srcObject)"

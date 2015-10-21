@@ -3,7 +3,7 @@ title: "CSP implementation has been updated for the final spec"
 date: "2013-04-06T04:52:59-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: "23"
+versions: ["23"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=746978": "Bug 746978 – sync CSP directive parsing and directive names with w3c CSP 1.0 spec"

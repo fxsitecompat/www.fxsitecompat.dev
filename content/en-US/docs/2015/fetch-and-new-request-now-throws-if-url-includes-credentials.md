@@ -3,7 +3,7 @@ title: "`fetch()` and `new Request()` now throws if URL includes credentials"
 date: "2015-09-24T01:15:00-05:00"
 categories: ["dom"]
 tags: []
-versions: "43"
+versions: ["43"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1195820": "Bug 1195820 - fetch() and new Request() should throw TypeError on URL with username/password"
 ---

@@ -3,7 +3,7 @@ title: "`for-of`/`in` ループヘッダ宣言の初期化子が許容されな�
 date: "2015-04-27T13:17:23-04:00"
 categories: ["javascript"]
 tags: []
-versions: "40"
+versions: ["40"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

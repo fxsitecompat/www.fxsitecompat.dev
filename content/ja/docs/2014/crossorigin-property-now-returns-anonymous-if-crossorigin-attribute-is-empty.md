@@ -3,7 +3,7 @@ title: "`crossorigin` 属性が空白の場合に `crossOrigin` プロパティ�
 date: "2014-10-17T22:50:44-04:00"
 categories: ["dom"]
 tags: []
-versions: "35"
+versions: ["35"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=880997": "Bug 880997 – Reflect crossOrigin as a limited enumerated attribute"

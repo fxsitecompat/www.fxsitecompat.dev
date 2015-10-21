@@ -3,7 +3,7 @@ title: "Nested `contenteditable` elements cannot be selected nor edited properly
 date: "2015-07-07T13:46:34-04:00"
 categories: ["html"]
 tags: []
-versions: "39"
+versions: ["39"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

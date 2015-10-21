@@ -3,7 +3,7 @@ title: "`PeerConnectionImpl.connectDataConnection` が削除されました"
 date: "2015-01-16T09:37:54-05:00"
 categories: ["audio-video"]
 tags: []
-versions: "37"
+versions: ["37"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1110478": "Bug 1110478 – Remove unused remnants of non-standard connectDataConnection from Bug 852908"

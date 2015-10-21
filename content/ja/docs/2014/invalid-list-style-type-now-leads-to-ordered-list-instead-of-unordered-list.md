@@ -3,7 +3,7 @@ title: "不正な `list-style-type` が順序なしではなく順序付きリ�
 date: "2014-07-22T05:06:26-04:00"
 categories: ["css"]
 tags: []
-versions: "33"
+versions: ["33"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

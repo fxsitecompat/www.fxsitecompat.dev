@@ -3,7 +3,7 @@ title: "Fetch API と Service Worker Cache API によっていくつかのグロ
 date: "2015-03-17T14:02:59-04:00"
 categories: ["dom"]
 tags: []
-versions: "39"
+versions: ["39"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

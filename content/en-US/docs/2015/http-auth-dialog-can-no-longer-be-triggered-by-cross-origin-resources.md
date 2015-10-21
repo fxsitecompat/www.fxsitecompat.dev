@@ -3,7 +3,7 @@ title: "HTTP auth dialog can no longer be triggered by cross-origin resources"
 date: "2015-04-27T13:17:23-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: "40"
+versions: ["40"]
 statuses: "reverted"
 cclicense: "BY-SA 3.0"
 references:

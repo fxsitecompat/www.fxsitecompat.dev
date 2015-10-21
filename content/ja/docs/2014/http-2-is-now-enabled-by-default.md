@@ -3,7 +3,7 @@ title: "HTTP/2 が初期設定で有効となりました"
 date: "2014-09-01T22:12:15-04:00"
 categories: ["networking"]
 tags: []
-versions: "34"
+versions: ["34"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:

@@ -3,7 +3,7 @@ title: "`contentStyleType` and `contentScriptType` properties have been removed"
 date: "2012-12-29T08:29:30-05:00"
 categories: ["svg"]
 tags: []
-versions: "20"
+versions: ["20"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=819731": "Bug 819731 – remove contentStyleType and contentScriptType from SVGSVGElement"

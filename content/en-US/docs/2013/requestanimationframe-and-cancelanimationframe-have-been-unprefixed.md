@@ -3,7 +3,7 @@ title: "`requestAnimationFrame` and `cancelAnimationFrame` have been unprefixed"
 date: "2013-04-06T04:52:59-04:00"
 categories: ["dom"]
 tags: []
-versions: "23"
+versions: ["23"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=704063": "Bug 704063 – Add unprefixed requestAnimationFrame"

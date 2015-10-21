@@ -3,7 +3,7 @@ title: "`new Document()` が `XMLDocument` の代わりに `Document` を返す�
 date: "2014-06-09T02:46:54-04:00"
 categories: ["dom"]
 tags: []
-versions: "32"
+versions: ["32"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1017932": "Bug 1017932 – Document() constructor should return Document object (not XMLDocument)"

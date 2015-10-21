@@ -3,7 +3,7 @@ title: "イテレータの実装が最新仕様に合わせて更新されまし
 date: "2013-10-08T20:15:35-04:00"
 categories: ["javascript"]
 tags: []
-versions: "27"
+versions: ["27"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=881226": "Bug 881226 – Change {Array, Map, Set} iterator methods to mach the latest spec"

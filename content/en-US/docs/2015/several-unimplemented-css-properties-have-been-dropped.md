@@ -3,7 +3,7 @@ title: "Several unimplemented CSS properties have been dropped"
 date: "2015-10-20T16:23:00-07:00"
 categories: ["css"]
 tags: []
-versions: "44"
+versions: ["44"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1215702": "Bug 1215702 - remove backend-only CSS properties (marks, orphans, page, size, widows)"
 ---
