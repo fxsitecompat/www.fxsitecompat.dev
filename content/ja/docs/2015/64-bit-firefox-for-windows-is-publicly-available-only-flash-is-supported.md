@@ -13,4 +13,4 @@ references:
 ---
 Windows 向け Firefox 64 ビット版はしばらく前から [Developer Edition](https://www.mozilla.org/ja/firefox/developer/all/) と [Beta](https://www.mozilla.org/ja/firefox/beta/all/) でテスト用に公開されてきましたが、Firefox 42 以降、64 ビット版は Release (安定版) チャンネルを通じて一般に公開されます。つまり、より多くのユーザが 64 ビット版を使い始めるということで、あなたのサイトで提供しているコンテンツが 32 ビット版 [NPAPI プラグイン](https://developer.mozilla.org/ja/Add-ons/Plugins) を必要とする場合、それらの Firefox ユーザは使用できないことになります。今のところ Adobe Flash Player が 64 ビット版で唯一の対応プラグインとなっています。コンテンツ提供者には、プラグインへの依存をやめ、[最新 Web 技術](https://developer.mozilla.org/ja/docs/Web) を採用するよう強く推奨します。
 
-**更新**: Mozilla が「パートナー関連のいくつかの変更を待っている」ため、Windows 64 ビット版の一般公開は延期されました。
+**更新**: Mozilla が「パートナー関連のいくつかの変更を待っている」ため、Windows 64 ビット版の一般公開は延期されました。現時点でのスケジュールは不明です。
