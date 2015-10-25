@@ -38,7 +38,7 @@ ECMAScript 2015 (ES6) 準拠の一環として、[`const`](https://developer.moz
 </script>
 ```
 
-また、[`eval`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) メソッドで評価されたコードは、`let` あるいは `const` で定義されたグローバル変数を外部コンテキストへ伝播しなくなり、従って以下のコードも動作しません。
+また、[`eval`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/eval) メソッドで評価されたコードは、`let` あるいは `const` で定義されたグローバル変数を外部コンテキストへ伝播しなくなり、従って以下のコードも動作しません。
 
 ```js
 <script type="application/javascript;version=1.8">
