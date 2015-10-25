@@ -20,7 +20,7 @@
         <p>
           <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
           <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}docs/" rel="index" itemprop="item"><span itemprop="name">{{ $strings.sections.docs }}</span></a><meta itemprop="position" content="1"></span>
-          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/" rel="up" itemprop="item"><span itemprop="name">Firefox {{ $version }}</span>{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a><meta itemprop="position" content="2"></span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/" rel="up" itemprop="item"><span itemprop="name">{{ with index $strings.versions $version }}{{ . }}{{ else }}Firefox {{ $version }}{{ end }}</span>{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a><meta itemprop="position" content="2"></span>
         </p>
       </div>
     </nav>
@@ -48,7 +48,7 @@
           </div>
         </article>
         <nav class="nocontent">
-          <h2>{{ replace $strings.docs_for_version "%s" $version }}</h2>
+          <h2>{{ if eq $version "future" }}{{ $strings.docs_for_version_future }}{{ else }}{{ replace $strings.docs_for_version "%s" $version }}{{ end }}</h2>
           <ul>{{ range $.Site.Pages }}{{ if in .Params.versions $version }}
             <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}{{ end }}
           </ul>

@@ -3,5 +3,5 @@
 {{ partial "feed/head" . }}  
   <title>{{ .Title }}</title>
   <subtitle>{{ replace $strings.feed.recent_content "%s" .Title }}</subtitle>
-{{ range first 25 (where .Data.Pages "Section" "ne" "") }}{{ partial "feed/entry" . }}{{ end }}
+{{ range first 50 (where .Data.Pages "Section" "ne" "") }}{{ partial "feed/entry" . }}{{ end }}
 </feed>

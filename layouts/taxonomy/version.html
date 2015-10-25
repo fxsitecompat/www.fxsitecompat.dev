@@ -2,17 +2,18 @@
 {{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
 {{ $version := .Title | urlize }}
 {{ $title := replace $strings.version_index_page.title "%s" $version }}
+{{ $title_future := $strings.version_index_page.title_future }}
 {{ $description := replace $strings.version_index_page.description "%s" $version }}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
-    <title>{{ $title }} | {{ $.Site.Title }}</title>
-    <meta property="og:title" content="{{ $title }}">
+    <title>{{ if eq $version "future" }}{{ $title_future }}{{ else }}{{ $title }}{{ end }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ if eq $version "future" }}{{ $title_future }}{{ else }}{{ $title }}{{ end }}">
     <meta property="og:description" content="{{ $description }}">
     <meta name="description" content="{{ $description }}">
   </head>
   <body class="list docs term version" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright translation">
-    <meta itemprop="name" content="{{ $title }}">
+    <meta itemprop="name" content="{{ if eq $version "future" }}{{ $title_future }}{{ else }}{{ $title }}{{ end }}">
     <meta itemprop="description" content="{{ $description }}">
 {{ partial "header.html" . }}
 {{ partial "search.html" . }}
@@ -21,8 +22,8 @@
       <div class="inner">
         <section>
           <header>
-            <h1 itemprop="name">{{ $title }}</h1>
-            <p itemprop="description">{{ with index $.Site.Data.firefox.versions $version }}{{ replace (replace $strings.version_index_page.description_upcoming "%(version)s" $version) "%(channel)s" (index $.Site.Data.firefox.channels .) | safeHTML }}{{ else }}{{ $description }}{{ end }} {{ replace $strings.version_index_page.description_secondary "%s" $version | safeHTML }}</p>
+            <h1 itemprop="name">{{ if eq $version "future" }}{{ $title_future }}{{ else }}{{ $title }}{{ end }}</h1>
+            <p itemprop="description">{{ if eq $version "future" }}{{ $strings.version_index_page.description_future | safeHTML }}{{ else }}{{ with index $.Site.Data.firefox.versions $version }}{{ replace (replace $strings.version_index_page.description_upcoming "%(version)s" $version) "%(channel)s" (index $.Site.Data.firefox.channels .) | safeHTML }}{{ else }}{{ $description }}{{ end }} {{ replace $strings.version_index_page.description_secondary "%s" $version | safeHTML }}{{ end }}</p>
           </header>{{ range $category, $taxonomy := $.Site.Taxonomies.categories }}
           <section>
             <h2>{{ index $strings.categories $category }}</h2>
@@ -34,7 +35,7 @@
         <nav class="nocontent">
           <h2>{{ $strings.browse_version }}</h2>
           <ul class="taxonomy terms">{{ range first 7 $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}
-            <li><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/">Firefox {{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a></li>{{ end }}
+            <li><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/">{{ with index $strings.versions $version }}{{ . }}{{ else }}Firefox {{ $version }}{{ end }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a></li>{{ end }}
             <li><a href="{{ $.Site.Params.BaseDir }}versions/">{{ $strings.browse_all_versions }}</a></li>
           </ul>
         </nav>

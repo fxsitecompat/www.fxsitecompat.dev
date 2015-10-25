@@ -3,5 +3,5 @@
 {{ partial "feed/head" . }}  
   <title>{{ $.Site.Title }}</title>
   <subtitle>{{ $strings.contentinfo.description }}</subtitle>
-{{ range first 25 (where .Data.Pages "Section" "ne" "") }}{{ partial "feed/entry" . }}{{ end }}
+{{ range first 50 (where .Data.Pages "Section" "ne" "") }}{{ partial "feed/entry" . }}{{ end }}
 </feed>

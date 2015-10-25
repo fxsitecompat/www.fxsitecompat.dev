@@ -23,7 +23,7 @@
         <section>
           <h2>{{ $strings.browse_version }}</h2>
           <ul class="taxonomy terms">{{ range first 7 $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}
-            <li><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/">Firefox {{ $version }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a></li>{{ end }}
+            <li><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/">{{ with index $strings.versions $version }}{{ . }}{{ else }}Firefox {{ $version }}{{ end }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a></li>{{ end }}
             <li><a href="{{ $.Site.Params.BaseDir }}versions/">{{ $strings.browse_all_versions }}</a></li>
           </ul>
         </section>

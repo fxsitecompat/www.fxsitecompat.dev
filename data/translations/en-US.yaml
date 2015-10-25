@@ -7,6 +7,10 @@ sections:
     versions: Versions
     about: About
 
+# Versions
+versions:
+    future: "Future"
+
 # Categories
 categories:
     audio-video: "Audio & Video"
@@ -98,9 +102,11 @@ all_versions_page:
 # Version index page
 version_index_page:
     title: "Firefox %s Site Compatibility"
+    title_future: "Future Planned Changes"
     description: "Browse our site compatibility documents describing the changes made with Firefox version %s."
     description_upcoming: "Browse our site compatibility documents describing the changes made with Firefox version %(version)s, currently offered on the <em>%(channel)s</em> channel."
-    description_secondary: 'This list will be updated when a further change is made or a new regression is found, so please subscribe to our <a href="/en-US/index.xml">site feed</a> for updates. The general developer information for Firefox %s, including the new features and enhancements, can be found on the <a href="https://developer.mozilla.org/en-US/Firefox/Releases/%s">Mozilla Developer Network</a>.'
+    description_secondary: 'This list will be updated when a further change is made or a new regression is found, so subscribe to our <a href="/en-US/index.xml">site feed</a> for updates. The general developer information for Firefox %s, including the new features and enhancements, can be found at the <a href="https://developer.mozilla.org/en-US/Firefox/Releases/%s">Mozilla Developer Network</a>.'
+    description_future: 'Browse our site compatibility documents describing the changes to be made with future Firefox releases. This list will be updated when a further change is planned, so subscribe to our <a href="/en-US/index.xml">site feed</a> for updates. Be prepared today to make your site as great as possible!'
 
 # Category index page
 category_index_page:
@@ -116,7 +122,8 @@ published: "Published"
 creativecommons: "Creative Commons"
 description: "Description"
 references: "References"
-docs_for_version: "Docs for Firefox %s"
+docs_for_version: "Firefox %s Compatibility"
+docs_for_version_future: "Future Planned Changes"
 
 # Single blog page
 recent_blog_posts: "Recent Blog Posts"
