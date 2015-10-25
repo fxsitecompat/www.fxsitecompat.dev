@@ -12,3 +12,5 @@ references:
 The non-standard [`let` blocks and `let` expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Non-standard_let_extensions) are now considered deprecated. The support for those `let` extensions, currently warned in the [Web Console](https://developer.mozilla.org/en-US/docs/Tools/Web_Console), will be removed from Firefox in the near future.
 
 **Update**: The `let` expression support has been [removed with Firefox 41](https://www.fxsitecompat.com/en-US/docs/2015/let-expression-support-has-been-dropped/).
+
+**Update**: The `let` block support will be [removed with Firefox 44](https://www.fxsitecompat.com/en-US/docs/2015/let-block-support-will-be-dropped/) at earliest.

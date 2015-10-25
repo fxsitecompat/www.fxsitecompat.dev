@@ -13,3 +13,5 @@ references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1093595": "Bug 1093595 – Treat SSL3 and RC4 as broken"
 ---
 The RC4 cipher suites are now considered insecure. RC4 is no longer offered in the first TLS handshakes, and the security UI in Firefox no longer calls it "high-grade encryption" but rather would say "encryption is not strong enough". The RC4 support will completely be removed from Mozilla products in the near future. Webmasters should upgrade their servers as soon as possible to utlize stronger cipher suites.
+
+**Update**: The RC4 support has been [disabled with Firefox 44](https://www.fxsitecompat.com/en-US/docs/2015/rc4-is-now-completely-disabled-by-default/).
