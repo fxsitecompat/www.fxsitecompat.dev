@@ -3,7 +3,7 @@ title: "`Element.mozMatchesSelector` が削除されます"
 date: "2015-10-26T20:21:00-07:00"
 categories: ["dom"]
 tags: []
-versions: ["future"]
+versions: ["44"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1119718": "Bug 1119718 - Remove mozMatchesSelector"
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1216193": "Bug 1216193 - Implement webkitMatchesSelector"
