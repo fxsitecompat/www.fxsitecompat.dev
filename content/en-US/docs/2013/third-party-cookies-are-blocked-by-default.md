@@ -1,7 +1,7 @@
 ---
 title: "Third-party cookies are blocked by default"
 date: "2013-02-24T03:44:31-05:00"
-categories: ["privacy-security"]
+categories: ["networking", "privacy-security"]
 tags: []
 versions: ["22"]
 statuses: "reverted"

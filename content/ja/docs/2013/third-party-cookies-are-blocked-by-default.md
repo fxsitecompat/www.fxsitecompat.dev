@@ -1,7 +1,7 @@
 ---
 title: "サードパーティ Cookie は初期設定でブロックされます"
 date: "2013-02-24T03:44:31-05:00"
-categories: ["privacy-security"]
+categories: ["networking", "privacy-security"]
 tags: []
 versions: ["22"]
 statuses: "reverted"
