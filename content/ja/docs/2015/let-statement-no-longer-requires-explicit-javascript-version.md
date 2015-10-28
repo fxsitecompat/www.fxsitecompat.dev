@@ -6,6 +6,8 @@ tags: []
 versions: ["44"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=855665": "Bug 855665 - Enable let without version=1.7+"
+aliases:
+    - "/docs/2015/let-statement-no-longer-requires-explicit-javascript-version-in-non-strict-mode/"
 ---
 これまで [`let`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/let) 命令文は、以下の例のように、[`<script>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/script) 要素上に明示的な JavaScript のバージョン、具体的には [1.7](https://developer.mozilla.org/ja/docs/Web/JavaScript/New_in_JavaScript/1.7) 以降を必要としていました。
 

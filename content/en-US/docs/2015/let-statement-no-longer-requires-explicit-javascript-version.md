@@ -6,6 +6,8 @@ tags: []
 versions: ["44"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=855665": "Bug 855665 - Enable let without version=1.7+"
+aliases:
+    - "/docs/2015/let-statement-no-longer-requires-explicit-javascript-version-in-non-strict-mode/"
 ---
 Previously, the [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) statement required an explicit JavaScript version, specifically [1.7](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/1.7) or later, on the [`<script>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) element like this:
 
