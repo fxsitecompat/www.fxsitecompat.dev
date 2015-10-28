@@ -5,6 +5,7 @@ categories: ["javascript"]
 tags: []
 versions: ["future"]
 references:
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=638054": "Bug 638054 - JavaScript Object.prototype.watch should be removed, once an adequate debugger-only replacement exists"
     "https://bugzilla.mozilla.org/show_bug.cgi?id=934669": "Bug 934669 - Deprecate Object.prototype.{,un}watch, and make them warn when used"
     "https://bugzilla.mozilla.org/show_bug.cgi?id=800355": "Bug 800355 - Implement Object.observe"
 ---
