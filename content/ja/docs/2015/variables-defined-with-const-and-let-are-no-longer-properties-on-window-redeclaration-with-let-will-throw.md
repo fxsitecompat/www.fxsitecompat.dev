@@ -16,24 +16,24 @@ ECMAScript 2015 (ES6) 準拠の一環として、[`const`](https://developer.moz
 同時に、`let` によるグローバル変数の再宣言も禁止され、以下のコードサンプルは動作しなくなります。
 
 ```js
-<script type="application/javascript;version=1.8">
+<script>
   let a = 1;
   let a = 2; // TypeError が投げられます
 </script>
 ```
 
 ```js
-<script type="application/javascript;version=1.8">
+<script>
   let a = 1;
 </script>
-<script type="application/javascript;version=1.8">
+<script>
   let a = 2; // TypeError が投げられます
 </script>
 ```
 
 ```js
-<script type="application/javascript;version=1.8" src="other.js"></script>
-<script type="application/javascript;version=1.8">
+<script src="other.js"></script>
+<script>
   let a = 2; // a が other.js 内で定義されている場合 TypeError が投げられます
 </script>
 ```
@@ -41,8 +41,10 @@ ECMAScript 2015 (ES6) 準拠の一環として、[`const`](https://developer.moz
 また、[`eval`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/eval) メソッドで評価されたコードは、`let` あるいは `const` で定義されたグローバル変数を外部コンテキストへ伝播しなくなり、従って以下のコードも動作しません。
 
 ```js
-<script type="application/javascript;version=1.8">
+<script>
   eval('let a = 1;');
   alert(a); // ReferenceError が投げられます
 </script>
 ```
+
+なお、`let` 命令文は [明示的な JavaScript バージョンを必要としなくなりました](https://www.fxsitecompat.com/ja/docs/2015/let-statement-no-longer-requires-explicit-javascript-version/)。
