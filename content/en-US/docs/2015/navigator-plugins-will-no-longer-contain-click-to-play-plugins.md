@@ -7,4 +7,4 @@ versions: ["future"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1186948": "Bug 1186948 - remove plugins that are click-to-play from navigator.plugins"
 ---
-Plug-ins that have been set to be [click-to-play](https://support.mozilla.org/en-US/kb/why-do-i-have-click-activate-plugins) will be hidden from the [`navigator.plugins`](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorPlugins/plugins) property in the near future. There is also a [plan to make this property unenumerable](https://www.fxsitecompat.com/en-US/docs/2015/navigator-plugins-will-no-longer-be-enumerable/).
+Plug-ins that have been set to be [click-to-play](https://support.mozilla.org/en-US/kb/why-do-i-have-click-activate-plugins) will be hidden from the [`navigator.plugins`](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorPlugins/plugins) property in the near future.
