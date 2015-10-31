@@ -12,4 +12,4 @@ references:
 ---
 Firefox 24 以降、Sherlock 形式の検索エンジンプラグインがローカルファイルから読み込まれなくなりました。Sherlock 対応と、Web ページから Sherlock プラグインのインストールを可能とする `window.sidebar.addSearchEngine` 関数も、非標準 [`window.sidebar`](https://developer.mozilla.org/ja/docs/Web/API/window.sidebar) API の削除に伴って近い将来削除される見込みです。Web サイト運営者は代わりに [OpenSearch プラグインを提供](https://developer.mozilla.org/ja/docs/Creating_OpenSearch_plugins_for_Firefox) してください。
 
-**更新**: Sherlock 対応は [Firefox 44 で削除されました](https://www.fxsitecompat.com/ja/docs/2015/sherlock-search-plugin-is-no-longer-supported/)。
+**更新**: Sherlock 対応は [Firefox 44 で削除されました](https://www.fxsitecompat.com/ja/docs/2015/sherlock-search-plug-ins-are-no-longer-supported/)。
