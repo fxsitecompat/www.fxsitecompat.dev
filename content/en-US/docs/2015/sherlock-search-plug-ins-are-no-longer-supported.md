@@ -4,6 +4,7 @@ date: "2015-09-23T16:29:00-04:00"
 categories: ["misc"]
 tags: []
 versions: ["44"]
+statuses: "affected"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=862137": "Bug 862137 - stop supporting Sherlock search engines"
     "https://bugzilla.mozilla.org/show_bug.cgi?id=862148": "Bug 862148 - stop supporting installation of Sherlock plugins from the web"
