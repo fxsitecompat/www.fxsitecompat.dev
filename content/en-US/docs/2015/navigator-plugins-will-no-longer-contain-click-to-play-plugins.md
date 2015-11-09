@@ -1,5 +1,5 @@
 ---
-title: "`navigator.plugins` will no longer contain click-to-play plugins"
+title: "`navigator.plugins` will no longer contain click-to-play plug-ins"
 date: "2015-10-28T00:29:00-07:00"
 categories: ["dom", "plugins"]
 tags: []
