@@ -29,6 +29,6 @@ If you find a mistake on our document or something not covered yet, please [twee
 
 ## Donate us
 
-If our resources are useful for you, please consider [making a small donation](https://www.paypal.me/kohei/5) via the project manager Kohei Yoshino. Your tipping helps ensure the sustainability of this independent community initiative by covering our [server](https://www.digitalocean.com/?refcode=79ce8405cfad) and domain costs. Thank you.
+If our resources are useful for you, please consider [making a small donation](https://www.paypal.me/kohei/3) via the project manager Kohei Yoshino. Your tipping helps ensure the sustainability of this independent community initiative by covering our [server](https://www.digitalocean.com/?refcode=79ce8405cfad) and domain costs. Thank you.
 
 Together, we build a better Web!
