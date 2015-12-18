@@ -11,3 +11,5 @@ aliases:
     - "/docs/2015/geolocation-api-is-not-working-on-firefox-43-and-later/"
 ---
 現在、Mozilla の新しい Google Location Service API キーとその使用回数上限が原因で、Firefox 43 および 44 Beta で [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation) が動作していません。Mozilla と Google はともに問題を認識しており、まもなく解決する見込みです。
+
+**更新**: 問題は Google によって解決されたようです。
