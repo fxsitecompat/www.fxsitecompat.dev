@@ -132,6 +132,10 @@
     content: '\f25e';
   }
 
+  .fa.feed::before {
+    content: '\f09e';
+  }
+
   body.single.article main article header .categories [itemprop="keywords"]:not(:last-child)::after {
     content: ", "
   }

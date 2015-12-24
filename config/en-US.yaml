@@ -68,23 +68,27 @@ Menu:
           Identifier: "contribute"
           URL: "/contribute/"
     External:
-        - Name: "Twitter"
+        - Name: "Feed"
           Weight: 0
+          Identifier: "feed"
+          URL: "/index.xml"
+        - Name: "Twitter"
+          Weight: 1
           Identifier: "twitter"
           URL: "https://twitter.com/FxSiteCompat"
         - Name: "Facebook"
-          Weight: 1
+          Weight: 2
           Identifier: "facebook"
           URL: "https://www.facebook.com/FxSiteCompat"
         - Name: "Google+"
-          Weight: 2
+          Weight: 3
           Identifier: "google-plus"
           URL: "https://plus.google.com/+FxSiteCompatibility"
         - Name: "Google Group"
-          Weight: 3
+          Weight: 4
           Identifier: "google-group"
           URL: "https://groups.google.com/forum/#!forum/fxsitecompat"
         - Name: "GitHub"
-          Weight: 4
+          Weight: 5
           Identifier: "github"
           URL: "https://github.com/fxsitecompat"
