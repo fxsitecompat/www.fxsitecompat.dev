@@ -8,3 +8,5 @@ references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=981796": "Bug 981796 - Remove window.showModalDialog"
 ---
 [Firefox 28 以降廃止予定となっている](https://www.fxsitecompat.com/ja/docs/2013/showmodaldialog-has-been-deprecated/) [`window.showModalDialog`](https://developer.mozilla.org/ja/docs/Web/API/Window/showModalDialog) メソッドは、近い将来削除されます。標準の [`window.open`](https://developer.mozilla.org/ja/docs/Web/API/Window/open) メソッドか、独自のページ内モーダル UI を使ってください。HTML5 の [`<dialog>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/dialog) 要素がもうひとつの代替案となりますが、これはまだ Firefox には実装されていません。
+
+**更新**: Firefox 46 以降、Firefox がマルチプロセスモードで実行されている場合、[このメソッドは無効化されます](https://www.fxsitecompat.com/ja/docs/2015/showmodaldialog-has-been-disabled-in-multi-process-firefox/)。
