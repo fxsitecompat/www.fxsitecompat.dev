@@ -20,7 +20,7 @@
     <link rel="canonical" hreflang="{{ $.Site.LanguageCode }}" href="{{ .Permalink }}">
     <link rel="alternate" hreflang="x-default" href="{{ replace .Permalink $.Site.Params.BaseDir "/" }}">{{ range $.Site.Params.Locales }}
     <link rel="alternate" hreflang="{{ .Code }}" href="{{ replace $.Permalink $.Site.Params.BaseDir (print "/" .Code "/") }}" title="{{ .Name }}">{{ end }}
-    <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/base.css?v=201512232354">
+    <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/base.css?v=201601011226">
     <link rel="icon" type="image/png" href="{{ $.Site.Params.BaseDir }}images/template/favicon.png">
     <link rel="alternate" type="application/atom+xml" href="{{ $.Site.Params.BaseDir }}index.xml" title="{{ $.Site.Title }}">
     <link rel="search" type="application/opensearchdescription+xml" href="{{ $.Site.Params.BaseDir }}search/index.xml" title="{{ $.Site.Params.Domain }}">
