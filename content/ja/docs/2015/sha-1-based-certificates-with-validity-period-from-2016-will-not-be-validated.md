@@ -13,4 +13,4 @@ references:
 
 Web マスターの皆さんは、[Web コンソール](https://developer.mozilla.org/ja/docs/Tools/Web_Console) を開き、あなたのサイトを読み込んで SHA-1 ベースの証明書が使われていないことを確認してください。もし SHA-1 ベースの証明書が使われているという警告がコンソールに表示された場合は、有効期間にかかわらずその発行者に連絡を取り、新しい SHA-2 ベースのものと無償で交換してください。Firefox は、他のブラウザとともに、<time datetime="2017-01">2017 年 1 月</time>以降すべての SHA-1 ベースの証明書について警告ページを表示する予定です。
 
-**更新**: コンピュータ上に MITM ソフトウェアがインストールされている一部の Firefox ユーザが、その動的に生成された証明書が原因で、HTTPS サイトに一切アクセスできなくなってしまったことが報告されています。[議論の結果](https://groups.google.com/d/topic/mozilla.dev.platform/ZNKxYgIk_Sg/discussion)、Mozilla 開発者がリスク範囲を調査できるようにするため、この変更は [Firefox 43.0.4 で取り消されました](https://bugzilla.mozilla.org/show_bug.cgi?id=1236975)。
+**更新**: コンピュータ上に MITM ソフトウェアがインストールされている一部の Firefox ユーザが、その動的に生成された証明書が原因で、HTTPS サイトに一切アクセスできなくなってしまったことが報告されています。[議論の結果](https://groups.google.com/d/topic/mozilla.dev.platform/ZNKxYgIk_Sg/discussion)、Mozilla 開発者がリスク範囲を調査できるようにするため、この変更は [Firefox 43.0.4 で取り消されました](https://bugzilla.mozilla.org/show_bug.cgi?id=1236975)。[Mozilla Security Blog](https://blog.mozilla.org/security/2016/01/06/man-in-the-middle-interfering-with-increased-security/) も参照してください。
