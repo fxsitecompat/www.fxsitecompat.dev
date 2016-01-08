@@ -50,7 +50,7 @@ contentinfo:
     category: "Technology"
     audienceType: "Web developers"
     tagline: "Together, We Build a Better Web"
-    description: "A community-driven Web developer engagement initiative focusing on the backward compatibility and regressions of Firefox. Documents, latest updates & more."
+    description: "A community-driven Web developer engagement initiative focused on the backward compatibility and regressions of Firefox. Documents, latest updates & more."
     legal: "Mozilla and Firefox are trademarks of The Mozilla Foundation. This initiative is not affiliated with Mozilla."
     generator: 'Powered by <a href="http://gohugo.io/" rel="nofollow">Hugo</a>'
     hosting: 'Hosted by <a href="https://www.digitalocean.com/?refcode=79ce8405cfad" rel="nofollow">DigitalOcean</a>'
@@ -71,7 +71,7 @@ browse_all_versions: "See all versions..."
 browse_all_categories: "See all categories..."
 home_page:
     tagline: "<span>Together, We Build</span> <span>a Better Web</span>"
-    description: "A community-driven Web developer engagement initiative focusing on the backward compatibility and regressions of Firefox. Documents, latest updates & more."
+    description: "A community-driven Web developer engagement initiative focused on the backward compatibility and regressions of Firefox. Documents, latest updates & more."
 
 # All blog posts page
 all_posts_page:
