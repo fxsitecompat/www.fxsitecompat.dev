@@ -3,7 +3,7 @@ title: "Non-HTTPS sites containing login form will be marked insecure"
 date: "2015-10-21T14:38:00-07:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["45"]
+versions: ["46"]
 statuses: "affected"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1188121": "Bug 1188121 - [userstory] CC: Warning for password on non-secure connection"
@@ -13,4 +13,4 @@ Firefox now shows a [broken padlock icon](https://bug1179961.bmoattachments.org/
 
 No budget for a TLS certificate? Don't worry. From November 2015, [Let's Encrypt](https://letsencrypt.org/), a new certificate authority run by Mozilla and others, gives you a trusted certificate for free.
 
-**Update**: This functionality has been disabled on Developer Edition due to a couple of blocker bugs, but will be [enabled soon](https://bugzilla.mozilla.org/show_bug.cgi?id=1221206).
+**Update**: This functionality has been disabled on Developer Edition due to a couple of blocker bugs, but will be [enabled with Firefox 46](https://bugzilla.mozilla.org/show_bug.cgi?id=1221206).

@@ -3,7 +3,7 @@ title: "ログインフォームが含まれる非 HTTPS サイトは安全で�
 date: "2015-10-21T14:38:00-07:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["45"]
+versions: ["46"]
 statuses: "affected"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1188121": "Bug 1188121 - [userstory] CC: Warning for password on non-secure connection"
@@ -13,4 +13,4 @@ references:
 
 TLS 証明書を購入する予算がありませんか？ 心配ありません。2015 年 11 月以降、Mozilla などが運営する新しい認証局 [Let's Encrypt](https://letsencrypt.org/) が、信頼の置ける証明書を無償で提供します。
 
-**更新**: この機能はいくつかのブロッカーバグのため Developer Edition では無効化されていますが、[近々有効化される](https://bugzilla.mozilla.org/show_bug.cgi?id=1221206) 予定です。
+**更新**: この機能はいくつかのブロッカーバグのため Developer Edition では無効化されていますが、[Firefox 46 で有効化される](https://bugzilla.mozilla.org/show_bug.cgi?id=1221206) 予定です。
