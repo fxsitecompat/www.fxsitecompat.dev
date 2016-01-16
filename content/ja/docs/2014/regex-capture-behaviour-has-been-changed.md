@@ -7,6 +7,8 @@ versions: ["34"]
 cclicense: "BY-SA 3.0"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=369778": "Bug 369778 – Javascript regular expression captures broken with alternation in some cases."
+aliases:
+    - "/docs/2014/regex-capture-behavior-has-been-changed/"
 ---
 `String.replace` を含む正規表現において、数量詞によってキャプチャグループの参照が妨げられた場合、そのグループの一致テキストが空文字列の代わりに `undefined` となります ([このサンプルコード](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/RegExp#Gecko-specific_notes) も参照してください)。なお、後方互換性のため、`RegExp.$N` は引き続き `undefined` ではなく空文字列を返します ([Bug 1053944](https://bugzilla.mozilla.org/show_bug.cgi?id=1053944))。
 
