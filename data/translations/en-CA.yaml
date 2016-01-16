@@ -1,0 +1,140 @@
+# Sections
+sections:
+    home: Home
+    blog: Blog
+    docs: Documents
+    categories: Categories
+    versions: Versions
+    about: About
+
+# Versions
+versions:
+    future: "Future"
+
+# Categories
+categories:
+    audio-video: "Audio & Video"
+    canvas-webgl: "Canvas & WebGL"
+    css: "CSS"
+    dom: "DOM"
+    event-handling: "Event Handling"
+    file-handling: "File Handling"
+    html: "HTML"
+    javascript: "JavaScript"
+    mathml: "MathML"
+    misc: "Miscellaneous"
+    networking: "Networking"
+    plugins: "Plug-ins"
+    printing: "Printing"
+    privacy-security: "Privacy & Security"
+    svg: "SVG"
+
+# Statuses:
+statuses:
+    affected:
+        label: "Affected"
+        description: "A change made for standard compliance, security or performance. A couple of sites were broken but those issues were or should be fixed by themselves."
+        desc_plural: "This list contains changes made for standard compliance, security or performance. A couple of sites were broken but those issues were or should be fixed by themselves."
+    reverted:
+        label: "Reverted"
+        description: "A change made for standard compliance, security or performance. Many sites were broken and therefore this change was reverted with a subsequent Firefox release."
+        desc_plural: "This list contains changes made for standard compliance, security or performance. Many sites were broken and therefore those changes were reverted with a subsequent Firefox release."
+    regressed:
+        label: "Regressed"
+        description: "A site compatibility issue unintentionally introduced and later discovered. One or more sites were broken and therefore this regression was fixed with a subsequent Firefox release."
+        desc_plural: "This list contains site compatibility issues unintentionally introduced and later discovered. One or more sites were broken and therefore those regressions were fixed with a subsequent Firefox release. Note that some issues are not documented yet."
+
+# Meta
+contentinfo:
+    organization: "<span>Firefox Site Compatibility</span> <span>Working Group</span>"
+    category: "Technology"
+    audienceType: "Web developers"
+    tagline: "Together, We Build a Better Web"
+    description: "A community-driven Web developer engagement initiative focused on the backward compatibility and regressions of Firefox. Documents, latest updates & more."
+    legal: "Mozilla and Firefox are trademarks of The Mozilla Foundation. This initiative is not affiliated with Mozilla."
+    generator: 'Powered by <a href="http://gohugo.io/" rel="nofollow">Hugo</a>'
+    hosting: 'Hosted by <a href="https://www.digitalocean.com/?refcode=79ce8405cfad" rel="nofollow">DigitalOcean</a>'
+    contribute: '<a href="%s">Improve this page</a>'
+    translation: '<a href="%s" itemprop="url">日本語</a>'
+
+# Search box
+search: "Search"
+search_placeholder: "Search Documents"
+
+# Home page
+latest_blog_post: "Latest Blog Post"
+documents: "Documents"
+browse_category: "Browse by Category"
+browse_version: "Browse by Version"
+browse_status: "Browse by Status"
+browse_all_versions: "See all versions..."
+browse_all_categories: "See all categories..."
+home_page:
+    tagline: "<span>Together, We Build</span> <span>a Better Web</span>"
+    description: "A community-driven Web developer engagement initiative focused on the backward compatibility and regressions of Firefox. Documents, latest updates & more."
+
+# All blog posts page
+all_posts_page:
+    title: "Blog"
+    description: "Browse all our blog posts related to Firefox site compatibility."
+
+# All documents page
+all_documents: "All Documents"
+all_docs_page:
+    title: "Documents"
+    description: "Browse all our documents related to Firefox site compatibility."
+
+# All categories page
+all_categories_page:
+    title: "Browse Documents by Category"
+    description: "Browse all our Firefox site compatibility documents by technology category, including CSS, DOM, JavaScript, Plug-ins, Security & Privacy."
+
+# All statuses page
+all_statuses_page:
+    title: "Browse Documents by Status"
+    description: "Browse all our Firefox site compatibility documents by issue status, including Affected, Regression and Reverted."
+
+# All versions page
+all_versions_page:
+    title: "Browse Documents by Version"
+    description: "Browse all our Firefox site compatibility documents by major release, up to the latest pre-release version."
+
+# Version index page
+version_index_page:
+    title: "Firefox %s Site Compatibility"
+    title_future: "Future Planned Changes"
+    description: "Browse our site compatibility documents describing the changes made with Firefox version %s."
+    description_upcoming: "Browse our site compatibility documents describing the changes made with Firefox version %(version)s, currently offered on the <em>%(channel)s</em> channel."
+    description_secondary: 'This list will be updated when a further change is made or a new regression is found, so subscribe to our <a href="/en-CA/index.xml">site feed</a> for updates. The general developer information for Firefox %s, including the new features and enhancements, can be found at the <a href="https://developer.mozilla.org/en-US/Firefox/Releases/%s">Mozilla Developer Network</a>.'
+    description_future: 'Browse our site compatibility documents describing the changes to be made with future Firefox releases. This list will be updated when a further change is planned, so subscribe to our <a href="/en-CA/index.xml">site feed</a> for updates. Be prepared today to make your site as great as possible!'
+
+# Category index page
+category_index_page:
+    title: "%s Compatibility Documents"
+    description: "Browse our Firefox site compatibility documents describing the changes related to %s."
+
+# Status index page
+status_index_page:
+    title: "Documents with the “%s” Status"
+
+# Single document page
+published: "Published"
+creativecommons: "Creative Commons"
+description: "Description"
+references: "References"
+docs_for_version: "Firefox %s Compatibility"
+docs_for_version_future: "Future Planned Changes"
+
+# Single blog page
+recent_blog_posts: "Recent Blog Posts"
+
+# 404 page
+not_found_page:
+    title: "Page Not Found"
+    description: "The page you are looking for could not be found. If you believe this is an error, please reach us out at webmaster@fxsitecompat.com."
+
+# Feed
+feed:
+    recent_content: "Recent Articles on %s"
+    version: "Version"
+    category: "Category"

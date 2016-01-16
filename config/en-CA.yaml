@@ -1,11 +1,11 @@
 MetaDataFormat: "yaml"
 
-ContentDir: "content/ja"
-PublishDir: "public/ja"
+ContentDir: "content/en-CA"
+PublishDir: "public/en-CA"
 
-LanguageCode: ja
-BaseURL: "https://www.fxsitecompat.com/ja/"
-Title: "Firefox サイト互換性情報"
+LanguageCode: en-CA
+BaseURL: "https://www.fxsitecompat.com/en-CA/"
+Title: "Firefox Site Compatibility"
 Copyright: "Kohei Yoshino and individual contributors."
 
 Author:
@@ -19,26 +19,26 @@ Author:
 Params:
     Domain: "FxSiteCompat.com"
     Publisher:
-        Name: "Firefox サイト互換性ワーキンググループ"
+        Name: "Firefox Site Compatibility Working Group"
         GoogleUserName: "FxSiteCompatibility"
         TwitterUserName: "FxSiteCompat"
         FacebookID: "633917723366737"
         FacebookUserName: "FxSiteCompat"
-    BaseDir: "/ja/"
-    AlternateBaseDir: "/en-CA/"
-    AlternateLangCode: "en-CA"
+    BaseDir: "/en-CA/"
+    AlternateBaseDir: "/ja/"
+    AlternateLangCode: "ja"
     GoogleAnalyticsID: "UA-37352183-2"
     GoogleSiteSearchID: "006388931142546140887:uidl4-zslfu"
-    GoogleSiteSearchLangCode: "ja"
-    FacebookLangCode: "ja_JP"
+    GoogleSiteSearchLangCode: "en"
+    FacebookLangCode: "en_US"
     Locales:
          - Code: "en-CA"
-           Name: "英語"
+           Name: "English"
          - Code: "ja"
-           Name: "日本語"
+           Name: "Japanese"
     DateFormat:
         ISO8601: "2006-01-02T15:04:05-07:00"
-        Localized: "2006 年 1 月 2 日"
+        Localized: "January 2, 2006"
 
 Taxonomies:
     category: "categories"
@@ -47,28 +47,28 @@ Taxonomies:
 
 Menu:
     Main:
-        - Name: "ホーム"
+        - Name: "Home"
           Weight: 0
           Identifier: "home"
           URL: "/"
-        - Name: "ブログ"
+        - Name: "Blog"
           Weight: 1
           Identifier: "blog"
           URL: "/blog/"
-        - Name: "ドキュメント"
+        - Name: "Documents"
           Weight: 2
           Identifier: "docs"
           URL: "/docs/"
-        - Name: "概要"
+        - Name: "About"
           Weight: 3
           Identifier: "about"
           URL: "/about/"
-        - Name: "協力"
+        - Name: "Contribute"
           Weight: 4
           Identifier: "contribute"
           URL: "/contribute/"
     External:
-        - Name: "フィード"
+        - Name: "Feed"
           Weight: 0
           Identifier: "feed"
           URL: "/index.xml"
@@ -84,7 +84,7 @@ Menu:
           Weight: 3
           Identifier: "google-plus"
           URL: "https://plus.google.com/+FxSiteCompatibility"
-        - Name: "Google グループ"
+        - Name: "Google Group"
           Weight: 4
           Identifier: "google-group"
           URL: "https://groups.google.com/forum/#!forum/fxsitecompat"

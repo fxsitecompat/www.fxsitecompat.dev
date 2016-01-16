@@ -11,7 +11,7 @@ This site is listed on the [Hugo Site Showcase](https://gohugo.io/showcase/) so 
 English:
 
 ```bash
-hugo server --buildDrafts --watch --config=config/en-US.yaml
+hugo server --buildDrafts --watch --config=config/en-CA.yaml
 ```
 
 Japanese:

@@ -12,25 +12,28 @@ AddType application/font-woff2 woff2
 Options +SymLinksIfOwnerMatch -Indexes
 RewriteEngine on
 
+# Redirect: English (US)
+RewriteRule ^en-US/(.*) /en-CA/$1 [R=301,L]
+
 # Site Search
 RewriteCond %{QUERY_STRING} cx=006388931142546140887:uidl4-zslfu
-RewriteRule ^(en-US|ja)/search/$ https://cse.google.com/cse [L]
+RewriteRule ^(en-CA|ja)/search/$ https://cse.google.com/cse [L]
 
 # Redirect: Japanese
 RewriteCond %{HTTP:Accept-Language} ^ja
-RewriteCond %{REQUEST_URI} !^/(en-US|ja)/
+RewriteCond %{REQUEST_URI} !^/(en-CA|ja)/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*) /ja/$1 [R=302,L]
 
-# Redirect: English
-RewriteCond %{REQUEST_URI} !^/(en-US|ja)/
+# Redirect: English (Canada)
+RewriteCond %{REQUEST_URI} !^/(en-CA|ja)/
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*) /en-US/$1 [R=302,L]
+RewriteRule ^(.*) /en-CA/$1 [R=302,L]
 
 # 404 Not Found
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(en-US|ja)/ /$1/404.html [L]
+RewriteRule ^(en-CA|ja)/ /$1/404.html [L]
 
 # Performance
 FileETag None
