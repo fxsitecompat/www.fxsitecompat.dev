@@ -9,6 +9,7 @@ references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1238079": "Bug 1238079 - disable and remove runtime"
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1238576": "Bug 1238576 - Stop exposing navigator.mozApps on desktop and Android"
     "https://groups.google.com/d/topic/firefox-dev/WV2XkVN3sWQ/discussion": "firefox-dev: disabling the desktop/Android Web Runtimes"
+    "https://groups.google.com/d/topic/mozilla.dev.webapps/PUm4nx4A3X8/discussion": "mozilla.dev.webapps: alternatives to desktop/Android web runtimes"
 ---
 Web アプリケーションをネイティブアプリケーションのようにユーザの端末へインストールし実行することを可能にしていた、非標準の [Open Web Apps JavaScript API](https://developer.mozilla.org/ja/Apps/Build/JavaScript_API) と [Web App Runtime](https://developer.mozilla.org/ja/Apps/Build/Architecture) が、[デスクトップ](https://developer.mozilla.org/ja/Marketplace/Options/Open_web_apps_for_desktop) 版と [Android](https://developer.mozilla.org/ja/Marketplace/Options/Open_web_apps_for_android) 版の Firefox から将来的に削除されることとなりました。
 
