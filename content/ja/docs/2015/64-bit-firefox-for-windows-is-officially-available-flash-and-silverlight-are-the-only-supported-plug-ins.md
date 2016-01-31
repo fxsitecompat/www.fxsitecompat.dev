@@ -20,3 +20,5 @@ Windows 向け Firefox 64 ビット版はしばらく前から [Developer Editio
 **更新**: Mozilla が「パートナー関連のいくつかの変更を待っている」ため、Windows 64 ビット版の一般公開は延期されました。現時点でのスケジュールは不明です。
 
 **更新**: Mozilla は Firefox 43 での 64 ビット版公開を決定しました。Silverlight 対応も有効化されています。
+
+**更新**: 64 ビット版には、Flash コンテンツからファイルピッカーを開けないという [バグ](https://bugzilla.mozilla.org/show_bug.cgi?id=1236911) があります。Mozilla は Adobe と協力して問題の解決に取り組んでいます。

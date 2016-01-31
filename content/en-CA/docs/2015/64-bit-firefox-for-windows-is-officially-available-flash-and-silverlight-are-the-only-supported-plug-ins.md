@@ -20,3 +20,5 @@ Firefox 64-bit builds for Windows have been available for testing as [Developer 
 **Update**: The public release of Windows 64-bit builds has been postponed while Mozilla is "waiting for some partner changes". The current timeline is unknown.
 
 **Update**: Mozilla has decided to ship the 64-bit version with Firefox 43, enabling the Silverlight support as well.
+
+**Update**: There is a [bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1236911) on 64-bit builds where the file picker cannot be opened from Flash content. Mozilla is working with Adobe to solve the issue.
