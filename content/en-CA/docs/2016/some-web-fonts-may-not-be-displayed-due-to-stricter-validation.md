@@ -10,4 +10,4 @@ references:
 ---
 On Firefox 44 and later, some Web fonts may be rejected due to the stricter validation by a new version of the OpenType Sanitizer. Fonts containing OpenType layout tables that are violating the spec will not be rendered and the Web Console shows a warning about the error.
 
-Due to a couple of affected sites including *Nokia*, Mozilla developers are considering loosening the validation on the Beta and Release channels. However, problematic fonts should be replaced anyway.
+**Update**: Due to a couple of affected sites including *Nokia*, the validation has been loosened on the Beta and Release channels since Firefox 45. However, problematic fonts should be replaced anyway.
