@@ -4,7 +4,7 @@ date: "2016-01-31T02:11:00-05:00"
 categories: ["javascript", "networking"]
 tags: []
 versions: ["44"]
-statuses: "affected"
+statuses: "reverted"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1244505": "Bug 1244505 - Firefox 44 no longer allows spaces in cookie names, breaking some apps"
     "https://www.mozilla.org/en-US/security/advisories/mfsa2016-04/": "MFSA 2016-04 - Firefox allows for control characters to be set in cookie names"
@@ -13,4 +13,4 @@ Previously, Firefox was improperly allowing whitespace characters to be stored i
 
 Firefox 44 has fixed the issue and cookies with an invalid name are no longer created. In JavaScript, both cookie names and values must be explicitly encoded using the [`encodeURIComponent`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent) method before being stored with the [`document.cookie`](https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie) property.
 
-**Update**: Due to some broken applications, this change has been reverted with Firefox 47 Nightly, and to be reverted with 44.0.1, 45 Beta and 46 Developer Edition as well. While spaces are allowed again for interoperability, control characters will remain prohibited to prevent potential security issues.
+**Update**: Due to some broken applications, this change has been reverted with Firefox 44.0.1. While spaces are allowed again for interoperability, control characters will remain prohibited to prevent potential security issues.
