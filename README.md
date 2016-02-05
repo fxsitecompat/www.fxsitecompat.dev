@@ -1,6 +1,6 @@
 # FxSiteCompat.com
 
-The source of our [FxSiteCompat.com](https://www.fxsitecompat.com/) site powered by [Hugo](http://gohugo.io/).
+The source of our [FxSiteCompat.com](https://www.fxsitecompat.com/) site powered by [Hugo](https://gohugo.io/).
 
 ## Terms of Use
 

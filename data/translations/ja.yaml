@@ -52,7 +52,7 @@ contentinfo:
     tagline: "ともに、より良い Web を築こう"
     description: "Firefox の後方互換性とリグレッションに焦点を当てた、コミュニティ主導の Web 開発者エンゲージメントイニシアチブ。ドキュメント、最新情報など。"
     legal: "Mozilla と Firefox は Mozilla Foundation の商標です。このイニシアチブは Mozilla とは無関係です。"
-    generator: 'Powered by <a href="http://gohugo.io/" rel="nofollow">Hugo</a>'
+    generator: 'Powered by <a href="https://gohugo.io/" rel="nofollow">Hugo</a>'
     hosting: 'Hosted by <a href="https://www.digitalocean.com/?refcode=79ce8405cfad" rel="nofollow">DigitalOcean</a>'
     contribute: '<a href="%s">ページの改善を提案</a>'
     translation: '<a href="%s" itemprop="url">English</a>'
