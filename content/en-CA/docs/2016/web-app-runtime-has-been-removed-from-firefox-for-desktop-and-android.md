@@ -1,17 +1,19 @@
 ---
-title: "Web App Runtime will be removed from Firefox for desktop and Android"
-date: "2016-01-14T22:08:00-05:00"
+title: "Web App Runtime has been removed from Firefox for desktop and Android"
+date: "2016-02-09T08:19:00-05:00"
 categories: ["misc"]
 tags: []
-versions: ["future"]
+versions: ["47"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1235869": "Bug 1235869 - Remove support for WebRT"
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1238079": "Bug 1238079 - disable and remove runtime"
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1238576": "Bug 1238576 - Stop exposing navigator.mozApps on desktop and Android"
     "https://groups.google.com/d/topic/firefox-dev/WV2XkVN3sWQ/discussion": "firefox-dev: disabling the desktop/Android Web Runtimes"
     "https://groups.google.com/d/topic/mozilla.dev.webapps/PUm4nx4A3X8/discussion": "mozilla.dev.webapps: alternatives to desktop/Android web runtimes"
+aliases:
+    - "/docs/2016/web-app-runtime-will-be-removed-from-firefox-for-desktop-and-android/"
 ---
-The non-standard [Open Web Apps JavaScript API](https://developer.mozilla.org/en-US/Apps/Build/JavaScript_API) and [Web App Runtime](https://developer.mozilla.org/en-US/Apps/Build/Architecture), that allowed Web applications to be installed and run on the user's device like native applications, will be removed from Firefox for [desktop](https://developer.mozilla.org/en-US/Marketplace/Options/Open_web_apps_for_desktop) and [Android](https://developer.mozilla.org/en-US/Marketplace/Options/Open_web_apps_for_android) in the future.
+The non-standard [Open Web Apps JavaScript API](https://developer.mozilla.org/en-US/Apps/Build/JavaScript_API) and [Web App Runtime](https://developer.mozilla.org/en-US/Apps/Build/Architecture), that allowed Web applications to be installed and run on the user's device like native applications, has been removed from Firefox 47 for [desktop](https://developer.mozilla.org/en-US/Marketplace/Options/Open_web_apps_for_desktop) and [Android](https://developer.mozilla.org/en-US/Marketplace/Options/Open_web_apps_for_android).
 
 Those functionalities were invented by Mozilla Labs in 2011 then became an integral part of [Firefox OS](https://developer.mozilla.org/en-US/Apps/Build/Building_apps_for_Firefox_OS) built on modern Web technologies. However, the runtime has not been widely used and actively developed on other platforms.
 
