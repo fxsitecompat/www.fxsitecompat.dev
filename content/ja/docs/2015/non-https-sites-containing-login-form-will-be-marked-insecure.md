@@ -14,4 +14,4 @@ references:
 
 この機能は今のところ Firefox Nightly と Developer Edition のみで有効化されていますが、Web マスターの皆さんはそうした気まずい状況を避けたいと思うでしょう。TLS 証明書を購入する予算がありませんか？ 心配ありません。2015 年 11 月以降、Mozilla などが運営する新しい認証局 [Let's Encrypt](https://letsencrypt.org/) が、信頼の置ける証明書を無償で提供します。
 
-詳しくは [Tanvi Vyas のブログ記事](https://blog.mozilla.org/tanvi/2016/01/28/no-more-passwords-over-http-please/) を参照してください。
+詳しくは [Tanvi Vyas のブログ記事](https://dev.mozilla.jp/2016/02/no-more-passwords-over-http-please/) を参照してください。
