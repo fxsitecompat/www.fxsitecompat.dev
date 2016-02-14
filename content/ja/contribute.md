@@ -8,7 +8,6 @@ slug: "contribute"
 
 * **ソーシャルメディア**: [Twitter](https://twitter.com/FxSiteCompat)、[Facebook](https://www.facebook.com/FxSiteCompat) あるいは [Google+](https://plus.google.com/+FxSiteCompatibility) で私たちをフォローしてください。(これらのメディアでの情報発信は今のところ基本的に英語のみです)
 * **フィード**: このサイトの [Atom フィード](/ja/index.xml) を購読してください。
-* **フォーラム**: 私たちの [Google グループ](https://groups.google.com/forum/#!forum/fxsitecompat) に参加してください。
 
 ## サイトのテスト
 

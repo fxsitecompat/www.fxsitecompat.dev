@@ -8,7 +8,6 @@ slug: "contribute"
 
 * **Social media**: Follow us on [Twitter](https://twitter.com/FxSiteCompat), [Facebook](https://www.facebook.com/FxSiteCompat) or [Google+](https://plus.google.com/+FxSiteCompatibility).
 * **Feed**: Subscribe the [Atom feed](/en-CA/index.xml) of this site.
-* **Forum**: Join our [Google Group](https://groups.google.com/forum/#!forum/fxsitecompat).
 
 ## Test your site
 

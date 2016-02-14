@@ -84,11 +84,7 @@ Menu:
           Weight: 3
           Identifier: "google-plus"
           URL: "https://plus.google.com/+FxSiteCompatibility"
-        - Name: "Google Group"
-          Weight: 4
-          Identifier: "google-group"
-          URL: "https://groups.google.com/forum/#!forum/fxsitecompat"
         - Name: "GitHub"
-          Weight: 5
+          Weight: 4
           Identifier: "github"
           URL: "https://github.com/fxsitecompat"
