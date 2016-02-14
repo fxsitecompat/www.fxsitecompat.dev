@@ -3,7 +3,7 @@ title: "Background images specified with `-moz-element` are not updated"
 date: "2012-12-03T03:54:45-05:00"
 categories: ["css"]
 tags: []
-versions: ["19", "20", "21", "22", "23", "24", "25"]
+versions: ["19"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

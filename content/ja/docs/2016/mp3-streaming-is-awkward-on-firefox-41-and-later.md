@@ -3,7 +3,7 @@ title: "Firefox 41 以降で MP3 ストリーミング再生に問題が生じ�
 date: "2016-01-02T13:37:00-05:00"
 categories: ["audio-video"]
 tags: []
-versions: ["41", "42"]
+versions: ["41"]
 statuses: "regressed"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1222866": "Bug 1222866 - Audio pause and distortion in MP3 stream due to rounding error since Firefox 41"

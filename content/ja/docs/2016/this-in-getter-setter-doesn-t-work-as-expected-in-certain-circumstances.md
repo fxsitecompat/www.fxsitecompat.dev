@@ -3,7 +3,7 @@ title: "ゲッター・セッター内の `this` が特定の状況で期待通�
 date: "2016-01-02T12:42:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["41", "42", "43", "44"]
+versions: ["41"]
 statuses: "regressed"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1232269": "Bug 1232269 - Getter or setter on unboxed expando object is called with the expando as |this|"

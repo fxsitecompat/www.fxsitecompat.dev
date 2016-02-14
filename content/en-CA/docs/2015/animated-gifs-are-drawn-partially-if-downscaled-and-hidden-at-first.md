@@ -3,7 +3,7 @@ title: "Animated GIFs are drawn partially if downscaled and hidden at first"
 date: "2015-12-18T18:27:00-05:00"
 categories: ["misc"]
 tags: []
-versions: ["43", "44", "45", "46", "47"]
+versions: ["43"]
 statuses: "regressed"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1233403": "Bug 1233403 - Animated GIFs are partially drawn if those are hidden at first"

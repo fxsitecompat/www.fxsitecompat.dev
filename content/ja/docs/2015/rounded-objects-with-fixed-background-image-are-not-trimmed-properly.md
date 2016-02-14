@@ -3,7 +3,7 @@ title: "固定背景画像を持つ角丸オブジェクトが正しくトリミ
 date: "2015-12-18T17:37:00-05:00"
 categories: ["css"]
 tags: []
-versions: ["43", "44"]
+versions: ["43"]
 statuses: "regressed"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1232939": "Bug 1232939 - The background image in a div is causing a spill over of the border where the border-radius cuts into the div"

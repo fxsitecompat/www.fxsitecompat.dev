@@ -3,7 +3,7 @@ title: "ハッシュ部分に改行を含むリンクが壊れています"
 date: "2015-10-20T21:43:00-07:00"
 categories: ["networking"]
 tags: [""]
-versions: ["38", "39", "40", "41"]
+versions: ["38"]
 statuses: "regressed"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1189852": "Bug 1189852 - link broken which a line break on hash part after Bug 1144398"

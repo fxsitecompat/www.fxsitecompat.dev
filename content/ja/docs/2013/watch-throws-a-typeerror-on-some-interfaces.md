@@ -3,7 +3,7 @@ title: "一部のインタフェース上で `watch()` が `TypeError` を投げ
 date: "2013-04-06T04:52:59-04:00"
 categories: ["dom"]
 tags: []
-versions: ["23", "24", "25", "26"]
+versions: ["23"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:

@@ -3,7 +3,7 @@ title: "Geolocation API が Firefox 43 と 44 Beta で動作していません"
 date: "2015-12-17T16:05:00-05:00"
 categories: ["misc"]
 tags: []
-versions: ["43", "44"]
+versions: ["43"]
 statuses: "regressed"
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=1232995": "Bug 1232995 - HTML5 Geolocation Not Working After Update to version 43"
