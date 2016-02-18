@@ -6,8 +6,9 @@ tags: []
 versions: ["47"]
 references:
     "https://bugzilla.mozilla.org/show_bug.cgi?id=743198": "Bug 743198 - Unprefix the DOM fullscreen API"
+    "https://bugzilla.mozilla.org/show_bug.cgi?id=1249225": "Bug 1249225 - Remove the prefixed fullscreen API"
 ---
-The [Fullscreen API](https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API) has been unprefixed with Firefox 47. The non-standard, prefixed methods and properties are now considered deprecated and will be removed in the future.
+The [Fullscreen API](https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API) has been unprefixed with Firefox 47. The non-standard, prefixed methods and properties are now considered deprecated and may be removed in the future.
 
 The `element.mozRequestFullScreen` and [`document.mozCancelFullScreen`](https://developer.mozilla.org/en-US/docs/Web/API/Document/mozCancelFullScreen) methods are now [`element.requestFullscreen`](https://developer.mozilla.org/en-US/docs/Web/API/Element/requestFullScreen) and `document.exitFullscreen` respectively.
 
