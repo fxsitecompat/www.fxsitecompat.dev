@@ -1,5 +1,5 @@
 ---
-title: "Non-HTTPS sites containing login form will be marked insecure"
+title: "Non-HTTPS sites containing login form will be marked insecure (currently only on Nightly and Developer Edition)"
 date: "2015-10-21T14:38:00-07:00"
 categories: ["privacy-security"]
 tags: []

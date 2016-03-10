@@ -1,5 +1,5 @@
 ---
-title: "ログインフォームが含まれる非 HTTPS サイトは安全でないと表示されます"
+title: "ログインフォームが含まれる非 HTTPS サイトは安全でないと表示されます (現在のところ Nightly と Developer Edition のみ)"
 date: "2015-10-21T14:38:00-07:00"
 categories: ["privacy-security"]
 tags: []
