@@ -7,7 +7,8 @@ Mozilla has shipped [Firefox 46 Beta and 47 Developer Edition](https://www.mozil
 * [Firefox 46 Site Compatibility](https://www.fxsitecompat.com/en-CA/versions/46/)
 * [Firefox 47 Site Compatibility](https://www.fxsitecompat.com/en-CA/versions/47/)
 
-Firefox 45 released this Tuesday has at least 2 site compatibility regressions described in the following articles. These issues will be fixed next week with Firefox 45.0.1. If you encountered any other issues, let us know immediately.
+Firefox 45 released this Tuesday has at least 3 site compatibility regressions described in the following articles. If you encountered any other issues, ping us immediately.
 
 * [`jar` protocol support has been disabled by default](https://www.fxsitecompat.com/en-CA/docs/2015/jar-protocol-support-has-been-disabled-by-default/)
 * [Some Flash sites are broken when third-party cookies are blocked](https://www.fxsitecompat.com/en-CA/docs/2016/some-flash-sites-are-broken-when-third-party-cookies-are-blocked/)
+* [Dedicated workers no longer inherit CSP from parent document unless embedded](https://www.fxsitecompat.com/en-CA/docs/2016/dedicated-workers-no-longer-inherit-csp-from-parent-document-unless-embedded/)
