@@ -6,7 +6,8 @@ tags: []
 versions: ["45"]
 statuses: "affected"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1223647": "Bug 1223647 - CSP erroneously \"inherited\" into dedicated workers"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1223647"
+      title: "Bug 1223647 - CSP erroneously \"inherited\" into dedicated workers"
 ---
 Firefox 45 has fixed a [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/Security/CSP) (CSP) implementation bug where [dedicated workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers#Dedicated_workers) were erroneously "inheriting" the policy of the parent document when [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) or [`importScripts`](https://developer.mozilla.org/en-US/docs/Web/API/WorkerGlobalScope/importScripts) was used.
 

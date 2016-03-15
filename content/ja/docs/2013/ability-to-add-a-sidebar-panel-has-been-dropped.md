@@ -7,7 +7,8 @@ versions: ["23"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=691647": "Bug 691647 – clean up nsISidebar (remove window.sidebar.addPanel/addPersistentPanel)"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=691647"
+      title: "Bug 691647 – clean up nsISidebar (remove window.sidebar.addPanel/addPersistentPanel)"
 ---
 `window.sidebar.addPanel` と `window.sidebar.addPersistentPanel` の対応が削除されました。これらのメソッドは、Web パブリッシャーが自社コンテンツをブラウザのサイドバーパネルとして統合できるようにしていた Netscape 由来 API の一部でした。これらは標準化されず、めったに使用されず、ブラウザ側の対応も不十分なままでした。他のどのブラウザもこれらのメソッドを実装していません。
 

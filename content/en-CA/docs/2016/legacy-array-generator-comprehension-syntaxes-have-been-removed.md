@@ -5,7 +5,8 @@ categories: ["javascript"]
 tags: []
 versions: ["46"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1220564": "Bug 1220564 - Remove legacy array/generator comprehension."
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1220564"
+      title: "Bug 1220564 - Remove legacy array/generator comprehension."
 aliases:
     - "/docs/2015/array-generator-comprehensions-will-be-removed/"
     - "/docs/2015/legacy-array-generator-comprehension-syntaxes-will-be-removed/"

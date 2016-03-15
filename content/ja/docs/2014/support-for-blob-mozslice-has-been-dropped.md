@@ -6,6 +6,7 @@ tags: []
 versions: ["30"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=961804": "Bug 961804 – Drop support for Blob.mozSlice"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=961804"
+      title: "Bug 961804 – Drop support for Blob.mozSlice"
 ---
 Firefox 15 以降廃止予定となっていた [`Blob`](https://developer.mozilla.org/ja/docs/Web/API/Blob) オブジェクトの `mozSlice` メソッドが、Firefox 30 で削除されました。代わりに接頭辞なしの `slice` メソッドを使ってください。

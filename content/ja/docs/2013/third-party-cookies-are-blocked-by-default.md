@@ -7,7 +7,8 @@ versions: ["22"]
 statuses: "reverted"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=818340": "Bug 818340 – Block cookies from sites I haven\'t visited"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=818340"
+      title: "Bug 818340 – Block cookies from sites I haven\'t visited"
 ---
 Firefox 22 以降、ユーザがオンラインプライバシーをより柔軟に管理できるよう、Apple Safari のように、サードパーティ Cookie が初期設定でブロックされるようになります。詳しくは [Mozilla Privacy Blog の投稿](https://blog.mozilla.org/privacy/2013/02/25/firefox-getting-smarter-about-third-party-cookies/) と Jonathan Mayer の [Firefox の新 Cookie ポリシーに関する FAQ](http://webpolicy.org/2013/02/22/the-new-firefox-cookie-policy/) をご覧ください。
 

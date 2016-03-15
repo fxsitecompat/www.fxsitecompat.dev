@@ -6,7 +6,8 @@ tags: []
 versions: ["17"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=782453": "Bug 782453 – Add site-specific User Agent infrastructure and use it to fix AOL Mail"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=782453"
+      title: "Bug 782453 – Add site-specific User Agent infrastructure and use it to fix AOL Mail"
 ---
 [An issue on the *AOL*'s Web mail service](https://bugzilla.mozilla.org/show_bug.cgi?id=778408) was reported that Firefox had been fallbacked to the basic application with limited features if the old build date (`Gecko/20100101`) was not contained in the user agent (UA) string. Mozilla has contacted the webmaster to ask to fix the issue but got no response, so as an immediate workaround, Firefox has implemented a mechanism that can override the UA string for each site and applied that to `aol.com`. Specifically, the value of a hidden preference `general.useragent.override.aol.com` has been set to `Gecko/[^ ]*#Gecko/20100101`.
 

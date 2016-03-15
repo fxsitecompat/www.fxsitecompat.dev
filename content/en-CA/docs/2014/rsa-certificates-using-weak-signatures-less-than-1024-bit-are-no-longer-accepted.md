@@ -6,6 +6,7 @@ tags: []
 versions: ["33"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=360126": "Bug 360126 – Stop accepting certificates that use RSA 1023 or weaker signatures"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=360126"
+      title: "Bug 360126 – Stop accepting certificates that use RSA 1023 or weaker signatures"
 ---
 RSA 512, 1000 and 1023-bit certificates are now blocked by Firefox since they are not sufficient for security. Most certificates currently being issued should have a 2048-bit key length.

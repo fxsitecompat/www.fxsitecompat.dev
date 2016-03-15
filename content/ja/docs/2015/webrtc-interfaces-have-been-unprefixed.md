@@ -5,9 +5,12 @@ categories: ["audio-video"]
 tags: []
 versions: ["44"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1155923": "Bug 1155923 - Unprefix WebRTC"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1206982": "Bug 1206982 - getUserMedia spec switched from PermissionDeniedError to SecurityError"
-    "https://groups.google.com/d/topic/mozilla.dev.platform/V0A6ZFPYfac/discussion": "Intent to implement and ship"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1155923"
+      title: "Bug 1155923 - Unprefix WebRTC"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1206982"
+      title: "Bug 1206982 - getUserMedia spec switched from PermissionDeniedError to SecurityError"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/V0A6ZFPYfac/discussion"
+      title: "Intent to implement and ship"
 ---
 [`RTCPeerConnection`](https://developer.mozilla.org/ja/docs/Web/API/RTCPeerConnection)、[`RTCSessionDescription`](https://developer.mozilla.org/ja/docs/Web/API/RTCSessionDescription)、`RTCIceCandidate` インタフェースの接頭辞が外れました。`navigator.mozGetUserMedia` メソッドも [`navigator.mediaDevices.getUserMedia`](https://developer.mozilla.org/ja/docs/Web/API/MediaDevices/getUserMedia) に置き換えられる形で廃止予定となりました。`moz` 接頭辞付きのインタフェースとメソッドは近く削除されます。
 

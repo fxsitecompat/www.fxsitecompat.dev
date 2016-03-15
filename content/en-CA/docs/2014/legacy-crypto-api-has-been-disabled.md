@@ -7,8 +7,10 @@ versions: ["33"]
 statuses: "reverted"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1036546": "Bug 1036546 – soft-disable proprietary window.crypto functions/properties before removing them entirely "
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1083118": "Bug 1083118 – window.crypto.signText replacement"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1036546"
+      title: "Bug 1036546 – soft-disable proprietary window.crypto functions/properties before removing them entirely "
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1083118"
+      title: "Bug 1083118 – window.crypto.signText replacement"
 ---
 The Netscape-derived [legacy Crypto API](https://developer.mozilla.org/en-US/docs/JavaScript_crypto) implemented on [`window.crypto`](https://developer.mozilla.org/en-US/docs/Web/API/window.crypto) has been disabled, including `enableSmartCardEvents` and `version` properties as well as `generateCRMFRequest`, `importUserCertificates`, `logout` and `signText` methods. These features have never been standardized and therefore will be removed with Firefox 34, while the standard [Web Crypto API has been actively implemented](https://bugzilla.mozilla.org/show_bug.cgi?id=865789). See the [MozillaWiki article](https://wiki.mozilla.org/SecurityEngineering/Removing_Proprietary_window.crypto_Functions) for details.
 

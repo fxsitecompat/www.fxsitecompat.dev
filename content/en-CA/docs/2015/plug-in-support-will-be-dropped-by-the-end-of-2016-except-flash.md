@@ -6,7 +6,8 @@ tags: []
 versions: ["future"]
 statuses: "affected"
 references:
-    "https://blog.mozilla.org/futurereleases/2015/10/08/npapi-plugins-in-firefox/": "NPAPI Plugins in Firefox"
+    - url: "https://blog.mozilla.org/futurereleases/2015/10/08/npapi-plugins-in-firefox/"
+      title: "NPAPI Plugins in Firefox"
 ---
 For years, Mozilla has aimed to make the Web plug-in-free by enhancing Web standard technologies because plug-ins are negatively affecting the browser performance, security and user experience. From [animation effects](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations), [video playback](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video), [drag & drop file upload](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Drag_and_drop), [clipboard manipulation](https://hacks.mozilla.org/2015/09/flash-free-clipboard-for-the-web/) to [interactive 3D games](https://developer.mozilla.org/en-US/docs/Games), [realtime video chat](https://developer.mozilla.org/en-US/docs/Web/Guide/API/WebRTC), now everything can be done without a plug-in. Firefox offers a [build-in PDF reader](https://support.mozilla.org/en-US/kb/view-pdf-files-firefox-without-downloading-them), [DRM support](https://support.mozilla.org/en-US/kb/enable-drm) and [experimental Flash replacement](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Shumway) as well.
 

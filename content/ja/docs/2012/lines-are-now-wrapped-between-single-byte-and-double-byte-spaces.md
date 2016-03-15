@@ -6,6 +6,7 @@ tags: []
 versions: ["16"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=765166": "Bug 765166 – IDEOGRAPHIC SPACE (U+3000) should cause line break after a white space"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=765166"
+      title: "Bug 765166 – IDEOGRAPHIC SPACE (U+3000) should cause line break after a white space"
 ---
 これは、ある日本語のサイトについて「Firefox のみページレイアウトが崩れる」と指摘があった問題です。他のブラウザと同様に、半角空白 (`U+0020`) と全角空白 (`U+3000`) の間で期待通りに行が折り返されるよう修正が行われました。

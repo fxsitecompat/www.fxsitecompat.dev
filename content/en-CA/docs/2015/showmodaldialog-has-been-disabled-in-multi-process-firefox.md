@@ -6,8 +6,10 @@ tags: []
 versions: ["46"]
 statuses: "affected"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1077002": "Bug 1077002 - window.showmodaldialog does not work with e10s"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1234700": "Bug 1234700 - Hide window.showModalDialog, at least when e10s is enabled"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1077002"
+      title: "Bug 1077002 - window.showmodaldialog does not work with e10s"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1234700"
+      title: "Bug 1234700 - Hide window.showModalDialog, at least when e10s is enabled"
 ---
 The [`window.showModalDialog`](https://developer.mozilla.org/en-US/docs/Web/API/Window/showModalDialog) method has been unavailable when Firefox is running in the multi-process mode codenamed [Electrolysis](https://wiki.mozilla.org/Electrolysis) (e10s). It was throwing `NS_ERROR_UNEXPECTED` on Firefox 38 and prior, and `NS_ERROR_NOT_AVAILABLE` on Firefox 39 and later. At least *Office 365* and *Exchange 2016* were known to be broken due to those exceptions.
 

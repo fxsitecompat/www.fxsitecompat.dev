@@ -6,6 +6,7 @@ tags: []
 versions: ["33"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1022962": "Bug 1022962 – Default parameters should be evaluated before function declarations"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1022962"
+      title: "Bug 1022962 – Default parameters should be evaluated before function declarations"
 ---
 [Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/default_parameters), implemented with Firefox 15, were evaluated after functions inside the function body, but now are evaluated before those functions. So those functions cannot be referred from default parameters.

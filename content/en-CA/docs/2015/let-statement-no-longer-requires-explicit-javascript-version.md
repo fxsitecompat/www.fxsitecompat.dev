@@ -5,7 +5,8 @@ categories: ["javascript"]
 tags: []
 versions: ["44"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=855665": "Bug 855665 - Enable let without version=1.7+"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=855665"
+      title: "Bug 855665 - Enable let without version=1.7+"
 aliases:
     - "/docs/2015/let-statement-no-longer-requires-explicit-javascript-version-in-non-strict-mode/"
 ---

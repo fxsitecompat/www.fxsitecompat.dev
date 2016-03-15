@@ -7,7 +7,8 @@ versions: ["22"]
 statuses: "reverted"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=601933": "Bug 601933 – remove RFC 2047 encoding support for HTTP header field parameters"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=601933"
+      title: "Bug 601933 – remove RFC 2047 encoding support for HTTP header field parameters"
 ---
 When decoding the `filename` parameter in `Content-Disposition` headers, Firefox had attempted to unescape using the RFC 2047 encoding. This was a bug according to the relevant specs, and implemented only on Firefox and Chrome. The RFC 2231 and RFC 5987 encodings can be used instead.
 

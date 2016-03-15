@@ -6,6 +6,7 @@ tags: []
 versions: ["18"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=776416": "Bug 776416 – Remove exceptions to 5MB quota rule in localStorage"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=776416"
+      title: "Bug 776416 – Remove exceptions to 5MB quota rule in localStorage"
 ---
 Previously Web pages with the offline storage enabled can save the own data up to 200 MB. Unfortunately [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/Guide/DOM/Storage#localStorage) causes performance issues as it requires synchronous IO. For that reason, the quota has been changed to 5 MB. Also, from now the data in a `localStorage` will be deleted at the same time user deletes Cookies. You're recommended to use the [`IndexedDB`](https://developer.mozilla.org/en-US/docs/IndexedDB) async API instead.

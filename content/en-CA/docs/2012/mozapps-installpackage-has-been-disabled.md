@@ -6,6 +6,7 @@ tags: []
 versions: ["16"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=777400": "Bug 777400 – disable mozApps.installPackage API in Firefox for Desktop and Android"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=777400"
+      title: "Bug 777400 – disable mozApps.installPackage API in Firefox for Desktop and Android"
 ---
 The [`installPackage`](https://developer.mozilla.org/en-US/docs/Web/API/DOMApplicationsRegistry/installPackage) method on the [Apps](https://developer.mozilla.org/en-US/docs/Web/API/DOMApplicationsRegistry) API has been removed since the feature implementation is not finished yet.

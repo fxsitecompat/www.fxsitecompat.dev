@@ -6,7 +6,8 @@ tags: []
 versions: ["20"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=821606": "Bug 821606 – Turn on WebIDL bindings for Element and HTMLElement"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=821606"
+      title: "Bug 821606 – Turn on WebIDL bindings for Element and HTMLElement"
 ---
 Where we used to have all members of the entire inheritance chain (e.g. [`HTMLDivElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLDivElement) → [`HTMLElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) → [`Element`](https://developer.mozilla.org/en-US/docs/Web/API/Element) → [`Node`](https://developer.mozilla.org/en-US/docs/Web/API/Node) → [`EventTarget`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)) on the interface prototype object of the leaf class (e.g. `HTMLDivElement.prototype === document.createElement("div").__proto`), we now put the members of [`HTMLElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) just on `HTMLElement.prototype` (`=== HTMLDivElement.prototype.__proto__`).
 

@@ -6,7 +6,8 @@ tags: []
 versions: ["18"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=62178": "Bug 62178 – implement mechanism to prevent sending insecure requests from a secure context"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=62178"
+      title: "Bug 62178 – implement mechanism to prevent sending insecure requests from a secure context"
 ---
 SSL (`https`) 使用ページ内で非 SSL (`http`) サイトからコンテンツが読み込まれるのをブロックする設定が追加されました。スクリプト、スタイルシート、プラグインコンテンツ、インラインフレーム、[Web フォント](https://developer.mozilla.org/ja/docs/CSS/@font-face)、[WebSockets](https://developer.mozilla.org/ja/docs/WebSockets) は `security.mixed_content.block_active_content` で、それ以外の画像、[音声](https://developer.mozilla.org/ja/docs/HTML/Element/audio)、[動画](https://developer.mozilla.org/ja/docs/HTML/Element/video) といった静的コンテンツは `security.mixed_content.block_display_content` で、それぞれブロックすることが可能です。
 

@@ -5,8 +5,10 @@ categories: ["dom"]
 tags: []
 versions: ["43"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1131470": "Bug 1131470 - w3c screen orientation api has changed"
-    "https://groups.google.com/d/topic/mozilla.dev.platform/zyGP6PemJlg/discussion": "Intent to Ship: Screen Orientation API"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1131470"
+      title: "Bug 1131470 - w3c screen orientation api has changed"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/zyGP6PemJlg/discussion"
+      title: "Intent to Ship: Screen Orientation API"
 ---
 Firefox 43 has implemented the latest standard [Screen Orientation API](https://w3c.github.io/screen-orientation/) that offers the `type`, `angle` and `onchange` properties as well as the `lock` and `unlock` methods on `window.screen.orientation`.
 

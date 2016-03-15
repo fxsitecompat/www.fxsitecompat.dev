@@ -6,7 +6,8 @@ tags: []
 versions: ["44"]
 statuses: "regressed"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1243453": "Bug 1243453 - Missing Origin header in Cross Origin Request resulting in Cross-Origin Request Blocked"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1243453"
+      title: "Bug 1243453 - Missing Origin header in Cross Origin Request resulting in Cross-Origin Request Blocked"
 aliases:
     - "/docs/2016/cross-site-xmlhttprequest-is-blocked-due-to-missing-origin-header/"
 ---

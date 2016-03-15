@@ -6,6 +6,7 @@ tags: []
 versions: ["30"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=961804": "Bug 961804 – Drop support for Blob.mozSlice"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=961804"
+      title: "Bug 961804 – Drop support for Blob.mozSlice"
 ---
 The support for the `mozSlice` method of the [`Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob) object, has been deprecated since Firefox 15 and removed with Firefox 30. Use the unprefied `slice` method instead.

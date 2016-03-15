@@ -6,9 +6,12 @@ tags: []
 versions: ["23"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=704063": "Bug 704063 – Add unprefixed requestAnimationFrame"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=876282": "Bug 876282 – Add unprefixed cancelAnimationFrame"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=753453": "Bug 753453 – requestAnimationFrame callback should return DOMHighResTimeStamp"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=704063"
+      title: "Bug 704063 – Add unprefixed requestAnimationFrame"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=876282"
+      title: "Bug 876282 – Add unprefixed cancelAnimationFrame"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=753453"
+      title: "Bug 753453 – requestAnimationFrame callback should return DOMHighResTimeStamp"
 ---
 `mozRequestAnimationFrame` の接頭辞なしバージョンとなる [`requestAnimationFrame`](https://developer.mozilla.org/ja/docs/Web/API/window.requestAnimationFrame) が追加されました。この接頭辞なしメソッドはコールバック関数に [`DOMHighResTimeStamp`](https://developer.mozilla.org/ja/docs/Web/API/DOMHighResTimeStamp) を渡します。これはマイクロ秒精度を持ち、[`performance.now`](https://developer.mozilla.org/ja/docs/Web/API/window.performance.now) と比較可能です。
 

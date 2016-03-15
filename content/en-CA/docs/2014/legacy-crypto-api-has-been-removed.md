@@ -7,8 +7,10 @@ versions: ["35"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1030963": "Bug 1030963 – remove proprietary window.crypto functions/properties"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1083118": "Bug 1083118 – window.crypto.signText replacement"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1030963"
+      title: "Bug 1030963 – remove proprietary window.crypto functions/properties"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1083118"
+      title: "Bug 1083118 – window.crypto.signText replacement"
 ---
 The Netscape-derived [legacy Crypto API](https://developer.mozilla.org/en-US/docs/JavaScript_crypto) implemented on [`window.crypto`](https://developer.mozilla.org/en-US/docs/Web/API/window.crypto) has been removed, including `enableSmartCardEvents` and `version` properties as well as `generateCRMFRequest`, `importUserCertificates`, `logout` and `signText` methods, in favour of the standard [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto). See the [MozillaWiki article](https://wiki.mozilla.org/SecurityEngineering/Removing_Proprietary_window.crypto_Functions) for details.
 

@@ -6,7 +6,8 @@ tags: []
 versions: ["34"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=369778": "Bug 369778 – Javascript regular expression captures broken with alternation in some cases."
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=369778"
+      title: "Bug 369778 – Javascript regular expression captures broken with alternation in some cases."
 aliases:
     - "/docs/2014/regex-capture-behavior-has-been-changed/"
 ---

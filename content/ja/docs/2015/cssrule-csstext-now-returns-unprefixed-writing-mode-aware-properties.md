@@ -5,7 +5,8 @@ categories: ["css"]
 tags: []
 versions: ["42"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1118103": "Bug 1118103 - swap the aliasing direction of -moz-margin-start <-> margin-inline-start etc."
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1118103"
+      title: "Bug 1118103 - swap the aliasing direction of -moz-margin-start <-> margin-inline-start etc."
 ---
 [Firefox 41](https://developer.mozilla.org/ja/Firefox/Releases/41#CSS) で東アジア言語向けの縦書き対応が初期設定有効となり、[`writing-mode`](https://developer.mozilla.org/ja/docs/Web/CSS/writing-mode) CSS プロパティと、方向に依存しない様々な `margin`、`border`、`padding` 関連のプロパティが追加されました。それと同時に、いくつかの既存のプロパティは [接頭辞が外れました](https://www.fxsitecompat.com/ja/docs/2015/direction-independent-css-properies-have-been-unprefixed/)。
 

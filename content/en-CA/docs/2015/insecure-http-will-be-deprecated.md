@@ -6,10 +6,14 @@ tags: []
 versions: ["future"]
 statuses: "affected"
 references:
-    "https://groups.google.com/d/topic/mozilla.dev.platform/GDSnSI9inOo/discussion": "Deprecate geolocation and getUserMedia() for unauthenticated origins"
-    "https://groups.google.com/d/topic/mozilla.dev.platform/vavZdN4tX44/discussion": "Intent to deprecate: persistent permissions over HTTP"
-    "https://groups.google.com/d/topic/mozilla.dev.platform/xaGffxAM-hs/discussion": "Intent to deprecate: Insecure HTTP"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1072859": "Bug 1072859 - Deprecate non-TLS usage of geolocation"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/GDSnSI9inOo/discussion"
+      title: "Deprecate geolocation and getUserMedia() for unauthenticated origins"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/vavZdN4tX44/discussion"
+      title: "Intent to deprecate: persistent permissions over HTTP"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/xaGffxAM-hs/discussion"
+      title: "Intent to deprecate: Insecure HTTP"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1072859"
+      title: "Bug 1072859 - Deprecate non-TLS usage of geolocation"
 ---
 There is a broad industrial agreement that Internet connections should always be encrypted. The new [Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) requires HTTPS from the first. As per Mozilla developers' proposal, several functionalities that need user permission, including the [Geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation), [Notification](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API), [Fullscreen](https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API), [Pointer Lock](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API) and [Media Stream](https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API) APIs, may also require HTTPS later.
 

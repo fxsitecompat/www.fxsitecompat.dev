@@ -5,7 +5,8 @@ categories: ["networking"]
 tags: []
 versions: ["47"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1249474": "Bug 1249474 - Accept header sent for images prevents w3.org from serving us SVG images in W3C's style sheet"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1249474"
+      title: "Bug 1249474 - Accept header sent for images prevents w3.org from serving us SVG images in W3C's style sheet"
 aliases:
     - "/docs/2016/accept-header-for-images-has-been-changed/"
 ---

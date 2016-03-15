@@ -6,6 +6,7 @@ tags: []
 versions: ["27"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=924176": "Bug 924176 – Warn on prefixed WebGL extensions usage (deprecated)"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=924176"
+      title: "Bug 924176 – Warn on prefixed WebGL extensions usage (deprecated)"
 ---
 `MOZ_` 接頭辞付きの WebGL [拡張機能文字列](https://developer.mozilla.org/ja/docs/Web/WebGL/Using_Extensions) が廃止予定となりました。これらの対応は将来的に削除されます。接頭辞なし拡張機能文字列で代用してください。

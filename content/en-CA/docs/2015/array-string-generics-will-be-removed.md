@@ -5,8 +5,10 @@ categories: ["javascript"]
 tags: []
 versions: ["future"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1222547": "Bug 1222547 - Remove Array generics"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1222552": "Bug 1222552 - Remove String generics"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1222547"
+      title: "Bug 1222547 - Remove Array generics"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1222552"
+      title: "Bug 1222552 - Remove String generics"
 ---
 The non-standard [`Array` generic methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Array_generic_methods) and [`String` generic methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#String_generic_methods), introduced with [JavaScript 1.6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/1.6), will be removed in the future.
 

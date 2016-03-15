@@ -5,7 +5,8 @@ categories: ["javascript"]
 tags: []
 versions: ["44"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=589199": "Bug 589199 - Add an extra scope chain object for top-level script execution, encountered just before the global object, containing top-level |let| declaration bindings"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=589199"
+      title: "Bug 589199 - Add an extra scope chain object for top-level script execution, encountered just before the global object, containing top-level |let| declaration bindings"
 aliases:
     - "/docs/2015/variables-defined-with-const-and-let-are-no-longer-properties-on-window/"
 ---

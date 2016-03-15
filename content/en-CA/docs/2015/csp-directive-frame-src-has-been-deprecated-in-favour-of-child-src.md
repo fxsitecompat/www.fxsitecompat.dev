@@ -5,7 +5,8 @@ categories: ["dom", "privacy-security"]
 tags: []
 versions: ["45"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1045891": "Bug 1045891 - Implement CSP 1.1 child-src directive"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1045891"
+      title: "Bug 1045891 - Implement CSP 1.1 child-src directive"
 aliases:
     - "/docs/2015/csp-directive-frame-src-has-been-deprecated-in-favor-of-child-src/"
 ---

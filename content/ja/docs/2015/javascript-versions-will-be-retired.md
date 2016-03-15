@@ -5,8 +5,10 @@ categories: ["javascript"]
 tags: []
 versions: ["future"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=867609": "Bug 867609 - Retire JavaScript versions"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=867612": "Bug 867612 - Make sure JavaScript version is not used on the web"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=867609"
+      title: "Bug 867609 - Retire JavaScript versions"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=867612"
+      title: "Bug 867612 - Make sure JavaScript version is not used on the web"
 ---
 Firefox では伝統的に、一部の最新 JavaScript 機能を利用するには [`<script>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/script) 要素でバージョンを明示する必要がありました。
 

@@ -6,6 +6,7 @@ tags: []
 versions: ["19"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=776339": "Bug 776339 – remove support of Content-Disposition \"name\" parameter"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=776339"
+      title: "Bug 776339 – remove support of Content-Disposition \"name\" parameter"
 ---
 ファイルダウンロード時に使用される HTTP `Content-Disposition` ヘッダに含まれる `name` パラメータは無視されるようになりました。このパラメータは非標準で、Firefox と Google Chrome しか対応していませんでした。今後は標準の `filename` パラメータを使用してください。

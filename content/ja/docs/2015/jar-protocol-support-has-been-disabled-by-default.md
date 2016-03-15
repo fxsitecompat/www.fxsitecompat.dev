@@ -6,8 +6,10 @@ tags: []
 versions: ["45"]
 statuses: "affected"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1215235": "Bug 1215235 - Drop support for jar: URIs by default"
-    "https://groups.google.com/d/topic/mozilla.dev.platform/CFd4w8GzdEI/discussion": "Intent to unship: jar: URIs from content"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1215235"
+      title: "Bug 1215235 - Drop support for jar: URIs by default"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/CFd4w8GzdEI/discussion"
+      title: "Intent to unship: jar: URIs from content"
 aliases:
     - "/docs/2015/jar-protocol-support-will-be-removed/"
 ---

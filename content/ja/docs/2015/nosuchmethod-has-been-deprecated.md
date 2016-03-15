@@ -6,8 +6,10 @@ tags: []
 versions: ["39"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=683218": "Bug 683218 - can we remove __noSuchMethod__, use proxies instead?"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1140428": "Bug 1140428 - Warn when __noSuchMethod__ is used"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=683218"
+      title: "Bug 683218 - can we remove __noSuchMethod__, use proxies instead?"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1140428"
+      title: "Bug 1140428 - Warn when __noSuchMethod__ is used"
 ---
 非標準の [`Object.prototype.__noSuchMethod__`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Object/noSuchMethod) プロパティが廃止予定となり、近い将来削除されることとなりました。コード内でこのプロパティが使われていた場合、今後 [Web コンソール](https://developer.mozilla.org/ja/docs/Tools/Web_Console) に警告が出力されます。ECMAScript 6 仕様で定義された標準の [`Proxy`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Proxy) オブジェクトで代用可能です。
 

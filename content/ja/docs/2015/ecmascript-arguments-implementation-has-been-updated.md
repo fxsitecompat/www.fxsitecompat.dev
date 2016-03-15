@@ -5,8 +5,10 @@ categories: ["javascript"]
 tags: []
 versions: ["43"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=889158": "Bug 889158 - Calling an arrow function shouldn't create an 'arguments' binding"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1175394": "Bug 1175394 - Mapped arguments object should only be created when its FormalParameters is a SimpleParameterList"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=889158"
+      title: "Bug 889158 - Calling an arrow function shouldn't create an 'arguments' binding"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1175394"
+      title: "Bug 1175394 - Mapped arguments object should only be created when its FormalParameters is a SimpleParameterList"
 ---
 ECMAScript 2015 (ES6) 準拠の一環として、[アロー関数](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/Arrow_functions) は自身の [`arguments`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/arguments) を持たなくなりました。`arguments` オブジェクトは今後、もしあれば外側の関数から継承される形になります。[残余引数](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/rest_parameters) 構文を使えば、アロー関数の実際の引数にアクセスできます。
 

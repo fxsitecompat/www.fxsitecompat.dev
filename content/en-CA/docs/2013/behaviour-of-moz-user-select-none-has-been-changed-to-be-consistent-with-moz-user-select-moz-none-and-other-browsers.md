@@ -6,7 +6,8 @@ tags: []
 versions: ["21"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=816298": "Bug 816298 – Change \"-moz-user-select:none\" to behave like WebKit, IE, and Opera (and \"-moz-user-select:-moz-none\")"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=816298"
+      title: "Bug 816298 – Change \"-moz-user-select:none\" to behave like WebKit, IE, and Opera (and \"-moz-user-select:-moz-none\")"
 aliases:
     - "/docs/2013/behavior-of-moz-user-select-none-has-been-changed-to-be-consistent-with-moz-user-select-moz-none-and-other-browsers/"
 ---

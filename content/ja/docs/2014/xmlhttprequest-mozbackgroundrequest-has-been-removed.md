@@ -6,6 +6,7 @@ tags: []
 versions: ["33"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1035242": "Bug 1035242 – Make XMLHttpRequest.mozBackgroundRequest chrome-only"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1035242"
+      title: "Bug 1035242 – Make XMLHttpRequest.mozBackgroundRequest chrome-only"
 ---
 [`XMLHttpRequest`](https://developer.mozilla.org/ja/docs/Web/API/XMLHttpRequest) インタフェース上の非標準プロパティ `mozBackgroundRequest` は Web コンテンツから使用できなくなりました。

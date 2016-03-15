@@ -6,7 +6,8 @@ tags: []
 versions: ["21"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=789393": "Bug 789393 – String.prototype.localeCompare() with no argument always returns 0"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=789393"
+      title: "Bug 789393 – String.prototype.localeCompare() with no argument always returns 0"
 aliases:
     - "/docs/2013/behaviour-of-string-localecompare-with-no-argument-has-been-fixed/"
 ---

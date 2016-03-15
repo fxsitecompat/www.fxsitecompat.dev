@@ -6,6 +6,7 @@ tags: []
 versions: ["18"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=703537": "Bug 703537 – Implement Harmony direct proxies"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=703537"
+      title: "Bug 703537 – Implement Harmony direct proxies"
 ---
 ECMAScript 6 (Harmony) の [Direct Proxy](https://developer.mozilla.org/ja/docs/JavaScript/Reference/Global_Objects/Proxy) が実装されました。[古い API](https://developer.mozilla.org/ja/docs/JavaScript/Old_Proxy_API) を使用している場合はコードを書き換える必要があります。

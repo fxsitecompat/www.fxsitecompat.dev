@@ -6,10 +6,14 @@ tags: []
 versions: ["future"]
 statuses: "affected"
 references:
-    "https://groups.google.com/d/topic/mozilla.dev.platform/GDSnSI9inOo/discussion": "Deprecate geolocation and getUserMedia() for unauthenticated origins"
-    "https://groups.google.com/d/topic/mozilla.dev.platform/vavZdN4tX44/discussion": "Intent to deprecate: persistent permissions over HTTP"
-    "https://groups.google.com/d/topic/mozilla.dev.platform/xaGffxAM-hs/discussion": "Intent to deprecate: Insecure HTTP"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1072859": "Bug 1072859 - Deprecate non-TLS usage of geolocation"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/GDSnSI9inOo/discussion"
+      title: "Deprecate geolocation and getUserMedia() for unauthenticated origins"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/vavZdN4tX44/discussion"
+      title: "Intent to deprecate: persistent permissions over HTTP"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/xaGffxAM-hs/discussion"
+      title: "Intent to deprecate: Insecure HTTP"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1072859"
+      title: "Bug 1072859 - Deprecate non-TLS usage of geolocation"
 ---
 
 インターネット接続は常に暗号化されるべきという提案に関して、業界は大筋で合意に達しています。新しい [Service Worker API](https://developer.mozilla.org/ja/docs/Web/API/Service_Worker_API) は元々 HTTPS が必須となっています。Mozilla 開発者の提案によれば、[Geolocation](https://developer.mozilla.org/ja/docs/Web/API/Geolocation/Using_geolocation)、[Notification](https://developer.mozilla.org/ja/docs/Web/API/Notifications_API)、[Fullscreen](https://developer.mozilla.org/ja/docs/Web/API/Fullscreen_API)、[Pointer Lock](https://developer.mozilla.org/ja/docs/Web/API/Pointer_Lock_API)、[Media Stream](https://developer.mozilla.org/ja/docs/Web/API/Media_Streams_API) API といったユーザの許可設定を必要とする一部の機能に関しても、今後 HTTPS が必須となる可能性があります。

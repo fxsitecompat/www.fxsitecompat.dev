@@ -5,7 +5,8 @@ categories: ["css"]
 tags: []
 versions: ["41"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1138384": "Bug 1138384 - enable CSS writing-mode support in release channels"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1138384"
+      title: "Bug 1138384 - enable CSS writing-mode support in release channels"
 ---
 As a part of the CSS3 Writing Modes implementation, various direction-independent CSS properties for `margin`, `border` and `padding`, that could be used to easier support <abbr title="Right-to-Left">RTL</abbr> languages like Arabic, have been unprefixed. Since the unprefixed properties are not just without `-moz-` as the table below shows, you should be careful when using these ones.
 

@@ -6,9 +6,12 @@ tags: []
 versions: ["46"]
 statuses: "affected"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1188121": "Bug 1188121 - [userstory] CC: Warning for password on non-secure connection"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1179961": "Bug 1179961 - Use a lock with a strikethrough for HTTP pages that have Password Fields in the Control Center"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1221206": "Bug 1221206 - Turn on Insecure Password Warning for Firefox Dev Edition"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1188121"
+      title: "Bug 1188121 - [userstory] CC: Warning for password on non-secure connection"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1179961"
+      title: "Bug 1179961 - Use a lock with a strikethrough for HTTP pages that have Password Fields in the Control Center"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1221206"
+      title: "Bug 1221206 - Turn on Insecure Password Warning for Firefox Dev Edition"
 ---
 Firefox now shows a [broken padlock icon](https://bug1179961.bmoattachments.org/attachment.cgi?id=8662392) on the location bar when the current page has `<input type="password">` while the connection is not secure. Not only the page the password will be sent but also the page the login form presents must use the HTTPS protocol to [protect user credentials from remote attackers](https://developer.mozilla.org/en-US/docs/Web/Security/Insecure_passwords).
 

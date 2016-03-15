@@ -6,6 +6,7 @@ tags: []
 versions: ["35"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=95530": "Bug 95530 – topmargin and leftmargin attributes on the BODY element should be honored in all modes (not just Quirks mode)"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=95530"
+      title: "Bug 95530 – topmargin and leftmargin attributes on the BODY element should be honored in all modes (not just Quirks mode)"
 ---
 The [`body`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body) element's non-standard `topmargin`, `bottommargin`, `rightmargin` and `leftmargin` attributes, previously supported only in the [Quirks mode](https://developer.mozilla.org/en-US/docs/Mozilla_Quirks_Mode_Behavior) for compatibility with Internet Explorer, are now honored in the Standards compliance mode too, because they are now a part of the HTML5 spec.

@@ -7,7 +7,8 @@ versions: ["22"]
 statuses: "reverted"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=818340": "Bug 818340 – Block cookies from sites I haven\'t visited"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=818340"
+      title: "Bug 818340 – Block cookies from sites I haven\'t visited"
 ---
 Starting with Firefox 22, third-party cookies are blocked by default, like Apple Safari, to give users more control over online privacy. For details, see [the post on Mozilla Privacy Blog](https://blog.mozilla.org/privacy/2013/02/25/firefox-getting-smarter-about-third-party-cookies/) and Jonathan Mayer's [FAQ about the new Firefox cookie policy](http://webpolicy.org/2013/02/22/the-new-firefox-cookie-policy/).
 

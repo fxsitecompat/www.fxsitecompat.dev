@@ -6,8 +6,10 @@ tags: []
 versions: ["20"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=783409": "Bug 783409 – Turn on CSS flexbox in builds by default (by enabling pref, build flag, etc)"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=841873": "Bug 841873 – Make flexbox automatically preffed off by default, in release builds"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=783409"
+      title: "Bug 783409 – Turn on CSS flexbox in builds by default (by enabling pref, build flag, etc)"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=841873"
+      title: "Bug 841873 – Make flexbox automatically preffed off by default, in release builds"
 ---
 [Firefox 18](https://developer.mozilla.org/ja/docs/Firefox_18_for_developers) で実装された新しい [可変ボックス (flexbox)](https://developer.mozilla.org/ja/docs/CSS/Using_CSS_flexible_boxes) が、隠し設定を変更することなく利用可能になりました。[`-moz-box-flex`](https://developer.mozilla.org/ja/docs/CSS/-moz-box-flex) など従来の接頭辞付き実装とは互換性がありませんので注意してください。
 

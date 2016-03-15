@@ -5,7 +5,8 @@ categories: ["javascript"]
 tags: []
 versions: ["46"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1101817": "Bug 1101817 - Remove Weak{Map,Set}.prototype.clear"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1101817"
+      title: "Bug 1101817 - Remove Weak{Map,Set}.prototype.clear"
 aliases:
     - "/docs/2015/clear-method-will-be-removed-from-weakmap-and-weakset/"
 ---

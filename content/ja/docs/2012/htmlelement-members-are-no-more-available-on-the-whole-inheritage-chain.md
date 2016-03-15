@@ -6,7 +6,8 @@ tags: []
 versions: ["20"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=821606": "Bug 821606 – Turn on WebIDL bindings for Element and HTMLElement"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=821606"
+      title: "Bug 821606 – Turn on WebIDL bindings for Element and HTMLElement"
 ---
 従来、リーフクラスのインタフェースプロトタイプオブジェクト上で継承チェーン (例: [`HTMLDivElement`](https://developer.mozilla.org/ja/docs/Web/API/HTMLDivElement) → [`HTMLElement`](https://developer.mozilla.org/ja/docs/Web/API/HTMLElement) → [`Element`](https://developer.mozilla.org/ja/docs/Web/API/Element) → [`Node`](https://developer.mozilla.org/ja/docs/Web/API/Node) → [`EventTarget`](https://developer.mozilla.org/ja/docs/Web/API/EventTarget)) 全体のすべてのメンバーを取得することが可能でしたが (例: `HTMLDivElement.prototype === document.createElement("div").__proto`)、今後 [`HTMLElement`](https://developer.mozilla.org/ja/docs/Web/API/HTMLElement) のメンバーは `HTMLElement.prototype` (`=== HTMLDivElement.prototype.__proto__`) だけにとどまります。
 

@@ -5,8 +5,10 @@ categories: ["javascript"]
 tags: []
 versions: ["43"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=889158": "Bug 889158 - Calling an arrow function shouldn't create an 'arguments' binding"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1175394": "Bug 1175394 - Mapped arguments object should only be created when its FormalParameters is a SimpleParameterList"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=889158"
+      title: "Bug 889158 - Calling an arrow function shouldn't create an 'arguments' binding"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1175394"
+      title: "Bug 1175394 - Mapped arguments object should only be created when its FormalParameters is a SimpleParameterList"
 ---
 As part of the ECMAScript 2015 (ES6) compliance, [arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) no longer have their own [`arguments`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments). The `arguments` object will rather be inherited from the outer function if any. The [rest parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) syntax can be used to access the actual arguments of arrow functions.
 

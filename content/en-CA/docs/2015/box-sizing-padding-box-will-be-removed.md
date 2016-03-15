@@ -5,6 +5,7 @@ categories: ["css"]
 tags: []
 versions: ["future"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1166728": "Bug 1166728 - remove box-sizing: padding-box"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1166728"
+      title: "Bug 1166728 - remove box-sizing: padding-box"
 ---
 The [`box-sizing`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing) CSS property will no longer take `padding-box` since the value has been removed from the spec. Use `border-box` instead.

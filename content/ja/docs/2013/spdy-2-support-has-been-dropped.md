@@ -6,6 +6,7 @@ tags: []
 versions: ["28"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=912550": "Bug 912550 – remove spdy/2 support"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=912550"
+      title: "Bug 912550 – remove spdy/2 support"
 ---
 SPDY プロトコル Draft 2 仕様への対応が削除されました。Web サイトは SPDY/3 もしくはそれ以降へアップグレードしてください。

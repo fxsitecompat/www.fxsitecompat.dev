@@ -41,8 +41,8 @@
             </section>
             <section>
               <h2>{{ $strings.references }}</h2>
-              <ul>{{ range $link, $title := .Params.references }}
-                <li><a href="{{ $link }}" itemprop="citation">{{ $title }}</a></li>{{ end }}
+              <ul>{{ range .Params.references }}
+                <li><a href="{{ .url }}" itemprop="citation">{{ .title }}</a></li>{{ end }}
               </ul>
             </section>
           </div>

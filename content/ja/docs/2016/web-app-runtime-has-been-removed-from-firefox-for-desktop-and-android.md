@@ -5,11 +5,16 @@ categories: ["misc"]
 tags: []
 versions: ["47"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1235869": "Bug 1235869 - Remove support for WebRT"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1238079": "Bug 1238079 - disable and remove runtime"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1238576": "Bug 1238576 - Stop exposing navigator.mozApps on desktop and Android"
-    "https://groups.google.com/d/topic/firefox-dev/WV2XkVN3sWQ/discussion": "firefox-dev: disabling the desktop/Android Web Runtimes"
-    "https://groups.google.com/d/topic/mozilla.dev.webapps/PUm4nx4A3X8/discussion": "mozilla.dev.webapps: alternatives to desktop/Android web runtimes"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1235869"
+      title: "Bug 1235869 - Remove support for WebRT"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1238079"
+      title: "Bug 1238079 - disable and remove runtime"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1238576"
+      title: "Bug 1238576 - Stop exposing navigator.mozApps on desktop and Android"
+    - url: "https://groups.google.com/d/topic/firefox-dev/WV2XkVN3sWQ/discussion"
+      title: "firefox-dev: disabling the desktop/Android Web Runtimes"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.webapps/PUm4nx4A3X8/discussion"
+      title: "mozilla.dev.webapps: alternatives to desktop/Android web runtimes"
 aliases:
     - "/docs/2016/web-app-runtime-will-be-removed-from-firefox-for-desktop-and-android/"
 ---

@@ -5,9 +5,12 @@ categories: ["dom"]
 tags: []
 versions: ["44"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=920633": "Bug 920633 - Add getAllKeys to IDBObjectStore"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1196841": "Bug 1196841 - Add EnforceRange to getAll/getAllKeys to match the spec, and expose them unconditionally"
-    "https://groups.google.com/d/topic/mozilla.dev.platform/De8vLz23Yao/discussion": "Intent to ship: IDB getAll/getAllKeys/openKeyCursor"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=920633"
+      title: "Bug 920633 - Add getAllKeys to IDBObjectStore"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1196841"
+      title: "Bug 1196841 - Add EnforceRange to getAll/getAllKeys to match the spec, and expose them unconditionally"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/De8vLz23Yao/discussion"
+      title: "Intent to ship: IDB getAll/getAllKeys/openKeyCursor"
 aliases:
     - "/docs/2015/idbobjectstore-getall-and-related-methods-will-be-unprefixed/"
 ---

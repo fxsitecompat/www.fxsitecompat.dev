@@ -5,6 +5,7 @@ categories: ["dom"]
 tags: []
 versions: ["43"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1189644": "Bug 1189644 - \"Harness status: Timeout\" when running \"extendable-event-waituntil.https.html\" test"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1189644"
+      title: "Bug 1189644 - \"Harness status: Timeout\" when running \"extendable-event-waituntil.https.html\" test"
 ---
 [`ExtendableEvent.waitUntil`](https://developer.mozilla.org/ja/docs/Web/API/ExtendableEvent/waitUntil) メソッドは、仕様に従い、その `ExtendableEvent` ハンドラの外部で呼ばれた場合に `InvalidStateError` を投げます。また、`waitUntil` メソッドは複数の呼び出しを受け入れるようになり、その結果として得られる複数の [`Promise`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise) は [`Promise.all`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise/all) のように配列内で連鎖されます。

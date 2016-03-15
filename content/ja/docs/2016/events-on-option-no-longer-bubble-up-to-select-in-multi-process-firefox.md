@@ -5,8 +5,10 @@ categories: ["dom"]
 tags: []
 versions: ["43"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1090602": "Bug 1090602 - [e10s] <option> events do not bubble up through parent <select>"
-    "https://groups.google.com/d/topic/mozilla.dev.platform/9Li1-qBaM88/discussion": "mozilla.dev.platform: Proposal to converge with Chromium / Blink for not firing events on <option>’s from <select> dropdowns"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1090602"
+      title: "Bug 1090602 - [e10s] <option> events do not bubble up through parent <select>"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/9Li1-qBaM88/discussion"
+      title: "mozilla.dev.platform: Proposal to converge with Chromium / Blink for not firing events on <option>’s from <select> dropdowns"
 ---
 Firefox では、[`<option>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/option) 要素上で発動された [キーボードイベント](https://developer.mozilla.org/ja/docs/Web/API/KeyboardEvent) や [マウスイベント](https://developer.mozilla.org/ja/docs/Web/API/MouseEvent) は、その親の [`<select>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/select) 要素まで浮上します。一方 Google Chrome ではそうした浮上は見られません。この挙動は実際のところ、詳細がまだ HTML 仕様で規定されていなことから、[ブラウザによって異なります](https://bugzilla.mozilla.org/show_bug.cgi?id=1090602#c27)。
 

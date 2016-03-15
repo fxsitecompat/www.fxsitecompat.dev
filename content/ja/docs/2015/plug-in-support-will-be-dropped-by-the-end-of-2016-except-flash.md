@@ -6,7 +6,8 @@ tags: []
 versions: ["future"]
 statuses: "affected"
 references:
-    "http://www.mozilla.jp/blog/entry/10508/": "Firefox における NPAPI プラグインの取り扱いについて"
+    - url: "http://www.mozilla.jp/blog/entry/10508/"
+      title: "Firefox における NPAPI プラグインの取り扱いについて"
 ---
 長年にわたり、Mozilla は Web 標準技術を強化することで Web からプラグインをなくすことを目指してきました。プラグインは、ブラウザのパフォーマンス、セキュリティ、ユーザ体験に悪影響を与えているためです。[アニメーション効果](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations/Using_CSS_animations)、[動画再生](https://developer.mozilla.org/ja/docs/Web/Guide/HTML/Using_HTML5_audio_and_video)、[ドラッグ＆ドロップによるファイルアップロード](https://developer.mozilla.org/ja/docs/Web/Guide/HTML/Drag_and_drop)、[クリップボード操作](https://hacks.mozilla.org/2015/09/flash-free-clipboard-for-the-web/) から、[インタラクティブな 3D ゲーム](https://developer.mozilla.org/ja/docs/Games)、[リアルタイムビデオチャット](https://developer.mozilla.org/ja/docs/Web/Guide/API/WebRTC) に至るまで、今ではあらゆることをプラグインなしで実現できます。Firefox は [組み込みの PDF リーダー](https://support.mozilla.org/ja/kb/view-pdf-files-firefox-without-downloading-them)、[DRM 対応](https://support.mozilla.org/ja/kb/enable-drm)、[実験的 Flash 代替技術](https://developer.mozilla.org/ja/docs/Mozilla/Projects/Shumway) も提供しています。
 

@@ -6,6 +6,7 @@ tags: []
 versions: ["45"]
 statuses: "regressed"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1254856": "Bug 1254856 - Some Flash websites (forgeofempires.com, bet365.com) can't finish loading with \"Accept third-party cookies: Never\" checked"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1254856"
+      title: "Bug 1254856 - Some Flash websites (forgeofempires.com, bet365.com) can't finish loading with \"Accept third-party cookies: Never\" checked"
 ---
 Firefox 45 has introduced a regression where certain Flash sites, such as online games and live streaming videos, cannot finish loading when the browser is configured to block third-party cookies. Mozilla developers are working on the solution.

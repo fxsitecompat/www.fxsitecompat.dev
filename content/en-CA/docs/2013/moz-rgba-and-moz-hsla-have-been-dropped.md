@@ -6,6 +6,7 @@ tags: []
 versions: ["27"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=893319": "Bug 893319 – remove -moz-rgba() and -moz-hsla()"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=893319"
+      title: "Bug 893319 – remove -moz-rgba() and -moz-hsla()"
 ---
 The support of the prefixed `-moz-rgba()` and `-moz-hsla()` functional notations for [colour values](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) has been removed. The standard, unprefixed `rgba()` and `hsla()` notations should be used instead.

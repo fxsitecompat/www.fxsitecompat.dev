@@ -6,6 +6,7 @@ tags: []
 versions: ["17"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=792665": "Bug 792665 – Separate HTMLMediaElement.src from HTMLMediaElement.srcObject"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=792665"
+      title: "Bug 792665 – Separate HTMLMediaElement.src from HTMLMediaElement.srcObject"
 ---
 Previously the value of the [`HTMLMediaElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement)`src` property was a media stream object. In the process of standardization, Mozilla has proposed that the `src` property represents a URL string of the media while the new `srcObject` property has the object. The Firefox implementation has been changed to reflect the proposal. For now, `srcObject` is prefixed `mozSrcObject`.

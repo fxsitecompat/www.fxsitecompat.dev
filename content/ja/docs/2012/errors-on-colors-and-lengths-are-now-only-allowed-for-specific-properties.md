@@ -7,7 +7,8 @@ versions: ["17"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=774122": "Bug 774122 – limit CSS parser hashless-color and unitless-length quirks to only the properties that need them"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=774122"
+      title: "Bug 774122 – limit CSS parser hashless-color and unitless-length quirks to only the properties that need them"
 ---
 Firefox の [Quirks (後方互換) モード](https://developer.mozilla.org/ja/docs/Mozilla_Quirks_Mode_Behavior) では、ハッシュの付いていないカラーコード (例えば `#666666` の誤記である `666666`) や、単位の付いていない長さ (例えば `10px` の誤記である `10`) がショートハンド以外のプロパティの値に見つかった場合、CSS パーサによって自動的に補正されます。CSS3 の仕様に合わせて、特定のプロパティに限ってそうした誤記を許容する実装に変更されました。
 

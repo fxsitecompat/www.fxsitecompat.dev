@@ -7,8 +7,11 @@ versions: ["38"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1052610": "Bug 1052610 – WebRTC: Allow more ciphers for DTLS 1.2 in Firefox Nightly 34.0a1 (cannot perform DTLS with OpenSSL)"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1134437": "Bug 1134437 – Delay move to PFS cipher suites"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1158343": "Bug 1158343 – Temporarily re-enable TLS_RSA_WITH_AES_128_CBC_SHA for WebRTC"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1052610"
+      title: "Bug 1052610 – WebRTC: Allow more ciphers for DTLS 1.2 in Firefox Nightly 34.0a1 (cannot perform DTLS with OpenSSL)"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1134437"
+      title: "Bug 1134437 – Delay move to PFS cipher suites"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1158343"
+      title: "Bug 1158343 – Temporarily re-enable TLS_RSA_WITH_AES_128_CBC_SHA for WebRTC"
 ---
 Starting with Firefox 38, [WebRTC](https://developer.mozilla.org/en-US/docs/Web/Guide/API/WebRTC) requires one of the Perfect Forward Secrecy (PFS) cipher suites to make communications safer. See the [Mozilla Hacks blog](https://hacks.mozilla.org/2015/02/webrtc-requires-perfect-forward-secrecy-pfs-starting-in-firefox-38/) for details. Due to an interoperability issue on the *Facebook Messenger*, the `TLS_RSA_WITH_AES_128_CBC_SHA` suite has been temporarily re-enabled and will be disabled again with Firefox 39.

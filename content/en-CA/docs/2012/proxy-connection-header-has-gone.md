@@ -7,6 +7,7 @@ versions: ["18"]
 cclicense: "BY-SA 3.0"
 statuses: "affected"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=570283": "Bug 570283 – Stop sending Proxy-Connection"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=570283"
+      title: "Bug 570283 – Stop sending Proxy-Connection"
 ---
 The `Proxy-Connection` request header, that has been sent when HTTP proxy is enabled, has been removed. This header was non-standard and hasn't worked properly.

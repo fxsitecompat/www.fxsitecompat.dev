@@ -7,8 +7,10 @@ versions: ["40"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1157083": "Bug 1157083 - It might be better to use CSS3 text-decoration for the UA stylesheet of <abbr> and <acronym> rather than border-bottom"
-    "https://groups.google.com/d/topic/mozilla.dev.platform/6FETMqsuQhk/discussion": "mozilla.dev.platform: Intent to change UA stylesheet of <abbr> and <acronym> (using border-bottom -> CSS 3 text-decoration)"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1157083"
+      title: "Bug 1157083 - It might be better to use CSS3 text-decoration for the UA stylesheet of <abbr> and <acronym> rather than border-bottom"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/6FETMqsuQhk/discussion"
+      title: "mozilla.dev.platform: Intent to change UA stylesheet of <abbr> and <acronym> (using border-bottom -> CSS 3 text-decoration)"
 ---
 Firefox のユーザエージェントスタイルシートが更新され、[`<abbr>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/abbr)、[`<acronym>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/acronym) 要素に CSS3 の [`text-decoration`](https://developer.mozilla.org/ja/docs/Web/CSS/text-decoration) プロパティが使われるようになりました。具体的には、`border-block-end: dotted 1px` が `text-decoration: dotted underline` に置き換えられました。あなたのサイトでこれらの要素のいずれかに独自のスタイルを適用している場合、それが UA スタイルシートと競合していないか確認した方が良いでしょう。なお、Google Chrome はまだ `text-decoration` ではなく [`border-bottom`](https://developer.mozilla.org/ja/docs/Web/CSS/border-bottom) を使用していますので、これらの要素へ意図した通りのスタイルを適用するには両方のプロパティを使い続ける必要があります。
 

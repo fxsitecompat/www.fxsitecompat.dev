@@ -6,6 +6,7 @@ tags: []
 versions: ["18"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=812086": "Bug 812086 – Unprefix Page Visibility API"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=812086"
+      title: "Bug 812086 – Unprefix Page Visibility API"
 ---
 接頭辞付きの `mozvisibilitychange` イベントと、[Page Visibility API](https://developer.mozilla.org/ja/docs/DOM/Using_the_Page_Visibility_API) の `mozHidden`、`mozVisibilityState` プロパティが廃止予定となりました。今後は接頭辞なしの [`visibilitychange`](https://developer.mozilla.org/ja/docs/Mozilla_Event_Reference/visibilitychange) イベントと、[`hidden`](https://developer.mozilla.org/ja/docs/DOM/Using_the_Page_Visibility_API#document.hidden)、[`visibilityState`](https://developer.mozilla.org/ja/docs/DOM/Using_the_Page_Visibility_API#document.visibilityState) プロパティを使用してください。

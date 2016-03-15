@@ -6,7 +6,8 @@ tags: []
 versions: ["18"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=62178": "Bug 62178 – implement mechanism to prevent sending insecure requests from a secure context"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=62178"
+      title: "Bug 62178 – implement mechanism to prevent sending insecure requests from a secure context"
 ---
 2 preferences have been added to block loading contents from non-SSL (`http`) sites on SSL (`https`) pages. Scripts, stylesheets, plug-in contents, inline frames, [Web fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face) and [WebSockets](https://developer.mozilla.org/en-US/docs/WebSockets) can be blocked with `security.mixed_content.block_active_content`, and other static contents like images, [audios](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio) and [videos](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) can be blocked with `security.mixed_content.block_display_content`.
 

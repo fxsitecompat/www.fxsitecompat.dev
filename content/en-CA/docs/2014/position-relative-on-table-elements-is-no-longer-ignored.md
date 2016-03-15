@@ -6,7 +6,8 @@ tags: []
 versions: ["30"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=63895": "Bug 63895 – positioned internal table elements not abs pos containing block"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=63895"
+      title: "Bug 63895 – positioned internal table elements not abs pos containing block"
 ---
 Previously, `position:relative` specified on table elements was ignored on Firefox because the effect was "undefined" in the CSS2 spec, while it worked as "expected" on other browsers. If you'd like to have an absolutely-positoned element in the table cell, a common workaround was putting an extra, relatively-positioned [`<div>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div) element beneath [`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td).
 

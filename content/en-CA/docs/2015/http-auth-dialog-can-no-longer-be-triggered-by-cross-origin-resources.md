@@ -7,7 +7,8 @@ versions: ["40"]
 statuses: "reverted"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=647010": "Bug 647010 - Only present HTTP authentication dialogs if it is the top-level document initiating the auth"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=647010"
+      title: "Bug 647010 - Only present HTTP authentication dialogs if it is the top-level document initiating the auth"
 ---
 Firefox, among other browsers, had previously allowed any resources, such as [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe), [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img), [`<script>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script), [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) or CSS [`background-image`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image), to show an HTTP 401 basic authentication dialog. This behaviour, however, could be used by attackers to steal the user's credentials if they were able to embed or inject an arbitrary resource to the victimized page. On Firefox 40 and later, the page itself and resources served from the [same origin](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy) can only trigger an authentication dialog, preventing such potential attacks while mitigating site compatibility issues.
 

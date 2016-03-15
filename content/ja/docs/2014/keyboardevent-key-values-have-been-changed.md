@@ -6,7 +6,8 @@ tags: []
 versions: ["29"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=912858": "Bug 912858 – Implement KeyboardEvent.key for printable keys (except dead key handling)"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=912858"
+      title: "Bug 912858 – Implement KeyboardEvent.key for printable keys (except dead key handling)"
 ---
 [`KeyboardEvent.key`](https://developer.mozilla.org/ja/docs/Web/API/KeyboardEvent.key) の実装が最新の DOM3 Events 仕様に合わせて更新され、それに伴ってキーの値が変更されました。例えば、`"Spacebar"` は `" "` に、`"Add"` は `"+"` になります。また、印刷可能な一般的なキーは `"MozPrintableKey"` の代わりに実際の文字を返すようになりました。詳しくは [ドキュメント](https://developer.mozilla.org/ja/docs/Web/API/KeyboardEvent.key) を参照してください。
 

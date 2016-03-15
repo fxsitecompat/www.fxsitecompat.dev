@@ -6,6 +6,7 @@ tags: []
 versions: ["36"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1097944": "Bug 1097944 – kill spdy/3"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1097944"
+      title: "Bug 1097944 – kill spdy/3"
 ---
 SPDY Protocol Draft 3 (SPDY/3) への対応が、より新しい SPDY/3.1 の実装に置き換えられる形で削除されました。

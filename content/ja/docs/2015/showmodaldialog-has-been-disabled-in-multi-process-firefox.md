@@ -6,8 +6,10 @@ tags: []
 versions: ["46"]
 statuses: "affected"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1077002": "Bug 1077002 - window.showmodaldialog does not work with e10s"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1234700": "Bug 1234700 - Hide window.showModalDialog, at least when e10s is enabled"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1077002"
+      title: "Bug 1077002 - window.showmodaldialog does not work with e10s"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1234700"
+      title: "Bug 1234700 - Hide window.showModalDialog, at least when e10s is enabled"
 ---
 [`window.showModalDialog`](https://developer.mozilla.org/ja/docs/Web/API/Window/showModalDialog) メソッドは、Firefox が [Electrolysis](https://wiki.mozilla.org/Electrolysis) (e10s) というコードネームで呼ばれているマルチプロセスモードで実行中には使用不可能となっています。Firefox 38 以前では `NS_ERROR_UNEXPECTED` が、Firefox 39 以降では `NS_ERROR_NOT_AVAILABLE` が投げられていました。それらの例外により、少なくとも *Office 365* と *Exchange 2016* が正しく動作しないことが判明していました。
 

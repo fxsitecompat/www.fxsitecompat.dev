@@ -6,8 +6,10 @@ tags: []
 versions: ["future"]
 statuses: "affected"
 references:
-    "https://groups.google.com/d/topic/mozilla.dev.security.policy/wXvLQ26JyOA/discussion": "mozilla.dev.security.policy: Update to phasing out SHA-1 Certs"
-    "https://blog.mozilla.org/security/2015/10/20/continuing-to-phase-out-sha-1-certificates/": "Continuing to Phase Out SHA-1 Certificates"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.security.policy/wXvLQ26JyOA/discussion"
+      title: "mozilla.dev.security.policy: Update to phasing out SHA-1 Certs"
+    - url: "https://blog.mozilla.org/security/2015/10/20/continuing-to-phase-out-sha-1-certificates/"
+      title: "Continuing to Phase Out SHA-1 Certificates"
 ---
 The support for SSL certificates using the [weak SHA-1 hash algorithm](https://developer.mozilla.org/docs/Web/Security/Weak_Signature_Algorithm) has been [deprecated since Firefox 36](https://www.fxsitecompat.com/en-CA/docs/2014/sha-1-support-has-been-deprecated/). SHA-1 certificates issued after <time datetime="2016-01">January 2016</time> are [no longer accepted](https://www.fxsitecompat.com/en-CA/docs/2015/sha-1-based-certificates-with-validity-period-from-2016-will-not-be-validated/), leading to the [Untrusted Connection](https://support.mozilla.org/en-US/kb/connection-untrusted-error-message) error.
 

@@ -6,6 +6,7 @@ tags: []
 versions: ["30"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=963366": "Bug 963366 – Hide navigator.requestWakeLock and MozWakeLock from the web except on Firefox OS"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=963366"
+      title: "Bug 963366 – Hide navigator.requestWakeLock and MozWakeLock from the web except on Firefox OS"
 ---
 [Power Management API](https://developer.mozilla.org/ja/docs/WebAPI/Power_Management) の一部である [`Navigator.requestWakeLock`](https://developer.mozilla.org/ja/docs/Web/API/Navigator.requestWakeLock) メソッドと [`MozWakeLock`](https://developer.mozilla.org/ja/docs/Web/API/MozWakeLock) オブジェクトは、Firefox OS のみで役立つものの、すべてのプラットフォームで有効になっていました。これらは今後 Firefox OS 以外では無効となります。

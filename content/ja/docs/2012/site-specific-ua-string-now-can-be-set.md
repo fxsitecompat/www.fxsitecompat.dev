@@ -6,7 +6,8 @@ tags: []
 versions: ["17"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=782453": "Bug 782453 – Add site-specific User Agent infrastructure and use it to fix AOL Mail"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=782453"
+      title: "Bug 782453 – Add site-specific User Agent infrastructure and use it to fix AOL Mail"
 ---
 米国 *AOL* の Web メールサービスで、ユーザエージェント (UA) 文字列に古いビルド日付 (`Gecko/20100101`) が含まれていないと、機能が制限されたベーシック画面に Firefox がフォールバックされてしまうという [問題](https://bugzilla.mozilla.org/show_bug.cgi?id=778408) が報告されています。Mozilla がサイト運営者に連絡を取って修正を依頼しましたが反応がないため、当面の回避策として Firefox 側でサイトごとに UA 文字列を上書きできる仕組みを実装し、それを `aol.com` だけに適用する措置を取りました。具体的には、隠し設定 `general.useragent.override.aol.com` の値を `Gecko/[^ ]*#Gecko/20100101` としています。
 

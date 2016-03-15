@@ -7,7 +7,8 @@ versions: ["16"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=591467": "Bug 591467 – Implement HTML Microdata API"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=591467"
+      title: "Bug 591467 – Implement HTML Microdata API"
 ---
 HTML5 の [Microdata DOM API](http://www.w3.org/TR/microdata/#microdata-dom-api) が実装され、[`Document`](https://developer.mozilla.org/ja/docs/Web/API/Document) インタフェースに `getItems` プロパティが、[`Element`](https://developer.mozilla.org/ja/docs/Web/API/Element) インタフェースに `itemId`、`itemProp`、`itemRef`、`itemScope`、`itemType`、`itemValue`、`properties` プロパティがそれぞれ追加されました。
 

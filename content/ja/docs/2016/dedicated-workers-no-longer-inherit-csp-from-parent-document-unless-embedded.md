@@ -6,7 +6,8 @@ tags: []
 versions: ["45"]
 statuses: "affected"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1223647": "Bug 1223647 - CSP erroneously \"inherited\" into dedicated workers"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1223647"
+      title: "Bug 1223647 - CSP erroneously \"inherited\" into dedicated workers"
 ---
 [`XMLHttpRequest`](https://developer.mozilla.org/ja/docs/Web/API/XMLHttpRequest) か [`importScripts`](https://developer.mozilla.org/ja/docs/Web/API/WorkerGlobalScope/importScripts) が使われている場合に、[専用ワーカー](https://developer.mozilla.org/ja/docs/Web/API/Web_Workers_API/Using_web_workers#Dedicated_workers) が誤って親ドキュメントのポリシーを「継承」しているという [Content Security Policy](https://developer.mozilla.org/ja/docs/Web/Security/CSP) (CSP) の実装バグが Firefox 45 で修正されました。
 

@@ -6,6 +6,7 @@ tags: []
 versions: ["36"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=949651": "Bug 949651 – Pseudo-elements should always be separated by two colons in selectorText"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=949651"
+      title: "Bug 949651 – Pseudo-elements should always be separated by two colons in selectorText"
 ---
 The [`::before`](https://developer.mozilla.org/en-US/docs/Web/CSS/::before), [`::after`](https://developer.mozilla.org/en-US/docs/Web/CSS/::after), [`::first-letter`](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter), and [`::first-line`](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line) pseudo-elements are now returned with double colons (`::`) as defined in the CSS3 spec, when accessed with the [`CSSStyleRule.selectorText`](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleRule/selectorText) CSSOM property. Previously this property was returning those pseudo-elements in the CSS2 single colon (`:`) syntax.

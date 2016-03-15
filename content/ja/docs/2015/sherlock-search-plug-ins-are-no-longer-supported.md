@@ -6,8 +6,10 @@ tags: []
 versions: ["44"]
 statuses: "affected"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=862137": "Bug 862137 - stop supporting Sherlock search engines"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=862148": "Bug 862148 - stop supporting installation of Sherlock plugins from the web"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=862137"
+      title: "Bug 862137 - stop supporting Sherlock search engines"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=862148"
+      title: "Bug 862148 - stop supporting installation of Sherlock plugins from the web"
 aliases:
     - "/docs/2015/sherlock-search-plugin-is-no-longer-supported/"
 ---

@@ -7,8 +7,10 @@ versions: ["39"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1138554": "Bug 1138554 – NSS accepts export-length DHE keys with regular DHE cipher suites"
-    "https://www.mozilla.org/en-US/security/advisories/mfsa2015-70/": "MFSA 2015-70 – NSS accepts export-length DHE keys with regular DHE cipher suites"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1138554"
+      title: "Bug 1138554 – NSS accepts export-length DHE keys with regular DHE cipher suites"
+    - url: "https://www.mozilla.org/en-US/security/advisories/mfsa2015-70/"
+      title: "MFSA 2015-70 – NSS accepts export-length DHE keys with regular DHE cipher suites"
 ---
 In order to prevent "[Logjam](http://www.zdnet.com/article/enterprise-cloud-services-exposed-as-vulnerable-to-logjam/)" man-in-the-middle attacks, the lower length of the supported Ephemeral Diffie-Hellman (DHE) keys has been limited to 1023-bit. 512-bit export-grade cryptography is no longer available in the Mozilla products, and users may encounter the following error message on sites offering such a weak key:
 

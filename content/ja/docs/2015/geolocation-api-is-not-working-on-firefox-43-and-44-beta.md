@@ -6,7 +6,8 @@ tags: []
 versions: ["43"]
 statuses: "regressed"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1232995": "Bug 1232995 - HTML5 Geolocation Not Working After Update to version 43"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1232995"
+      title: "Bug 1232995 - HTML5 Geolocation Not Working After Update to version 43"
 aliases:
     - "/docs/2015/geolocation-api-is-not-working-on-firefox-43-and-later/"
 ---

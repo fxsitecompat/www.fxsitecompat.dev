@@ -7,6 +7,7 @@ versions: ["21"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=828787": "Bug 828787 – Stop allowing indexed expandos on windows"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=828787"
+      title: "Bug 828787 – Stop allowing indexed expandos on windows"
 ---
 Setting indexed expandos (custom properties which have number as the property name) on the [`window`](https://developer.mozilla.org/en-US/docs/Web/API/window) object is no longer allowed. Your code like `window[2] = "myString"` will be ignored from now on.

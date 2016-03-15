@@ -6,6 +6,7 @@ tags: []
 versions: ["28"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=912550": "Bug 912550 – remove spdy/2 support"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=912550"
+      title: "Bug 912550 – remove spdy/2 support"
 ---
 The support of SPDY Protocol Draft 2 has been removed. Web sites should upgrade to SPDY/3 or later.

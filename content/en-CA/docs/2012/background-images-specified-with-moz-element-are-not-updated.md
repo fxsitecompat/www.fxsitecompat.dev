@@ -7,6 +7,7 @@ versions: ["19"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=909157": "Bug 909157 – -moz-element background fails to update after image reloads"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=909157"
+      title: "Bug 909157 – -moz-element background fails to update after image reloads"
 ---
 CSS background images specified with the [`-moz-element`](https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-element) function are not updated when the [`background-image`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image) of the source element is dynamically changed. This is a regression since Firefox 19, which has been fixed with Firefox 26.

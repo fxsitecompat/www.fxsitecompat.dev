@@ -6,6 +6,7 @@ tags: []
 versions: ["32"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=891952": "Bug 891952 – Update empty string handling in named getters to spec changes"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=891952"
+      title: "Bug 891952 – Update empty string handling in named getters to spec changes"
 ---
 従来、`document.forms[0][""]` のような [`HTMLCollection`](https://developer.mozilla.org/ja/docs/Web/API/HTMLCollection) オブジェクトの空白名プロパティは、`name` が付いていない 1 番目の子要素を返していました。この挙動は更新された仕様に合わせて変更され、`undefined` を返すようになりました。

@@ -7,7 +7,8 @@ versions: ["16"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=591467": "Bug 591467 – Implement HTML Microdata API"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=591467"
+      title: "Bug 591467 – Implement HTML Microdata API"
 ---
 The HTML5 [Microdata DOM API](http://www.w3.org/TR/microdata/#microdata-dom-api) has been implemented, adding the `getItems` property to the [`Document`](https://developer.mozilla.org/en-US/docs/Web/API/Document) interface as well as the `itemId`, `itemProp`, `itemRef`, `itemScope`, `itemType`, `itemValue` and `properties` properties to the [`Element`](https://developer.mozilla.org/en-US/docs/Web/API/Element) interface.
 

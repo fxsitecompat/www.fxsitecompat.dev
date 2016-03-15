@@ -6,7 +6,8 @@ tags: []
 versions: ["26"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=848294": "Bug 848294 – Update MessageEvent to be compatible with the spec"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=848294"
+      title: "Bug 848294 – Update MessageEvent to be compatible with the spec"
 ---
 The [`MessageEvent`](https://developer.mozilla.org/en-US/docs/Web/API/MessageEvent) interface has been updated to comply with the latest spec. The `initMessageEvent` method has been removed while the interface is now a constructor.
 

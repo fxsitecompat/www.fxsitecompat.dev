@@ -6,9 +6,12 @@ tags: []
 versions: ["23"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=704063": "Bug 704063 – Add unprefixed requestAnimationFrame"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=876282": "Bug 876282 – Add unprefixed cancelAnimationFrame"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=753453": "Bug 753453 – requestAnimationFrame callback should return DOMHighResTimeStamp"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=704063"
+      title: "Bug 704063 – Add unprefixed requestAnimationFrame"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=876282"
+      title: "Bug 876282 – Add unprefixed cancelAnimationFrame"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=753453"
+      title: "Bug 753453 – requestAnimationFrame callback should return DOMHighResTimeStamp"
 ---
 [`requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window.requestAnimationFrame), the unprefixed version of `mozRequestAnimationFrame`, has been added. This unprefixed method passes a [`DOMHighResTimeStamp`](https://developer.mozilla.org/en-US/docs/Web/API/DOMHighResTimeStamp) to callbacks. It has microsecond precision and can be compared to [`performance.now`](https://developer.mozilla.org/en-US/docs/Web/API/window.performance.now).
 

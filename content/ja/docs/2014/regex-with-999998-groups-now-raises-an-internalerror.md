@@ -7,9 +7,12 @@ versions: ["29"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=953013": "Bug 953013 – Regexp groups can overflow some counter"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=998785": "Bug 998785 – an error occurred while executing regular expression"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=976446": "Bug 976446 – Replace YARR with irregexp"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=953013"
+      title: "Bug 953013 – Regexp groups can overflow some counter"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=998785"
+      title: "Bug 998785 – an error occurred while executing regular expression"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=976446"
+      title: "Bug 976446 – Replace YARR with irregexp"
 ---
 Firefox 29 以降、999998 上のグループを伴った [正規表現](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Regular_Expressions) は動作しなくなり、「an error occurred while executing regular expression」という `InternalError` が投げられます。この変更は、カウンターがオーバーフローするのを防ぐことによって、パフォーマンスとセキュリティの改善を意図したものです。詳しくは [Egor Homakov のブログ記事](http://homakov.blogspot.ca/2013/12/regexp-groups-overflow-in-ff.html) を参照してください。
 

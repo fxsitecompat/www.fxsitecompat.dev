@@ -6,6 +6,7 @@ tags: []
 versions: ["37"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1073867": "Bug 1073867 – Remove support for DSS (non-ECC DSA) signatures from mozilla::pkix"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1073867"
+      title: "Bug 1073867 – Remove support for DSS (non-ECC DSA) signatures from mozilla::pkix"
 ---
 楕円曲線デジタル署名アルゴリズム (ECDSA) を使用していない Digital Signature Standard (DSS) に基づく証明書は Firefox やその他の Mozilla 製品では使用できなくなりました。

@@ -5,7 +5,8 @@ categories: ["javascript"]
 tags: []
 versions: ["44"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1167029": "Bug 1167029 - Remove SpiderMonkey support for let blocks"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1167029"
+      title: "Bug 1167029 - Remove SpiderMonkey support for let blocks"
 aliases:
     - "/docs/2015/let-block-support-will-be-dropped/"
 ---

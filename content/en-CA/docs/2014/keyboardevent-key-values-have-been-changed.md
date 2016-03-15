@@ -6,7 +6,8 @@ tags: []
 versions: ["29"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=912858": "Bug 912858 – Implement KeyboardEvent.key for printable keys (except dead key handling)"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=912858"
+      title: "Bug 912858 – Implement KeyboardEvent.key for printable keys (except dead key handling)"
 ---
 The [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent.key) implementation has been updated for the latest DOM3 Events spec, and key values have been changed accordingly. For example, `"Spacebar"` becomes `" "` while `"Add"` becomes `"+"`. Also, printable, generic keys now return the actual characters instead of `"MozPrintableKey"`. Read [the document](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent.key) for details.
 

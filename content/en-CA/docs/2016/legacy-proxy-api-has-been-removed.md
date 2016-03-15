@@ -5,8 +5,10 @@ categories: ["javascript"]
 tags: []
 versions: ["48"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=892903": "Bug 892903 - Remove Proxy.create and Proxy.createFunction"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1244442": "Bug 1244442 - Warn about Proxy.create and Proxy.createFunction"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=892903"
+      title: "Bug 892903 - Remove Proxy.create and Proxy.createFunction"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1244442"
+      title: "Bug 1244442 - Warn about Proxy.create and Proxy.createFunction"
 aliases:
     - "/docs/2015/legacy-proxy-api-will-be-removed/"
 ---

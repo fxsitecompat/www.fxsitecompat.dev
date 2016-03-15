@@ -7,8 +7,10 @@ versions: ["40"]
 statuses: "reverted"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1116806": "Bug 1116806 - Let Asynchronous Plugin Initialization ride the train"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1195607": "Bug 1195607 - Async Plugin Init compatibility issues found on release channel"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1116806"
+      title: "Bug 1116806 - Let Asynchronous Plugin Initialization ride the train"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1195607"
+      title: "Bug 1195607 - Async Plugin Init compatibility issues found on release channel"
 ---
 Firefox 40 では、Aaron Klotz が [ブログ記事](http://dblohm7.ca/blog/2014/06/17/asynchronous-plugin-initialization-an-introduction/) で説明している通り、パフォーマンス向上のため非同期のプラグイン初期化が有効化されました。この副作用として、Flash 動画や [*FarmVille 2*](https://bugzilla.mozilla.org/show_bug.cgi?id=1194958) といったゲームなど特定のプラグインコンテンツが、そのコード設計によっては正しく読み込まれない可能性があります。`about:config` で `dom.ipc.plugins.asyncInit` の設定値を `false` に変更して問題が再現しない場合、その問題は非同期初期化によるものです。開発者には、該当するプラグインベンダーに回避方法を問い合わせつつ、[バグを登録](https://bugzilla.mozilla.org/enter_bug.cgi?product=Core&component=Plug-ins&blocked=1195607) することをお勧めします。
 

@@ -6,6 +6,7 @@ tags: []
 versions: ["16"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=695636": "Bug 695636 - Update close steps to adhere to WS spec."
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=695636"
+      title: "Bug 695636 - Update close steps to adhere to WS spec."
 ---
 The [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) implementation has been updated for the latest spec so the `error` or `close` event will no longer be fired while disconnecting due to the `close` method called in code.

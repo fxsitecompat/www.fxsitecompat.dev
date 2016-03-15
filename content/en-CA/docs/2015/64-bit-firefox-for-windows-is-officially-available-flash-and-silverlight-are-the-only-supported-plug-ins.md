@@ -7,10 +7,14 @@ versions: ["43"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1180792": "Bug 1180792 - enable 64-bit windows builds on release channel"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1229852": "Bug 1229852 - Add Firefox Win64 download to /firefox/all/"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1165981": "Bug 1165981 - Whitelist Flash for NPAPI on 64 bit Firefox on Win64"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1225293": "Bug 1225293 - Support Silverlight for Win64 Firefox"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1180792"
+      title: "Bug 1180792 - enable 64-bit windows builds on release channel"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1229852"
+      title: "Bug 1229852 - Add Firefox Win64 download to /firefox/all/"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1165981"
+      title: "Bug 1165981 - Whitelist Flash for NPAPI on 64 bit Firefox on Win64"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1225293"
+      title: "Bug 1225293 - Support Silverlight for Win64 Firefox"
 aliases:
     - "/docs/2015/64-bit-firefox-for-windows-is-publicly-available-only-flash-is-supported/"
     - "/docs/2015/64-bit-firefox-for-windows-will-be-publicly-available-flash-is-only-supported-plug-in/"

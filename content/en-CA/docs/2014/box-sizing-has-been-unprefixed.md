@@ -6,6 +6,7 @@ tags: []
 versions: ["29"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=243412": "Bug 243412 – Implement \'box-sizing\' (dropping the -moz- prefix)"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=243412"
+      title: "Bug 243412 – Implement \'box-sizing\' (dropping the -moz- prefix)"
 ---
 The [`box-sizing`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing) property has been unprefixed. While `-moz-box-sizing` will be left for a reasonable period of time, developers are encouraged to use the unprefixed property instead.

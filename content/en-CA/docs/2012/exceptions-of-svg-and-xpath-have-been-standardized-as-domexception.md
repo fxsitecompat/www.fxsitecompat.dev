@@ -6,6 +6,7 @@ tags: []
 versions: ["16"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=743888": "Bug 743888 – Replace SVGException and XPathException with DOMException"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=743888"
+      title: "Bug 743888 – Replace SVGException and XPathException with DOMException"
 ---
 The `SVGException` and `XPathException` exceptions have been removed in favour of [`DOMException`](https://developer.mozilla.org/en-US/docs/Web/API/DOMException).

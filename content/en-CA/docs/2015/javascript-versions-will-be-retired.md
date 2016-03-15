@@ -5,8 +5,10 @@ categories: ["javascript"]
 tags: []
 versions: ["future"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=867609": "Bug 867609 - Retire JavaScript versions"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=867612": "Bug 867612 - Make sure JavaScript version is not used on the web"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=867609"
+      title: "Bug 867609 - Retire JavaScript versions"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=867612"
+      title: "Bug 867612 - Make sure JavaScript version is not used on the web"
 ---
 Traditionally, Firefox has required an explicit version on the [`<script>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) element to use some advanced JavaScript features.
 

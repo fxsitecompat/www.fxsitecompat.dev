@@ -6,6 +6,7 @@ tags: []
 versions: ["38"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=936313": "Bug 936313 – Drop KeyboardEvent.DOM_LOCATION_MOBILE and KeyboardEvent.DOM_LOCATION_JOYSTICK of KeyboardEvent.location since they have been dropped from D3E spec"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=936313"
+      title: "Bug 936313 – Drop KeyboardEvent.DOM_LOCATION_MOBILE and KeyboardEvent.DOM_LOCATION_JOYSTICK of KeyboardEvent.location since they have been dropped from D3E spec"
 ---
 The `DOM_LOCATION_MOBILE` and `DOM_LOCATION_JOYSTICK` constants have been removed from the [`KeyboardEvent`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent) interface, since those have been dropped from the DOM3 Events spec.

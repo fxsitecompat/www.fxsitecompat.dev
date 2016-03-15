@@ -6,6 +6,7 @@ tags: []
 versions: ["40"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1148694": "Bug 1148694 - remove CSSCharsetRule"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1148694"
+      title: "Bug 1148694 - remove CSSCharsetRule"
 ---
 `CSSCharsetRule` インタフェースが CSSOM 仕様から削除されたことを受けて、Firefox の実装からも削除されました。

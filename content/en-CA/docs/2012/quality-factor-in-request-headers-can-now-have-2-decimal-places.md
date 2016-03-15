@@ -6,6 +6,7 @@ tags: []
 versions: ["18"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=672448": "Bug 672448 – Clamp quality factor (\'q\') values to 2 decimal places"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=672448"
+      title: "Bug 672448 – Clamp quality factor (\'q\') values to 2 decimal places"
 ---
 Previously Firefox has been clamped the quality factors to one decimal place. The quality factors are numerical values following `q=`, specified in HTTP request headers like [`Accept-Language`](https://developer.mozilla.org/en-US/docs/HTTP/Content_negotiation#The_Accept-Language.3A_header). With such implementation, multiple items may have the same value, thus it has been changed to reflect 2 decimal places to make those values explicit.

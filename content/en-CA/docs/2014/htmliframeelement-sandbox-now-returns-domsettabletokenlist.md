@@ -6,6 +6,7 @@ tags: []
 versions: ["29"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=845057": "Bug 845057 – Fix the type of HTMLIFrameElement.sandbox"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=845057"
+      title: "Bug 845057 – Fix the type of HTMLIFrameElement.sandbox"
 ---
 Previously, the `sandbox` property of the [`HTMLIFrameElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement) interface (the [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) element) returned a string value like `allow-same-origin`. This type has been changed to [`DOMSettableTokenList`](https://developer.mozilla.org/en-US/docs/Web/API/DOMSettableTokenList) to meet the latest spec. `sandbox.value` returns a string notation as before.

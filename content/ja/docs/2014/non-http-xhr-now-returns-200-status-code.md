@@ -6,6 +6,7 @@ tags: []
 versions: ["35"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=716491": "Bug 716491 – Investigate the status code for non-HTTP XHR."
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=716491"
+      title: "Bug 716491 – Investigate the status code for non-HTTP XHR."
 ---
 成功した非 HTTP [`XMLHttpRequest`](https://developer.mozilla.org/ja/docs/Web/API/XMLHttpRequest) レスポンスのステータスコードが、仕様に従って `0` から `200` へ変更されました。

@@ -6,6 +6,7 @@ tags: []
 versions: ["17"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=768537": "Bug 768537 – Update dictionary support to recent changes"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=768537"
+      title: "Bug 768537 – Update dictionary support to recent changes"
 ---
 (要解説)

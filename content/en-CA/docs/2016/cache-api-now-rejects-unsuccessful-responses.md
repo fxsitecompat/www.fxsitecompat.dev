@@ -5,8 +5,10 @@ categories: ["dom"]
 tags: []
 versions: ["46"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1244764": "Bug 1244764 - Cache .add() and .addAll() should reject if any response is not ok()"
-    "https://groups.google.com/d/topic/mozilla.dev.platform/RbeEXAQ-yNQ/discussion": "mozilla.dev.platform - Heads Up: Cache API .add()/.addAll() non-backward compatible change"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1244764"
+      title: "Bug 1244764 - Cache .add() and .addAll() should reject if any response is not ok()"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/RbeEXAQ-yNQ/discussion"
+      title: "mozilla.dev.platform - Heads Up: Cache API .add()/.addAll() non-backward compatible change"
 ---
 Previously, the [`Cache.add`](https://developer.mozilla.org/en-US/docs/Web/API/Cache/add) and [`Cache.addAll`](https://developer.mozilla.org/en-US/docs/Web/API/Cache/addAll) methods were storing `4xx` and `5xx` error responses from [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Globalfetch/fetch). This behaviour had confused developers, therefore the spec has been changed to reject any responses with a non-`2xx` HTTP status code where the [`Response.ok`](https://developer.mozilla.org/en-US/docs/Web/API/Response/ok) property becomes `false`, and raise a `TypeError`. Firefox 46 and later follow the updated spec.
 

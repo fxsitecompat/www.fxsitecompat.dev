@@ -6,7 +6,9 @@ tags: []
 versions: ["39"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1132522": "Bug 1132522 - Treat false return value from certain Proxy handler methods as failure"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=828137": "Bug 828137 - Need APIs that would allow proxies to implement Reject in spec terms"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1132522"
+      title: "Bug 1132522 - Treat false return value from certain Proxy handler methods as failure"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=828137"
+      title: "Bug 828137 - Need APIs that would allow proxies to implement Reject in spec terms"
 ---
 [`Proxy`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Proxy) オブジェクトの実装が ES6 仕様により忠実に準拠するよう更新されました。今後 [Strict モード](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Strict_mode) で [`defineProperty`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/defineProperty)、[`set`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/set) 両ハンドラを成功させるには明示的に `true` を返す必要があり、それ以外の場合は [`TypeError`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/TypeError) 例外が投げられます。また、[`window`](https://developer.mozilla.org/ja/docs/Web/API/Window) オブジェクトがこれらのハンドラのターゲットに設定されていた場合も、Firefox 39 以降 `TypeError` が投げられます。

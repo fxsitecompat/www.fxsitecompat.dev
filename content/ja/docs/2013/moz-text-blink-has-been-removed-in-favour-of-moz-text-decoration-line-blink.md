@@ -6,7 +6,8 @@ tags: []
 versions: ["26"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=812995": "Bug 812995 – add \'blink\' to -moz-text-decoration-line and drop -moz-text-blink"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=812995"
+      title: "Bug 812995 – add \'blink\' to -moz-text-decoration-line and drop -moz-text-blink"
 aliases:
     - "/docs/2013/moz-text-blink-has-been-removed-in-favor-of-moz-text-decoration-line-blink/"
 ---

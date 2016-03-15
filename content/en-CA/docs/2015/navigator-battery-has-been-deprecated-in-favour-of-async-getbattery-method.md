@@ -5,8 +5,10 @@ categories: ["dom"]
 tags: []
 versions: ["43"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1047119": "Bug 1047119 - Update Battery Status API to match latest Editors draft: navigator.getBattery(), etc"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1050749": "Bug 1050749 - Expose BatteryManager via getBattery() returning a Promise instead of a synchronous accessor (navigator.battery)."
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1047119"
+      title: "Bug 1047119 - Update Battery Status API to match latest Editors draft: navigator.getBattery(), etc"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1050749"
+      title: "Bug 1050749 - Expose BatteryManager via getBattery() returning a Promise instead of a synchronous accessor (navigator.battery)."
 aliases:
     - "/docs/2015/navigator-battery-has-been-deprecated-in-favor-of-async-getbattery-method/"
 ---

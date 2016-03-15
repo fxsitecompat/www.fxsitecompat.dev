@@ -6,7 +6,8 @@ tags: []
 versions: ["37"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1092835": "Bug 1092835 – Log usage of weak ciphers in the console"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1092835"
+      title: "Bug 1092835 – Log usage of weak ciphers in the console"
 ---
 The [Web Console](https://developer.mozilla.org/en-US/docs/Tools/Web_Console) will display warnings on sites using the SSL 3.0 protocol or the RC4 cipher suites, since those are deprecated and insecure. Webmasters are strongly recommended to update their servers to offer stronger encryption.
 

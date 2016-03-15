@@ -7,7 +7,8 @@ versions: ["39"]
 statuses: "regressed"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1181130": "Bug 1181130 - Broken selection system inside of a nested contenteditable element"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1181130"
+      title: "Bug 1181130 - Broken selection system inside of a nested contenteditable element"
 ---
 The developers of [*CKEditor*](http://ckeditor.com/) have reported that Firefox 39 introduced a regression regarding the text selection and editing on nested [content editable](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_Editable) elements. Editing on such elements is currently difficult because the caret won't appear where clicked, the caret doesn't move with keyboard keys, and non-editable elements are also selected when clicked. Mozilla developers are aware of the issue and working on the solution.
 

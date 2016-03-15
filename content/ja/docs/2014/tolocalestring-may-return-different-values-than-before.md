@@ -7,10 +7,14 @@ versions: ["29"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=837963": "Bug 837963 – [meta] Implement ECMAScript Internationalization API"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=769871": "Bug 769871 – Reimplement String.localeCompare, Number.toLocaleString, Date.toLocaleString per ECMA-402"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=999003": "Bug 999003 – toLocaleString with undefined locale uses localized digits specified by the OS"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1010535": "Bug 1010535 – (new Date()).toLocaleString() changed format"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=837963"
+      title: "Bug 837963 – [meta] Implement ECMAScript Internationalization API"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=769871"
+      title: "Bug 769871 – Reimplement String.localeCompare, Number.toLocaleString, Date.toLocaleString per ECMA-402"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=999003"
+      title: "Bug 999003 – toLocaleString with undefined locale uses localized digits specified by the OS"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1010535"
+      title: "Bug 1010535 – (new Date()).toLocaleString() changed format"
 ---
 [`Date.toLocaleString`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString)、[`Date.toLocaleDateString`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)、[`Date.toLocaleTimeString`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString)、[`Number.toLocaleString`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString)、[`String.localeCompare`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare) の各メソッドが、ECMAScript Internationalization API に対応するため再実装されました。これらのメソッドは引数が省略された場合実装依存となり、Firefox の旧バージョンが返していた値とは異なる結果になる可能性があります。
 

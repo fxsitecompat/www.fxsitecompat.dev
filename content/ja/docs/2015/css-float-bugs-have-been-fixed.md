@@ -6,10 +6,14 @@ tags: []
 versions: ["42"]
 statuses: "affected"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=451791": "Bug 451791 - CSS margin-top collapses across cleared element inside previous sibling and out top of previous sibling (works in Safari, but Firefox has a bug)"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=478834": "Bug 478834 - table (or other BFC) following float doesn't clear it even if it can't fit next to it, when lined up at their tops"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=538194": "Bug 538194 - non-floated block formatting context only checks top edge for overlap with floats rather than entire height"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1196255": "Bug 1196255 - tabzilla invisible on mobile view of /privacy/tips/"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=451791"
+      title: "Bug 451791 - CSS margin-top collapses across cleared element inside previous sibling and out top of previous sibling (works in Safari, but Firefox has a bug)"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=478834"
+      title: "Bug 478834 - table (or other BFC) following float doesn't clear it even if it can't fit next to it, when lined up at their tops"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=538194"
+      title: "Bug 538194 - non-floated block formatting context only checks top edge for overlap with floats rather than entire height"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1196255"
+      title: "Bug 1196255 - tabzilla invisible on mobile view of /privacy/tips/"
 ---
 CSS の [`float`](https://developer.mozilla.org/ja/docs/Web/CSS/float) 処理に関して長年にわたって存在していたいくつかの問題が Firefox 42 で修正されました。
 

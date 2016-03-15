@@ -7,10 +7,14 @@ versions: ["39"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1133861": "Bug 1133861 - Enable the Fetch API by default"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1143306": "Bug 1143306 - Missing contents of http://www.dailymotion.com/video/"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=940273": "Bug 940273 - Implement Cache and CacheStorage for ServiceWorkers"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1146557": "Bug 1146557 - enable Service Worker Cache pref for non-release builds"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1133861"
+      title: "Bug 1133861 - Enable the Fetch API by default"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1143306"
+      title: "Bug 1143306 - Missing contents of http://www.dailymotion.com/video/"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=940273"
+      title: "Bug 940273 - Implement Cache and CacheStorage for ServiceWorkers"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1146557"
+      title: "Bug 1146557 - enable Service Worker Cache pref for non-release builds"
 ---
 Starting with Firefox 39, the new [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) has been enabled by default. This API has implemented the [`Headers`](https://developer.mozilla.org/en-US/docs/Web/API/Headers), [`Request`](https://developer.mozilla.org/en-US/docs/Web/API/Request), [`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response) interfaces as well as the [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch) method, so that you can no longer use those names for your global variables. *Dailymotion* is known to be affected by this change, because the site had its own `Request` object.
 

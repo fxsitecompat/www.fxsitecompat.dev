@@ -7,8 +7,10 @@ versions: ["35"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1030963": "Bug 1030963 – remove proprietary window.crypto functions/properties"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1083118": "Bug 1083118 – window.crypto.signText replacement"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1030963"
+      title: "Bug 1030963 – remove proprietary window.crypto functions/properties"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1083118"
+      title: "Bug 1083118 – window.crypto.signText replacement"
 ---
 [`window.crypto`](https://developer.mozilla.org/ja/docs/Web/API/window.crypto) 上に実装されていた Netscape 由来の [旧式 Crypto API](https://developer.mozilla.org/ja/docs/JavaScript_crypto) が、標準 [Web Crypto API](https://developer.mozilla.org/ja/docs/Web/API/SubtleCrypto) の実装に伴って削除されました。これには、`enableSmartCardEvents`、`version` プロパティ、`generateCRMFRequest`、`importUserCertificates`、`logout`、`signText` メソッドが含まれます。詳細は [MozillaWiki の記事](https://wiki.mozilla.org/SecurityEngineering/Removing_Proprietary_window.crypto_Functions) を参照してください。
 

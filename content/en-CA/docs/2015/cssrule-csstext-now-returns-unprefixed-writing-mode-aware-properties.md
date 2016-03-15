@@ -5,7 +5,8 @@ categories: ["css"]
 tags: []
 versions: ["42"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1118103": "Bug 1118103 - swap the aliasing direction of -moz-margin-start <-> margin-inline-start etc."
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1118103"
+      title: "Bug 1118103 - swap the aliasing direction of -moz-margin-start <-> margin-inline-start etc."
 ---
 [Firefox 41](https://developer.mozilla.org/en-US/Firefox/Releases/41#CSS) has enabled the vertical writing support for East Asian scripts by default, adding the [`writing-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode) CSS property and various direction-independent `margin`, `border` and `padding`-related properties. Several existing properties have been [unprefixed](https://www.fxsitecompat.com/en-CA/docs/2015/direction-independent-css-properies-have-been-unprefixed/) at the same time.
 

@@ -5,7 +5,8 @@ categories: ["dom"]
 tags: []
 versions: ["42"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=959992": "Bug 959992 - Firefox 26 creates enumerable properties on window for ids of <img> tags"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=959992"
+      title: "Bug 959992 - Firefox 26 creates enumerable properties on window for ids of <img> tags"
 aliases:
     - "/docs/2015/imgs-with-id-no-longer-appear-as-window-properties/"
 ---

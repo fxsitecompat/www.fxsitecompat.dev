@@ -6,7 +6,8 @@ tags: []
 versions: ["30"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=63895": "Bug 63895 – positioned internal table elements not abs pos containing block"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=63895"
+      title: "Bug 63895 – positioned internal table elements not abs pos containing block"
 ---
 従来、テーブル要素上で指定された `position:relative` は、CSS2 仕様の中ではその効果が「未定義」とされていたため、Firefox 上では無視される一方、他のブラウザでは「期待通りに」動作していました。テーブルセル内に絶対配置要素を含めたい場合、[`<td>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/td) 直下に相対配置の [`<div>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/div) 要素を追加することが一般的な回避策として行われていました。
 

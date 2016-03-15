@@ -7,7 +7,8 @@ versions: ["40"]
 statuses: "reverted"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=647010": "Bug 647010 - Only present HTTP authentication dialogs if it is the top-level document initiating the auth"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=647010"
+      title: "Bug 647010 - Only present HTTP authentication dialogs if it is the top-level document initiating the auth"
 ---
 Firefox はこれまで、他のブラウザと同様に、[`<iframe>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/iframe)、[`<img>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/img)、[`<script>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/script)、[`XMLHttpRequest`](https://developer.mozilla.org/ja/docs/Web/API/XMLHttpRequest)、CSS [`background-image`](https://developer.mozilla.org/ja/docs/Web/CSS/background-image) などあらゆるリソースが HTTP 401 ベーシック認証ダイアログを表示することを許容していました。しかしこの挙動は、攻撃者が第三者のサイトに任意のリソースを埋め込んだり挿入したりすることができた場合、ユーザの認証情報を盗み出すのに悪用される恐れがありました。Firefox 40 以降では、ページ自体と [同一配信元](https://developer.mozilla.org/ja/docs/Web/Security/Same-origin_policy) のリソースのみが認証ダイアログを表示できるようになり、サイト互換性の問題を軽減しつつそうした潜在的な攻撃を防ぐ措置が講じられています。
 

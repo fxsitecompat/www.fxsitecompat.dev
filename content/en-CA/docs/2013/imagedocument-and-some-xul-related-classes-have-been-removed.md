@@ -6,7 +6,9 @@ tags: []
 versions: ["25"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=885177": "Bug 885177 – Make window.ImageDocument ChromeOnly"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=898687": "Bug 898687 – Remove XULTreeBuilder from content"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=885177"
+      title: "Bug 885177 – Make window.ImageDocument ChromeOnly"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=898687"
+      title: "Bug 898687 – Remove XULTreeBuilder from content"
 ---
 The non-standard `ImageDocument` interface, as well as the `BoxObject`, `TreeColumn`, `TreeColumns`, `TreeContentView`, `TreeSelection`, `XULControllers`, `XULTemplateBuilder` and `XULTreeBuilder` interfaces are no longer available from Web content.

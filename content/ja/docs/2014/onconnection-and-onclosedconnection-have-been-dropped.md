@@ -6,6 +6,7 @@ tags: []
 versions: ["32"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1014304": "Bug 1014304 – Remove onconnection and onclosedconnection from PC"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1014304"
+      title: "Bug 1014304 – Remove onconnection and onclosedconnection from PC"
 ---
 `onconnection`、`onclosedconnection` 両プロパティが、仕様から削除されたため、現在のところ `mozRTCPeerConnection` として実装されている [`RTCPeerConnection`](https://developer.mozilla.org/ja/docs/Web/API/RTCPeerConnection) インタフェースからも削除されました。

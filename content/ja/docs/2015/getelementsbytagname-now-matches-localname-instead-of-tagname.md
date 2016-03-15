@@ -6,8 +6,10 @@ tags: []
 versions: ["44"]
 statuses: "reverted"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=492933": "Bug 492933 - getElementsByTagName should match on localName not tagName (for interop)"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1236329": "Bug 1236329 - Error on HP Deskjet 2540 printer configuration page"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=492933"
+      title: "Bug 492933 - getElementsByTagName should match on localName not tagName (for interop)"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1236329"
+      title: "Bug 1236329 - Error on HP Deskjet 2540 printer configuration page"
 ---
 [`Document.getElementsByTagName`](https://developer.mozilla.org/ja/docs/Web/API/document/getElementsByTagName)、[`Element.getElementsByTagName`](https://developer.mozilla.org/ja/docs/Web/API/Element/getElementsByTagName) 両メソッドが、最新の仕様に従い、ノードの [`tagName`](https://developer.mozilla.org/ja/docs/Web/API/Element/tagName) プロパティに代わって [`localName`](https://developer.mozilla.org/ja/docs/Web/API/Node/localName) プロパティに一致するようになりました。
 

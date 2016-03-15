@@ -7,8 +7,10 @@ versions: ["18"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=726615": "Bug 726615 – Support W3C touch event instead of MozTouch event"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=798821": "Bug 798821 – Disable touch events on Windows for devices that do not support touch input"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=726615"
+      title: "Bug 726615 – Support W3C touch event instead of MozTouch event"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=798821"
+      title: "Bug 798821 – Disable touch events on Windows for devices that do not support touch input"
 aliases:
     - "/docs/2012/moztouch-events-were-removed-in-favor-of-the-standard-touch-events/"
 ---

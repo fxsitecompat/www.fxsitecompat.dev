@@ -6,6 +6,7 @@ tags: []
 versions: ["26"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=907892": "Bug 907892 – Disallow setting document.domain in sandboxed iframes"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=907892"
+      title: "Bug 907892 – Disallow setting document.domain in sandboxed iframes"
 ---
 Trying to set the [`document.domain`](https://developer.mozilla.org/en-US/docs/Web/API/document.domain) property on a page embedded in an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) with the `sandbox` attribute will throw a security error from now on.

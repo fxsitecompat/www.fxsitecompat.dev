@@ -6,9 +6,12 @@ tags: []
 versions: ["41"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1012662": "Bug 1012662 - Allow document.execCommand(\"cut\"/\"copy\") to be used within the context of user generated events"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1161721": "Bug 1161721 - Return false from document.queryCommandSupported(\"paste\") if calling execCommand(\"paste\") will fail"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1162952": "Bug 1162952 - Fix document.queryCommandEnabled(\'cut\'/\'copy\') to return true always"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1012662"
+      title: "Bug 1012662 - Allow document.execCommand(\"cut\"/\"copy\") to be used within the context of user generated events"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1161721"
+      title: "Bug 1161721 - Return false from document.queryCommandSupported(\"paste\") if calling execCommand(\"paste\") will fail"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1162952"
+      title: "Bug 1162952 - Fix document.queryCommandEnabled(\'cut\'/\'copy\') to return true always"
 ---
 Firefox で、Web ページがユーザ生成イベントハンドラ内でクリップボードの内容を機械的に変更することが可能となりました。このため、たとえば「クリックしてコピー」のようなアクションに Flash Player などの代替策を用意する必要がなくなります。詳しくは dev-platform メーリングリストの [関連スレッド](https://groups.google.com/d/topic/mozilla.dev.platform/oWhmLMvGAD0/discussion) と [Mozilla Hacks ブログ](https://hacks.mozilla.org/2015/09/flash-free-clipboard-for-the-web/) を参照してください。
 

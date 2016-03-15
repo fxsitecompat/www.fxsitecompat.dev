@@ -6,7 +6,8 @@ tags: []
 versions: ["28"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=933040": "Bug 933040 – Warn for showModalDialog uses"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=933040"
+      title: "Bug 933040 – Warn for showModalDialog uses"
 ---
 The [`window.showModalDialog`](https://developer.mozilla.org/en-US/docs/Web/API/window.showModalDialog) method, originally from Internet Explorer, is now considered deprecated. The [`window.open`](https://developer.mozilla.org/en-US/docs/Web/API/window.open) method should be used instead.
 

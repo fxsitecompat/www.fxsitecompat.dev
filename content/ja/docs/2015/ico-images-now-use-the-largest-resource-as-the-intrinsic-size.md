@@ -5,7 +5,8 @@ categories: ["misc"]
 tags: []
 versions: ["43"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1201796": "Bug 1201796 - Add downscale-during-decode support for the ICO decoder"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1201796"
+      title: "Bug 1201796 - Add downscale-during-decode support for the ICO decoder"
 aliases:
     - "/docs/2015/ico-images-now-use-the-largest-frame-as-the-intrinsic-dimention/"
     - "/docs/2015/ico-images-now-use-the-largest-frame-as-the-intrinsic-dimension/"

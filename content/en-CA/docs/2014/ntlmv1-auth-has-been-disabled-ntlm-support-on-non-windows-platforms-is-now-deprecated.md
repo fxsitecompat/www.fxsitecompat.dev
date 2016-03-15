@@ -7,9 +7,12 @@ versions: ["30"]
 statuses: "affected"
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=828183": "Bug 828183 – Firefox enables insecure NTLM (pre-NTLMv2) authentication"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=999306": "Bug 999306 – Allow generic NTLM v1 if pref set"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1023748": "Bug 1023748 – Allow NTLMv1 over SSL/TLS, or intranet access is broken on Firefox 30 for non-Windows platforms"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=828183"
+      title: "Bug 828183 – Firefox enables insecure NTLM (pre-NTLMv2) authentication"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=999306"
+      title: "Bug 999306 – Allow generic NTLM v1 if pref set"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1023748"
+      title: "Bug 1023748 – Allow NTLMv1 over SSL/TLS, or intranet access is broken on Firefox 30 for non-Windows platforms"
 ---
 The support for the NT LAN Manager version 1 (NTLMv1) network authentication has been disabled because it's known as insecure. Companies and organizations still deploying the older protocol should upgrade to NTLMv2. See [Honza Bambas' blog post](http://www.janbambas.cz/ntlm-v1-and-firefox/) and [Jason Duell's post to the dev-planning list](https://groups.google.com/d/topic/mozilla.dev.planning/JbrpDmqDLXI) for details.
 

@@ -5,8 +5,10 @@ categories: ["dom"]
 tags: []
 versions: ["44"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=636905": "Bug 636905 - Don't allow onbeforeunload dialog unless I have interacted with the page"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=578828": "Bug 578828 - Default to not allowing onbeforeunload dialogs"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=636905"
+      title: "Bug 636905 - Don't allow onbeforeunload dialog unless I have interacted with the page"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=578828"
+      title: "Bug 578828 - Default to not allowing onbeforeunload dialogs"
 aliases:
     - "/docs/2015/beforeunload-event-will-no-longer-be-fired-unless-user-has-interacted-with-the-page/"
     - "/docs/2015/beforeunload-dialog-will-no-longer-be-displayed-unless-user-has-interacted-with-the-page/"

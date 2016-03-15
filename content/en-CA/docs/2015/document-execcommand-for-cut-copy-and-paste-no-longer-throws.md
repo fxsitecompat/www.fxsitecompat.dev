@@ -6,9 +6,12 @@ tags: []
 versions: ["41"]
 cclicense: "BY-SA 3.0"
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1012662": "Bug 1012662 - Allow document.execCommand(\"cut\"/\"copy\") to be used within the context of user generated events"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1161721": "Bug 1161721 - Return false from document.queryCommandSupported(\"paste\") if calling execCommand(\"paste\") will fail"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1162952": "Bug 1162952 - Fix document.queryCommandEnabled(\'cut\'/\'copy\') to return true always"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1012662"
+      title: "Bug 1012662 - Allow document.execCommand(\"cut\"/\"copy\") to be used within the context of user generated events"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1161721"
+      title: "Bug 1161721 - Return false from document.queryCommandSupported(\"paste\") if calling execCommand(\"paste\") will fail"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1162952"
+      title: "Bug 1162952 - Fix document.queryCommandEnabled(\'cut\'/\'copy\') to return true always"
 ---
 Firefox now allows Web pages to modify the content of clipboard programmatically in user-generated event handlers, so click-to-copy actions, for instance, no longer require an alternative solution like Flash Player. See a [relevant thread](https://groups.google.com/d/topic/mozilla.dev.platform/oWhmLMvGAD0/discussion) on the dev-platform list and the [Mozilla Hacks blog](https://hacks.mozilla.org/2015/09/flash-free-clipboard-for-the-web/) for details.
 

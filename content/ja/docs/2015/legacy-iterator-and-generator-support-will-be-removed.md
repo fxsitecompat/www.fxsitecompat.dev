@@ -5,11 +5,16 @@ categories: ["javascript"]
 tags: []
 versions: ["future"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=881061": "Bug 881061 - Remove Iterator"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1083482": "Bug 1083482 - Remove SpiderMonkey support for JS1.7 legacy generators"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1104014": "Bug 1104014 - Disable old-style generators in web content"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1119777": "Bug 1119777 - Remove non-standard Function.prototype.isGenerator"
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=1199296": "Bug 1199296 - Don't allow legacy generator yield in method definitions"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=881061"
+      title: "Bug 881061 - Remove Iterator"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1083482"
+      title: "Bug 1083482 - Remove SpiderMonkey support for JS1.7 legacy generators"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1104014"
+      title: "Bug 1104014 - Disable old-style generators in web content"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1119777"
+      title: "Bug 1119777 - Remove non-standard Function.prototype.isGenerator"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1199296"
+      title: "Bug 1199296 - Don't allow legacy generator yield in method definitions"
 aliases:
     - "/docs/2015/iterator-method-will-be-removed/"
 ---

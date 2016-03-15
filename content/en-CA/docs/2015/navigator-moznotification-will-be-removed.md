@@ -5,6 +5,7 @@ categories: ["dom"]
 tags: []
 versions: ["future"]
 references:
-    "https://bugzilla.mozilla.org/show_bug.cgi?id=952453": "Bug 952453 - Remove mozNotification API"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=952453"
+      title: "Bug 952453 - Remove mozNotification API"
 ---
 The non-standard [`navigator.mozNotification`](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mozNotification) object, available only on Firefox on Android and deprecated since Firefox 22, will be removed in the future. Use the standard [Notifications API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API) instead.
