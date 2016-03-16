@@ -15,8 +15,8 @@
       <h2>{{ $strings.description }}</h2>
       {{ .Content }}
       <h2>{{ $strings.references }}</h2>
-      <ul>{{ range $link, $title := .Params.references }}
-        <li><a href="{{ $link }}">{{ $title }}</a></li>{{ end }}
+      <ul>{{ range .Params.references }}
+        <li><a href="{{ .url }}">{{ .title }}</a></li>{{ end }}
       </ul>{{ else }}
       {{ .Content }}{{ end }}
     {{ "]]>" | safeHTML }}</content>
