@@ -17,3 +17,5 @@ The `element.mozRequestFullScreen` and [`document.mozCancelFullScreen`](https://
 The [`document.mozFullScreenEnabled`](https://developer.mozilla.org/en-US/docs/Web/API/Document/mozFullScreenEnabled) and [`document.mozFullScreenElement`](https://developer.mozilla.org/en-US/docs/Web/API/Document/mozFullScreenElement) properties are now `document.fullscreenEnabled` and `document.fullscreenElement` respectively.
 
 The [`document.mozFullScreen`](https://developer.mozilla.org/en-US/docs/Web/API/Document/mozFullScreen) property has no exact standard equivalent. Use `document.fullscreenElement` instead.
+
+The `mozfullscreenchange` and `mozfullscreenerror` events are now [`fullscreenchange`](https://developer.mozilla.org/en-US/docs/Web/Events/fullscreenchange) and [`fullscreenerror`](https://developer.mozilla.org/en-US/docs/Web/Events/fullscreenerror) respectively.
