@@ -17,4 +17,4 @@ ZIP アーカイブに含まれるファイルへの直接リンクを可能に�
 
 何らかの理由で Firefox 45 以降でも `jar` 対応を有効化したい場合は、`network.jar.block-remote-files` の設定値を `false` に切り替えてください。そうしない場合、`jar` プロトコルの読み込みは `NS_ERROR_UNSAFE_CONTENT_TYPE` の例外となります。
 
-**更新**: この変更により [*IBM iNotes* が動作しなくなった](https://bugzilla.mozilla.org/show_bug.cgi?id=1255139) ため、`jar` プロトコル対応は Firefox 45.0.1 で一時的に元に戻されます。Firefox Nightly および Developer Edition では、`network.jar.block-remote-files` の設定は `true` のままとなります。
+**更新**: この変更により [*IBM iNotes* が動作しなくなった](https://bugzilla.mozilla.org/show_bug.cgi?id=1255139) ため、`jar` プロトコル対応は Firefox 45.0.1 で一時的に元に戻されました。Firefox Nightly および Developer Edition では、`network.jar.block-remote-files` の設定は `true` のままとなります。

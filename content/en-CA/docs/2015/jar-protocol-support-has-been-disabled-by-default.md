@@ -17,4 +17,4 @@ The `jar` protocol, that allows to directly link to a file in ZIP archives, is n
 
 To enable the `jar` support for any reason on Firefox 45 and later, flip the `network.jar.block-remote-files` preference value to `false`. Otherwise, loading the `jar` protocol will lead to the `NS_ERROR_UNSAFE_CONTENT_TYPE` exception.
 
-**Update**: Since [*IBM iNotes* is broken](https://bugzilla.mozilla.org/show_bug.cgi?id=1255139) due to this change, the `jar` protocol support will be temporarily restored with Firefox 45.0.1. On Firefox Nightly and Developer Edition, the `network.jar.block-remote-files` preference will remain `true`.
+**Update**: Since [*IBM iNotes* is broken](https://bugzilla.mozilla.org/show_bug.cgi?id=1255139) due to this change, the `jar` protocol support has been temporarily restored with Firefox 45.0.1. On Firefox Nightly and Developer Edition, the `network.jar.block-remote-files` preference will remain `true`.
