@@ -14,3 +14,5 @@ For years, Mozilla has aimed to make the Web plug-in-free by enhancing Web stand
 For that reason, the legacy [NPAPI plug-in](https://developer.mozilla.org/en-US/Add-ons/Plugins) support will be removed from Firefox by the end of 2016 with the exception of Adobe Flash Player. On the Windows 64-bit version of Firefox, [Flash and Silverlight are the only supported plug-ins](https://www.fxsitecompat.com/en-CA/docs/2015/64-bit-firefox-for-windows-is-officially-available-flash-and-silverlight-are-the-only-supported-plug-ins/). Web publishers must develop a plan to replace any plug-in content with alternative technologies. See [Mozilla's announcement](https://blog.mozilla.org/futurereleases/2015/10/08/npapi-plugins-in-firefox/) for details.
 
 **Update**: Oracle has announced the [deprecation of the Java browser plug-in](https://blogs.oracle.com/java-platform-group/entry/moving_to_a_plugin_free).
+
+**Update**: Accoding to a [newsgroup thread](https://groups.google.com/d/topic/mozilla.dev.tech.plugins/GwlsaOlMRrs/discussion), Firefox 52, expected to be released in March 2017, will probably be the last release with the NPAPI support.

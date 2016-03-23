@@ -14,3 +14,5 @@ references:
 そのため、時代遅れとなった [NPAPI プラグイン](https://developer.mozilla.org/ja/docs/Plugins) 対応は、Adobe Flash Player を例外として 2016 年末までに Firefox から削除されることになりました。Windows 64 ビット版 Firefox では [対応プラグインは Flash、Silverlight のみとなります](https://www.fxsitecompat.com/ja/docs/2015/64-bit-firefox-for-windows-is-officially-available-flash-and-silverlight-are-the-only-supported-plug-ins/)。Web サイト運営者は、すべてのプラグインコンテンツを代替技術で置き換える計画を立てなければなりません。詳しくは [Mozilla の発表](http://www.mozilla.jp/blog/entry/10508/) を参照してください。
 
 **更新**: Oracle から [Java ブラウザプラグインの廃止予定](https://blogs.oracle.com/java-platform-group/entry/moving_to_a_plugin_free) が発表されました。
+
+**更新**: [ニュースグループのスレッド](https://groups.google.com/d/topic/mozilla.dev.tech.plugins/GwlsaOlMRrs/discussion) によれば、2017 年 3 月の公開が見込まれる Firefox 52 が、おそらく NPAPI に対応する最後のバージョンになります。
