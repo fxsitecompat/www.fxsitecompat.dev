@@ -14,3 +14,5 @@ aliases:
 Firefox 45 has introduced a regression where certain Flash sites, such as online games and live streaming videos, cannot finish loading when the browser is configured to block third-party cookies. Mozilla developers are working on the solution.
 
 **Update**: It was discovered that the non-Flash *Google Inbox* Web application was also broken due to the same bug in the code. Corrected this article's title accordingly. The issue has been solved with Firefox 45.0.1.
+
+**Update**: Users are reporting the *Google Inbox* issue has not been fixed with Firefox 45.0.1. There are several more sites broken when third-party cookies are blocked. We have posted [another article](https://www.fxsitecompat.com/en-CA/docs/2016/cookies-are-missing-in-xhr-post-requests-from-workers-when-third-party-cookies-are-blocked/) for that.
