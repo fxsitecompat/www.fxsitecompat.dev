@@ -8,4 +8,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1257877"
       title: "Bug 1257877 - Remove support for UTF-16 from TextEncoder"
 ---
-レガシーな `utf-16be`、`utf-16le` エンコーディングへの対応が [`TextDecoder`](https://developer.mozilla.org/ja/docs/Web/API/TextDecoder) インタフェースから削除されました。代わりに `utf-8` を使用してください。
+最新の Encoding 標準に従い、UTF-16BE、UTF-16LE エンコーディングへの対応が [`TextEncoder`](https://developer.mozilla.org/ja/docs/Web/API/TextEncoder) インタフェースから削除されました。[コンストラクタ](https://developer.mozilla.org/ja/docs/Web/API/TextEncoder/TextEncoder) はオプションの `utfLabel` 引数を無視するようになり、代わりに常時 UTF-8 が使われます。
