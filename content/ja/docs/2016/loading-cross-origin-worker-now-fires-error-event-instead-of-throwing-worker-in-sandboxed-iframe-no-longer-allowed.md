@@ -39,4 +39,6 @@ try {
 ```
 現在のところ Mozilla の [*PDF.js*](https://mozilla.github.io/pdf.js/) ライブラリが CDN などのクロスオリジン環境で動作していません。これは、ワーカーに `onerror` ハンドラが欠けており、フォールバック関数が呼び出されないためです。
 
+**更新**: *PDF.js* バージョン 1.4.187 で問題が修正されました。[pdf.js レポジトリ](https://github.com/mozilla/pdf.js/releases) で新バージョンが公開されるまでは、最新のプレビルド版を [pdfjs-dist レポジトリ](https://github.com/mozilla/pdfjs-dist) からダウンロードできます。自分でビルドすることも可能です。
+
 Firefox 45 では、`sandbox` 属性付き [`<iframe>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/iframe) 内でワーカーの読み込みが誤って許容されているというブラウザ実装上のバグも修正されました。サンドボックス化された iframe 内のドキュメントは何にも一致しない独自のオリジンを持つ一方で、ワーカースクリプトは [同一オリジン](https://developer.mozilla.org/ja/docs/Web/Security/Same-origin_policy) になければならないため、今後そうしたコードは上記のようにエラーとなります。この問題の回避策は `sandbox` の値に `allow-same-origin` を追加することですが、保護機能が緩和されてしまうことから推奨されません。

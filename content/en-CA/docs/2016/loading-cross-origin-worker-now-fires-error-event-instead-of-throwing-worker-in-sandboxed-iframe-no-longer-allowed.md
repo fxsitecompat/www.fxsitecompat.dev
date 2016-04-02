@@ -39,4 +39,6 @@ try {
 ```
 Mozilla's [*PDF.js*](https://mozilla.github.io/pdf.js/) library is currently broken in cross-origin environments such as CDNs because it lacks the `onerror` handler for the worker and the fallback function will never get called.
 
+**Update**: *PDF.js* version 1.4.187 has fixed the issue. You can download the latest pre-built version from the [pdfjs-dist repository](https://github.com/mozilla/pdfjs-dist) until a new release is available on the [pdf.js repository](https://github.com/mozilla/pdf.js/releases). You can also build it yourself.
+
 Firefox 45 has also solved an implementation bug where the browser was incorrectly allowing a worker to be loaded in an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) with the `sandbox` attribute. Such code now leads to an error as above, because the document in a sandboxed iframe has a unique origin that won't match anything, while worker scripts are required to be [same-origin](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy). The workaround here is adding `allow-same-origin` to the `sandbox` value, though it's not recommended due to the loosened protection.
