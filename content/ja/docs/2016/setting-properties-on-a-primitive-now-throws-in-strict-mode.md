@@ -19,7 +19,7 @@ references:
 ```js
 (function() {
   "use strict";
-  10.sub = 5; // TypeError
+  (10).sub = 5; // TypeError
 })();
 ```
 ```js
