@@ -19,7 +19,7 @@ Previously, setting properties on a [primitive value](https://developer.mozilla.
 ```js
 (function() {
   "use strict";
-  10.sub = 5; // TypeError
+  (10).sub = 5; // TypeError
 })();
 ```
 ```js
