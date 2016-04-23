@@ -16,3 +16,5 @@ For that reason, the legacy [NPAPI plug-in](https://developer.mozilla.org/en-US/
 **Update**: Oracle has announced the [deprecation of the Java browser plug-in](https://blogs.oracle.com/java-platform-group/entry/moving_to_a_plugin_free).
 
 **Update**: Accoding to a [newsgroup thread](https://groups.google.com/d/topic/mozilla.dev.tech.plugins/GwlsaOlMRrs/discussion), Firefox 52, expected to be released in March 2017, will probably be the last release with the NPAPI support.
+
+**Update**: As of April 2016, [QuickTime for Windows is no longer supported](https://support.apple.com/en-ca/HT201175) by Apple. The QuickTime plug-in for OS X has already been [disabled since 10.9 Mavericks](https://support.apple.com/en-ca/HT205081).

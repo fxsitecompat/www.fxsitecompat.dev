@@ -16,3 +16,5 @@ references:
 **更新**: Oracle から [Java ブラウザプラグインの廃止予定](https://blogs.oracle.com/java-platform-group/entry/moving_to_a_plugin_free) が発表されました。
 
 **更新**: [ニュースグループのスレッド](https://groups.google.com/d/topic/mozilla.dev.tech.plugins/GwlsaOlMRrs/discussion) によれば、2017 年 3 月の公開が見込まれる Firefox 52 が、おそらく NPAPI に対応する最後のバージョンになります。
+
+**更新**: 2016 年 4 月時点で、Apple は [Windows 版 QuickTime のサポートを打ち切っています](https://support.apple.com/en-ca/HT201175)。OS X 版の QuickTime プラグインは既に [10.9 Mavericks 以降無効化されています](https://support.apple.com/en-ca/HT205081)。
