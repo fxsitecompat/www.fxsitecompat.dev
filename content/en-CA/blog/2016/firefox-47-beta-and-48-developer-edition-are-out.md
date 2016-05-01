@@ -13,3 +13,8 @@ We're monitoring several sources to find regressions in Firefox 46 released this
 * [`<input pattern>` now sets `u` flag for regular expressions](https://www.fxsitecompat.com/en-CA/docs/2016/input-pattern-now-sets-u-flag-for-regular-expressions/)
 
 Please [let us know](https://www.fxsitecompat.com/en-CA/contribute/) if you noticed any other changes or regressions!
+
+**Update**: Now we are tracking the following bugs in Firefox 46:
+
+* [Bug 1269170 - KanColle, a popular Flash game doesn't work with Firefox 46, raising a connection error](https://bugzilla.mozilla.org/show_bug.cgi?id=1269170)
+* [Bug 1269184 - The menu on ADS-B Exchange Global Radar View is not visible on Firefox 46 and 47](https://bugzilla.mozilla.org/show_bug.cgi?id=1269184)
