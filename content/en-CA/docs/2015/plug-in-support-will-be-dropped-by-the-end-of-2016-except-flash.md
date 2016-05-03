@@ -6,6 +6,8 @@ tags: []
 versions: ["future"]
 statuses: "affected"
 references:
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1269807"
+      title: "Bug 1269807 - Remove support for all NPAPI plugins (except Flash)"
     - url: "https://blog.mozilla.org/futurereleases/2015/10/08/npapi-plugins-in-firefox/"
       title: "NPAPI Plugins in Firefox"
 ---
