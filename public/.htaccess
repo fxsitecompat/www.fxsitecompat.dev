@@ -13,7 +13,7 @@ Options +SymLinksIfOwnerMatch -Indexes
 RewriteEngine on
 
 # Redirect: English (US)
-RewriteRule ^en-US/(.*) /en-CA/$1 [R=301,L]
+RewriteRule ^en(?:-(?:GB|US))?/(.*) /en-CA/$1 [R=301,L]
 
 # Site Search
 RewriteCond %{QUERY_STRING} cx=006388931142546140887:uidl4-zslfu
