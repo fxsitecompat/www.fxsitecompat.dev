@@ -2,20 +2,20 @@
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/FiraSans-Regular.eot?v=4.106');
-  src: url('../fonts/FiraSans-Regular.eot?#iefix&v=4.106') format('embedded-opentype'),
-       url('../fonts/FiraSans-Regular.woff2?v=4.106') format('woff2'),
-       url('../fonts/FiraSans-Regular.ttf?v=4.106') format('truetype');
+  src: url('../fonts/FiraSans-Book.eot?v=4.106');
+  src: url('../fonts/FiraSans-Book.eot?#iefix&v=4.106') format('embedded-opentype'),
+       url('../fonts/FiraSans-Book.woff2?v=4.106') format('woff2'),
+       url('../fonts/FiraSans-Book.ttf?v=4.106') format('truetype');
 }
 
 @font-face {
   font-family: 'Fira Sans';
   font-style: normal;
-  font-weight: bold;
-  src: url('../fonts/FiraSans-Bold.eot?v=4.106');
-  src: url('../fonts/FiraSans-Bold.eot?#iefix&v=4.106') format('embedded-opentype'),
-       url('../fonts/FiraSans-Bold.woff2?v=4.106') format('woff2'),
-       url('../fonts/FiraSans-Bold.ttf?v=4.106') format('truetype');
+  font-weight: 500;
+  src: url('../fonts/FiraSans-Medium.eot?v=4.106');
+  src: url('../fonts/FiraSans-Medium.eot?#iefix&v=4.106') format('embedded-opentype'),
+       url('../fonts/FiraSans-Medium.woff2?v=4.106') format('woff2'),
+       url('../fonts/FiraSans-Medium.ttf?v=4.106') format('truetype');
 }
 
 @font-face {
@@ -80,6 +80,10 @@
     border: 1px solid #CCC;
     padding: .4em .8em;
     text-align: left;
+  }
+
+  strong {
+    font-weight: 500;
   }
 
   code, kbd {
@@ -873,7 +877,7 @@ pre[class*="language-"] {
 
 .token.important,
 .token.bold {
-  font-weight: bold;
+  font-weight: 500;
 }
 .token.italic {
   font-style: italic;
