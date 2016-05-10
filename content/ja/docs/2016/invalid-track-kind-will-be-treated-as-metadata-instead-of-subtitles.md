@@ -1,7 +1,7 @@
 ---
 title: "不正な `<track kind>` は `subtitles` ではなく `metadata` として扱われます"
 date: "2016-05-10T12:24:00-04:00"
-categories: ["dom"]
+categories: ["audio-video"]
 tags: []
 versions: ["49"]
 references:

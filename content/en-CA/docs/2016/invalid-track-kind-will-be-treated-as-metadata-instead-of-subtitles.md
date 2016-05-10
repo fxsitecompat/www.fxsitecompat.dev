@@ -1,7 +1,7 @@
 ---
 title: "Invalid `<track kind>` will be treated as `metadata` instead of `subtitles`"
 date: "2016-05-10T12:24:00-04:00"
-categories: ["dom"]
+categories: ["audio-video"]
 tags: []
 versions: ["49"]
 references:
