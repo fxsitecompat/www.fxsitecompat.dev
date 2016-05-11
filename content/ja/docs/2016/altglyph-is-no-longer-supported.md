@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/LcN2jd9gGiM/discussion"
       title: "Intent to unship support for altGlyph"
 ---
-[`<altGlyph>`](https://developer.mozilla.org/ja/docs/Web/SVG/Element/altGlyph)、[`<altGlyphDef>`](https://developer.mozilla.org/ja/docs/Web/SVG/Element/altGlyphDef)、[`<altGlyphItem>`](https://developer.mozilla.org/ja/docs/Web/SVG/Element/altGlyphItem) の各要素は SVG2 仕様から削除されたため、Firefox での対応も打ち切られました。`<altGlyph>` は代わりに使用できる [`<tspan>`](https://developer.mozilla.org/ja/docs/Web/SVG/Element/tspan) のエイリアスとなっていました。
+[`<altGlyph>`](https://developer.mozilla.org/ja/docs/Web/SVG/Element/altGlyph) 要素は SVG2 仕様から削除されたため、Firefox での対応も打ち切られました。この要素は代わりに使用できる [`<tspan>`](https://developer.mozilla.org/ja/docs/Web/SVG/Element/tspan) のエイリアスとなっていました。
