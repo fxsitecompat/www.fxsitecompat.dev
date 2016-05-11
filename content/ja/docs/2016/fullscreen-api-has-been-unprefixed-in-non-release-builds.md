@@ -23,4 +23,4 @@ Firefox 47 で [Fullscreen API](https://developer.mozilla.org/ja/docs/Web/API/Fu
 
 `mozfullscreenchange`、`mozfullscreenerror` イベントはそれぞれ [`fullscreenchange`](https://developer.mozilla.org/ja/docs/Web/Events/fullscreenchange)、[`fullscreenerror`](https://developer.mozilla.org/ja/docs/Web/Events/fullscreenerror) となりました。
 
-**更新**: いくつかのサイト互換性問題により、接頭辞なしの API は Beta、Release 両チャンネルでは [無効化](https://bugzilla.mozilla.org/show_bug.cgi?id=1268749) され、今後 [再び有効化](https://bugzilla.mozilla.org/show_bug.cgi?id=1269276) されることになりました。それに伴いこのドキュメントのタイトルを更新しました。Web 開発者がサイトをテストできるよう、接頭辞なしの API は Nightly、Aurora (Developer Edition) 両チャンネルでは引き続き有効化されます。
+**更新**: いくつかのサイト互換性問題により、接頭辞なしの API は Beta、Release 両チャンネルでは [無効化](https://bugzilla.mozilla.org/show_bug.cgi?id=1268749) され、今後 [再び有効化](https://bugzilla.mozilla.org/show_bug.cgi?id=1269276) されることになりました。それに伴いこのドキュメントのタイトルを更新しました。Web 開発者がサイトをテストできるよう、接頭辞なしの API は Nightly、Aurora (Developer Edition) 両チャンネルでは引き続き有効化されます。なお、移行を容易にするため、`document.mozFullScreen` の接頭辞なし版として `document.fullscreen` を実装する [提案](https://bugzilla.mozilla.org/show_bug.cgi?id=1269157) が出されています。
