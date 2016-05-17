@@ -27,7 +27,6 @@ Params:
     BaseDir: "/en-CA/"
     AlternateBaseDir: "/ja/"
     AlternateLangCode: "ja"
-    GoogleAnalyticsID: "UA-37352183-2"
     GoogleSiteSearchID: "006388931142546140887:uidl4-zslfu"
     GoogleSiteSearchLangCode: "en"
     FacebookLangCode: "en_US"
