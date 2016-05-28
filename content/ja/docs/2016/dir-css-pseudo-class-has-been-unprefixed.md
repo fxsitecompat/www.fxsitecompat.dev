@@ -12,4 +12,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/F0_UbXAfB_4/discussion"
       title: "Intent to ship: unprefix :dir pseudo-class"
 ---
-[`:dir`](https://developer.mozilla.org/en-US/docs/Web/CSS/:dir) CSS4 擬似クラスがベンダー接頭辞なしに Firefox で使用可能となりました。接頭辞付きの `:-moz-dir` 擬似クラスは近い将来削除されます。
+[`:dir`](https://developer.mozilla.org/ja/docs/Web/CSS/:dir) CSS4 擬似クラスがベンダー接頭辞なしに Firefox で使用可能となりました。接頭辞付きの `:-moz-dir` 擬似クラスは近い将来削除されます。
