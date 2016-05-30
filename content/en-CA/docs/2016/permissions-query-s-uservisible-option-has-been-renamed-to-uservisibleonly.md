@@ -16,3 +16,5 @@ references:
 The `userVisible` option for the [`Permissions.query`](https://developer.mozilla.org/en-US/docs/Web/API/Permissions/query) and [`revoke`](https://developer.mozilla.org/en-US/docs/Web/API/Permissions/revoke) methods, implemented with Firefox 46 and 47 respectively, has been renamed to `userVisibleOnly` as per the latest Push API spec.
 
 Firefox actually throws a `NS_ERROR_NOT_IMPLEMENTED` exception when `userVisibleOnly` is set to `true`, because Firefox relies on its own quota system instead of this option, unlike Google Chrome. One demo app is broken with this change. There's a plan to remove the support for `PushPermissionDescriptor` itself from Firefox so that the option will just be ignored rather than throwing.
+
+**Update**: The `PushPermissionDescriptor` dictionary has been [removed](https://bugzilla.mozilla.org/show_bug.cgi?id=1266821) for the compatibility with Google Chrome requiring the `userVisibleOnly` option, so that it is now simply ignored in Firefox.
