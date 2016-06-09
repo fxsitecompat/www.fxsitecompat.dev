@@ -4,7 +4,7 @@ The source of our [FxSiteCompat.com](https://www.fxsitecompat.com/) site powered
 
 ## Terms of Use
 
-This site is listed on the [Hugo Site Showcase](https://gohugo.io/showcase/) so that you may browse our multilingual templates *as a reference* for your own project. However, note that our code is not open source and the design is not intended to be reused somewhere else regardless of commercial or noncommercial purposes. If you are looking for a free Hugo theme, visit the [Hugo Theme Gallery](http://themes.gohugo.io/) instead.
+This site is listed on the [Hugo Site Showcase](https://gohugo.io/showcase/) so that you may browse our multilingual templates *as a reference* for your own project. However, please note that this is *not* an open source project, and the code and/or design should not be reused somewhere else regardless of commercial or noncommercial purposes. If you are looking for a free Hugo theme, visit the [Hugo Theme Gallery](http://themes.gohugo.io/) instead.
 
 ## Run Hugo locally
 
