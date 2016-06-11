@@ -16,3 +16,5 @@ Firefox 47 以降、Windows 向け 64 ビット版 Firefox 上では、Adobe Fla
 しかし、一部のインタラクティブな Flash コンテンツが、ウィンドウレスモード非対応の [Stage 3D](http://www.adobe.com/devnet/flashplayer/stage3d.html) API が使われているために動作しません。人気オンラインゲームの *Forge of Empires* が影響を受けることが判明しています。Firefox の 64 ビット版はまだ広く配布されていないことから、現時点で影響を受けるユーザは少数です。ゲーム開発者は Firefox ユーザに対して当面は 32 ビット版を推奨することが可能です。
 
 バグのコメントによれば、ウィンドウレスモードで処理される新しいアクセラレーション描画モデルに対応した Flash Player Beta 向けに `wmode=direct` を再度有効化する計画があります。
+
+**更新**: 64 ビット版は既定の Firefox ダウンロードオプションではないこと、また強固なサンドボックスと適切な IME 処理は Stage 3D 対応より重要と考えられることから、Mozilla は変更を取り消すつもりはありません。いずれにしても、開発者にはできる限り早く Flash から WebGL へ移行するよう推奨します。詳細は [games.mozilla.org](https://games.mozilla.org/) を参照してください。
