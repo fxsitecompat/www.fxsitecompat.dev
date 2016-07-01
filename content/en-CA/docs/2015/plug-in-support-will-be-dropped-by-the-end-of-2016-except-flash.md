@@ -17,6 +17,8 @@ For that reason, the legacy [NPAPI plug-in](https://developer.mozilla.org/en-US/
 
 **Update**: Oracle has announced the [deprecation of the Java browser plug-in](https://blogs.oracle.com/java-platform-group/entry/moving_to_a_plugin_free).
 
-**Update**: Accoding to a [newsgroup thread](https://groups.google.com/d/topic/mozilla.dev.tech.plugins/GwlsaOlMRrs/discussion), Firefox 52, expected to be released in March 2017, will probably be the last release with the NPAPI support.
+**Update 2**: According to a [newsgroup thread](https://groups.google.com/d/topic/mozilla.dev.tech.plugins/GwlsaOlMRrs/discussion), <del>Firefox 52, expected to be released in March 2017, will probably be the last release with the NPAPI support</del>.
 
-**Update**: As of April 2016, [QuickTime for Windows is no longer supported](https://support.apple.com/en-ca/HT201175) by Apple. The QuickTime plug-in for OS X has already been [disabled since 10.9 Mavericks](https://support.apple.com/en-ca/HT205081).
+**Update 3**: As of April 2016, [QuickTime for Windows is no longer supported](https://support.apple.com/en-ca/HT201175) by Apple. The QuickTime plug-in for OS X has already been [disabled since 10.9 Mavericks](https://support.apple.com/en-ca/HT205081).
+
+**Update 4**: According to [another newsgroup thread](https://groups.google.com/d/topic/mozilla.dev.tech.plugins/Cu1rOVEn45M/discussion), the NPAPI plug-in support other than Flash will be disabled in Firefox 52 coming March 2017. For enterprise users who require Java in particular, Firefox 52 [Extended Support Release](https://www.mozilla.org/en-US/firefox/organizations/) (ESR) will keep the plug-in support enabled until May 2018.
