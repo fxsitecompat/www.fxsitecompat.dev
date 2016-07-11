@@ -1,6 +1,5 @@
 ---
-title: "
-`SVGSVGElement` から `getElementById` といくつかのプロパティが削除されます"
+title: "`SVGSVGElement` からいくつかのプロパティが削除されます"
 date: "2015-10-28T01:11:00-07:00"
 categories: ["svg"]
 tags: []
@@ -14,7 +13,11 @@ references:
       title: "Bug 1133175 - remove SVGTests.hasExtension"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1133172"
       title: "Bug 1133172 - remove SVGSVGElement.{pixel,screenPixel}UnitToMillimeter{X,Y}"
+aliases:
+    - "/docs/2015/getelementbyid-and-several-properties-will-be-removed-from-svgsvgelement/"
 ---
-[`SVGSVGElement`](https://developer.mozilla.org/ja/docs/Web/API/SVGSVGElement) インタフェースから、`getElementById` メソッドと、`useCurrentView`、`pixelUnitToMillimeterX`、`pixelUnitToMillimeterY`、`screenPixelToMillimeterX`、`screenPixelToMillimeterY` プロパティが削除されます。
+[`SVGSVGElement`](https://developer.mozilla.org/ja/docs/Web/API/SVGSVGElement) インタフェースから、<del>`getElementById` メソッドと、</del>`useCurrentView`、`pixelUnitToMillimeterX`、`pixelUnitToMillimeterY`、`screenPixelToMillimeterX`、`screenPixelToMillimeterY` プロパティが削除されます。
 
 また、[`SVGTests`](https://developer.mozilla.org/ja/docs/Web/API/SVGTests) インタフェースからは `hasExtension` メソッドが、`SVGGraphicsElement` インタフェースからは `nearestViewportElement`、`farthestViewportElement` プロパティが、それぞれ削除されます。
+
+**更新**: `getElementById` メソッドは最新の SVG 仕様で復活したため、Firefox から削除される予定はなくなりました。
