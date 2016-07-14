@@ -12,8 +12,9 @@ AddType application/font-woff2 woff2
 Options +SymLinksIfOwnerMatch -Indexes
 RewriteEngine on
 
-# Redirect: English (US)
+# Redirect: locale variants
 RewriteRule ^en(?:-(?:GB|US))?/(.*) /en-CA/$1 [R=301,L]
+RewriteRule ^ja-JP/(.*) /ja/$1 [R=301,L]
 
 # Site Search
 RewriteCond %{QUERY_STRING} cx=006388931142546140887:uidl4-zslfu
