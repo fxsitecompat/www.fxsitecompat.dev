@@ -18,3 +18,5 @@ Firefox 47 以降、Windows 向け 64 ビット版 Firefox 上では、Adobe Fla
 バグのコメントによれば、ウィンドウレスモードで処理される新しいアクセラレーション描画モデルに対応した Flash Player Beta 向けに `wmode=direct` を再度有効化する計画があります。
 
 **更新**: 64 ビット版は既定の Firefox ダウンロードオプションではないこと、また強固なサンドボックスと適切な IME 処理は Stage 3D 対応より重要と考えられることから、Mozilla は変更を取り消すつもりはありません。いずれにしても、開発者にはできる限り早く Flash から WebGL へ移行するよう推奨します。詳細は [games.mozilla.org](https://games.mozilla.org/) を参照してください。
+
+**更新**: 現在ベータ版として配布されている Flash Player 23 は、Firefox 49 以降の Windows 64 ビット版上で動作するはずです。

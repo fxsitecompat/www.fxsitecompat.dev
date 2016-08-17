@@ -18,3 +18,5 @@ However, some interactive Flash content is broken due to the [Stage 3D](http://w
 According to a bug comment, there is a plan to re-enable `wmode=direct` for Flash Player Beta that supports a new accelerated drawing model handled in the windowless mode.
 
 **Update**: Mozilla has no intention to revert the change, because the 64-bit version is not a default Firefox download option, and a strong sandbox and proper IME handling are considered more important than the Stage 3D support. Anyhow, developers are encouraged to migrate from Flash to WebGL as soon as possible. Visit [games.mozilla.org](https://games.mozilla.org/) for further information.
+
+**Update**: Flash Player 23, currently in Beta, should work with the Windows 64-bit version of Firefox 49 and later.
