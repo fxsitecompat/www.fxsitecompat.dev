@@ -4,6 +4,7 @@ date: "2016-06-30T17:20:00-04:00"
 categories: ["dom", "plugins"]
 tags: []
 versions: ["50"]
+statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1186948"
       title: "Bug 1186948 - remove Flash from navigator.plugins when it's click-to-play"
@@ -17,3 +18,5 @@ Firefox 50 以降、Adobe Flash Player プラグインが「[クリックして�
 **更新**: この変更は 49 Aurora チャンネル (Firefox 49 Developer Edition) へ入る直前に取り消されました。[Flash の有効化が機能しなくなった](https://bugzilla.mozilla.org/show_bug.cgi?id=1277832) ことと、[*Hulu*](https://bugzilla.mozilla.org/show_bug.cgi?id=1277760) や [*Facebook*](https://bugzilla.mozilla.org/show_bug.cgi?id=1277825) で動画が再生されなくなったことが原因です。Mozilla 開発者がこれらの問題を調査しています。
 
 **更新**: 上記のバグが修正され、当該パッチは Firefox 50 へ再投入されました。私たちはこのドキュメントを更新し、`navigator.mimeTypes` も影響を受けることを記載しました。
+
+**更新**: プラグイン有効化に関するバグがいくつか報告されたため、この変更は Aurora 開発サイクル中に [無効化](https://bugzilla.mozilla.org/show_bug.cgi?id=1296004) されました。
