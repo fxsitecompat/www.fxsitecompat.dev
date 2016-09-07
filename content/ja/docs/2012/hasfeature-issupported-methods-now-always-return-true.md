@@ -10,3 +10,5 @@ references:
       title: "Bug 801425 – Make hasFeature() and isSupported() always return true"
 ---
 [`document.implementation`](https://developer.mozilla.org/ja/docs/DOM/document.implementation).hasFeature と [`Element.isSupported`](https://developer.mozilla.org/ja/docs/DOM/Element.isSupported) の両メソッドが常に `true` を返すようになりました。これらは役に立たない API とみなされ仕様が変更されました。ただし SVG 機能に関しては例外で、従来通り実際の対応状況が返ります。
+
+**更新**: SVG の例外は [Firefox 51](https://www.fxsitecompat.com/ja/docs/2016/hasfeature-will-always-return-true-even-for-svg/) で廃止されました。
