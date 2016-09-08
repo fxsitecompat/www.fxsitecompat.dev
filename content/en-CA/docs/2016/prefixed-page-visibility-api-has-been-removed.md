@@ -1,5 +1,5 @@
 ---
-title: "Prefixed Page Visibility API has been be removed"
+title: "Prefixed Page Visibility API has been removed"
 date: "2016-09-07T18:11:00-04:00"
 categories: ["dom"]
 tags: []
@@ -11,5 +11,6 @@ references:
       title: "Intent to unship: -moz-prefixed Page Visibility API."
 aliases:
     - "/docs/2015/prefixed-page-visibility-api-will-be-removed/"
+    - "/docs/2016/prefixed-page-visibility-api-has-been-be-removed/"
 ---
 The support for the prefixed [Page Visibility API](https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API), [deprecated since Firefox 18](https://www.fxsitecompat.com/en-CA/docs/2012/page-visibility-api-has-been-unprefixed/), has been removed with Firefox 51. This includes the `mozHidden` and `mozVisibilityState` properties as well as the `mozvisibilitychange` event. Use the unprefixed, standard equivalents instead.
