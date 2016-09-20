@@ -3,7 +3,7 @@ title: "プラグイン対応は Flash を除き 2016 年末までに廃止さ�
 date: "2015-10-25T14:07:00-07:00"
 categories: ["plugins"]
 tags: []
-versions: ["future"]
+versions: ["52"]
 statuses: "affected"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1269807"

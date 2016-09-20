@@ -3,7 +3,7 @@ title: "Plug-in support will be dropped by the end of 2016 except Flash"
 date: "2015-10-25T14:07:00-07:00"
 categories: ["plugins"]
 tags: []
-versions: ["future"]
+versions: ["52"]
 statuses: "affected"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1269807"
