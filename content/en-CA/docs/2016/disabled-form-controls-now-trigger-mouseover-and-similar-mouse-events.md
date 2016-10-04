@@ -4,7 +4,7 @@ date: "2016-04-23T23:51:00-04:00"
 categories: ["dom"]
 tags: []
 versions: ["44"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=218093"
       title: "Bug 218093 - disabled child element doesn't produce mouseout/mouseover pair"

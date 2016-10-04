@@ -4,7 +4,7 @@ date: "2016-05-30T09:38:00-04:00"
 categories: ["css"]
 tags: []
 versions: ["49"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=567283"
       title: "Bug 567283 - Add support for 4 and 8 CSS hexcolor values (#RRGGBBAA and #RGBA)"

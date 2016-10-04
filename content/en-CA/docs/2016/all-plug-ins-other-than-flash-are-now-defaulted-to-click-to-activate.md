@@ -4,7 +4,7 @@ date: "2016-04-30T07:25:00-04:00"
 categories: ["plugins"]
 tags: []
 versions: ["47"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1263630"
       title: "Bug 1263630 - Remove all plugins (except Flash) from the click-to-activate whitelist"

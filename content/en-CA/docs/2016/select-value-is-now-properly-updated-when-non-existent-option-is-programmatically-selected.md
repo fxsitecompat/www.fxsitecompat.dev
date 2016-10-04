@@ -4,7 +4,7 @@ date: "2016-04-24T08:25:00-04:00"
 categories: ["dom"]
 tags: []
 versions: ["46"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1203668"
       title: "Bug 1203668 - changing the value of a select to a value that matches none of the options should put it in a \"no option selected\" state even when it's a combobox (size=1)"

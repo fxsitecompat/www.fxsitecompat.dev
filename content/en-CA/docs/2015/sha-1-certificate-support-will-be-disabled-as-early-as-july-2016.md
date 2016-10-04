@@ -4,7 +4,7 @@ date: "2015-10-25T13:37:00-07:00"
 categories: ["privacy-security"]
 tags: []
 versions: ["future"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.security.policy/wXvLQ26JyOA/discussion"
       title: "mozilla.dev.security.policy: Update to phasing out SHA-1 Certs"

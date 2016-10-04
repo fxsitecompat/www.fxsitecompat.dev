@@ -4,7 +4,7 @@ date: "2015-11-04T13:03:00-08:00"
 categories: ["networking", "privacy-security"]
 tags: []
 versions: ["45"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1215235"
       title: "Bug 1215235 - Drop support for jar: URIs by default"

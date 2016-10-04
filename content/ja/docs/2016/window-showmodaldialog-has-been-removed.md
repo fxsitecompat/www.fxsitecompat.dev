@@ -4,7 +4,7 @@ date: "2016-06-08T09:07:00-04:00"
 categories: ["dom"]
 tags: []
 versions: ["48"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=981796"
       title: "Bug 981796 - Remove window.showModalDialog"

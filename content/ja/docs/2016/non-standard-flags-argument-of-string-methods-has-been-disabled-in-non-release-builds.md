@@ -4,7 +4,7 @@ date: "2016-02-08T05:13:00-05:00"
 categories: ["javascript"]
 tags: []
 versions: ["47"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1245801"
       title: "Bug 1245801 - Disable non-standard flag argument of String.prototype.{search,match,replace} in non-release build."

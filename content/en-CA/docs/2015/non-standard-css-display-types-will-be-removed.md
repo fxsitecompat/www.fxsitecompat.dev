@@ -4,7 +4,7 @@ date: "2015-10-27T17:21:00-07:00"
 categories: ["css"]
 tags: []
 versions: ["future"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=879275"
       title: "Bug 879275 - Consider turning off -moz-box display types in untrusted stylesheets"

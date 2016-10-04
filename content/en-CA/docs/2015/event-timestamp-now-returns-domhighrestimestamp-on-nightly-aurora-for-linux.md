@@ -4,7 +4,7 @@ date: "2015-09-09T15:11:00-04:00"
 categories: ["dom"]
 tags: []
 versions: ["43"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1026803"
       title: "Bug 1026803 - Convert native event times to TimeStamps for Linux"

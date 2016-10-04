@@ -4,7 +4,7 @@ date: "2015-10-20T14:47:00-07:00"
 categories: ["privacy-security"]
 tags: []
 versions: ["44"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=999544"
       title: "Bug 999544 - RC4 Considered Harmful: Disable use of RC4 completely (RFC 7465)"

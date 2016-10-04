@@ -4,7 +4,7 @@ date: "2016-03-13T11:59:00-04:00"
 categories: ["dom", "privacy-security"]
 tags: []
 versions: ["45"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1223647"
       title: "Bug 1223647 - CSP erroneously \"inherited\" into dedicated workers"

@@ -4,7 +4,7 @@ date: "2016-04-06T18:19:00-04:00"
 categories: ["dom"]
 tags: []
 versions: ["45"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1260606"
       title: "Bug 1260606 - FileReader.readAsText(HTML_FORM_INPUT.files[0]) fails on content size change"

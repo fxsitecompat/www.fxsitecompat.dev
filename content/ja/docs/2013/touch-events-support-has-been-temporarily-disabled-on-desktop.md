@@ -4,7 +4,7 @@ date: "2013-05-19T07:35:00-04:00"
 categories: [event-handling]
 tags: []
 versions: ["24"]
-statuses: "affected"
+statuses: "affecting"
 cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=888304"

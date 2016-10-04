@@ -4,7 +4,7 @@ date: "2014-02-07T11:57:09-05:00"
 categories: ["privacy-security"]
 tags: []
 versions: ["29"]
-statuses: "affected"
+statuses: "affecting"
 cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=913734"

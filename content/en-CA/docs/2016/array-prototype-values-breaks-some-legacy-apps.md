@@ -4,7 +4,7 @@ date: "2016-09-21T21:07:00-04:00"
 categories: ["javascript"]
 tags: []
 versions: ["48"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1299593"
       title: "Bug 1299593 - Microsoft Dynamics CRM 2011 Lookup Error since Firefox Version 48.0.2 due to Array.prototype.values"

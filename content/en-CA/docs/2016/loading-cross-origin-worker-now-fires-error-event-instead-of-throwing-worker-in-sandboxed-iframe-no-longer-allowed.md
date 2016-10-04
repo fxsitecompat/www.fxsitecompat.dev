@@ -4,7 +4,7 @@ date: "2016-04-02T01:39:00-04:00"
 categories: ["dom", "privacy-security"]
 tags: []
 versions: ["45"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1218433"
       title: "Bug 1218433 - Use AsyncOpen2 in dom/workers/ScriptLoader.cpp"

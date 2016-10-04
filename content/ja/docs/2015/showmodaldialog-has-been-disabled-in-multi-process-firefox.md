@@ -4,7 +4,7 @@ date: "2015-12-29T21:46:00-05:00"
 categories: ["dom"]
 tags: []
 versions: ["46"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1077002"
       title: "Bug 1077002 - window.showmodaldialog does not work with e10s"

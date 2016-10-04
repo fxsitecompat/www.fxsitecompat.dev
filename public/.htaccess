@@ -20,6 +20,9 @@ RewriteRule ^ja-JP/(.*) /ja/$1 [R=301,L]
 RewriteCond %{QUERY_STRING} cx=006388931142546140887:uidl4-zslfu
 RewriteRule ^(en-CA|ja)/search/$ https://cse.google.com/cse [L]
 
+# Obsolete status
+RewriteRule ^(en-CA|ja)/statuses/affected/?$ /$1/statuses/affecting/ [R=301,L]
+
 # Redirect: Japanese
 RewriteCond %{HTTP:Accept-Language} ^ja
 RewriteCond %{REQUEST_URI} !^/(en-CA|ja)/

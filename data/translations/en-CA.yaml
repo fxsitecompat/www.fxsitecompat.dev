@@ -30,8 +30,8 @@ categories:
 
 # Statuses:
 statuses:
-    affected:
-        label: "Affected"
+    affecting:
+        label: "Affecting"
         description: "A change made for standard compliance, security or performance. A couple of sites were broken but those issues were or should be fixed by themselves."
         desc_plural: "This list contains changes made for standard compliance, security or performance. A couple of sites were broken but those issues were or should be fixed by themselves."
     reverted:
@@ -89,7 +89,7 @@ all_categories_page:
 # All statuses page
 all_statuses_page:
     title: "Browse Documents by Status"
-    description: "Browse all our Firefox site compatibility documents by issue status, including Affected, Regression and Reverted."
+    description: "Browse all our Firefox site compatibility documents by issue status, including Affecting, Regression and Reverted."
 
 # All versions page
 all_versions_page:

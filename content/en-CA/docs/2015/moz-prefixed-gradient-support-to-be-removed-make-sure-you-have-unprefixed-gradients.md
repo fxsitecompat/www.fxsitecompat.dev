@@ -4,7 +4,7 @@ date: "2015-08-05T00:48:18-04:00"
 categories: ["css"]
 tags: []
 versions: ["future"]
-statuses: "affected"
+statuses: "affecting"
 cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1176496"

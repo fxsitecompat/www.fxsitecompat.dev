@@ -4,7 +4,7 @@ date: "2016-04-10T01:08:00-04:00"
 categories: ["dom"]
 tags: []
 versions: ["42"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1107443"
       title: "Bug 1107443 - Make WindowProxy throw if you attempt to define a non-configurable property"

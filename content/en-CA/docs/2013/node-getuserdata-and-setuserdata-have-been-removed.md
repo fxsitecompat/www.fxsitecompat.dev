@@ -4,7 +4,7 @@ date: "2013-02-24T03:44:31-05:00"
 categories: ["dom"]
 tags: []
 versions: ["22"]
-statuses: "affected"
+statuses: "affecting"
 cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=842372"

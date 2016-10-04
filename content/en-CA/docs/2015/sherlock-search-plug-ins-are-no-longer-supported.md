@@ -4,7 +4,7 @@ date: "2015-09-23T16:29:00-04:00"
 categories: ["misc"]
 tags: []
 versions: ["44"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=862137"
       title: "Bug 862137 - stop supporting Sherlock search engines"

@@ -4,7 +4,7 @@ date: "2015-10-27T14:54:00-07:00"
 categories: ["networking", "privacy-security"]
 tags: []
 versions: ["future"]
-statuses: "affected"
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=818340"
       title: "Bug 818340 - Block cookies from sites I haven't visited"

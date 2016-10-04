@@ -4,7 +4,7 @@ date: "2013-12-09T02:32:17-05:00"
 categories: ["javascript"]
 tags: []
 versions: ["28"]
-statuses: "affected"
+statuses: "affecting"
 cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=894658"
