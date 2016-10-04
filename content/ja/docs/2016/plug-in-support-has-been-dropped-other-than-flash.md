@@ -8,7 +8,7 @@ statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1269807"
       title: "Bug 1269807 - Remove support for all NPAPI plugins (except Flash)"
-    - url: "http://www.mozilla.jp/blog/entry/10508/"
+    - url: "https://www.mozilla.jp/blog/entry/10508/"
       title: "Firefox における NPAPI プラグインの取り扱いについて"
     - url: "https://groups.google.com/d/topic/mozilla.dev.tech.plugins/Cu1rOVEn45M/discussion"
       title: "Java plugin phase out timeline"
@@ -21,6 +21,6 @@ aliases:
 
 Microsoft は [Silverlight を廃止予定としました](https://support.microsoft.com/ja-jp/lifecycle?C2=12905)。Oracle からも [Java ブラウザプラグインの廃止予定](https://blogs.oracle.com/java-platform-group/entry/moving_to_a_plugin_free) が発表されました。2016 年 4 月時点で、Apple は [Windows 版 QuickTime のサポートを打ち切っています](https://support.apple.com/ja-jp/HT201175)。OS X 版の QuickTime プラグインは既に [10.9 Mavericks 以降無効化されています](https://support.apple.com/ja-jp/HT205081)。
 
-そのため、時代遅れとなった [NPAPI プラグイン](https://developer.mozilla.org/ja/docs/Plugins) 対応は、まだ広く用いられている Adobe Flash Player を例外として Firefox 52 から削除されました。Windows 64 ビット版 Firefox では [既に対応プラグインが Flash と Silverlight のみとなっています](https://www.fxsitecompat.com/ja/docs/2015/64-bit-firefox-for-windows-is-officially-available-flash-and-silverlight-are-the-only-supported-plug-ins/)。Web サイト運営者は、Java アプレットや Silverlight 動画など、すべてのプラグインコンテンツを代替技術で置き換える計画を立てなければなりません。
+そのため、[2015 年 10 月以降廃止予定となっていた](https://www.mozilla.jp/blog/entry/10508/) Firefox におけるレガシーな [NPAPI プラグイン](https://developer.mozilla.org/ja/docs/Plugins) 対応は、まだ広く用いられている Adobe Flash Player を例外として Firefox 52 から削除されました。Windows 64 ビット版 Firefox では [既に対応プラグインが Flash と Silverlight のみとなっています](https://www.fxsitecompat.com/ja/docs/2015/64-bit-firefox-for-windows-is-officially-available-flash-and-silverlight-are-the-only-supported-plug-ins/)。Web サイト運営者は、Java アプレットや Silverlight 動画など、すべてのプラグインコンテンツを代替技術で置き換える計画を立てなければなりません。
 
 なお、特に Java を必要とする法人ユーザのために、Firefox 52 [延長サポート版](https://www.mozilla.jp/business/) (ESR) では 2018 年 5 月までプラグイン対応が維持されます。
