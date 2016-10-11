@@ -5,7 +5,9 @@ categories: ["css"]
 tags: []
 versions: ["future"]
 references:
-    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1308636"
-      title: "Bug 1308636 - Remove support for prefixed CSS multi column properties by removing aliases for these prefixed properties in nsCSSPropAliasList.h and property_database.js"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=698783"
+      title: "Bug 698783 - Remove prefixing for CSS3 multicol"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/EammrHjrCpw/discussion"
+      title: "Intent to ship: css multi-column properties (unprefixed)"
 ---
 The support for the `-moz`-prefixed multi-column properties, [deprecated since Firefox 52](https://www.fxsitecompat.com/en-CA/docs/2016/css3-multi-column-properties-have-been-unprefixed/), are planned to be removed in the near future. Make sure to use the standard equivalents including [`column-count`](https://developer.mozilla.org/en-US/docs/Web/CSS/column-count), [`column-fill`](https://developer.mozilla.org/en-US/docs/Web/CSS/column-fill), [`column-gap`](https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap), [`column-rule`](https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule), [`column-rule-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-color), [`column-rule-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-style), [`column-rule-width`](https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-width), [`column-width`](https://developer.mozilla.org/en-US/docs/Web/CSS/column-width) and [`columns`](https://developer.mozilla.org/en-US/docs/Web/CSS/columns).
