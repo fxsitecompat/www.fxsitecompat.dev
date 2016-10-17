@@ -3,7 +3,7 @@ title: "Offscreen Canvas `transferImageBitmap()` has been renamed; `ImageBitmapR
 date: "2016-10-12T13:40:00-04:00"
 categories: ["canvas-webgl"]
 tags: []
-versions: ["52"]
+versions: ["50"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1304767"
       title: "Bug 1304767 - Rename transferImageBitmap to transferFromImageBitmap"
