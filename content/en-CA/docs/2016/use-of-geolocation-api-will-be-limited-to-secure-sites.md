@@ -9,6 +9,8 @@ references:
       title: "Bug 1072859 - Disable Geolocation on non-secure origins"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/wouDQLBbm9A/discussion"
       title: "Intent to ship: Restrict geolocation.watchPosition to secure contexts"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/BvcsTpAqIsQ/discussion"
+      title: "Intent to restrict to secure contexts: navigator.geolocation"
 aliases:
     - "/docs/2016/use-of-geolocation-watchposition-will-be-limited-to-secure-sites/"
 ---
