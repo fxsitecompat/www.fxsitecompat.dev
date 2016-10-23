@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1017820"
       title: "Bug 1017820 – Remove the classinfo for DOMWindowUtils"
 ---
-グローバルオブジェクトを標準化する現在進行中の取り組みの一環として、[`window`](https://developer.mozilla.org/ja/docs/Web/API/window) から非標準の `WindowUtils` インタフェースが削除されました。
+グローバルオブジェクトを標準化する現在進行中の取り組みの一環として、[`window`](https://developer.mozilla.org/ja/docs/Web/API/window) から非標準の `WindowUtils` インターフェイスが削除されました。

@@ -15,6 +15,6 @@ references:
 
 この変更は `<svg:circle>` のように XML 名前空間接頭辞が付いたノードに影響します。この例では、`getElementsByTagName('svg:circle')` はノードに一致しなくなり、`getElementsByTagName('circle')` で代用可能です。ただし、[`getElementsByTagNameNS`](https://developer.mozilla.org/ja/docs/Web/API/Document/getElementsByTagNameNS) メソッドがより正式で推奨されることから、`getElementsByTagNameNS('http://www.w3.org/2000/svg', 'circle')` のように書き換えられるでしょう。
 
-この変更により、一部 *HP* プリンタの設定ページが動作しなくなっているようです。
+この変更により、一部 *HP* プリンターの設定ページが動作しなくなっているようです。
 
-**更新**: この変更は *HP* プリンタ設定ページへの影響を避けるため取り消されました。従来のように `tagName` に一致するよう、[DOM 仕様が変更されます](https://github.com/whatwg/dom/issues/143)。
+**更新**: この変更は *HP* プリンター設定ページへの影響を避けるため取り消されました。従来のように `tagName` に一致するよう、[DOM 仕様が変更されます](https://github.com/whatwg/dom/issues/143)。

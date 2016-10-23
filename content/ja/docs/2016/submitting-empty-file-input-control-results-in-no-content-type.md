@@ -9,14 +9,14 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1255735"
       title: "Bug 1255735 - Firefox 45 does not send content-type in empty input[type=file] anymore"
 ---
-空の `<input type="file">` を含む `<form enctype="multipart/form-data">` を送信した場合に、`Content-Type` HTTP ヘッダと、`Content-Disposition` ヘッダ内の `filename` フィールドが含まれず、そのアプリケーションのサーバサイドロジックがフォームデータ解析中に不具合を起こす恐れがあるというリグレッションが Firefox 45 で発生しました。
+空の `<input type="file">` を含む `<form enctype="multipart/form-data">` を送信した場合に、`Content-Type` HTTP ヘッダーと、`Content-Disposition` ヘッダー内の `filename` フィールドが含まれず、そのアプリケーションのサーバーサイドロジックがフォームデータ解析中に不具合を起こす恐れがあるというリグレッションが Firefox 45 で発生しました。
 
-実際のヘッダ:
+実際のヘッダー:
 ```http
 Content-Disposition: form-data; name="multipartFileList"
 ```
 
-期待されるヘッダ:
+期待されるヘッダー:
 ```http
 Content-Type: application/octet-stream
 Content-Disposition: form-data; name="multipartFileList"; filename=""

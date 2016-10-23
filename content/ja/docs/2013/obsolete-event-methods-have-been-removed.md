@@ -17,4 +17,4 @@ references:
 
 初期の W3C 仕様案に含まれていた `preventBubble` と `preventCapture` メソッドも削除されました。[`stopPropagation`](https://developer.mozilla.org/ja/docs/Web/API/event.stopPropagation) メソッドで代用可能です。
 
-また、Firefox 16 以降廃止予定となっている非標準の `getPreventDefault` メソッドは、[`defaultPrevented`](https://developer.mozilla.org/ja/docs/Web/API/event.defaultPrevented) プロパティに置き換えられたため、まもなく削除されます。`getPreventDefault` が Web ページ内で使用されていると、廃止予定についての警告が [Web コンソール](https://developer.mozilla.org/ja/docs/Tools/Web_Console) 内に表示されます。
+また、Firefox 16 以降廃止予定となっている非標準の `getPreventDefault` メソッドは、[`defaultPrevented`](https://developer.mozilla.org/ja/docs/Web/API/event.defaultPrevented) プロパティに置き換えられたため、まもなく削除されます。`getPreventDefault` がウェブページ内で使用されていると、廃止予定についての警告が [ウェブコンソール](https://developer.mozilla.org/ja/docs/Tools/Web_Console) 内に表示されます。

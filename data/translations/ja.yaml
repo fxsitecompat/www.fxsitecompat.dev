@@ -3,7 +3,7 @@ sections:
     home: ホーム
     blog: ブログ
     docs: ドキュメント
-    categories: カテゴリ
+    categories: カテゴリー
     versions: バージョン
     about: 概要
 
@@ -46,11 +46,11 @@ statuses:
 
 # Meta
 contentinfo:
-    organization: "<span>Firefox サイト互換性</span> <span>ワーキンググループ</span>"
+    organization: "<span>Firefox サイト互換性</span><span>ワーキンググループ</span>"
     category: "テクノロジー"
-    audienceType: "Web 開発者"
-    tagline: "ともに、より良い Web を築こう"
-    description: "Firefox の後方互換性とリグレッションに焦点を当てた、コミュニティ主導の Web 開発者エンゲージメントイニシアチブ。ドキュメント、最新情報など。"
+    audienceType: "ウェブ開発者"
+    tagline: "ともに、より良いウェブを築こう"
+    description: "Firefox の後方互換性とリグレッションに焦点を当てた、コミュニティ主導のウェブ開発者エンゲージメントイニシアチブ。ドキュメント、最新情報など。"
     legal: "Mozilla と Firefox は Mozilla Foundation の商標です。このイニシアチブは Mozilla とは無関係です。"
     contribute: '<a href="%s">ページの改善を提案</a>'
     translation: '<a href="%s" itemprop="url">English</a>'
@@ -62,14 +62,14 @@ search_placeholder: "ドキュメントを検索"
 # Home page
 latest_blog_post: "最新のブログ記事"
 documents: "ドキュメント"
-browse_category: "カテゴリ別に参照"
+browse_category: "カテゴリー別に参照"
 browse_version: "バージョン別に参照"
 browse_status: "ステータス別に参照"
 browse_all_versions: "すべてのバージョン..."
-browse_all_categories: "すべてのカテゴリ..."
+browse_all_categories: "すべてのカテゴリー..."
 home_page:
-    tagline: "<span>ともに、より良い</span> <span>Web を築こう</span>"
-    description: "<span>Firefox の後方互換性とリグレッションに焦点を当てた、</span><span>コミュニティ主導の Web 開発者エンゲージメントイニシアチブ。</span><span>ドキュメント、最新情報など。</span>"
+    tagline: "<span>ともに、より良い</span><span>ウェブを築こう</span>"
+    description: "<span>Firefox の後方互換性とリグレッションに焦点を当てた、</span><span>コミュニティ主導のウェブ開発者エンゲージメントイニシアチブ。</span><span>ドキュメント、最新情報など。</span>"
 
 # All blog posts page
 all_posts_page:
@@ -84,8 +84,8 @@ all_docs_page:
 
 # All categories page
 all_categories_page:
-    title: "カテゴリ別にドキュメントを参照"
-    description: "すべての Firefox サイト互換性ドキュメントを、CSS、DOM、JavaScript、セキュリティ & プライバシーなどの技術カテゴリごとに参照できます。"
+    title: "カテゴリー別にドキュメントを参照"
+    description: "すべての Firefox サイト互換性ドキュメントを、CSS、DOM、JavaScript、セキュリティ & プライバシーなどの技術カテゴリーごとに参照できます。"
 
 # All statuses page
 all_statuses_page:
@@ -135,4 +135,4 @@ not_found_page:
 feed:
     recent_content: "%s に関する最近の記事"
     version: "バージョン"
-    category: "カテゴリ"
+    category: "カテゴリー"

@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=958887"
       title: "Bug 958887 – Add support for element.style[\"css-property-name\"] non-standard extension"
 ---
-`element.style["css-property-name"]` のような単純な構文で CSS プロパティの取得と設定を可能にする、[`HTMLElement.style`](https://developer.mozilla.org/ja/docs/Web/API/HTMLElement.style) プロパティの非標準拡張が Firefox でも使用可能となりました。他のすべての主要ブラウザがこの形式に対応しているため、相互運用性の向上が見込まれます。
+`element.style["css-property-name"]` のような単純な構文で CSS プロパティの取得と設定を可能にする、[`HTMLElement.style`](https://developer.mozilla.org/ja/docs/Web/API/HTMLElement.style) プロパティの非標準拡張が Firefox でも使用可能となりました。他のすべての主要ブラウザーがこの形式に対応しているため、相互運用性の向上が見込まれます。

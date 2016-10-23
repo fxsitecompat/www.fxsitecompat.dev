@@ -11,4 +11,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1151931"
       title: "Bug 1151931 - Warning for \"unreachable expression after semicolon-less return statement\" triggers incorrectly (braceless if, ASI)"
 ---
-[Web コンソール](https://developer.mozilla.org/ja/docs/Tools/Web_Console) が、[`return`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/return) 命令文の後の到達不能コードに警告を表示するようになりました。これには　[改行と戻り値になり得る値が後に続く return 命令文](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/return#Automatic_semicolon_insertion) といったよくある誤解を招きやすいコーディングスタイルが含まれます。
+[ウェブコンソール](https://developer.mozilla.org/ja/docs/Tools/Web_Console) が、[`return`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/return) 命令文の後の到達不能コードに警告を表示するようになりました。これには　[改行と戻り値になり得る値が後に続く return 命令文](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/return#Automatic_semicolon_insertion) といったよくある誤解を招きやすいコーディングスタイルが含まれます。

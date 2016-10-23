@@ -1,5 +1,5 @@
 ---
-title: "`bgsound`、`multicol`、`image` のタグ名を持つ HTML 要素が `HTMLSpanElement` インタフェースを使用しなくなりました"
+title: "`bgsound`、`multicol`、`image` のタグ名を持つ HTML 要素が `HTMLSpanElement` インターフェイスを使用しなくなりました"
 date: "2013-02-24T03:44:31-05:00"
 categories: ["dom"]
 tags: []

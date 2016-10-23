@@ -14,6 +14,6 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=986019"
       title: "Bug 986019 - Turn off SSL and Code Signing trust bits for Equifax 1024-bit roots"
 ---
-[1024 ビットルート証明書廃止](https://blog.mozilla.org/security/2014/09/08/phasing-out-certificates-with-1024-bit-rsa-keys/) の最終段階が Firefox 38 で完了となりました。ブログ記事に書かれている通り、お使いの SSL 証明書に 1024 ビットキーが含まれている場合、もしくは 1024 ビットキーの認証局から発行されている場合、新しい SSL 証明書を入手して Web サーバー上の古い証明書と入れ替える必要があります。
+[1024 ビットルート証明書廃止](https://blog.mozilla.org/security/2014/09/08/phasing-out-certificates-with-1024-bit-rsa-keys/) の最終段階が Firefox 38 で完了となりました。ブログ記事に書かれている通り、お使いの SSL 証明書に 1024 ビットキーが含まれている場合、もしくは 1024 ビットキーの認証局から発行されている場合、新しい SSL 証明書を入手してウェブサーバー上の古い証明書と入れ替える必要があります。
 
 **更新**: *Equifax Secure Certificate Authority* の 1024 ビットルート証明書が、相当数のサイトに影響することが判明したため、[一時的に再度有効化](https://bugzilla.mozilla.org/show_bug.cgi?id=1155279) されました。

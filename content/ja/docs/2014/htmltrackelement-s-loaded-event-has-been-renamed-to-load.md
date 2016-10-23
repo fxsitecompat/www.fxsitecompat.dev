@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1035505"
       title: "Bug 1035505 – [webvtt] HTMLTrackElement should fire a \'load\' event not a \'loaded\'"
 ---
-[`HTMLTrackElement`](https://developer.mozilla.org/ja/docs/Web/API/HTMLTrackElement) インタフェースの実装が更新され、最新の仕様に従って `loaded` ではなく `load` イベントを発行するようになりました。
+[`HTMLTrackElement`](https://developer.mozilla.org/ja/docs/Web/API/HTMLTrackElement) インターフェイスの実装が更新され、最新の仕様に従って `loaded` ではなく `load` イベントを発行するようになりました。

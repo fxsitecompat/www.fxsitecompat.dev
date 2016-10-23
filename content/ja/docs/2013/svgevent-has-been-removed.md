@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=847600"
       title: "Bug 847600 – Remove SVGEvent"
 ---
-[`SVGEvent`](https://developer.mozilla.org/ja/docs/Web/API/SVGEvent) インタフェースは、仕様から削除されたため、使用できなくなりました。
+[`SVGEvent`](https://developer.mozilla.org/ja/docs/Web/API/SVGEvent) インターフェイスは、仕様から削除されたため、使用できなくなりました。

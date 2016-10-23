@@ -13,4 +13,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=842657"
       title: "Bug 842657 – Flip the pref to enable the CSP 1.0 parser for Firefox"
 ---
-[Content Security Policy (CSP)](https://developer.mozilla.org/ja/docs/Security/CSP) 1.0 の仕様が実装されました。ポリシーが `X-Content-Security-Policy` ヘッダで配信された場合は既存のパーサが使われ、ポリシーが公式仕様となった `Content-Security-Policy` ヘッダで配信された場合は 1.0 仕様に準拠した新しいパーサが使われます。詳しくは [Mozilla Security Blog の記事](https://blog.mozilla.org/security/2013/06/11/content-security-policy-1-0-lands-in-firefox/) をご覧ください。あなたのサイトで CSP を実装したい場合は最新の仕様を参照してください。[MDN 上のドキュメント](https://developer.mozilla.org/ja/docs/Security/CSP) も近々更新されるはずです。
+[Content Security Policy (CSP)](https://developer.mozilla.org/ja/docs/Security/CSP) 1.0 の仕様が実装されました。ポリシーが `X-Content-Security-Policy` ヘッダーで配信された場合は既存のパーサーが使われ、ポリシーが公式仕様となった `Content-Security-Policy` ヘッダーで配信された場合は 1.0 仕様に準拠した新しいパーサーが使われます。詳しくは [Mozilla Security Blog の記事](https://blog.mozilla.org/security/2013/06/11/content-security-policy-1-0-lands-in-firefox/) をご覧ください。あなたのサイトで CSP を実装したい場合は最新の仕様を参照してください。[MDN 上のドキュメント](https://developer.mozilla.org/ja/docs/Security/CSP) も近々更新されるはずです。

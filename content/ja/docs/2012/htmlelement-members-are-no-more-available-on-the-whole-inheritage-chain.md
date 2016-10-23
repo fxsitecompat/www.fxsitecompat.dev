@@ -9,9 +9,9 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=821606"
       title: "Bug 821606 – Turn on WebIDL bindings for Element and HTMLElement"
 ---
-従来、リーフクラスのインタフェースプロトタイプオブジェクト上で継承チェーン (例: [`HTMLDivElement`](https://developer.mozilla.org/ja/docs/Web/API/HTMLDivElement) → [`HTMLElement`](https://developer.mozilla.org/ja/docs/Web/API/HTMLElement) → [`Element`](https://developer.mozilla.org/ja/docs/Web/API/Element) → [`Node`](https://developer.mozilla.org/ja/docs/Web/API/Node) → [`EventTarget`](https://developer.mozilla.org/ja/docs/Web/API/EventTarget)) 全体のすべてのメンバーを取得することが可能でしたが (例: `HTMLDivElement.prototype === document.createElement("div").__proto`)、今後 [`HTMLElement`](https://developer.mozilla.org/ja/docs/Web/API/HTMLElement) のメンバーは `HTMLElement.prototype` (`=== HTMLDivElement.prototype.__proto__`) だけにとどまります。
+従来、リーフクラスのインターフェイスプロトタイプオブジェクト上で継承チェーン (例: [`HTMLDivElement`](https://developer.mozilla.org/ja/docs/Web/API/HTMLDivElement) → [`HTMLElement`](https://developer.mozilla.org/ja/docs/Web/API/HTMLElement) → [`Element`](https://developer.mozilla.org/ja/docs/Web/API/Element) → [`Node`](https://developer.mozilla.org/ja/docs/Web/API/Node) → [`EventTarget`](https://developer.mozilla.org/ja/docs/Web/API/EventTarget)) 全体のすべてのメンバーを取得することが可能でしたが (例: `HTMLDivElement.prototype === document.createElement("div").__proto`)、今後 [`HTMLElement`](https://developer.mozilla.org/ja/docs/Web/API/HTMLElement) のメンバーは `HTMLElement.prototype` (`=== HTMLDivElement.prototype.__proto__`) だけにとどまります。
 
-少なくともひとつの人気ライブラリ ([Optimizely](https://www.optimizely.com/)) がこの誤った挙動に依存していることが分かりました。ライブラリ側で既に修正が行われていますので、Web サイトでこのライブラリを使っている場合は必ず最新版に更新してください。
+少なくともひとつの人気ライブラリ ([Optimizely](https://www.optimizely.com/)) がこの誤った挙動に依存していることが分かりました。ライブラリ側で既に修正が行われていますので、ウェブサイトでこのライブラリを使っている場合は必ず最新版に更新してください。
 
 [`DOMString`](https://developer.mozilla.org/ja/docs/DOM/DOMString) 引数を取るメソッドに `null` を渡すと、空文字列の代わりに `"null"` という文字列に変換されるようになりました。例えば、`element.setAttribute("foo", null)` とした場合、`<div foo="">` ではなく `<div foo="null">` という出力になります。
 

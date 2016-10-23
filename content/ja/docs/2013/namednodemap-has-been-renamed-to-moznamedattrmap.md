@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=847195"
       title: "Bug 847195 – Make NamedNodeMap only deal with Attrs"
 ---
-[`NamedNodeMap`](https://developer.mozilla.org/ja/docs/Web/API/NamedNodeMap) インタフェースは、仕様から削除されたことと [`Node.attributes`](https://developer.mozilla.org/ja/docs/Web/API/Node.attributes) でしか使用できないことから、接頭辞付きの `MozNamedAttrMap` へ改名されました。
+[`NamedNodeMap`](https://developer.mozilla.org/ja/docs/Web/API/NamedNodeMap) インターフェイスは、仕様から削除されたことと [`Node.attributes`](https://developer.mozilla.org/ja/docs/Web/API/Node.attributes) でしか使用できないことから、接頭辞付きの `MozNamedAttrMap` へ改名されました。

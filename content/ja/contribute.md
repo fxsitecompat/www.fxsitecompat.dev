@@ -1,7 +1,7 @@
 ---
 date: "2015-08-30T22:50:24-04:00"
 title: "プロジェクトへの協力"
-description: "あなたがもし Web 開発者なら、今日から Firefox Developer Edition を使って、私たちのボランティア活動に参加してください！"
+description: "あなたがもしウェブ開発者なら、今日から Firefox Developer Edition を使って、私たちのボランティア活動に参加してください！"
 slug: "contribute"
 ---
 ## フォロー
@@ -11,7 +11,7 @@ slug: "contribute"
 
 ## サイトのテスト
 
-Firefox ユーザがあなたの「壊れた」サイトを訪れる前に Firefox のリグレッションを発見し修正することが重要です。Mozilla は [Firefox Developer Edition](https://www.mozilla.org/ja/firefox/developer/) (旧称 Aurora) を提供していますので、このアルファ版を日常的に使ってあなたのサイトや Web アプリを開発、テストしましょう。
+Firefox ユーザーがあなたの「壊れた」サイトを訪れる前に Firefox のリグレッションを発見し修正することが重要です。Mozilla は [Firefox Developer Edition](https://www.mozilla.org/ja/firefox/developer/) (旧称 Aurora) を提供していますので、このアルファ版を日常的に使ってあなたのサイトやウェブアプリを開発、テストしましょう。
 
 ## 問題の報告
 
@@ -24,10 +24,10 @@ Firefox ユーザがあなたの「壊れた」サイトを訪れる前に Firef
 
 ## ドキュメントの改善
 
-ドキュメントに間違いを見つけた場合、あるいは何かまだ文書化されていない問題を見つけた場合は、[ツイート](https://twitter.com/intent/tweet?text=@fxsitecompat&related=fxsitecompat) するか、[Issue を登録](https://github.com/fxsitecompat/www.fxsitecompat.com/issues/new) するか、あるいは各ページのフッタにある「ページの改善を提案」というリンクから直接プルリクエストを送って、私たちの有益な開発者リソースの改善にご協力ください。[Twitter](https://twitter.com/messages/compose?recipient_id=1707307399) あるいは [Facebook](https://fb.com/msg/FxSiteCompat) を通じてダイレクトメッセージを送っていただくこともできます。
+ドキュメントに間違いを見つけた場合、あるいは何かまだ文書化されていない問題を見つけた場合は、[ツイート](https://twitter.com/intent/tweet?text=@fxsitecompat&related=fxsitecompat) するか、[Issue を登録](https://github.com/fxsitecompat/www.fxsitecompat.com/issues/new) するか、あるいは各ページのフッターにある「ページの改善を提案」というリンクから直接プルリクエストを送って、私たちの有益な開発者リソースの改善にご協力ください。[Twitter](https://twitter.com/messages/compose?recipient_id=1707307399) あるいは [Facebook](https://fb.com/msg/FxSiteCompat) を通じてダイレクトメッセージを送っていただくこともできます。
 
 ## 寄付
 
-私たちが提供するリソースがあなたの役に立っているなら、ぜひプロジェクトマネージャの Kohei Yoshino を通じて [少額の寄付を行う](https://www.paypal.me/kohei/3) ことを検討してください。あなたの投げ銭はサーバやドメインの費用に充てられ、この独立したコミュニティイニシアチブの持続可能性を確保するための助けとなります。どうぞよろしくお願いします。
+私たちが提供するリソースがあなたの役に立っているなら、ぜひプロジェクトマネージャーの Kohei Yoshino を通じて [少額の寄付を行う](https://www.paypal.me/kohei/3) ことを検討してください。あなたの投げ銭はサーバーやドメインの費用に充てられ、この独立したコミュニティイニシアチブの持続可能性を確保するための助けとなります。どうぞよろしくお願いします。
 
-ともに、より良い Web の世界を築きましょう！
+ともに、より良いウェブの世界を築きましょう！

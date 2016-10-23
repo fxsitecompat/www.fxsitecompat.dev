@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=819051"
       title: "Bug 819051 – XMLHttpRequest.setRequestHeader() overwrites instead of combines values for the same header."
 ---
-従来、[`XMLHttpRequest.setRequestHeader`](https://developer.mozilla.org/ja/docs/Web/API/XMLHttpRequest#setRequestHeader) で同一のヘッダが繰り返し指定されていた場合、最後に指定された値が使われていました。この挙動が仕様に準拠するよう修正され、それらの値が正しく連結されるようになりました。
+従来、[`XMLHttpRequest.setRequestHeader`](https://developer.mozilla.org/ja/docs/Web/API/XMLHttpRequest#setRequestHeader) で同一のヘッダーが繰り返し指定されていた場合、最後に指定された値が使われていました。この挙動が仕様に準拠するよう修正され、それらの値が正しく連結されるようになりました。

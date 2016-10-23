@@ -25,6 +25,6 @@ CSS3 Writing Modes 実装の一環として、アラビア語など <abbr title=
 | `-moz-padding-start`      | [`padding-inline-start`](https://developer.mozilla.org/ja/docs/Web/CSS/padding-inline-start)           |
 | `-moz-padding-end`        | [`padding-inline-end`](https://developer.mozilla.org/ja/docs/Web/CSS/padding-inline-start)             |
 
-バグにより、Firefox 41 は、ページインスペクタ、[`CSSRule.cssText`](https://developer.mozilla.org/ja/docs/Web/API/CSSRule/cssText)、その他 API においてまだ接頭辞付きプロパティを表示しています。この問題は [Firefox 42 で修正されました](https://www.fxsitecompat.com/ja/docs/2015/cssrule-csstext-now-returns-unprefixed-writing-mode-aware-properties/)。
+バグにより、Firefox 41 は、ページインスペクター、[`CSSRule.cssText`](https://developer.mozilla.org/ja/docs/Web/API/CSSRule/cssText)、その他 API においてまだ接頭辞付きプロパティを表示しています。この問題は [Firefox 42 で修正されました](https://www.fxsitecompat.com/ja/docs/2015/cssrule-csstext-now-returns-unprefixed-writing-mode-aware-properties/)。
 
 接頭辞付きプロパティへの対応は将来的に打ち切られます。

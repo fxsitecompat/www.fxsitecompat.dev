@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1148694"
       title: "Bug 1148694 - remove CSSCharsetRule"
 ---
-`CSSCharsetRule` インタフェースが CSSOM 仕様から削除されたことを受けて、Firefox の実装からも削除されました。
+`CSSCharsetRule` インターフェイスが CSSOM 仕様から削除されたことを受けて、Firefox の実装からも削除されました。

@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=915053"
       title: "Bug 915053 – remove quirk allowing {} around style attribute"
 ---
-従来、Firefox の [Quirks (後方互換) モード](https://developer.mozilla.org/ja/docs/Mozilla_Quirks_Mode_Behavior) では、CSS パーサは `<div style="{ color: blue; }">` のような `style` 属性の内容を囲む中括弧を許容していました。相互運用性を高めるため、この挙動は Firefox 27 で廃止されました。
+従来、Firefox の [Quirks (後方互換) モード](https://developer.mozilla.org/ja/docs/Mozilla_Quirks_Mode_Behavior) では、CSS パーサーは `<div style="{ color: blue; }">` のような `style` 属性の内容を囲む中括弧を許容していました。相互運用性を高めるため、この挙動は Firefox 27 で廃止されました。

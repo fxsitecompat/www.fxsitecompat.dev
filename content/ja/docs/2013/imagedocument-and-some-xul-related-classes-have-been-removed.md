@@ -11,4 +11,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=898687"
       title: "Bug 898687 – Remove XULTreeBuilder from content"
 ---
-非標準の `ImageDocument` インタフェースと、`BoxObject`、`TreeColumn`、`TreeColumns`、`TreeContentView`、`TreeSelection`、`XULControllers`、`XULTemplateBuilder`、`XULTreeBuilder` インタフェースが、Web コンテンツから使用できなくなりました。
+非標準の `ImageDocument` インターフェイスと、`BoxObject`、`TreeColumn`、`TreeColumns`、`TreeContentView`、`TreeSelection`、`XULControllers`、`XULTemplateBuilder`、`XULTreeBuilder` インターフェイスが、ウェブコンテンツから使用できなくなりました。

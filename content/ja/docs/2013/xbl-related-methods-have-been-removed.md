@@ -10,4 +10,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=912322"
       title: "Bug 912322 – document.getAnonymous* should not be available to web content"
 ---
-[XBL DOM インタフェース](https://developer.mozilla.org/ja/docs/XBL/XBL_1.0_Reference/DOM_Interfaces) 上に実装されている次のメソッドが [`Document`](https://developer.mozilla.org/ja/docs/Web/API/Document) から削除されました。`getAnonymousNodes`、`getAnonymousElementByAttribute`、`getBindingParent`、`loadBindingDocument`
+[XBL DOM インターフェイス](https://developer.mozilla.org/ja/docs/XBL/XBL_1.0_Reference/DOM_Interfaces) 上に実装されている次のメソッドが [`Document`](https://developer.mozilla.org/ja/docs/Web/API/Document) から削除されました。`getAnonymousNodes`、`getAnonymousElementByAttribute`、`getBindingParent`、`loadBindingDocument`

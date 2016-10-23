@@ -14,4 +14,4 @@ references:
 ---
 [`ImageBitmapRenderingContext.transferImageBitmap`](https://developer.mozilla.org/en-US/docs/Web/API/ImageBitmapRenderingContext/transferImageBitmap) メソッドが、最新の仕様に従って `transferFromImageBitmap` に改名されました。 古いメソッドは廃止予定となり、近い将来削除されます。
 
-なお、[`ImageBitmapRenderingContext`](https://developer.mozilla.org/en-US/docs/Web/API/ImageBitmapRenderingContext) インタフェース自体、Firefox 46 で誤って出荷されたことが明らかになりました。オフスクリーン Canvas API はまだ鋭意開発中であることから、仕様が安定するのを待つため、この実装は近々無効化される可能性があります。まだ他のどのブラウザもこの新たな API を出荷していないため、リスクは非常に低いはずです。
+なお、[`ImageBitmapRenderingContext`](https://developer.mozilla.org/en-US/docs/Web/API/ImageBitmapRenderingContext) インターフェイス自体、Firefox 46 で誤って出荷されたことが明らかになりました。オフスクリーン Canvas API はまだ鋭意開発中であることから、仕様が安定するのを待つため、この実装は近々無効化される可能性があります。まだ他のどのブラウザーもこの新たな API を出荷していないため、リスクは非常に低いはずです。

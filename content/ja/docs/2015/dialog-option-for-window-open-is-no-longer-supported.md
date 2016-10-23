@@ -12,4 +12,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/gUORXMzvH1Y/discussion"
       title: "mozilla.dev.platform: Intent to unship: dialog=1 for window.open from web content"
 ---
-[`window.open`](https://developer.mozilla.org/ja/docs/Web/API/Window/open) メソッドの `dialog` オプションが Web コンテンツから使用できなくなりました。この非標準機能は、最小化、最大化、復元ボタンをウィンドウのタイトルバーから取り除くものでしたが、Windows 版の Firefox とその他 Gecko ベースのブラウザしか対応していませんでした。
+[`window.open`](https://developer.mozilla.org/ja/docs/Web/API/Window/open) メソッドの `dialog` オプションがウェブコンテンツから使用できなくなりました。この非標準機能は、最小化、最大化、復元ボタンをウィンドウのタイトルバーから取り除くものでしたが、Windows 版の Firefox とその他 Gecko ベースのブラウザーしか対応していませんでした。

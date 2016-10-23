@@ -7,4 +7,4 @@ Mozilla は今日 [Firefox 44 Beta と 45 Developer Edition](https://www.mozilla
 * [Firefox 44 サイト互換性情報](https://www.fxsitecompat.com/ja/versions/44/)
 * [Firefox 45 サイト互換性情報](https://www.fxsitecompat.com/ja/versions/45/)
 
-私たちは今年 175 件以上のドキュメントを公開しました。もしそれらがあなたの役に立つと思われるなら、プロジェクトマネージャの Kohei Yoshino を通じて [少額の寄付を行い](https://www.paypal.me/kohei/3)、この独立したイニシアチブを支援することを検討していただければと思います。皆さんからの寛大な寄付があれば、来年もサーバとドメインを維持することができます。よろしくお願いします。
+私たちは今年 175 件以上のドキュメントを公開しました。もしそれらがあなたの役に立つと思われるなら、プロジェクトマネージャーの Kohei Yoshino を通じて [少額の寄付を行い](https://www.paypal.me/kohei/3)、この独立したイニシアチブを支援することを検討していただければと思います。皆さんからの寛大な寄付があれば、来年もサーバーとドメインを維持することができます。よろしくお願いします。

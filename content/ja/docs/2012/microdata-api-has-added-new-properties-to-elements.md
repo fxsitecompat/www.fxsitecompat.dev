@@ -10,7 +10,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=591467"
       title: "Bug 591467 – Implement HTML Microdata API"
 ---
-HTML5 の [Microdata DOM API](http://www.w3.org/TR/microdata/#microdata-dom-api) が実装され、[`Document`](https://developer.mozilla.org/ja/docs/Web/API/Document) インタフェースに `getItems` プロパティが、[`Element`](https://developer.mozilla.org/ja/docs/Web/API/Element) インタフェースに `itemId`、`itemProp`、`itemRef`、`itemScope`、`itemType`、`itemValue`、`properties` プロパティがそれぞれ追加されました。
+HTML5 の [Microdata DOM API](http://www.w3.org/TR/microdata/#microdata-dom-api) が実装され、[`Document`](https://developer.mozilla.org/ja/docs/Web/API/Document) インターフェイスに `getItems` プロパティが、[`Element`](https://developer.mozilla.org/ja/docs/Web/API/Element) インターフェイスに `itemId`、`itemProp`、`itemRef`、`itemScope`、`itemType`、`itemValue`、`properties` プロパティがそれぞれ追加されました。
 
 Six Apart の *Movable Type* がこの変更による影響を受けたことが確認されています。独自の `itemId` プロパティが原因で一部機能が正常に動作しなくなったため、同社が [問題を修正](https://github.com/movabletype/movabletype/commit/83d2f3d21d9c9a951d7e872d70bac5d355bd3d4d) し [パッチを公開](http://www.movabletype.jp/faq/firefox-16-patches.html) しています。
 

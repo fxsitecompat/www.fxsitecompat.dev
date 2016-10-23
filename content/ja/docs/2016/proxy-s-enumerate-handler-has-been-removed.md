@@ -1,5 +1,5 @@
 ---
-title: "`Proxy` の `enumerate` ハンドラが削除されました"
+title: "`Proxy` の `enumerate` ハンドラーが削除されました"
 date: "2016-02-14T03:53:00-05:00"
 categories: ["javascript"]
 tags: []

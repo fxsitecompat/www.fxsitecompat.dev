@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=877135"
       title: "Bug 877135 – Remove mozLoadFrom"
 ---
-[`HTMLMediaElement`](https://developer.mozilla.org/ja/docs/Web/API/HTMLMediaElement) インタフェースから `mozLoadFrom` メソッドが削除されました。これは、他のメディア要素からデータを読み込むために使われる、Mozilla の非標準拡張仕様でした。
+[`HTMLMediaElement`](https://developer.mozilla.org/ja/docs/Web/API/HTMLMediaElement) インターフェイスから `mozLoadFrom` メソッドが削除されました。これは、他のメディア要素からデータを読み込むために使われる、Mozilla の非標準拡張仕様でした。

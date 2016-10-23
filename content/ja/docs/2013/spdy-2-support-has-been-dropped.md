@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=912550"
       title: "Bug 912550 – remove spdy/2 support"
 ---
-SPDY プロトコル Draft 2 仕様への対応が削除されました。Web サイトは SPDY/3 もしくはそれ以降へアップグレードしてください。
+SPDY プロトコル Draft 2 仕様への対応が削除されました。ウェブサイトは SPDY/3 もしくはそれ以降へアップグレードしてください。

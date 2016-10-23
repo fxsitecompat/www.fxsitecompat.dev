@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=962747"
       title: "Bug 962747 – Hide Window.openDialog from content"
 ---
-非標準メソッド [`window.openDialog`](https://developer.mozilla.org/ja/docs/Web/API/window.openDialog) が Web コンテンツから使用できなくなりました。代わりに [`window.open`](https://developer.mozilla.org/ja/docs/Web/API/window.open) を使用してください。
+非標準メソッド [`window.openDialog`](https://developer.mozilla.org/ja/docs/Web/API/window.openDialog) がウェブコンテンツから使用できなくなりました。代わりに [`window.open`](https://developer.mozilla.org/ja/docs/Web/API/window.open) を使用してください。

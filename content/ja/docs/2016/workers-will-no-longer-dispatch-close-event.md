@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/mqKBGePe4-s/discussion"
       title: "Intent to unship: WorkerGlobalScope.onclose"
 ---
-[`WorkerGlobalScope.onclose`](https://developer.mozilla.org/ja/docs/Web/API/WorkerGlobalScope/onclose) プロパティが、ずっと前に仕様から外されているため削除され、そのため Web ワーカーが [`close`](https://developer.mozilla.org/ja/docs/Web/Events/close) イベントを発生させなくなりました。他にこれを実装しているブラウザはないため、互換性への影響は軽微なはずです。
+[`WorkerGlobalScope.onclose`](https://developer.mozilla.org/ja/docs/Web/API/WorkerGlobalScope/onclose) プロパティが、ずっと前に仕様から外されているため削除され、そのためウェブワーカーが [`close`](https://developer.mozilla.org/ja/docs/Web/Events/close) イベントを発生させなくなりました。他にこれを実装しているブラウザーはないため、互換性への影響は軽微なはずです。

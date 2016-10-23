@@ -12,4 +12,4 @@ references:
 aliases:
     - "/docs/2015/legacy-proxy-api-will-be-removed/"
 ---
-[Firefox 18 以降廃止予定となっている](https://www.fxsitecompat.com/ja/docs/2012/proxy-api-has-been-updated-for-the-new-spec/)、`Proxy.create`、`Proxy.createFunction` メソッドを含む非標準の [古い Proxy API](https://developer.mozilla.org/ja/docs/Archive/Web/Old_Proxy_API) は、Firefox 48 で削除されました。Firefox 47 では Web コンソールに廃止予定の警告が表示されます。[標準化された Proxy API](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Proxy) を代わりに使用してください。
+[Firefox 18 以降廃止予定となっている](https://www.fxsitecompat.com/ja/docs/2012/proxy-api-has-been-updated-for-the-new-spec/)、`Proxy.create`、`Proxy.createFunction` メソッドを含む非標準の [古い Proxy API](https://developer.mozilla.org/ja/docs/Archive/Web/Old_Proxy_API) は、Firefox 48 で削除されました。Firefox 47 ではウェブコンソールに廃止予定の警告が表示されます。[標準化された Proxy API](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Proxy) を代わりに使用してください。
