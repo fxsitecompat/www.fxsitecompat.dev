@@ -19,3 +19,5 @@ Webmasters: Open the [Web Console](https://developer.mozilla.org/docs/Tools/Web_
 **Update**: It has been reported that some Firefox users with MITM software installed on their computer are no longer able to visit any HTTPS sites due to the dynamically-generated certificates. After [some discussion](https://groups.google.com/d/topic/mozilla.dev.platform/ZNKxYgIk_Sg/discussion), this change has been [reverted with Firefox 43.0.4](https://bugzilla.mozilla.org/show_bug.cgi?id=1236975) to allow Mozilla developers to investigate the scope of this risk. See also the [Mozilla Security Blog](https://blog.mozilla.org/security/2016/01/06/man-in-the-middle-interfering-with-increased-security/).
 
 **Update**: This restriction has been reintroduced with Firefox 48 but with an exception of locally-installed root certificates, which is intended to avoid compatibility issues with MITM software. Any SHA-1 certificates issued by a public CA after January 2016 will be rejected.
+
+**Update** The SHA-1 support will be [disabled in January 2017](https://www.fxsitecompat.com/en-CA/docs/2016/sha-1-certificates-issued-by-public-ca-will-no-longer-be-accepted/).

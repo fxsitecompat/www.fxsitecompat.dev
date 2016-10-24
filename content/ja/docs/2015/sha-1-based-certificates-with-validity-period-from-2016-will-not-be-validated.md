@@ -19,3 +19,5 @@ references:
 **更新**: コンピューター上に MITM ソフトウェアがインストールされている一部の Firefox ユーザーが、その動的に生成された証明書が原因で、HTTPS サイトに一切アクセスできなくなってしまったことが報告されています。[議論の結果](https://groups.google.com/d/topic/mozilla.dev.platform/ZNKxYgIk_Sg/discussion)、Mozilla 開発者がリスク範囲を調査できるようにするため、この変更は [Firefox 43.0.4 で取り消されました](https://bugzilla.mozilla.org/show_bug.cgi?id=1236975)。[Mozilla Security Blog](https://blog.mozilla.org/security/2016/01/06/man-in-the-middle-interfering-with-increased-security/) も参照してください。
 
 **更新**: この制約は Firefox 48 で再導入されました。ただし、MITM ソフトウェアとの互換性問題を防ぐため、ローカルにインストールされているルート証明書は例外となります。一般の認証局によって 2016 年 1 月以降発行された SHA-1 証明書は、もしあれば受け入れが拒否されます。
+
+**更新** SHA-1 対応は [2017 年 1 月に無効化されます](https://www.fxsitecompat.com/ja/docs/2016/sha-1-certificates-issued-by-public-ca-will-no-longer-be-accepted/)。
