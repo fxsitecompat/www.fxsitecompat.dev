@@ -1,4 +1,5 @@
 MetaDataFormat: "yaml"
+disableHugoGeneratorInject: true
 
 ContentDir: "content/ja"
 PublishDir: "public/ja"
