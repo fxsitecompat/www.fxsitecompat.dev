@@ -1,8 +1,8 @@
 # Firefox releases
 versions:
-    "52": "nightly"
-    "51": "aurora"
-    "50": "beta"
+    "53": "nightly"
+    "52": "aurora"
+    "51": "beta"
 
 channels:
     nightly: "Nightly"
