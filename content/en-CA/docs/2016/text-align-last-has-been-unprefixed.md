@@ -11,3 +11,5 @@ references:
       title: "Intent to ship: Unprefixed text-align-last"
 ---
 The [`text-align-last`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align-last) CSS property has been unprefixed with Firefox 49. The vendor-prefixed `-moz-text-align-last` property will be removed in the near future.
+
+**Update**: The prefixed property has been removed with [Firefox 53](https://www.fxsitecompat.com/en-CA/docs/2016/moz-text-align-last-property-has-been-removed/).

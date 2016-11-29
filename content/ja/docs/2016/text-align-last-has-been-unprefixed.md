@@ -11,3 +11,5 @@ references:
       title: "Intent to ship: Unprefixed text-align-last"
 ---
 Firefox 49 で [`text-align-last`](https://developer.mozilla.org/ja/docs/Web/CSS/text-align-last) CSS プロパティの接頭辞が外れました。ベンダー接頭辞付きの `-moz-text-align-last` プロパティは近い将来削除されます。
+
+**更新**: 接頭辞付きプロパティは [Firefox 53](https://www.fxsitecompat.com/ja/docs/2016/moz-text-align-last-property-has-been-removed/) で削除されました。
