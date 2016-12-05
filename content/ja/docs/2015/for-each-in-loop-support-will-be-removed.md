@@ -16,4 +16,6 @@ references:
 ---
 [Firefox 37 以降廃止予定となっている](https://www.fxsitecompat.com/ja/docs/2015/for-each-in-loops-are-now-deprecated/) [`for each...in`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/for_each...in) 命令文は、ECMAScript 2015 (ES6) 仕様に含まれていないため、近い将来削除されることとなりました。代わりに標準の [`for...of`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/for...of) 命令文を使用してください。
 
-**更新**: Firefox 51 以降では、JavaScript のバージョンに関わらず `for-each-in` に関する警告がコンソールに表示されます。この非標準命令文は近々 Firefox Nightly で無効化されます。
+**更新**: Firefox 51 以降では、JavaScript のバージョンに関わらず `for-each-in` に関する警告がコンソールに表示されます。
+
+**更新 2**: `for-each-in` ループ対応は Firefox 53 以降の Firefox Nightly チャンネルで無効化されています。

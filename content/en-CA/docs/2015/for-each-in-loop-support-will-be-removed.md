@@ -16,4 +16,6 @@ references:
 ---
 The support for the [`for each...in`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for_each...in) statement, [deprecated since Firefox 37](https://www.fxsitecompat.com/en-CA/docs/2015/for-each-in-loops-are-now-deprecated/) will be removed in the near future because it's not a part of the ECMAScript 2015 (ES6) spec. Use the standard [`for...of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) statement instead.
 
-**Update**: Firefox 51 and later will warn about `for-each-in` in the console regardless of the JavaScript version. The non-standard statement will be disabled on Firefox Nightly sometime soon.
+**Update**: Firefox 51 and later will warn about `for-each-in` in the console regardless of the JavaScript version.
+
+**Update 2**: The `for-each-in` loop support has been disabled on the Firefox Nightly channel since Firefox 53.
