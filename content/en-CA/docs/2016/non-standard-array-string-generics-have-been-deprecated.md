@@ -8,7 +8,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1319926"
       title: "Bug 1319926 - Warn when String generics are used"
 ---
-The non-standard [`Array` generic methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Array_generic_methods) and [`String` generic methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#String_generic_methods), introduced with [JavaScript 1.6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/1.6), are now considered deprecated and will be [removed in the near future](https://www.fxsitecompat.com/en-CA/docs/2015/non-standard-array-string-generics-will-be-removed/). This includes:
+The non-standard, Firefox-specific [`Array` generic methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Array_generic_methods) and [`String` generic methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#String_generic_methods), introduced with [JavaScript 1.6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/1.6), are now considered deprecated and will be [removed in the near future](https://www.fxsitecompat.com/en-CA/docs/2015/non-standard-array-string-generics-will-be-removed/). These generic/static methods include:
 
 * `Array.concat`
 * `Array.every`
@@ -54,11 +54,30 @@ The non-standard [`Array` generic methods](https://developer.mozilla.org/en-US/d
 * `String.trimLeft`
 * `String.trimRight`
 
-The [spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator) can be used as a simple alternative to the `Array` generics. For example, `Array.every(str, callback)` can be replaced with `[...str].every(callback)`.
+Here are some alternatives to the generics:
 
-The [`String`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) global object can be used as a simple alternative to the `String` generics. For example, `String.replace(num, search, replace)` can be replaced with `String(num).replace(search, replace)`.
+```js
+// Deprecated
+Array.forEach(obj, callback);
+// Alternative 1: the spread syntax
+[...obj].forEach(callback);
+// Alternative 2: the Array.from method
+Array.from(obj).forEach(callback);
+// Alternative 3: the old-school way
+// (if the object is not yet iterable)
+Array.prototype.forEach.call(obj, callback);
+```
 
-Note that the following generic methods are in the ECMAScript 2015 (ES6) spec and therefore they won't be removed:
+```js
+// Deprecated
+String.replace(num, search, replace);
+// Alternative 1: the String global object
+String(num).replace(search, replace);
+// Alternative 2: the old-school way
+String.prototype.replace.call(num, search, replace);
+```
+
+Note that the standard instance methods on [`Array.prototype`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype) and [`String.prototype`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype) won't be affected, of course. The following static methods are also in the ECMAScript 2015 (ES6) spec and therefore they won't be removed:
 
 * [`Array.from`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
 * [`Array.isArray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)

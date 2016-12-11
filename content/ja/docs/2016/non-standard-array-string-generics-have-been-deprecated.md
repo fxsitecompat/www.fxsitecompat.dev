@@ -8,7 +8,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1319926"
       title: "Bug 1319926 - Warn when String generics are used"
 ---
-[JavaScript 1.6](https://developer.mozilla.org/ja/docs/Web/JavaScript/New_in_JavaScript/1.6) で導入された非標準の [`Array` 汎用メソッド](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array#Array_generic_methods) と [`String` 汎用メソッド](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String#String_generic_methods) は廃止予定となり、[近い将来削除されることとなりました](https://www.fxsitecompat.com/ja/docs/2015/non-standard-array-string-generics-will-be-removed/)。これには以下のものが含まれます。
+[JavaScript 1.6](https://developer.mozilla.org/ja/docs/Web/JavaScript/New_in_JavaScript/1.6) で導入された非標準で Firefox 独自の [`Array` 汎用メソッド](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array#Array_generic_methods) と [`String` 汎用メソッド](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String#String_generic_methods) は廃止予定となり、[近い将来削除されることとなりました](https://www.fxsitecompat.com/ja/docs/2015/non-standard-array-string-generics-will-be-removed/)。これらの汎用・静的メソッドには以下のものが含まれます。
 
 * `Array.concat`
 * `Array.every`
@@ -54,11 +54,30 @@ references:
 * `String.trimLeft`
 * `String.trimRight`
 
-`Array` 汎用メソッドの単純な代替としては [スプレッド演算子](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Spread_operator) があります。例えば、`Array.every(str, callback)` は `[...str].every(callback)` のように書き換えられます。
+以下に汎用メソッドの代替策をいくつか挙げます。
 
-`String` 汎用メソッドの単純な代替としては [`String`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String) グローバルオブジェクトがあります。例えば、`String.replace(num, search, replace)` は `String(num).replace(search, replace)` のように書き換えられます。
+```js
+// 非推奨
+Array.forEach(obj, callback);
+// 代替策 1: スプレッド構文
+[...obj].forEach(callback);
+// 代替策 2: Array.from メソッド
+Array.from(obj).forEach(callback);
+// 代替策 3: 昔ながらの方法
+// (オブジェクトがまだ反復可能となっていない場合)
+Array.prototype.forEach.call(obj, callback);
+```
 
-なお、以下の汎用メソッドは ECMAScript 2015 (ES6) 仕様に含まれており、削除される予定はありません。
+```js
+// 非推奨
+String.replace(num, search, replace);
+// 代替策 1: String グローバルオブジェクト
+String(num).replace(search, replace);
+// 代替策 2: 昔ながらの方法
+String.prototype.replace.call(num, search, replace);
+```
+
+なお、[`Array.prototype`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype) と [`String.prototype`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/prototype) 上の標準インスタンスメソッドには当然ながら影響はありません。以下の静的メソッドも ECMAScript 2015 (ES6) 仕様に含まれており、削除される予定はありません。
 
 * [`Array.from`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
 * [`Array.isArray`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
