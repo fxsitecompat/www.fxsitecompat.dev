@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1319088"
       title: "Bug 1319088 - Bad filename in an xhr request"
 ---
-Firefox 50 で、`XMLHttpRequest` を通じて [ファイルを動的にアップロード](https://developer.mozilla.org/ja/docs/Using_files_from_web_applications) すると、[`Content-Disposition`](https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Content-Disposition) HTTP リクエストヘッダーに含まれる `filename` パラメーターの先頭にスラッシュが付加されてしまいます。このリグレッションは、[`File.prototype.webkitRelativePath`](https://developer.mozilla.org/ja/docs/Web/API/File/webkitRelativePath) プロパティの実装時に混入したもので、Firefox 50.1.0 で修正されます。
+Firefox 50 で、`XMLHttpRequest` を通じて [ファイルを動的にアップロード](https://developer.mozilla.org/ja/docs/Using_files_from_web_applications) すると、[`Content-Disposition`](https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Content-Disposition) HTTP リクエストヘッダーに含まれる `filename` パラメーターの先頭にスラッシュが付加されてしまいます。このリグレッションは、[`File.prototype.webkitRelativePath`](https://developer.mozilla.org/ja/docs/Web/API/File/webkitRelativePath) プロパティの実装時に混入したもので、Firefox 50.1.0 で修正されました。
