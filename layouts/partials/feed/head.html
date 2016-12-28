@@ -1,8 +1,8 @@
 {{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
   <id>{{ $.Site.BaseURL }}</id>{{ if not $.Date.IsZero }}
-  <updated>{{ $.Date.Format $.Site.Params.DateFormat.ISO8601 }}</updated>{{ end }}{{ with $.Site.Author.Name }}
+  <updated>{{ $.Date.Format $.Site.Params.DateFormat.ISO8601 }}</updated>{{ end }}{{ with $.Site.Params.Author.Name }}
   <author>
-    <name>{{ . }}</name>{{ with $.Site.Author.Email }}
+    <name>{{ . }}</name>{{ with $.Site.Params.Author.Email }}
     <email>{{ . }}</email>{{end}}
   </author>{{ end }}
   <link href="{{ .URL }}" rel="self" />

@@ -9,16 +9,15 @@ BaseURL: "https://www.fxsitecompat.com/ja/"
 Title: "Firefox サイト互換性情報"
 Copyright: "Kohei Yoshino and individual contributors."
 
-Author:
-    Name: "Kohei Yoshino"
-    Email: "webmaster@fxsitecompat.com"
-    GoogleUserName: "KoheiYoshino"
-    TwitterUserName: "koyoskeh"
-    FacebookID: "100003919776216"
-    FacebookUserName: "kohei.yoshino.aqr"
-
 Params:
     Domain: "FxSiteCompat.com"
+    Author:
+        Name: "Kohei Yoshino"
+        Email: "webmaster@fxsitecompat.com"
+        GoogleUserName: "KoheiYoshino"
+        TwitterUserName: "koyoskeh"
+        FacebookID: "100003919776216"
+        FacebookUserName: "kohei.yoshino.aqr"
     Publisher:
         Name: "Firefox サイト互換性ワーキンググループ"
         GoogleUserName: "FxSiteCompatibility"
@@ -45,8 +44,8 @@ Taxonomies:
     version: "versions"
     status: "statuses"
 
-Menu:
-    Main:
+menu:
+    main:
         - Name: "ホーム"
           Weight: 0
           Identifier: "home"
@@ -67,7 +66,7 @@ Menu:
           Weight: 4
           Identifier: "contribute"
           URL: "/contribute/"
-    External:
+    external:
         - Name: "フィード"
           Weight: 0
           Identifier: "feed"

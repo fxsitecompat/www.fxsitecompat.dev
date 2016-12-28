@@ -3,19 +3,19 @@
       <div class="inner">
         <div class="col wide">
           <h1 itemprop="name">{{ $strings.contentinfo.organization | safeHTML }}</h1>
-          <p id="copyright">Copyright &copy; <span itemprop="copyrightYear">{{ .Now.Format "2006" }}</span> <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person">{{ $.Site.Copyright }}{{ with $.Site.Author.Name }}<meta itemprop="name" content="{{ . }}">{{ end }}</span> {{ $strings.contentinfo.legal }}</p>
+          <p id="copyright">Copyright &copy; <span itemprop="copyrightYear">{{ .Now.Format "2006" }}</span> <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person">{{ $.Site.Copyright }}{{ with $.Site.Params.Author.Name }}<meta itemprop="name" content="{{ . }}">{{ end }}</span> {{ $strings.contentinfo.legal }}</p>
           <p>{{ if eq .Section "docs" }}{{ replace $strings.contentinfo.contribute "%s" (print "https://github.com/fxsitecompat/www.fxsitecompat.com/edit/master/content" (substr .RelPermalink 0 -1) ".md") | safeHTML }} &middot; {{ end }}<span id="translation" lang="{{ $.Site.Params.AlternateLangCode }}"><span itemprop="workTranslation" itemscope itemtype="http://schema.org/CreativeWork">{{ replace $strings.contentinfo.translation "%s" (replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.AlternateBaseDir) | safeHTML }}<meta itemprop="inLanguage" content="{{ $.Site.Params.AlternateLangCode }}"></span></span></p>
         </div>
         <div class="col">
           <nav>
-            <ul>{{ range $.Site.Menus.Main }}
+            <ul>{{ range $.Site.Menus.main }}
               <li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
             </ul>
           </nav>
         </div>
         <div class="col">
           <nav>
-            <ul>{{ range $.Site.Menus.External }}
+            <ul>{{ range $.Site.Menus.external }}
               <li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
             </ul>
           </nav>
