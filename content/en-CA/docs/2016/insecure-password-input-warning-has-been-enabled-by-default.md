@@ -7,6 +7,8 @@ versions: ["51"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1319119"
       title: "Bug 1319119 - Turn on Insecure Password Warning in Firefox Release"
+aliases:
+  - "/docs/2016/insecure-password-input-warning-will-be-enabled-by-default/"
 ---
 Since [Firefox 46](https://www.fxsitecompat.com/en-CA/docs/2015/non-https-sites-containing-login-form-will-be-marked-insecure/), Firefox Nightly and Developer Edition have been showing a broken padlock icon on the location bar when the current page has `<input type="password">` while the connection is not secure. Firefox 50 expanded this [insecure password input warning](https://twitter.com/FxSiteCompat/status/779224374742249472) to early Beta versions. Firefox 51 makes it enabled by default on all channels including the Release version.
 
