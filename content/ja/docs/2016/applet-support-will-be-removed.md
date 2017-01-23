@@ -3,7 +3,7 @@ title: "`<applet>` 対応が廃止されます"
 date: "2016-10-05T18:38:00-04:00"
 categories: ["dom", "html", "plugins"]
 tags: []
-versions: ["53"]
+versions: ["future"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1279218"
       title: "Bug 1279218 - Remove <applet> element"
