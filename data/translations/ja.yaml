@@ -101,15 +101,15 @@ all_versions_page:
 version_index_page:
     title: "Firefox %s サイト互換性情報"
     title_future: "今後予定されている変更"
-    description: "Firefox のバージョン %s に含まれる変更点を解説したサイト互換性ドキュメントを参照できます。"
-    description_upcoming: "現在 <em>%(channel)s</em> チャンネルで提供されている Firefox のバージョン %(version)s に含まれる変更点を解説したサイト互換性ドキュメントを参照できます。"
-    description_secondary: 'このリストは、さらなる変更が行われたり新たなリグレッションが発見された場合には更新されますので、<a href="/ja/index.xml">サイトのフィード</a> を購読し、最新情報を入手してください。新機能や改良点など Firefox %s の一般的な開発者情報は <a href="https://developer.mozilla.org/ja/Firefox/Releases/%s">Mozilla Developer Network</a> で公開されています。'
-    description_future: 'Firefox の今後のバージョンで予定されている変更点を解説したサイト互換性ドキュメントを参照できます。このリストは、さらなる変更が計画された場合には更新されますので、<a href="/ja/index.xml">サイトのフィード</a> を購読し、最新情報を入手してください。今のうちに備えて、あなたのサイトをできる限り優れたものにしましょう！'
+    description: '<time datetime="%(date)s">%(date_localized)s</time> に公開された Firefox %(version)s に含まれる変更点に関する互換性情報を参照できます。'
+    description_upcoming: '現在 <a href="https://www.mozilla.org/ja/firefox/channel/desktop/#%(channel)s"><em>%(channel_localized)s</em></a> チャンネルで提供され <time datetime="%(date)s">%(date_localized)s</time> 公開予定の Firefox %(version)s に含まれる変更点に関する互換性情報を参照できます。'
+    description_secondary: 'このリストは、さらなる変更が行われたり新たなリグレッションが発見された場合には更新されますので、ぜひ <a href="/ja/index.xml">サイトのフィード</a> を購読してください。新機能や改良点など Firefox %(version)s のより一般的な情報は <a href="https://developer.mozilla.org/ja/Firefox/Releases/%(version)s">Mozilla Developer Network</a> で公開されています。'
+    description_future: 'Firefox の今後のバージョンで予定されている変更点に関する互換性情報を参照できます。このリストは、さらなる変更が計画された場合には更新されますので、<a href="/ja/index.xml">サイトのフィード</a> を購読し、最新情報を入手してください。今のうちに備えて、あなたのサイトをできる限り優れたものにしましょう！'
 
 # Category index page
 category_index_page:
     title: "%s 関連の互換性ドキュメント"
-    description: "%s に関する変更点を変更点を解説した Firefox サイト互換性ドキュメントを参照できます。"
+    description: "%s 関連の変更点に関する Firefox サイト互換性情報を参照できます。"
 
 # Status index page
 status_index_page:

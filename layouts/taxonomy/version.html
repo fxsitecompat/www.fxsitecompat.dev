@@ -3,18 +3,37 @@
 {{ $version := .Title | urlize }}
 {{ $title := replace $strings.version_index_page.title "%s" $version }}
 {{ $title_future := $strings.version_index_page.title_future }}
-{{ $description := replace $strings.version_index_page.description "%s" $version }}
+
+{{- if eq $version "future" -}}
+  {{- $.Scratch.Set "description" $strings.version_index_page.description_future -}}
+{{- else -}}
+  {{- with index $.Site.Data.firefox.versions $version -}}
+    {{- $channel := . }}
+    {{- $description := replace $strings.version_index_page.description_upcoming "%(version)s" $version -}}
+    {{- $description := replace $description "%(channel)s" $channel }}
+    {{- $description := replace $description "%(channel_localized)s" (index $.Site.Data.firefox.channels $channel) -}}
+    {{- $.Scratch.Set "description" $description -}}
+  {{- else -}}
+    {{- $description := replace $strings.version_index_page.description "%(version)s" $version -}}
+    {{- $.Scratch.Set "description" $description -}}
+  {{- end -}}
+  {{- $description := $.Scratch.Get "description" -}}
+  {{- $description := replace $description "%(date)s" (index $.Site.Data.firefox.dates $version) -}}
+  {{- $description := replace $description "%(date_localized)s" (dateFormat $.Site.Params.DateFormat.Localized (index $.Site.Data.firefox.dates $version)) -}}
+  {{- $.Scratch.Set "description" $description -}}
+{{- end -}}
+{{- $description := $.Scratch.Get "description" -}}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
     <title>{{ if eq $version "future" }}{{ $title_future }}{{ else }}{{ $title }}{{ end }} | {{ $.Site.Title }}</title>
     <meta property="og:title" content="{{ if eq $version "future" }}{{ $title_future }}{{ else }}{{ $title }}{{ end }}">
-    <meta property="og:description" content="{{ $description }}">
-    <meta name="description" content="{{ $description }}">
+    <meta property="og:description" content="{{ $description | plainify }}">
+    <meta name="description" content="{{ $description | plainify }}">
   </head>
   <body class="list docs term version" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright translation">
     <meta itemprop="name" content="{{ if eq $version "future" }}{{ $title_future }}{{ else }}{{ $title }}{{ end }}">
-    <meta itemprop="description" content="{{ $description }}">
+    <meta itemprop="description" content="{{ $description | plainify }}">
 {{ partial "header.html" . }}
 {{ partial "search.html" . }}
 {{ partial "breadcrumbs/docs.html" . }}
@@ -23,7 +42,7 @@
         <section>
           <header>
             <h1 itemprop="name">{{ if eq $version "future" }}{{ $title_future }}{{ else }}{{ $title }}{{ end }}</h1>
-            <p itemprop="description">{{ if eq $version "future" }}{{ $strings.version_index_page.description_future | safeHTML }}{{ else }}{{ with index $.Site.Data.firefox.versions $version }}{{ replace (replace $strings.version_index_page.description_upcoming "%(version)s" $version) "%(channel)s" (index $.Site.Data.firefox.channels .) | safeHTML }}{{ else }}{{ $description }}{{ end }} {{ replace $strings.version_index_page.description_secondary "%s" $version | safeHTML }}{{ end }}</p>
+            <p itemprop="description">{{ $description | safeHTML }} {{ if ne $version "future" }}{{ replace $strings.version_index_page.description_secondary "%(version)s" $version | safeHTML }}{{ end }}</p>
           </header>{{ range $category, $taxonomy := $.Site.Taxonomies.categories }}
           <section>
             <h2>{{ index $strings.categories $category }}</h2>
