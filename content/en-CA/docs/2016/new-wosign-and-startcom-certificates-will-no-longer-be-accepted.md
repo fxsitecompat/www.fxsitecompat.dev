@@ -4,6 +4,7 @@ date: "2016-10-25T09:17:00-04:00"
 categories: ["privacy-security"]
 tags: []
 versions: ["51"]
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1309707"
       title: "Bug 1309707 - Distrust new certs chaining up to current WoSign/StartCom roots"
