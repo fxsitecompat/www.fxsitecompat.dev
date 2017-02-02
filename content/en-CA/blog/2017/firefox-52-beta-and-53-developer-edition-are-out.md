@@ -12,4 +12,4 @@ As mentioned in the [previous post](https://www.fxsitecompat.com/en-CA/blog/2016
 * [The plug-in support will be removed other than Flash](https://www.fxsitecompat.com/en-CA/docs/2016/plug-in-support-has-been-dropped-other-than-flash/). Java applets, Silverlight videos, and any other legacy plug-in content will no longer work. Take an immediate action if you're affected.
 * [The touch event support will be enabled on Windows desktop](https://www.fxsitecompat.com/en-CA/docs/2016/touch-event-support-has-been-re-enabled-on-windows-desktop/). Never rely on touch events to detect mobile, or your site will be unusable for those who are using a laptop or desktop computer with a touchscreen.
 
-Last week, we have received a £30 [donation](https://www.fxsitecompat.com/en-CA/contribute/#donate-to-us) from [Craig Francis](https://twitter.com/craigfrancis). Thank you, Craig!
+Project update: We have received [donations](https://www.fxsitecompat.com/en-CA/contribute/#donate-to-us), £30 from [Craig Francis](https://twitter.com/craigfrancis) and €20 from [Anselm Hannemann](https://twitter.com/helloanselm). Thank you folks!!
