@@ -1,7 +1,7 @@
 ---
 title: "`URL.createObjectURL(stream)` が廃止予定となりました"
 date: "2017-02-02T22:38:00-05:00"
-categories: ["dom"]
+categories: ["audio-video", "dom"]
 tags: []
 versions: ["54"]
 references:
