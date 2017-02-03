@@ -2,7 +2,7 @@
 title: "Firefox 52 Beta と 53 Developer Edition が公開されました"
 date: "2017-01-30T15:17:00-05:00"
 ---
-Mozilla は先週、[Firefox 52 Beta と 53 Developer Edition](https://www.mozilla.org/firefox/channel/) を公開しました。私達はまだすべての変更に目を通しているところですが、[サイト互換性ドキュメント](https://www.fxsitecompat.com/ja/docs/) は既にほとんどの変更を網羅しているはずです。
+Mozilla は先週、[Firefox 52 Beta と 53 Developer Edition](https://www.mozilla.org/firefox/channel/) を公開しました。私たちはまだすべての変更に目を通しているところですが、[サイト互換性ドキュメント](https://www.fxsitecompat.com/ja/docs/) は既にほとんどの変更を網羅しているはずです。
 
 * [Firefox 52 サイト互換性情報](https://www.fxsitecompat.com/ja/versions/52/)
 * [Firefox 53 サイト互換性情報](https://www.fxsitecompat.com/ja/versions/53/)
