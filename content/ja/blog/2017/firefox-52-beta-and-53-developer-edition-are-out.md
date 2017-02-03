@@ -12,4 +12,4 @@ Mozilla は先週、[Firefox 52 Beta と 53 Developer Edition](https://www.mozil
 * [Flash を除きプラグイン対応が廃止されます](https://www.fxsitecompat.com/ja/docs/2016/plug-in-support-has-been-dropped-other-than-flash/)。Java アプレット、Silverlight 動画、その他レガシーなプラグインコンテンツはすべて動作しなくなります。影響を受ける場合は直ちに行動を起こしてください。
 * [Windows デスクトップ上でタッチイベント対応が有効化されます](https://www.fxsitecompat.com/ja/docs/2016/touch-event-support-has-been-re-enabled-on-windows-desktop/)。モバイル判別にタッチイベントを使用すると、タッチスクリーン搭載のノートパソコンやデスクトップコンピューターを使っている人たちにとってあなたのサイトが使い物にならなくなりますので、絶対にやめましょう。
 
-プロジェクトアップデート: [Craig Francis](https://twitter.com/craigfrancis) さんから £30、[Anselm Hannemann](https://twitter.com/helloanselm) さんから €20 の [寄付](https://www.fxsitecompat.com/ja/contribute/#%E5%AF%84%E4%BB%98) を受け取りました。どうもありがとう！！
+プロジェクトアップデート: [Craig Francis](https://twitter.com/craigfrancis) さんから £30、[Anselm Hannemann](https://twitter.com/helloanselm) さんから €20、[Jonathan Kingston](https://twitter.com/KingstonTime) さんから £50 の [寄付](https://www.fxsitecompat.com/ja/contribute/#%E5%AF%84%E4%BB%98) を受け取りました。皆さんどうもありがとう！！
