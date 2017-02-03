@@ -1,6 +1,6 @@
 {{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
-<feed xmlns="http://www.w3.org/2005/Atom">
-{{ partial "feed/head" . }}  
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+{{ partial "feed/head" . }}
   <title>{{ $.Site.Title }}</title>
   <subtitle>{{ $strings.contentinfo.description }}</subtitle>
 {{ range first 50 (where .Data.Pages "Section" "ne" "") }}{{ partial "feed/entry" . }}{{ end }}
