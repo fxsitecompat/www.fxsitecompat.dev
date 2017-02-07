@@ -11,9 +11,13 @@ references:
       title: "Intent to ship: Restrict geolocation.watchPosition to secure contexts"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/BvcsTpAqIsQ/discussion"
       title: "Intent to restrict to secure contexts: navigator.geolocation"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/8BsF76gNhDE/discussion"
+      title: "Intent to deprecate: insecure Geo requests"
 aliases:
     - "/docs/2016/use-of-geolocation-watchposition-will-be-limited-to-secure-sites/"
 ---
 [安全でない HTTP 廃止](https://www.fxsitecompat.com/ja/docs/2015/insecure-http-will-be-deprecated/) の一環として、[Geolocation API](https://developer.mozilla.org/ja/docs/Web/API/Geolocation) はまもなく安全な接続を使用しているサイトのみで使用可能となります。[Chrome 50](https://developers.google.com/web/updates/2016/04/geolocation-on-secure-contexts-only) は既にこの制限を導入しています。
 
 **更新**: Mozilla 開発者が [`watchPosition`](https://developer.mozilla.org/ja/docs/Web/API/Geolocation/watchPosition) だけでなく [`getCurrentPosition`](https://developer.mozilla.org/ja/docs/Web/API/Geolocation/getCurrentPosition) メソッドも安全でないサイト上で無効化する決定を下したことから、このドキュメントを更新しました。
+
+**更新 2**: この変更は今のところ 2017 年 8 月公開の Firefox 55 で予定されています。
