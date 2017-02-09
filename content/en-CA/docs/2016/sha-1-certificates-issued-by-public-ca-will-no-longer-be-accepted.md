@@ -3,7 +3,7 @@ title: "SHA-1 certificates issued by public CA will no longer be accepted"
 date: "2016-10-24T13:13:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["53"]
+versions: ["52"]
 statuses: "affecting"
 references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.security.policy/wXvLQ26JyOA/discussion"
@@ -28,3 +28,5 @@ Firefox 53 coming <time datetime="2017-04">April 2017</time> removes the period 
 If the [Web Console](https://developer.mozilla.org/en-US/docs/Tools/Web_Console) warns about a SHA-1 certificate when loading your site, contact the issuer immediately to replace it with a new SHA-2 certificate for free, regardless of the validity period.
 
 **Update**: Fixed the affected version: not Firefox 51 but 53.
+
+**Update 2**: Given that [Google Chrome 56](https://security.googleblog.com/2016/11/sha-1-certificates-in-chrome.html) has already removed the SHA-1 support in January 2017, Mozilla plans to [make this change earlier](https://mail.mozilla.org/pipermail/gofaster/2017-February/000563.html) with Firefox 52 shipping in March. We've updated this note's version again accordingly.

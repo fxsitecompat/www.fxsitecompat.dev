@@ -3,7 +3,7 @@ title: "公的認証局によって発行された SHA-1 証明書は受け入�
 date: "2016-10-24T13:13:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["53"]
+versions: ["52"]
 statuses: "affecting"
 references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.security.policy/wXvLQ26JyOA/discussion"
@@ -28,3 +28,5 @@ aliases:
 [ウェブコンソール](https://developer.mozilla.org/ja/docs/Tools/Web_Console) であなたのサイトを読み込んで SHA-1 証明書についての警告が表示された場合は、その発行者へ速やかに連絡を取り、有効期間に関わらず新しい SHA-2 証明書と無償で交換してください。
 
 **更新**: 影響を受けるバージョンを修正しました。Firefox 51 ではなく 53 です。
+
+**更新 2**: [Google Chrome 56](https://security.googleblog.com/2016/11/sha-1-certificates-in-chrome.html) が 2017 年 1 月に既に SHA-1 対応を廃止していることから、Mozilla は 3 月公開の Firefox 52 で [この変更を前倒しで行う](https://mail.mozilla.org/pipermail/gofaster/2017-February/000563.html) ことを予定しています。それに伴い、この記事のバージョンを再度変更しました。
