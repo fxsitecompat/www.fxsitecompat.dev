@@ -30,3 +30,5 @@ aliases:
 **更新**: 影響を受けるバージョンを修正しました。Firefox 51 ではなく 53 です。
 
 **更新 2**: [Google Chrome 56](https://security.googleblog.com/2016/11/sha-1-certificates-in-chrome.html) が 2017 年 1 月に既に SHA-1 対応を廃止していることから、Mozilla は 3 月公開の Firefox 52 で [この変更を前倒しで行う](https://mail.mozilla.org/pipermail/gofaster/2017-February/000563.html) ことを予定しています。それに伴い、この記事のバージョンを再度変更しました。
+
+**更新 3**: バグの [コメント](https://bugzilla.mozilla.org/show_bug.cgi?id=1330043#c15) によれば、証明書の交換後もまだ Firefox でエラーページが見られる場合は、中間証明書も認証局 (CA) によって近年再発行された可能性があり、それらも併せて更新する必要があるかもしれません。他のブラウザは、その方針によっては、そうした場合に何もエラーを出さない場合があります。

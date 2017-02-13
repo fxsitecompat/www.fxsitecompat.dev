@@ -30,3 +30,5 @@ If the [Web Console](https://developer.mozilla.org/en-US/docs/Tools/Web_Console)
 **Update**: Fixed the affected version: not Firefox 51 but 53.
 
 **Update 2**: Given that [Google Chrome 56](https://security.googleblog.com/2016/11/sha-1-certificates-in-chrome.html) has already removed the SHA-1 support in January 2017, Mozilla plans to [make this change earlier](https://mail.mozilla.org/pipermail/gofaster/2017-February/000563.html) with Firefox 52 shipping in March. We've updated this note's version again accordingly.
+
+**Update 3**: According to a [comment](https://bugzilla.mozilla.org/show_bug.cgi?id=1330043#c15) in the bug, if you still see the error page in Firefox after replacing your certificate, the intermediate certificate(s) may need to be updated as well in case those have been reissued by the certificate authority (CA) in recent years. Other browsers may not show any error for such cases depending on their policy.
