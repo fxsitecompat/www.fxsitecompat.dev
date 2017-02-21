@@ -7,7 +7,7 @@
       <name>{{ . }}</name>{{ with $.Site.Params.Author.Email }}
       <email>{{ . }}</email>{{end}}
     </author>{{ end }}
-    <content:encoded>{{ "<![CDATA[" | safeHTML }}{{ if eq .Section "docs" }}
+    <content type="html">{{ "<![CDATA[" | safeHTML }}{{ if eq .Section "docs" }}
       <p>{{ range .Params.versions }}
         <strong>{{ $strings.feed.version }}</strong>: <a href="{{ $.Site.Params.BaseDir }}versions/{{ . }}/">Firefox {{ . }}{{ with index $.Site.Data.firefox.versions . }} <em>{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a><br>{{ end }}{{ range .Params.categories }}
         <strong>{{ $strings.feed.category }}</strong>: <a href="{{ $.Site.Params.BaseDir }}categories/{{ . }}/">{{ index $strings.categories . }}</a><br>{{ end }}
@@ -19,7 +19,7 @@
         <li><a href="{{ .url }}">{{ .title }}</a></li>{{ end }}
       </ul>{{ else }}
       {{ .Content }}{{ end }}
-    {{ "]]>" | safeHTML }}</content:encoded>
+    {{ "]]>" | safeHTML }}</content>
     <link rel="alternate" href="{{ .Permalink }}" />{{ range .Params.categories }}
     <category term="{{ index $strings.categories . }}" />{{ end }}
   </entry>

@@ -1,5 +1,5 @@
 {{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<feed xmlns="http://www.w3.org/2005/Atom">
 {{ partial "feed/head" . }}
   <title>{{ $.Site.Title }}</title>
   <subtitle>{{ $strings.contentinfo.description }}</subtitle>
