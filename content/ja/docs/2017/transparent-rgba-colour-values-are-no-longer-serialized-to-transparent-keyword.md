@@ -10,4 +10,4 @@ references:
 ---
 Firefox は従来、[`HTMLElement.prototype.style`](https://developer.mozilla.org/ja/docs/Web/API/HTMLElement/style) プロパティで取得可能な [指定値](https://developer.mozilla.org/ja/docs/Web/CSS/specified_value) に関して、`rgba(0, 0, 0, 0)` を `transparent` キーワードへ誤って変換 (シリアライズ) していました。また、[`Window.getComputedStyle`](https://developer.mozilla.org/ja/docs/Web/API/Window/getComputedStyle) メソッドによって返される [解決値](https://developer.mozilla.org/ja/docs/Web/CSS/resolved_value) に関しては、ゼロアルファチャンネルを持つあらゆるカラー値が `transparent` へ変換されていました。
 
-こうした実装は仕様や他のブラウザの挙動と一致しないため、このバグは Firefox 54 で修正されました。
+こうした実装は仕様や他のブラウザーの挙動と一致しないため、このバグは Firefox 54 で修正されました。

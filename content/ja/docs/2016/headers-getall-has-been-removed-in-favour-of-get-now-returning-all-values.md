@@ -8,7 +8,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1278275"
       title: "Bug 1278275 - Headers.get should incorporate getAll behaviour"
 ---
-[`Headers.prototype.getAll`](https://developer.mozilla.org/ja/docs/Web/API/Headers/getAll) メソッドが、最新の Fetch 仕様に従って削除されました。代わりに、[`Headers.prototype.get`](https://developer.mozilla.org/ja/docs/Web/API/Headers/get) メソッドが、指定された HTTP ヘッダについて、最初の値だけでなくすべての値をコンマ区切りの文字列で返すようになりました。
+[`Headers.prototype.getAll`](https://developer.mozilla.org/ja/docs/Web/API/Headers/getAll) メソッドが、最新の Fetch 仕様に従って削除されました。代わりに、[`Headers.prototype.get`](https://developer.mozilla.org/ja/docs/Web/API/Headers/get) メソッドが、指定された HTTP ヘッダーについて、最初の値だけでなくすべての値をコンマ区切りの文字列で返すようになりました。
 
 ```js
 const headers = new Headers();

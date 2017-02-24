@@ -35,6 +35,6 @@ aliases:
 
 **更新 2**: [Google Chrome 56](https://security.googleblog.com/2016/11/sha-1-certificates-in-chrome.html) が 2017 年 1 月に既に SHA-1 対応を廃止していることから、Mozilla は 3 月公開の Firefox 52 で [この変更を前倒しで行う](https://mail.mozilla.org/pipermail/gofaster/2017-February/000563.html) ことを予定しています。それに伴い、この記事のバージョンを再度変更しました。
 
-**更新 3**: バグの [コメント](https://bugzilla.mozilla.org/show_bug.cgi?id=1330043#c15) によれば、証明書の交換後もまだ Firefox でエラーページが見られる場合は、中間証明書も認証局 (CA) によって近年再発行された可能性があり、それらも併せて更新する必要があるかもしれません。他のブラウザは、その方針によっては、そうした場合に何もエラーを出さない場合があります。[影響を受けるサイト一覧](https://bug1339646.bmoattachments.org/attachment.cgi?id=8837360) を参照してください。
+**更新 3**: バグの [コメント](https://bugzilla.mozilla.org/show_bug.cgi?id=1330043#c15) によれば、証明書の交換後もまだ Firefox でエラーページが見られる場合は、中間証明書も認証局 (CA) によって近年再発行された可能性があり、それらも併せて更新する必要があるかもしれません。他のブラウザーは、その方針によっては、そうした場合に何もエラーを出さない場合があります。[影響を受けるサイト一覧](https://bug1339646.bmoattachments.org/attachment.cgi?id=8837360) を参照してください。
 
 **更新 4**: Google による [初の現実的な SHA-1 衝突](https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html) の発表を受けて、Mozilla は <time datetime="2017-03-07">2017 年 3 月 7 日</time>の Firefox 52 最終リリースを待つことなく、<time datetime="2017-02-24">2 月 24 日</time>にリモートですべての Firefox ユーザーの SHA-1 対応を無効化しました。
