@@ -3,7 +3,7 @@ title: "Geolocation API の使用が安全なサイトに制限されます"
 date: "2016-04-26T22:17:00-04:00"
 categories: ["misc", "privacy-security"]
 tags: []
-versions: ["future"]
+versions: ["55"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1072859"
       title: "Bug 1072859 - Disable Geolocation on non-secure origins"

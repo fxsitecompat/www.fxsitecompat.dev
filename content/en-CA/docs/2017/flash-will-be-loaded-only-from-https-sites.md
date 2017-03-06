@@ -3,7 +3,7 @@ title: "Flash will be loaded only from HTTP(S) sites"
 date: "2017-02-09T05:03:00-05:00"
 categories: ["plugins", "privacy-security"]
 tags: []
-versions: ["future"]
+versions: ["55"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1335475"
       title: "Bug 1335475 - Deny plugins from non-HTTP/HTTPS protocols"
