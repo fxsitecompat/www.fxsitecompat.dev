@@ -102,7 +102,7 @@ version_index_page:
     title_future: "Future Planned Changes"
     description: 'Browse our compatibility notes about the changes in Firefox %(version)s released on <time datetime="%(date)s">%(date_localized)s</time>.'
     description_upcoming: 'Browse our compatibility notes about the changes in Firefox %(version)s, currently offered on the <a href="https://www.mozilla.org/en-US/firefox/channel/desktop/#%(channel)s"><em>%(channel_localized)s</em></a> channel and scheduled to be released on <time datetime="%(date)s">%(date_localized)s</time>.'
-    description_secondary: 'This list will be updated when a further change is made or a new regression is found, so make sure to subscribe to our <a href="/en-CA/index.xml">site feed</a>. More general information for Firefox %(version)s, including the new features and enhancements, can be found at the <a href="https://developer.mozilla.org/en-US/Firefox/Releases/%(version)s">Mozilla Developer Network</a>.'
+    description_secondary: 'This list will be updated when a further change is made or a new regression is found, so make sure to subscribe to our <a href="/en-CA/index.xml">site feed</a>. More general information for Firefox %(version)s, including the new features and enhancements, can be found at <a href="https://developer.mozilla.org/en-US/Firefox/Releases/%(version)s">Mozilla Developer Network</a>.'
     description_future: 'Browse our compatibility notes about the changes to be made with future Firefox releases. This list will be updated when a further change is planned, so subscribe to our <a href="/en-CA/index.xml">site feed</a> for updates. Be prepared today to make your site as great as possible!'
 
 # Category index page
