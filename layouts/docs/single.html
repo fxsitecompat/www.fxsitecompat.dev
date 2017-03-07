@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 {{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
 {{ $title := replace .Title "`" "" }}
+{{ $description := replace (substr .Summary 0 250) "\n" " " }}
 {{ $version := index .Params.versions 0 }}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
     <title>{{ $title }}{{ partial "status-label/suffix" . }} | {{ $.Site.Title }}</title>
     <meta property="og:title" content="{{ $title | html }}{{ partial "status-label/suffix" . }}">
-    <meta property="og:description" content="{{ substr .Summary 0 250 | safeHTML }} ...">
-    <meta name="description" content="{{ substr .Summary 0 250 | safeHTML }} ...">
+    <meta property="og:description" content="{{ $description | safeHTML }} ...">
+    <meta name="description" content="{{ $description | safeHTML }} ...">
   </head>
   <body class="single docs article" itemscope itemtype="http://schema.org/ItemPage" itemref="copyright translation">
     <meta itemprop="name" content="{{ $title | html }}{{ partial "status-label/suffix" . }}">
-    <meta itemprop="description" content="{{ substr .Summary 0 250 | safeHTML }} ...">
+    <meta itemprop="description" content="{{ $description | safeHTML }} ...">
 {{ partial "header.html" . }}
 {{ partial "search.html" . }}
     <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">

@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 {{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
+{{ $description := replace (substr .Summary 0 250) "\n" " " }}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
     <title>{{ .Title }} | {{ $.Site.Title }}</title>
     <meta property="og:title" content="{{ .Title }}">
-    <meta property="og:description" content="{{ substr .Summary 0 250 }} ...">
-    <meta name="description" content="{{ substr .Summary 0 250 }} ...">
+    <meta property="og:description" content="{{ $description | safeHTML }} ...">
+    <meta name="description" content="{{ $description | safeHTML }} ...">
   </head>
   <body class="single blog article" itemscope itemtype="http://schema.org/ItemPage" itemref="copyright translation">
     <meta itemprop="name" content="{{ .Title }}">
-    <meta itemprop="description" content="{{ substr .Summary 0 250 }} ...">
+    <meta itemprop="description" content="{{ $description | safeHTML }} ...">
 {{ partial "header.html" . }}
     <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
       <div class="inner">
