@@ -3,7 +3,7 @@ title: "Prefixed `cursor` types will be removed"
 date: "2015-10-27T18:38:00-07:00"
 categories: ["css"]
 tags: []
-versions: ["53"]
+versions: ["future"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=879119"
       title: "Bug 879119 - Drop support for -moz-prefixes from cursor: zoom-in | zoom-out | grab | grabbing"
