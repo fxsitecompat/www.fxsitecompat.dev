@@ -23,7 +23,7 @@ Firefox サイト互換性ワーキンググループは、情報源となるサ
 私たちが焦点を当てている領域は 2 つあります。
 
 * **後方互換性**: [Firefox Developer Edition](https://www.mozilla.org/ja/firefox/developer/) より前に来る初期テスター向けビルドである [Firefox Nightly](https://nightly.mozilla.org/) を Mozilla が開発している間に、私たちは一連の [サイト互換性ドキュメント](/ja/docs/) を投稿し、後方互換性を失う変更点をウェブ開発者に告知します。その時点で、当該リリースの公開前にあなたのコードへ必要な変更を加えるための期間は少なくとも 12 週間あるはずです。
-* **リグレッション**: 6 週間ごとに、Firefox の最終版が一般公開された後、私たちは時間をかけて [Firefox サポートフォーラム](https://support.mozilla.org/ja/questions/firefox)、[Firefox Input](https://input.mozilla.org/ja/)、[Bugzilla](https://bugzilla.mozilla.org/) といった各種チャンネルを監視し、リグレッションの発見に努めます。潜在的な問題が確認された場合、それを調査し、未報告の場合は Bugzilla へ報告し、Firefox 開発者に修正を促します。ウェブ開発者は、[Twitter](https://twitter.com/FxSiteCompat)、[Facebook](https://www.facebook.com/FxSiteCompat) あるいは [Google+](https://plus.google.com/+FxSiteCompatibility) で私たちをフォローすることで、問題点と、もしある場合はその回避策を知ることができます。
+* **リグレッション**: 6 週間ごとに、Firefox の最終版が一般公開された後、私たちは時間をかけて [Firefox サポートフォーラム](https://support.mozilla.org/ja/questions/firefox)、[Bugzilla](https://bugzilla.mozilla.org/)、Stack Overflow、Reddit といった各種チャンネルを監視し、リグレッションの発見に努めます。潜在的な問題が確認された場合、それを調査し、未報告の場合は Bugzilla へ報告し、Firefox 開発者に修正を促します。ウェブ開発者は、[Twitter](https://twitter.com/FxSiteCompat)、[Facebook](https://www.facebook.com/FxSiteCompat) あるいは [Google+](https://plus.google.com/+FxSiteCompatibility) で私たちをフォローすることで、問題点と、もしある場合はその回避策を知ることができます。
 
 クロスブラウザー互換性や相互運用性について当サイトのブログで取り上げることもありますが、そうしたトピックは私たちの主な焦点からは外れます。その分野に関しては Mozilla の Compatibility チームが素晴らしい成果を上げており、彼らの活動もフォローすることをお勧めします。
 
