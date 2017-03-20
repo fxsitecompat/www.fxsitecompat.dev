@@ -7,6 +7,8 @@ versions: ["50"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1141895"
       title: "Bug 1141895 - Unprefix values of unicode-bidi"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/O9DrBrXvH14/discussion"
+      title: "Intent to ship: unprefixed unicode-bidi values"
 ---
 [`unicode-bidi`](https://developer.mozilla.org/ja/docs/Web/CSS/unicode-bidi) CSS プロパティの接頭辞付き値、つまり `-moz-isolate`、`-moz-isolate-override`、`-moz-plaintext` が、ベンダー接頭辞なしに使えるようになりました。接頭辞付き値への対応は将来的に削除されます。
 

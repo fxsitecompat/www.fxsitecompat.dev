@@ -7,7 +7,7 @@ versions: ["54"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1026804"
       title: "Bug 1026804 - Make Event.timeStamp return a DOMHighResTimeStamp by default (switch on pref)"
-    - url: "https://groups.google.com/forum/#!topic/mozilla.dev.platform/o1LT02foznI"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/o1LT02foznI/discussion"
       title: "Intent to ship: Event.timeStamp as DOMHighResTimeStamp"
 ---
 Starting with Firefox 54, the [`Event.prototype.timeStamp`](https://developer.mozilla.org/en-US/docs/Web/API/Event/timeStamp) property will return a double [`DOMHighResTimeStamp`](https://developer.mozilla.org/en-US/docs/Web/API/DOMHighResTimeStamp) value since the [page load](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming/navigationStart), consisting of milliseconds in the integer part and microseconds in the decimal part, instead of an integer [`DOMTimeStamp`](https://developer.mozilla.org/en-US/docs/Web/API/DOMTimeStamp) value only in milliseconds since the epoch time, on all Firefox channels and platforms.

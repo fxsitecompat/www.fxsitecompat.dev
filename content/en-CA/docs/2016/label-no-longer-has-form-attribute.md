@@ -7,6 +7,8 @@ versions: ["49"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1268852"
       title: "Bug 1268852 - Spec change: Remove <label form> and redefine label.form IDL attribute"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/8TyeUQOn6qQ/discussion"
+      title: "Intent to implement and ship: spec changes to the .form property and \"form\" attribute on <label> elements"
 ---
 The [`<label>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) element is no longer associated with any `<form>` according to the latest HTML spec. The support for the `form` attribute on `<label>`, introduced with HTML5, has been removed with Firefox 49 accordingly.
 

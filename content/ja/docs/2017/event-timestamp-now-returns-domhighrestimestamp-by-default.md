@@ -7,7 +7,7 @@ versions: ["54"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1026804"
       title: "Bug 1026804 - Make Event.timeStamp return a DOMHighResTimeStamp by default (switch on pref)"
-    - url: "https://groups.google.com/forum/#!topic/mozilla.dev.platform/o1LT02foznI"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/o1LT02foznI/discussion"
       title: "Intent to ship: Event.timeStamp as DOMHighResTimeStamp"
 ---
 Firefox 54 以降、すべての Firefox チャンネルおよびプラットフォーム上で、[`Event.prototype.timeStamp`](https://developer.mozilla.org/ja/docs/Web/API/Event/timeStamp) プロパティは、エポック時間からのミリ秒単位でしかなかった整数型 [`DOMTimeStamp`](https://developer.mozilla.org/ja/docs/Web/API/DOMTimeStamp) 値に代わり、整数部にミリ秒、小数部にマイクロ秒を含む、[ページ読み込み](https://developer.mozilla.org/ja/docs/Web/API/PerformanceTiming/navigationStart) からの浮動小数点数型 [`DOMHighResTimeStamp`](https://developer.mozilla.org/ja/docs/Web/API/DOMHighResTimeStamp) 値を返します。

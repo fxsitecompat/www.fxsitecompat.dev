@@ -9,6 +9,8 @@ references:
       title: "Bug 768072 - Implement imageSmoothingEnabled and deprecate mozImageSmoothingEnabled"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1228850"
       title: "Bug 1228850 - Remove mozImageSmoothingEnabled"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/Nv4efVxrhCo/discussion"
+      title: "Intent to ship/unprefix: Canvas2D imageSmoothingEnabled"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/ozygu09pg_o/discussion"
       title: "Intent to ship imageSmoothingEnabled and remove mozImageSmoothingEnabled."
 ---

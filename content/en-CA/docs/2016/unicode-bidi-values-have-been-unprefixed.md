@@ -7,6 +7,8 @@ versions: ["50"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1141895"
       title: "Bug 1141895 - Unprefix values of unicode-bidi"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/O9DrBrXvH14/discussion"
+      title: "Intent to ship: unprefixed unicode-bidi values"
 ---
 The prefixed values for the [`unicode-bidi`](https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi) CSS property, including `-moz-isolate`, `-moz-isolate-override` and `-moz-plaintext`, can now be used without the vendor prefix. The support for the prefixed values will be removed in the future.
 
