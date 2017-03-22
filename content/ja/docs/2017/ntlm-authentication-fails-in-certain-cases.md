@@ -13,4 +13,4 @@ TLS 1.2 を通じて配信され [NTLM 認証](https://ja.wikipedia.org/wiki/NT_
 
 Microsoft による調査によれば、NTLM は HTTP/2 と互換性がないにも関わらず、Firefox が認証時に接続を HTTP/1.1 へダウングレードしないことが原因です。
 
-このバグは Firefox 53 と Firefox ESR 52.1.0 で修正されます。当面の間、[`about:config`](https://support.mozilla.org/t5/Manage-preferences-and-add-ons/Firefox-%E3%81%AE-Configuration-Editor/ta-p/33503) を通じて隠し設定 `network.http.spdy.enabled.http2` を切り替え、HTTP/2 を一時的に無効化することで問題を回避できます。
+Mozilla 開発者が解決策を模索しています。当面の間、[`about:config`](https://support.mozilla.org/t5/Manage-preferences-and-add-ons/Firefox-%E3%81%AE-Configuration-Editor/ta-p/33503) を通じて隠し設定 `network.http.spdy.enabled.http2` を切り替え、HTTP/2 を一時的に無効化することで問題を回避できます。

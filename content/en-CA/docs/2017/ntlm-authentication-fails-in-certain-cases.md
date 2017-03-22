@@ -13,4 +13,4 @@ Firefox 52 has introduced a regression where the users cannot sign in to a site 
 
 According to an investigation by Microsoft, this is due to the fact that Firefox does not downgrade the connection to HTTP/1.1 upon authentication even though NTLM is not compatible with HTTP/2.
 
-This bug will be fixed with Firefox 53 and Firefox ESR 52.1.0. Meanwhile, users can temporarily disable HTTP/2 by flipping the hidden `network.http.spdy.enabled.http2` preference through [`about:config`](https://support.mozilla.org/t5/Manage-preferences-and-add-ons/Configuration-Editor-for-Firefox/ta-p/35030) to work around the issue.
+Mozilla developers are looking for the solution. Meanwhile, users can temporarily disable HTTP/2 by flipping the hidden `network.http.spdy.enabled.http2` preference through [`about:config`](https://support.mozilla.org/t5/Manage-preferences-and-add-ons/Configuration-Editor-for-Firefox/ta-p/35030) to work around the issue.
