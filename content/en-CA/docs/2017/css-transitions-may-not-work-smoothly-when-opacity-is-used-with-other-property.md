@@ -10,3 +10,5 @@ references:
       title: "Bug 1318697 - Elements disappear after sliding in"
 ---
 Firefox 52 has introduced a regression where [CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions) are not applied as specified when the `opacity` property is changed at the same time as other certain property such as `transform` or `visibility`. The affected elements may flicker during the transition or disappear shortly. This bug has been fixed with Firefox 53 Beta.
+
+**Update**: This bug has been fixed with Firefox 52.0.2.
