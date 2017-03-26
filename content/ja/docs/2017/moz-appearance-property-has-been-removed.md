@@ -12,6 +12,6 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/oZ9cPF8Y1pE/discussion"
       title: "Intent to implement and ship CSS 'appearance' with '-webkit-appearance' as an alias. Unship '-moz-appearance'."
 ---
-Firefox 54 で、[`appearance`](https://developer.mozilla.org/ja/docs/Web/CSS/appearance) CSS プロパティへの対応が、WebKit/Blink 互換性のためのエイリアス `-webkit-appearance` とともに追加されました。一方、非標準の [`-moz-appearance`](https://developer.mozilla.org/ja/docs/Web/CSS/-moz-appearance) プロパティは、今後ウェブコンテンツ上では使用できなくなります。
+Firefox 54 で、CSS [`appearance`](https://developer.mozilla.org/ja/docs/Web/CSS/appearance) プロパティへの対応が、WebKit/Blink 互換性のためのエイリアス `-webkit-appearance` とともに追加されました。一方、非標準で Firefox 固有の [`-moz-appearance`](https://developer.mozilla.org/ja/docs/Web/CSS/-moz-appearance) プロパティは、今後ウェブコンテンツ上では使用できなくなります。
 
 `appearance:none` と `-webkit-appearance:none` はいずれも `-moz-appearance:none` と同じ働きをし、各要素のネイティブテーマを無効化します。初期値は `auto` です。

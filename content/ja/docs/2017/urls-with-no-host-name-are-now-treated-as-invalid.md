@@ -23,4 +23,4 @@ new URL('http://')
 <input type="url" value="http://">
 ```
 
-この場合、`value` 属性を `placeholder` に置き換えることで問題を回避できます。
+この場合、`value` 属性を `placeholder` 属性に置き換えることで問題を回避できます。

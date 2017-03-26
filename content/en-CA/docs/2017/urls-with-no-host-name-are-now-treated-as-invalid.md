@@ -23,4 +23,4 @@ Also, HTML forms containing a URL-type input control like this will not be valid
 <input type="url" value="http://">
 ```
 
-In this case, you can replace the `value` attribute with `placeholder` to work around the issue.
+In this case, you can replace the `value` attribute with the `placeholder` attribute to work around the issue.
