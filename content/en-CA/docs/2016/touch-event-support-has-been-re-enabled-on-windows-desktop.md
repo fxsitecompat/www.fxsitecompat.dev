@@ -12,6 +12,8 @@ references:
       title: "Bug 1180706 - [meta] Touch support in APZ on desktop platforms"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1244402"
       title: "Bug 1244402 - Let touch events on windows ride the trains"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1301327"
+      title: "Bug 1301327 - Enabling `w3c_touch_events` on desktop Firefox is causing major problems with ExtJS6"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/4pPJfp_aSKE/discussion"
       title: "Touch events enabled on Windows desktop (nightly only)"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/6CGjsm1XpD4/discussion"
@@ -21,7 +23,7 @@ The support for the standard [touch events](https://developer.mozilla.org/en-US/
 
 On touchscreen devices, the [`Touch`](https://developer.mozilla.org/en-US/docs/Web/API/Touch), [`TouchEvent`](https://developer.mozilla.org/en-US/docs/Web/API/TouchEvent) and [`TouchList`](https://developer.mozilla.org/en-US/docs/Web/API/TouchList) interfaces will be exposed on `window` along with the [`ontouchstart`](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontouchstart), [`ontouchmove`](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontouchmove), [`ontouchend`](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontouchend) and [`ontouchcancel`](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontouchcancel) properties.
 
-While most of the compatibility issues previously reported have been solved by Firefox or the sites in question, there may still be some more unreported bugs. Basically, Web developers should never rely on touch events to detect if the user is on mobile, otherwise your site may cause unexpected UX issues on desktop and laptop computers with a touchscreen. 
+While most of the compatibility issues previously reported have been solved by Firefox or the sites in question, there may still be some more unreported bugs. Basically, Web developers should never rely on touch events to detect if the user is on mobile, otherwise your site may cause unexpected UX issues on desktop and laptop computers with a touchscreen.
 
 ```js
 if ('ontouchstart' in window) {
@@ -30,3 +32,5 @@ if ('ontouchstart' in window) {
 ```
 
 For a quick test, you can use the [Responsive Design Mode](https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode) in Firefox Developer Tools to simulate touch events. See [this Mozilla Hacks article](https://hacks.mozilla.org/2013/04/detecting-touch-its-the-why-not-the-how/) for the details on touch detection.
+
+**Update**: *Ext JS 6* is currently broken due to this change.

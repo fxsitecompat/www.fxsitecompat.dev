@@ -12,6 +12,8 @@ references:
       title: "Bug 1180706 - [meta] Touch support in APZ on desktop platforms"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1244402"
       title: "Bug 1244402 - Let touch events on windows ride the trains"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1301327"
+      title: "Bug 1301327 - Enabling `w3c_touch_events` on desktop Firefox is causing major problems with ExtJS6"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/4pPJfp_aSKE/discussion"
       title: "Touch events enabled on Windows desktop (nightly only)"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/6CGjsm1XpD4/discussion"
@@ -30,3 +32,5 @@ if ('ontouchstart' in window) {
 ```
 
 簡単なテストを行うには、Firefox 開発者ツールの [レスポンシブデザインモード](https://developer.mozilla.org/ja/docs/Tools/Responsive_Design_Mode) を使って、タッチイベントをシミュレーションできます。タッチ判別の詳細は [この Mozilla Hacks の記事](https://hacks.mozilla.org/2013/04/detecting-touch-its-the-why-not-the-how/) を参照してください。
+
+**更新**: この変更により現在 *Ext JS 6* が正しく動作していません。
