@@ -22,3 +22,5 @@ document.body.addEventListener('drop', event => {
   }
 });
 ```
+
+**Update**: Drag and Drop of attachments in *JIRA* is broken due to this change. Atlassian has [fixed the issue](https://bitbucket.org/atlassian/jira-drag-drop-attachments-plugin/commits/3dbc08643607a680339d485877af501c0572e1b1); see [this thread](https://jira.atlassian.com/browse/JRA-64414) for the solution.

@@ -22,3 +22,5 @@ document.body.addEventListener('drop', event => {
   }
 });
 ```
+
+**更新**: *JIRA* での添付ファイルのドラッグ＆ドロップがこの変更により動作しなくなっています。Atlassian は [問題を修正済み](https://bitbucket.org/atlassian/jira-drag-drop-attachments-plugin/commits/3dbc08643607a680339d485877af501c0572e1b1) です。解決策は [こちらのスレッド](https://jira.atlassian.com/browse/JRA-64414) を参照してください。
