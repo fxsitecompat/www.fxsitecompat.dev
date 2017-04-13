@@ -20,3 +20,5 @@ On Firefox 52, the CSS [`order`](https://developer.mozilla.org/en-US/docs/Web/CS
 ```
 
 Mozilla developers are aware of the regression and working on the solution.
+
+**Update**: This issue has been fixed with Firefox 53 and Firefox ESR 52.1.
