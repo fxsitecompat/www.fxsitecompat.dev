@@ -14,4 +14,4 @@ aliases:
 ---
 Firefox 55 以降では、`http`、`https` 以外の `file`、`ftp` といった URL プロトコルからの Flash コンテンツ読み込みが禁止されます。この変更はセキュリティ向上を目的としています。というのも、`file` プロトコルには異なる [同一オリジンポリシー](https://developer.mozilla.org/ja/docs/Web/Security/Same-origin_policy) が適用され、またその他あまり使われていないプロトコルからの Flash コンテンツの読み込みは通常あまりテストされていないためです。
 
-開発者は [`about:config`](https://support.mozilla.org/t5/Manage-preferences-and-add-ons/Firefox-%E3%81%AE-Configuration-Editor/ta-p/33503) を通じて隠し設定 `plugins.http_https_only` の値を切り替えることで引き続きローカルの Flash ファイルをテストできますが、そうしたい場合にはむしろローカルウェブサーバーを立ち上げた方が良いでしょう。
+開発者は [`about:config`](https://support.mozilla.org/kb/about-config-editor-firefox) を通じて隠し設定 `plugins.http_https_only` の値を切り替えることで引き続きローカルの Flash ファイルをテストできますが、そうしたい場合にはむしろローカルウェブサーバーを立ち上げた方が良いでしょう。
