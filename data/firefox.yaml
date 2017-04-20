@@ -1,13 +1,11 @@
 # Firefox releases
 versions:
     "55": "nightly"
-    "54": "aurora"
-    "53": "beta"
+    "54": "beta"
 
 channels:
     nightly: "Nightly"
-    aurora: "Developer Edition"
-    beta: "Beta"
+    beta: "Beta / Developer Edition"
 
 dates:
     "16": "2012-10-09"

@@ -168,9 +168,9 @@
   }
 
   ul.taxonomy.terms {
-    -moz-columns: 12em;
-    -webkit-columns: 12em;
-    columns: 12em;
+    -moz-columns: 14em;
+    -webkit-columns: 14em;
+    columns: 14em;
   }
 
   ul li {
