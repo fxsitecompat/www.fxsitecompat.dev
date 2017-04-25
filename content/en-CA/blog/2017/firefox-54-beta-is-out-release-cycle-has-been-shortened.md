@@ -1,6 +1,9 @@
 ---
-title: "Firefox 54 Beta is out"
+title: "Firefox 54 Beta is out, release cycle has been shortened"
 date: "2017-04-24T15:10:00-04:00"
+aliases:
+    - "/blog/2017/firefox-54-beta-is-out/"
+    - "/blog/2017/firefox-beta-is-out-release-cycle-has-been-shortened/"
 ---
 Mozilla has shipped [Firefox 54 Beta](https://www.mozilla.org/firefox/channel/desktop/) last Friday. Check out our [Firefox 54 compatibility notes](https://www.fxsitecompat.com/en-CA/versions/54/) to get prepared for the final version.
 

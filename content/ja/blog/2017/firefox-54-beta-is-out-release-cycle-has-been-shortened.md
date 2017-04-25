@@ -1,6 +1,9 @@
 ---
-title: "Firefox 54 Beta が公開されました"
+title: "Firefox 54 Beta が公開され、リリースサイクルが短縮されました"
 date: "2017-04-24T15:10:00-04:00"
+aliases:
+    - "/blog/2017/firefox-54-beta-is-out/"
+    - "/blog/2017/firefox-beta-is-out-release-cycle-has-been-shortened/"
 ---
 Mozilla は先週金曜日に [Firefox 54 Beta](https://www.mozilla.org/firefox/channel/desktop/) を公開しました。最終版に備えて [Firefox 54 互換性情報](https://www.fxsitecompat.com/ja/versions/54/) を確認してください。
 
