@@ -12,6 +12,8 @@ references:
       title: "Bug 1186636 - Add pref to control legacy -moz-prefixed gradients"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1337655"
       title: "Bug 1337655 - Try disabling moz-prefixed gradient functions by default"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/egVDMiu86m0/discussion"
+      title: "Intent to unship: -moz-prefixed CSS gradient functions"
 ---
 `-moz-linear-gradient`、`-moz-repeating-linear-gradient`、`-moz-radial-gradient`、`-moz-repeating-radial-gradient` の各関数が、[Firefox 16](https://developer.mozilla.org/ja/Firefox/Releases/16) 以降使用可能な標準の接頭辞なし [CSS グラデーション](https://developer.mozilla.org/ja/docs/Web/Guide/CSS/Using_CSS_gradients) に置き換えられる形で削除される方向となっています。Mozilla の開発者は Firefox 42 Nightly ビルドから一度接頭辞対応を削除しましたが、スタイルシート内で従来の接頭辞付きグラデーションのみ使われており表示が崩れるサイトが多数見つかったため、この変更はバックアウトされました。
 

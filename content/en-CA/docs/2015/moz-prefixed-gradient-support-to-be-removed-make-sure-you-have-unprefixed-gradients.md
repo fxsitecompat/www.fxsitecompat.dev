@@ -12,6 +12,8 @@ references:
       title: "Bug 1186636 - Add pref to control legacy -moz-prefixed gradients"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1337655"
       title: "Bug 1337655 - Try disabling moz-prefixed gradient functions by default"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/egVDMiu86m0/discussion"
+      title: "Intent to unship: -moz-prefixed CSS gradient functions"
 ---
 The `-moz-linear-gradient`, `-moz-repeating-linear-gradient`, `-moz-radial-gradient` and `-moz-repeating-radial-gradient` functions are to be gone in favour of the standard, unprefixed version of [CSS gradients](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_gradients) available since [Firefox 16](https://developer.mozilla.org/en-US/Firefox/Releases/16). Mozilla developers once removed the prefix support from the Firefox 42 Nightly builds, however, the change was backed out in a week due to a lot of broken sites where only legacy prefixed gradients are used in their stylesheets.
 
