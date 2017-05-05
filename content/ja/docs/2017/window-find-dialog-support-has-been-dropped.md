@@ -3,7 +3,7 @@ title: "`window.find()` ダイアログ対応が廃止されました"
 date: "2017-04-18T17:18:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["54"]
+versions: ["53"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=672395"
       title: "Bug 672395 - Let's kill window.find()"
@@ -17,3 +17,5 @@ Firefox では、[`window.find`](https://developer.mozilla.org/ja/docs/Web/API/W
 こうしたページ内検索ダイアログを開くブラウザーは他にないことから、Mozilla 開発者は、機能を復元するよりも `aShowDialog` 引数への対応を明示的に削除することを決定しました。
 
 この非標準メソッドは、完全に削除する計画も以前からあるため、いずれにしても使用は推奨されません。
+
+**更新**: `aShowDialog` 引数対応は Firefox 53.0.2 で削除されました。

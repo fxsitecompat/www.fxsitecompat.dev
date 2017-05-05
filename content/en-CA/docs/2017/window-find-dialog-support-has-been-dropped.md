@@ -3,7 +3,7 @@ title: "`window.find()` dialog support has been dropped"
 date: "2017-04-18T17:18:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["54"]
+versions: ["53"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=672395"
       title: "Bug 672395 - Let's kill window.find()"
@@ -17,3 +17,5 @@ In Firefox, the [`window.find`](https://developer.mozilla.org/en-US/docs/Web/API
 Given that no other browsers open the Find in Page dialog, Mozilla developers have decided to explicitly remove the support for the `aShowDialog` argument rather than restoring the functionality.
 
 There's also a longstanding plan to remove the non-standard method entirely, so it's discouraged to use it anyway.
+
+**Update**: The `aShowDialog` argument support has been removed with Firefox 53.0.2.
