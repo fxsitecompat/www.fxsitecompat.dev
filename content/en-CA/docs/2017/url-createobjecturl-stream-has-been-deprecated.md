@@ -6,7 +6,7 @@ tags: []
 versions: ["54"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1334564"
-      title: "Bug 1334564 - Deprecate and remove URL.createObjectURL(mediastream)"
+      title: "Bug 1334564 - Deprecate URL.createObjectURL(mediastream)"
 ---
 Firefox and other browsers will soon stop accepting a [`MediaStream`](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream) as the object argument for the [`URL.createObjectURL`](https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL) static method, as the result of discussions among the developers. Firefox 54 will show a deprecation warning in the console when such code is found.
 
