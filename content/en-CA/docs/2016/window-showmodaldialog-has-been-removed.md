@@ -10,6 +10,8 @@ references:
       title: "Bug 981796 - Remove window.showModalDialog"
     - url: "https://asadotzler.com/2016/06/06/firefox-48-beta-release-and-e10s/"
       title: "Firefox 48 Beta, Release, and E10S"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/4t5AAxxrCoA/discussion"
+      title: "Intent to unship: window.showModalDialog"
 aliases:
     - "/docs/2015/window-showmodaldialog-will-be-removed/"
 ---
