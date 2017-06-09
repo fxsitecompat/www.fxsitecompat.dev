@@ -18,3 +18,5 @@ video.src = URL.createObjectURL(stream);
 // Do this
 video.srcObject = stream;
 ```
+
+**Update**: The deprecation warning is not displayed on Firefox 54 due to a [bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1369698). Firefox 55 and later will show it properly.
