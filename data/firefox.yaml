@@ -1,7 +1,7 @@
 # Firefox releases
 versions:
-    "55": "nightly"
-    "54": "beta"
+    "55": "beta"
+    "56": "nightly"
 
 channels:
     nightly: "Nightly"
@@ -48,3 +48,4 @@ dates:
     "53": "2017-04-18"
     "54": "2017-06-13"
     "55": "2017-08-08"
+    "56": "2017-09-26"
