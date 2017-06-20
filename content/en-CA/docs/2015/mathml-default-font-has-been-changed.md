@@ -1,7 +1,7 @@
 ---
 title: "MathML default font has been changed"
 date: "2015-06-13T15:20:46-04:00"
-categories: ["mathml"]
+categories: ["misc"]
 tags: []
 versions: ["41"]
 cclicense: "BY-SA 3.0"

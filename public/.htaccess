@@ -20,6 +20,10 @@ RewriteRule ^ja-JP/(.*) /ja/$1 [R=301,L]
 RewriteCond %{QUERY_STRING} cx=006388931142546140887:uidl4-zslfu
 RewriteRule ^(en-CA|ja)/search/$ https://cse.google.com/cse [L]
 
+# Obsolete categories
+RewriteRule ^(en-CA|ja)/categories/event-handling/?$ /$1/categories/dom/ [R=301,L]
+RewriteRule ^(en-CA|ja)/categories/(?:file-handling|mathml)/?$ /$1/categories/misc/ [R=301,L]
+
 # Obsolete status
 RewriteRule ^(en-CA|ja)/statuses/affected/?$ /$1/statuses/affecting/ [R=301,L]
 

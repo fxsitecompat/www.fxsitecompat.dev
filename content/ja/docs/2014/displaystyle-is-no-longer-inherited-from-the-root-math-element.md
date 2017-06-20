@@ -1,7 +1,7 @@
 ---
 title: "`displaystyle` がルートの `<math>` 要素から継承されなくなりました"
 date: "2014-02-07T11:57:09-05:00"
-categories: ["mathml"]
+categories: ["misc"]
 tags: []
 versions: ["29"]
 cclicense: "BY-SA 3.0"

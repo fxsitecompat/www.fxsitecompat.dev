@@ -1,7 +1,7 @@
 ---
 title: "Delay between touch and mouse events has been removed on responsive pages"
 date: "2014-03-21T04:50:04-04:00"
-categories: [event-handling]
+categories: ["dom"]
 tags: []
 versions: ["30"]
 statuses: "affecting"

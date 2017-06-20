@@ -1,7 +1,7 @@
 ---
 title: "`keydown` の `preventDefault` が `keypress` をキャンセルするようになりました"
 date: "2013-07-14T19:12:37-04:00"
-categories: [event-handling]
+categories: ["dom"]
 tags: []
 versions: ["25"]
 statuses: "affecting"

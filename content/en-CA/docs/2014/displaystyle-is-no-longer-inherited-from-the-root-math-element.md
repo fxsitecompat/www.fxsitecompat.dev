@@ -1,7 +1,7 @@
 ---
 title: "`displaystyle` is no longer inherited from the root `<math>` element"
 date: "2014-02-07T11:57:09-05:00"
-categories: ["mathml"]
+categories: ["misc"]
 tags: []
 versions: ["29"]
 cclicense: "BY-SA 3.0"

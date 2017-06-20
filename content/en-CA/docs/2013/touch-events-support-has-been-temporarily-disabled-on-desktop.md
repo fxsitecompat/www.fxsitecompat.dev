@@ -1,7 +1,7 @@
 ---
 title: "Touch events support has been temporarily disabled on desktop"
 date: "2013-05-19T07:35:00-04:00"
-categories: [event-handling]
+categories: ["dom"]
 tags: []
 versions: ["24"]
 statuses: "affecting"

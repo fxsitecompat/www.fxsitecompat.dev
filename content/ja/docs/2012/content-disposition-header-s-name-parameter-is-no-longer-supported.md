@@ -1,7 +1,7 @@
 ---
 title: "`Content-Disposition` ヘッダーの `name` パラメーターは非対応となりました"
 date: "2012-12-03T03:54:45-05:00"
-categories: ["file-handling"]
+categories: ["misc"]
 tags: []
 versions: ["19"]
 cclicense: "BY-SA 3.0"

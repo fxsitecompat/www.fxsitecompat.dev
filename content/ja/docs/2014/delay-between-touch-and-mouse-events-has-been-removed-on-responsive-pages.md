@@ -1,7 +1,7 @@
 ---
 title: "レスポンシブなページ上でタッチとマウスイベントの間の遅延が廃止されました"
 date: "2014-03-21T04:50:04-04:00"
-categories: [event-handling]
+categories: ["dom"]
 tags: []
 versions: ["30"]
 statuses: "affecting"

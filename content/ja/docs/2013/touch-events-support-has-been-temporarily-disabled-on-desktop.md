@@ -1,7 +1,7 @@
 ---
 title: "タッチイベント対応がデスクトップで一時的に無効化されました"
 date: "2013-05-19T07:35:00-04:00"
-categories: [event-handling]
+categories: ["dom"]
 tags: []
 versions: ["24"]
 statuses: "affecting"
