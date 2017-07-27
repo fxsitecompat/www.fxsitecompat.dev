@@ -1,27 +1,26 @@
 <!DOCTYPE html>
-{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
-    <title>{{ $strings.all_statuses_page.title }} | {{ $.Site.Title }}</title>
-    <meta property="og:title" content="{{ $strings.all_statuses_page.title }}">
-    <meta property="og:description" content="{{ $strings.all_statuses_page.description }}">
-    <meta name="description" content="{{ $strings.all_statuses_page.description }}">
+    <title>{{ i18n "all_statuses_page_title" }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ i18n "all_statuses_page_title" }}">
+    <meta property="og:description" content="{{ i18n "all_statuses_page_description" }}">
+    <meta name="description" content="{{ i18n "all_statuses_page_description" }}">
   </head>
   <body class="list docs taxonomy statuses" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright translation">
-    <meta itemprop="name" content="{{ $strings.all_statuses_page.title }}">
-    <meta itemprop="description" content="{{ $strings.all_statuses_page.description }}">
+    <meta itemprop="name" content="{{ i18n "all_statuses_page_title" }}">
+    <meta itemprop="description" content="{{ i18n "all_statuses_page_description" }}">
 {{ partial "header.html" . }}
 {{ partial "search.html" . }}
 {{ partial "breadcrumbs/docs.html" . }}
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
       <section class="inner">
         <header>
-          <h1 itemprop="name">{{ $strings.all_statuses_page.title }}</h1>
-          <p itemprop="description">{{ $strings.all_statuses_page.description }}</p>
+          <h1 itemprop="name">{{ i18n "all_statuses_page_title" }}</h1>
+          <p itemprop="description">{{ i18n "all_statuses_page_description" }}</p>
         </header>
-        <ul class="taxonomy-terms">{{ range $category, $value := .Data.Terms }}
-          <li><a href="{{ $.Site.Params.BaseDir }}statuses/{{ $category }}/">{{ (index $strings.statuses $category).label }}</a></li>{{ end }}
+        <ul class="taxonomy-terms">{{ range $status, $value := .Data.Terms }}
+          <li><a href="/{{ $.Site.LanguageCode }}/statuses/{{ $status }}/">{{ printf "status_%s_label" $status | i18n }}</a></li>{{ end }}
         </ul>
       </section>
     </main>

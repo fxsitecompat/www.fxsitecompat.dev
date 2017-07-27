@@ -1,26 +1,19 @@
 <!DOCTYPE html>
-{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
-{{ $version := .Title | urlize }}
-{{ $title := replace $strings.version_index_page.title "%s" $version }}
-{{ $title_future := $strings.version_index_page.title_future }}
+{{ $version := .Title | urlize | lower }}
+{{ $title := i18n "version_index_page_title" (dict "version" $version) }}
+{{ $title_future := i18n "version_index_page_title_future" }}
 
 {{- if eq $version "future" -}}
-  {{- $.Scratch.Set "description" $strings.version_index_page.description_future -}}
+  {{- i18n "version_index_page_description_future" | $.Scratch.Set "description" -}}
 {{- else -}}
+  {{- $date := index $.Site.Data.firefox.dates $version -}}
+  {{- $date_localized := (time $date).Format $.Site.Params.DateFormat.Localized -}}
   {{- with index $.Site.Data.firefox.versions $version -}}
     {{- $channel := . }}
-    {{- $description := replace $strings.version_index_page.description_upcoming "%(version)s" $version -}}
-    {{- $description := replace $description "%(channel)s" $channel }}
-    {{- $description := replace $description "%(channel_localized)s" (index $.Site.Data.firefox.channels $channel) -}}
-    {{- $.Scratch.Set "description" $description -}}
+    {{- i18n "version_index_page_description_upcoming" (dict "version" $version "channel" $channel "channel_localized" (index $.Site.Data.firefox.channels $channel) "date" $date "date_localized" $date_localized) | $.Scratch.Set "description" -}}
   {{- else -}}
-    {{- $description := replace $strings.version_index_page.description "%(version)s" $version -}}
-    {{- $.Scratch.Set "description" $description -}}
+    {{- i18n "version_index_page_description" (dict "version" $version "date" $date "date_localized" $date_localized) | $.Scratch.Set "description" -}}
   {{- end -}}
-  {{- $description := $.Scratch.Get "description" -}}
-  {{- $description := replace $description "%(date)s" (index $.Site.Data.firefox.dates $version) -}}
-  {{- $description := replace $description "%(date_localized)s" (dateFormat $.Site.Params.DateFormat.Localized (index $.Site.Data.firefox.dates $version)) -}}
-  {{- $.Scratch.Set "description" $description -}}
 {{- end -}}
 {{- $description := $.Scratch.Get "description" -}}
 <html lang="{{ $.Site.LanguageCode }}">
@@ -42,20 +35,20 @@
         <section>
           <header>
             <h1 itemprop="name">{{ if eq $version "future" }}{{ $title_future }}{{ else }}{{ $title }}{{ end }}</h1>
-            <p itemprop="description">{{ $description | safeHTML }} {{ if ne $version "future" }}{{ replace $strings.version_index_page.description_secondary "%(version)s" $version | safeHTML }}{{ end }}</p>
+            <p itemprop="description">{{ $description | safeHTML }} {{ if ne $version "future" }}{{ i18n "version_index_page_description_secondary" (dict "version" $version) | safeHTML }}{{ end }}</p>
           </header>{{ range $category, $taxonomy := $.Site.Taxonomies.categories }}
           <section>
-            <h2>{{ index $strings.categories $category }}</h2>
+            <h2>{{ replace $category "-" "_" | printf "category_%s" | i18n }}</h2>
             <ul>{{ range $taxonomy.Pages }}{{ if in .Params.versions $version }}
-              <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}{{ end }}
+              <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}">{{ .Title | markdownify }}</a></li>{{ end }}{{ end }}
             </ul>
           </section>{{ end }}
         </section>
         <nav class="nocontent">
-          <h2>{{ $strings.browse_version }}</h2>
+          <h2>{{ i18n "browse_version" }}</h2>
           <ul class="taxonomy terms">{{ range first 4 $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}
-            <li><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/">{{ with index $strings.versions $version }}{{ . }}{{ else }}Firefox {{ $version }}{{ end }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a></li>{{ end }}
-            <li><a href="{{ $.Site.Params.BaseDir }}versions/">{{ $strings.browse_all_versions }}</a></li>
+            <li><a href="/{{ $.Site.LanguageCode }}/versions/{{ $version }}/">{{ if eq $version "future" }}{{ i18n "versions_future" }}{{ else }}Firefox {{ $version }}{{ end }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a></li>{{ end }}
+            <li><a href="/{{ $.Site.LanguageCode }}/versions/">{{ i18n "browse_all_versions" }}</a></li>
           </ul>
         </nav>
       </div>

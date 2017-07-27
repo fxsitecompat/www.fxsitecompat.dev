@@ -1,32 +1,31 @@
 <!DOCTYPE html>
-{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
-    <title>{{ $.Site.Title }} &mdash; {{ $strings.contentinfo.tagline }}</title>
+    <title>{{ $.Site.Title }} &mdash; {{ i18n "contentinfo_tagline" }}</title>
     <meta property="og:title" content="{{ $.Site.Title }}">
-    <meta property="og:description" content="{{ $strings.contentinfo.description }}">
-    <meta name="description" content="{{ $strings.contentinfo.description }}">
+    <meta property="og:description" content="{{ i18n "contentinfo_description" }}">
+    <meta name="description" content="{{ i18n "contentinfo_description" }}">
   </head>
   <body class="home" itemscope itemtype="http://schema.org/WebPage" itemref="sec-docs copyright translation">
     <!-- Google+ snippet should go first; see https://developers.google.com/+/web/snippet/ -->
     <meta itemprop="name" content="{{ $.Site.Title }}">
-    <meta itemprop="description" content="{{ $strings.contentinfo.description }}">
+    <meta itemprop="description" content="{{ i18n "contentinfo_description" }}">
 {{ partial "header.html" . }}
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
       <div id="main-feature">
         <header class="inner">
-          <h1 itemprop="name">{{ $strings.home_page.tagline | safeHTML }}</h1>
-          <p itemprop="description">{{ $strings.home_page.description | safeHTML }}</p>
+          <h1 itemprop="name">{{ i18n "home_page_tagline" | safeHTML }}</h1>
+          <p itemprop="description">{{ i18n "home_page_description" | safeHTML }}</p>
         </header>
       </div>
       <div id="main-content">
         <div class="inner">
           <section id="sec-blog" itemscope itemtype="http://schema.org/Blog">
-            <h2 itemprop="name">{{ $strings.latest_blog_post }}</h2>{{ range first 1 (where .Data.Pages "Section" "blog") }}
+            <h2 itemprop="name">{{ i18n "latest_blog_post" }}</h2>{{ range first 1 (where .Data.Pages "Section" "blog") }}
             <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
               <header>
-                <h3 itemprop="headline"><a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}" rel="bookmark" itemprop="url">{{ .Title }}</a></h3>
+                <h3 itemprop="headline"><a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}" rel="bookmark" itemprop="url">{{ .Title }}</a></h3>
                 <p><time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time></p>
                 <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
               </header>
@@ -36,27 +35,27 @@
             </article>{{ end }}
           </section>
           <section id="sec-docs">
-            <h2>{{ $strings.documents }}</h2>
+            <h2>{{ i18n "documents" }}</h2>
             <aside role="search" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
-              {{ partial "searchbox.html" . }}
+{{ partial "searchbox.html" . }}
             </aside>
             <section id="sec-docs-version">
-              <h3>{{ $strings.browse_version }}</h3>
+              <h3>{{ i18n "browse_version" }}</h3>
               <ul>{{ range first 4 $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}
-                <li><a href="{{ $.Site.Params.BaseDir }}versions/{{ $version }}/">{{ with index $strings.versions $version }}{{ . }}{{ else }}{{ $version }}{{ end }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a></li>{{ end }}
-                <li><a href="{{ $.Site.Params.BaseDir }}versions/">{{ $strings.browse_all_versions }}</a></li>
+                <li><a href="/{{ $.Site.LanguageCode }}/versions/{{ $version }}/">{{ if eq $version "future" }}{{ i18n "versions_future" }}{{ else }}{{ $version }}{{ end }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a></li>{{ end }}
+                <li><a href="/{{ $.Site.LanguageCode }}/versions/">{{ i18n "browse_all_versions" }}</a></li>
               </ul>
             </section>
             <section id="sec-docs-category">
-              <h3>{{ $strings.browse_category }}</h3>
+              <h3>{{ i18n "browse_category" }}</h3>
               <ul>{{ range $category, $taxonomy := $.Site.Taxonomies.categories }}
-                <li><a href="{{ $.Site.Params.BaseDir }}categories/{{ $category }}/">{{ index $strings.categories $category }}</a></li>{{ end }}
+                <li><a href="/{{ $.Site.LanguageCode }}/categories/{{ $category }}/">{{ replace $category "-" "_" | printf "category_%s" | i18n }}</a></li>{{ end }}
               </ul>
             </section>
             <section id="sec-docs-status">
-              <h3>{{ $strings.browse_status }}</h3>
+              <h3>{{ i18n "browse_status" }}</h3>
               <ul class="taxonomy terms">{{ range $status, $taxonomy := $.Site.Taxonomies.statuses }}
-                <li><a href="{{ $.Site.Params.BaseDir }}statuses/{{ $status }}/">{{ (index $strings.statuses $status).label }}</a></li>{{ end }}
+                <li><a href="/{{ $.Site.LanguageCode }}/statuses/{{ $status }}/">{{ printf "status_%s_label" $status | i18n }}</a></li>{{ end }}
               </ul>
             </section>
           </section>

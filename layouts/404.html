@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
-    <title>{{ $strings.not_found_page.title }} | {{ $.Site.Title }}</title>
-    <meta property="og:title" content="{{ $strings.not_found_page.title }}">
-    <meta property="og:description" content="{{ $strings.not_found_page.description }}">
-    <meta name="description" content="{{ $strings.not_found_page.description }}">
+    <title>{{ i18n "not_found_page_title" }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ i18n "not_found_page_title" }}">
+    <meta property="og:description" content="{{ i18n "not_found_page_description" }}">
+    <meta name="description" content="{{ i18n "not_found_page_description" }}">
   </head>
   <body class="single error" itemscope itemtype="http://schema.org/WebPage" itemref="copyright translation">
-    <meta itemprop="name" content="{{ $strings.not_found_page.title }}">
-    <meta itemprop="description" content="{{ $strings.not_found_page.description }}">
+    <meta itemprop="name" content="{{ i18n "not_found_page_title" }}">
+    <meta itemprop="description" content="{{ i18n "not_found_page_description" }}">
 {{ partial "header.html" . }}
 {{ partial "search.html" . }}
 {{ partial "breadcrumbs/home.html" . }}
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
       <section class="inner">
         <header>
-          <h1 itemprop="name">{{ $strings.not_found_page.title }}</h1>
-          <p itemprop="description">{{ $strings.not_found_page.description }}</p>
+          <h1 itemprop="name">{{ i18n "not_found_page_title" }}</h1>
+          <p itemprop="description">{{ i18n "not_found_page_description" }}</p>
         </header>
       </section>
     </main>

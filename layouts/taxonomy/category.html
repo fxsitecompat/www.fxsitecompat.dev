@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
-{{ $category := .Title | urlize }}
-{{ $_category := index $strings.categories $category }}
-{{ $title := replace $strings.category_index_page.title "%s" $_category }}
-{{ $description := replace $strings.category_index_page.description "%s" $_category }}
+{{ $category := .Title | urlize | lower }}
+{{ $_category := replace $category "-" "_" | printf "category_%s" | i18n | string }}
+{{ $title := i18n "category_index_page_title" (dict "category" $_category) }}
+{{ $description := i18n "category_index_page_description" (dict "category" $_category) }}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
@@ -26,16 +25,16 @@
             <p itemprop="description">{{ $description }}</p>
           </header>{{ range $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}
           <section>
-            <h2>{{ with index $strings.versions $version }}{{ . }}{{ else }}Firefox {{ $version }}{{ end }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</h2>
+            <h2>{{ if eq $version "future" }}{{ i18n "versions_future" }}{{ else }}Firefox {{ $version }}{{ end }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</h2>
             <ul>{{ range .Pages }}{{ if in .Params.categories $category }}
-              <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}{{ end }}
+              <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}">{{ .Title | markdownify }}</a></li>{{ end }}{{ end }}
             </ul>
           </section>{{ end }}
         </section>
         <nav class="nocontent">
-          <h2>{{ $strings.browse_category }}</h2>
+          <h2>{{ i18n "browse_category" }}</h2>
           <ul class="taxonomy terms">{{ range $category, $taxonomy := $.Site.Taxonomies.categories }}
-            <li><a href="{{ $.Site.Params.BaseDir }}categories/{{ $category }}/">{{ index $strings.categories $category }}</a></li>{{ end }}
+            <li><a href="/{{ $.Site.LanguageCode }}/categories/{{ $category }}/">{{ replace $category "-" "_" | printf "category_%s" | i18n }}</a></li>{{ end }}
           </ul>
         </nav>
       </div>

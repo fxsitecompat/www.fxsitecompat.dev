@@ -1,15 +1,14 @@
-{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=false">{{ if or (eq .Section "blog") (eq .Section "docs") }}
     <meta property="og:type" content="article">
     <meta property="article:published_time" content="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}">
-    <meta property="article:section" content="{{ $strings.contentinfo.category }}">
+    <meta property="article:section" content="{{ i18n "contentinfo_category" }}">
     <meta property="article:author" content="https://www.facebook.com/{{ $.Site.Params.Author.FacebookUserName }}">
     <meta property="article:publisher" content="https://www.facebook.com/{{ $.Site.Params.Publisher.FacebookUserName }}">{{ else }}
     <meta property="og:type" content="website">{{ end }}
     <meta property="og:site_name" content="{{ $.Site.Title }}">
     <meta property="og:locale" content="{{ $.Site.Params.FacebookLangCode }}">
-    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:url" content="{{ replace .Permalink "/en-ca/" "/en-CA/" }}">
     <meta property="og:image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
     <meta property="fb:admins" content="{{ $.Site.Params.Author.FacebookID }}">
     <meta name="twitter:card" content="summary">
@@ -17,10 +16,11 @@
     <meta name="twitter:creator" content="@{{ $.Site.Params.Author.TwitterUserName }}">
     <link rel="author" href="https://plus.google.com/&#43;{{ $.Site.Params.Author.GoogleUserName }}">
     <link rel="publisher" href="https://plus.google.com/&#43;{{ $.Site.Params.Publisher.GoogleUserName }}">
-    <link rel="canonical" hreflang="{{ $.Site.LanguageCode }}" href="{{ .Permalink }}">
-    <link rel="alternate" hreflang="x-default" href="{{ replace .Permalink $.Site.Params.BaseDir "/" }}">{{ range $.Site.Params.Locales }}
-    <link rel="alternate" hreflang="{{ .Code }}" href="{{ replace $.Permalink $.Site.Params.BaseDir (print "/" .Code "/") }}" title="{{ .Name }}">{{ end }}
-    <link rel="stylesheet" href="{{ $.Site.Params.BaseDir }}styles/base.css?v=2017042014">
-    <link rel="icon" type="image/png" href="{{ $.Site.Params.BaseDir }}images/template/favicon.png">
-    <link rel="alternate" type="application/atom+xml" href="{{ $.Site.Params.BaseDir }}index.xml" title="{{ $.Site.Title }}">
-    <link rel="search" type="application/opensearchdescription+xml" href="{{ $.Site.Params.BaseDir }}search/index.xml" title="{{ $.Site.Params.Domain }}">
+    <link rel="canonical" hreflang="{{ $.Site.LanguageCode }}" href="{{ replace .Permalink "/en-ca/" "/en-CA/" }}">
+    <link rel="alternate" hreflang="x-default" href="{{ replace .Permalink .LanguagePrefix "" }}">
+    <link rel="alternate" hreflang="{{ $.Site.LanguageCode }}" href="{{ replace .Permalink "/en-ca/" "/en-CA/" }}" title="{{ $.Site.Language.LanguageName }}">{{ range $.Translations }}
+    <link rel="alternate" hreflang="{{ replace .Lang "en-ca" "en-CA" }}" href="{{ replace .Permalink "/en-ca/" "/en-CA/" }}" title="{{ range where $.Site.Languages "Lang" (lower .Lang) }}{{ .LanguageName }}{{ end }}">{{ end }}
+    <link rel="stylesheet" href="/styles/base.css?v=2017042014">
+    <link rel="icon" type="image/png" href="/images/template/favicon.png">
+    <link rel="alternate" type="application/atom+xml" href="/{{ $.Site.LanguageCode }}/index.xml" title="{{ $.Site.Title }}">
+    <link rel="search" type="application/opensearchdescription+xml" href="/{{ $.Site.LanguageCode }}/search/index.xml" title="{{ $.Site.Params.Domain }}">

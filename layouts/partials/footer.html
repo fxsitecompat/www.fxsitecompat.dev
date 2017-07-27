@@ -1,26 +1,25 @@
-{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
     <footer role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
       <div class="inner">
         <div class="col wide">
-          <h1 itemprop="name">{{ $strings.contentinfo.organization | safeHTML }}</h1>
-          <p id="copyright">Copyright &copy; <span itemprop="copyrightYear">{{ .Date.Format "2006" }}</span> <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person">{{ $.Site.Copyright }}{{ with $.Site.Params.Author.Name }}<meta itemprop="name" content="{{ . }}">{{ end }}</span> {{ $strings.contentinfo.legal }}</p>
-          <p>{{ if eq .Section "docs" }}{{ replace $strings.contentinfo.contribute "%s" (print "https://github.com/fxsitecompat/www.fxsitecompat.com/edit/master/content" (substr .RelPermalink 0 -1) ".md") | safeHTML }} &middot; {{ end }}<span id="translation" lang="{{ $.Site.Params.AlternateLangCode }}"><span itemprop="workTranslation" itemscope itemtype="http://schema.org/CreativeWork">{{ replace $strings.contentinfo.translation "%s" (replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.AlternateBaseDir) | safeHTML }}<meta itemprop="inLanguage" content="{{ $.Site.Params.AlternateLangCode }}"></span></span></p>
+          <h1 itemprop="name">{{ i18n "contentinfo_organization" | safeHTML }}</h1>
+          <p id="copyright">Copyright &copy; <span itemprop="copyrightYear">{{ .Date.Format "2006" }}</span> <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person">{{ $.Site.Copyright }}{{ with $.Site.Params.Author.Name }}<meta itemprop="name" content="{{ . }}">{{ end }}</span> {{ i18n "contentinfo_legal" }}</p>
+          <p>{{ if .IsPage }}<a href="{{ print "https://github.com/fxsitecompat/www.fxsitecompat.com/edit/master/content" (substr .RelPermalink 0 -1) ".md" }}">{{ i18n "contentinfo_contribute" }}</a> &middot;{{ end }}{{ range $.Translations }} <span id="translation" lang="{{ replace .Lang "en-ca" "en-CA" }}"><span itemprop="workTranslation" itemscope itemtype="http://schema.org/CreativeWork"><a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}" itemprop="url">{{ range where $.Site.Languages "Lang" (lower .Lang) }}{{ .LanguageName }}{{ end }}</a><meta itemprop="inLanguage" content="{{ replace .Lang "en-ca" "en-CA" }}"></span></span>{{ end }}</p>
         </div>
         <div class="col">
           <nav>
             <ul>{{ range $.Site.Menus.main }}
-              <li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
+              <li><a href="/{{ $.Site.LanguageCode }}{{ .URL }}">{{ .Name }}</a></li>{{ end }}
             </ul>
           </nav>
         </div>
         <div class="col">
           <nav>
-            <ul>{{ range $.Site.Menus.external }}
+            <ul>{{ range $.Site.Menus.syndication }}
+              <li><a href="/{{ $.Site.LanguageCode }}{{ .URL }}">{{ .Name }}</a></li>{{ end }}{{ range $.Site.Menus.external }}
               <li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
             </ul>
           </nav>
         </div>
       </div>
     </footer>
-
-    <script src="{{ $.Site.Params.BaseDir }}scripts/main.js" defer></script>
+    <script src="/scripts/main.js" defer></script>

@@ -1,14 +1,13 @@
-{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
-    <meta itemprop="url" content="{{ .Permalink }}">
+    <meta itemprop="url" content="{{ replace .Permalink "/en-ca/" "/en-CA/" }}">
     <div id="meta-general">
       <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
-      <meta itemprop="genre" content="{{ $strings.contentinfo.category }}">
+      <meta itemprop="genre" content="{{ i18n "contentinfo_category" }}">
       <meta itemprop="inLanguage" content="{{ $.Site.LanguageCode }}">
       <div itemprop="mainEntityOfPage" itemscope itemtype="http://schema.org/CreativeWork">
         <meta itemprop="name" content="Mozilla Firefox">
       </div>
       <div itemprop="audience" itemscope itemtype="http://schema.org/Audience">
-        <meta itemprop="audienceType" content="{{ $strings.contentinfo.audienceType }}">
+        <meta itemprop="audienceType" content="{{ i18n "contentinfo_audienceType" }}">
       </div>
       <div itemprop="author" itemscope itemtype="http://schema.org/Person">
         <meta itemprop="name" content="{{ $.Site.Params.Author.Name }}">
@@ -19,24 +18,24 @@
     </div>
     <div itemscope itemtype="http://schema.org/WebSite">
       <meta itemprop="name" content="{{ $.Site.Title }}">
-      <meta itemprop="url" content="{{ $.Site.BaseURL }}">
+      <meta itemprop="url" content="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/">
     </div>
     <div itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="{{ $.Site.Title }}">
-      <meta itemprop="url" content="{{ $.Site.BaseURL }}">{{ range $.Site.Menus.external }}
+      <meta itemprop="url" content="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/">{{ range $.Site.Menus.external }}
       <meta itemprop="sameAs" content="{{ .URL }}">{{ end }}
     </div>
-
     <header role="banner" itemscope itemtype="http://schema.org/WPHeader">
       <div class="inner">
         <h1 itemprop="name">
-          <a href="{{ $.Site.Params.BaseDir }}">{{ $.Site.Title }}</a>
+          <a href="/{{ $.Site.LanguageCode }}/">{{ $.Site.Title }}</a>
         </h1>
         <nav>
           <ul>{{ range $.Site.Menus.main }}{{ if ne .Identifier "home" }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}{{ end }}
+            <li><a href="/{{ $.Site.LanguageCode }}{{ .URL }}">{{ .Name }}</a></li>{{ end }}{{ end }}
           </ul>
-          <ul>{{ range $.Site.Menus.external }}
+          <ul>{{ range $.Site.Menus.syndication }}
+            <li><a href="/{{ $.Site.LanguageCode }}{{ .URL }}" class="fa replace {{ .Identifier }}">{{ .Name }}</a></li>{{ end }}{{ range $.Site.Menus.external }}
             <li><a href="{{ .URL }}" class="fa replace {{ .Identifier }}">{{ .Name }}</a></li>{{ end }}
           </ul>
         </nav>

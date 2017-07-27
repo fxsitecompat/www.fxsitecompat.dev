@@ -1,6 +1,5 @@
-{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
     <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
       <div class="inner">
-        <p><a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a></p>
+        <p><a href="/{{ $.Site.LanguageCode }}/">{{ i18n "section_home" }}</a></p>
       </div>
     </nav>

@@ -1,0 +1,191 @@
+# Sections
+section_home:
+    other: ホーム
+section_blog:
+    other: ブログ
+section_docs:
+    other: ドキュメント
+section_categories:
+    other: カテゴリー
+section_versions:
+    other: バージョン
+section_about:
+    other: 概要
+
+# Versions
+versions_future:
+    other: "今後"
+
+# Categories
+category_audio_video:
+    other: "音声 & 動画"
+category_canvas_webgl:
+    other: "Canvas & WebGL"
+category_css:
+    other: "CSS"
+category_dom:
+    other: "DOM"
+category_html:
+    other: "HTML"
+category_javascript:
+    other: "JavaScript"
+category_misc:
+    other: "その他"
+category_networking:
+    other: "ネットワーキング"
+category_plugins:
+    other: "プラグイン"
+category_privacy_security:
+    other: "プライバシー & セキュリティ"
+category_svg:
+    other: "SVG"
+
+# Statuses
+status_affecting_label:
+    other: "影響あり"
+status_affecting_description:
+    other: "標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更。少数のサイトに影響を及ぼしたものの、それらの問題はサイト側で修正されたか、されるべきです。"
+status_affecting_description_plural:
+    other: "このリストには、標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更が含まれます。少数のサイトに影響を及ぼしたものの、それらの問題はサイト側で修正されたか、されるべきです。"
+status_reverted_label:
+    other: "取り消し"
+status_reverted_description:
+    other: "標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更。相当数のサイトに影響を及ぼしたため、この変更は Firefox の後継バージョンで撤回されました。"
+status_reverted_description_plural:
+    other: "このリストには、標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更が含まれます。相当数のサイトに影響を及ぼしたため、これらの変更は Firefox の後継バージョンで撤回されました。"
+status_regressed_label:
+    other: "リグレッション"
+status_regressed_description:
+    other: "意図せず取り込まれ後日発見されたサイト互換性問題。ひとつもしくは複数のサイトに影響を及ぼしたため、このリグレッションは Firefox の後継バージョンで修正されました。"
+status_regressed_description_plural:
+    other: "このリストには、意図せず取り込まれ後日発見されたサイト互換性問題が含まれます。ひとつもしくは複数のサイトに影響を及ぼしたため、これらのリグレッションは Firefox の後継バージョンで修正されました。なお、一部の問題はまだ文書化されていません。"
+
+# Meta
+contentinfo_organization:
+    other: "<span>Firefox サイト互換性</span><span>ワーキンググループ</span>"
+contentinfo_category:
+    other: "テクノロジー"
+contentinfo_audienceType:
+    other: "ウェブ開発者"
+contentinfo_tagline:
+    other: "ともに、より良いウェブを築こう"
+contentinfo_description:
+    other: "Firefox の後方互換性とリグレッションに焦点を当てた、コミュニティ主導のウェブ開発者エンゲージメントイニシアチブ。ドキュメント、最新情報など。"
+contentinfo_legal:
+    other: "Mozilla と Firefox は Mozilla Foundation の商標です。このイニシアチブは Mozilla とは無関係です。"
+contentinfo_contribute:
+    other: 'ページの改善を提案'
+
+# Search box
+search:
+    other: "検索"
+search_placeholder:
+    other: "ドキュメントを検索"
+
+# Home page
+latest_blog_post:
+    other: "最新のブログ記事"
+documents:
+    other: "ドキュメント"
+browse_category:
+    other: "カテゴリー別に参照"
+browse_version:
+    other: "バージョン別に参照"
+browse_status:
+    other: "ステータス別に参照"
+browse_all_versions:
+    other: "過去のバージョン"
+browse_all_categories:
+    other: "すべてのカテゴリー"
+home_page_tagline:
+    other: "<span>ともに、より良い</span><span>ウェブを築こう</span>"
+home_page_description:
+    other: "<span>Firefox の後方互換性とリグレッションに焦点を当てた、</span><span>コミュニティ主導のウェブ開発者エンゲージメントイニシアチブ。</span><span>ドキュメント、最新情報など。</span>"
+
+# All blog posts page
+all_posts_page_title:
+    other: "ブログ"
+all_posts_page_description:
+    other: "Firefox のサイト互換性に関するブログ記事一覧。"
+
+# All documents page
+all_documents:
+    other: "すべてのドキュメント"
+all_docs_page_title:
+    other: "ドキュメント"
+all_docs_page_description:
+    other: "Firefox のサイト互換性に関するドキュメント一覧。"
+
+# All categories page
+all_categories_page_title:
+    other: "カテゴリー別にドキュメントを参照"
+all_categories_page_description:
+    other: "すべての Firefox サイト互換性ドキュメントを、CSS、DOM、JavaScript、セキュリティ & プライバシーなどの技術カテゴリーごとに参照できます。"
+
+# All statuses page
+all_statuses_page_title:
+    other: "ステータス別にドキュメントを参照"
+all_statuses_page_description:
+    other: "すべての Firefox サイト互換性ドキュメントを、影響あり、取り消し、リグレッションなどの問題ステータスごとに参照できます。"
+
+# All versions page
+all_versions_page_title:
+    other: "バージョン別にドキュメントを参照"
+all_versions_page_description:
+    other: "すべての Firefox サイト互換性ドキュメントを、最新のプレリリース版まで、メジャーリリースごとに参照できます。"
+
+# Version index page
+version_index_page_title:
+    other: "Firefox {{.version}} サイト互換性情報"
+version_index_page_title_future:
+    other: "今後予定されている変更"
+version_index_page_description:
+    other: '<time datetime="{{.date}}">{{.date_localized}}</time> に公開された Firefox {{.version}} に含まれる変更点に関する互換性情報を参照できます。'
+version_index_page_description_upcoming:
+    other: '現在 <a href="https://www.mozilla.org/ja/firefox/channel/desktop/#{{.channel}}"><em>{{.channel_localized}}</em></a> チャンネルで提供され <time datetime="{{.date}}">{{.date_localized}}</time> 公開予定の Firefox {{.version}} に含まれる変更点に関する互換性情報を参照できます。'
+version_index_page_description_secondary:
+    other: 'このリストは、さらなる変更が行われたり新たなリグレッションが発見された場合には更新されますので、ぜひ <a href="/ja/index.xml">サイトのフィード</a> を購読してください。新機能や改良点など Firefox {{.version}} のより一般的な情報は <a href="https://developer.mozilla.org/ja/Firefox/Releases/{{.version}}">Mozilla Developer Network</a> で公開されています。'
+version_index_page_description_future:
+    other: 'Firefox の今後のバージョンで予定されている変更点に関する互換性情報を参照できます。このリストは、さらなる変更が計画された場合には更新されますので、<a href="/ja/index.xml">サイトのフィード</a> を購読し、最新情報を入手してください。今のうちに備えて、あなたのサイトをできる限り優れたものにしましょう！'
+
+# Category index page
+category_index_page_title:
+    other: "{{.category}} 関連の互換性ドキュメント"
+category_index_page_description:
+    other: "{{.category}} 関連の変更点に関する Firefox サイト互換性情報を参照できます。"
+
+# Status index page
+status_index_page_title:
+    other: "「{{.status}}」ステータスのドキュメント"
+
+# Single document page
+published:
+    other: "公開日"
+creativecommons:
+    other: "Creative Commons"
+description:
+    other: "概要"
+references:
+    other: "参考資料"
+docs_for_version:
+    other: "Firefox {{.version}} 互換性情報"
+docs_for_version_future:
+    other: "今後予定されている変更"
+
+# Single blog page
+recent_blog_posts:
+    other: "最近のブログ記事"
+
+# 404 page
+not_found_page_title:
+    other: "ページが見つかりません"
+not_found_page_description:
+    other: "あなたがお探しのページは見つかりませんでした。もしこれが何か間違いだと思われる場合は、webmaster@fxsitecompat.com までご連絡ください。"
+
+# Feed
+feed_recent_content:
+    other: "{{.section}} に関する最近の記事"
+feed_version:
+    other: "バージョン"
+feed_category:
+    other: "カテゴリー"

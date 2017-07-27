@@ -1,4 +1,3 @@
-{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
   <entry>
     <id>{{ .Permalink }}</id>
     <title>{{ replace .Title "`" "" }}{{ partial "status-label/suffix" . }}</title>
@@ -9,17 +8,17 @@
     </author>{{ end }}
     <content type="html">{{ "<![CDATA[" | safeHTML }}{{ if eq .Section "docs" }}
       <p>{{ range .Params.versions }}
-        <strong>{{ $strings.feed.version }}</strong>: <a href="{{ $.Site.Params.BaseDir }}versions/{{ . }}/">Firefox {{ . }}{{ with index $.Site.Data.firefox.versions . }} <em>{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a><br>{{ end }}{{ range .Params.categories }}
-        <strong>{{ $strings.feed.category }}</strong>: <a href="{{ $.Site.Params.BaseDir }}categories/{{ . }}/">{{ index $strings.categories . }}</a><br>{{ end }}
+        <strong>{{ i18n "feed_version" }}</strong>: <a href="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/versions/{{ . }}/">Firefox {{ . }}{{ with index $.Site.Data.firefox.versions . }} <em>{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a><br>{{ end }}{{ range .Params.categories }}
+        <strong>{{ i18n "feed_category" }}</strong>: <a href="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/categories/{{ . }}/">{{ replace . "-" "_" | printf "category_%s" | i18n }}</a><br>{{ end }}
       </p>
-      <h2>{{ $strings.description }}</h2>
+      <h2>{{ i18n "description" }}</h2>
       {{ .Content }}
-      <h2>{{ $strings.references }}</h2>
+      <h2>{{ i18n "references" }}</h2>
       <ul>{{ range .Params.references }}
         <li><a href="{{ .url }}">{{ .title }}</a></li>{{ end }}
       </ul>{{ else }}
       {{ .Content }}{{ end }}
     {{ "]]>" | safeHTML }}</content>
     <link rel="alternate" href="{{ .Permalink }}" />{{ range .Params.categories }}
-    <category term="{{ index $strings.categories . }}" />{{ end }}
+    <category term="{{ replace . "-" "_" | printf "category_%s" | i18n }}" />{{ end }}
   </entry>

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
 {{ $description := replace (substr .Summary 0 250) "\n" " " }}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
@@ -16,8 +15,8 @@
     <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
       <div class="inner">
         <p>
-          <a href="{{ $.Site.Params.BaseDir }}">{{ $strings.sections.home }}</a>
-          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ $.Site.Params.BaseDir }}blog/" rel="index" itemprop="item"><span itemprop="name">{{ $strings.sections.blog }}</span></a><meta itemprop="position" content="1"></span>
+          <a href="/{{ $.Site.LanguageCode }}/">{{ i18n "section_home" }}</a>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="/{{ $.Site.LanguageCode }}/blog/" rel="index" itemprop="item"><span itemprop="name">{{ i18n "section_blog" }}</span></a><meta itemprop="position" content="1"></span>
         </p>
       </div>
     </nav>
@@ -34,9 +33,9 @@
           </div>
         </article>
         <nav class="nocontent">
-          <h2>{{ $strings.recent_blog_posts }}</h2>
+          <h2>{{ i18n "recent_blog_posts" }}</h2>
           <ul>{{ range first 10 (where $.Site.Pages "Section" "blog") }}
-            <li><a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
+            <li><a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}">{{ .Title | markdownify }}</a></li>{{ end }}
           </ul>
         </nav>
       </div>

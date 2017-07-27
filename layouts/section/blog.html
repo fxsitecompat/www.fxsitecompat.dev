@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
-    <title>{{ $strings.all_posts_page.title }} | {{ $.Site.Title }}</title>
-    <meta property="og:title" content="{{ $strings.all_posts_page.title }}">
-    <meta property="og:description" content="{{ $strings.all_posts_page.description }}">
-    <meta name="description" content="{{ $strings.all_posts_page.description }}">
+    <title>{{ i18n "all_posts_page_title" }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ i18n "all_posts_page_title" }}">
+    <meta property="og:description" content="{{ i18n "all_posts_page_description" }}">
+    <meta name="description" content="{{ i18n "all_posts_page_description" }}">
   </head>
   <body class="list blog all" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright translation">
-    <meta itemprop="name" content="{{ $strings.all_posts_page.title }}">
-    <meta itemprop="description" content="{{ $strings.all_posts_page.description }}">
+    <meta itemprop="name" content="{{ i18n "all_posts_page_title" }}">
+    <meta itemprop="description" content="{{ i18n "all_posts_page_description" }}">
 {{ partial "header.html" . }}
 {{ partial "breadcrumbs/home.html" . }}
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
       <section class="inner">
         <header>
-          <h1 itemprop="name">{{ $strings.all_posts_page.title }}</h1>
-          <p itemprop="description">{{ $strings.all_posts_page.description }}</p>
+          <h1 itemprop="name">{{ i18n "all_posts_page_title" }}</h1>
+          <p itemprop="description">{{ i18n "all_posts_page_description" }}</p>
         </header>{{ range .Data.Pages.GroupByDate "2006" }}
         <section>
           <h2>{{ .Key }}</h2>
           <ul>{{ range .Pages }}
-            <li><a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | safeHTML }}</a></li>{{ end }}
+            <li><a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}">{{ .Title | safeHTML }}</a></li>{{ end }}
           </ul>
         </section>{{ end }}
       </section>

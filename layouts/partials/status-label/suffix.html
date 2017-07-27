@@ -1,1 +1,1 @@
-{{ with $.Params.statuses }} ({{ (index (index $.Site.Data.translations $.Site.LanguageCode).statuses .).label }}){{ end }}
+{{ with $.Params.statuses }} ({{ printf "status_%s_label" . | i18n }}){{ end }}

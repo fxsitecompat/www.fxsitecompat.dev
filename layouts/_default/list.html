@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
@@ -19,7 +18,7 @@
           <h1 itemprop="name">{{ .Title }}</h1>
         </header>
         <ul>{{ range .Data.Pages }}
-          <li><a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
+          <li><a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}">{{ .Title | markdownify }}</a></li>{{ end }}
         </ul>
       </section>
     </main>

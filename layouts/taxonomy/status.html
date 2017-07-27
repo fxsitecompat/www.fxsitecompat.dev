@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-{{ $strings := index $.Site.Data.translations $.Site.LanguageCode }}
-{{ $status := .Title | urlize }}
-{{ $title := replace $strings.status_index_page.title "%s" (index $strings.statuses $status).label }}
-{{ $description := (index $strings.statuses $status).desc_plural }}
+{{ $status := .Title | urlize | lower }}
+{{ $title := i18n "status_index_page_title" (dict "status" (i18n (printf "status_%s_label" $status))) }}
+{{ $description := printf "status_%s_description_plural" $status | i18n }}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
@@ -25,16 +24,16 @@
             <p itemprop="description">{{ $description }}</p>
           </header>{{ range $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}{{ with $pages := where .Pages "Params.statuses" $status }}
           <section>
-            <h2>{{ with index $strings.versions $version }}{{ . }}{{ else }}Firefox {{ $version }}{{ end }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</h2>
+            <h2>{{ if eq $version "future" }}{{ i18n "versions_future" }}{{ else }}Firefox {{ $version }}{{ end }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</h2>
             <ul>{{ range $pages }}
-              <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink (printf "%s" $.Site.BaseURL) $.Site.Params.BaseDir }}">{{ .Title | markdownify }}</a></li>{{ end }}
+              <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}">{{ .Title | markdownify }}</a></li>{{ end }}
             </ul>
           </section>{{ end }}{{ end }}
         </section>
         <nav class="nocontent">
-          <h2>{{ $strings.browse_status }}</h2>
+          <h2>{{ i18n "browse_status" }}</h2>
           <ul class="taxonomy terms">{{ range $status, $taxonomy := $.Site.Taxonomies.statuses }}
-            <li><a href="{{ $.Site.Params.BaseDir }}statuses/{{ $status }}/">{{ (index $strings.statuses $status).label }}</a></li>{{ end }}
+            <li><a href="/{{ $.Site.LanguageCode }}/statuses/{{ $status }}/">{{ printf "status_%s_label" $status | i18n }}</a></li>{{ end }}
           </ul>
         </nav>
       </div>
