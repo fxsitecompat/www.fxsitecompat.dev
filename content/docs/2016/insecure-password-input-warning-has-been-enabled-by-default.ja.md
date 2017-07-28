@@ -8,7 +8,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1319119"
       title: "Bug 1319119 - Turn on Insecure Password Warning in Firefox Release"
 aliases:
-  - "/docs/2016/insecure-password-input-warning-will-be-enabled-by-default/"
+    - "/ja/docs/2016/insecure-password-input-warning-will-be-enabled-by-default/"
 ---
 [Firefox 46](https://www.fxsitecompat.com/ja/docs/2015/non-https-sites-containing-login-form-will-be-marked-insecure/) 以降、現在表示されているページに `<input type="password">` が含まれていて、なおかつ接続が安全でない場合、Firefox Nightly と Developer Edition はロケーションバーに壊れた南京錠アイコンを表示しています。この [安全でないパスワード入力警告](https://twitter.com/FxSiteCompat/status/779224374742249472) は Firefox 50 で早期ベータ版にも拡大されました。Firefox 51 では、リリース版も含めすべてのチャンネルにおいて初期設定で有効となりました。
 
