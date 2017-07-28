@@ -40,7 +40,7 @@
           <section>
             <h2>{{ replace $category "-" "_" | printf "category_%s" | i18n }}</h2>
             <ul>{{ range $taxonomy.Pages }}{{ if in .Params.versions $version }}
-              <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}">{{ .Title | markdownify }}</a></li>{{ end }}{{ end }}
+              <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}">{{ .Title | markdownify | replaceRE "([a-z])([A-Z\\.])" "$1<wbr>$2" | safeHTML }}</a></li>{{ end }}{{ end }}
             </ul>
           </section>{{ end }}
         </section>
