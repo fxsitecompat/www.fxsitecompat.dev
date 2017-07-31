@@ -12,8 +12,14 @@ section_versions:
 section_about:
     other: About
 
+# Channels
+channel_nightly:
+    other: "Nightly"
+channel_beta:
+    other: "Beta / Developer Edition"
+
 # Versions
-versions_future:
+version_future:
     other: "Future"
 
 # Categories
@@ -45,19 +51,19 @@ status_affecting_label:
     other: "Affecting"
 status_affecting_description:
     other: "A change made for standard compliance, security or performance. A couple of sites were broken but those issues were or should be fixed by themselves."
-status_affecting_description_plural:
+status_affecting_description_list:
     other: "This list contains changes made for standard compliance, security or performance. A couple of sites were broken but those issues were or should be fixed by themselves."
 status_reverted_label:
     other: "Reverted"
 status_reverted_description:
     other: "A change made for standard compliance, security or performance. Many sites were broken and therefore this change was reverted with a subsequent Firefox release."
-status_reverted_description_plural:
+status_reverted_description_list:
     other: "This list contains changes made for standard compliance, security or performance. Many sites were broken and therefore those changes were reverted with a subsequent Firefox release."
 status_regressed_label:
     other: "Regressed"
 status_regressed_description:
     other: "A site compatibility issue unintentionally introduced and later discovered. One or more sites were broken and therefore this regression was fixed with a subsequent Firefox release."
-status_regressed_description_plural:
+status_regressed_description_list:
     other: "This list contains site compatibility issues unintentionally introduced and later discovered. One or more sites were broken and therefore those regressions were fixed with a subsequent Firefox release. Note that some issues are not documented yet."
 
 # Meta
@@ -72,9 +78,9 @@ contentinfo_tagline:
 contentinfo_description:
     other: "A community-driven Web developer engagement initiative focused on the backward compatibility and regressions in Firefox. Documents, latest updates & more."
 contentinfo_legal:
-    other: "Mozilla and Firefox are trademarks of The Mozilla Foundation. This initiative is not affiliated with Mozilla."
+    other: "Mozilla and Firefox are trademarks of the Mozilla Foundation. This initiative is not affiliated with Mozilla."
 contentinfo_contribute:
-    other: 'Improve this page'
+    other: "Suggest an Edit"
 
 # Search box
 search:
@@ -94,9 +100,7 @@ browse_version:
 browse_status:
     other: "Browse by Status"
 browse_all_versions:
-    other: "Previous versions"
-browse_all_categories:
-    other: "See all categories"
+    other: "Previous Versions"
 home_page_tagline:
     other: "<span>Together, We Build</span> <span>a Better Web</span>"
 home_page_description:

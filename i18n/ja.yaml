@@ -12,8 +12,14 @@ section_versions:
 section_about:
     other: 概要
 
+# Channels
+channel_nightly:
+    other: "Nightly"
+channel_beta:
+    other: "Beta / Developer Edition"
+
 # Versions
-versions_future:
+version_future:
     other: "今後"
 
 # Categories
@@ -45,19 +51,19 @@ status_affecting_label:
     other: "影響あり"
 status_affecting_description:
     other: "標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更。少数のサイトに影響を及ぼしたものの、それらの問題はサイト側で修正されたか、されるべきです。"
-status_affecting_description_plural:
+status_affecting_description_list:
     other: "このリストには、標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更が含まれます。少数のサイトに影響を及ぼしたものの、それらの問題はサイト側で修正されたか、されるべきです。"
 status_reverted_label:
     other: "取り消し"
 status_reverted_description:
     other: "標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更。相当数のサイトに影響を及ぼしたため、この変更は Firefox の後継バージョンで撤回されました。"
-status_reverted_description_plural:
+status_reverted_description_list:
     other: "このリストには、標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更が含まれます。相当数のサイトに影響を及ぼしたため、これらの変更は Firefox の後継バージョンで撤回されました。"
 status_regressed_label:
     other: "リグレッション"
 status_regressed_description:
     other: "意図せず取り込まれ後日発見されたサイト互換性問題。ひとつもしくは複数のサイトに影響を及ぼしたため、このリグレッションは Firefox の後継バージョンで修正されました。"
-status_regressed_description_plural:
+status_regressed_description_list:
     other: "このリストには、意図せず取り込まれ後日発見されたサイト互換性問題が含まれます。ひとつもしくは複数のサイトに影響を及ぼしたため、これらのリグレッションは Firefox の後継バージョンで修正されました。なお、一部の問題はまだ文書化されていません。"
 
 # Meta
@@ -74,7 +80,7 @@ contentinfo_description:
 contentinfo_legal:
     other: "Mozilla と Firefox は Mozilla Foundation の商標です。このイニシアチブは Mozilla とは無関係です。"
 contentinfo_contribute:
-    other: 'ページの改善を提案'
+    other: "編集を提案"
 
 # Search box
 search:
@@ -95,8 +101,6 @@ browse_status:
     other: "ステータス別に参照"
 browse_all_versions:
     other: "過去のバージョン"
-browse_all_categories:
-    other: "すべてのカテゴリー"
 home_page_tagline:
     other: "<span>ともに、より良い</span><span>ウェブを築こう</span>"
 home_page_description:

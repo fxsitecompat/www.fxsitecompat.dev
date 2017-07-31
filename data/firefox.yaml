@@ -3,10 +3,6 @@ versions:
     "55": "beta"
     "56": "nightly"
 
-channels:
-    nightly: "Nightly"
-    beta: "Beta / Developer Edition"
-
 dates:
     "16": "2012-10-09"
     "17": "2012-11-20"

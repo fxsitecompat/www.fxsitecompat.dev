@@ -10,7 +10,7 @@
   {{- $date_localized := (time $date).Format $.Site.Params.DateFormat.Localized -}}
   {{- with index $.Site.Data.firefox.versions $version -}}
     {{- $channel := . }}
-    {{- i18n "version_index_page_description_upcoming" (dict "version" $version "channel" $channel "channel_localized" (index $.Site.Data.firefox.channels $channel) "date" $date "date_localized" $date_localized) | $.Scratch.Set "description" -}}
+    {{- i18n "version_index_page_description_upcoming" (dict "version" $version "channel" $channel "channel_localized" (printf "channel_%s" $channel | i18n) "date" $date "date_localized" $date_localized) | $.Scratch.Set "description" -}}
   {{- else -}}
     {{- i18n "version_index_page_description" (dict "version" $version "date" $date "date_localized" $date_localized) | $.Scratch.Set "description" -}}
   {{- end -}}
@@ -47,7 +47,7 @@
         <nav class="nocontent">
           <h2>{{ i18n "browse_version" }}</h2>
           <ul class="taxonomy terms">{{ range first 4 $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}
-            <li><a href="/{{ $.Site.LanguageCode }}/versions/{{ $version }}/">{{ if eq $version "future" }}{{ i18n "versions_future" }}{{ else }}Firefox {{ $version }}{{ end }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a></li>{{ end }}
+            <li><a href="/{{ $.Site.LanguageCode }}/versions/{{ $version }}/">{{ if eq $version "future" }}{{ i18n "version_future" }}{{ else }}Firefox {{ $version }}{{ end }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ printf "channel_%s" . | i18n }}</em>{{ end }}</a></li>{{ end }}
             <li><a href="/{{ $.Site.LanguageCode }}/versions/">{{ i18n "browse_all_versions" }}</a></li>
           </ul>
         </nav>

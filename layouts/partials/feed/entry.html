@@ -8,7 +8,7 @@
     </author>{{ end }}
     <content type="html">{{ "<![CDATA[" | safeHTML }}{{ if eq .Section "docs" }}
       <p>{{ range .Params.versions }}
-        <strong>{{ i18n "feed_version" }}</strong>: <a href="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/versions/{{ . }}/">Firefox {{ . }}{{ with index $.Site.Data.firefox.versions . }} <em>{{ index $.Site.Data.firefox.channels . }}</em>{{ end }}</a><br>{{ end }}{{ range .Params.categories }}
+        <strong>{{ i18n "feed_version" }}</strong>: <a href="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/versions/{{ . }}/">Firefox {{ . }}{{ with index $.Site.Data.firefox.versions . }} <em>{{ printf "channel_%s" . | i18n }}</em>{{ end }}</a><br>{{ end }}{{ range .Params.categories }}
         <strong>{{ i18n "feed_category" }}</strong>: <a href="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/categories/{{ . }}/">{{ replace . "-" "_" | printf "category_%s" | i18n }}</a><br>{{ end }}
       </p>
       <h2>{{ i18n "description" }}</h2>
