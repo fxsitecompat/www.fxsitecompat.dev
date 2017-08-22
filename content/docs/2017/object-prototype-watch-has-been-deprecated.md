@@ -13,4 +13,30 @@ aliases:
     - "/en-CA/docs/2015/object-prototype-watch-will-be-removed/"
     - "/en-CA/docs/2017/object-prototype-watch-will-be-removed/"
 ---
-The non-standard [`Object.prototype.watch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/watch) and [`unwatch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/unwatch) methods are now considered deprecated and will be removed in the near future. Firefox 57 and later shows a warning in the Console for these methods. Use the standard [`Proxy`] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) or [`Reflect`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect) object instead.
+The non-standard [`Object.prototype.watch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/watch) and [`unwatch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/unwatch) methods are now considered deprecated and will be removed in the near future. Firefox 57 and later shows a warning in the Console for these methods that are not supported by any other browsers. Use the standard [`Proxy`] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) or [`Reflect`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect) object instead.
+
+The following example is a simple replacement of `Object.prototype.watch` by `Proxy`:
+
+```js
+const o = { a: 1 };
+
+// Don't do this
+o.watch('a', (prop, oldval, newval) => {
+  console.log(`o.${prop} has been changed from ${oldval} to ${newval}`);
+  return newval;
+});
+
+o.a = 2; // o.a has been changed from 1 to 2
+
+// Do this
+const p = new Proxy(o, {
+  set: (obj, prop, newval) => {
+    const oldval = obj[prop];
+    obj[prop] = newval;
+    console.log(`p.${prop} has been changed from ${oldval} to ${newval}`);
+    return true;
+  }
+});
+
+p.a = 3; // p.a has been changed from 2 to 3
+```
