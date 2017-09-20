@@ -16,3 +16,5 @@ references:
       title: "Bug 1394408 - [meta] tab switching bugs related to async painting"
 ---
 Firefox 55 for Windows has enabled the async drawing of Flash plug-in content. While this change generally improves the browser performance, there are several regressions including text becoming white, performance declining significantly, and response aborting when switching tabs. Not all Flash sites and users are affected, and some people have already solved their issue by [enabling Flash hardware acceleration](https://forums.adobe.com/thread/891337). Also, the Windows 64-bit version of Firefox is likely unaffected. Mozilla developers are investigating the root cause.
+
+**Update**: Mozilla developers are looking at the painting issue on tab switch. Other bugs are being investigated by Adobe.
