@@ -3,7 +3,7 @@ title: "HTML コンテキストメニュー対応が廃止されます"
 date: "2017-07-17T14:06:00-04:00"
 categories: ["html"]
 tags: []
-versions: ["57"]
+versions: ["future"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1372276"
       title: "Bug 1372276 - Remove HTML context menu (<menu> and <menuitem> tag) support"
