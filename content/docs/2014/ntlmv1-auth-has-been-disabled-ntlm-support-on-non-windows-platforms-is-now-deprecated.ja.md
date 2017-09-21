@@ -18,6 +18,6 @@ NT LAN Manager バージョン 1 (NTLMv1) ネットワーク認証のセキュ�
 
 この変更は *SharePoint* ベースあるいは *IIS* 基盤のイントラネットアプリケーションに影響しています。Firefox 30 以降のバージョン何か問題に遭遇した場合は、設定を使い手作業で NTLMv1 を有効化することができます。なお、Windows 以外のプラットフォームでは NTLMv2 に対応していないため、OS X と Linux のユーザーは以下のように NTLMv1 を使い続けるためその設定を切り替える必要があります。ただし、Windows 以外のプラットフォームでの NTLM 認証対応は廃止予定とされています。
 
-NTLMv1 の有効化手順: ロケーションバーに `about:config` と入力し、「細心の注意を払って使用する」ボタンをクリック、`network.negotiate-auth.allow-insecure-ntlm-v1` という項目を探し、その上でダブルクリックして値を `true` に変更します。
+NTLMv1 の有効化手順: アドレスバーに `about:config` と入力し、「細心の注意を払って使用する」ボタンをクリック、`network.negotiate-auth.allow-insecure-ntlm-v1` という項目を探し、その上でダブルクリックして値を `true` に変更します。
 
 もうひとつの回避策は、まだ NTLMv1 が有効化されている [Firefox 24 <abbr title="Extended Support Release">ESR</abbr>](http://www.mozilla.jp/business/downloads/) を使うことです。

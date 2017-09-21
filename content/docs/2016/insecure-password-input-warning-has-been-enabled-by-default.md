@@ -10,7 +10,7 @@ references:
 aliases:
     - "/en-CA/docs/2016/insecure-password-input-warning-will-be-enabled-by-default/"
 ---
-Since [Firefox 46](https://www.fxsitecompat.com/en-CA/docs/2015/non-https-sites-containing-login-form-will-be-marked-insecure/), Firefox Nightly and Developer Edition have been showing a broken padlock icon on the location bar when the current page has `<input type="password">` while the connection is not secure. Firefox 50 expanded this [insecure password input warning](https://twitter.com/FxSiteCompat/status/779224374742249472) to early Beta versions. Firefox 51 makes it enabled by default on all channels including the Release version.
+Since [Firefox 46](https://www.fxsitecompat.com/en-CA/docs/2015/non-https-sites-containing-login-form-will-be-marked-insecure/), Firefox Nightly and Developer Edition have been showing a broken padlock icon on the Address Bar when the current page has `<input type="password">` while the connection is not secure. Firefox 50 expanded this [insecure password input warning](https://twitter.com/FxSiteCompat/status/779224374742249472) to early Beta versions. Firefox 51 makes it enabled by default on all channels including the Release version.
 
 Thought the indicator is not so prominent at this moment, there will be more warnings including [in-context UI changes](https://www.fxsitecompat.com/en-CA/docs/2017/insecure-login-forms-now-disable-autofill-show-warning-beneath-input-control/) as part of the ongoing [insecure HTTP deprecation](https://www.fxsitecompat.com/en-CA/docs/2015/insecure-http-will-be-deprecated/). Web developers are strongly encouraged to move any sign-in form to an HTTPS page or ideally make the page itself HTTPS in order to protect customers.
 

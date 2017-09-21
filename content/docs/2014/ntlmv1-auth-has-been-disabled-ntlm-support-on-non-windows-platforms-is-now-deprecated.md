@@ -18,6 +18,6 @@ The support for the NT LAN Manager version 1 (NTLMv1) network authentication has
 
 This is affecting *SharePoint*-based or *IIS*-backed intranet applications. If you encounter any problems on Firefox 30 or later, you can manually enable NTLMv1 using a preference. Note that NTLMv2 is not supported on non-Windows platforms, so OS X and Linux users have to toggle the preference to continue using NTLMv1 as below, though the NTLM auth support on non-Windows platforms is considered deprecated.
 
-How to enable NTLMv1: type `about:config` in the location bar, click the "I'll be careful" button, find `network.negotiate-auth.allow-insecure-ntlm-v1`, double-click on it to change the value to `true`.
+How to enable NTLMv1: type `about:config` in the Address Bar, click the "I'll be careful" button, find `network.negotiate-auth.allow-insecure-ntlm-v1`, double-click on it to change the value to `true`.
 
 Another workaroud here is using [Firefox 24 <abbr title="Extended Support Release">ESR</abbr>](https://www.mozilla.org/en-US/firefox/organizations/) that still enables the NTLMv1 auth.
