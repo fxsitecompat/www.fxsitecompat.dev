@@ -19,4 +19,4 @@ aliases:
 
 Firefox 48 リリースの時点ですべての Firefox ユーザーが *e10s* の恩恵を受けるわけではなく、技術的にはまだ *e10s* が無効の場合にはこのメソッドは存在します。ただ、実質的に廃止されたことを踏まえて、標準の [`window.open`](https://developer.mozilla.org/ja/docs/Web/API/Window/open) メソッドか独自のページ内モーダル UI を代わりに使ってください。後者の場合、アクセシビリティを確保するため WAI-ARIA の [`dialog` ロール](https://developer.mozilla.org/ja/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_dialog_role) を実装することが推奨されます。残念ながら HTML の [`<dialog>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/dialog) 要素はまだ Firefox には実装されていません。
 
-**更新**: このメソッドは全ユーザーの Firefox 55 から削除されました。
+**更新**: このメソッドは全ユーザーの Firefox 56 から削除されました。

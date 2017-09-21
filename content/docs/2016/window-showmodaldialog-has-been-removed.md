@@ -19,4 +19,4 @@ The legacy [`window.showModalDialog`](https://developer.mozilla.org/en-US/docs/W
 
 Not all Firefox users will benefit from *e10s* as of the release of Firefox 48, and technically the method still exists when *e10s* is disabled. However, given that it's practically gone, you should be using the standard [`window.open`](https://developer.mozilla.org/en-US/docs/Web/API/Window/open) method or a custom in-page modal UI instead. In the latter case, it is recommended to implement the WAI-ARIA [`dialog` role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_dialog_role) to ensure the accessibility. Unfortunately the HTML [`<dialog>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog) element is not yet implemented in Firefox.
 
-**Update**: The method has been removed from Firefox 55 for all users.
+**Update**: The method has been removed from Firefox 56 for all users.
