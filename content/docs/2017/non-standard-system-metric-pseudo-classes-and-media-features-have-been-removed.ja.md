@@ -9,6 +9,12 @@ references:
       title: "Bug 1396066 - Avoid exposing :-moz-system-metric stuff in content pages."
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1035774"
       title: "Bug 1035774 - Implement Interaction Media Features including pointer:coarse that replaces non-standard -moz-touch-enabled"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1406631"
+      title: "Bug 1406631 - Remove color-picker-available system metric."
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1408838"
+      title: "Bug 1408838 - Remove physical-home-button media feature."
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1408839"
+      title: "Bug 1408839 - Hide some moz-scrollbar media features in content docs."
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/RVttfrQkXLU/discussion"
       title: "Intent to unship: :-moz-system-metric pseudo-class and media queries in content pages."
 ---
@@ -18,6 +24,7 @@ references:
 
 以下のメディア特性も併せて廃止されました。
 
+* `-moz-color-picker-available`
 * `-moz-is-glyph`
 * [`-moz-mac-graphite-theme`](https://developer.mozilla.org/ja/docs/Web/CSS/@media/-moz-mac-graphite-theme)
 * `-moz-mac-yosemite-theme`
