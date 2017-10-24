@@ -16,3 +16,5 @@ Firefox 44 以降で、OpenType Sanitizer の新バージョンによるより�
 **更新**: *Nokia* を含め一部のサイトが影響を受けていることから、Firefox 45 以降、Beta、Release 両チャンネルではこのバリデーションは緩和されています。しかし、問題のあるフォントはいずれにしても置き換えられるべきです。
 
 **更新 2**: [*Google Fonts*](https://fonts.google.com/) 上の一部フォントも壊れており、Firefox Nightly および Developer Edition では「豆腐」文字が表示されてしまいます。
+
+**更新 3**: *Google Fonts* 上で正常に表示されなかったフォントは Google によって 2017 年 10 月に修正されました。

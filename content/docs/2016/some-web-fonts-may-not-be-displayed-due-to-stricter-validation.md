@@ -16,3 +16,5 @@ On Firefox 44 and later, some Web fonts may be rejected due to the stricter vali
 **Update**: Due to a couple of affected sites including *Nokia*, the validation has been loosened on the Beta and Release channels since Firefox 45. However, problematic fonts should be replaced anyway.
 
 **Update 2**: Some fonts on [*Google Fonts*](https://fonts.google.com/) are also broken, showing "tofu" characters on Firefox Nightly and Developer Edition.
+
+**Update 3**: The broken fonts on *Google Fonts* have been fixed by Google in October 2017.
