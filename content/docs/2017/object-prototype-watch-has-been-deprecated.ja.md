@@ -5,8 +5,6 @@ categories: ["javascript"]
 tags: []
 versions: ["57"]
 references:
-    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=638054"
-      title: "Bug 638054 - JavaScript Object.prototype.watch should be removed, once an adequate debugger-only replacement exists"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=934669"
       title: "Bug 934669 - Deprecate Object.prototype.{,un}watch, and make them warn when used"
 aliases:
@@ -40,3 +38,5 @@ const p = new Proxy(o, {
 
 p.a = 3; // p.a は 2 から 3 へ変更されました
 ```
+
+**更新**: これらのメソッドは [Firefox 58](https://www.fxsitecompat.com/ja/docs/2017/object-prototype-watch-has-been-removed/) で削除されました。
