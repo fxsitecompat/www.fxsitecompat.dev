@@ -1,16 +1,16 @@
 ---
-title: "`Date.prototype.toLocaleFormat` が廃止予定となりました"
-date: "2017-08-01T20:07:00-04:00"
+title: "`Date.prototype.toLocaleFormat` が削除されました"
+date: "2017-10-25T17:27:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["55"]
+versions: ["58"]
 references:
-    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1299900"
-      title: "Bug 1299900 - Warn when Date.prototype.toLocaleFormat is used"
-    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1344625"
-      title: "Bug 1344625 - Turn on ENABLE_INTL_API=yes on Android's release build"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=818634"
+      title: "Bug 818634 - Remove support for Date.prototype.toLocaleFormat"
+aliases:
+    - "/ja/docs/2015/date-prototype-tolocaleformat-will-be-removed/"
 ---
-非標準 [`Date.prototype.toLocaleFormat`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat) メソッドへの対応が廃止予定となり、近い将来 [削除される](https://www.fxsitecompat.com/ja/docs/2015/date-prototype-tolocaleformat-will-be-removed/) こととなりました。Firefox 55 以降、コンソールにこのメソッドに対する警告が表示されます。
+[Firefox 55](https://www.fxsitecompat.com/ja/docs/2017/date-prototype-tolocaleformat-has-been-deprecated/) 以降廃止予定となっていた [`Date.prototype.toLocaleFormat`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat) メソッドは、標準化されなかったため、Firefox 58 で削除されました。Firefox 以外どのブラウザもこのメソッドを実装していません。
 
 例えば [Sugar](https://sugarjs.com/) のように同じ結果を得られる JavaScript ライブラリがあります。また、以下の例が示すように、[ECMAScript Internationalization API](https://hacks.mozilla.org/2014/12/introducing-the-javascript-internationalization-api/) の一部である標準の [`toLocaleDateString`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString) メソッドを使用することもできます。
 
@@ -40,7 +40,3 @@ references:
   hour12: false,
 }).replace(/(\d+)\/(\d+)\/(\d+),\s(.*)/, '$3-$1-$2 $4');
 ```
-
-なお、Intl API は Android では Firefox 56 以降で使用可能となっています。一方デスクトップ版 Firefox では Firefox 29 で既に対応が追加されています。
-
-**更新**: このメソッドは [Firefox 58](https://www.fxsitecompat.com/ja/docs/2017/date-prototype-tolocaleformat-has-been-removed/) で削除されました。

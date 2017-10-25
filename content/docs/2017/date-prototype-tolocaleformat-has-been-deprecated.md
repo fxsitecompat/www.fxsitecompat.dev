@@ -42,3 +42,5 @@ There are JavaScript libraries like [Sugar](https://sugarjs.com/) to achieve the
 ```
 
 Note that the Intl API is available on Firefox 56 and later on Android, while the desktop version of Firefox has already added the support with Firefox 29.
+
+**Update**: This method has been removed with [Firefox 58](https://www.fxsitecompat.com/en-CA/docs/2017/date-prototype-tolocaleformat-has-been-removed/).
