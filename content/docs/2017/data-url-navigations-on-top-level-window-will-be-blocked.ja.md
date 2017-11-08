@@ -13,6 +13,14 @@ references:
       title: "Bug 1398692 - Potentially allow navigations to toplevel data: PDFs"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1396798"
       title: "Bug 1396798 - Don't block top level data: URIs when loading an image"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1401895"
+      title: "Bug 1401895 - Block top-level navigations to data: URIs"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1403641"
+      title: "Bug 1403641 - Download behaviour for data: URL seems different in FF57 compared to 55"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1403814"
+      title: "Bug 1403814 - Block toplevel data: URI navigations only if openend in the browser"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1403870"
+      title: "Bug 1403870 - Potentially allow navigations to data:application/json"
 ---
 小さなデータファイルをウェブページへ埋め込めるようにする `data:` スキーマ接頭辞付きの [データ URL](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs) は、ブラウザー内に偽の内容を表示しつつ正規のアドレス文字列を含めることができてしまうため、フィッシング攻撃に悪用されることがしばしばあります。
 
@@ -30,3 +38,5 @@ SVG を除く画像と PDF ファイルは除外されており、それらの�
 * ユーザーがアドレスバーにデータ URL を手入力してコンテンツを読み込もうとした場合
 * ページが `<frame>` あるいは `<iframe>` にデータ URL を読み込もうとした場合
 * ページが画像その他の素材にデータ URL を使用した場合
+
+**更新**: Firefox 58 Nightly と早期 Beta チャンネルで実装が更新され、JSON ファイルも除外されるようになり、またダウンロードを実行させるデータファイルはブロックされなくなりました。
