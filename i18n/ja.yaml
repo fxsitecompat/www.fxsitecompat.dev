@@ -148,7 +148,7 @@ version_index_page_description:
 version_index_page_description_upcoming:
     other: '現在 <a href="https://www.mozilla.org/ja/firefox/channel/desktop/#{{.channel}}"><em>{{.channel_localized}}</em></a> チャンネルで提供され <time datetime="{{.date}}">{{.date_localized}}</time> 公開予定の Firefox {{.version}} に含まれる変更点に関する互換性情報を参照できます。'
 version_index_page_description_secondary:
-    other: 'このリストは、さらなる変更が行われたり新たなリグレッションが発見された場合には更新されますので、ぜひ <a href="/ja/index.xml">サイトのフィード</a> を購読してください。新機能や改良点など Firefox {{.version}} のより一般的な情報は <a href="https://developer.mozilla.org/ja/Firefox/Releases/{{.version}}">Mozilla Developer Network</a> で公開されています。'
+    other: 'このリストは、さらなる変更が行われたり新たなリグレッションが発見された場合には更新されますので、ぜひ <a href="/ja/index.xml">サイトのフィード</a> を購読してください。新機能や改良点など Firefox {{.version}} のより一般的な情報は <a href="https://developer.mozilla.org/ja/Firefox/Releases/{{.version}}">MDN</a> で公開されています。'
 version_index_page_description_future:
     other: 'Firefox の今後のバージョンで予定されている変更点に関する互換性情報を参照できます。このリストは、さらなる変更が計画された場合には更新されますので、<a href="/ja/index.xml">サイトのフィード</a> を購読し、最新情報を入手してください。今のうちに備えて、あなたのサイトをできる限り優れたものにしましょう！'
 
