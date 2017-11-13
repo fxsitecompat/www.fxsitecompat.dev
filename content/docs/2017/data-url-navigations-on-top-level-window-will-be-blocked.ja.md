@@ -3,7 +3,7 @@ title: "トップレベルウィンドウ上のデータ URL 遷移はブロッ�
 date: "2017-09-20T22:02:00-04:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["future"]
+versions: ["59"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1331351"
       title: "Bug 1331351 - Consider blocking top level window data: URIs"

@@ -3,7 +3,7 @@ title: "条件付き `catch` 節は廃止されます"
 date: "2015-11-29T13:42:00-08:00"
 categories: ["javascript"]
 tags: []
-versions: ["future"]
+versions: ["59"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1228841"
       title: "Bug 1228841 - Remove support for conditional catch expressions"
