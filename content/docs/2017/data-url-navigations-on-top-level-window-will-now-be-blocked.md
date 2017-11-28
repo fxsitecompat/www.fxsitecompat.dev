@@ -23,6 +23,8 @@ references:
       title: "Bug 1403870 - Potentially allow navigations to data:application/json"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1415612"
       title: "Bug 1415612 - Allow all plain text types when navigating top-level data URIs"
+    - url: "https://blog.mozilla.org/security/2017/11/27/blocking-top-level-navigations-data-urls-firefox-58/"
+      title: "Blocking Top-Level Navigations to data URLs for Firefox 58"
 aliases:
     - "/en-CA/docs/2017/data-url-navigations-on-top-level-window-will-be-blocked/"
 ---
