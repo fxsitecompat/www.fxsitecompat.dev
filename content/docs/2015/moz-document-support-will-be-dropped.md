@@ -12,8 +12,8 @@ references:
       title: "Bug 1422245 - Toggle the pref to disable @-moz-document in content pages on release"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1423331"
       title: "Bug 1423331 - telegram text box cursor is confused when focusing both window and textbox in 59.0a1 (2017-12-05) (64-bit)"
-    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1424633"
-      title: "Bug 1424633 - Can't check in to flight on aircanada.ca"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1426068"
+      title: "Bug 1426068 - Disabling @-moz-document results in users being unable to enter line-breaks into YouTube comments"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/RysotXvooV0/discussion"
       title: "Intent to unship: @-moz-document from content pages."
 aliases:
@@ -25,4 +25,4 @@ The [`@-moz-document`](https://developer.mozilla.org/en-US/docs/Web/CSS/@documen
 
 **Update 2**: The at-rule support has been removed again from Nightly and early Beta as of Firefox 59. It will soon be completely dropped.
 
-**Update 3**: The websites of *Air Canada* and *Telegram* are known to be broken due to this change.
+**Update 3**: *Telegram* and *YouTube* are known to be broken due to this change.
