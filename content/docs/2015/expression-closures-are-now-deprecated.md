@@ -9,3 +9,5 @@ references:
       title: "Bug 995610 – Add console warnings for expression closures (shorthand function syntax)"
 ---
 The [expression closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Expression_closures) syntax, introduced with JavaScript 1.8, is now considered deprecated and will be [removed in the near future](https://www.fxsitecompat.com/en-CA/docs/2015/expression-closure-support-will-be-removed/). Use the ECMAScript 6 [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) syntax instead.
+
+**Update**: The expression closure support has been [removed with Firefox 59](https://www.fxsitecompat.com/en-CA/docs/2017/expression-closure-support-has-been-removed/).
