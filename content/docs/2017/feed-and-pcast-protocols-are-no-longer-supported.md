@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/abHJ-jaQ5YY/discussion"
       title: "Intent to remove pcast and feed protocols"
 ---
-Firefox 59 has removed the support for the `feed` and `pcast` protocols for web feed handling, which were never standardized or implemented in other browsers. The built-in feed preview functionality will continue working without these protocols, so there should be no risk of the removal.
+Firefox 59 has removed the support for the `feed` and `pcast` protocols for web feed handling, which were never standardized or implemented in other browsers. The built-in feed preview functionality will continue working with `https` or `http` feed URLs without one of these protocols, so there should be no risk of the removal.
