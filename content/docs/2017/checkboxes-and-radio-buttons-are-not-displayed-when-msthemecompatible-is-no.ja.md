@@ -21,6 +21,6 @@ Firefox 54 で HTML チェックボックスやラジオボタンの描画方法
 
 しかしながら、ドキュメントの `<head>` 内に `<meta http-equiv="MSThemeCompatible" content="no">` が存在するとそれらの要素が見えなくなってしまうという、思わぬ副作用がこの変更によってもたらされました。
 
-[MSDN の記事](https://msdn.microsoft.com/en-us/library/ms533876(v=vs.85).aspx) によれば、当該の `<meta>` タグは Windows XP 向け Internet Explorer 上で「ドキュメントのテーマ対応を無効化する」もので、Firefox も長いこと部分的な互換性を保ってきました。一方、Google Chrome や Microsoft Edge など他のどのブラウザもこの非標準の無名機能に対応していません。
+[MSDN の記事](https://msdn.microsoft.com/en-us/library/ms533876(v=vs.85).aspx) によれば、当該の `<meta>` タグは Windows XP 向け Internet Explorer 上で「ドキュメントのテーマ対応を無効化する」もので、Firefox も長いこと部分的な互換性を保ってきました。一方、Google Chrome や Microsoft Edge など他のどのブラウザーもこの非標準の無名機能に対応していません。
 
 問題となった描画リグレッションは Firefox 55 で `MSThemeCompatible` 対応を廃止することで解決されました。ウェブ開発者の皆さんは単純にサイトからこの時代遅れとなった `<meta>` タグを取り除くことで問題を回避できます。

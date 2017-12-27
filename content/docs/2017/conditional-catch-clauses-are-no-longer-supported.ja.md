@@ -10,4 +10,4 @@ references:
 aliases:
     - "/ja/docs/2015/conditional-catch-clause-support-will-be-removed/"
 ---
-非標準の [条件付き `catch` 節](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/try...catch#Conditional_catch_clauses) への対応は Firefox 59 で削除されました。MDN の記事で説明されている通り、標準の [`if...else`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/if...else) 命令文で代用してください。他のブラウザには実装されたことがないため、互換性リスクは非常に低いはずです。
+非標準の [条件付き `catch` 節](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/try...catch#Conditional_catch_clauses) への対応は Firefox 59 で削除されました。MDN の記事で説明されている通り、標準の [`if...else`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/if...else) 命令文で代用してください。他のブラウザーには実装されたことがないため、互換性リスクは非常に低いはずです。
