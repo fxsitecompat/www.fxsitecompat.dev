@@ -28,7 +28,7 @@ references:
 aliases:
     - "/ja/docs/2017/data-url-navigations-on-top-level-window-will-be-blocked/"
 ---
-小さなデータファイルをウェブページへ埋め込めるようにする `data:` スキーマ接頭辞付きの [データ URL](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs) は、ブラウザー内に偽の内容を表示しつつ正規のアドレス文字列を含めることができてしまうため、フィッシング攻撃に悪用されることがしばしばあります。
+小さなデータファイルをウェブページへ埋め込めるようにする `data:` スキーマ接頭辞付きの [データ URL](https://developer.mozilla.org/ja/docs/Web/HTTP/Basics_of_HTTP/Data_URIs) は、ブラウザー内に偽の内容を表示しつつ正規のアドレス文字列を含めることができてしまうため、フィッシング攻撃に悪用されることがしばしばあります。
 
 こうしたセキュリティリスクを緩和するため、Firefox はトップレベルブラウザーウィンドウ内でデータ URL を開く恐れのあるページ遷移試行を近々ブロックする予定です。この変更は以下のようなシナリオに影響します。
 
