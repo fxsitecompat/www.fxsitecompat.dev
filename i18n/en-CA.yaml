@@ -148,7 +148,7 @@ version_index_page_description:
 version_index_page_description_upcoming:
     other: 'Browse our compatibility notes about the changes in Firefox {{.version}}, currently offered on the <a href="https://www.mozilla.org/en-US/firefox/channel/desktop/#{{.channel}}"><em>{{.channel_localized}}</em></a> channel and scheduled to be released on <time datetime="{{.date}}">{{.date_localized}}</time>.'
 version_index_page_description_secondary:
-    other: 'This list will be updated when a further change is made or a new regression is found, so make sure to subscribe to our <a href="/en-CA/index.xml">site feed</a>. More general information for Firefox {{.version}}, including the new features and enhancements, can be found at <a href="https://developer.mozilla.org/en-US/Firefox/Releases/{{.version}}">MDN</a>.'
+    other: 'This list will be updated when a further change is made or a new regression is found, so make sure to subscribe to our <a href="/en-CA/index.xml">site feed</a>.'
 version_index_page_description_future:
     other: 'Browse our compatibility notes about the changes to be made with future Firefox releases. This list will be updated when a further change is planned, so subscribe to our <a href="/en-CA/index.xml">site feed</a> for updates. Be prepared today to make your site as great as possible!'
 
