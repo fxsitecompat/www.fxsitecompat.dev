@@ -6,7 +6,7 @@ tags: []
 versions: ["59"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1417200"
-      title: "Bug 1417200 - Unship or make chrome only -moz-border-*-colors"
+      title: "Bug 1417200 - Make -moz-border-*-colors chrome only"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/D23VvCJO53Q/discussion"
       title: "Intent to unship -moz-border-*-colors from content pages."
 ---
