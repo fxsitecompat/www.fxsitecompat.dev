@@ -1,7 +1,7 @@
 metaDataFormat: "yaml"
 disableHugoGeneratorInject: true
 baseURL: "https://www.fxsitecompat.com/"
-defaultContentLanguage: "en-ca"
+defaultContentLanguage: "en-CA"
 defaultContentLanguageInSubdir: true
 hasCJKLanguage: true
 disablePathToLower: true
@@ -27,7 +27,7 @@ params:
     GoogleSiteSearchID: "006388931142546140887:uidl4-zslfu"
 
 Languages:
-    en-ca:
+    en-CA:
         languageCode: "en-CA"
         languageName: "English"
         weight: 1
