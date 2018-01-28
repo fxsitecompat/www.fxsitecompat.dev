@@ -11,8 +11,6 @@
     <meta name="description" content="{{ $description | safeHTML }} ...">
   </head>
   <body class="single docs article" itemscope itemtype="http://schema.org/ItemPage" itemref="copyright translation">
-    <meta itemprop="name" content="{{ $title | html }}{{ partial "status-label/suffix" . }}">
-    <meta itemprop="description" content="{{ $description | safeHTML }} ...">
 {{ partial "header.html" . }}
 {{ partial "search.html" . }}
     <nav itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">

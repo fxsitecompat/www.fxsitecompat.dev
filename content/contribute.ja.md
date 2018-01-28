@@ -6,7 +6,7 @@ slug: "contribute"
 ---
 ## フォロー
 
-* **ソーシャルメディア**: [Twitter](https://twitter.com/FxSiteCompat)、[Facebook](https://www.facebook.com/FxSiteCompat) あるいは [Google+](https://plus.google.com/+FxSiteCompatibility) で私たちをフォローしてください。(これらのメディアでの情報発信は今のところ基本的に英語のみです)
+* **ソーシャルメディア**: [Twitter](https://twitter.com/FxSiteCompat) あるいは [Facebook](https://www.facebook.com/FxSiteCompat) で私たちをフォローしてください。(これらのメディアでの情報発信は今のところ基本的に英語のみです)
 * **フィード**: このサイトの [Atom フィード](/ja/index.xml) を購読してください。
 
 ## サイトのテスト

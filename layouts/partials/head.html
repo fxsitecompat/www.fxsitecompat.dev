@@ -14,8 +14,6 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{ $.Site.Params.Publisher.TwitterUserName }}">
     <meta name="twitter:creator" content="@{{ $.Site.Params.Author.TwitterUserName }}">
-    <link rel="author" href="https://plus.google.com/&#43;{{ $.Site.Params.Author.GoogleUserName }}">
-    <link rel="publisher" href="https://plus.google.com/&#43;{{ $.Site.Params.Publisher.GoogleUserName }}">
     <link rel="canonical" hreflang="{{ $.Site.LanguageCode }}" href="{{ replace .Permalink "/en-ca/" "/en-CA/" }}">
     <link rel="alternate" hreflang="x-default" href="{{ replace .Permalink .LanguagePrefix "" }}">
     <link rel="alternate" hreflang="{{ $.Site.LanguageCode }}" href="{{ replace .Permalink "/en-ca/" "/en-CA/" }}" title="{{ $.Site.Language.LanguageName }}">{{ range $.Translations }}

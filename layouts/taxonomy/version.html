@@ -25,8 +25,6 @@
     <meta name="description" content="{{ $description | plainify }}">
   </head>
   <body class="list docs term version" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright translation">
-    <meta itemprop="name" content="{{ if eq $version "future" }}{{ $title_future }}{{ else }}{{ $title }}{{ end }}">
-    <meta itemprop="description" content="{{ $description | plainify }}">
 {{ partial "header.html" . }}
 {{ partial "search.html" . }}
 {{ partial "breadcrumbs/docs.html" . }}

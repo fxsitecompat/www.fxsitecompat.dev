@@ -8,8 +8,6 @@
     <meta name="description" content="{{ .Description }}">
   </head>
   <body class="single" itemscope itemtype="http://schema.org/{{ if eq .Slug "about" }}AboutPage{{ else }}WebPage{{ end }}" itemref="copyright translation">
-    <meta itemprop="name" content="{{ .Title }}">
-    <meta itemprop="description" content="{{ .Description }}">
 {{ partial "header.html" . }}
 {{ partial "breadcrumbs/home.html" . }}
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
