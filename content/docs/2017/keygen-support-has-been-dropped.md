@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "`<keygen>` support has been dropped"
 date: "2017-12-26T11:12:00-05:00"
 categories: ["dom", "html", "privacy-security"]
