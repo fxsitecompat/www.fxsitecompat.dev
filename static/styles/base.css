@@ -97,10 +97,6 @@
     font-family: 'FontAwesome';
   }
 
-  .fa.facebook::before {
-    content: '\f230';
-  }
-
   .fa.twitter::before {
     content: '\f099';
   }

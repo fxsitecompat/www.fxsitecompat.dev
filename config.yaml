@@ -18,12 +18,8 @@ params:
         Name: "Kohei Yoshino"
         Email: "webmaster@fxsitecompat.com"
         TwitterUserName: "koyoskeh"
-        FacebookID: "100003919776216"
-        FacebookUserName: "kohei.yoshino.aqr"
     Publisher:
         TwitterUserName: "FxSiteCompat"
-        FacebookID: "633917723366737"
-        FacebookUserName: "FxSiteCompat"
     GoogleSiteSearchID: "006388931142546140887:uidl4-zslfu"
 
 Languages:
@@ -69,12 +65,8 @@ Languages:
                   weight: 1
                   identifier: "twitter"
                   url: "https://twitter.com/FxSiteCompat"
-                - name: "Facebook"
-                  weight: 2
-                  identifier: "facebook"
-                  url: "https://www.facebook.com/FxSiteCompat"
                 - name: "GitHub"
-                  weight: 3
+                  weight: 2
                   identifier: "github"
                   url: "https://github.com/fxsitecompat"
     ja:
@@ -119,11 +111,7 @@ Languages:
                   weight: 1
                   identifier: "twitter"
                   url: "https://twitter.com/FxSiteCompat"
-                - name: "Facebook"
-                  weight: 2
-                  identifier: "facebook"
-                  url: "https://www.facebook.com/FxSiteCompat"
                 - name: "GitHub"
-                  weight: 3
+                  weight: 2
                   identifier: "github"
                   url: "https://github.com/fxsitecompat"
