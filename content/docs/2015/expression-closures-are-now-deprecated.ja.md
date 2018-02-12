@@ -10,4 +10,4 @@ references:
 ---
 JavaScript 1.8で導入された [式クロージャー](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Expression_closures) 構文が廃止予定となり、[近い将来削除されることとなりました](https://www.fxsitecompat.com/ja/docs/2015/expression-closure-support-will-be-removed/)。代わりに ECMAScript 6 [アロー関数](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/Arrow_functions) 構文を使用してください。
 
-**更新**: 式クロージャー対応は [Firefox 59 で廃止されました](https://www.fxsitecompat.com/ja/docs/2017/expression-closure-support-has-been-removed/)。
+**更新**: 式クロージャー対応は [Firefox 60 で廃止されました](https://www.fxsitecompat.com/ja/docs/2017/expression-closure-support-has-been-removed/)。
