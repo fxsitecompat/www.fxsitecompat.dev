@@ -8,4 +8,4 @@ Mozilla has released [Firefox 42, 43 Beta and 44 Developer Edition](https://www.
 * [Firefox 43 Site Compatibility](https://www.fxsitecompat.com/en-CA/versions/43/)
 * [Firefox 44 Site Compatibility](https://www.fxsitecompat.com/en-CA/versions/44/)
 
-As always, don't forget to follow us on [Twitter](https://twitter.com/FxSiteCompat) or [Facebook](https://www.facebook.com/FxSiteCompat), and subscribe to the [site feed](https://www.fxsitecompat.com/en-CA/index.xml) for updates.
+As always, don't forget to follow us on [Twitter](https://twitter.com/FxSiteCompat), [Facebook](https://www.facebook.com/FxSiteCompat) or [Google+](https://plus.google.com/+FxSiteCompatibility), and subscribe to the [site feed](https://www.fxsitecompat.com/en-CA/index.xml) for updates.

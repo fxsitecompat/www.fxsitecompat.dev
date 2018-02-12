@@ -8,4 +8,4 @@ Mozilla は昨日と今日 [Firefox 42、43 Beta、44 Developer Edition](https:/
 * [Firefox 43 サイト互換性情報](https://www.fxsitecompat.com/ja/versions/43/)
 * [Firefox 44 サイト互換性情報](https://www.fxsitecompat.com/ja/versions/44/)
 
-いつもの通り、[Twitter](https://twitter.com/FxSiteCompat) あるいは[Facebook](https://www.facebook.com/FxSiteCompat) で私たちをフォローすることをお忘れなく。更新情報を伝える [サイトフィード](https://www.fxsitecompat.com/ja/index.xml) もぜひ購読してください。
+いつもの通り、[Twitter](https://twitter.com/FxSiteCompat)、[Facebook](https://www.facebook.com/FxSiteCompat) あるいは [Google+](https://plus.google.com/+FxSiteCompatibility) で私たちをフォローすることをお忘れなく。更新情報を伝える [サイトフィード](https://www.fxsitecompat.com/ja/index.xml) もぜひ購読してください。
