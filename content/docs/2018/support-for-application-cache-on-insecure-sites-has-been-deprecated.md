@@ -9,6 +9,8 @@ references:
       title: "Bug 1354175 - Remove access to AppCache in insecure contexts"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/qLTTpdzcDkw/discussion"
       title: "Intent to Unship: Application Cache over Insecure Contexts"
+    - url: "https://blog.mozilla.org/security/2018/02/12/restricting-appcache-secure-contexts/"
+      title: "Mozilla Security Blog: Restricting AppCache to Secure Contexts"
 ---
 As part of the ongoing [insecure HTTP deprecation](https://www.fxsitecompat.com/en-CA/docs/2015/insecure-http-will-be-deprecated/), Firefox 60 Nightly and early Beta/DevEdition will no longer allow non-HTTPS sites to use the application cache (AppCache). When disabled, cache manifest files will be ignored and `window.applicationCache` will be `undefined`. Assuming no major issues arise, Firefox 62 will make the change on all the channels.
 
