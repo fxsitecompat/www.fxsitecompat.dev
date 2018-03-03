@@ -29,6 +29,6 @@ While we may cover cross-browser compatibility or interoperability on our blog, 
 
 ## Who we exactly are
 
-This initiative is led by [Kohei Yoshino](https://mozillians.org/u/kohei.yoshino), a long-time Mozilla contributor. He has been an active Mozilla community member since 2002, and also worked for Mozilla Japan as a full-time employee from 2004 to 2012. Actually, our early documents were first written in Japanese as an internal project of Mozilla Japan.
+This initiative is led by [Kohei Yoshino](https://mozillians.org/u/kohei.yoshino), a long-time Mozilla contributor. He has been an active Mozilla community member since 2002, and also worked for now-gone Mozilla Japan Ltd. as a full-time employee from 2004 to 2012. Actually, our early documents were first written in Japanese as an internal project of Mozilla Japan Ltd.
 
 Help is always welcome! See the [Contribute](/en-CA/contribute/) page for what you can do. If you have any questions or feedback, feel free to reach us out at any time via one of our social media or [email](mailto:kohei@fxsitecompat.com).

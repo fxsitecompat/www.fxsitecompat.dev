@@ -29,6 +29,6 @@ Firefox サイト互換性ワーキンググループは、情報源となるサ
 
 ## 参加者
 
-このイニシアチブは長年 Mozilla に貢献している [Kohei Yoshino](https://mozillians.org/ja/u/kohei.yoshino) が主導しています。彼は 2002 年以来のアクティブな Mozilla コミュニティメンバーであり、2004 年から 2012 年までフルタイム従業員として Mozilla Japan に勤務した経験もあります。実のところ、一部の古いドキュメントは Mozilla Japan の社内プロジェクトとして初めに日本語で書かれたものです。
+このイニシアチブは長年 Mozilla に貢献している [Kohei Yoshino](https://mozillians.org/ja/u/kohei.yoshino) が主導しています。彼は 2002 年以来のアクティブな Mozilla コミュニティメンバーであり、2004 年から 2012 年までフルタイム従業員として旧一般社団法人 Mozilla Japan に勤務した経験もあります。実のところ、一部の古いドキュメントは旧一般社団法人 Mozilla Japan の社内プロジェクトとして初めに日本語で書かれたものです。
 
 参加はいつでも歓迎します。[協力](/ja/contribute/) ページであなたができることを見つけてください。質問やフィードバックがある場合は、私たちのソーシャルメディアのいずれか、もしくは [メール](mailto:kohei@fxsitecompat.com) でいつでも気軽にご連絡ください。(日本語でも構いません)
