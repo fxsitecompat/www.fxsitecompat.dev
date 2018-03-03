@@ -11,7 +11,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1434300"
       title: "Bug 1434300 - Distrust Symantec CAs affected by the distrust plan"
 ---
-Mozilla, among multiple browser vendors, has decided to distrust all TLS server certificates issued by Symantec due to the poor CA practice found through an [extensive investigation](https://wiki.mozilla.org/CA:Symantec_Issues) and discussion. The [upcoming distrust actions](https://wiki.mozilla.org/CA/Upcoming_Distrust_Actions) in Firefox keeps in line with [Google Chrome](https://security.googleblog.com/2017/09/chromes-plan-to-distrust-symantec.html) and applies to all the Symantec brands including GeoTrust, RapidSSL, Thawte and Verisign.
+Mozilla, among multiple browser vendors, has decided to distrust all TLS server certificates issued by Symantec due to the poor CA practice found through an [extensive investigation](https://wiki.mozilla.org/CA:Symantec_Issues) and discussion. The [upcoming distrust actions](https://wiki.mozilla.org/CA/Upcoming_Distrust_Actions) in Firefox keep in line with [Google Chrome](https://security.googleblog.com/2017/09/chromes-plan-to-distrust-symantec.html) and apply to all the Symantec brands including GeoTrust, RapidSSL, Thawte and Verisign.
 
 * Firefox 60 shipping on May 9, 2018 shows the Insecure Connection error page for sites using a Symantec certificate issued before June 2016
 * Firefox 63 shipping on October 16, 2018 removes all the Symantec root certificates, shows the Insecure Connection error page for sites using a Symantec certificate regardless of the issue date
