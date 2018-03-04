@@ -10,6 +10,8 @@ references:
       title: "Bug 1440189 - Stop dispatching keypress event on web content in Nightly"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1442528"
       title: "Bug 1442528 - Nightly 2018-03-01 broke keyboard handling in Google Docs"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1442847"
+      title: "Bug 1442847 - No longer possible to navigate through conversations in Gmail using up and down arrow"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/wW9el-i5mtA/discussion"
       title: "Intent to stop dispatching \"keypress\" event for non-printable keys and key combinations in Nightly and early Beta"
 ---
@@ -19,4 +21,4 @@ references:
 
 例外は Enter キーです。修飾キーなしで Enter を押した場合、あるいは Shift+Enter や Ctrl+Enter は、これまで通り `keypress` イベントを発生させます。これは現在の仕様においては正しくありませんが、他のブラウザーと互換性があります。
 
-この変更は Firefox 60 の時点で Nightly と早期 Beta/DevEdition チャンネルに反映されています。主要サイトでの互換性問題が解決し次第、他のチャンネルでもこの標準準拠の挙動が採用されます。今のところ、*Google Docs* と *Google Sheets* で一部のキーボードショートカットが正常に動作していません。
+この変更は Firefox 60 の時点で Nightly と早期 Beta/DevEdition チャンネルに反映されています。主要サイトでの互換性問題が解決し次第、他のチャンネルでもこの標準準拠の挙動が採用されます。今のところ、*Gmail*、*Google Docs* と *Google Sheets* で一部のキーボードショートカットが正常に動作していません。
