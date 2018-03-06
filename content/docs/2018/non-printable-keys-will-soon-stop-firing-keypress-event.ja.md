@@ -22,3 +22,5 @@ references:
 例外は Enter キーです。修飾キーなしで Enter を押した場合、あるいは Shift+Enter や Ctrl+Enter は、これまで通り `keypress` イベントを発生させます。これは現在の仕様においては正しくありませんが、他のブラウザーと互換性があります。
 
 この変更は Firefox 60 の時点で Nightly と早期 Beta/DevEdition チャンネルに反映されています。主要サイトでの互換性問題が解決し次第、他のチャンネルでもこの標準準拠の挙動が採用されます。今のところ、*Gmail*、*Google Docs* と *Google Sheets* で一部のキーボードショートカットが正常に動作していません。
+
+**更新**: この更新は、元々 Google から要求されたものですが、Google のエンジニアに自社アプリの問題を修正する時間を与えるため、一時的に [バックアウトされました](https://bugzilla.mozilla.org/show_bug.cgi?id=1443117)。

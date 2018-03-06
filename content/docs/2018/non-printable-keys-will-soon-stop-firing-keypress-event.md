@@ -22,3 +22,5 @@ In order to follow the [UI Events spec](https://w3c.github.io/uievents/) and oth
 An exception is the Enter key; pressing Enter with no modifiers, Shift+Enter or Ctrl+Enter will fire the `keypress` event as before, which is invalid in the current spec but compatible with other browsers.
 
 This change has been made to the Nightly and early Beta/DevEdition channels as of Firefox 60. Other channels will also adopt the standard-compliant behaviour once compatibility issues on major sites are solved. Currently, some keyboard shortcuts on *Gmail*, *Google Docs* and *Google Sheets* are known to be broken.
+
+**Update**: The change, originally requested by Google, has been temporarily [backed out](https://bugzilla.mozilla.org/show_bug.cgi?id=1443117) to give Google engineers time to fix the issue in their apps.
