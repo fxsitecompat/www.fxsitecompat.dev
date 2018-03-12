@@ -1,7 +1,7 @@
 # Firefox releases
 versions:
-    "59": "beta"
-    "60": "nightly"
+    "60": "beta"
+    "61": "nightly"
 
 dates:
     "16": "2012-10-09"
