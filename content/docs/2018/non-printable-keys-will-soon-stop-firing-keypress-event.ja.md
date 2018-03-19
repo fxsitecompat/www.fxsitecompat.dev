@@ -4,7 +4,7 @@ date: "2018-03-03T04:49:00-05:00"
 categories: ["dom"]
 tags: []
 versions: ["60"]
-statuses: "affecting"
+statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1440189"
       title: "Bug 1440189 - Stop dispatching keypress event on web content in Nightly"
