@@ -23,4 +23,4 @@ Microsoft は [Silverlight を廃止予定としました](https://support.micro
 
 そのため、[2015 年 10 月以降廃止予定となっていた](https://www.mozilla.jp/blog/entry/10508/) Firefox におけるレガシーな [NPAPI プラグイン](https://developer.mozilla.org/ja/docs/Plugins) 対応は、まだ広く用いられている Adobe Flash Player を例外として Firefox 52 から削除されました。Windows 64 ビット版 Firefox では [既に対応プラグインが Flash と Silverlight のみとなっています](https://www.fxsitecompat.com/ja/docs/2015/64-bit-firefox-for-windows-is-officially-available-flash-and-silverlight-are-the-only-supported-plug-ins/)。ウェブサイト運営者は、Java アプレットや Silverlight 動画など、すべてのプラグインコンテンツを代替技術で置き換える計画を立てなければなりません。
 
-なお、特に Java を必要とする法人ユーザーのために、Firefox 52 [延長サポート版](https://www.mozilla.jp/business/) (ESR) では 2018 年 5 月までプラグイン対応が維持されます。
+なお、特に Java を必要とする法人ユーザーのために、Firefox 52 [延長サポート版](https://www.mozilla.jp/business/) (ESR) では 2018 年 <del>5 月</del> <ins>8 月</ins> までプラグイン対応が維持されます。
