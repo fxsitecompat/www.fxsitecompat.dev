@@ -16,3 +16,5 @@ For security reasons, Java archive (JAR) files can no longer be loaded from remo
 *iNotes* customers must install the Fix Pack to solve the compatibility issue. If the instance cannot be updated now for some reason, use Firefox 52 [Extended Support Release](https://www.mozilla.org/en-US/firefox/organizations/) so the remote JAR support is available until <del>Q2</del> <ins>August</ins> 2018.
 
 No other browsers support JAR. No other broken apps are reported so far.
+
+**Update** The remote JAR support has been [completely removed with Firefox 61](https://www.fxsitecompat.com/en-CA/docs/2018/remote-jar-support-has-been-completely-removed/).

@@ -26,3 +26,5 @@ ZIP アーカイブに含まれるファイルへの直接リンクを可能に�
 **更新 3**: *iNotes* による `jar` 対応依存が解決したことから、Mozilla は再びその無効化を検討しています。法人向けの Firefox 52 [延長サポート版](https://www.mozilla.org/ja/firefox/organizations/) (ESR) はこの変更による影響を受けないため、旧バージョンの *iNotes* がもしある場合は 2018 年 <del>5 月</del> <ins>8 月</ins> まで ESR 上で使い続けることができます。
 
 **更新 4**: JAR 対応は [Firefox 55](https://www.fxsitecompat.com/ja/docs/2015/jar-protocol-support-has-been-disabled-by-default/) で再度無効化されました。
+
+**更新 5** リモート JAR 対応は [Firefox 61 で完全に廃止されました](https://www.fxsitecompat.com/ja/docs/2018/remote-jar-support-has-been-completely-removed/).

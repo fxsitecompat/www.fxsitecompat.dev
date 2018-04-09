@@ -16,3 +16,5 @@ references:
 *iNotes* ユーザーは Fix Pack をインストールして互換性問題を解決してください。何らかの理由でインスタンスをすぐに更新できない場合は、Firefox 52 [延長サポート版](https://www.mozilla.org/ja/firefox/organizations/) を使えば 2018 年 <del>第 2 四半期</del> <ins>8 月</ins> までリモート JAR 対応が有効となります。
 
 JAR に対応しているブラウザーは他にありません。また今のところ他に影響を受けるアプリは報告されていません。
+
+**更新** リモート JAR 対応は [Firefox 61 で完全に廃止されました](https://www.fxsitecompat.com/ja/docs/2018/remote-jar-support-has-been-completely-removed/).
