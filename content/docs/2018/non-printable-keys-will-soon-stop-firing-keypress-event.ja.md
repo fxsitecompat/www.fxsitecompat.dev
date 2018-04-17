@@ -3,15 +3,13 @@ title: "近いうちに非表示キーが `keypress` イベントを発生させ
 date: "2018-03-03T04:49:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["60"]
-statuses: "reverted"
+versions: ["61"]
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1440189"
       title: "Bug 1440189 - Stop dispatching keypress event on web content in Nightly"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1442528"
-      title: "Bug 1442528 - Nightly 2018-03-01 broke keyboard handling in Google Docs"
-    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1442847"
-      title: "Bug 1442847 - No longer possible to navigate through conversations in Gmail using up and down arrow"
+      title: "Bug 1442528 - Keyboard handling in Google Docs is broken if \"dom.keyboardevent.keypress.dispatch_non_printable_keys_only_system_group_in_content\" is true"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/wW9el-i5mtA/discussion"
       title: "Intent to stop dispatching \"keypress\" event for non-printable keys and key combinations in Nightly and early Beta"
 ---
@@ -24,3 +22,5 @@ references:
 この変更は Firefox 60 の時点で Nightly と早期 Beta/DevEdition チャンネルに反映されています。主要サイトでの互換性問題が解決し次第、他のチャンネルでもこの標準準拠の挙動が採用されます。今のところ、*Gmail*、*Google Docs* と *Google Sheets* で一部のキーボードショートカットが正常に動作していません。
 
 **更新**: この更新は、元々 Google から要求されたものですが、Google のエンジニアに自社アプリの問題を修正する時間を与えるため、一時的に [バックアウトされました](https://bugzilla.mozilla.org/show_bug.cgi?id=1443117)。
+
+**更新 2**: この変更は Firefox 61 Nightly で再度投入されましたが、今のところ *Gmail*、*Google Docs*、*Google Sheets*、*Google Slides* 上では不具合を避けるため無効化されています。
