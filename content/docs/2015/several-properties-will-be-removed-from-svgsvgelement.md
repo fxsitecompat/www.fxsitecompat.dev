@@ -21,3 +21,5 @@ aliases:
 At the same time, the `hasExtension` method will be removed from the [`SVGTests`](https://developer.mozilla.org/en-US/docs/Web/API/SVGTests) interface, while the `nearestViewportElement` and `farthestViewportElement` properties will be removed from the `SVGGraphicsElement` interface.
 
 **Update**: The latest SVG spec has restored the `getElementById` method so it won't be removed from Firefox.
+
+**Update 2**: `pixelUnitToMillimeterX` and similar properties have been [removed with Firefox 61](https://www.fxsitecompat.com/en-CA/docs/2018/pixelunittomillimeterx-and-similar-properties-have-been-removed-from-svgsvgelement/).
