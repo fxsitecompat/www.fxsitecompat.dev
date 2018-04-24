@@ -10,6 +10,14 @@ references:
       title: "Bug 1440189 - Stop dispatching keypress event on web content in Nightly"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1442528"
       title: "Bug 1442528 - Keyboard handling in Google Docs is broken if \"dom.keyboardevent.keypress.dispatch_non_printable_keys_only_system_group_in_content\" is true"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1454833"
+      title: "Bug 1454833 - Keyboard shortcuts do not work on hangouts.google.com in strict keypress event dipatching mode"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1455059"
+      title: "Bug 1455059 - Tab no longer works in Etherpad"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1455229"
+      title: "Bug 1455229 - Add Google Keep into the blacklist to use legacy keypress event behavior"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1456038"
+      title: "Bug 1456038 - Google Inbox Keyboard Shortcuts Broken"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/wW9el-i5mtA/discussion"
       title: "Intent to stop dispatching \"keypress\" event for non-printable keys and key combinations in Nightly and early Beta"
 ---
@@ -24,3 +32,5 @@ This change has been made to the Nightly and early Beta/DevEdition channels as o
 **Update**: The change, originally requested by Google, has been temporarily [backed out](https://bugzilla.mozilla.org/show_bug.cgi?id=1443117) to give Google engineers time to fix the issue in their apps.
 
 **Update 2**: This change has been landed again at Firefox 61 Nightly but disabled for now on *Gmail*, *Google Docs*, *Google Sheets* and *Google Slides* to avoid any breakage.
+
+**Update 3**: *Google Hangouts*, *Google Inbox* and *Google Keep* as well as major public *Etherpad* instances have also been added to the blacklist so those developers have extra time to fix the issue.
