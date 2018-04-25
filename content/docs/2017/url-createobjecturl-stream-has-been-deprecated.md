@@ -20,3 +20,5 @@ video.srcObject = stream;
 ```
 
 **Update**: The deprecation warning is not displayed on Firefox 54 due to a [bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1369698). Firefox 55 and later will show it properly.
+
+**Update 2**: The stream argument support has been [removed with Firefox 61](https://www.fxsitecompat.com/en-CA/docs/2018/url-createobjecturl-no-longer-accepts-mediastream-as-argument/).
