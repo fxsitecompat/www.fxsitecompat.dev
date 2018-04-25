@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/E6tfP__wkwg/discussion"
       title: "Intent to unship: -moz-user-input: disabled / enabled"
 ---
-非標準 CSS プロパティ [`-moz-user-input`](https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-user-input) の値のうち、`enabled` と `disabled` への対応が Firefox 60 で削除されました。これらはめったに使われておらず、実際のところ動的に変更された場合には正常に動作していませんでした。`none` と既定値 `auto` への対応は残されていますが、プロパティ自体今後完全に削除される可能性があります。他のどのブラウザーもこのプロパティに対応していないことから、互換性リスクは低いはずです。
+非標準 CSS プロパティ [`-moz-user-input`](https://developer.mozilla.org/ja/docs/Web/CSS/-moz-user-input) の値のうち、`enabled` と `disabled` への対応が Firefox 60 で削除されました。これらはめったに使われておらず、実際のところ動的に変更された場合には正常に動作していませんでした。`none` と既定値 `auto` への対応は残されていますが、プロパティ自体今後完全に削除される可能性があります。他のどのブラウザーもこのプロパティに対応していないことから、互換性リスクは低いはずです。

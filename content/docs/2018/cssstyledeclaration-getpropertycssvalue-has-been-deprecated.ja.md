@@ -12,6 +12,6 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/qu5JekiuSfw/discussion"
       title: "Intent to unship: CSSStyleDeclaration.getPropertyCSSValue"
 ---
-`CSSStyleDeclaration` インターフェイス上の [`getPropertyCSSValue`](https://developer.mozilla.org/ja/docs/Web/API/CSSStyleDeclaration/getPropertyCSSValue) メソッド対応が廃止予定となり、近い将来削除されることとなりました。2003 年以降 [旧式扱いとなっている](https://lists.w3.org/Archives/Public/www-style/2003Oct/0347.html) このメソッドに対して、Firefox 61 以降ではコンソールに警告が表示されます。Google Chrome は既に 2014 年の時点で [対応を廃止](https://groups.google.com/a/chromium.org/d/topic/blink-dev/3VmxWFzcyJc/discussion) しています。[`getPropertyValue`](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyValue) メソッドを代わりに使用してください。
+`CSSStyleDeclaration` インターフェイス上の [`getPropertyCSSValue`](https://developer.mozilla.org/ja/docs/Web/API/CSSStyleDeclaration/getPropertyCSSValue) メソッド対応が廃止予定となり、近い将来削除されることとなりました。2003 年以降 [旧式扱いとなっている](https://lists.w3.org/Archives/Public/www-style/2003Oct/0347.html) このメソッドに対して、Firefox 61 以降ではコンソールに警告が表示されます。Google Chrome は既に 2014 年の時点で [対応を廃止](https://groups.google.com/a/chromium.org/d/topic/blink-dev/3VmxWFzcyJc/discussion) しています。[`getPropertyValue`](https://developer.mozilla.org/ja/docs/Web/API/CSSStyleDeclaration/getPropertyValue) メソッドを代わりに使用してください。
 
 **更新**: このメソッドは Firefox 61 以降 Nightly チャンネルでは無効化されました。
