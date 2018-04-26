@@ -2,7 +2,7 @@ Copyright © 2018 Kohei Yoshino and individual contributors. All rights reserved
 
 You may view and fork this repository as explained in the [GitHub Terms of Service](https://help.github.com/articles/github-terms-of-service).
 
-A portion of the documents are licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/), if noted.
+A portion of the documents are licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/), if noted.
 
 ## Third party code
 

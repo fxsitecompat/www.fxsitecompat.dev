@@ -2,7 +2,7 @@
 title: "The future is closer than you think"
 date: "2015-10-28T14:49:00-07:00"
 ---
-20 years ago, Netscape invented JavaScript, cookies, plug-ins and SSL that soon became an integral part of the Web. They even created [JSSS](http://www.w3.org/Submission/1996/1/WD-jsss-960822) for Netscape 4 (if it had been standardized, we didn't have to wait for 2 *decades*, not 2 *years*, before CSS offered `calc()`, media queries and variables.) Getting over a long, unfortunate plateau after the browser war, we are now seeing a truly rich user experience and interoperability on the ever-improving Web. And Netscape's innovation spirit is living on in Firefox's heart.
+20 years ago, Netscape invented JavaScript, cookies, plug-ins and SSL that soon became an integral part of the Web. They even created [JSSS](https://www.w3.org/Submission/1996/1/WD-jsss-960822) for Netscape 4 (if it had been standardized, we didn't have to wait for 2 *decades*, not 2 *years*, before CSS offered `calc()`, media queries and variables.) Getting over a long, unfortunate plateau after the browser war, we are now seeing a truly rich user experience and interoperability on the ever-improving Web. And Netscape's innovation spirit is living on in Firefox's heart.
 
 While a bunch of wonderful features are devised and implemented, some of the legacy, non-standard or insecure technologies must go. Our new [Future Planned Changes](https://www.fxsitecompat.com/en-CA/versions/future/) section is intended to give you further insights into site compatibility.
 

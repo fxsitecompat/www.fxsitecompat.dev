@@ -8,7 +8,7 @@ Mozilla は先週 [Firefox 59 Beta と Developer Edition](https://www.mozilla.or
 
 ## 私たちの 2018 年の計画
 
-まず、私たちからは良いニュースがあります！ Mozilla がこのイニシアチブの「実質的な」スポンサーとなりました。プロジェクトマネージャーである [Kohei Yoshino](https://github.com/kyoshino) がインディペンデントコントラクターとして [Release Management チーム](http://release.mozilla.org/) のために働いている間、組織内部の人たちとより密接に協力できる機会を得られることに興奮しています。
+まず、私たちからは良いニュースがあります！ Mozilla がこのイニシアチブの「実質的な」スポンサーとなりました。プロジェクトマネージャーである [Kohei Yoshino](https://github.com/kyoshino) がインディペンデントコントラクターとして [Release Management チーム](https://release.mozilla.org/) のために働いている間、組織内部の人たちとより密接に協力できる機会を得られることに興奮しています。
 
 この小さなプロジェクトは 2012 年以来活動を続けています。それは、私たちのドキュメント、ツイート、リグレッション調査が、Mozilla とウェブ開発者の関係や Firefox の製品品質を向上させるのに役立つと信じているからです。今回、Mozilla がこのたゆみない努力に燃料を注いでくれることになりました。これは言うまでもなく、お互いの利益になる状況です :-)
 

@@ -10,4 +10,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=822898"
       title: "Bug 822898 - Implement pointer events"
 ---
-`MouseEvent.mozPressure` プロパティは標準の `PointerEvent.pressure` プロパティに置き換えられる形で削除されます。[Pointer Events API](http://www.w3.org/TR/pointerevents/) は現在実装が進められています。
+`MouseEvent.mozPressure` プロパティは標準の `PointerEvent.pressure` プロパティに置き換えられる形で削除されます。[Pointer Events API](https://www.w3.org/TR/pointerevents/) は現在実装が進められています。

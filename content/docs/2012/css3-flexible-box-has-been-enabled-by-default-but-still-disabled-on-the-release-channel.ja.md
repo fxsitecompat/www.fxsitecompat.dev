@@ -13,4 +13,4 @@ references:
 ---
 [Firefox 18](https://developer.mozilla.org/ja/docs/Firefox_18_for_developers) で実装された新しい [可変ボックス (flexbox)](https://developer.mozilla.org/ja/docs/CSS/Using_CSS_flexible_boxes) が、隠し設定を変更することなく利用可能になりました。[`-moz-box-flex`](https://developer.mozilla.org/ja/docs/CSS/-moz-box-flex) など従来の接頭辞付き実装とは互換性がありませんので注意してください。
 
-開発者の皆さんは [Aurora](http://www.mozilla.org/ja/firefox/aurora/) または [Beta](http://www.mozilla.jp/firefox/beta/) で flexbox を試せるようになりましたが、**この機能は十分な品質が確保されるまで Release チャンネルでは引き続き無効化されます**。
+開発者の皆さんは [Aurora](https://www.mozilla.org/ja/firefox/aurora/) または [Beta](https://www.mozilla.jp/firefox/beta/) で flexbox を試せるようになりましたが、**この機能は十分な品質が確保されるまで Release チャンネルでは引き続き無効化されます**。

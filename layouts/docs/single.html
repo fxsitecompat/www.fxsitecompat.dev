@@ -28,7 +28,7 @@
         <article itemscope itemtype="http://schema.org/TechArticle" itemref="meta-general copyright translation">
           <header>
             <h1>{{ partial "status-label/prefix-itemprop" . }}<span itemprop="headline">{{ .Title | markdownify | replaceRE "([a-z])([A-Z\\.])" "$1<wbr>$2" | safeHTML }}</span></h1>
-            <p>{{ i18n "published" }}: <time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time> | {{ i18n "section_categories" }}: <span class="categories">{{ range .Params.categories }}<span itemprop="keywords"><a href="/{{ $.Site.LanguageCode }}/categories/{{ . | urlize | lower }}/">{{ replace . "-" "_" | printf "category_%s" | i18n }}</a></span> {{ end }}</span>{{ with .Params.cclicense }} | <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" itemprop="license"><span class="fa replace cc">{{ i18n "creativecommons" }}</span> {{ . }}</a>{{ end }}</p>
+            <p>{{ i18n "published" }}: <time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time> | {{ i18n "section_categories" }}: <span class="categories">{{ range .Params.categories }}<span itemprop="keywords"><a href="/{{ $.Site.LanguageCode }}/categories/{{ . | urlize | lower }}/">{{ replace . "-" "_" | printf "category_%s" | i18n }}</a></span> {{ end }}</span>{{ with .Params.cclicense }} | <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license" itemprop="license"><span class="fa replace cc">{{ i18n "creativecommons" }}</span> {{ . }}</a>{{ end }}</p>
           </header>
           <div>
             <section>

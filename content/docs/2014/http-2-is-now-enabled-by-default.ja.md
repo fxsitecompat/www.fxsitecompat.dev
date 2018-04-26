@@ -14,4 +14,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1077806"
       title: "Bug 1077806 – tweetdeck.twitter.com and twitter.com history doesn\'t load in Nightly 35.0a1 and Aurora 34.0a2 when http2 enabled"
 ---
-[HTTP/2](http://http2.github.io/) 仕様のドラフト 14 が実装され、AEAD 暗号化スイートを使用した接続について初期設定で有効となりました。もし何かリグレッションに遭遇した場合は、Bugzilla へ [問題を報告してください](https://bugzilla.mozilla.org/enter_bug.cgi?product=Core&component=Networking%3A%20HTTP)。
+[HTTP/2](https://http2.github.io/) 仕様のドラフト 14 が実装され、AEAD 暗号化スイートを使用した接続について初期設定で有効となりました。もし何かリグレッションに遭遇した場合は、Bugzilla へ [問題を報告してください](https://bugzilla.mozilla.org/enter_bug.cgi?product=Core&component=Networking%3A%20HTTP)。

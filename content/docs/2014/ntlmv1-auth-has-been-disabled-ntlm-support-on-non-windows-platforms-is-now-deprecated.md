@@ -14,7 +14,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1023748"
       title: "Bug 1023748 – Allow NTLMv1 over SSL/TLS, or intranet access is broken on Firefox 30 for non-Windows platforms"
 ---
-The support for the NT LAN Manager version 1 (NTLMv1) network authentication has been disabled because it's known as insecure. Companies and organizations still deploying the older protocol should upgrade to NTLMv2. See [Honza Bambas' blog post](http://www.janbambas.cz/ntlm-v1-and-firefox/) and [Jason Duell's post to the dev-planning list](https://groups.google.com/d/topic/mozilla.dev.planning/JbrpDmqDLXI) for details.
+The support for the NT LAN Manager version 1 (NTLMv1) network authentication has been disabled because it's known as insecure. Companies and organizations still deploying the older protocol should upgrade to NTLMv2. See [Honza Bambas' blog post](https://www.janbambas.cz/ntlm-v1-and-firefox/) and [Jason Duell's post to the dev-planning list](https://groups.google.com/d/topic/mozilla.dev.planning/JbrpDmqDLXI) for details.
 
 This is affecting *SharePoint*-based or *IIS*-backed intranet applications. If you encounter any problems on Firefox 30 or later, you can manually enable NTLMv1 using a preference. Note that NTLMv2 is not supported on non-Windows platforms, so OS X and Linux users have to toggle the preference to continue using NTLMv1 as below, though the NTLM auth support on non-Windows platforms is considered deprecated.
 

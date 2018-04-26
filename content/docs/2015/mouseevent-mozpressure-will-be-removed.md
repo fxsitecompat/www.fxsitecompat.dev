@@ -10,4 +10,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=822898"
       title: "Bug 822898 - Implement pointer events"
 ---
-The `MouseEvent.mozPressure` property will be removed in favour of the standard `PointerEvent.pressure` property. The [Pointer Events API](http://www.w3.org/TR/pointerevents/) is currently being implemented.
+The `MouseEvent.mozPressure` property will be removed in favour of the standard `PointerEvent.pressure` property. The [Pointer Events API](https://www.w3.org/TR/pointerevents/) is currently being implemented.

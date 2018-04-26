@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=801487"
       title: "Bug 801487 – Update StringEncoding API per the latest spec and fix some bugs"
 ---
-Following a change of the [Encoding API](http://encoding.spec.whatwg.org/#api) spec, the implementation of [`TextEncoder`](https://developer.mozilla.org/en-US/docs/Web/API/TextEncoder) and [`TextDecoder`](https://developer.mozilla.org/en-US/docs/Web/API/TextDecoder) has been updated.
+Following a change of the [Encoding API](https://encoding.spec.whatwg.org/#api) spec, the implementation of [`TextEncoder`](https://developer.mozilla.org/en-US/docs/Web/API/TextEncoder) and [`TextDecoder`](https://developer.mozilla.org/en-US/docs/Web/API/TextDecoder) has been updated.

@@ -8,7 +8,7 @@ This is our first blog post in 2018 so we'd like to briefly summarize the things
 
 ## Our plan in 2018
 
-First, we have a good news! Mozilla has become a *de facto* sponsor of this initiative. We are excited to have an opportunity to work more closely with people within the organization while our project manager [Kohei Yoshino](https://github.com/kyoshino) is serving the [Release Management team](http://release.mozilla.org/) as an independent contractor.
+First, we have a good news! Mozilla has become a *de facto* sponsor of this initiative. We are excited to have an opportunity to work more closely with people within the organization while our project manager [Kohei Yoshino](https://github.com/kyoshino) is serving the [Release Management team](https://release.mozilla.org/) as an independent contractor.
 
 This small project is running since 2012 because we believe our documents, tweets and regression research will help improve the relationship between Mozilla and web developers as well as the product quality of Firefox. Now, Mozilla fuels the tireless effort. That's a win-win situation, obviously :-)
 
