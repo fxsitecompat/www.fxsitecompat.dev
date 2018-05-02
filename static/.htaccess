@@ -29,12 +29,12 @@ RewriteRule ^(en-CA|ja)/statuses/affected/?$ /$1/statuses/affecting/ [R=301,L]
 
 # Redirect: Japanese
 RewriteCond %{HTTP:Accept-Language} ^ja
-RewriteCond %{REQUEST_URI} !^/(en-CA|ja)/
+RewriteCond %{REQUEST_URI} !^/(en-CA|ja)(/.*)?$
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*) /ja/$1 [R=302,L]
 
 # Redirect: English (Canada)
-RewriteCond %{REQUEST_URI} !^/(en-CA|ja)/
+RewriteCond %{REQUEST_URI} !^/(en-CA|ja)(/.*)?$
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*) /en-CA/$1 [R=302,L]
 
