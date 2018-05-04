@@ -9,3 +9,5 @@ references:
       title: "Bug 1048291 - Remove/Deprecate File::lastModifiedDate"
 ---
 The [`File.prototype.lastModifiedDate`](https://developer.mozilla.org/en-US/docs/Web/API/File/lastModifiedDate) property is now deprecated and will be removed in the future. Use the `lastModified` property instead.
+
+**Update**: The property has been [removed with Firefox 61](https://www.fxsitecompat.com/en-CA/docs/2018/file-lastmodifieddate-has-been-removed/).
