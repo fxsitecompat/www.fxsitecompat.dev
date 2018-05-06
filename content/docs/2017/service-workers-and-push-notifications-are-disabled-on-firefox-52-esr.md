@@ -11,3 +11,5 @@ references:
       title: "Intent to disable service workers and push in 52 ESR"
 ---
 The [Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) and [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API) will be disabled on Firefox 52 [Extended Support Release](https://www.mozilla.org/en-US/firefox/organizations/) (ESR), as with [Firefox 45 ESR](https://www.fxsitecompat.com/en-CA/docs/2016/service-workers-have-been-disabled-in-firefox-45-esr/), due to the upcoming major architectural changes to support multiple content processes in the browser. Firefox 52 ESR is mainly for enterprise users as well as [Windows XP/Vista users](https://support.mozilla.org/en-US/kb/end-support-windows-xp-and-vista) who cannot upgrade to Firefox 53 and later. Those APIs are available for regular Release channel users.
+
+**Update**: Those APIs are still [disabled in Firefox 60 ESR](https://www.fxsitecompat.com/en-CA/docs/2018/service-workers-and-push-notifications-are-disabled-on-firefox-60-esr/).
