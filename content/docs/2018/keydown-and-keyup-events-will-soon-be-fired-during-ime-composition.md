@@ -40,11 +40,12 @@ In the future releases, this will be:
 12. `input { isComposing: false }`
 13. `keyup { isComposing: false, key: "Enter", keyCode: 13 }`
 
-For comparison, only 3 events will be fired when you type "e" in English:
+For comparison, only 4 events will be fired when you type "e" in English:
 
 1. `keydown { isComposing: false, key: "e", keyCode: 69 }`
-2. `input { isComposing: false }`
-3. `keyup { isComposing: false, key: "e", keyCode: 69 }`
+2. `keypress { isComposing: false }`
+3. `input { isComposing: false }`
+4. `keyup { isComposing: false, key: "e", keyCode: 69 }`
 
 As you may be aware, the `key` property will be `"Process"` during a composition, and the [`isComposing`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/isComposing) property will also be `true` between the [`compositionstart`](https://developer.mozilla.org/en-US/docs/Web/Events/compositionstart) and [`compositionend`](https://developer.mozilla.org/en-US/docs/Web/Events/compositionend) events. That means, if you want to do nothing during a composition, simply check `isComposing` in your `keydown`, `keyup` or `input` event listener like this:
 

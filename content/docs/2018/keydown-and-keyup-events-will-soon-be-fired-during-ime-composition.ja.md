@@ -40,11 +40,12 @@ Firefox の現行版では、例えば日本語で「絵」と入力したい場
 12. `input { isComposing: false }`
 13. `keyup { isComposing: false, key: "Enter", keyCode: 13 }`
 
-ちなみに、英語で「e」と入力した場合、3 つのイベントしか発生しません。
+ちなみに、英語で「e」と入力した場合、4 つのイベントしか発生しません。
 
 1. `keydown { isComposing: false, key: "e", keyCode: 69 }`
-2. `input { isComposing: false }`
-3. `keyup { isComposing: false, key: "e", keyCode: 69 }`
+2. `keypress { isComposing: false }`
+3. `input { isComposing: false }`
+4. `keyup { isComposing: false, key: "e", keyCode: 69 }`
 
 お気付きの通り、変換中 `key` プロパティは `"Process"` となり、[`compositionstart`](https://developer.mozilla.org/ja/docs/Web/Events/compositionstart) と [`compositionend`](https://developer.mozilla.org/ja/docs/Web/Events/compositionend) イベントの間は [`isComposing`](https://developer.mozilla.org/ja/docs/Web/API/KeyboardEvent/isComposing) プロパティも `true` となります。つまり、変換中に何もしたくない場合は、以下のように `keydown`、`keyup` あるいは `input` イベントリスナーの中で単純に `isComposing` をチェックしてください。
 
