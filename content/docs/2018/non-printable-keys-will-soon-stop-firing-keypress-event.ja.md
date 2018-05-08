@@ -20,6 +20,8 @@ references:
       title: "Bug 1456038 - Google Inbox Keyboard Shortcuts Broken"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1457247"
       title: "Bug 1457247 - Add www.rememberthemilk.com into \"dom.keyboardevent.keypress.hack.dispatch_non_printable_keys\""
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1459800"
+      title: "Bug 1459800 - Add \"papaer.dropbox.com/doc\" into the blacklist to allow to dispatch keypress events even for non-printable keys"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/wW9el-i5mtA/discussion"
       title: "Intent to stop dispatching \"keypress\" event for non-printable keys and key combinations in Nightly and early Beta"
 ---
@@ -35,4 +37,4 @@ references:
 
 **更新 2**: この変更は Firefox 61 Nightly で再度投入されましたが、今のところ *Gmail*、*Google Docs*、*Google Sheets*、*Google Slides* 上では不具合を避けるため無効化されています。
 
-**更新 3**: *Google Hangouts*、*Google Inbox*、*Google Keep*、*Remember The Milk*、さらに主要な公開 *Etherpad* インスタンスも、それらの開発者が問題を修正する時間を持てるよう、ブラックリストへ追加されました。
+**更新 3**: *Dropbox Paper*、*Google Hangouts*、*Google Inbox*、*Google Keep*、*Remember The Milk*、さらに主要な公開 *Etherpad* インスタンスも、それらの開発者が問題を修正する時間を持てるよう、ブラックリストへ追加されました。
