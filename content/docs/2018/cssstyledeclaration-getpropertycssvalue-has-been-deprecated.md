@@ -15,3 +15,5 @@ references:
 The support for the [`getPropertyCSSValue`](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyCSSValue) method on the `CSSStyleDeclaration` interface is now considered deprecated and will be removed in the near future. Firefox 61 and later will show a console warning for the method that has been [classified as obsolete](https://lists.w3.org/Archives/Public/www-style/2003Oct/0347.html) since 2003. Google Chrome has already [removed the support](https://groups.google.com/a/chromium.org/d/topic/blink-dev/3VmxWFzcyJc/discussion) back in 2014. Use the [`getPropertyValue`](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyValue) method instead.
 
 **Update**: The method has been disabled on the Nightly channel as of Firefox 61.
+
+**Update 2**: The method has been [removed with Firefox 62](https://www.fxsitecompat.com/en-CA/docs/2018/cssstyledeclaration-getpropertycssvalue-has-been-removed/).

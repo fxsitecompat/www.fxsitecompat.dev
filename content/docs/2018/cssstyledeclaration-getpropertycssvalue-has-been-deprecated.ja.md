@@ -15,3 +15,5 @@ references:
 `CSSStyleDeclaration` インターフェイス上の [`getPropertyCSSValue`](https://developer.mozilla.org/ja/docs/Web/API/CSSStyleDeclaration/getPropertyCSSValue) メソッド対応が廃止予定となり、近い将来削除されることとなりました。2003 年以降 [旧式扱いとなっている](https://lists.w3.org/Archives/Public/www-style/2003Oct/0347.html) このメソッドに対して、Firefox 61 以降ではコンソールに警告が表示されます。Google Chrome は既に 2014 年の時点で [対応を廃止](https://groups.google.com/a/chromium.org/d/topic/blink-dev/3VmxWFzcyJc/discussion) しています。[`getPropertyValue`](https://developer.mozilla.org/ja/docs/Web/API/CSSStyleDeclaration/getPropertyValue) メソッドを代わりに使用してください。
 
 **更新**: このメソッドは Firefox 61 以降 Nightly チャンネルでは無効化されました。
+
+**更新 2**: このメソッドは [Firefox 62 で削除されました](https://www.fxsitecompat.com/ja/docs/2018/cssstyledeclaration-getpropertycssvalue-has-been-removed/)。
