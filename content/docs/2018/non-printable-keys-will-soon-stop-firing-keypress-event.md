@@ -38,3 +38,5 @@ This change has been made to the Nightly and early Beta/DevEdition channels as o
 **Update 2**: This change has been landed again at Firefox 61 Nightly but disabled for now on *Gmail*, *Google Docs*, *Google Sheets* and *Google Slides* to avoid any breakage.
 
 **Update 3**: *Dropbox Paper*, *Google Hangouts*, *Google Inbox*, *Google Keep* and *Remember The Milk* as well as major public *Etherpad* instances have also been added to the blacklist so those developers have extra time to fix the issue.
+
+If you're a developer of one of those apps who would like to test the new behaviour, you have to override the blacklist with the browser's configuration editor: open [`about:config`](https://support.mozilla.org/kb/about-config-editor-firefox) in Firefox, search `dom.keyboardevent.keypress.hack.dispatch_non_printable_keys`, click on it, empty the value, then click OK.

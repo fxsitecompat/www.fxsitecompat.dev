@@ -38,3 +38,5 @@ references:
 **更新 2**: この変更は Firefox 61 Nightly で再度投入されましたが、今のところ *Gmail*、*Google Docs*、*Google Sheets*、*Google Slides* 上では不具合を避けるため無効化されています。
 
 **更新 3**: *Dropbox Paper*、*Google Hangouts*、*Google Inbox*、*Google Keep*、*Remember The Milk*、さらに主要な公開 *Etherpad* インスタンスも、それらの開発者が問題を修正する時間を持てるよう、ブラックリストへ追加されました。
+
+もしあなたがこれらのアプリのいずれかの開発者で、新たな挙動をテストしたい場合は、次のようにしてブラウザーの設定エディターを使い、ブラックリストを上書きする必要があります。Firefox で [`about:config`](https://support.mozilla.org/kb/about-config-editor-firefox) を開き、`dom.keyboardevent.keypress.hack.dispatch_non_printable_keys` を検索し、その上でクリック、値を空にして、最後に OK をクリックします。
