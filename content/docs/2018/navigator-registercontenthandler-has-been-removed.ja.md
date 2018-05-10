@@ -6,7 +6,7 @@ tags: []
 versions: ["62"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1460481"
-      title: "Bug 1460481 - Remove registerContentHandler() code in stable"
+      title: "Bug 1460481 - Disable registerContentHandler() in stable"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/jeTDLz38_RE/discussion"
       title: "Intent to unship: navigator.registerContentHandler()"
 ---
