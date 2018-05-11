@@ -11,3 +11,5 @@ references:
       title: "Intent to Unship: registerProtocolHandler() over insecure contexts"
 ---
 現在進行中の [安全でない HTTP 廃止](https://www.fxsitecompat.com/ja/docs/2015/insecure-http-will-be-deprecated/) の一環として、Firefox 60 Nightly では、非 HTTPS サイトが [`navigator.registerProtocolHandler`](https://developer.mozilla.org/ja/docs/Web/API/Navigator/registerProtocolHandler) メソッドを用いて、例えば `mailto` をウェブメールサービスに関連付けるなど、自サイトをプロトコルハンドラーとして登録することが許可されなくなります。この機能はあまり使われていないことから、現在の計画では Firefox 62 ですべてのチャンネルにおいてこの変更が行われます。
+
+**更新**: 予定通り、[Firefox 62](https://www.fxsitecompat.com/ja/docs/2018/registerprotocolhandler-can-no-longer-be-used-on-insecure-sites/) 以降すべてのチャンネルで制約が課されます。
