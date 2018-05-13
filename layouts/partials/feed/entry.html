@@ -7,9 +7,9 @@
       <email>{{ . }}</email>{{end}}
     </author>{{ end }}
     <content type="html">{{ "<![CDATA[" | safeHTML }}{{ if eq .Section "docs" }}
-      <p>{{ range .Params.versions }}
-        <strong>{{ i18n "feed_version" }}</strong>: <a href="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/versions/{{ . }}/">Firefox {{ . }}{{ with index $.Site.Data.firefox.versions . }} <em>{{ printf "channel_%s" . | i18n }}</em>{{ end }}</a><br>{{ end }}{{ range .Params.categories }}
-        <strong>{{ i18n "feed_category" }}</strong>: <a href="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/categories/{{ . }}/">{{ replace . "-" "_" | printf "category_%s" | i18n }}</a><br>{{ end }}
+      <p>
+        <strong>{{ i18n "version" }}</strong>: {{ $version := index .Params.versions 0 }}<a href="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/versions/{{ $version }}/">{{ if eq $version "future" }}{{ i18n "version_future" }}{{ else }}Firefox {{ $version }}{{ end }}</a><br>
+        <strong>{{ i18n "categories" }}</strong>: {{ range $i, $category := .Params.categories }}{{ if $i }}, {{ end }}<a href="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/categories/{{ $category }}/">{{ replace $category "-" "_" | printf "category_%s" | i18n }}</a>{{ end }}<br>
       </p>
       <h2>{{ i18n "description" }}</h2>
       {{ .Content }}

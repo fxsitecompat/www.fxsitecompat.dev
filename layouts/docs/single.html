@@ -12,7 +12,7 @@
     <meta name="twitter:label1" value="{{ i18n "version" }}">
     <meta name="twitter:data1" value="{{ if eq $version "future" }}{{ i18n "version_future" }}{{ else }}Firefox {{ $version }}{{ end }}">
     <meta name="twitter:label2" value="{{ i18n "categories" }}">
-    <meta name="twitter:data2" value="{{ with .Params.categories }}{{ delimit (apply (apply (apply (apply . "replace" "." "-" "_") "printf" "category_%s" ".") "i18n" ".") "htmlEscape" ".") ", " }}{{ end }}">
+    <meta name="twitter:data2" value="{{ range $i, $category := .Params.categories }}{{ if $i }}, {{ end }}{{ replace $category "-" "_" | printf "category_%s" | i18n }}{{ end }}">
   </head>
   <body class="single docs article" itemscope itemtype="http://schema.org/ItemPage" itemref="copyright translation">
 {{ partial "header.html" . }}
@@ -32,7 +32,7 @@
         <article itemscope itemtype="http://schema.org/TechArticle" itemref="meta-general copyright translation">
           <header>
             <h1>{{ partial "status-label/prefix-itemprop" . }}<span itemprop="headline">{{ .Title | markdownify | replaceRE "([a-z])([A-Z\\.])" "$1<wbr>$2" | safeHTML }}</span></h1>
-            <p>{{ i18n "published" }}: <time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time> | {{ i18n "categories" }}: <span class="categories">{{ range .Params.categories }}<span itemprop="keywords"><a href="/{{ $.Site.LanguageCode }}/categories/{{ . | urlize | lower }}/">{{ replace . "-" "_" | printf "category_%s" | i18n }}</a></span> {{ end }}</span>{{ with .Params.cclicense }} | <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license" itemprop="license"><span class="fa replace cc">{{ i18n "creativecommons" }}</span> {{ . }}</a>{{ end }}</p>
+            <p>{{ i18n "published" }}: <time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time> | {{ i18n "categories" }}: <span class="categories">{{ range $i, $category := .Params.categories }}{{ if $i }}, {{ end }}<span itemprop="keywords"><a href="/{{ $.Site.LanguageCode }}/categories/{{ $category }}/">{{ replace $category "-" "_" | printf "category_%s" | i18n }}</a></span>{{ end }}</span>{{ with .Params.cclicense }} | <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license" itemprop="license"><span class="fa replace cc">{{ i18n "creativecommons" }}</span> {{ . }}</a>{{ end }}</p>
           </header>
           <div>
             <section>

@@ -193,7 +193,3 @@ not_found_page_description:
 # Feed
 feed_recent_content:
     other: "Recent Articles on {{.section}}"
-feed_version:
-    other: "Version"
-feed_category:
-    other: "Category"
