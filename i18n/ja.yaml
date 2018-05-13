@@ -165,6 +165,10 @@ status_index_page_title:
 # Single document page
 published:
     other: "公開日"
+version:
+    other: "バージョン"
+categories:
+    other: "カテゴリー"
 creativecommons:
     other: "Creative Commons"
 description:
