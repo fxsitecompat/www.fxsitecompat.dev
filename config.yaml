@@ -51,12 +51,16 @@ Languages:
                   weight: 3
                   identifier: "docs"
                   url: "/docs/"
-                - name: "About"
+                - name: "Tools"
                   weight: 4
+                  identifier: "tools"
+                  url: "/tools/"
+                - name: "About"
+                  weight: 5
                   identifier: "about"
                   url: "/about/"
                 - name: "Contribute"
-                  weight: 5
+                  weight: 6
                   identifier: "contribute"
                   url: "/contribute/"
             syndication:
@@ -97,12 +101,16 @@ Languages:
                   weight: 3
                   identifier: "docs"
                   url: "/docs/"
-                - name: "概要"
+                - name: "ツール"
                   weight: 4
+                  identifier: "tools"
+                  url: "/tools/"
+                - name: "概要"
+                  weight: 5
                   identifier: "about"
                   url: "/about/"
                 - name: "協力"
-                  weight: 5
+                  weight: 6
                   identifier: "contribute"
                   url: "/contribute/"
             syndication:
