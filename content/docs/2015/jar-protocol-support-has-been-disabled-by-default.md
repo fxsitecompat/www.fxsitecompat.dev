@@ -15,7 +15,7 @@ references:
 aliases:
     - "/en-CA/docs/2015/jar-protocol-support-will-be-removed/"
 ---
-The `jar` protocol, that allows to directly link to a file in ZIP archives, is no longer available from Web content due to [security concerns](https://developer.mozilla.org/en-US/docs/Mozilla/Security/Security_and_the_jar_protocol). No other browsers support this Java archive protocol so far.
+The `jar` protocol, that allows to directly link to a file in ZIP archives, is no longer available from Web content due to [security concerns](https://developer.mozilla.org/docs/Mozilla/Security/Security_and_the_jar_protocol). No other browsers support this Java archive protocol so far.
 
 To enable the `jar` support for any reason on Firefox 45 and later, flip the `network.jar.block-remote-files` preference value to `false`. Otherwise, loading the `jar` protocol will lead to the `NS_ERROR_UNSAFE_CONTENT_TYPE` exception.
 

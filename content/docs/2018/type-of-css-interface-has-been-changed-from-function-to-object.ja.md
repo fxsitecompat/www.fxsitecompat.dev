@@ -8,7 +8,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1455805"
       title: "Bug 1455805 - Make \"CSS\" a namespace, not interface"
 ---
-CSS ワーキンググループ内での [議論](https://github.com/w3c/csswg-drafts/pull/437) の結果、[`CSS`](https://developer.mozilla.org/ja/docs/Web/API/CSS) インターフェイスが内部的には名前空間となりました。この変更に伴い、`typeof CSS` は `"function"` の代わりに `"object"` を返すようになったため、これを用いて機能判別を実装する際には注意が必要です。
+CSS ワーキンググループ内での [議論](https://github.com/w3c/csswg-drafts/pull/437) の結果、[`CSS`](https://developer.mozilla.org/docs/Web/API/CSS) インターフェイスが内部的には名前空間となりました。この変更に伴い、`typeof CSS` は `"function"` の代わりに `"object"` を返すようになったため、これを用いて機能判別を実装する際には注意が必要です。
 
 ```js
 // これは今後動作しません

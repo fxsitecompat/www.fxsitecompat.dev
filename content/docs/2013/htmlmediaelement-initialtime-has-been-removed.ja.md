@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=742537"
       title: "Bug 742537 – Remove HTMLMediaElement.initialTime"
 ---
-[`HTMLMediaElement`](https://developer.mozilla.org/ja/docs/Web/API/HTMLMediaElement) の `initialTime` プロパティは、仕様から削除されたため、使用できなくなりました。
+[`HTMLMediaElement`](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement) の `initialTime` プロパティは、仕様から削除されたため、使用できなくなりました。

@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=907892"
       title: "Bug 907892 – Disallow setting document.domain in sandboxed iframes"
 ---
-`sandbox` 属性付きの [`<iframe>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/iframe) で埋め込まれたページの [`document.domain`](https://developer.mozilla.org/ja/docs/Web/API/document.domain) プロパティを設定しようとすると、今後はセキュリティエラーが投げられます。
+`sandbox` 属性付きの [`<iframe>`](https://developer.mozilla.org/docs/Web/HTML/Element/iframe) で埋め込まれたページの [`document.domain`](https://developer.mozilla.org/docs/Web/API/document.domain) プロパティを設定しようとすると、今後はセキュリティエラーが投げられます。

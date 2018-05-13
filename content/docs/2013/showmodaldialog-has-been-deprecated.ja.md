@@ -9,7 +9,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=933040"
       title: "Bug 933040 – Warn for showModalDialog uses"
 ---
-Internet Explorer 由来の [`window.showModalDialog`](https://developer.mozilla.org/ja/docs/Web/API/window.showModalDialog) メソッドが、非推奨、廃止予定となりました。代わりに [`window.open`](https://developer.mozilla.org/ja/docs/Web/API/window.open) メソッドを使ってください。
+Internet Explorer 由来の [`window.showModalDialog`](https://developer.mozilla.org/docs/Web/API/window.showModalDialog) メソッドが、非推奨、廃止予定となりました。代わりに [`window.open`](https://developer.mozilla.org/docs/Web/API/window.open) メソッドを使ってください。
 
 **更新**: Firefox 46 以降、Firefox が *e10s* と呼ばれるマルチプロセスモードで実行されている場合、[このメソッドは無効化されます](https://www.fxsitecompat.com/ja/docs/2015/showmodaldialog-has-been-disabled-in-multi-process-firefox/)。
 

@@ -8,4 +8,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1176313"
       title: "Bug 1176313 - Make Attr follow the spec again"
 ---
-[`document.createAttribute`](https://developer.mozilla.org/ja/docs/Web/API/Document/createAttribute) メソッドの実装が最新の DOM 仕様に合わせて更新され、与えられた属性名を小文字に変換するようになりました。Mozilla の調査によれば、0.001% 未満のウェブページがこの変更による影響を受ける可能性があります。
+[`document.createAttribute`](https://developer.mozilla.org/docs/Web/API/Document/createAttribute) メソッドの実装が最新の DOM 仕様に合わせて更新され、与えられた属性名を小文字に変換するようになりました。Mozilla の調査によれば、0.001% 未満のウェブページがこの変更による影響を受ける可能性があります。

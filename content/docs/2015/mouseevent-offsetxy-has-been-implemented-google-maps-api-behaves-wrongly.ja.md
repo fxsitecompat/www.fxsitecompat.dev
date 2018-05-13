@@ -14,7 +14,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/ibv6l2-LG3E/discussion"
       title: "Intent to ship: MouseEvent.offsetX/Y"
 ---
-MSIE 由来の [`MouseEvent.offsetX`](https://developer.mozilla.org/ja/docs/Web/API/MouseEvent/offsetX)、[`MouseEvent.offsetY`](https://developer.mozilla.org/ja/docs/Web/API/MouseEvent/offsetY) 両プロパティが CSSOM View 仕様で標準化され、ついに Firefox にも実装されました。この変更により、[*Google Maps API* の Drawing Layer におけるバグ](https://code.google.com/p/gmaps-api-issues/issues/detail?id=8278) が露呈しており、おそらく不適切なユーザーエージェント判別が原因で、結果的に誤ったマウス座標が返されるという問題が発生しています。Google が修正に取り組んでいます。
+MSIE 由来の [`MouseEvent.offsetX`](https://developer.mozilla.org/docs/Web/API/MouseEvent/offsetX)、[`MouseEvent.offsetY`](https://developer.mozilla.org/docs/Web/API/MouseEvent/offsetY) 両プロパティが CSSOM View 仕様で標準化され、ついに Firefox にも実装されました。この変更により、[*Google Maps API* の Drawing Layer におけるバグ](https://code.google.com/p/gmaps-api-issues/issues/detail?id=8278) が露呈しており、おそらく不適切なユーザーエージェント判別が原因で、結果的に誤ったマウス座標が返されるという問題が発生しています。Google が修正に取り組んでいます。
 
 **更新**: Google はまだ修正を行っていませんが、バグの [コメント](https://bugzilla.mozilla.org/show_bug.cgi?id=1175863#c24) によれば、Maps API のスクリプト URL に `v=3` を付加することで問題を回避できるそうです。
 

@@ -11,4 +11,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=909340"
       title: "Bug 909340 – Hide XULElement from content"
 ---
-As part of the ongoing effort to standardize global objects, the following non-standard [XUL](https://developer.mozilla.org/en-US/docs/XUL)-related interfaces have been removed: `ChromeWindow`, `XULButtonElement`, `XULCheckboxElement`, `XULCommandDispatcher`, `XULCommandEvent`, `XULControlElement`, `XULDocument`, `XULElement`, `XULLabeledControlElement`, and `XULPopupElement`.
+As part of the ongoing effort to standardize global objects, the following non-standard [XUL](https://developer.mozilla.org/docs/XUL)-related interfaces have been removed: `ChromeWindow`, `XULButtonElement`, `XULCheckboxElement`, `XULCommandDispatcher`, `XULCommandEvent`, `XULControlElement`, `XULDocument`, `XULElement`, `XULLabeledControlElement`, and `XULPopupElement`.

@@ -11,7 +11,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1306472"
       title: "Bug 1306472 - No load event for iframe with javascript: URI that doesn't return a string"
 ---
-On Firefox 49, the [`load`](https://developer.mozilla.org/en-US/docs/Web/Events/load) event is not fired on the `<iframe>` element when the source is JavaScript code that does not return a string, like this:
+On Firefox 49, the [`load`](https://developer.mozilla.org/docs/Web/Events/load) event is not fired on the `<iframe>` element when the source is JavaScript code that does not return a string, like this:
 
 ```html
 <iframe src="javascript:true" onload="alert('hello')"></iframe>

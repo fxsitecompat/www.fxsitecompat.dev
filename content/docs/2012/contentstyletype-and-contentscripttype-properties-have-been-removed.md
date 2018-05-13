@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=819731"
       title: "Bug 819731 – remove contentStyleType and contentScriptType from SVGSVGElement"
 ---
-The implementation of the `contentScriptType` and `contentStyleType` properties has been removed from [`SVGSVGElement`](https://developer.mozilla.org/en-US/docs/Web/API/SVGSVGElement) along with the removal from SVG2.
+The implementation of the `contentScriptType` and `contentStyleType` properties has been removed from [`SVGSVGElement`](https://developer.mozilla.org/docs/Web/API/SVGSVGElement) along with the removal from SVG2.

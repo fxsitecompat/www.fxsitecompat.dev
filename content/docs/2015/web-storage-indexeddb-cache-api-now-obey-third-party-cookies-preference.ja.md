@@ -12,4 +12,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1145744"
       title: "Bug 1145744 - Disallow Cache API in 3rd party windows when 3rd party cookies are disabled"
 ---
-[Web Storage API](https://developer.mozilla.org/ja/docs/Web/API/Web_Storage_API) がブラウザーのサードパーティ Cookie 設定を尊重するようになったため、スクリプトがサードパーティ文脈にあり、ユーザーが [サードパーティ Cookie を無効化している](https://support.mozilla.org/ja/kb/disable-third-party-cookies) 場合は動作しなくなります。[IndexedDB API](https://developer.mozilla.org/ja/docs/Web/API/IndexedDB_API) と新しい [Service Worker Cache API](https://developer.mozilla.org/ja/docs/Web/API/Cache) も同じ制約に従います。
+[Web Storage API](https://developer.mozilla.org/docs/Web/API/Web_Storage_API) がブラウザーのサードパーティ Cookie 設定を尊重するようになったため、スクリプトがサードパーティ文脈にあり、ユーザーが [サードパーティ Cookie を無効化している](https://support.mozilla.org/ja/kb/disable-third-party-cookies) 場合は動作しなくなります。[IndexedDB API](https://developer.mozilla.org/docs/Web/API/IndexedDB_API) と新しい [Service Worker Cache API](https://developer.mozilla.org/docs/Web/API/Cache) も同じ制約に従います。

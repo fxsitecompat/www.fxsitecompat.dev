@@ -17,7 +17,7 @@ references:
 aliases:
     - "/ja/docs/2017/checkboxes-and-radio-buttons-are-not-displayed-when-msthemecompatible-is-disabled/"
 ---
-Firefox 54 で HTML チェックボックスやラジオボタンの描画方法が変更され、`-moz-appearance:none` によるスタイル指定が `<input type="radio">` や `<input type="checkbox">` に対して行われた場合に [置換要素](https://developer.mozilla.org/ja/docs/Web/CSS/Replaced_element) となってしまう問題が解消されました。これにより、ウェブ開発者はより柔軟にフォームコントロールをデザインできるようになります。
+Firefox 54 で HTML チェックボックスやラジオボタンの描画方法が変更され、`-moz-appearance:none` によるスタイル指定が `<input type="radio">` や `<input type="checkbox">` に対して行われた場合に [置換要素](https://developer.mozilla.org/docs/Web/CSS/Replaced_element) となってしまう問題が解消されました。これにより、ウェブ開発者はより柔軟にフォームコントロールをデザインできるようになります。
 
 しかしながら、ドキュメントの `<head>` 内に `<meta http-equiv="MSThemeCompatible" content="no">` が存在するとそれらの要素が見えなくなってしまうという、思わぬ副作用がこの変更によってもたらされました。
 

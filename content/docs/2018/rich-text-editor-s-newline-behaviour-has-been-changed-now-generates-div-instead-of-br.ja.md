@@ -16,11 +16,11 @@ references:
 aliases:
     - "/ja/docs/2017/rich-text-editor-s-newline-behaviour-has-been-changed-now-generates-div-instead-of-br/"
 ---
-Firefox では、[リッチテキストエディター](https://developer.mozilla.org/ja/docs/Rich-Text_Editing_in_Mozilla) 上で Enter キーを押すと `<br>` 要素が挿入されます。一方、Internet Explorer では `<p>` が、Google Chrome では `<div>` が、それぞれ追加されます。多くの議論が重ねられた結果、Firefox 60 でこの挙動が Chrome に合わせる形で変更され、`<div>` が新たな既定のセパレーターとして使用されます。
+Firefox では、[リッチテキストエディター](https://developer.mozilla.org/docs/Rich-Text_Editing_in_Mozilla) 上で Enter キーを押すと `<br>` 要素が挿入されます。一方、Internet Explorer では `<p>` が、Google Chrome では `<div>` が、それぞれ追加されます。多くの議論が重ねられた結果、Firefox 60 でこの挙動が Chrome に合わせる形で変更され、`<div>` が新たな既定のセパレーターとして使用されます。
 
 「Firefox」と入力して「Fire」と「fox」の間で Enter を押すと、結果として得られる HTML は `Fire<br>fox` ではなく `<div>Fire</div><div>fox</div>` となります。
 
-この挙動は、バージョン 55 以降の Firefox Nightly と早期 Beta/DevEdition では既に初期設定で有効となっていますが、[`execCommand`](https://developer.mozilla.org/ja/docs/Web/API/Document/execCommand) メソッドの [`DefaultParagraphSeparator`](https://msdn.microsoft.com/en-us/library/hh801229(v=vs.85).aspx#DefaultParagraphSeparator) コマンドで制御可能です。
+この挙動は、バージョン 55 以降の Firefox Nightly と早期 Beta/DevEdition では既に初期設定で有効となっていますが、[`execCommand`](https://developer.mozilla.org/docs/Web/API/Document/execCommand) メソッドの [`DefaultParagraphSeparator`](https://msdn.microsoft.com/en-us/library/hh801229(v=vs.85).aspx#DefaultParagraphSeparator) コマンドで制御可能です。
 
 ```js
 // 従来通り <br> を挿入するには

@@ -21,7 +21,7 @@ var options = {
 };
 ```
 
-これが [新しい構文](https://developer.mozilla.org/ja/docs/Web/API/WebRTC_API/WebRTC_basics#options) です。大文字・小文字の違いに注意してください。
+これが [新しい構文](https://developer.mozilla.org/docs/Web/API/WebRTC_API/WebRTC_basics#options) です。大文字・小文字の違いに注意してください。
 
 ```js
 var options = {

@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/u32smeY40Xw/discussion"
       title: "Intent to unship: DocumentType.internalSubset"
 ---
-[`document.doctype`](https://developer.mozilla.org/ja/docs/Web/API/Document/doctype) 上で参照できた古く無名の `DocumentType.internalSubset` プロパティが、DOM 仕様から除かれたため削除されました。
+[`document.doctype`](https://developer.mozilla.org/docs/Web/API/Document/doctype) 上で参照できた古く無名の `DocumentType.internalSubset` プロパティが、DOM 仕様から除かれたため削除されました。

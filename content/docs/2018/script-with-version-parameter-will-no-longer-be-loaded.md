@@ -15,7 +15,7 @@ references:
 aliases:
     - "/en-CA/docs/2015/javascript-versions-will-be-retired/"
 ---
-Traditionally, Firefox has required an explicit `version` parameter for the `<script>` element's `type` attribute to use the advanced features of JavaScript [1.7](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/1.7) and [1.8](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/1.8).
+Traditionally, Firefox has required an explicit `version` parameter for the `<script>` element's `type` attribute to use the advanced features of JavaScript [1.7](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.7) and [1.8](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.8).
 
 ```html
 <script type="application/javascript;version=1.7"></script>

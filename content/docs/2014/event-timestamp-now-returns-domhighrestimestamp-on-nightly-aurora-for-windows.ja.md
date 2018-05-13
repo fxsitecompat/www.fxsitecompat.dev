@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1022396"
       title: "Bug 1022396 – Make Event.timeStamp return a DOMHighResTimeStamp on Windows (was Event.timeStamp should be relative to 1st January 1970 rather than the system start)"
 ---
-Windows 版の [Nightly](https://nightly.mozilla.org/)、[Aurora](https://aurora.mozilla.org/) チャンネルで、[`event.timeStamp`](https://developer.mozilla.org/ja/docs/Web/API/event.timeStamp) プロパティが、従来のミリ秒単位のタイムスタンプに代わり、マイクロ秒単位の [`DOMHighResTimeStamp`](https://developer.mozilla.org/ja/docs/Web/API/DOMHighResTimeStamp) を返すようになりました。この機能は Beta、Release チャンネルではまだ無効となっており、[他のプラットフォームでは実装されていません](https://bugzilla.mozilla.org/show_bug.cgi?id=1026803)。
+Windows 版の [Nightly](https://nightly.mozilla.org/)、[Aurora](https://aurora.mozilla.org/) チャンネルで、[`event.timeStamp`](https://developer.mozilla.org/docs/Web/API/event.timeStamp) プロパティが、従来のミリ秒単位のタイムスタンプに代わり、マイクロ秒単位の [`DOMHighResTimeStamp`](https://developer.mozilla.org/docs/Web/API/DOMHighResTimeStamp) を返すようになりました。この機能は Beta、Release チャンネルではまだ無効となっており、[他のプラットフォームでは実装されていません](https://bugzilla.mozilla.org/show_bug.cgi?id=1026803)。

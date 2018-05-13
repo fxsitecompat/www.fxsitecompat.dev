@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1042881"
       title: "Bug 1042881 – Resolve manifest properties urls against the manifest url instead of the origin."
 ---
-URLs specified in [Open Web App manifest](https://developer.mozilla.org/en-US/Apps/Build/Manifest) fields are now resolved against the manifest file's URL instead of the app origin. This change enables multiple apps to be installed from the [same origin](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy).
+URLs specified in [Open Web App manifest](https://developer.mozilla.org/Apps/Build/Manifest) fields are now resolved against the manifest file's URL instead of the app origin. This change enables multiple apps to be installed from the [same origin](https://developer.mozilla.org/docs/Web/Security/Same-origin_policy).

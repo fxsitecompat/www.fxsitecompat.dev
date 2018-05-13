@@ -8,4 +8,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1366415"
       title: "Bug 1366415 - Unprefix autoGainControl and noiseSuppression constraints"
 ---
-[`MediaTrackConstraints`](https://developer.mozilla.org/ja/docs/Web/API/MediaTrackConstraints) ディクショナリー上の `autoGainControl`、`noiseSuppression` 両プロパティが接頭辞なしで使用可能となりました。それらの `moz` 接頭辞付きバージョンは近い将来削除されます。
+[`MediaTrackConstraints`](https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints) ディクショナリー上の `autoGainControl`、`noiseSuppression` 両プロパティが接頭辞なしで使用可能となりました。それらの `moz` 接頭辞付きバージョンは近い将来削除されます。

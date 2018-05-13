@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/u32smeY40Xw/discussion"
       title: "Intent to unship: DocumentType.internalSubset"
 ---
-The obsolete, obscure `DocumentType.internalSubset` property, available on [`document.doctype`](https://developer.mozilla.org/en-US/docs/Web/API/Document/doctype), has been removed as it's gone from the DOM spec.
+The obsolete, obscure `DocumentType.internalSubset` property, available on [`document.doctype`](https://developer.mozilla.org/docs/Web/API/Document/doctype), has been removed as it's gone from the DOM spec.

@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=819731"
       title: "Bug 819731 – remove contentStyleType and contentScriptType from SVGSVGElement"
 ---
-[`SVGSVGElement`](https://developer.mozilla.org/ja/docs/DOM/SVGSVGElement) の `contentScriptType`、`contentStyleType` プロパティの実装は、SVG2 での削除に伴い削除されました。
+[`SVGSVGElement`](https://developer.mozilla.org/docs/DOM/SVGSVGElement) の `contentScriptType`、`contentStyleType` プロパティの実装は、SVG2 での削除に伴い削除されました。

@@ -12,4 +12,4 @@ references:
 aliases:
     - "/en-CA/docs/2015/legacy-proxy-api-will-be-removed/"
 ---
-The non-standard, [legacy Proxy API](https://developer.mozilla.org/en-US/docs/Archive/Web/Old_Proxy_API), including the `Proxy.create` and `Proxy.createFunction` methods [deprecated since Firefox 18](https://www.fxsitecompat.com/en-CA/docs/2012/proxy-api-has-been-updated-for-the-new-spec/), has been removed with Firefox 48. The Web Console shows the deprecation warning on Firefox 47. Use the [standardized Proxy API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) instead.
+The non-standard, [legacy Proxy API](https://developer.mozilla.org/docs/Archive/Web/Old_Proxy_API), including the `Proxy.create` and `Proxy.createFunction` methods [deprecated since Firefox 18](https://www.fxsitecompat.com/en-CA/docs/2012/proxy-api-has-been-updated-for-the-new-spec/), has been removed with Firefox 48. The Web Console shows the deprecation warning on Firefox 47. Use the [standardized Proxy API](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy) instead.

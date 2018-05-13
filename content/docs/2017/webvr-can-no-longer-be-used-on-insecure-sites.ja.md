@@ -11,4 +11,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/bU2gil1SHkY/discussion"
       title: "Intent to remove: WebVR on insecure contexts"
 ---
-Firefox 55 以降利用可能となっている [WebVR API](https://developer.mozilla.org/ja/docs/Web/API/WebVR_API) が、Firefox 61 以降は HTTPS 経由で配信された安全なサイトのみで動作するようになります。これは、この API が繊細なセンサー入力を露呈しているためです。たとえデモとしてであっても何らかの WebVR コンテンツを提供しているウェブサイトは、もしまだ移行していなければ HTTPS を採用しなければなりません。
+Firefox 55 以降利用可能となっている [WebVR API](https://developer.mozilla.org/docs/Web/API/WebVR_API) が、Firefox 61 以降は HTTPS 経由で配信された安全なサイトのみで動作するようになります。これは、この API が繊細なセンサー入力を露呈しているためです。たとえデモとしてであっても何らかの WebVR コンテンツを提供しているウェブサイトは、もしまだ移行していなければ HTTPS を採用しなければなりません。

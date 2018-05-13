@@ -18,4 +18,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1008385"
       title: "Bug 1008385 – Betterment.com \"Goal set up\" page\'s funded-in-X-years input is broken, due to spinners pushing number out of view"
 ---
-[`<input>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/input) 要素が HTML5 で導入された `number` 形式に対応しました。この変更で矢印付きの増減ボタンが追加されたことによるリグレッションが少なくとも 2 件発見されています。ページ作者は、必要であれば CSS [`-moz-appearance: textfield`](https://developer.mozilla.org/ja/docs/Web/CSS/-moz-appearance) を使ってボタンを隠すことができます。これは仕様の一部ではありませんが、Chrome 用の `-webkit-appearance: none` と同様の挙動となります。
+[`<input>`](https://developer.mozilla.org/docs/Web/HTML/Element/input) 要素が HTML5 で導入された `number` 形式に対応しました。この変更で矢印付きの増減ボタンが追加されたことによるリグレッションが少なくとも 2 件発見されています。ページ作者は、必要であれば CSS [`-moz-appearance: textfield`](https://developer.mozilla.org/docs/Web/CSS/-moz-appearance) を使ってボタンを隠すことができます。これは仕様の一部ではありませんが、Chrome 用の `-webkit-appearance: none` と同様の挙動となります。

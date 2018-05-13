@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=784466"
       title: "Bug 784466 – [css3-animations] we should drop declarations in keyframe rules that have !important"
 ---
-Following the latest [CSS3 animations](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_animations) spec, key frame rule declarations with the `!important` keyword are now be ignored and parse errors will be returned.
+Following the latest [CSS3 animations](https://developer.mozilla.org/docs/Web/Guide/CSS/Using_CSS_animations) spec, key frame rule declarations with the `!important` keyword are now be ignored and parse errors will be returned.

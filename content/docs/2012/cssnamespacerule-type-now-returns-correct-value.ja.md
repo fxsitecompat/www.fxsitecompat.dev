@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=765590"
       title: "Bug 765590 – CSSNameSpaceRule.type should be 10, not 0"
 ---
-[`CSSNamespaceRule`](https://developer.mozilla.org/ja/docs/Web/API/CSSNamespaceRule) インターフェイスの `type` プロパティが、`CSSRule.UNKNOWN_RULE (0)` ではなく `CSSRule.NAMESPACE_RULE (10)` を返すようになりました。
+[`CSSNamespaceRule`](https://developer.mozilla.org/docs/Web/API/CSSNamespaceRule) インターフェイスの `type` プロパティが、`CSSRule.UNKNOWN_RULE (0)` ではなく `CSSRule.NAMESPACE_RULE (10)` を返すようになりました。

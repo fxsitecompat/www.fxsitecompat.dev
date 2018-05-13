@@ -17,9 +17,9 @@ references:
 aliases:
     - "/en-CA/docs/2016/loading-cross-origin-worker-no-longer-throws-worker-in-sandboxed-iframe-will-fail/"
 ---
-As part of the HTML5 standard compliance, Firefox 45 has changed the way how to internally load a [Web worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API) script. There are 2 backward compatiblity issues you should know.
+As part of the HTML5 standard compliance, Firefox 45 has changed the way how to internally load a [Web worker](https://developer.mozilla.org/docs/Web/API/Web_Workers_API) script. There are 2 backward compatiblity issues you should know.
 
-Previously, Firefox was throwing a `SecurityError` immediately when attempting to load a cross-origin worker script with the [`Worker`](https://developer.mozilla.org/en-US/docs/Web/API/Worker/Worker) constructor. On Firefox 45 and later, a generic `error` event will be asynchronously fired once a new `Worker` instance is created, according to the latest spec. In order to deal with both cases, you have to use the worker's [`onerror`](https://developer.mozilla.org/en-US/docs/Web/API/AbstractWorker/onerror) handler along with a [`try-catch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) statement:
+Previously, Firefox was throwing a `SecurityError` immediately when attempting to load a cross-origin worker script with the [`Worker`](https://developer.mozilla.org/docs/Web/API/Worker/Worker) constructor. On Firefox 45 and later, a generic `error` event will be asynchronously fired once a new `Worker` instance is created, according to the latest spec. In order to deal with both cases, you have to use the worker's [`onerror`](https://developer.mozilla.org/docs/Web/API/AbstractWorker/onerror) handler along with a [`try-catch`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch) statement:
 
 ```js
 try {
@@ -41,4 +41,4 @@ Mozilla's [*PDF.js*](https://mozilla.github.io/pdf.js/) library is currently bro
 
 **Update**: *PDF.js* version 1.4.187 has fixed the issue. You can download the latest pre-built version from the [pdfjs-dist repository](https://github.com/mozilla/pdfjs-dist) until a new release is available on the [pdf.js repository](https://github.com/mozilla/pdf.js/releases). You can also build it yourself.
 
-Firefox 45 has also solved an implementation bug where the browser was incorrectly allowing a worker to be loaded in an [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) with the `sandbox` attribute. Such code now leads to an error as above, because the document in a sandboxed iframe has a unique origin that won't match anything, while worker scripts are required to be [same-origin](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy). The workaround here is adding `allow-same-origin` to the `sandbox` value, though it's not recommended due to the loosened protection.
+Firefox 45 has also solved an implementation bug where the browser was incorrectly allowing a worker to be loaded in an [`<iframe>`](https://developer.mozilla.org/docs/Web/HTML/Element/iframe) with the `sandbox` attribute. Such code now leads to an error as above, because the document in a sandboxed iframe has a unique origin that won't match anything, while worker scripts are required to be [same-origin](https://developer.mozilla.org/docs/Web/Security/Same-origin_policy). The workaround here is adding `allow-same-origin` to the `sandbox` value, though it's not recommended due to the loosened protection.

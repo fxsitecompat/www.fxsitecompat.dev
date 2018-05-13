@@ -8,4 +8,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1333675"
       title: "Bug 1333675 - Consider removing prefixed value of unicode-bidi"
 ---
-The support for the vendor-prefixed [`unicode-bidi`](https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi) CSS property values, deprecated since [Firefox 50](https://www.fxsitecompat.com/en-CA/docs/2016/unicode-bidi-values-have-been-unprefixed/), has been removed with Firefox 54. Use the unprefixed values instead of `-moz-isolate`, `-moz-isolate-override` and `-moz-plaintext`.
+The support for the vendor-prefixed [`unicode-bidi`](https://developer.mozilla.org/docs/Web/CSS/unicode-bidi) CSS property values, deprecated since [Firefox 50](https://www.fxsitecompat.com/en-CA/docs/2016/unicode-bidi-values-have-been-unprefixed/), has been removed with Firefox 54. Use the unprefixed values instead of `-moz-isolate`, `-moz-isolate-override` and `-moz-plaintext`.

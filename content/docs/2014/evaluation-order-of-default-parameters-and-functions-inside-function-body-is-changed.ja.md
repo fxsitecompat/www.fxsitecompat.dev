@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1022962"
       title: "Bug 1022962 – Default parameters should be evaluated before function declarations"
 ---
-Firefox 15 で実装された [デフォルト引数](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/default_parameters) は、これまで関数本体内の関数の後に評価されていましたが、挙動が変更され、それらの関数の前に評価されるようになりました。そのため、デフォルト引数からそれらの関数を参照することはできなくなります。
+Firefox 15 で実装された [デフォルト引数](https://developer.mozilla.org/docs/Web/JavaScript/Reference/default_parameters) は、これまで関数本体内の関数の後に評価されていましたが、挙動が変更され、それらの関数の前に評価されるようになりました。そのため、デフォルト引数からそれらの関数を参照することはできなくなります。

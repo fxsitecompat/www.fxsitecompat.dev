@@ -12,7 +12,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/qu5JekiuSfw/discussion"
       title: "Intent to unship: CSSStyleDeclaration.getPropertyCSSValue"
 ---
-The support for the [`getPropertyCSSValue`](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyCSSValue) method on the `CSSStyleDeclaration` interface is now considered deprecated and will be removed in the near future. Firefox 61 and later will show a console warning for the method that has been [classified as obsolete](https://lists.w3.org/Archives/Public/www-style/2003Oct/0347.html) since 2003. Google Chrome has already [removed the support](https://groups.google.com/a/chromium.org/d/topic/blink-dev/3VmxWFzcyJc/discussion) back in 2014. Use the [`getPropertyValue`](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyValue) method instead.
+The support for the [`getPropertyCSSValue`](https://developer.mozilla.org/docs/Web/API/CSSStyleDeclaration/getPropertyCSSValue) method on the `CSSStyleDeclaration` interface is now considered deprecated and will be removed in the near future. Firefox 61 and later will show a console warning for the method that has been [classified as obsolete](https://lists.w3.org/Archives/Public/www-style/2003Oct/0347.html) since 2003. Google Chrome has already [removed the support](https://groups.google.com/a/chromium.org/d/topic/blink-dev/3VmxWFzcyJc/discussion) back in 2014. Use the [`getPropertyValue`](https://developer.mozilla.org/docs/Web/API/CSSStyleDeclaration/getPropertyValue) method instead.
 
 **Update**: The method has been disabled on the Nightly channel as of Firefox 61.
 

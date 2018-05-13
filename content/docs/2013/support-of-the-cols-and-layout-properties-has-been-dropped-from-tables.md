@@ -11,4 +11,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=835439"
       title: "Bug 835439 – Remove support for the table[layout] attribute"
 ---
-Firefox no longer accepts the `cols` and `layout` properties on the [`<table>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table) elements. No other browsers support these obscure properties.
+Firefox no longer accepts the `cols` and `layout` properties on the [`<table>`](https://developer.mozilla.org/docs/Web/HTML/Element/table) elements. No other browsers support these obscure properties.

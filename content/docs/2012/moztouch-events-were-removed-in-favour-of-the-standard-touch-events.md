@@ -14,7 +14,7 @@ references:
 aliases:
     - "/en-CA/docs/2012/moztouch-events-were-removed-in-favor-of-the-standard-touch-events/"
 ---
-The experimental, deprecated [`MozTouch*` API](https://developer.mozilla.org/en-US/docs/Web/Guide/DOM/Events/Touch_events_%28Mozilla_experimental%29) (the `MozTouchDown`, `MozTouchMove`, `MozTouchUp` events) has been removed. The [W3C standard touch events](https://developer.mozilla.org/en-US/docs/Web/Guide/DOM/Events/Touch_events) should be used instead.
+The experimental, deprecated [`MozTouch*` API](https://developer.mozilla.org/docs/Web/Guide/DOM/Events/Touch_events_%28Mozilla_experimental%29) (the `MozTouchDown`, `MozTouchMove`, `MozTouchUp` events) has been removed. The [W3C standard touch events](https://developer.mozilla.org/docs/Web/Guide/DOM/Events/Touch_events) should be used instead.
 
 To maintain site compatibility, on Windows, Firefox detects whether touch input is supported and disables touch events on incompatible computers. According to a comment in the bug, compatible computers are only a few percent for now. On Android, touch events are enabled by default. On Mac and Linux, touch events are not implemented yet.
 

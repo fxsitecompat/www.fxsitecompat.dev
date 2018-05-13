@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1066826"
       title: "Bug 1066826 – Remove Navigator::MozisLocallyAvailable API"
 ---
-非標準の [`Navigator.mozIsLocallyAvailable`](https://developer.mozilla.org/ja/docs/Web/API/Navigator.mozIsLocallyAvailable) メソッドが削除されました。
+非標準の [`Navigator.mozIsLocallyAvailable`](https://developer.mozilla.org/docs/Web/API/Navigator.mozIsLocallyAvailable) メソッドが削除されました。

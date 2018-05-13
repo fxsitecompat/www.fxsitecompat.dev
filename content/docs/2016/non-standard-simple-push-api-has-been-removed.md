@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/EvtHItM3JIA/discussion"
       title: "Intent to unship: SimplePush API"
 ---
-The non-standard [Simple Push API](https://developer.mozilla.org/en-US/docs/Mozilla/B2G_OS/API/Simple_Push_API) used for Firefox OS has been removed in favour of the standardized [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API). Simple Push has never shipped with Firefox for desktop or Android.
+The non-standard [Simple Push API](https://developer.mozilla.org/docs/Mozilla/B2G_OS/API/Simple_Push_API) used for Firefox OS has been removed in favour of the standardized [Push API](https://developer.mozilla.org/docs/Web/API/Push_API). Simple Push has never shipped with Firefox for desktop or Android.

@@ -11,6 +11,6 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1215072"
       title: "Bug 1215072 - Assertion failure: !JS_IsExceptionPending(cx), at ./HTMLCanvasElementBinding.cpp:231"
 ---
-As part of the standard compliant, the [`HTMLCanvasElement.getContext`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext) method now throws a `TypeError` if the second `contextAttributes` argument is not an `Object`, `null` nor `undefined`. See the MDN article for the possible attributes.
+As part of the standard compliant, the [`HTMLCanvasElement.getContext`](https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/getContext) method now throws a `TypeError` if the second `contextAttributes` argument is not an `Object`, `null` nor `undefined`. See the MDN article for the possible attributes.
 
 **Update**: This change has been [reverted with Firefox 45](https://bugzilla.mozilla.org/show_bug.cgi?id=1244480) since *Livecode* Emscripten code was broken due to the invalid `false` argument.

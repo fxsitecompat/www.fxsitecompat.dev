@@ -10,4 +10,4 @@ references:
 aliases:
     - "/en-CA/docs/2016/arraybuffer-slice-will-be-removed/"
 ---
-The non-standard `ArrayBuffer.slice` static method, [deprecated since Firefox 52](https://www.fxsitecompat.com/en-CA/docs/2016/arraybuffer-slice-has-been-deprecated/), has been removed with Firefox 53. Use the standard [`ArrayBuffer.prototype.slice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/slice) method instead.
+The non-standard `ArrayBuffer.slice` static method, [deprecated since Firefox 52](https://www.fxsitecompat.com/en-CA/docs/2016/arraybuffer-slice-has-been-deprecated/), has been removed with Firefox 53. Use the standard [`ArrayBuffer.prototype.slice`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/slice) method instead.

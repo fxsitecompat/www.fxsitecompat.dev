@@ -12,4 +12,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/1JDnJWefe1E/discussion"
       title: "Intent to unship: xml:base attribute"
 ---
-HTML の [`<base>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/base) 要素と似た [`xml:base`](https://www.w3.org/TR/xmlbase/) 属性が廃止予定となり、近い将来削除されることとなりました。これは何年も前に仕様から削除されており、現時点で他のどのブラウザーも対応していません。
+HTML の [`<base>`](https://developer.mozilla.org/docs/Web/HTML/Element/base) 要素と似た [`xml:base`](https://www.w3.org/TR/xmlbase/) 属性が廃止予定となり、近い将来削除されることとなりました。これは何年も前に仕様から削除されており、現時点で他のどのブラウザーも対応していません。

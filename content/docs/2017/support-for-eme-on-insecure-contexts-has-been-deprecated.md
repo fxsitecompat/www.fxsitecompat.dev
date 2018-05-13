@@ -12,4 +12,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/sa_2q8oEKgE/discussion"
       title: "Intent to remove: Insecure use of Encrypted Media Extensions"
 ---
-The [Encrypted Media Extensions (EME) API](https://developer.mozilla.org/en-US/docs/Web/API/Encrypted_Media_Extensions_API), used by publishers like *Netflix* to serve DRM-protected content, can only be used on [secure contexts](https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts) according to the latest spec. In Firefox, the support for EME on insecure contexts is now deprecated with a console warning and will be removed in the near future.
+The [Encrypted Media Extensions (EME) API](https://developer.mozilla.org/docs/Web/API/Encrypted_Media_Extensions_API), used by publishers like *Netflix* to serve DRM-protected content, can only be used on [secure contexts](https://developer.mozilla.org/docs/Web/Security/Secure_Contexts) according to the latest spec. In Firefox, the support for EME on insecure contexts is now deprecated with a console warning and will be removed in the near future.

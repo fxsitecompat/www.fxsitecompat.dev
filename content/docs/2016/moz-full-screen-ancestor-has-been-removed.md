@@ -10,4 +10,4 @@ references:
 alias:
     - "/en-CA/docs/2015/moz-full-screen-ancestor-will-be-removed/"
 ---
-The support for the [`:-moz-full-screen-ancestor`](https://developer.mozilla.org/en-US/docs/Web/CSS/:-moz-full-screen-ancestor) CSS pseudo-class has been removed since it's no longer a part of the spec.
+The support for the [`:-moz-full-screen-ancestor`](https://developer.mozilla.org/docs/Web/CSS/:-moz-full-screen-ancestor) CSS pseudo-class has been removed since it's no longer a part of the spec.

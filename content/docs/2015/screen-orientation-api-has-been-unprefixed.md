@@ -12,4 +12,4 @@ references:
 ---
 Firefox 43 has implemented the latest standard [Screen Orientation API](https://w3c.github.io/screen-orientation/) that offers the `type`, `angle` and `onchange` properties as well as the `lock` and `unlock` methods on `window.screen.orientation`.
 
-The experimental, prefixed implementation available since Firefox 14, including the `mozOrientation` and `onmozorientationchange` properties as well as the `mozLockOrientation` and `mozUnlockOrientation` methods on [`window.screen`](https://developer.mozilla.org/en-US/docs/Web/API/Screen), will be removed in the future.
+The experimental, prefixed implementation available since Firefox 14, including the `mozOrientation` and `onmozorientationchange` properties as well as the `mozLockOrientation` and `mozUnlockOrientation` methods on [`window.screen`](https://developer.mozilla.org/docs/Web/API/Screen), will be removed in the future.

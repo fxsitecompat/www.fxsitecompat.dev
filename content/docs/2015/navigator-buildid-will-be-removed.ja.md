@@ -8,4 +8,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=583181"
       title: "Bug 583181 - Don't reveal navigator.buildID to every site on the web"
 ---
-Firefox のビルド識別子を返す非標準の [`navigator.buildID`](https://developer.mozilla.org/ja/docs/Web/API/Navigator/buildID) プロパティを、ユーザープライバシー保護のため削除することが検討されています。この 14 桁の数字から成る識別子データがフィンガープリンティングに使われる可能性があるためです。
+Firefox のビルド識別子を返す非標準の [`navigator.buildID`](https://developer.mozilla.org/docs/Web/API/Navigator/buildID) プロパティを、ユーザープライバシー保護のため削除することが検討されています。この 14 桁の数字から成る識別子データがフィンガープリンティングに使われる可能性があるためです。

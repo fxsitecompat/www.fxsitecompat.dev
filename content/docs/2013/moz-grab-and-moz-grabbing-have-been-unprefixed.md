@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=880672"
       title: "Bug 880672 – Unprefix -moz-grab and -moz-grabbing"
 ---
-The unprefixed support of `-moz-grab` and `-moz-grabbing` keywords for the [`cursor`](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor) property has been added. Those prefixed keywords will be removed after a reasonable period of time.
+The unprefixed support of `-moz-grab` and `-moz-grabbing` keywords for the [`cursor`](https://developer.mozilla.org/docs/Web/CSS/cursor) property has been added. Those prefixed keywords will be removed after a reasonable period of time.

@@ -13,4 +13,4 @@ aliases:
     - "/ja/docs/2015/prefixed-page-visibility-api-will-be-removed/"
     - "/ja/docs/2016/prefixed-page-visibility-api-has-been-be-removed/"
 ---
-[Firefox 18 以降廃止予定となっていた](https://www.fxsitecompat.com/ja/docs/2012/page-visibility-api-has-been-unprefixed/) 接頭辞付き [Page Visibility API](https://developer.mozilla.org/ja/docs/Web/API/Page_Visibility_API) への対応が Firefox 51 で削除されました。これには、`mozHidden`、`mozVisibilityState` 両プロパティおよび `mozvisibilitychange` イベントが含まれます。接頭辞の外れた標準のプロパティやイベントで代用してください。
+[Firefox 18 以降廃止予定となっていた](https://www.fxsitecompat.com/ja/docs/2012/page-visibility-api-has-been-unprefixed/) 接頭辞付き [Page Visibility API](https://developer.mozilla.org/docs/Web/API/Page_Visibility_API) への対応が Firefox 51 で削除されました。これには、`mozHidden`、`mozVisibilityState` 両プロパティおよび `mozvisibilitychange` イベントが含まれます。接頭辞の外れた標準のプロパティやイベントで代用してください。

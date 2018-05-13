@@ -10,4 +10,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1272592"
       title: "Bug 1272592 - [UI Events-key] Drop \"MediaSelect\" key value and use \"LaunchMediaPlayer\" instead"
 ---
-[`KeyboardEvent.key`](https://developer.mozilla.org/ja/docs/Web/API/KeyboardEvent/key) プロパティによって返されるいくつかのキー値が、最新の DOM Level 3 Events 仕様に合わせて更新されました。`VolumeDown`、`VolumeUp`、`VolumeMute` はそれぞれ `AudioVolumeDown`、`AudioVolumeUp`、`AudioVolumeMute` となりました。`MediaSelect` は `LaunchMediaPlayer` に取って代わられる形で削除されました。
+[`KeyboardEvent.key`](https://developer.mozilla.org/docs/Web/API/KeyboardEvent/key) プロパティによって返されるいくつかのキー値が、最新の DOM Level 3 Events 仕様に合わせて更新されました。`VolumeDown`、`VolumeUp`、`VolumeMute` はそれぞれ `AudioVolumeDown`、`AudioVolumeUp`、`AudioVolumeMute` となりました。`MediaSelect` は `LaunchMediaPlayer` に取って代わられる形で削除されました。

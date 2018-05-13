@@ -10,4 +10,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=828787"
       title: "Bug 828787 – Stop allowing indexed expandos on windows"
 ---
-[`window`](https://developer.mozilla.org/ja/docs/Web/API/window) オブジェクト上でのインデックス付きエクスパンド (数値をプロパティ名として持つ独自プロパティ) の指定が許容されなくなりました。今後 `window[2] = "myString"` のようなコードは無視されます。
+[`window`](https://developer.mozilla.org/docs/Web/API/window) オブジェクト上でのインデックス付きエクスパンド (数値をプロパティ名として持つ独自プロパティ) の指定が許容されなくなりました。今後 `window[2] = "myString"` のようなコードは無視されます。

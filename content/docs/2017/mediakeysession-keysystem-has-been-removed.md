@@ -10,4 +10,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1335555"
       title: "Bug 1335555 - [EME] Remove MediaKeySession.keySystem"
 ---
-The `keySystem` property on the [`MediaKeySession`](https://developer.mozilla.org/en-US/docs/Web/API/MediaKeySession) interface, implemented initially with Firefox 32 as part of the [Encrypted Media Extensions API](https://developer.mozilla.org/en-US/docs/Web/API/Encrypted_Media_Extensions_API), has been removed as it's no longer in the spec. [`MediaKeySystemAccess.keySystem`](https://developer.mozilla.org/en-US/docs/Web/API/MediaKeySystemAccess/keySystem) should be used instead.
+The `keySystem` property on the [`MediaKeySession`](https://developer.mozilla.org/docs/Web/API/MediaKeySession) interface, implemented initially with Firefox 32 as part of the [Encrypted Media Extensions API](https://developer.mozilla.org/docs/Web/API/Encrypted_Media_Extensions_API), has been removed as it's no longer in the spec. [`MediaKeySystemAccess.keySystem`](https://developer.mozilla.org/docs/Web/API/MediaKeySystemAccess/keySystem) should be used instead.

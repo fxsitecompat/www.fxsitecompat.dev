@@ -10,9 +10,9 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1344625"
       title: "Bug 1344625 - Turn on ENABLE_INTL_API=yes on Android's release build"
 ---
-非標準 [`Date.prototype.toLocaleFormat`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat) メソッドへの対応が廃止予定となり、近い将来 [削除される](https://www.fxsitecompat.com/ja/docs/2015/date-prototype-tolocaleformat-will-be-removed/) こととなりました。Firefox 55 以降、コンソールにこのメソッドに対する警告が表示されます。
+非標準 [`Date.prototype.toLocaleFormat`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat) メソッドへの対応が廃止予定となり、近い将来 [削除される](https://www.fxsitecompat.com/ja/docs/2015/date-prototype-tolocaleformat-will-be-removed/) こととなりました。Firefox 55 以降、コンソールにこのメソッドに対する警告が表示されます。
 
-例えば [Sugar](https://sugarjs.com/) のように同じ結果を得られる JavaScript ライブラリがあります。また、以下の例が示すように、[ECMAScript Internationalization API](https://hacks.mozilla.org/2014/12/introducing-the-javascript-internationalization-api/) の一部である標準の [`toLocaleDateString`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString) メソッドを使用することもできます。
+例えば [Sugar](https://sugarjs.com/) のように同じ結果を得られる JavaScript ライブラリがあります。また、以下の例が示すように、[ECMAScript Internationalization API](https://hacks.mozilla.org/2014/12/introducing-the-javascript-internationalization-api/) の一部である標準の [`toLocaleDateString`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString) メソッドを使用することもできます。
 
 ```js
 // "Tuesday, August 1, 2017" のような形式

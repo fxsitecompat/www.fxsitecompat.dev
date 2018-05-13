@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=570896"
       title: "Bug 570896 - Add support for different background-origin and background-clip in background shorthand"
 ---
-ここで起こり得る互換性の問題としては、[`background-origin`](https://developer.mozilla.org/ja/docs/Web/CSS/background-origin) あるいは [`background-clip`](https://developer.mozilla.org/ja/docs/Web/CSS/background-clip) が [`background`](https://developer.mozilla.org/ja/docs/Web/CSS/background) ショートハンドプロパティで明示的に指定されていなかった場合、それらは [初期値](https://developer.mozilla.org/ja/docs/Web/CSS/initial) にリセットされてしまいます。
+ここで起こり得る互換性の問題としては、[`background-origin`](https://developer.mozilla.org/docs/Web/CSS/background-origin) あるいは [`background-clip`](https://developer.mozilla.org/docs/Web/CSS/background-clip) が [`background`](https://developer.mozilla.org/docs/Web/CSS/background) ショートハンドプロパティで明示的に指定されていなかった場合、それらは [初期値](https://developer.mozilla.org/docs/Web/CSS/initial) にリセットされてしまいます。

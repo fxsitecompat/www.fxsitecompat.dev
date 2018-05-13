@@ -11,4 +11,4 @@ references:
 aliases:
     - "/ja/docs/2013/behaviour-of-string-localecompare-with-no-argument-has-been-fixed/"
 ---
-[`String.localeCompare`](https://developer.mozilla.org/ja/docs/JavaScript/Reference/Global_Objects/String/localeCompare) メソッドの実装が、最新の ECMAScript 5 仕様に準拠するよう更新されました。引数が何も渡されなかった場合、このメソッドは文字列 `"undefined"` を引数として取ります。
+[`String.localeCompare`](https://developer.mozilla.org/docs/JavaScript/Reference/Global_Objects/String/localeCompare) メソッドの実装が、最新の ECMAScript 5 仕様に準拠するよう更新されました。引数が何も渡されなかった場合、このメソッドは文字列 `"undefined"` を引数として取ります。

@@ -23,6 +23,6 @@ aliases:
 
 **更新**: コード内の同じバグにより、非 Flash の *Google Inbox* ウェブアプリケーションも正しく動作しないことが確認されました。それを受けてこの記事のタイトルを訂正しました。この問題は Firefox 45.0.1 で修正されました。
 
-**更新**: *Google Inbox* の問題は Firefox 45.0.1 で修正されていないとの報告がユーザーから上がっています。また *Google Sheets* やその他いくつかのサイトもサードパーティ Cookie ブロック時に正常動作しないことが確認されました。私たちはそれらのバグのひとつで、[ワーカー](https://developer.mozilla.org/ja/docs/Web/API/Web_Workers_API/Using_web_workers) 内で行われた [`XMLHttpRequest`](https://developer.mozilla.org/ja/docs/Web/API/XMLHttpRequest) POST リクエストが、それらのリソースが [同一配信元](https://developer.mozilla.org/ja/docs/Web/Security/Same-origin_policy) にある場合でも HTTP `Cookie` ヘッダーを送信しないとことを発見しました。Mozilla 開発者が詳細を調査中です。
+**更新**: *Google Inbox* の問題は Firefox 45.0.1 で修正されていないとの報告がユーザーから上がっています。また *Google Sheets* やその他いくつかのサイトもサードパーティ Cookie ブロック時に正常動作しないことが確認されました。私たちはそれらのバグのひとつで、[ワーカー](https://developer.mozilla.org/docs/Web/API/Web_Workers_API/Using_web_workers) 内で行われた [`XMLHttpRequest`](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest) POST リクエストが、それらのリソースが [同一配信元](https://developer.mozilla.org/docs/Web/Security/Same-origin_policy) にある場合でも HTTP `Cookie` ヘッダーを送信しないとことを発見しました。Mozilla 開発者が詳細を調査中です。
 
 **更新**: このバグは Firefox 45.0.2 で修正されました。

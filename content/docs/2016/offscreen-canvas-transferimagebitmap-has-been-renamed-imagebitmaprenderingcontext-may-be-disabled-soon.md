@@ -12,6 +12,6 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/C27bDUacM3o/discussion"
       title: "Intent to unship: Canvas ImageBitmapRenderingContext"
 ---
-The [`ImageBitmapRenderingContext.transferImageBitmap`](https://developer.mozilla.org/en-US/docs/Web/API/ImageBitmapRenderingContext/transferImageBitmap) method has been renamed to `transferFromImageBitmap` in order to follow the latest spec. The old one is now deprecated and will be removed in the near future.
+The [`ImageBitmapRenderingContext.transferImageBitmap`](https://developer.mozilla.org/docs/Web/API/ImageBitmapRenderingContext/transferImageBitmap) method has been renamed to `transferFromImageBitmap` in order to follow the latest spec. The old one is now deprecated and will be removed in the near future.
 
-Also, it becomes obvious that the [`ImageBitmapRenderingContext`](https://developer.mozilla.org/en-US/docs/Web/API/ImageBitmapRenderingContext) interface itself has been accidentally shipped with Firefox 46. Since the Offscreen Canvas API is still under active development, the implementation may soon be disabled to wait until the spec is stabilized. No other browsers have shipped the new API, so that the risk should be very low.
+Also, it becomes obvious that the [`ImageBitmapRenderingContext`](https://developer.mozilla.org/docs/Web/API/ImageBitmapRenderingContext) interface itself has been accidentally shipped with Firefox 46. Since the Offscreen Canvas API is still under active development, the implementation may soon be disabled to wait until the spec is stabilized. No other browsers have shipped the new API, so that the risk should be very low.

@@ -12,9 +12,9 @@ Firefox for macOS, Linux and Android were previously using the operating system'
 
 The affected object and methods include:
 
-* [`Intl.DateTimeFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat)
-* [`Date.prototype.toLocaleString`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString)
-* [`Date.prototype.toLocaleDateString`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)
+* [`Intl.DateTimeFormat`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat)
+* [`Date.prototype.toLocaleString`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString)
+* [`Date.prototype.toLocaleDateString`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)
 
 This may lead to a date format change for some Firefox users. For example, the browser locale is `en-US` while the platform uses `en-CA`, the return value of the `toLocaleDateString` method would be `6/20/2017` instead of `2017-06-20`.
 

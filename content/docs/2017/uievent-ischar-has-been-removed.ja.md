@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/IVcGOOeOThw/discussion"
       title: "Intent to remove UIEvent.isChar"
 ---
-非標準の [`UIEvent.prototype.isChar`](https://developer.mozilla.org/ja/docs/Web/API/UIEvent/isChar) プロパティが Firefox 55 で削除されました。これは macOS 以外のプラットフォームでは常に `false` を返しており、また他に対応しているブラウザーはありません。
+非標準の [`UIEvent.prototype.isChar`](https://developer.mozilla.org/docs/Web/API/UIEvent/isChar) プロパティが Firefox 55 で削除されました。これは macOS 以外のプラットフォームでは常に `false` を返しており、また他に対応しているブラウザーはありません。

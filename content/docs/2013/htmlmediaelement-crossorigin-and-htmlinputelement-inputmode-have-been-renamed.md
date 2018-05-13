@@ -11,4 +11,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=850346"
       title: "Bug 850346 – inputmode vs inputMode for nsHTMLInputElement"
 ---
-[`HTMLMediaElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement)'s `crossorigin` property has been renamed to `crossOrigin`, and [`HTMLInputElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement)'s `inputmode` property has also been renamed to `inputMode` to comply with the spec (note the capital letters).
+[`HTMLMediaElement`](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement)'s `crossorigin` property has been renamed to `crossOrigin`, and [`HTMLInputElement`](https://developer.mozilla.org/docs/Web/API/HTMLInputElement)'s `inputmode` property has also been renamed to `inputMode` to comply with the spec (note the capital letters).

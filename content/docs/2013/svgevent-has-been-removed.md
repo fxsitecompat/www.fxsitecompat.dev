@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=847600"
       title: "Bug 847600 – Remove SVGEvent"
 ---
-The [`SVGEvent`](https://developer.mozilla.org/en-US/docs/Web/API/SVGEvent) interface has been removed, due to the removal from the spec.
+The [`SVGEvent`](https://developer.mozilla.org/docs/Web/API/SVGEvent) interface has been removed, due to the removal from the spec.

@@ -10,4 +10,4 @@ references:
 alias:
     - "/ja/docs/2015/moz-full-screen-ancestor-will-be-removed/"
 ---
-[`:-moz-full-screen-ancestor`](https://developer.mozilla.org/ja/docs/Web/CSS/:-moz-full-screen-ancestor) CSS 疑似クラスは、仕様の一部ではなくなったため、対応が打ち切られました。
+[`:-moz-full-screen-ancestor`](https://developer.mozilla.org/docs/Web/CSS/:-moz-full-screen-ancestor) CSS 疑似クラスは、仕様の一部ではなくなったため、対応が打ち切られました。

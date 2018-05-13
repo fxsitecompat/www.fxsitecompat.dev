@@ -10,4 +10,4 @@ references:
 aliases:
     - "/en-CA/docs/2015/box-sizing-padding-box-will-be-removed/"
 ---
-The [`box-sizing`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing) CSS property no longer takes `padding-box` since the value has been removed from the spec. Use `border-box` instead.
+The [`box-sizing`](https://developer.mozilla.org/docs/Web/CSS/box-sizing) CSS property no longer takes `padding-box` since the value has been removed from the spec. Use `border-box` instead.

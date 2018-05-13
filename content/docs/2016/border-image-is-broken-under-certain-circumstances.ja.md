@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1315353"
       title: "Bug 1315353 - \"border-image: url(\"data:image/svg+xml\") repeat\" broken after implementation of space value of border-image-repeat"
 ---
-[`border-image-repeat`](https://developer.mozilla.org/ja/docs/Web/CSS/border-image-repeat) CSS プロパティに追加された `space` 値の誤実装により、[`border-image`](https://developer.mozilla.org/ja/docs/Web/CSS/border-image) プロパティが部分的に反映されない場合があるというリグレッションが Firefox 50 で発生しました。このバグは Firefox 50.1.0 で修正されました。
+[`border-image-repeat`](https://developer.mozilla.org/docs/Web/CSS/border-image-repeat) CSS プロパティに追加された `space` 値の誤実装により、[`border-image`](https://developer.mozilla.org/docs/Web/CSS/border-image) プロパティが部分的に反映されない場合があるというリグレッションが Firefox 50 で発生しました。このバグは Firefox 50.1.0 で修正されました。

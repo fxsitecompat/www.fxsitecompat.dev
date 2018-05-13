@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1055773"
       title: "Bug 1055773 – Move hasAttributes() to Element"
 ---
-The deprecated `hasAttributes` method has been removed from the [`Node`](https://developer.mozilla.org/en-US/docs/Web/API/Node) interface. This change should not affect general use cases because the [`Element.hasAttributes`](https://developer.mozilla.org/en-US/docs/Web/API/Element.hasAttributes) method does the same thing.
+The deprecated `hasAttributes` method has been removed from the [`Node`](https://developer.mozilla.org/docs/Web/API/Node) interface. This change should not affect general use cases because the [`Element.hasAttributes`](https://developer.mozilla.org/docs/Web/API/Element.hasAttributes) method does the same thing.

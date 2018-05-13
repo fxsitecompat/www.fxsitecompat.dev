@@ -11,4 +11,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=916871"
       title: "Bug 916871 – Remove classinfo bits for CSSGroupRuleRuleList"
 ---
-グローバルオブジェクトを標準化する現在進行中の取り組みの一環として、非標準のスタイルシート変更イベントインターフェイスである `StyleRuleChangeEvent`、`StyleSheetApplicableStateChangeEvent`、`StyleSheetChangeEvent`がウェブコンテンツから利用できなくなりました。[`CSSRuleList`](https://developer.mozilla.org/ja/docs/Web/API/CSSRuleList) の実装詳細である `CSSGroupRuleRuleList` インターフェイスも削除されました。
+グローバルオブジェクトを標準化する現在進行中の取り組みの一環として、非標準のスタイルシート変更イベントインターフェイスである `StyleRuleChangeEvent`、`StyleSheetApplicableStateChangeEvent`、`StyleSheetChangeEvent`がウェブコンテンツから利用できなくなりました。[`CSSRuleList`](https://developer.mozilla.org/docs/Web/API/CSSRuleList) の実装詳細である `CSSGroupRuleRuleList` インターフェイスも削除されました。

@@ -12,4 +12,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/1JDnJWefe1E/discussion"
       title: "Intent to unship: xml:base attribute"
 ---
-The [`xml:base`](https://www.w3.org/TR/xmlbase/) attribute similar to the HTML [`<base>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base) element is now considered deprecated and will be removed in the near future. It was removed from the spec years ago and no other browsers support it at this time.
+The [`xml:base`](https://www.w3.org/TR/xmlbase/) attribute similar to the HTML [`<base>`](https://developer.mozilla.org/docs/Web/HTML/Element/base) element is now considered deprecated and will be removed in the near future. It was removed from the spec years ago and no other browsers support it at this time.

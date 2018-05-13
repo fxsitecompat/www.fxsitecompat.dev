@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/EvtHItM3JIA/discussion"
       title: "Intent to unship: SimplePush API"
 ---
-Firefox OS で使用されていた非標準の [Simple Push API](https://developer.mozilla.org/ja/docs/Mozilla/B2G_OS/API/Simple_Push_API) が、標準化された [Push API](https://developer.mozilla.org/ja/docs/Web/API/Push_API) に置き換えられる形で削除されました。Simple Push はデスクトップ版や Android 版の Firefox には実装されていません。
+Firefox OS で使用されていた非標準の [Simple Push API](https://developer.mozilla.org/docs/Mozilla/B2G_OS/API/Simple_Push_API) が、標準化された [Push API](https://developer.mozilla.org/docs/Web/API/Push_API) に置き換えられる形で削除されました。Simple Push はデスクトップ版や Android 版の Firefox には実装されていません。

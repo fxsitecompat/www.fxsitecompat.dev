@@ -17,6 +17,6 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=771678"
       title: "Bug 771678 – [css3-values] unprefix calc()"
 ---
-CSS [アニメーション](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations)、[トランジション](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions)、[トランスフォーム](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transforms) の全プロパティが `-moz-` ベンダー接頭辞なしで使用可能となりました。[`@keyframes`](https://developer.mozilla.org/ja/docs/Web/CSS/@keyframes) ルール、[`calc`](https://developer.mozilla.org/ja/docs/Web/CSS/calc) 関数、[グラデーション](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Images/Using_CSS_gradients) 関数からも接頭辞が外れました。グラデーションについては、接頭辞の有無で [構文が変わっている](https://hacks.mozilla.org/2012/07/aurora-16-is-out/) ため注意が必要です。
+CSS [アニメーション](https://developer.mozilla.org/docs/Web/CSS/CSS_Animations)、[トランジション](https://developer.mozilla.org/docs/Web/CSS/CSS_Transitions)、[トランスフォーム](https://developer.mozilla.org/docs/Web/CSS/CSS_Transforms) の全プロパティが `-moz-` ベンダー接頭辞なしで使用可能となりました。[`@keyframes`](https://developer.mozilla.org/docs/Web/CSS/@keyframes) ルール、[`calc`](https://developer.mozilla.org/docs/Web/CSS/calc) 関数、[グラデーション](https://developer.mozilla.org/docs/Web/CSS/CSS_Images/Using_CSS_gradients) 関数からも接頭辞が外れました。グラデーションについては、接頭辞の有無で [構文が変わっている](https://hacks.mozilla.org/2012/07/aurora-16-is-out/) ため注意が必要です。
 
 接頭辞付きのプロパティや関数を使用する場合は、前方互換性のため、接頭辞なしの形式も必ず併記するようにしましょう。今後、そうした配慮がなされていないスタイルシートは適用されなくなる可能性があります。

@@ -10,11 +10,11 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/o_0RoYoCmM4/discussion"
       title: "Intent to unship: URL.createObjectURL(MediaStream)"
 ---
-Firefox 62 以降、[`URL.createObjectURL`](https://developer.mozilla.org/ja/docs/Web/API/URL/createObjectURL) 静的メソッドは [`MediaStream`](https://developer.mozilla.org/ja/docs/Web/API/MediaStream) オブジェクトを引数として受け付けなくなりました。現在の仕様によれば、`Blob` あるいは `MediaSource` オブジェクトのみ受け付けられます。
+Firefox 62 以降、[`URL.createObjectURL`](https://developer.mozilla.org/docs/Web/API/URL/createObjectURL) 静的メソッドは [`MediaStream`](https://developer.mozilla.org/docs/Web/API/MediaStream) オブジェクトを引数として受け付けなくなりました。現在の仕様によれば、`Blob` あるいは `MediaSource` オブジェクトのみ受け付けられます。
 
 ストリーム引数対応は [Firefox 54 以降廃止予定](https://www.fxsitecompat.com/ja/docs/2017/url-createobjecturl-stream-has-been-deprecated/) とされていました。[Safari](https://bugs.webkit.org/show_bug.cgi?id=167518) は既にこの変更を行っており、[Chrome](https://bugs.chromium.org/p/chromium/issues/detail?id=800767) もすぐに後を追うことでしょう。
 
-`<video>` あるいは `<audio>` 要素上に `MediaStream` オブジェクトを設定したい場合は、以下のように [`HTMLMediaElement.prototype.srcObject`](https://developer.mozilla.org/ja/docs/Web/API/HTMLMediaElement/srcObject) プロパティを使ってください。
+`<video>` あるいは `<audio>` 要素上に `MediaStream` オブジェクトを設定したい場合は、以下のように [`HTMLMediaElement.prototype.srcObject`](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/srcObject) プロパティを使ってください。
 
 ```js
 // これは動作しません

@@ -11,4 +11,4 @@ references:
 aliases:
     - "/en-CA/docs/2013/behaviour-of-string-localecompare-with-no-argument-has-been-fixed/"
 ---
-The [`String.localeCompare`](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/String/localeCompare) method implementation has been updated to conform to the latest ECMAScript 5 spec. If no argument is passed, the method takes the `"undefined"` string as the argument.
+The [`String.localeCompare`](https://developer.mozilla.org/docs/JavaScript/Reference/Global_Objects/String/localeCompare) method implementation has been updated to conform to the latest ECMAScript 5 spec. If no argument is passed, the method takes the `"undefined"` string as the argument.

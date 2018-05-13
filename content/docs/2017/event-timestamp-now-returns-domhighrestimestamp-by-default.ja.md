@@ -10,7 +10,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/o1LT02foznI/discussion"
       title: "Intent to ship: Event.timeStamp as DOMHighResTimeStamp"
 ---
-Firefox 54 以降、すべての Firefox チャンネルおよびプラットフォーム上で、[`Event.prototype.timeStamp`](https://developer.mozilla.org/ja/docs/Web/API/Event/timeStamp) プロパティは、エポック時間からのミリ秒単位でしかなかった整数型 [`DOMTimeStamp`](https://developer.mozilla.org/ja/docs/Web/API/DOMTimeStamp) 値に代わり、整数部にミリ秒、小数部にマイクロ秒を含む、[ページ読み込み](https://developer.mozilla.org/ja/docs/Web/API/PerformanceTiming/navigationStart) からの浮動小数点数型 [`DOMHighResTimeStamp`](https://developer.mozilla.org/ja/docs/Web/API/DOMHighResTimeStamp) 値を返します。
+Firefox 54 以降、すべての Firefox チャンネルおよびプラットフォーム上で、[`Event.prototype.timeStamp`](https://developer.mozilla.org/docs/Web/API/Event/timeStamp) プロパティは、エポック時間からのミリ秒単位でしかなかった整数型 [`DOMTimeStamp`](https://developer.mozilla.org/docs/Web/API/DOMTimeStamp) 値に代わり、整数部にミリ秒、小数部にマイクロ秒を含む、[ページ読み込み](https://developer.mozilla.org/docs/Web/API/PerformanceTiming/navigationStart) からの浮動小数点数型 [`DOMHighResTimeStamp`](https://developer.mozilla.org/docs/Web/API/DOMHighResTimeStamp) 値を返します。
 
 この変更は、[Windows](https://www.fxsitecompat.com/ja/docs/2014/event-timestamp-now-returns-domhighrestimestamp-on-nightly-aurora-for-windows/)、[Linux](https://www.fxsitecompat.com/ja/docs/2015/event-timestamp-now-returns-domhighrestimestamp-on-nightly-aurora-for-linux/)、[macOS](https://bugzilla.mozilla.org/show_bug.cgi?id=1256562) 版の [Firefox Nightly と Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) では既に行われています。[Android](https://bugzilla.mozilla.org/show_bug.cgi?id=1256565) での実装も完了したことから、Beta、Release 両チャンネルでも初期設定で高精度タイムスタンプが有効となります。
 

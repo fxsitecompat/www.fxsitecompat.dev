@@ -10,4 +10,4 @@ references:
 aliases:
     - "/ja/docs/2015/csp-directive-frame-src-has-been-deprecated-in-favor-of-child-src/"
 ---
-Content Security Policy (CSP) の [`frame-src`](https://developer.mozilla.org/ja/docs/Web/Security/CSP/CSP_policy_directives#frame-src) ディレクティブが廃止予定となりました。`frame-src` は後方互換性のため一定期間残しつつ、CSP 1.1 の [`child-src`](https://developer.mozilla.org/ja/docs/Web/Security/CSP/CSP_policy_directives#child-src) ディレクティブを代わりに使用してください。
+Content Security Policy (CSP) の [`frame-src`](https://developer.mozilla.org/docs/Web/Security/CSP/CSP_policy_directives#frame-src) ディレクティブが廃止予定となりました。`frame-src` は後方互換性のため一定期間残しつつ、CSP 1.1 の [`child-src`](https://developer.mozilla.org/docs/Web/Security/CSP/CSP_policy_directives#child-src) ディレクティブを代わりに使用してください。

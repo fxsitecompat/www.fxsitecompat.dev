@@ -12,9 +12,9 @@ references:
 ---
 Firefox 59 以降、以下の非標準ボーダー色プロパティはウェブコンテンツから使用できなくなりました。
 
-* [`-moz-border-top-colors`](https://developer.mozilla.org/ja/docs/Web/CSS/-moz-border-top-colors)
-* [`-moz-border-right-colors`](https://developer.mozilla.org/ja/docs/Web/CSS/-moz-border-right-colors)
-* [`-moz-border-bottom-colors`](https://developer.mozilla.org/ja/docs/Web/CSS/-moz-border-bottom-colors)
-* [`-moz-border-left-colors`](https://developer.mozilla.org/ja/docs/Web/CSS/-moz-border-left-colors)
+* [`-moz-border-top-colors`](https://developer.mozilla.org/docs/Web/CSS/-moz-border-top-colors)
+* [`-moz-border-right-colors`](https://developer.mozilla.org/docs/Web/CSS/-moz-border-right-colors)
+* [`-moz-border-bottom-colors`](https://developer.mozilla.org/docs/Web/CSS/-moz-border-bottom-colors)
+* [`-moz-border-left-colors`](https://developer.mozilla.org/docs/Web/CSS/-moz-border-left-colors)
 
-他のどのブラウザーもこれらに対応していないことから、互換性リスクは非常に低いはずです。まったく同じ標準プロパティはありませんが、必要であれば [`border-image`](https://developer.mozilla.org/ja/docs/Web/CSS/border-image) を使ってグラデーション付きのボーダーを実現できます。
+他のどのブラウザーもこれらに対応していないことから、互換性リスクは非常に低いはずです。まったく同じ標準プロパティはありませんが、必要であれば [`border-image`](https://developer.mozilla.org/docs/Web/CSS/border-image) を使ってグラデーション付きのボーダーを実現できます。

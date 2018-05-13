@@ -10,4 +10,4 @@ references:
 aliases:
     - "/en-CA/docs/2015/touchlist-identifiedtouch-will-be-removed/"
 ---
-The non-standard, deprecated [`TouchList.identifiedTouch`](https://developer.mozilla.org/en-US/docs/Web/API/TouchList/identifiedTouch) method has been removed. Use the standard [`item`](https://developer.mozilla.org/en-US/docs/Web/API/TouchList/item) method instead.
+The non-standard, deprecated [`TouchList.identifiedTouch`](https://developer.mozilla.org/docs/Web/API/TouchList/identifiedTouch) method has been removed. Use the standard [`item`](https://developer.mozilla.org/docs/Web/API/TouchList/item) method instead.

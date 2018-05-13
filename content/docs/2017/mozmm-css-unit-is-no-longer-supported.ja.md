@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/e0WCxTT2lEk/discussion"
       title: "Intent to unship: mozmm CSS unit."
 ---
-ディスプレイ解像度に関わらず正確な 1 ミリメートルを表す、非標準で実験的な `mozmm` [CSS 長さ単位](https://developer.mozilla.org/ja/docs/Web/CSS/length) は、仕様に含まれる予定がないため Firefox 59 で削除されました。以下のインテントスレッドに開発者の議論があります。
+ディスプレイ解像度に関わらず正確な 1 ミリメートルを表す、非標準で実験的な `mozmm` [CSS 長さ単位](https://developer.mozilla.org/docs/Web/CSS/length) は、仕様に含まれる予定がないため Firefox 59 で削除されました。以下のインテントスレッドに開発者の議論があります。

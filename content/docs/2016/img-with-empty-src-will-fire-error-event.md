@@ -11,6 +11,6 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1308069"
       title: "Bug 1308069 - Bing maps is incompletely updated."
 ---
-On Firefox 51 and later, according to the current HTML spec, the `<img>` element fires an [`error`](https://developer.mozilla.org/en-US/docs/Web/Events/error) event when the `src` attribute was empty. The event will also be fired when the `src` DOM property is dynamically changed to an empty value or `null`.
+On Firefox 51 and later, according to the current HTML spec, the `<img>` element fires an [`error`](https://developer.mozilla.org/docs/Web/Events/error) event when the `src` attribute was empty. The event will also be fired when the `src` DOM property is dynamically changed to an empty value or `null`.
 
 **Update**: *Bing Maps* is currently broken due to this change.

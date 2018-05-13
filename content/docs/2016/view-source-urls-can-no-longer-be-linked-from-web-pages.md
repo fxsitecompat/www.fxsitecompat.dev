@@ -8,4 +8,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1172165"
       title: "Bug 1172165 - Don't let web pages link to view-source: URLs"
 ---
-For security reasons, Firefox now blocks links from Web pages to any `view-source:` URLs, that can be used to [view the source](https://developer.mozilla.org/en-US/docs/Tools/View_source) of an HTML or XML document, like other privileged URLs. On Firefox 47 and later, clicking on a `view-source:` URL just logs a `URI_DANGEROUS_TO_LOAD` exception in the Web Console.
+For security reasons, Firefox now blocks links from Web pages to any `view-source:` URLs, that can be used to [view the source](https://developer.mozilla.org/docs/Tools/View_source) of an HTML or XML document, like other privileged URLs. On Firefox 47 and later, clicking on a `view-source:` URL just logs a `URI_DANGEROUS_TO_LOAD` exception in the Web Console.

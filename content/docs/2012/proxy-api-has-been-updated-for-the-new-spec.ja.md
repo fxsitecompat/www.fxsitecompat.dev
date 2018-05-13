@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=703537"
       title: "Bug 703537 – Implement Harmony direct proxies"
 ---
-ECMAScript 6 (Harmony) の [Direct Proxy](https://developer.mozilla.org/ja/docs/JavaScript/Reference/Global_Objects/Proxy) が実装されました。[古い API](https://developer.mozilla.org/ja/docs/JavaScript/Old_Proxy_API) を使用している場合はコードを書き換える必要があります。
+ECMAScript 6 (Harmony) の [Direct Proxy](https://developer.mozilla.org/docs/JavaScript/Reference/Global_Objects/Proxy) が実装されました。[古い API](https://developer.mozilla.org/docs/JavaScript/Old_Proxy_API) を使用している場合はコードを書き換える必要があります。

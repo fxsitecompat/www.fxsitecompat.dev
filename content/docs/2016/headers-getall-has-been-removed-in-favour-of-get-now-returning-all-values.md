@@ -8,7 +8,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1278275"
       title: "Bug 1278275 - Headers.get should incorporate getAll behaviour"
 ---
-The [`Headers.prototype.getAll`](https://developer.mozilla.org/en-US/docs/Web/API/Headers/getAll) method has been removed as per the latest Fetch spec. Instead, the [`Headers.prototype.get`](https://developer.mozilla.org/en-US/docs/Web/API/Headers/get) method now returns the all values of a given HTTP header in a comma-separated string instead of just the first value.
+The [`Headers.prototype.getAll`](https://developer.mozilla.org/docs/Web/API/Headers/getAll) method has been removed as per the latest Fetch spec. Instead, the [`Headers.prototype.get`](https://developer.mozilla.org/docs/Web/API/Headers/get) method now returns the all values of a given HTTP header in a comma-separated string instead of just the first value.
 
 ```js
 const headers = new Headers();

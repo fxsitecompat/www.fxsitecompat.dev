@@ -11,7 +11,7 @@ references:
 aliases:
     - "/en-CA/docs/2016/images-are-not-updated-in-some-cases-when-srcset-is-modified/"
 ---
-Firefox 45 has introduced a regression where [responsive images](https://developer.mozilla.org/en-US/Learn/HTML/Multimedia_and_embedding/Responsive_images) with the [`srcset`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-srcset) attribute, introduced with Firefox 38, fail to get updated when the attribute value is programmatically changed in a certain way. This bug is affecting product image display on *WooCommerce*-powered online stores. Mozilla developers will be working on the solution.
+Firefox 45 has introduced a regression where [responsive images](https://developer.mozilla.org/Learn/HTML/Multimedia_and_embedding/Responsive_images) with the [`srcset`](https://developer.mozilla.org/docs/Web/HTML/Element/img#attr-srcset) attribute, introduced with Firefox 38, fail to get updated when the attribute value is programmatically changed in a certain way. This bug is affecting product image display on *WooCommerce*-powered online stores. Mozilla developers will be working on the solution.
 
 **Update**: Our analysis has found that this bug affects the [*YITH WooCommerce Zoom Magnifier*](https://wordpress.org/plugins/yith-woocommerce-zoom-magnifier/) plugin that has 90,000+ active installs.
 

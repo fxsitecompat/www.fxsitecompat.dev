@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/1jEXK-Ctbng/discussion"
       title: "Intent to unship constructors on SVGNumber"
 ---
-[`SVGNumber`](https://developer.mozilla.org/ja/docs/Web/API/SVGNumber) インターフェイス上のコンストラクターが Firefox 61 で削除されました。これは SVG 仕様に含まれておらず、他のどのブラウザーにも実装されていません。今後 `new SVGNumber()` を呼び出すと `TypeError` が投げられます。
+[`SVGNumber`](https://developer.mozilla.org/docs/Web/API/SVGNumber) インターフェイス上のコンストラクターが Firefox 61 で削除されました。これは SVG 仕様に含まれておらず、他のどのブラウザーにも実装されていません。今後 `new SVGNumber()` を呼び出すと `TypeError` が投げられます。

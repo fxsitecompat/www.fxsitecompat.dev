@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/E6tfP__wkwg/discussion"
       title: "Intent to unship: -moz-user-input: disabled / enabled"
 ---
-Firefox 60 has removed the support for the `enabled` and `disabled` values of the non-standard [`-moz-user-input`](https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-user-input) CSS property because the usage is very low, and those were actually broken when changed dynamically. While `none` and the default `auto` value are still supported, the property itself may also be entirely removed in the future. Given that no other browsers support this property, the compatibility risk should be low.
+Firefox 60 has removed the support for the `enabled` and `disabled` values of the non-standard [`-moz-user-input`](https://developer.mozilla.org/docs/Web/CSS/-moz-user-input) CSS property because the usage is very low, and those were actually broken when changed dynamically. While `none` and the default `auto` value are still supported, the property itself may also be entirely removed in the future. Given that no other browsers support this property, the compatibility risk should be low.

@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1149838"
       title: "Bug 1149838 - We should not suppress negotiationneeded before the first offer/answer exchange"
 ---
-The [`negotiationneeded`](https://developer.mozilla.org/en-US/docs/Web/Events/negotiationneeded) event is now properly fired even before the first offer/answer exchange. If you are expecting the event to be called only for re-negotiations, please review your code to avoid any unexpected errors.
+The [`negotiationneeded`](https://developer.mozilla.org/docs/Web/Events/negotiationneeded) event is now properly fired even before the first offer/answer exchange. If you are expecting the event to be called only for re-negotiations, please review your code to avoid any unexpected errors.

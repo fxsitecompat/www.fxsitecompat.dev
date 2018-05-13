@@ -11,7 +11,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1234700"
       title: "Bug 1234700 - Hide window.showModalDialog, at least when e10s is enabled"
 ---
-[`window.showModalDialog`](https://developer.mozilla.org/ja/docs/Web/API/Window/showModalDialog) メソッドは、Firefox が [Electrolysis](https://wiki.mozilla.org/Electrolysis) (*e10s*) というコードネームで呼ばれているマルチプロセスモードで実行中には使用不可能となっています。Firefox が投げていた例外により、少なくとも *Office 365* と *Exchange 2016* が正しく動作しないことが判明していました。
+[`window.showModalDialog`](https://developer.mozilla.org/docs/Web/API/Window/showModalDialog) メソッドは、Firefox が [Electrolysis](https://wiki.mozilla.org/Electrolysis) (*e10s*) というコードネームで呼ばれているマルチプロセスモードで実行中には使用不可能となっています。Firefox が投げていた例外により、少なくとも *Office 365* と *Exchange 2016* が正しく動作しないことが判明していました。
 
 *e10s* 上でこの機能に対応することは技術的に難しいことと、このメソッドは既に [Firefox 28 以降廃止予定](https://www.fxsitecompat.com/ja/docs/2013/showmodaldialog-has-been-deprecated/) となっていることから、エラーを修正する代わりに `window` から `showModalDialog` を隠す措置が Firefox 46 で講じられました。*Office 365* と *Exchange 2016* はそれぞれの機能判別のおかげで再び動作するようになりました。
 

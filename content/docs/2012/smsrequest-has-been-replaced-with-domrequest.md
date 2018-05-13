@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=760011"
       title: "Bug 760011 – Make nsIMozSmsRequest inherit from nsIDOMDOMRequest"
 ---
-The `SmsRequest` object has been replaced with the [`DOMRequest`](https://developer.mozilla.org/en-US/docs/Web/API/DOMRequest) object that is more general and offers the same attributes and event handlers.
+The `SmsRequest` object has been replaced with the [`DOMRequest`](https://developer.mozilla.org/docs/Web/API/DOMRequest) object that is more general and offers the same attributes and event handlers.

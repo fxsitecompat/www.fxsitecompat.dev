@@ -17,7 +17,7 @@ references:
 aliases:
     - "/en-CA/docs/2017/checkboxes-and-radio-buttons-are-not-displayed-when-msthemecompatible-is-disabled/"
 ---
-Firefox 54 has changed the way HTML checkboxes and radio buttons are rendered, so `<input type="radio">` and `<input type="checkbox">` are no longer [replaced elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element) when styled with `-moz-appearance:none`. It will give web developers more flexibility in designing form controls.
+Firefox 54 has changed the way HTML checkboxes and radio buttons are rendered, so `<input type="radio">` and `<input type="checkbox">` are no longer [replaced elements](https://developer.mozilla.org/docs/Web/CSS/Replaced_element) when styled with `-moz-appearance:none`. It will give web developers more flexibility in designing form controls.
 
 
 This change, however, has produced an unexpected side effect where those types of elements become invisible if `<meta http-equiv="MSThemeCompatible" content="no">` exists in the document `<head>`.

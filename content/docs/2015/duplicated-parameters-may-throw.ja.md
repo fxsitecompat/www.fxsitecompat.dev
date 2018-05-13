@@ -13,4 +13,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1096378"
       title: "Bug 1096378 – Don\'t allow duplicate parameter names in concise method definitions"
 ---
-Firefox 38 以降、関数の重複した引数名が [残余引数](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/rest_parameters) (rest parameter) とともに、あるいは [アロー関数](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/Arrow_functions) や簡略メソッド定義で使われた場合に [`SyntaxError`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError) が投げられます。
+Firefox 38 以降、関数の重複した引数名が [残余引数](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/rest_parameters) (rest parameter) とともに、あるいは [アロー関数](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions) や簡略メソッド定義で使われた場合に [`SyntaxError`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError) が投げられます。

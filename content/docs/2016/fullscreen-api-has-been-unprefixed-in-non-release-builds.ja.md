@@ -13,14 +13,14 @@ references:
 aliases:
     - "/ja/docs/2016/fullscreen-api-has-been-unprefixed/"
 ---
-Firefox 47 で [Fullscreen API](https://developer.mozilla.org/ja/docs/Web/API/Fullscreen_API) の接頭辞が外れました。非標準、接頭辞付きのメソッドとプロパティは廃止予定とみなされ、将来的に削除される可能性があります。
+Firefox 47 で [Fullscreen API](https://developer.mozilla.org/docs/Web/API/Fullscreen_API) の接頭辞が外れました。非標準、接頭辞付きのメソッドとプロパティは廃止予定とみなされ、将来的に削除される可能性があります。
 
-`element.mozRequestFullScreen`、[`document.mozCancelFullScreen`](https://developer.mozilla.org/ja/docs/Web/API/Document/mozCancelFullScreen) メソッドはそれぞれ [`element.requestFullscreen`](https://developer.mozilla.org/ja/docs/Web/API/Element/requestFullScreen)、`document.exitFullscreen` となりました。
+`element.mozRequestFullScreen`、[`document.mozCancelFullScreen`](https://developer.mozilla.org/docs/Web/API/Document/mozCancelFullScreen) メソッドはそれぞれ [`element.requestFullscreen`](https://developer.mozilla.org/docs/Web/API/Element/requestFullScreen)、`document.exitFullscreen` となりました。
 
-[`document.mozFullScreenEnabled`](https://developer.mozilla.org/ja/docs/Web/API/Document/mozFullScreenEnabled)、[`document.mozFullScreenElement`](https://developer.mozilla.org/ja/docs/Web/API/Document/mozFullScreenElement) プロパティはそれぞれ `document.fullscreenEnabled`、`document.fullscreenElement` となりました。
+[`document.mozFullScreenEnabled`](https://developer.mozilla.org/docs/Web/API/Document/mozFullScreenEnabled)、[`document.mozFullScreenElement`](https://developer.mozilla.org/docs/Web/API/Document/mozFullScreenElement) プロパティはそれぞれ `document.fullscreenEnabled`、`document.fullscreenElement` となりました。
 
-[`document.mozFullScreen`](https://developer.mozilla.org/ja/docs/Web/API/Document/mozFullScreen) とまったく同じ標準プロパティはありません。`document.fullscreenElement` で代用してください。
+[`document.mozFullScreen`](https://developer.mozilla.org/docs/Web/API/Document/mozFullScreen) とまったく同じ標準プロパティはありません。`document.fullscreenElement` で代用してください。
 
-`mozfullscreenchange`、`mozfullscreenerror` イベントはそれぞれ [`fullscreenchange`](https://developer.mozilla.org/ja/docs/Web/Events/fullscreenchange)、[`fullscreenerror`](https://developer.mozilla.org/ja/docs/Web/Events/fullscreenerror) となりました。
+`mozfullscreenchange`、`mozfullscreenerror` イベントはそれぞれ [`fullscreenchange`](https://developer.mozilla.org/docs/Web/Events/fullscreenchange)、[`fullscreenerror`](https://developer.mozilla.org/docs/Web/Events/fullscreenerror) となりました。
 
 **更新**: いくつかのサイト互換性問題により、接頭辞なしの API は Beta、Release 両チャンネルでは [無効化](https://bugzilla.mozilla.org/show_bug.cgi?id=1268749) され、今後 [再び有効化](https://bugzilla.mozilla.org/show_bug.cgi?id=1269276) されることになりました。それに伴いこのドキュメントのタイトルを更新しました。ウェブ開発者がサイトをテストできるよう、接頭辞なしの API は Nightly、Aurora (Developer Edition) 両チャンネルでは引き続き有効化されます。なお、移行を容易にするため、`document.mozFullScreen` の接頭辞なし版として `document.fullscreen` を実装する [提案](https://bugzilla.mozilla.org/show_bug.cgi?id=1269157) が出されています。

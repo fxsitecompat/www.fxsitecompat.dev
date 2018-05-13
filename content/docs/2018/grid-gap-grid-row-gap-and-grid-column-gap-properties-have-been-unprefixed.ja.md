@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/InRVDzXKbkM/discussion"
       title: "Intent to unprefix grid-gap, grid-row-gap, and grid-column-gap and updating them to spec"
 ---
-最新の CSS Grid Layout Module 仕様に従い、Firefox 61 で [`grid-gap`](https://developer.mozilla.org/ja/docs/Web/CSS/grid-gap)、[`grid-row-gap`](https://developer.mozilla.org/ja/docs/Web/CSS/grid-row-gap)、[`grid-column-gap`](https://developer.mozilla.org/ja/docs/Web/CSS/grid-column-gap) の各プロパティから `grid` 接頭辞が外れ、それぞれ `gap`、`row-gap`、`column-gap` となりました。従来の接頭辞付きプロパティは引き続きエイリアスとして使用できますが、将来的に廃止されます。
+最新の CSS Grid Layout Module 仕様に従い、Firefox 61 で [`grid-gap`](https://developer.mozilla.org/docs/Web/CSS/grid-gap)、[`grid-row-gap`](https://developer.mozilla.org/docs/Web/CSS/grid-row-gap)、[`grid-column-gap`](https://developer.mozilla.org/docs/Web/CSS/grid-column-gap) の各プロパティから `grid` 接頭辞が外れ、それぞれ `gap`、`row-gap`、`column-gap` となりました。従来の接頭辞付きプロパティは引き続きエイリアスとして使用できますが、将来的に廃止されます。

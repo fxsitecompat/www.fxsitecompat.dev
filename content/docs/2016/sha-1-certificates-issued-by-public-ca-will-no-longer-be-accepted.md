@@ -29,7 +29,7 @@ The support for SSL certificates using the [weak SHA-1 hash algorithm](https://d
 
 Firefox 53 coming <time datetime="2017-04">April 2017</time> removes the period condition so that any SHA-1 certificates issued by a public certificate authority will lead to the [Untrusted Connection](https://support.mozilla.org/en-US/kb/connection-untrusted-error-message) error. According to [Mozilla's announcement](https://blog.mozilla.org/security/2016/10/18/phasing-out-sha-1-on-the-public-web/), the current SHA-1 usage is less than 1%, and the support deprecation will be gradually expanded during the Firefox 51 Beta cycle while evaluating the impact.
 
-If the [Web Console](https://developer.mozilla.org/en-US/docs/Tools/Web_Console) warns about a SHA-1 certificate when loading your site, contact the issuer immediately to replace it with a new SHA-2 certificate for free, regardless of the validity period.
+If the [Web Console](https://developer.mozilla.org/docs/Tools/Web_Console) warns about a SHA-1 certificate when loading your site, contact the issuer immediately to replace it with a new SHA-2 certificate for free, regardless of the validity period.
 
 **Update**: Fixed the affected version: not Firefox 51 but 53.
 

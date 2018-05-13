@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=760848"
       title: "Bug 760848 – select.size reflection is wrong"
 ---
-The [`<select>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select) element no longer throws when a negative value is provided to the `size` property, that is now rather considered as `0`.
+The [`<select>`](https://developer.mozilla.org/docs/Web/HTML/Element/select) element no longer throws when a negative value is provided to the `size` property, that is now rather considered as `0`.

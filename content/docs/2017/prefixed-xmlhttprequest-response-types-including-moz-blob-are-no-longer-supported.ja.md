@@ -14,4 +14,4 @@ references:
 aliases:
     - "/ja/docs/2015/prefixed-xmlhttprequest-response-types-will-be-removed/"
 ---
-[`XMLHttpRequest.prototype.responseType`](https://developer.mozilla.org/ja/docs/Web/API/XMLHttpRequest/responseType) プロパティによって返される、非標準で `moz` 接頭辞が付いている値、具体的には `moz-blob`、`moz-chunked-text` への対応が、Telemetry でそれらの使用率が低いことが確認されたことから、Firefox 48 で削除されました。本稿執筆時点で `moz-chunked-arraybuffer` はまだ使用可能ですが、ウェブ開発者はこの非標準タイプの使用を避けるべきです。
+[`XMLHttpRequest.prototype.responseType`](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType) プロパティによって返される、非標準で `moz` 接頭辞が付いている値、具体的には `moz-blob`、`moz-chunked-text` への対応が、Telemetry でそれらの使用率が低いことが確認されたことから、Firefox 48 で削除されました。本稿執筆時点で `moz-chunked-arraybuffer` はまだ使用可能ですが、ウェブ開発者はこの非標準タイプの使用を避けるべきです。

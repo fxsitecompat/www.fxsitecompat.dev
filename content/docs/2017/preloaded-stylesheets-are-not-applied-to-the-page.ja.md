@@ -13,4 +13,4 @@ references:
 aliases:
     - "/ja/docs/2017/css-loaded-with-link-rel-preload-are-not-applied/"
 ---
-ウェブパフォーマンス改善のため、`<link rel="preload">` による [コンテンツ先読み](https://developer.mozilla.org/ja/docs/Web/HTML/Preloading_content) 対応が Firefox 56 で追加されました。ところが、先読みされた CSS スタイルシートが HTML ドキュメントへ正しく適用されないという報告が寄せられています。そのため、Mozilla 開発者が解決策に取り組んでいる間、この新機能は Firefox 57 で一時的に無効化され、2018 年 1 月公開の Firefox 58 で再度有効化される予定です。
+ウェブパフォーマンス改善のため、`<link rel="preload">` による [コンテンツ先読み](https://developer.mozilla.org/docs/Web/HTML/Preloading_content) 対応が Firefox 56 で追加されました。ところが、先読みされた CSS スタイルシートが HTML ドキュメントへ正しく適用されないという報告が寄せられています。そのため、Mozilla 開発者が解決策に取り組んでいる間、この新機能は Firefox 57 で一時的に無効化され、2018 年 1 月公開の Firefox 58 で再度有効化される予定です。

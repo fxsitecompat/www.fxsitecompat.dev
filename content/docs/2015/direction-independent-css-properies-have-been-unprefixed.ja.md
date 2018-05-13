@@ -12,19 +12,19 @@ CSS3 Writing Modes 実装の一環として、アラビア語など <abbr title=
 
 | 接頭辞付きプロパティ        | 接頭辞なしプロパティ                                                                                     |
 | ------------------------- | ------------------------------------------------------------------------------------------------------ |
-| `-moz-margin-start`       | [`margin-inline-start`](https://developer.mozilla.org/ja/docs/Web/CSS/margin-inline-start)             |
-| `-moz-margin-end`         | [`margin-inline-end`](https://developer.mozilla.org/ja/docs/Web/CSS/margin-inline-end)                 |
-| `-moz-border-start`       | [`border-inline-start`](https://developer.mozilla.org/ja/docs/Web/CSS/border-inline-start)             |
-| `-moz-border-start-width` | [`border-inline-start-width`](https://developer.mozilla.org/ja/docs/Web/CSS/border-inline-start-width) |
-| `-moz-border-start-style` | [`border-inline-start-style`](https://developer.mozilla.org/ja/docs/Web/CSS/border-inline-start-style) |
-| `-moz-border-start-color` | [`border-inline-start-color`](https://developer.mozilla.org/ja/docs/Web/CSS/border-inline-start-color) |
-| `-moz-border-end`         | [`border-inline-end`](https://developer.mozilla.org/ja/docs/Web/CSS/border-inline-end)                 |
-| `-moz-border-end-width`   | [`border-inline-end-width`](https://developer.mozilla.org/ja/docs/Web/CSS/border-inline-end-width)     |
-| `-moz-border-end-style`   | [`border-inline-end-style`](https://developer.mozilla.org/ja/docs/Web/CSS/border-inline-end-style)     |
-| `-moz-border-end-color`   | [`border-inline-end-color`](https://developer.mozilla.org/ja/docs/Web/CSS/border-inline-end-color)     |
-| `-moz-padding-start`      | [`padding-inline-start`](https://developer.mozilla.org/ja/docs/Web/CSS/padding-inline-start)           |
-| `-moz-padding-end`        | [`padding-inline-end`](https://developer.mozilla.org/ja/docs/Web/CSS/padding-inline-start)             |
+| `-moz-margin-start`       | [`margin-inline-start`](https://developer.mozilla.org/docs/Web/CSS/margin-inline-start)             |
+| `-moz-margin-end`         | [`margin-inline-end`](https://developer.mozilla.org/docs/Web/CSS/margin-inline-end)                 |
+| `-moz-border-start`       | [`border-inline-start`](https://developer.mozilla.org/docs/Web/CSS/border-inline-start)             |
+| `-moz-border-start-width` | [`border-inline-start-width`](https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width) |
+| `-moz-border-start-style` | [`border-inline-start-style`](https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style) |
+| `-moz-border-start-color` | [`border-inline-start-color`](https://developer.mozilla.org/docs/Web/CSS/border-inline-start-color) |
+| `-moz-border-end`         | [`border-inline-end`](https://developer.mozilla.org/docs/Web/CSS/border-inline-end)                 |
+| `-moz-border-end-width`   | [`border-inline-end-width`](https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width)     |
+| `-moz-border-end-style`   | [`border-inline-end-style`](https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style)     |
+| `-moz-border-end-color`   | [`border-inline-end-color`](https://developer.mozilla.org/docs/Web/CSS/border-inline-end-color)     |
+| `-moz-padding-start`      | [`padding-inline-start`](https://developer.mozilla.org/docs/Web/CSS/padding-inline-start)           |
+| `-moz-padding-end`        | [`padding-inline-end`](https://developer.mozilla.org/docs/Web/CSS/padding-inline-start)             |
 
-バグにより、Firefox 41 は、ページインスペクター、[`CSSRule.cssText`](https://developer.mozilla.org/ja/docs/Web/API/CSSRule/cssText)、その他 API においてまだ接頭辞付きプロパティを表示しています。この問題は [Firefox 42 で修正されました](https://www.fxsitecompat.com/ja/docs/2015/cssrule-csstext-now-returns-unprefixed-writing-mode-aware-properties/)。
+バグにより、Firefox 41 は、ページインスペクター、[`CSSRule.cssText`](https://developer.mozilla.org/docs/Web/API/CSSRule/cssText)、その他 API においてまだ接頭辞付きプロパティを表示しています。この問題は [Firefox 42 で修正されました](https://www.fxsitecompat.com/ja/docs/2015/cssrule-csstext-now-returns-unprefixed-writing-mode-aware-properties/)。
 
 接頭辞付きプロパティへの対応は将来的に打ち切られます。

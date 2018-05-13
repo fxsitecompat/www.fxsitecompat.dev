@@ -10,4 +10,4 @@ references:
 aliases:
     - "/en-CA/docs/2015/csp-directive-frame-src-has-been-deprecated-in-favor-of-child-src/"
 ---
-The [`frame-src`](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#frame-src) directive of the Content Security Policy (CSP) is now considered deprecated. Use the CSP 1.1 [`child-src`](https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#child-src) directive instead while leaving `frame-src` for a while for backward compatibility.
+The [`frame-src`](https://developer.mozilla.org/docs/Web/Security/CSP/CSP_policy_directives#frame-src) directive of the Content Security Policy (CSP) is now considered deprecated. Use the CSP 1.1 [`child-src`](https://developer.mozilla.org/docs/Web/Security/CSP/CSP_policy_directives#child-src) directive instead while leaving `frame-src` for a while for backward compatibility.

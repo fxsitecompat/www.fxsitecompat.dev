@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=793459"
       title: "Bug 793459 – Update File.lastModifiedDate to latest spec"
 ---
-[File API](https://www.w3.org/TR/FileAPI/) の最新仕様に合わせて、[`File`](https://developer.mozilla.org/ja/docs/DOM/File) オブジェクトの `lastModifiedDate` プロパティが、そのファイルの最終更新日が不明な場合は現在の日時を返すようになりました。従来そうした場合は `null` を返していました。
+[File API](https://www.w3.org/TR/FileAPI/) の最新仕様に合わせて、[`File`](https://developer.mozilla.org/docs/DOM/File) オブジェクトの `lastModifiedDate` プロパティが、そのファイルの最終更新日が不明な場合は現在の日時を返すようになりました。従来そうした場合は `null` を返していました。

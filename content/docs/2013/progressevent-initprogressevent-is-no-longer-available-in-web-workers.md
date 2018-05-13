@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=870466"
       title: "Bug 870466 – Remove initProgressEvent from workers too"
 ---
-The obsolete `ProgressEvent.initProgressEvent` method is no longer available in [Web Workers](https://developer.mozilla.org/en-US/docs/Web/Guide/Performance/Using_web_workers). This method in general use has already been [removed from Firefox 22](https://www.fxsitecompat.com/en-CA/docs/2013/progressevent-initprogressevent-has-been-removed/).
+The obsolete `ProgressEvent.initProgressEvent` method is no longer available in [Web Workers](https://developer.mozilla.org/docs/Web/Guide/Performance/Using_web_workers). This method in general use has already been [removed from Firefox 22](https://www.fxsitecompat.com/en-CA/docs/2013/progressevent-initprogressevent-has-been-removed/).

@@ -14,7 +14,7 @@ references:
 aliases:
     - "/ja/docs/2012/moztouch-events-were-removed-in-favor-of-the-standard-touch-events/"
 ---
-Firefox の試験実装で廃止予定となっていた [`MozTouch*` API](https://developer.mozilla.org/ja/docs/DOM/Touch_events_%28Mozilla_experimental%29) (`MozTouchDown`、`MozTouchMove`、`MozTouchUp` イベント) が削除されました。今後は [W3C 標準のタッチイベント](https://developer.mozilla.org/ja/docs/DOM/Touch_events) を使用してください。
+Firefox の試験実装で廃止予定となっていた [`MozTouch*` API](https://developer.mozilla.org/docs/DOM/Touch_events_%28Mozilla_experimental%29) (`MozTouchDown`、`MozTouchMove`、`MozTouchUp` イベント) が削除されました。今後は [W3C 標準のタッチイベント](https://developer.mozilla.org/docs/DOM/Touch_events) を使用してください。
 
 サイト互換性を確保するため、Windows ではタッチ入力の可否を自動判別し、非対応端末ではタッチイベントを無効化するようになりました。上記バグのコメントによれば、対応端末は現時点でわずか数パーセントとのことです。Android では初期設定で有効となっています。Mac 版と Linux 版の Firefox ではまだタッチイベントが実装されていません。
 

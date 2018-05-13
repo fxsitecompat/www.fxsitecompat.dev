@@ -8,7 +8,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1319926"
       title: "Bug 1319926 - Warn when String generics are used"
 ---
-[JavaScript 1.6](https://developer.mozilla.org/ja/docs/Web/JavaScript/New_in_JavaScript/1.6) で導入された非標準で Firefox 独自の [`Array` 汎用メソッド](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array#Array_generic_methods) と [`String` 汎用メソッド](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String#String_generic_methods) は廃止予定となり、[近い将来削除されることとなりました](https://www.fxsitecompat.com/ja/docs/2015/non-standard-array-string-generics-will-be-removed/)。これらの汎用・静的メソッドには以下のものが含まれます。
+[JavaScript 1.6](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.6) で導入された非標準で Firefox 独自の [`Array` 汎用メソッド](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array#Array_generic_methods) と [`String` 汎用メソッド](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String#String_generic_methods) は廃止予定となり、[近い将来削除されることとなりました](https://www.fxsitecompat.com/ja/docs/2015/non-standard-array-string-generics-will-be-removed/)。これらの汎用・静的メソッドには以下のものが含まれます。
 
 * `Array.concat`
 * `Array.every`
@@ -77,11 +77,11 @@ String(num).replace(search, replace);
 String.prototype.replace.call(num, search, replace);
 ```
 
-なお、[`Array.prototype`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype) と [`String.prototype`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/prototype) 上の標準インスタンスメソッドには当然ながら影響はありません。以下の静的メソッドも ECMAScript 2015 (ES6) 仕様に含まれており、削除される予定はありません。
+なお、[`Array.prototype`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype) と [`String.prototype`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/prototype) 上の標準インスタンスメソッドには当然ながら影響はありません。以下の静的メソッドも ECMAScript 2015 (ES6) 仕様に含まれており、削除される予定はありません。
 
-* [`Array.from`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
-* [`Array.isArray`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
-* [`Array.of`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/of)
-* [`String.fromCharCode`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
-* [`String.fromCodePoint`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint)
-* [`String.raw`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/raw)
+* [`Array.from`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
+* [`Array.isArray`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
+* [`Array.of`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/of)
+* [`String.fromCharCode`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
+* [`String.fromCodePoint`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint)
+* [`String.raw`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/raw)

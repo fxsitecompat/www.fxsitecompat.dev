@@ -12,4 +12,4 @@ references:
 aliases:
     - "/ja/docs/2016/isindex-support-will-be-removed/"
 ---
-時代遅れとなった [`<isindex>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/isindex) HTML 要素と `<input name="isindex">` への対応が Firefox 56 で削除されました。これは HTML 標準や他のブラウザーからは既に削除されています。
+時代遅れとなった [`<isindex>`](https://developer.mozilla.org/docs/Web/HTML/Element/isindex) HTML 要素と `<input name="isindex">` への対応が Firefox 56 で削除されました。これは HTML 標準や他のブラウザーからは既に削除されています。

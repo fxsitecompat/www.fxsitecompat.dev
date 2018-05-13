@@ -14,7 +14,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.tech.js-engine/O3qHW_hJ3Sk/discussion"
       title: "\"use strict\" behaviour change in 46 - mozilla.dev.tech.js-engine"
 ---
-従来、[`String`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String)、[`Number`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Number)、[`Boolean`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Boolean)、[`Symbol`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Symbol) といった [プリミティブ値](https://developer.mozilla.org/ja/docs/Glossary/Primitive) へのプロパティ設定は無演算命令 (何もしない) となっていました。Firefox 46 以降、[Strict モード](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Strict_mode) 内でそうしたコードが見られた場合、ECMAScript 2015 (ES6) 仕様に従って [`TypeError`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/TypeError) が投げられます。以下の例を参照してください。
+従来、[`String`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)、[`Number`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)、[`Boolean`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)、[`Symbol`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol) といった [プリミティブ値](https://developer.mozilla.org/docs/Glossary/Primitive) へのプロパティ設定は無演算命令 (何もしない) となっていました。Firefox 46 以降、[Strict モード](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Strict_mode) 内でそうしたコードが見られた場合、ECMAScript 2015 (ES6) 仕様に従って [`TypeError`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypeError) が投げられます。以下の例を参照してください。
 
 ```js
 (function() {

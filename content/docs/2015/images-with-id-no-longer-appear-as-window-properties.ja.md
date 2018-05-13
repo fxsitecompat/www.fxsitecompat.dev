@@ -10,4 +10,4 @@ references:
 aliases:
     - "/ja/docs/2015/imgs-with-id-no-longer-appear-as-window-properties/"
 ---
-Firefox 26 以降、`id` 属性を持つ [`<img>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/img) 要素は HTML 仕様に従って [`window`](https://developer.mozilla.org/ja/docs/Web/API/Window) オブジェクト上の加算プロパティとして現れていました。そのため、例えば `<img id="logo">` は `window.logo` プロパティを通じてアクセス可能でした。その後仕様が変更され、Safari や Chrome と同じ以前の挙動に戻されました。Firefox 42 の実装もそれに従って更新されたため、そうした画像は `window` 上に現れなくなりました。
+Firefox 26 以降、`id` 属性を持つ [`<img>`](https://developer.mozilla.org/docs/Web/HTML/Element/img) 要素は HTML 仕様に従って [`window`](https://developer.mozilla.org/docs/Web/API/Window) オブジェクト上の加算プロパティとして現れていました。そのため、例えば `<img id="logo">` は `window.logo` プロパティを通じてアクセス可能でした。その後仕様が変更され、Safari や Chrome と同じ以前の挙動に戻されました。Firefox 42 の実装もそれに従って更新されたため、そうした画像は `window` 上に現れなくなりました。

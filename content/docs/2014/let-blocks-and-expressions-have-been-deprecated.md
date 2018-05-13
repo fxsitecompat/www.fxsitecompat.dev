@@ -11,7 +11,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1102131"
       title: "Bug 1102131 – Log warnings and collect telemetry for deprecated let blocks and let expressions"
 ---
-The non-standard [`let` blocks and `let` expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Non-standard_let_extensions) are now considered deprecated. The support for those `let` extensions, currently warned in the [Web Console](https://developer.mozilla.org/en-US/docs/Tools/Web_Console), will be removed from Firefox in the near future.
+The non-standard [`let` blocks and `let` expressions](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/let#Non-standard_let_extensions) are now considered deprecated. The support for those `let` extensions, currently warned in the [Web Console](https://developer.mozilla.org/docs/Tools/Web_Console), will be removed from Firefox in the near future.
 
 **Update**: The `let` expression support has been [removed with Firefox 41](https://www.fxsitecompat.com/en-CA/docs/2015/let-expression-support-has-been-dropped/).
 

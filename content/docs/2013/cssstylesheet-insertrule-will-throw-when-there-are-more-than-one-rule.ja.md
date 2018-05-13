@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=765599"
       title: "Bug 765599 – CSSStyleSheet.insertRule should throw when there are more than one rule"
 ---
-複数のルールが [`CSSStyleSheet.insertRule`](https://developer.mozilla.org/ja/docs/Web/API/CSSStyleSheet/insertRule) メソッドに渡された場合、最初のルールだけがスタイルシートに挿入されていました。今後 Firefox は他のブラウザーと同様に例外 `SYNTAX_ERR` を投げます。
+複数のルールが [`CSSStyleSheet.insertRule`](https://developer.mozilla.org/docs/Web/API/CSSStyleSheet/insertRule) メソッドに渡された場合、最初のルールだけがスタイルシートに挿入されていました。今後 Firefox は他のブラウザーと同様に例外 `SYNTAX_ERR` を投げます。

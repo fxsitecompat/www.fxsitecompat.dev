@@ -29,7 +29,7 @@ aliases:
 
 <time datetime="2017-04">2017 年 4 月</time>公開の Firefox 53 でこの期間条件がなくなり、公的認証局によって発行された SHA-1 証明書はすべて [信頼できない接続](https://support.mozilla.org/ja/kb/connection-untrusted-error-message) エラー表示となります。[Mozilla の発表](https://blog.mozilla.org/security/2016/10/18/phasing-out-sha-1-on-the-public-web/) によれば、現在の SHA-1 使用率は 1% 未満であり、対応の廃止は Firefox 51 Beta サイクル中に影響を評価しつつ徐々に拡大されます。
 
-[ウェブコンソール](https://developer.mozilla.org/ja/docs/Tools/Web_Console) であなたのサイトを読み込んで SHA-1 証明書についての警告が表示された場合は、その発行者へ速やかに連絡を取り、有効期間に関わらず新しい SHA-2 証明書と無償で交換してください。
+[ウェブコンソール](https://developer.mozilla.org/docs/Tools/Web_Console) であなたのサイトを読み込んで SHA-1 証明書についての警告が表示された場合は、その発行者へ速やかに連絡を取り、有効期間に関わらず新しい SHA-2 証明書と無償で交換してください。
 
 **更新**: 影響を受けるバージョンを修正しました。Firefox 51 ではなく 53 です。
 

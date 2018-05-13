@@ -10,6 +10,6 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/8TyeUQOn6qQ/discussion"
       title: "Intent to implement and ship: spec changes to the .form property and \"form\" attribute on <label> elements"
 ---
-最新の HTML 仕様によれば、[`<label>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/label) 要素はどの `<form>` とも関連付けられなくなりました。これを受けて、HTML5 で導入された `<label>` 上の `form` 属性への対応は Firefox 49 で削除されました。
+最新の HTML 仕様によれば、[`<label>`](https://developer.mozilla.org/docs/Web/HTML/Element/label) 要素はどの `<form>` とも関連付けられなくなりました。これを受けて、HTML5 で導入された `<label>` 上の `form` 属性への対応は Firefox 49 で削除されました。
 
-一方で [`HTMLLabelElement`](https://developer.mozilla.org/ja/docs/Web/API/HTMLLabelElement) DOM インスタンス上の `form` プロパティは、もしあればそのラベル付きコントロールの `form` プロパティを、なければ `null` を返すようになります。つまり、`label.form` は `label.control.form` のエイリアスとなります。
+一方で [`HTMLLabelElement`](https://developer.mozilla.org/docs/Web/API/HTMLLabelElement) DOM インスタンス上の `form` プロパティは、もしあればそのラベル付きコントロールの `form` プロパティを、なければ `null` を返すようになります。つまり、`label.form` は `label.control.form` のエイリアスとなります。

@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=907958"
       title: "Bug 907958 – Restrict function names to non-keywords"
 ---
-[予約語](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Reserved_Words) を関数名に使用することはできません。Firefox 26 以降、そうしたコードは [`SyntaxError`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError) を投げます。例えば `function delete() { ... }` は不正な構文です。
+[予約語](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Reserved_Words) を関数名に使用することはできません。Firefox 26 以降、そうしたコードは [`SyntaxError`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError) を投げます。例えば `function delete() { ... }` は不正な構文です。

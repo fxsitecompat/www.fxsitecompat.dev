@@ -8,4 +8,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1196974"
       title: "Bug 1196974 - Remove mozDontOfferDataChannel/mozBundleOnly from RTCOfferOptions"
 ---
-非標準で文書化されていない `mozDontOfferDataChannel`、`mozBundleOnly` 両論理属性が `RTCOfferOptions` ディクショナリーから削除されました。これらのオプションは [`RTCPeerConnection.prototype.createOffer`](https://developer.mozilla.org/ja/docs/Web/API/RTCPeerConnection/createOffer) メソッドに使用可能でした。
+非標準で文書化されていない `mozDontOfferDataChannel`、`mozBundleOnly` 両論理属性が `RTCOfferOptions` ディクショナリーから削除されました。これらのオプションは [`RTCPeerConnection.prototype.createOffer`](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/createOffer) メソッドに使用可能でした。

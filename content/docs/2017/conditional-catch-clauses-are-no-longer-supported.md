@@ -10,4 +10,4 @@ references:
 aliases:
     - "/en-CA/docs/2015/conditional-catch-clause-support-will-be-removed/"
 ---
-The support for non-standard [conditional `catch` clauses](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch#Conditional_catch_clauses) has been removed with Firefox 59. Use the standard [`if...else`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) statement instead, as explained in the MDN document. Because it has never been implemented by any other browsers, the compatibility risk should be very low.
+The support for non-standard [conditional `catch` clauses](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch#Conditional_catch_clauses) has been removed with Firefox 59. Use the standard [`if...else`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/if...else) statement instead, as explained in the MDN document. Because it has never been implemented by any other browsers, the compatibility risk should be very low.

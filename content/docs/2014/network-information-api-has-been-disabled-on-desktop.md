@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1020758"
       title: "Bug 1012944 – [Network Information API] Disable the API on desktop"
 ---
-The [Network Information API](https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API), implemented as `navigator.mozConnection`, has been disabled on the desktop versions of Firefox since it has been accidentally exposed. Currently the API only works on Firefox for Android and Firefox OS.
+The [Network Information API](https://developer.mozilla.org/docs/Web/API/Network_Information_API), implemented as `navigator.mozConnection`, has been disabled on the desktop versions of Firefox since it has been accidentally exposed. Currently the API only works on Firefox for Android and Firefox OS.

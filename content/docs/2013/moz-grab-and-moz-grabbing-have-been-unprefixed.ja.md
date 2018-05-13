@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=880672"
       title: "Bug 880672 – Unprefix -moz-grab and -moz-grabbing"
 ---
-[`cursor`](https://developer.mozilla.org/ja/docs/Web/CSS/cursor) プロパティ用の `-moz-grab`、`-moz-grabbing` キーワードの接頭辞なし対応が追加されました。接頭辞付きキーワードは一定期間経過後に削除されます。
+[`cursor`](https://developer.mozilla.org/docs/Web/CSS/cursor) プロパティ用の `-moz-grab`、`-moz-grabbing` キーワードの接頭辞なし対応が追加されました。接頭辞付きキーワードは一定期間経過後に削除されます。

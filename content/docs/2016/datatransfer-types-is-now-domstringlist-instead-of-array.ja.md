@@ -9,9 +9,9 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1298243"
       title: "Bug 1298243 - drag/drop: DataTransfer.types is wrong type"
 ---
-Firefox はこれまで [`DataTransfer.prototype.types`](https://developer.mozilla.org/ja/docs/Web/API/DataTransfer/types) プロパティに [`DOMStringList`](https://developer.mozilla.org/ja/docs/Web/API/DOMStringList) を返していました。Firefox 52 以降では、現行の HTML 仕様に従い、単純な `DOMString` の `Array` を返すようになります。つまり、このプロパティ上で `contains` メソッドは使えなくなり、特定の種類のデータが提供されているかどうかを調べるには、代わりに [`includes`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) メソッドを使う必要があります。
+Firefox はこれまで [`DataTransfer.prototype.types`](https://developer.mozilla.org/docs/Web/API/DataTransfer/types) プロパティに [`DOMStringList`](https://developer.mozilla.org/docs/Web/API/DOMStringList) を返していました。Firefox 52 以降では、現行の HTML 仕様に従い、単純な `DOMString` の `Array` を返すようになります。つまり、このプロパティ上で `contains` メソッドは使えなくなり、特定の種類のデータが提供されているかどうかを調べるには、代わりに [`includes`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) メソッドを使う必要があります。
 
-後方互換性のため、以下のように [スプレッド構文](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Spread_operator) を使うことができます。
+後方互換性のため、以下のように [スプレッド構文](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_operator) を使うことができます。
 
 ```js
 document.body.addEventListener('drop', event => {

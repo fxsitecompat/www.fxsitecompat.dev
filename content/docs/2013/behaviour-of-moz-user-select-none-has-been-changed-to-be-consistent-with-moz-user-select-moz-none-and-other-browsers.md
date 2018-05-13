@@ -11,4 +11,4 @@ references:
 aliases:
     - "/en-CA/docs/2013/behavior-of-moz-user-select-none-has-been-changed-to-be-consistent-with-moz-user-select-moz-none-and-other-browsers/"
 ---
-Previously, when you set the [`none`](https://developer.mozilla.org/en-US/docs/Web/CSS/none) keyword to the [`user-select`](https://developer.mozilla.org/en-US/docs/Web/CSS/user-select) property, the text of on the element and sub-elements became unselectable, even if one of those sub-elements had `-moz-user-select:text`. Starting with Firefox 21, `none` behaves like `-moz-none` and other browsers, so selection can be re-enabled on sub-elements using `-moz-user-select:text`.
+Previously, when you set the [`none`](https://developer.mozilla.org/docs/Web/CSS/none) keyword to the [`user-select`](https://developer.mozilla.org/docs/Web/CSS/user-select) property, the text of on the element and sub-elements became unselectable, even if one of those sub-elements had `-moz-user-select:text`. Starting with Firefox 21, `none` behaves like `-moz-none` and other browsers, so selection can be re-enabled on sub-elements using `-moz-user-select:text`.

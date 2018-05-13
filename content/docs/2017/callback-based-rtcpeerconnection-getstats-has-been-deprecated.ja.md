@@ -10,4 +10,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1329762"
       title: "Bug 1329762 - Strengthen deprecation warning of legacy PeerConnection.getStats"
 ---
-[`RTCStatsReport`](https://developer.mozilla.org/ja/docs/Web/API/RTCStatsReport) を提供するコールバックベースの `RTCPeerConnection.prototype.getStats` メソッドは、WebRTC 仕様から削除され、Firefox からも近い将来削除されます。Firefox 53 以降のウェブコンソールでは、この旧バージョンに対して廃止予定の警告が表示されます。代わりに新しい [Promise バージョン](https://w3c.github.io/webrtc-pc/#getstats-example) を使用してください。
+[`RTCStatsReport`](https://developer.mozilla.org/docs/Web/API/RTCStatsReport) を提供するコールバックベースの `RTCPeerConnection.prototype.getStats` メソッドは、WebRTC 仕様から削除され、Firefox からも近い将来削除されます。Firefox 53 以降のウェブコンソールでは、この旧バージョンに対して廃止予定の警告が表示されます。代わりに新しい [Promise バージョン](https://w3c.github.io/webrtc-pc/#getstats-example) を使用してください。

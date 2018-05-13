@@ -11,4 +11,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=769571"
       title: "Bug 769571 – Unprefix battery and vibrator APIs"
 ---
-The [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) API has been unprefixed. Now you can use the standard [`indexedDB`](https://developer.mozilla.org/en-US/docs/Web/API/IDBEnvironment/indexedDB) property instead of `mozIndexedDB`. The [Battery Status](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API) and [Vibration](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API) APIs have also been unprefixed.
+The [IndexedDB](https://developer.mozilla.org/docs/Web/API/IndexedDB_API) API has been unprefixed. Now you can use the standard [`indexedDB`](https://developer.mozilla.org/docs/Web/API/IDBEnvironment/indexedDB) property instead of `mozIndexedDB`. The [Battery Status](https://developer.mozilla.org/docs/Web/API/Battery_Status_API) and [Vibration](https://developer.mozilla.org/docs/Web/API/Vibration_API) APIs have also been unprefixed.

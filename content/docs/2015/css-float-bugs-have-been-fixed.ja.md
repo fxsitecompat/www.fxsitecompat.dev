@@ -15,7 +15,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1196255"
       title: "Bug 1196255 - tabzilla invisible on mobile view of /privacy/tips/"
 ---
-CSS の [`float`](https://developer.mozilla.org/ja/docs/Web/CSS/float) 処理に関して長年にわたって存在していたいくつかの問題が Firefox 42 で修正されました。
+CSS の [`float`](https://developer.mozilla.org/docs/Web/CSS/float) 処理に関して長年にわたって存在していたいくつかの問題が Firefox 42 で修正されました。
 
 最初のバグでは、`margin-top` と `margin-bottom` プロパティが特定の状況で `float` プロパティとともに使われた場合に誤って適用されることがありました。2 つ目のバグでは、フロートされた要素に続く `<table>` が適切にクリアされず、結果としてコンテンツの重なり合いが発生していました。3 つ目のバグでは、異なる幅を持つ 2 つのフロートされた要素がそれに続く要素の誤配置につながり、これもコンテンツの重なり合いを発生させていました。
 

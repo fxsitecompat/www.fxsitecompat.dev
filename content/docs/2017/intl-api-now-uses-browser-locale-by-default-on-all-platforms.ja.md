@@ -12,9 +12,9 @@ macOS、Linux および Android 版の Firefox は従来、ECMAScript Internatio
 
 影響を受けるオブジェクトとメソッドは以下の通りです。
 
-* [`Intl.DateTimeFormat`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat)
-* [`Date.prototype.toLocaleString`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString)
-* [`Date.prototype.toLocaleDateString`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)
+* [`Intl.DateTimeFormat`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat)
+* [`Date.prototype.toLocaleString`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString)
+* [`Date.prototype.toLocaleDateString`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)
 
 これは一部の Firefox ユーザーにとって日付形式の変更につながる可能性があります。例えば、ブラウザーのロケールが `en-US` である一方、プラットフォームでは `en-CA` が使われていた場合、`toLocaleDateString` メソッドの戻り値は `2017-06-20` ではなく `6/20/2017` となるでしょう。
 

@@ -13,6 +13,6 @@ references:
 ---
 Firefox 55 has introduced a regression where uploading a file from web forms doesn't work in certain circumstances due to a change in how upload stream is handled, likely leading to a 400 Bad Request error response from the server. Users are reporting that they cannot upload video thumbnails on *YouTube* which is offering an Ajaxy form, but static forms may also be affected. Mozilla developers are working on the solution.
 
-**Update**: This regression, turned out to be a bug involving service workers, has been fixed with Firefox 55.0.3. However, there's another upload regression in Firefox 55 where async `XMLHttpRequest` or `fetch` using a [`FormData`](https://developer.mozilla.org/en-US/docs/Web/API/FormData) with certain `Blob`s will fail even without service workers. Mozilla developers are working on this bug as well.
+**Update**: This regression, turned out to be a bug involving service workers, has been fixed with Firefox 55.0.3. However, there's another upload regression in Firefox 55 where async `XMLHttpRequest` or `fetch` using a [`FormData`](https://developer.mozilla.org/docs/Web/API/FormData) with certain `Blob`s will fail even without service workers. Mozilla developers are working on this bug as well.
 
 **Update 2**: The `FormData` regression has been fixed with Firefox 56.

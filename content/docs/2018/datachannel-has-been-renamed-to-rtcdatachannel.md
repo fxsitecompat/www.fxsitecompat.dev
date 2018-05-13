@@ -8,4 +8,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1173851"
       title: "Bug 1173851 - Rename DataChannel to RTCDataChannel per specification"
 ---
-Previously, Firefox was implementing the [`RTCDataChannel`](https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel) interface as `DataChannel` so WebRTC feature detection with it could have failed. This wrong name has been corrected with Firefox 60 to comply with the spec. Given that both Chrome and Safari implement the interface as the correct name, the compatibility risk should be low.
+Previously, Firefox was implementing the [`RTCDataChannel`](https://developer.mozilla.org/docs/Web/API/RTCDataChannel) interface as `DataChannel` so WebRTC feature detection with it could have failed. This wrong name has been corrected with Firefox 60 to comply with the spec. Given that both Chrome and Safari implement the interface as the correct name, the compatibility risk should be low.

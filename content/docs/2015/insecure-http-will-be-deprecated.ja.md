@@ -21,7 +21,7 @@ references:
     - url: "https://blog.mozilla.org/security/2018/01/15/secure-contexts-everywhere/"
       title: "Mozilla Security Blog: Secure Contexts Everywhere"
 ---
-インターネット接続は常に暗号化されるべきという提案に関して、業界は大筋で合意に達しています。新しい [Service Worker API](https://developer.mozilla.org/ja/docs/Web/API/Service_Worker_API) は元々 HTTPS が必須となっています。Mozilla 開発者の提案によれば、[Geolocation](https://developer.mozilla.org/ja/docs/Web/API/Geolocation/Using_geolocation)、[Notification](https://developer.mozilla.org/ja/docs/Web/API/Notifications_API)、[Fullscreen](https://developer.mozilla.org/ja/docs/Web/API/Fullscreen_API)、[Pointer Lock](https://developer.mozilla.org/ja/docs/Web/API/Pointer_Lock_API)、[Media Stream](https://developer.mozilla.org/ja/docs/Web/API/Media_Streams_API) API といったユーザーの許可設定を必要とする一部の機能に関しても、今後 HTTPS が必須となる可能性があります。
+インターネット接続は常に暗号化されるべきという提案に関して、業界は大筋で合意に達しています。新しい [Service Worker API](https://developer.mozilla.org/docs/Web/API/Service_Worker_API) は元々 HTTPS が必須となっています。Mozilla 開発者の提案によれば、[Geolocation](https://developer.mozilla.org/docs/Web/API/Geolocation/Using_geolocation)、[Notification](https://developer.mozilla.org/docs/Web/API/Notifications_API)、[Fullscreen](https://developer.mozilla.org/docs/Web/API/Fullscreen_API)、[Pointer Lock](https://developer.mozilla.org/docs/Web/API/Pointer_Lock_API)、[Media Stream](https://developer.mozilla.org/docs/Web/API/Media_Streams_API) API といったユーザーの許可設定を必要とする一部の機能に関しても、今後 HTTPS が必須となる可能性があります。
 
 また、非 HTTPS の Cookie をセッション Cookie として扱うことで、広告ネットワークとパブリッシャーの HTTPS 移行を促すことも提案されています。
 

@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=795867"
       title: "Bug 795867 – XHR getResponseHeader() should inflate the value"
 ---
-Following the latest [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) spec, the [`XMLHttpRequest.getResponseHeader`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest#getResponseHeader) method now returns value expressed in redundant encoding. For example, "`…`" will be "`\xE2\x80\xA6`".
+Following the latest [`XMLHttpRequest`](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest) spec, the [`XMLHttpRequest.getResponseHeader`](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest#getResponseHeader) method now returns value expressed in redundant encoding. For example, "`…`" will be "`\xE2\x80\xA6`".

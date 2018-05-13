@@ -15,7 +15,7 @@ references:
 aliases:
     - "/ja/docs/2015/javascript-versions-will-be-retired/"
 ---
-Firefox では伝統的に、JavaScript [1.7](https://developer.mozilla.org/ja/docs/Web/JavaScript/New_in_JavaScript/1.7) や [1.8](https://developer.mozilla.org/ja/docs/Web/JavaScript/New_in_JavaScript/1.8) の高度な機能を利用するには、`<script>` 要素の `type` 属性に `version` 引数を明示する必要がありました。
+Firefox では伝統的に、JavaScript [1.7](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.7) や [1.8](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.8) の高度な機能を利用するには、`<script>` 要素の `type` 属性に `version` 引数を明示する必要がありました。
 
 ```html
 <script type="application/javascript;version=1.7"></script>

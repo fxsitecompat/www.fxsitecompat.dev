@@ -21,7 +21,7 @@ var options = {
 };
 ```
 
-This is the [new syntax](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/WebRTC_basics#options). Watch out for the case difference:
+This is the [new syntax](https://developer.mozilla.org/docs/Web/API/WebRTC_API/WebRTC_basics#options). Watch out for the case difference:
 
 ```js
 var options = {

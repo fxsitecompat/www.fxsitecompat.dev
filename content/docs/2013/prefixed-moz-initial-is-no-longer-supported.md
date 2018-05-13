@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=807184"
       title: "Bug 807184 – Remove support for prefixed \"-moz-initial\" CSS keyword, now that we support it unprefixed"
 ---
-Support for the prefixed `-moz-initial` keyword has been removed from Firefox 24. The unprefixed [`initial`](https://developer.mozilla.org/en-US/docs/Web/CSS/initial) keyword can be used instead starting with [Firefox 19](https://www.fxsitecompat.com/en-CA/docs/2012/moz-initial-has-been-unprefixed/).
+Support for the prefixed `-moz-initial` keyword has been removed from Firefox 24. The unprefixed [`initial`](https://developer.mozilla.org/docs/Web/CSS/initial) keyword can be used instead starting with [Firefox 19](https://www.fxsitecompat.com/en-CA/docs/2012/moz-initial-has-been-unprefixed/).

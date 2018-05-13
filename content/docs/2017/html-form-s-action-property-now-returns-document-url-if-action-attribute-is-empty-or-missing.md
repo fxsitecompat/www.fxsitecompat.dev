@@ -9,9 +9,9 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1366361"
       title: "Bug 1366361 - Make form.action return the actual form submission URL"
 ---
-Starting with Firefox 56, if the `action` attribute on a `<form>` HTML element is empty or missing, the `action` property on the corresponding [`HTMLFormElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement) DOM object will return the actual form submission URL, which is the document's URL, instead of an empty string.
+Starting with Firefox 56, if the `action` attribute on a `<form>` HTML element is empty or missing, the `action` property on the corresponding [`HTMLFormElement`](https://developer.mozilla.org/docs/Web/API/HTMLFormElement) DOM object will return the actual form submission URL, which is the document's URL, instead of an empty string.
 
-The same applies to the `formAction` property on [`HTMLButtonElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLButtonElement) and [`HTMLInputElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement) objects that reflects the `formaction` attribute on the `<button>` or `<input>` element.
+The same applies to the `formAction` property on [`HTMLButtonElement`](https://developer.mozilla.org/docs/Web/API/HTMLButtonElement) and [`HTMLInputElement`](https://developer.mozilla.org/docs/Web/API/HTMLInputElement) objects that reflects the `formaction` attribute on the `<button>` or `<input>` element.
 
 This change was made to be compliant the latest HTML spec, and so far only 1 compatibility issue has been reported. Since other browsers are not following the spec yet, such issues may only happen in Firefox at the time of this writing.
 

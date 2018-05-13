@@ -10,6 +10,6 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/3rbtcFOcVjI/discussion"
       title: "Intent to unship: SVGViewElement.viewTarget"
 ---
-Firefox 61 has removed the `viewTarget` property from the [`SVGViewElement`](https://developer.mozilla.org/en-US/docs/Web/API/SVGViewElement) interface. It was defined in the SVG 1.1 spec but removed with SVG 2 due to lack of use. Also, Firefox didn't have the proper implementation, rather returning an error.
+Firefox 61 has removed the `viewTarget` property from the [`SVGViewElement`](https://developer.mozilla.org/docs/Web/API/SVGViewElement) interface. It was defined in the SVG 1.1 spec but removed with SVG 2 due to lack of use. Also, Firefox didn't have the proper implementation, rather returning an error.
 
 Given that [Google Chrome 56](https://www.chromestatus.com/feature/5665473114931200) shipped in January 2017 has already made the change, the compatibility risk should be low.

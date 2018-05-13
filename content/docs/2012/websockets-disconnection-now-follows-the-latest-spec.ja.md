@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=695636"
       title: "Bug 695636 - Update close steps to adhere to WS spec."
 ---
-コード内で `close` メソッドが呼び出された際の切断処理中に `error` や `close` イベントが発生しないようにするなど、最新の仕様に合わせて [WebSockets](https://developer.mozilla.org/ja/docs/Web/API/WebSockets_API) 実装が更新されました。
+コード内で `close` メソッドが呼び出された際の切断処理中に `error` や `close` イベントが発生しないようにするなど、最新の仕様に合わせて [WebSockets](https://developer.mozilla.org/docs/Web/API/WebSockets_API) 実装が更新されました。

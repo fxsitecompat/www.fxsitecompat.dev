@@ -14,4 +14,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/ozygu09pg_o/discussion"
       title: "Intent to ship imageSmoothingEnabled and remove mozImageSmoothingEnabled."
 ---
-Firefox 51 で [`CanvasRenderingContext2D.imageSmoothingEnabled`](https://developer.mozilla.org/ja/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled) プロパティの接頭辞が外れました。廃止予定となった `moz` 接頭辞プロパティはコンソール内で警告され、将来的に削除されます。
+Firefox 51 で [`CanvasRenderingContext2D.imageSmoothingEnabled`](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled) プロパティの接頭辞が外れました。廃止予定となった `moz` 接頭辞プロパティはコンソール内で警告され、将来的に削除されます。

@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/x6XgGCoXUw0/discussion"
       title: "Intent to put Permission API's .revoke() method behind a pref"
 ---
-The [`Permissions.revoke`](https://developer.mozilla.org/en-US/docs/Web/API/Permissions/revoke) method on the [Permissions API](https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API) is now disabled by default because it has been shipped prematurely with Firefox 47 while the spec is not stable yet at this moment. It will eventually be re-enabled or removed depending on the progress of the standardization work.
+The [`Permissions.revoke`](https://developer.mozilla.org/docs/Web/API/Permissions/revoke) method on the [Permissions API](https://developer.mozilla.org/docs/Web/API/Permissions_API) is now disabled by default because it has been shipped prematurely with Firefox 47 while the spec is not stable yet at this moment. It will eventually be re-enabled or removed depending on the progress of the standardization work.

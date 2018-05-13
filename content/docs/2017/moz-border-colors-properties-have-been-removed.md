@@ -12,9 +12,9 @@ references:
 ---
 Starting with Firefox 59, the following non-standard border colour properties are no longer available from web content:
 
-* [`-moz-border-top-colors`](https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-border-top-colors)
-* [`-moz-border-right-colors`](https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-border-right-colors)
-* [`-moz-border-bottom-colors`](https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-border-bottom-colors)
-* [`-moz-border-left-colors`](https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-border-left-colors)
+* [`-moz-border-top-colors`](https://developer.mozilla.org/docs/Web/CSS/-moz-border-top-colors)
+* [`-moz-border-right-colors`](https://developer.mozilla.org/docs/Web/CSS/-moz-border-right-colors)
+* [`-moz-border-bottom-colors`](https://developer.mozilla.org/docs/Web/CSS/-moz-border-bottom-colors)
+* [`-moz-border-left-colors`](https://developer.mozilla.org/docs/Web/CSS/-moz-border-left-colors)
 
-Since those are not supported by any other browsers, the compatibility risk should be very low. Though there is no exact standard equivalent, the [`border-image`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-image) property can be used to achieve gradient borders if needed.
+Since those are not supported by any other browsers, the compatibility risk should be very low. Though there is no exact standard equivalent, the [`border-image`](https://developer.mozilla.org/docs/Web/CSS/border-image) property can be used to achieve gradient borders if needed.

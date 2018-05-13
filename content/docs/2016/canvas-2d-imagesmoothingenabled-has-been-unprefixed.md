@@ -14,4 +14,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/ozygu09pg_o/discussion"
       title: "Intent to ship imageSmoothingEnabled and remove mozImageSmoothingEnabled."
 ---
-The [`CanvasRenderingContext2D.imageSmoothingEnabled`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled) property has been unprefixed with Firefox 51. The deprecated `moz`-prefixed property will be warned in the console and removed in the future.
+The [`CanvasRenderingContext2D.imageSmoothingEnabled`](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled) property has been unprefixed with Firefox 51. The deprecated `moz`-prefixed property will be warned in the console and removed in the future.

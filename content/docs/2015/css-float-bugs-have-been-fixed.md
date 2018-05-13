@@ -15,7 +15,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1196255"
       title: "Bug 1196255 - tabzilla invisible on mobile view of /privacy/tips/"
 ---
-A couple of longstanding issues regarding CSS [`float`](https://developer.mozilla.org/en-US/docs/Web/CSS/float) handling have been fixed with Firefox 42. 
+A couple of longstanding issues regarding CSS [`float`](https://developer.mozilla.org/docs/Web/CSS/float) handling have been fixed with Firefox 42.
 
 In the first bug, the `margin-top` and `margin-bottom` properties were wrongly applied when used in conjunction with the `float` property under certain circumstances. In the second bug, a `<table>` after a floated element was not cleared properly, resulting in overlapped content. In the third bug, two floated elements with different widths led to a misplacement of the subsequent element, resulting in overlapped content as well.
 

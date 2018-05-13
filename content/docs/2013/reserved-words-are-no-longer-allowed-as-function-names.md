@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=907958"
       title: "Bug 907958 – Restrict function names to non-keywords"
 ---
-The [reserved words](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Reserved_Words) cannot be used for function names. Starting with Firefox 26, such a usage will throw a [`SyntaxError`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError). For example, `function delete() { ... }` is illegal.
+The [reserved words](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Reserved_Words) cannot be used for function names. Starting with Firefox 26, such a usage will throw a [`SyntaxError`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError). For example, `function delete() { ... }` is illegal.

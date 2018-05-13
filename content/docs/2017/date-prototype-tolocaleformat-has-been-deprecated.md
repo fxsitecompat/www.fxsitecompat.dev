@@ -10,9 +10,9 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1344625"
       title: "Bug 1344625 - Turn on ENABLE_INTL_API=yes on Android's release build"
 ---
-The support for the non-standard [`Date.prototype.toLocaleFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat) method is now considered deprecated and will be [removed](https://www.fxsitecompat.com/en-CA/docs/2015/date-prototype-tolocaleformat-will-be-removed/) in the near future. Firefox 55 and later shows a warning in the Console for the method.
+The support for the non-standard [`Date.prototype.toLocaleFormat`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat) method is now considered deprecated and will be [removed](https://www.fxsitecompat.com/en-CA/docs/2015/date-prototype-tolocaleformat-will-be-removed/) in the near future. Firefox 55 and later shows a warning in the Console for the method.
 
-There are JavaScript libraries like [Sugar](https://sugarjs.com/) to achieve the same results. You can also use the standard [`toLocaleDateString`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString) method, which is a part of the [ECMAScript Internationalization API](https://hacks.mozilla.org/2014/12/introducing-the-javascript-internationalization-api/), as the following examples illustrate:
+There are JavaScript libraries like [Sugar](https://sugarjs.com/) to achieve the same results. You can also use the standard [`toLocaleDateString`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString) method, which is a part of the [ECMAScript Internationalization API](https://hacks.mozilla.org/2014/12/introducing-the-javascript-internationalization-api/), as the following examples illustrate:
 
 ```js
 // Formats like "Tuesday, August 1, 2017"

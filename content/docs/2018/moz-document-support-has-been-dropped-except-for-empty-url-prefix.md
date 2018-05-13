@@ -20,7 +20,7 @@ aliases:
     - "/en-CA/docs/2015/moz-document-support-will-be-dropped/"
     - "/en-CA/docs/2018/moz-document-has-been-dropped/"
 ---
-The [`@-moz-document`](https://developer.mozilla.org/en-US/docs/Web/CSS/@document) rule is no longer available from Web content since it could be used by attackers for CSS injection to steal private data in the URL of third-party sites. Firefox users are still able to use this rule in their user stylesheet to personalize the browsing experience.
+The [`@-moz-document`](https://developer.mozilla.org/docs/Web/CSS/@document) rule is no longer available from Web content since it could be used by attackers for CSS injection to steal private data in the URL of third-party sites. Firefox users are still able to use this rule in their user stylesheet to personalize the browsing experience.
 
 The at-rule support has already been removed from Nightly and early Beta/DevEdition as of Firefox 59, and removed from all the channels with Firefox 61.
 

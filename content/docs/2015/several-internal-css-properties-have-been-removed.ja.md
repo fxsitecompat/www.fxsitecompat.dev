@@ -10,6 +10,6 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1211040"
       title: "Bug 1211040 - Restrict -moz-window-{dragging, shadow} to chrome only"
 ---
-[MathML](https://developer.mozilla.org/ja/docs/Web/MathML) やブラウザーテーマ向けに用意されている一部の内部 CSS プロパティがウェブコンテンツから使用できなくなりました。これらには `-moz-math-display`、`-moz-window-dragging`、[`-moz-window-shadow`](https://developer.mozilla.org/ja/docs/Web/CSS/-moz-window-shadow) が含まれます。
+[MathML](https://developer.mozilla.org/docs/Web/MathML) やブラウザーテーマ向けに用意されている一部の内部 CSS プロパティがウェブコンテンツから使用できなくなりました。これらには `-moz-math-display`、`-moz-window-dragging`、[`-moz-window-shadow`](https://developer.mozilla.org/docs/Web/CSS/-moz-window-shadow) が含まれます。
 
 **更新**: `-moz-window-dragging` プロパティは *Graphene* ランタイムとの互換性問題から [元に戻されました](https://bugzilla.mozilla.org/show_bug.cgi?id=1212607)。

@@ -16,8 +16,8 @@ references:
 aliases:
     - "/ja/docs/2016/navigator-plugins-and-mimetypes-will-be-unenumerable/"
 ---
-Firefox 52 で [Flash 以外のプラグイン対応が廃止](https://www.fxsitecompat.com/ja/docs/2016/plug-in-support-has-been-dropped-other-than-flash/) されたのに続いて、それぞれ [`PluginArray`](https://developer.mozilla.org/ja/docs/Web/API/PluginArray)、`MimeTypeArray` オブジェクトを返す  [`navigator.plugins`](https://developer.mozilla.org/ja/docs/Web/API/NavigatorPlugins/plugins)、[`navigator.mimeTypes`](https://developer.mozilla.org/ja/docs/Web/API/NavigatorPlugins/mimeTypes) 両プロパティが Firefox 53 で列挙不能となりました。
+Firefox 52 で [Flash 以外のプラグイン対応が廃止](https://www.fxsitecompat.com/ja/docs/2016/plug-in-support-has-been-dropped-other-than-flash/) されたのに続いて、それぞれ [`PluginArray`](https://developer.mozilla.org/docs/Web/API/PluginArray)、`MimeTypeArray` オブジェクトを返す  [`navigator.plugins`](https://developer.mozilla.org/docs/Web/API/NavigatorPlugins/plugins)、[`navigator.mimeTypes`](https://developer.mozilla.org/docs/Web/API/NavigatorPlugins/mimeTypes) 両プロパティが Firefox 53 で列挙不能となりました。
 
 この変更はフィンガープリンティングを緩和するため元々 Firefox 28 で予定されていましたが、無視できないサイト互換性問題により中止されていました。
 
-これらのプロパティは実際のところ、[`Object.getOwnPropertyNames`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames) メソッドや、単に `[...navigator.plugins]` のような [スプレッド構文](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Spread_operator) を使った場合は今後も列挙可能ですが、Flash Player がインストールされている場合にそれが含まれるだけになるので、もはや意味をなしません。
+これらのプロパティは実際のところ、[`Object.getOwnPropertyNames`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames) メソッドや、単に `[...navigator.plugins]` のような [スプレッド構文](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_operator) を使った場合は今後も列挙可能ですが、Flash Player がインストールされている場合にそれが含まれるだけになるので、もはや意味をなしません。

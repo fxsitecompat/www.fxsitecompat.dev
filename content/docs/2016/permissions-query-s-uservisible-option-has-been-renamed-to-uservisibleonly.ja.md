@@ -13,7 +13,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1266821"
       title: "Bug 1266821 - Remove PushPermissionDescriptor from the Permissions API"
 ---
-Firefox 46 と 47 でそれぞれ実装された [`Permissions.query`](https://developer.mozilla.org/ja/docs/Web/API/Permissions/query)、[`revoke`](https://developer.mozilla.org/ja/docs/Web/API/Permissions/revoke) 両メソッドの `userVisible` オプションが、最新の Push API 仕様に従って `userVisibleOnly` に改名されました。
+Firefox 46 と 47 でそれぞれ実装された [`Permissions.query`](https://developer.mozilla.org/docs/Web/API/Permissions/query)、[`revoke`](https://developer.mozilla.org/docs/Web/API/Permissions/revoke) 両メソッドの `userVisible` オプションが、最新の Push API 仕様に従って `userVisibleOnly` に改名されました。
 
 Firefox は実際のところ `userVisibleOnly` が `true` に設定されていた場合に例外 `NS_ERROR_NOT_IMPLEMENTED` を投げます。これは、Firefox が Google Chrome と異なり、このオプションではなく独自のクォータシステムを採用しているためです。あるデモアプリがこの変更の影響を受けています。このオプションが例外を投げる代わりに単に無視されるよう、`PushPermissionDescriptor` 対応自体を Firefox から削除する予定があります。
 

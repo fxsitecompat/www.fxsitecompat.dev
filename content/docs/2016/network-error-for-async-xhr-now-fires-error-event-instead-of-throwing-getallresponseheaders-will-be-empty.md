@@ -12,7 +12,7 @@ references:
 aliases:
     - "/en-CA/docs/2016/network-error-for-async-xhr-now-fires-error-event-instead-of-throwing/"
 ---
-Previously, Firefox was throwing a `NetworkError` exception when detecting a network error for asynchronous [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest). On Firefox 50 and later, the browser instead fires an [`error`](https://developer.mozilla.org/en-US/docs/Web/Events/error) event asynchronously in the same fashion as [loading cross-origin worker firing an `error` event](https://www.fxsitecompat.com/en-CA/docs/2016/loading-cross-origin-worker-now-fires-error-event-instead-of-throwing-worker-in-sandboxed-iframe-no-longer-allowed/) since Firefox 45. Use an [`onerror`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequestEventTarget/onerror) handler in conjunction with a [`try-catch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) statement to gently handle both cases:
+Previously, Firefox was throwing a `NetworkError` exception when detecting a network error for asynchronous [`XMLHttpRequest`](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest). On Firefox 50 and later, the browser instead fires an [`error`](https://developer.mozilla.org/docs/Web/Events/error) event asynchronously in the same fashion as [loading cross-origin worker firing an `error` event](https://www.fxsitecompat.com/en-CA/docs/2016/loading-cross-origin-worker-now-fires-error-event-instead-of-throwing-worker-in-sandboxed-iframe-no-longer-allowed/) since Firefox 45. Use an [`onerror`](https://developer.mozilla.org/docs/Web/API/XMLHttpRequestEventTarget/onerror) handler in conjunction with a [`try-catch`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch) statement to gently handle both cases:
 
 ```js
 var xhr = new XMLHttpRequest();
@@ -32,4 +32,4 @@ try {
 
 Note that synchronous `XMLHttpRequest` will continue throwing an exception.
 
-In a related development, the [`XMLHttpRequest.getAllResponseHeaders`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/getAllResponseHeaders) method now returns an empty string when a network error occurred.
+In a related development, the [`XMLHttpRequest.getAllResponseHeaders`](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/getAllResponseHeaders) method now returns an empty string when a network error occurred.

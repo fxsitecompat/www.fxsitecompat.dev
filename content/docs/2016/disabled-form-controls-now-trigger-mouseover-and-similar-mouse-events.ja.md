@@ -11,6 +11,6 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1265909"
       title: "Bug 1265909 - FireFox 45.0.2 fires onMouseOut for disabled input."
 ---
-Firefox 44 以降、[`mouseover`](https://developer.mozilla.org/ja/docs/Web/Events/mouseover)、[`mouseout`](https://developer.mozilla.org/ja/docs/Web/Events/mouseout)、[`mouseenter`](https://developer.mozilla.org/ja/docs/Web/Events/mouseenter)、[`mouseleave`](https://developer.mozilla.org/ja/docs/Web/Events/mouseleave) の各イベントが、[`<input>`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/input) などの無効化されているフォームコントロール上でも発生するようになりました。従来の挙動は特に jQuery を使っているウェブ開発者を混乱させることがありました。
+Firefox 44 以降、[`mouseover`](https://developer.mozilla.org/docs/Web/Events/mouseover)、[`mouseout`](https://developer.mozilla.org/docs/Web/Events/mouseout)、[`mouseenter`](https://developer.mozilla.org/docs/Web/Events/mouseenter)、[`mouseleave`](https://developer.mozilla.org/docs/Web/Events/mouseleave) の各イベントが、[`<input>`](https://developer.mozilla.org/docs/Web/HTML/Element/input) などの無効化されているフォームコントロール上でも発生するようになりました。従来の挙動は特に jQuery を使っているウェブ開発者を混乱させることがありました。
 
 あなたのコードが常に期待通り動作するよう、イベントハンドラー内でターゲット要素の `disabled` プロパティを明示的に確認すると良いでしょう。

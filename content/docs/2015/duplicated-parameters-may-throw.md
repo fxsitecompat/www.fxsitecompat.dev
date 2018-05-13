@@ -13,4 +13,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1096378"
       title: "Bug 1096378 – Don\'t allow duplicate parameter names in concise method definitions"
 ---
-Starting with Firefox 38, duplicated function parameter names will throw a [`SyntaxError`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError) exception when those are used with a [rest parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters), for a [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), or for a concise method definition.
+Starting with Firefox 38, duplicated function parameter names will throw a [`SyntaxError`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError) exception when those are used with a [rest parameter](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/rest_parameters), for a [arrow function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions), or for a concise method definition.

@@ -11,4 +11,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/6i4a8JpJ6Ok/discussion"
       title: "Intent to unship: Request.context"
 ---
-[`Request.context`](https://developer.mozilla.org/ja/docs/Web/API/Request/context) プロパティが、仕様がまだ安定していないという理由から一時的に削除されました。
+[`Request.context`](https://developer.mozilla.org/docs/Web/API/Request/context) プロパティが、仕様がまだ安定していないという理由から一時的に削除されました。

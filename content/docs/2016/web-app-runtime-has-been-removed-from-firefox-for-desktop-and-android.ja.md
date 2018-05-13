@@ -18,8 +18,8 @@ references:
 aliases:
     - "/ja/docs/2016/web-app-runtime-will-be-removed-from-firefox-for-desktop-and-android/"
 ---
-ウェブアプリケーションをネイティブアプリケーションのようにユーザーの端末へインストールし実行することを可能にしていた、非標準の [Open Web Apps JavaScript API](https://developer.mozilla.org/ja/Apps/Build/JavaScript_API) と [Web App Runtime](https://developer.mozilla.org/ja/Apps/Build/Architecture) が、[デスクトップ](https://developer.mozilla.org/ja/Marketplace/Options/Open_web_apps_for_desktop) 版と [Android](https://developer.mozilla.org/ja/Marketplace/Options/Open_web_apps_for_android) 版の Firefox 47 から削除されました。
+ウェブアプリケーションをネイティブアプリケーションのようにユーザーの端末へインストールし実行することを可能にしていた、非標準の [Open Web Apps JavaScript API](https://developer.mozilla.org/Apps/Build/JavaScript_API) と [Web App Runtime](https://developer.mozilla.org/Apps/Build/Architecture) が、[デスクトップ](https://developer.mozilla.org/Marketplace/Options/Open_web_apps_for_desktop) 版と [Android](https://developer.mozilla.org/Marketplace/Options/Open_web_apps_for_android) 版の Firefox 47 から削除されました。
 
-これらの機能は 2011 年に Mozilla Labs で考案され、後にモダンなウェブ技術を基盤とした [Firefox OS](https://developer.mozilla.org/ja/Apps/Build/Building_apps_for_Firefox_OS) にとって不可欠な要素となりました。しかしながら、このランタイムは他のプラットフォームでは広く使われたり積極的に開発されることはありませんでした。
+これらの機能は 2011 年に Mozilla Labs で考案され、後にモダンなウェブ技術を基盤とした [Firefox OS](https://developer.mozilla.org/Apps/Build/Building_apps_for_Firefox_OS) にとって不可欠な要素となりました。しかしながら、このランタイムは他のプラットフォームでは広く使われたり積極的に開発されることはありませんでした。
 
-これに伴い、[Firefox Marketplace](https://developer.mozilla.org/ja/Marketplace) はデスクトップコンピューターや Android 端末に向けたアプリの配布を中止します。Firefox OS は現時点では影響を受けません。WebKit ベースの iOS 版 Firefox は Open Web Apps に対応していません。
+これに伴い、[Firefox Marketplace](https://developer.mozilla.org/Marketplace) はデスクトップコンピューターや Android 端末に向けたアプリの配布を中止します。Firefox OS は現時点では影響を受けません。WebKit ベースの iOS 版 Firefox は Open Web Apps に対応していません。

@@ -10,4 +10,4 @@ references:
 aliases:
     - "/ja/docs/2016/canvasrenderingcontext2d-mozfillrule-has-been-removed/"
 ---
-廃止予定となっていた `CanvasRenderingContext2D.mozFillRule` プロパティが、[`fill`](https://developer.mozilla.org/ja/docs/Web/API/CanvasRenderingContext2D/fill) メソッドの標準化された `fillRule` 引数に取って代わられる形で削除されました。`ctx.mozFillRule = "evenodd"` は単純に `ctx.fill("evenodd")` と書き換えられます。
+廃止予定となっていた `CanvasRenderingContext2D.mozFillRule` プロパティが、[`fill`](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fill) メソッドの標準化された `fillRule` 引数に取って代わられる形で削除されました。`ctx.mozFillRule = "evenodd"` は単純に `ctx.fill("evenodd")` と書き換えられます。

@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1048293"
       title: "Bug 1048293 – File::mozFullPath attribute should not be exposed to content."
 ---
-The non-standard [`File.mozFullPath`](https://developer.mozilla.org/en-US/docs/Web/API/File.mozFullPath) property is no longer available from Web content.
+The non-standard [`File.mozFullPath`](https://developer.mozilla.org/docs/Web/API/File.mozFullPath) property is no longer available from Web content.

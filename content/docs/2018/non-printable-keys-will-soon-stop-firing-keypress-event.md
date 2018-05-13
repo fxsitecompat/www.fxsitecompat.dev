@@ -27,7 +27,7 @@ references:
 ---
 In order to follow the [UI Events spec](https://w3c.github.io/uievents/) and other browsers' behaviour, Firefox will stop dispatching the `keypress` event for non-printable keys and key combinations in the near future.
 
-[Non-printable keys](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode#Non-printable_keys_(function_keys)) are function keys like Home, End, Tab, Escape, Backspace, Page Down, arrows, etc. Non-printable key combinations include Ctrl+A, Alt+G, Command+Shift+M and so on. Web developers should be using the `keydown` event instead to handle those keys.
+[Non-printable keys](https://developer.mozilla.org/docs/Web/API/KeyboardEvent/keyCode#Non-printable_keys_(function_keys)) are function keys like Home, End, Tab, Escape, Backspace, Page Down, arrows, etc. Non-printable key combinations include Ctrl+A, Alt+G, Command+Shift+M and so on. Web developers should be using the `keydown` event instead to handle those keys.
 
 An exception is the Enter key; pressing Enter with no modifiers, Shift+Enter or Ctrl+Enter will fire the `keypress` event as before, which is invalid in the current spec but compatible with other browsers.
 

@@ -10,4 +10,4 @@ references:
 aliases:
     - "/ja/docs/2015/string-prototype-contains-will-be-removed/"
 ---
-[Firefox 40 以降廃止予定となっていた](https://www.fxsitecompat.com/ja/docs/2015/string-prototype-contains-has-been-renamed-to-includes/) `String.prototype.contains` メソッドへの対応が削除されました。サイト互換性問題のため、このメソッドは [`String.prototype.includes`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/includes) に改名されました。
+[Firefox 40 以降廃止予定となっていた](https://www.fxsitecompat.com/ja/docs/2015/string-prototype-contains-has-been-renamed-to-includes/) `String.prototype.contains` メソッドへの対応が削除されました。サイト互換性問題のため、このメソッドは [`String.prototype.includes`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/includes) に改名されました。

@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/mqKBGePe4-s/discussion"
       title: "Intent to unship: WorkerGlobalScope.onclose"
 ---
-The [`WorkerGlobalScope.onclose`](https://developer.mozilla.org/en-US/docs/Web/API/WorkerGlobalScope/onclose) property has been removed because it was dropped from the spec a long time ago, and therefore Web workers will no longer dispatch the [`close`](https://developer.mozilla.org/en-US/docs/Web/Events/close) event. Since no other browsers implement it, the compatibility impact should be minimum.
+The [`WorkerGlobalScope.onclose`](https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/onclose) property has been removed because it was dropped from the spec a long time ago, and therefore Web workers will no longer dispatch the [`close`](https://developer.mozilla.org/docs/Web/Events/close) event. Since no other browsers implement it, the compatibility impact should be minimum.

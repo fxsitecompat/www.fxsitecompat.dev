@@ -10,6 +10,6 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/8TyeUQOn6qQ/discussion"
       title: "Intent to implement and ship: spec changes to the .form property and \"form\" attribute on <label> elements"
 ---
-The [`<label>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) element is no longer associated with any `<form>` according to the latest HTML spec. The support for the `form` attribute on `<label>`, introduced with HTML5, has been removed with Firefox 49 accordingly.
+The [`<label>`](https://developer.mozilla.org/docs/Web/HTML/Element/label) element is no longer associated with any `<form>` according to the latest HTML spec. The support for the `form` attribute on `<label>`, introduced with HTML5, has been removed with Firefox 49 accordingly.
 
-The `form` property on [`HTMLLabelElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLLabelElement) DOM instances will instead return the labelled control's `form` property if any, and `null` otherwise. In other words, `label.form` will be an alias of `label.control.form`.
+The `form` property on [`HTMLLabelElement`](https://developer.mozilla.org/docs/Web/API/HTMLLabelElement) DOM instances will instead return the labelled control's `form` property if any, and `null` otherwise. In other words, `label.form` will be an alias of `label.control.form`.

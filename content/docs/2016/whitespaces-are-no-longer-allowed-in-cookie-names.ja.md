@@ -13,6 +13,6 @@ references:
 ---
 これまで Firefox は、RFC 6265 に違反し、空白文字が Cookie の名前として保存されることを誤って許容していました。そうした実装ミスはウェブサーバーによる間違った Cookie 処理につながる恐れがあったことから、この挙動は中程度のセキュリティ問題と判断されました。
 
-Firefox 44 でこの問題は修正され、不正な名前の Cookie は生成されなくなりました。JavaScript では、Cookie の名前と値はいずれも [`document.cookie`](https://developer.mozilla.org/ja/docs/Web/API/Document/cookie) プロパティで保存される前に [`encodeURIComponent`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent) メソッドで明示的にエンコードされなければなりません。
+Firefox 44 でこの問題は修正され、不正な名前の Cookie は生成されなくなりました。JavaScript では、Cookie の名前と値はいずれも [`document.cookie`](https://developer.mozilla.org/docs/Web/API/Document/cookie) プロパティで保存される前に [`encodeURIComponent`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent) メソッドで明示的にエンコードされなければなりません。
 
 **更新**: 一部のアプリケーションに影響を及ぼしたため、この変更は Firefox 44.0.1 で取り消されました。相互運用性を保つため空白は再び許容されますが、潜在的なセキュリティ問題を防ぐため、制御文字は引き続き禁止されます。

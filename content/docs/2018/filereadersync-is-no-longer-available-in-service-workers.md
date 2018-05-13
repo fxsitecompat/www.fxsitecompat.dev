@@ -8,4 +8,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1405552"
       title: "Bug 1405552 - Do not expose FileReaderSync to serviceworkers, to match the spec."
 ---
-Starting with Firefox 61, the [`FileReaderSync`](https://developer.mozilla.org/en-US/docs/Web/API/FileReaderSync) API will be available only in dedicated and shared workers, not in service workers, according to the current File API spec. The asynchronous [`FileReader`](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) API can be used instead.
+Starting with Firefox 61, the [`FileReaderSync`](https://developer.mozilla.org/docs/Web/API/FileReaderSync) API will be available only in dedicated and shared workers, not in service workers, according to the current File API spec. The asynchronous [`FileReader`](https://developer.mozilla.org/docs/Web/API/FileReader) API can be used instead.

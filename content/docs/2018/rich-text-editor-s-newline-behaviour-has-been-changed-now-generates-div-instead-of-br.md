@@ -16,11 +16,11 @@ references:
 aliases:
     - "/en-CA/docs/2017/rich-text-editor-s-newline-behaviour-has-been-changed-now-generates-div-instead-of-br/"
 ---
-In Firefox, hitting the Enter key on a [rich text editor](https://developer.mozilla.org/en-US/docs/Rich-Text_Editing_in_Mozilla) inserts a `<br>` element, while Internet Explorer generates `<p>` and Google Chrome adds `<div>`. After much discussion, Firefox 60 changes the behaviour to match Chrome, so `<div>` will be used as the new default separator.
+In Firefox, hitting the Enter key on a [rich text editor](https://developer.mozilla.org/docs/Rich-Text_Editing_in_Mozilla) inserts a `<br>` element, while Internet Explorer generates `<p>` and Google Chrome adds `<div>`. After much discussion, Firefox 60 changes the behaviour to match Chrome, so `<div>` will be used as the new default separator.
 
 If you type "Firefox" and hit Enter between "Fire" and "fox", the result HTML would be `<div>Fire</div><div>fox</div>` instead of `Fire<br>fox`.
 
-This behaviour, already enabled by default on Firefox Nightly and early Beta/DevEdition since version 55, can be controlled using the [`DefaultParagraphSeparator`](https://msdn.microsoft.com/en-us/library/hh801229(v=vs.85).aspx#DefaultParagraphSeparator) command for the [`execCommand`](https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommand) method.
+This behaviour, already enabled by default on Firefox Nightly and early Beta/DevEdition since version 55, can be controlled using the [`DefaultParagraphSeparator`](https://msdn.microsoft.com/en-us/library/hh801229(v=vs.85).aspx#DefaultParagraphSeparator) command for the [`execCommand`](https://developer.mozilla.org/docs/Web/API/Document/execCommand) method.
 
 ```js
 // To insert <br> as before

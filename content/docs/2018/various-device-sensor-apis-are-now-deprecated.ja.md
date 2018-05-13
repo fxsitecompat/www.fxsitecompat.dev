@@ -10,7 +10,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/DcSi_wLG4fc/discussion"
       title: "Intent to remove Ambient Light and Proximity sensor APIs"
 ---
-ユーザーのプライバシーを守るため、Firefox は端末の [向き、動き](https://developer.mozilla.org/ja/docs/Web/API/Detecting_device_orientation)、[近接](https://developer.mozilla.org/ja/docs/Web/API/Proximity_Events)、[環境光](https://developer.mozilla.org/ja/docs/Web/API/Ambient_Light_Events) イベントへの対応を廃止予定としました。これらのセンサー API はウェブアプリをネイティブモバイルアプリへより近づけるものですが、その強力な性質上、ブラウザーのフィンガープリンティングや [同一オリジンポリシー](https://developer.mozilla.org/ja/docs/Web/Security/Same-origin_policy) 違反に悪用される恐れがあります。
+ユーザーのプライバシーを守るため、Firefox は端末の [向き、動き](https://developer.mozilla.org/docs/Web/API/Detecting_device_orientation)、[近接](https://developer.mozilla.org/docs/Web/API/Proximity_Events)、[環境光](https://developer.mozilla.org/docs/Web/API/Ambient_Light_Events) イベントへの対応を廃止予定としました。これらのセンサー API はウェブアプリをネイティブモバイルアプリへより近づけるものですが、その強力な性質上、ブラウザーのフィンガープリンティングや [同一オリジンポリシー](https://developer.mozilla.org/docs/Web/Security/Same-origin_policy) 違反に悪用される恐れがあります。
 
 `devicelight`、`deviceproximity`、`userproximity` の各イベントは、Firefox 60 以降 Nightly と早期 Beta/DevEdition チャンネルでは初期設定で無効化されており、Firefox 62 以降すべてのチャンネルで無効化されます。現時点ではブラウザー対応が限られることから、互換性リスクは最小限のはずです。無効化された場合、単にイベントが発生しなくなります。
 

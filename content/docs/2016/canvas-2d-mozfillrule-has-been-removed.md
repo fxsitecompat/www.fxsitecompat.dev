@@ -10,4 +10,4 @@ references:
 aliases:
     - "/en-CA/docs/2016/canvasrenderingcontext2d-mozfillrule-has-been-removed/"
 ---
-The deprecated `CanvasRenderingContext2D.mozFillRule` property has been removed in favour of the standardized `fillRule` parameter for the [`fill`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fill) method. `ctx.mozFillRule = "evenodd"` can be simply replaced with `ctx.fill("evenodd")`.
+The deprecated `CanvasRenderingContext2D.mozFillRule` property has been removed in favour of the standardized `fillRule` parameter for the [`fill`](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fill) method. `ctx.mozFillRule = "evenodd"` can be simply replaced with `ctx.fill("evenodd")`.

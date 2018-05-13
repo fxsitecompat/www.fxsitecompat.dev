@@ -8,7 +8,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1455805"
       title: "Bug 1455805 - Make \"CSS\" a namespace, not interface"
 ---
-The [`CSS`](https://developer.mozilla.org/en-US/docs/Web/API/CSS) interface has internally become a namespace after a [discussion](https://github.com/w3c/csswg-drafts/pull/437) in the CSS Working Group. According to the change, `typeof CSS` now returns `"object"` instead of `"function"` so be careful when implementing feature detection with it.
+The [`CSS`](https://developer.mozilla.org/docs/Web/API/CSS) interface has internally become a namespace after a [discussion](https://github.com/w3c/csswg-drafts/pull/437) in the CSS Working Group. According to the change, `typeof CSS` now returns `"object"` instead of `"function"` so be careful when implementing feature detection with it.
 
 ```js
 // This will no longer work

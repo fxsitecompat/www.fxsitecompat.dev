@@ -11,4 +11,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/UsspiA5a3Ok/discussion"
       title: "Intent to unship: javascript: execution outside navigation contexts"
 ---
-Previously, `javascript` URLs specified as [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)`src` or CSS background images were parsed and executed as normal JavaScript codes. This trick no longer works, because it could be exploited to hang the browser, leading to a denial of service (DoS) attack.
+Previously, `javascript` URLs specified as [`<img>`](https://developer.mozilla.org/docs/Web/HTML/Element/img)`src` or CSS background images were parsed and executed as normal JavaScript codes. This trick no longer works, because it could be exploited to hang the browser, leading to a denial of service (DoS) attack.

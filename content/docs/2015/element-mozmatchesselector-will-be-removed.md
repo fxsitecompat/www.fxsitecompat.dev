@@ -10,4 +10,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1216193"
       title: "Bug 1216193 - Implement webkitMatchesSelector"
 ---
-The `Element.mozMatchesSelector` method will be removed soon in favour of the standard [`Element.matches`](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches) method. Firefox 44 has also implemented `webkitMatchesSelector` which is now standardized for Web interoperability, though the unprefixed method is always preferred.
+The `Element.mozMatchesSelector` method will be removed soon in favour of the standard [`Element.matches`](https://developer.mozilla.org/docs/Web/API/Element/matches) method. Firefox 44 has also implemented `webkitMatchesSelector` which is now standardized for Web interoperability, though the unprefixed method is always preferred.

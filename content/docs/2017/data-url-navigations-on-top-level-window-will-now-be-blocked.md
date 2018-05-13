@@ -28,7 +28,7 @@ references:
 aliases:
     - "/en-CA/docs/2017/data-url-navigations-on-top-level-window-will-be-blocked/"
 ---
-[Data URLs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs), URLs prefixed with the `data:` scheme allowing to embed small data files on web pages, are sometimes exploited for phishing attacks, because such kinds of URLs are able to contain a legitimate address string while showing disguised content in the browser.
+[Data URLs](https://developer.mozilla.org/docs/Web/HTTP/Basics_of_HTTP/Data_URIs), URLs prefixed with the `data:` scheme allowing to embed small data files on web pages, are sometimes exploited for phishing attacks, because such kinds of URLs are able to contain a legitimate address string while showing disguised content in the browser.
 
 In order to mitigate the security risk, Firefox will soon block navigation attempts that will otherwise open a data URL in the top level browser window. This change will affect the following scenarios:
 

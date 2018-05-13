@@ -8,7 +8,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1103188"
       title: "Bug 1103188 - Implement MediaStream.addTrack()/removeTrack()"
 ---
-[`MediaStream`](https://developer.mozilla.org/ja/docs/Web/API/MediaStream) インターフェイス上の `stop` は、WebRTC 仕様から削除され、Firefox 44 で廃止予定となりました。ストリーミングを停止するには、以下のコードサンプルが示すように [`MediaStreamTrack.stop`](https://developer.mozilla.org/ja/docs/Web/API/MediaStreamTrack/stop) メソッドを代わりに使用してください。
+[`MediaStream`](https://developer.mozilla.org/docs/Web/API/MediaStream) インターフェイス上の `stop` は、WebRTC 仕様から削除され、Firefox 44 で廃止予定となりました。ストリーミングを停止するには、以下のコードサンプルが示すように [`MediaStreamTrack.stop`](https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/stop) メソッドを代わりに使用してください。
 
 ```js
 navigator.mediaDevices.getUserMedia({

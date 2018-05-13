@@ -11,7 +11,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1234700"
       title: "Bug 1234700 - Hide window.showModalDialog, at least when e10s is enabled"
 ---
-The [`window.showModalDialog`](https://developer.mozilla.org/en-US/docs/Web/API/Window/showModalDialog) method has been unavailable when Firefox is running in the multi-process mode codenamed [Electrolysis](https://wiki.mozilla.org/Electrolysis) (*e10s*). At least *Office 365* and *Exchange 2016* were known to be broken due to an exception thrown by Firefox.
+The [`window.showModalDialog`](https://developer.mozilla.org/docs/Web/API/Window/showModalDialog) method has been unavailable when Firefox is running in the multi-process mode codenamed [Electrolysis](https://wiki.mozilla.org/Electrolysis) (*e10s*). At least *Office 365* and *Exchange 2016* were known to be broken due to an exception thrown by Firefox.
 
 Because it's technically difficult to support the functionality in *e10s* and the method has already been [deprecated since Firefox 28](https://www.fxsitecompat.com/en-CA/docs/2013/showmodaldialog-has-been-deprecated/), Firefox 46 hid `showModalDialog` from `window` rather than fixing the error. *Office 365* and *Exchange 2016* are now working again thanks to their feature detection.
 
