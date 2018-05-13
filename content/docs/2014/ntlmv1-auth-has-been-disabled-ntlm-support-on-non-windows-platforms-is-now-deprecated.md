@@ -20,4 +20,4 @@ This is affecting *SharePoint*-based or *IIS*-backed intranet applications. If y
 
 How to enable NTLMv1: type `about:config` in the Address Bar, click the "I'll be careful" button, find `network.negotiate-auth.allow-insecure-ntlm-v1`, double-click on it to change the value to `true`.
 
-Another workaroud here is using [Firefox 24 <abbr title="Extended Support Release">ESR</abbr>](https://www.mozilla.org/en-US/firefox/organizations/) that still enables the NTLMv1 auth.
+Another workaroud here is using [Firefox 24 <abbr title="Extended Support Release">ESR</abbr>](https://www.mozilla.org/firefox/organizations/) that still enables the NTLMv1 auth.

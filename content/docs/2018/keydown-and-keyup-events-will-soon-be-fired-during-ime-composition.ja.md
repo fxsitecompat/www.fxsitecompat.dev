@@ -58,4 +58,4 @@ $input.addEventListener('keydown', event => {
 });
 ```
 
-この新たな挙動は Firefox 61 以降 Nightly と早期 Beta/DevEdition チャンネルでは既に有効化されています。ウェブアプリケーション開発者の皆さんには [プレリリース版](https://www.mozilla.org/ja/firefox/channel/desktop/) のいずれかでテストし、CJKT ユーザーにとってアプリが正常に動作し続けるよう確認することをお勧めします。より詳しい実装メモは Mozilla の国際化エンジニアによる [ニュースグループへの投稿](https://groups.google.com/d/topic/mozilla.dev.platform/oZEz5JH9ZK8/discussion) を参照してください。
+この新たな挙動は Firefox 61 以降 Nightly と早期 Beta/DevEdition チャンネルでは既に有効化されています。ウェブアプリケーション開発者の皆さんには [プレリリース版](https://www.mozilla.org/firefox/channel/desktop/) のいずれかでテストし、CJKT ユーザーにとってアプリが正常に動作し続けるよう確認することをお勧めします。より詳しい実装メモは Mozilla の国際化エンジニアによる [ニュースグループへの投稿](https://groups.google.com/d/topic/mozilla.dev.platform/oZEz5JH9ZK8/discussion) を参照してください。

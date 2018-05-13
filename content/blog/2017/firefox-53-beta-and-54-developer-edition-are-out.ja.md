@@ -7,4 +7,4 @@ Mozilla は先週、[Firefox 53 Beta と 54 Developer Edition](https://www.mozil
 * [Firefox 53 サイト互換性情報](https://www.fxsitecompat.com/ja/versions/53/)
 * [Firefox 54 サイト互換性情報](https://www.fxsitecompat.com/ja/versions/54/)
 
-一方、Firefox 52 で行われた [プラグイン対応の廃止](https://www.fxsitecompat.com/ja/docs/2016/plug-in-support-has-been-dropped-other-than-flash/) は、レガシーなコンテンツに一定の影響を及ぼしました。法人ユーザーは [延長サポート版](https://www.mozilla.org/ja/firefox/organizations/) (ESR) を導入することで Java アプレットや Silverlight アプリケーションをブラウザー内で使い続けることはできますが、いずれにしても 2018 年第 2 四半期に予定されている 52 ESR のサポート終了前に代わりとなるソリューションへ移行する必要があります。
+一方、Firefox 52 で行われた [プラグイン対応の廃止](https://www.fxsitecompat.com/ja/docs/2016/plug-in-support-has-been-dropped-other-than-flash/) は、レガシーなコンテンツに一定の影響を及ぼしました。法人ユーザーは [延長サポート版](https://www.mozilla.org/firefox/organizations/) (ESR) を導入することで Java アプレットや Silverlight アプリケーションをブラウザー内で使い続けることはできますが、いずれにしても 2018 年第 2 四半期に予定されている 52 ESR のサポート終了前に代わりとなるソリューションへ移行する必要があります。

@@ -13,4 +13,4 @@ references:
 ---
 The new [Flexible Box (flexbox)](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes) implemented in [Firefox 18](https://developer.mozilla.org/en-US/docs/Firefox_18_for_developers) is now available without having to edit a hidden preference. Note that it's not compatible with the traditional prefixed implementation such as [`-moz-box-flex`](https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-box-flex).
 
-Although developers can now test the flexbox with [Aurora](https://www.mozilla.org/en-US/firefox/aurora/) or [Beta](https://www.mozilla.org/en-US/firefox/beta/), **this feature will be keep disabled on the Release channel until it's ready for production**.
+Although developers can now test the flexbox with [Aurora](https://www.mozilla.org/firefox/aurora/) or [Beta](https://www.mozilla.org/firefox/beta/), **this feature will be keep disabled on the Release channel until it's ready for production**.

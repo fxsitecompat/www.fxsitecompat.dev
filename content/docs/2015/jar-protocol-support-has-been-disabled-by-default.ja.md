@@ -23,7 +23,7 @@ ZIP アーカイブに含まれるファイルへの直接リンクを可能に�
 
 **更新 2**: *iNotes* の問題は 2016 年 5 月公開の [IBM Notes/Domino 9.0.1 Fix pack 6](http://www-10.lotus.com/ldd/fixlist.nsf/8d1c0550e6242b69852570c900549a74/e413ea1ca447b3bf85257f77006b7f60) で修正されました。
 
-**更新 3**: *iNotes* による `jar` 対応依存が解決したことから、Mozilla は再びその無効化を検討しています。法人向けの Firefox 52 [延長サポート版](https://www.mozilla.org/ja/firefox/organizations/) (ESR) はこの変更による影響を受けないため、旧バージョンの *iNotes* がもしある場合は 2018 年 <del>5 月</del> <ins>8 月</ins> まで ESR 上で使い続けることができます。
+**更新 3**: *iNotes* による `jar` 対応依存が解決したことから、Mozilla は再びその無効化を検討しています。法人向けの Firefox 52 [延長サポート版](https://www.mozilla.org/firefox/organizations/) (ESR) はこの変更による影響を受けないため、旧バージョンの *iNotes* がもしある場合は 2018 年 <del>5 月</del> <ins>8 月</ins> まで ESR 上で使い続けることができます。
 
 **更新 4**: JAR 対応は [Firefox 55](https://www.fxsitecompat.com/ja/docs/2015/jar-protocol-support-has-been-disabled-by-default/) で再度無効化されました。
 

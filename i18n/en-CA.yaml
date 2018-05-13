@@ -146,7 +146,7 @@ version_index_page_title_future:
 version_index_page_description:
     other: 'Browse our compatibility notes about the changes in Firefox {{.version}} released on <time datetime="{{.date}}">{{.date_localized}}</time>.'
 version_index_page_description_upcoming:
-    other: 'Browse our compatibility notes about the changes in Firefox {{.version}}, currently offered on the <a href="https://www.mozilla.org/en-US/firefox/channel/desktop/#{{.channel}}"><em>{{.channel_localized}}</em></a> channel and scheduled to be released on <time datetime="{{.date}}">{{.date_localized}}</time>.'
+    other: 'Browse our compatibility notes about the changes in Firefox {{.version}}, currently offered on the <a href="https://www.mozilla.org/firefox/channel/desktop/#{{.channel}}"><em>{{.channel_localized}}</em></a> channel and scheduled to be released on <time datetime="{{.date}}">{{.date_localized}}</time>.'
 version_index_page_description_secondary:
     other: 'This list will be updated when a further change is made or a new regression is found, so make sure to subscribe to our <a href="/en-CA/index.xml">site feed</a>.'
 version_index_page_description_future:

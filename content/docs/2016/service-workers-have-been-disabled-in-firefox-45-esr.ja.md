@@ -10,7 +10,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/yuNHtDhl3lY/discussion"
       title: "Intent to disable service workers in 45 ESR"
 ---
-Firefox 44 より使用可能となった [Service Worker API](https://developer.mozilla.org/ja/docs/Web/API/Service_Worker_API) が、Firefox 45 [延長サポート版](https://www.mozilla.org/ja/firefox/organizations/) (ESR) で無効化されました。仕様と実装がいずれも 2016 年中に変更される可能性があり、安定した ESR チャンネル上でそのような API を提供するとサイト互換性問題を生む恐れがあるためです。この API は他のチャンネルでは引き続き使用可能です。
+Firefox 44 より使用可能となった [Service Worker API](https://developer.mozilla.org/ja/docs/Web/API/Service_Worker_API) が、Firefox 45 [延長サポート版](https://www.mozilla.org/firefox/organizations/) (ESR) で無効化されました。仕様と実装がいずれも 2016 年中に変更される可能性があり、安定した ESR チャンネル上でそのような API を提供するとサイト互換性問題を生む恐れがあるためです。この API は他のチャンネルでは引き続き使用可能です。
 
 **更新**: これらの API は引き続き [Firefox 52 ESR でも無効化されています](https://www.fxsitecompat.com/ja/docs/2017/service-workers-and-push-notifications-are-disabled-on-firefox-52-esr/).
 

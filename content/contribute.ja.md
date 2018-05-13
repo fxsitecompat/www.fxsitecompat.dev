@@ -11,7 +11,7 @@ slug: "contribute"
 
 ## サイトのテスト
 
-Firefox ユーザーがあなたの「壊れた」サイトを訪れる前に Firefox のリグレッションを発見し修正することが重要です。Mozilla は [Firefox Developer Edition](https://www.mozilla.org/ja/firefox/developer/) を提供していますので、このアルファ版を日常的に使ってあなたのサイトやウェブアプリを開発、テストしましょう。
+Firefox ユーザーがあなたの「壊れた」サイトを訪れる前に Firefox のリグレッションを発見し修正することが重要です。Mozilla は [Firefox Developer Edition](https://www.mozilla.org/firefox/developer/) を提供していますので、このアルファ版を日常的に使ってあなたのサイトやウェブアプリを開発、テストしましょう。
 
 ## 問題の報告
 

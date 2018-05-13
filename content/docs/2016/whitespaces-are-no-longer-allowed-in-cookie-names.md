@@ -8,7 +8,7 @@ statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1244505"
       title: "Bug 1244505 - Firefox 44 no longer allows spaces in cookie names, breaking some apps"
-    - url: "https://www.mozilla.org/en-US/security/advisories/mfsa2016-04/"
+    - url: "https://www.mozilla.org/security/advisories/mfsa2016-04/"
       title: "MFSA 2016-04 - Firefox allows for control characters to be set in cookie names"
 ---
 Previously, Firefox was improperly allowing whitespace characters to be stored in cookie names in violation of RFC 6265. This behaviour was considered as a moderate security issue, because such an implementation error could lead to incorrect cookie handling by Web servers.
