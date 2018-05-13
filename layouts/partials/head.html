@@ -15,7 +15,8 @@
     <link rel="alternate" hreflang="x-default" href="{{ replace .Permalink .LanguagePrefix "" }}">
     <link rel="alternate" hreflang="{{ $.Site.LanguageCode }}" href="{{ replace .Permalink "/en-ca/" "/en-CA/" }}" title="{{ $.Site.Language.LanguageName }}">{{ range $.Translations }}
     <link rel="alternate" hreflang="{{ replace .Lang "en-ca" "en-CA" }}" href="{{ replace .Permalink "/en-ca/" "/en-CA/" }}" title="{{ range where $.Site.Languages "Lang" (lower .Lang) }}{{ .LanguageName }}{{ end }}">{{ end }}
-    <link rel="stylesheet" href="/styles/base.css?v=2017042014">
+    <link rel="stylesheet" href="/styles/base.css?v=20180512">
+    <link rel="stylesheet" href="/styles/prism.css?v=1.14.0">
     <link rel="icon" type="image/png" href="/images/template/favicon.png">
     <link rel="alternate" type="application/atom+xml" href="/{{ $.Site.LanguageCode }}/index.xml" title="{{ $.Site.Title }}">
     <link rel="search" type="application/opensearchdescription+xml" href="/{{ $.Site.LanguageCode }}/search/index.xml" title="{{ $.Site.Params.Domain }}">
