@@ -11,4 +11,4 @@ Mozilla は今日、[Firefox 46 Beta と 47 Developer Edition](https://www.mozil
 
 * [`jar` プロトコル対応が初期設定で無効化されました](https://www.fxsitecompat.com/ja/docs/2015/jar-protocol-support-has-been-disabled-by-default/)
 * [サードパーティ Cookie ブロック時に一部サイトが正しく動作しません](https://www.fxsitecompat.com/ja/docs/2016/some-sites-are-broken-when-third-party-cookies-are-blocked/)
-* [専用ワーカーは、埋め込み型を除き、親ドキュメントから CSP を継承しなくなりました](https://www.fxsitecompat.com/ja/docs/2016/dedicated-workers-no-longer-inherit-csp-from-parent-document-unless-embedded/)
+* [専用 Worker は、埋め込み型を除き、親ドキュメントから CSP を継承しなくなりました](https://www.fxsitecompat.com/ja/docs/2016/dedicated-workers-no-longer-inherit-csp-from-parent-document-unless-embedded/)

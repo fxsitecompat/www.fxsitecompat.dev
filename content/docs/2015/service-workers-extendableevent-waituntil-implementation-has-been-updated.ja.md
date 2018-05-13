@@ -1,5 +1,5 @@
 ---
-title: "Service Workers の `ExtendableEvent.waitUntil` 実装が更新されました"
+title: "Service Worker の `ExtendableEvent.waitUntil` 実装が更新されました"
 date: "2015-09-25T00:21:00-04:00"
 categories: ["dom"]
 tags: []
