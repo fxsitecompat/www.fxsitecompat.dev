@@ -34,7 +34,7 @@
             <section>
               <h2>{{ i18n "description" }}</h2>
               <div itemprop="articleBody">
-                {{ .Content }}
+                {{ replace .Content $.Site.BaseURL "/" | safeHTML }}
               </div>
             </section>
             <section>

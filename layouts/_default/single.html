@@ -17,7 +17,7 @@
           <p itemprop="description">{{ .Description }}</p>
         </header>
         <div>
-          {{ .Content }}
+          {{ replace .Content $.Site.BaseURL "/" | safeHTML }}
         </div>
       </section>
     </main>

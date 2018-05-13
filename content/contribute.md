@@ -7,7 +7,7 @@ slug: "contribute"
 ## Follow us
 
 * **Social media**: Follow us on [Twitter](https://twitter.com/FxSiteCompat).
-* **Feed**: Subscribe to the [Atom feed](/en-CA/index.xml) of this site.
+* **Feed**: Subscribe to the [Atom feed](https://www.fxsitecompat.com/en-CA/index.xml) of this site.
 
 ## Test your site
 

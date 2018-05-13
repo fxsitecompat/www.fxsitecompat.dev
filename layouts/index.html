@@ -27,7 +27,7 @@
                 <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
               </header>
               <div itemprop="articleBody">
-                {{ .Content }}
+                {{ replace .Content $.Site.BaseURL "/" | safeHTML }}
               </div>
             </article>{{ end }}
           </section>

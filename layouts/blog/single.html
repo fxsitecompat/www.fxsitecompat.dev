@@ -27,7 +27,7 @@
             <p><time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time></p>
           </header>
           <div itemprop="articleBody">
-            {{ .Content }}
+            {{ replace .Content $.Site.BaseURL "/" | safeHTML }}
           </div>
         </article>
         <nav class="nocontent">

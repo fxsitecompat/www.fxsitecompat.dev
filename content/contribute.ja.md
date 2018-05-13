@@ -7,7 +7,7 @@ slug: "contribute"
 ## フォロー
 
 * **ソーシャルメディア**: [Twitter](https://twitter.com/FxSiteCompat) で私たちをフォローしてください。(これらのメディアでの情報発信は今のところ基本的に英語のみです)
-* **フィード**: このサイトの [Atom フィード](/ja/index.xml) を購読してください。
+* **フィード**: このサイトの [Atom フィード](https://www.fxsitecompat.com/ja/index.xml) を購読してください。
 
 ## サイトのテスト
 
