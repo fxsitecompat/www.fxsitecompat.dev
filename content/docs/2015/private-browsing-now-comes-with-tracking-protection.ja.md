@@ -9,7 +9,7 @@ references:
       title: "Bug 1029886 - tracking bug for tracking protection"
     - url: "https://www.mozilla.jp/blog/entry/10504/"
       title: "ベータ版 Firefox でのトラッキング保護機能付きプライベートブラウジングのテストにご参加ください"
-    - url: "https://support.mozilla.org/ja/kb/tracking-protection-pbm"
+    - url: "https://support.mozilla.org/kb/tracking-protection-pbm"
       title: "プライベートブラウジングのトラッキング保護機能"
     - url: "https://www.mozilla.jp/blog/entry/10505/"
       title: "健全で持続可能な Web に向けた Mozilla のビジョン"
