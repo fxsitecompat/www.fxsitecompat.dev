@@ -9,6 +9,8 @@ references:
       title: "Bug 474655 - warn when nsIDOMCSSStyleDeclaration::GetPropertyCSSValue is called"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1448415"
       title: "Bug 1448415 - Hide getPropertyCSSValue on Nightly."
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1461092"
+      title: "Bug 1461092 - Unship GetPropertyCSSValue in beta."
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/qu5JekiuSfw/discussion"
       title: "Intent to unship: CSSStyleDeclaration.getPropertyCSSValue"
 ---
@@ -16,4 +18,6 @@ The support for the [`getPropertyCSSValue`](https://developer.mozilla.org/docs/W
 
 **Update**: The method has been disabled on the Nightly channel as of Firefox 61.
 
-**Update 2**: The method has been [removed with Firefox 62](https://www.fxsitecompat.com/en-CA/docs/2018/cssstyledeclaration-getpropertycssvalue-has-been-removed/).
+**Update 2**: The method has been disabled also on Firefox Beta and Developer Edition as of Firefox 61.
+
+**Update 3**: The method has been [completely removed with Firefox 62](https://www.fxsitecompat.com/en-CA/docs/2018/cssstyledeclaration-getpropertycssvalue-has-been-removed/).
