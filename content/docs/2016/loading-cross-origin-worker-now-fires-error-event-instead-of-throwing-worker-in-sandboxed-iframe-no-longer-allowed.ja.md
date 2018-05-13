@@ -26,7 +26,7 @@ try {
   var worker = new Worker(url);
   worker.addEventListener('error', function (event) {
     // Error: Failed to load script (nsresult = 0x805303f4)
-    // イベントの遡上を防ぐ
+    // イベントの浮上を防ぐ
     event.preventDefault();
     // 新しいブラウザー向けにクロスオリジン読み込みエラーを処理
     ...
