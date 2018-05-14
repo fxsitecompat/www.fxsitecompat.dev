@@ -5,7 +5,6 @@ categories: ["css"]
 tags: []
 versions: ["30"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=349259"
       title: "Bug 349259 – CSS Property \'line-height\' has no effects on input text fields"

@@ -5,7 +5,6 @@ categories: ["plugins"]
 tags: []
 versions: ["40"]
 statuses: "reverted"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1116806"
       title: "Bug 1116806 - Let Asynchronous Plugin Initialization ride the train"

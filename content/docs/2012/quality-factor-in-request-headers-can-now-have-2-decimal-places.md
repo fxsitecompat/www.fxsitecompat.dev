@@ -4,7 +4,6 @@ date: "2012-12-03T03:53:26-05:00"
 categories: ["networking"]
 tags: []
 versions: ["18"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=672448"
       title: "Bug 672448 – Clamp quality factor (\'q\') values to 2 decimal places"

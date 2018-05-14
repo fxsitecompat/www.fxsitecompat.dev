@@ -4,7 +4,6 @@ date: "2013-01-03T03:53:26-05:00"
 categories: ["javascript"]
 tags: []
 versions: ["18"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=777061"
       title: "Bug 777061 – Function .length property should not count rest parameters or parameters with default values"

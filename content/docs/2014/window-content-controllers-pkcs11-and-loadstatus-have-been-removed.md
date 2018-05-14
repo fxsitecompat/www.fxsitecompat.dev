@@ -5,7 +5,6 @@ categories: ["dom"]
 tags: []
 versions: ["29"]
 statuses: "reverted"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=946564"
       title: "Bug 946564 – Make window._content chromeonly"

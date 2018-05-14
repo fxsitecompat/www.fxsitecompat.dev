@@ -5,7 +5,6 @@ categories: ["privacy-security"]
 tags: []
 versions: ["39"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1138554"
       title: "Bug 1138554 – NSS accepts export-length DHE keys with regular DHE cipher suites"

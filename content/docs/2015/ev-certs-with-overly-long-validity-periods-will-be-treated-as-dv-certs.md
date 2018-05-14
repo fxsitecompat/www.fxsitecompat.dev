@@ -4,7 +4,6 @@ date: "2015-08-05T00:48:18-04:00"
 categories: ["privacy-security"]
 tags: []
 versions: ["42"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1145679"
       title: "Bug 1145679 - Reject EV status for end-entity EV certs with overly long validity periods"

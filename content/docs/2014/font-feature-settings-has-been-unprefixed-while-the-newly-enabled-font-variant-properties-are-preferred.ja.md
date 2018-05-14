@@ -4,7 +4,6 @@ date: "2014-09-01T22:12:15-04:00"
 categories: ["css"]
 tags: []
 versions: ["34"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=835191"
       title: "Bug 835191 – Unprefix -moz-font-feature-settings"

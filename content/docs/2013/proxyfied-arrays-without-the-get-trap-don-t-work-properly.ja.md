@@ -5,7 +5,6 @@ categories: ["javascript"]
 tags: []
 versions: ["21"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=895223"
       title: "Bug 895223 – Can\'t JSON stringify a proxy to an array"

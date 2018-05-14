@@ -4,7 +4,6 @@ date: "2013-02-06T08:44:10-05:00"
 categories: ["dom"]
 tags: []
 versions: ["21"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=819051"
       title: "Bug 819051 – XMLHttpRequest.setRequestHeader() overwrites instead of combines values for the same header."

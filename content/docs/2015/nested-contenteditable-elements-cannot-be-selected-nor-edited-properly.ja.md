@@ -5,7 +5,6 @@ categories: ["html"]
 tags: []
 versions: ["39"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1181130"
       title: "Bug 1181130 - Broken selection system inside of a nested contenteditable element"

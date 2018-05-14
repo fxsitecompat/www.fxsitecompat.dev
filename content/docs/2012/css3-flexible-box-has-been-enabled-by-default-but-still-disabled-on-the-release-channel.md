@@ -4,7 +4,6 @@ date: "2012-12-29T08:29:30-05:00"
 categories: ["css"]
 tags: []
 versions: ["20"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=783409"
       title: "Bug 783409 – Turn on CSS flexbox in builds by default (by enabling pref, build flag, etc)"

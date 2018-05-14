@@ -5,7 +5,6 @@ categories: ["javascript"]
 tags: []
 versions: ["29"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=953013"
       title: "Bug 953013 – Regexp groups can overflow some counter"

@@ -5,7 +5,6 @@ categories: ["html"]
 tags: []
 versions: ["40"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1194733"
       title: "Bug 1194733 - [Not e10s] Version 40.0.2 has issue with jquery ibutton plugin"

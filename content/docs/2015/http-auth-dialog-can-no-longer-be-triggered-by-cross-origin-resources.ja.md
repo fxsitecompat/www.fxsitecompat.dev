@@ -5,7 +5,6 @@ categories: ["networking", "privacy-security"]
 tags: []
 versions: ["40"]
 statuses: "reverted"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=647010"
       title: "Bug 647010 - Only present HTTP authentication dialogs if it is the top-level document initiating the auth"

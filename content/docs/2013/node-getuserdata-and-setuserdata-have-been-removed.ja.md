@@ -5,7 +5,6 @@ categories: ["dom"]
 tags: []
 versions: ["22"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=842372"
       title: "Bug 842372 – Make getUserData and setUserData ChromeOnly"

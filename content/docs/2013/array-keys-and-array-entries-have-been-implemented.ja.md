@@ -5,7 +5,6 @@ categories: ["javascript"]
 tags: []
 versions: ["28"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=894658"
       title: "Bug 894658 – Implement ES6 Array.prototype.{keys, entries}"

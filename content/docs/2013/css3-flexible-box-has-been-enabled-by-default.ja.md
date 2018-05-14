@@ -4,7 +4,6 @@ date: "2013-02-24T03:44:31-05:00"
 categories: ["css"]
 tags: []
 versions: ["22"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=841876"
       title: "Bug 841876 – Re-enable flexbox pref (by default) in release builds"

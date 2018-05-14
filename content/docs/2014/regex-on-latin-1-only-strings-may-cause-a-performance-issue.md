@@ -5,7 +5,6 @@ categories: ["javascript"]
 tags: []
 versions: ["33"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1081175"
       title: "Bug 1081175 – (latin1strings) Degraded regular expression performance (infinite loop?)"

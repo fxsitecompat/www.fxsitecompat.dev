@@ -5,7 +5,6 @@ categories: ["javascript"]
 tags: []
 versions: ["35"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1001090"
       title: "Bug 1001090 – Implement ES6 \"temporal dead zone\" for let"

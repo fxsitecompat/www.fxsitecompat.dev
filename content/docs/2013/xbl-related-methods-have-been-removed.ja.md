@@ -5,7 +5,6 @@ categories: ["dom"]
 tags: []
 versions: ["26"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=912322"
       title: "Bug 912322 – document.getAnonymous* should not be available to web content"

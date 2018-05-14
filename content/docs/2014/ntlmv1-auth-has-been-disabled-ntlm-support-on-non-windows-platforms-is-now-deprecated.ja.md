@@ -5,7 +5,6 @@ categories: ["privacy-security"]
 tags: []
 versions: ["30"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=828183"
       title: "Bug 828183 – Firefox enables insecure NTLM (pre-NTLMv2) authentication"

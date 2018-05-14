@@ -5,7 +5,6 @@ categories: ["privacy-security"]
 tags: []
 versions: ["35"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1122445"
       title: "Bug 1122445 – CSP change in behavior regards case sensitivity loading resources"

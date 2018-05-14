@@ -5,7 +5,6 @@ categories: ["dom"]
 tags: []
 versions: ["35"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1121857"
       title: "Bug 1121857 – document.baseURI does not get updated to document.location after base tag is removed from DOM for site with a CSP"

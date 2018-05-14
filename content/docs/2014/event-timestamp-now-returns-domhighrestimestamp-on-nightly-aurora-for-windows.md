@@ -4,7 +4,6 @@ date: "2014-07-22T05:06:26-04:00"
 categories: ["dom"]
 tags: []
 versions: ["33"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1022396"
       title: "Bug 1022396 – Make Event.timeStamp return a DOMHighResTimeStamp on Windows (was Event.timeStamp should be relative to 1st January 1970 rather than the system start)"

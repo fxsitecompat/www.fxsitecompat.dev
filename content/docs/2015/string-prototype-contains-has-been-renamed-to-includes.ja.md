@@ -4,7 +4,6 @@ date: "2015-04-27T13:17:23-04:00"
 categories: ["javascript"]
 tags: []
 versions: ["40"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1102219"
       title: "Bug 1102219 - Rename String.prototype.contains to String.prototype.includes"

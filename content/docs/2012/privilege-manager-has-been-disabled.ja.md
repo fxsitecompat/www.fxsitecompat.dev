@@ -5,7 +5,6 @@ categories: ["privacy-security"]
 tags: []
 versions: ["17"]
 statuses: "reverted"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=757046"
       title: "Bug 757046 – Investigate interim solutions for enablePrivilege"

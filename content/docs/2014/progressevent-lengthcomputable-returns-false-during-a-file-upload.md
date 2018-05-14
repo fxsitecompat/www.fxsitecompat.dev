@@ -5,7 +5,6 @@ categories: ["dom"]
 tags: []
 versions: ["29"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1009640"
       title: "Bug 1009640 – \"Unable to compute\" error on Ebay photo uploader due to XMLHttpRequest lengthComputable == false"

@@ -4,7 +4,6 @@ date: "2015-03-17T14:02:59-04:00"
 categories: ["privacy-security"]
 tags: []
 versions: ["39"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1106470"
       title: "Bug 1106470 - Drop SSLv3 support entirely"

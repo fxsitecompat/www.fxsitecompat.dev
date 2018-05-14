@@ -5,7 +5,6 @@ categories: ["networking"]
 tags: []
 versions: ["34"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1047594"
       title: "Bug 1047594 – Enable http/2 (and alpn) by default"

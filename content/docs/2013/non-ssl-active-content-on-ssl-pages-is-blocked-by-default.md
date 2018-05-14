@@ -5,7 +5,6 @@ categories: ["privacy-security"]
 tags: []
 versions: ["23"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=834836"
       title: "Bug 834836 – Turn on pref to block mixed active content"

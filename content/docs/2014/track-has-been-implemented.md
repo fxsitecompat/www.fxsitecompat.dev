@@ -4,7 +4,6 @@ date: "2014-04-03T19:31:02-04:00"
 categories: ["html"]
 tags: []
 versions: ["31"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=629350"
       title: "Bug 629350 – Implement the track element"

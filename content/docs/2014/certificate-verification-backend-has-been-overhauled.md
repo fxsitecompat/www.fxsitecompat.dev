@@ -5,7 +5,6 @@ categories: ["privacy-security"]
 tags: []
 versions: ["31"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=915930"
       title: "Bug 915930 – Make mozilla::pkix the default certificate verifier"

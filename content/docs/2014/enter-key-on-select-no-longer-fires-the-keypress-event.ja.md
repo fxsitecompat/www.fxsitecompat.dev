@@ -5,7 +5,6 @@ categories: ["dom"]
 tags: []
 versions: ["29"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=935876"
       title: "Bug 935876 – <select> element shouldn\'t consume key events which don\'t cause any default action"

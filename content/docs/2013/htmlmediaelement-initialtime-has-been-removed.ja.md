@@ -4,7 +4,6 @@ date: "2013-04-06T04:52:59-04:00"
 categories: ["audio-video", "dom"]
 tags: []
 versions: ["23"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=742537"
       title: "Bug 742537 – Remove HTMLMediaElement.initialTime"

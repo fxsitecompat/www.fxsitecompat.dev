@@ -5,7 +5,6 @@ categories: ["html"]
 tags: []
 versions: ["40"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1194055"
       title: "Bug 1194055 - Size of <input> elements has changed in Firefox 40"

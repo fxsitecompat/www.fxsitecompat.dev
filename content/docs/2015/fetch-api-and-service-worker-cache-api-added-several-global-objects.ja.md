@@ -5,7 +5,6 @@ categories: ["dom"]
 tags: []
 versions: ["39"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1133861"
       title: "Bug 1133861 - Enable the Fetch API by default"

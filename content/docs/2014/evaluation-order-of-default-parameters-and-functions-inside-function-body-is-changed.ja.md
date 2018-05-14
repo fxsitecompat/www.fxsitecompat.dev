@@ -4,7 +4,6 @@ date: "2014-07-22T05:06:26-04:00"
 categories: ["javascript"]
 tags: []
 versions: ["33"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1022962"
       title: "Bug 1022962 – Default parameters should be evaluated before function declarations"

@@ -5,7 +5,6 @@ categories: ["networking"]
 tags: []
 versions: ["18"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=570283"
       title: "Bug 570283 – Stop sending Proxy-Connection"

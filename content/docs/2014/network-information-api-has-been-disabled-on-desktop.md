@@ -4,7 +4,6 @@ date: "2014-04-03T19:31:02-04:00"
 categories: ["dom"]
 tags: []
 versions: ["31"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1020758"
       title: "Bug 1012944 – [Network Information API] Disable the API on desktop"

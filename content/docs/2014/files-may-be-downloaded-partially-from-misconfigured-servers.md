@@ -5,7 +5,6 @@ categories: ["networking"]
 tags: []
 versions: ["33"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1083090"
       title: "Bug 1083090 – Broken CSS and JavaScript errors with Firefox 33 (regression) [partial transfer]"

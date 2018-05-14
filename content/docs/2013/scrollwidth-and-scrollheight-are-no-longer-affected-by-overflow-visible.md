@@ -5,7 +5,6 @@ categories: ["dom"]
 tags: []
 versions: ["21"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=833542"
       title: "Bug 833542 – scrollWidth, scrollHeight different when overflow is hidden versus visible"

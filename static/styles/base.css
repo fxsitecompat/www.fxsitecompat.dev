@@ -109,10 +109,6 @@
     content: '\f09b';
   }
 
-  .fa.cc::before {
-    content: '\f25e';
-  }
-
   .fa.feed::before {
     content: '\f09e';
   }

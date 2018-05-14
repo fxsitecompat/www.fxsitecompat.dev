@@ -4,7 +4,6 @@ date: "2013-12-09T02:32:17-05:00"
 categories: ["audio-video"]
 tags: []
 versions: ["28"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=884275"
       title: "Bug 884275 – canPlayType(\'video/webm\') should report \'maybe\' instead of \'probably\'"

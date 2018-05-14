@@ -4,7 +4,6 @@ date: "2013-10-08T20:15:35-04:00"
 categories: ["javascript"]
 tags: []
 versions: ["27"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=501739"
       title: "Bug 501739 – String match and replace methods do not update global regexp lastIndex per ES3&5"

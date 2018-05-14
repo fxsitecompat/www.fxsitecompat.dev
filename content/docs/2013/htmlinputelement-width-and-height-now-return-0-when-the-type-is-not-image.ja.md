@@ -4,7 +4,6 @@ date: "2013-09-19T23:58:13-04:00"
 categories: ["dom"]
 tags: []
 versions: ["26"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=905240"
       title: "Bug 905240 – HTMLInputElement.{width,height} getter should return 0 for type!=\'image\'"

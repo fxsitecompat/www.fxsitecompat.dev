@@ -5,7 +5,6 @@ categories: ["networking"]
 tags: []
 versions: ["17"]
 statuses: "reverted"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=588909"
       title: "Bug 588909 – Replace Gecko/<date> with Gecko/<version> in UA string"

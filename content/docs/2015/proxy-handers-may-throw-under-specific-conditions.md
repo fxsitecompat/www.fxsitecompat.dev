@@ -4,7 +4,6 @@ date: "2015-03-17T14:02:59-04:00"
 categories: ["javascript"]
 tags: []
 versions: ["39"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1132522"
       title: "Bug 1132522 - Treat false return value from certain Proxy handler methods as failure"

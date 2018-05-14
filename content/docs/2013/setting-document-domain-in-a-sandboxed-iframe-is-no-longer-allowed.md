@@ -4,7 +4,6 @@ date: "2013-09-19T23:58:13-04:00"
 categories: ["dom"]
 tags: []
 versions: ["26"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=907892"
       title: "Bug 907892 – Disallow setting document.domain in sandboxed iframes"

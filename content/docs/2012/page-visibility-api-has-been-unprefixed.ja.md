@@ -4,7 +4,6 @@ date: "2012-12-03T03:53:26-05:00"
 categories: ["dom"]
 tags: []
 versions: ["18"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=812086"
       title: "Bug 812086 – Unprefix Page Visibility API"

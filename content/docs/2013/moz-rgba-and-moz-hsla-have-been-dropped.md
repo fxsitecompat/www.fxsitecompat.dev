@@ -4,7 +4,6 @@ date: "2013-10-08T20:15:35-04:00"
 categories: ["css"]
 tags: []
 versions: ["27"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=893319"
       title: "Bug 893319 – remove -moz-rgba() and -moz-hsla()"

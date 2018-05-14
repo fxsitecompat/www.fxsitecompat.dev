@@ -5,7 +5,6 @@ categories: ["canvas-webgl"]
 tags: []
 versions: ["29"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1003607"
       title: "Bug 1003607 – Header animation at acko.net is broken in FF 29 and above."

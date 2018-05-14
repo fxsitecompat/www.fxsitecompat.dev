@@ -4,7 +4,6 @@ date: "2014-06-09T02:46:54-04:00"
 categories: ["dom"]
 tags: []
 versions: ["32"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=887703"
       title: "Bug 887703 – Do not track settings results in wrong value for navigator.doNotTrack"

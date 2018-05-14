@@ -5,7 +5,6 @@ categories: ["misc"]
 tags: []
 versions: ["22"]
 statuses: "reverted"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=601933"
       title: "Bug 601933 – remove RFC 2047 encoding support for HTTP header field parameters"

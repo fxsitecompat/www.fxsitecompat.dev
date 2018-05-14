@@ -5,7 +5,6 @@ categories: ["dom", "plugins"]
 tags: []
 versions: ["28"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=206659"
       title: "Bug 206659 - Plugin not found, because MIME type has upper-case letters"

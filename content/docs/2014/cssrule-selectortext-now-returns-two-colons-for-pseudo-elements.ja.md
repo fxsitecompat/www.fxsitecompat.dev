@@ -4,7 +4,6 @@ date: "2014-12-19T11:15:21-05:00"
 categories: ["css"]
 tags: []
 versions: ["36"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=949651"
       title: "Bug 949651 – Pseudo-elements should always be separated by two colons in selectorText"

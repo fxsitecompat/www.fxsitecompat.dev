@@ -5,7 +5,6 @@ categories: ["privacy-security"]
 tags: []
 versions: ["36"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1068949"
       title: "Bug 1068949 – Add SHA-1 warnings to web console for end entities"

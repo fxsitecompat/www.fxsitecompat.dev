@@ -5,7 +5,6 @@ categories: ["privacy-security"]
 tags: []
 versions: ["35"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1121895"
       title: "Bug 1121895 – Proxy authentication with Auth-Cookies not working anymore"

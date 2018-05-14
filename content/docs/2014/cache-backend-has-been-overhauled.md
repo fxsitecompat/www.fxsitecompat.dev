@@ -5,7 +5,6 @@ categories: ["networking"]
 tags: []
 versions: ["32"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=913806"
       title: "Bug 913806 – Turn HTTP cache v2 on by default on all products"

@@ -4,7 +4,6 @@ date: "2015-02-27T04:21:22-05:00"
 categories: ["javascript"]
 tags: []
 versions: ["38"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1096376"
       title: "Bug 1096376 – Don\'t allow duplicate parameter names when rest-parameter is present"

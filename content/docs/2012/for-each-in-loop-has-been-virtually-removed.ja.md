@@ -4,7 +4,6 @@ date: "2012-12-29T08:29:30-05:00"
 categories: ["javascript"]
 tags: []
 versions: ["20"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=804834"
       title: "Bug 804834 – Hide \"for each\" from content"

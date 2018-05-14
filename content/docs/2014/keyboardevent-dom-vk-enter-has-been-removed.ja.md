@@ -4,7 +4,6 @@ date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []
 versions: ["30"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=969247"
       title: "Bug 969247 – Get rid of related code of NS_VK_ENTER and nsIDOMKeyEvent::DOM_VK_ENTER"

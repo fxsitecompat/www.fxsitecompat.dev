@@ -4,7 +4,6 @@ date: "2013-02-06T08:44:10-05:00"
 categories: ["css"]
 tags: []
 versions: ["21"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=816298"
       title: "Bug 816298 – Change \"-moz-user-select:none\" to behave like WebKit, IE, and Opera (and \"-moz-user-select:-moz-none\")"

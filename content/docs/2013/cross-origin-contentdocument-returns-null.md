@@ -4,7 +4,6 @@ date: "2013-04-06T04:52:59-04:00"
 categories: ["dom"]
 tags: []
 versions: ["23"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=829872"
       title: "Bug 829872 – Consider returning null from contentDocument getters when the caller does not subsume the document"

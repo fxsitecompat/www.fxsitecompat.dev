@@ -4,7 +4,6 @@ date: "2013-02-06T08:44:10-05:00"
 categories: ["svg"]
 tags: []
 versions: ["21"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=824218"
       title: "Bug 824218 – Remove unimplemented SVG features"

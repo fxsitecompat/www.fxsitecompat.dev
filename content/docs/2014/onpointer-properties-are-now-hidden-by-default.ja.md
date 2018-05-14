@@ -5,7 +5,6 @@ categories: ["dom"]
 tags: []
 versions: ["34"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1017086"
       title: "Bug 1017086 – Don\'t expose onpointer* on global when dom.w3c_pointer_events.enabled is false"

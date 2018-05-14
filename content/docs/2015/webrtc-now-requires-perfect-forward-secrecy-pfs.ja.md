@@ -5,7 +5,6 @@ categories: ["privacy-security"]
 tags: []
 versions: ["38"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1052610"
       title: "Bug 1052610 – WebRTC: Allow more ciphers for DTLS 1.2 in Firefox Nightly 34.0a1 (cannot perform DTLS with OpenSSL)"

@@ -5,7 +5,6 @@ categories: ["networking"]
 tags: []
 versions: ["41"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1169772"
       title: "Bug 1169772 - Add Android version number to Fennec UA String"

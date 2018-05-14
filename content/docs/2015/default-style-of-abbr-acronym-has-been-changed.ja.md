@@ -5,7 +5,6 @@ categories: ["css"]
 tags: []
 versions: ["40"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1157083"
       title: "Bug 1157083 - It might be better to use CSS3 text-decoration for the UA stylesheet of <abbr> and <acronym> rather than border-bottom"

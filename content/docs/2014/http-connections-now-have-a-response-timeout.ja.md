@@ -5,7 +5,6 @@ categories: ["networking"]
 tags: []
 versions: ["29"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=947391"
       title: "Bug 947391 – HTTP connections (exc. XHR, SPDY) should have a response timeout"

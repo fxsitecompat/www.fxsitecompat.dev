@@ -4,7 +4,6 @@ date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []
 versions: ["30"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=961804"
       title: "Bug 961804 – Drop support for Blob.mozSlice"

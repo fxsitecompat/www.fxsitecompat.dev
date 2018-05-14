@@ -5,7 +5,6 @@ categories: ["javascript"]
 tags: []
 versions: ["30"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=998908"
       title: "Bug 998908 – [jsdbg2] Calling Debugger.Script.prototype.getChildScripts causes errors to be thrown that otherwise wouldn\'t be"

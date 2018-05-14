@@ -5,7 +5,6 @@ categories: ["css"]
 tags: []
 versions: ["29"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=157846"
       title: "Bug 157846 – Incorrect implementation of padding on textarea elements (scrollbars/resizer wrongly positioned)"

@@ -5,7 +5,6 @@ categories: ["javascript"]
 tags: []
 versions: ["33"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1083913"
       title: "Bug 1083913 – Switch statement too large internal error"

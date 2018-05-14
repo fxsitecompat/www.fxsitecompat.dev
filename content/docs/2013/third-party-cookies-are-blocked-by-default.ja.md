@@ -5,7 +5,6 @@ categories: ["networking", "privacy-security"]
 tags: []
 versions: ["22"]
 statuses: "reverted"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=818340"
       title: "Bug 818340 – Block cookies from sites I haven\'t visited"

@@ -4,7 +4,6 @@ date: "2014-06-09T02:46:54-04:00"
 categories: ["dom"]
 tags: []
 versions: ["32"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1003539"
       title: "Bug 1003539 – HTMLTableElement.insertRow doesn\'t insert the row at the right place when table has a thead or tfoot, no tbody, and no rows"

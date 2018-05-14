@@ -4,7 +4,6 @@ date: "2014-09-01T22:12:15-04:00"
 categories: ["dom", "plugins"]
 tags: []
 versions: ["34"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=793978"
       title: "Bug 793978 – Sort navigator.plugins array to avoid exposing user-identifying plugin file order"

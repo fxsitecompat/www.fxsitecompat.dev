@@ -5,7 +5,6 @@ categories: ["css"]
 tags: []
 versions: ["19"]
 statuses: "regressed"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=909157"
       title: "Bug 909157 – -moz-element background fails to update after image reloads"

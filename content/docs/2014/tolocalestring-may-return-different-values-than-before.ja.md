@@ -5,7 +5,6 @@ categories: ["javascript"]
 tags: []
 versions: ["29"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=837963"
       title: "Bug 837963 – [meta] Implement ECMAScript Internationalization API"

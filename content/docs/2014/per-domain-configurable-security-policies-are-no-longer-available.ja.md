@@ -5,7 +5,6 @@ categories: ["privacy-security"]
 tags: []
 versions: ["29"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=913734"
       title: "Bug 913734 – Remove domain policy goop from CAPS"

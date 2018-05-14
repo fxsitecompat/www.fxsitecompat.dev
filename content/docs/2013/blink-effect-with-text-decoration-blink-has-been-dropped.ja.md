@@ -5,7 +5,6 @@ categories: ["css"]
 tags: []
 versions: ["23"]
 statuses: "affecting"
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=857820"
       title: "Bug 857820 – Drop only blink effect from text-decoration: blink; and completely remove <blink> element"

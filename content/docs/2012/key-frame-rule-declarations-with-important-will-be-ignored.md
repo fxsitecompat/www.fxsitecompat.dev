@@ -4,7 +4,6 @@ date: "2012-12-03T03:54:45-05:00"
 categories: ["css"]
 tags: []
 versions: ["19"]
-cclicense: "BY-SA 3.0"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=784466"
       title: "Bug 784466 – [css3-animations] we should drop declarations in keyframe rules that have !important"
