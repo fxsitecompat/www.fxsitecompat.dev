@@ -15,3 +15,5 @@ references:
 `devicelight`、`deviceproximity`、`userproximity` の各イベントは、Firefox 60 以降 Nightly と早期 Beta/DevEdition チャンネルでは初期設定で無効化されており、Firefox 62 以降すべてのチャンネルで無効化されます。現時点ではブラウザー対応が限られることから、互換性リスクは最小限のはずです。無効化された場合、単にイベントが発生しなくなります。
 
 一方、`deviceorientation`、`devicemotion` 両イベントは、WebVR を含めて妥当なユースケースがあることからまだ使用可能です。開発者はその方向性についてより詳しく議論する予定です。
+
+**更新**: 環境光・近接センサー API は、予定通り [Firefox 62](https://www.fxsitecompat.com/ja/docs/2018/ambient-light-and-proximity-sensor-apis-have-been-disabled/) で無効化されました。
