@@ -9,8 +9,6 @@ references:
       title: "Bug 1035091 - limit @-moz-document to user and UA sheets (Makes it useless for exfiltration in CSS-injection attacks)"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1422245"
       title: "Bug 1422245 - Toggle the pref to disable @-moz-document in content pages on release"
-    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1426068"
-      title: "Bug 1426068 - Disabling @-moz-document results in users being unable to enter line-breaks into YouTube comments"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1446470"
       title: "Bug 1446470 - Parse @-moz-document url-prefix() on content."
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/RysotXvooV0/discussion"
@@ -24,4 +22,4 @@ The [`@-moz-document`](https://developer.mozilla.org/docs/Web/CSS/@document) rul
 
 The at-rule support has already been removed from Nightly and early Beta/DevEdition as of Firefox 59, and removed from all the channels with Firefox 61.
 
-An exception is the empty `url-prefix` function that has been used as a [CSS hack targeting Firefox](https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/). It will continue to be parsed to avoid breakages but may be removed anyway in the future.
+An exception is the empty `url-prefix` function that has been used as a [CSS hack targeting Firefox](https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/). It continues to be parsed on the Release channel to avoid breakages but will be removed in the near future once major compatibility issue are solved.

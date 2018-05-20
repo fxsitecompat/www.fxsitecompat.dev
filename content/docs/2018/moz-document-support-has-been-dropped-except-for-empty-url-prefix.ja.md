@@ -9,8 +9,6 @@ references:
       title: "Bug 1035091 - limit @-moz-document to user and UA sheets (Makes it useless for exfiltration in CSS-injection attacks)"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1422245"
       title: "Bug 1422245 - Toggle the pref to disable @-moz-document in content pages on release"
-    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1426068"
-      title: "Bug 1426068 - Disabling @-moz-document results in users being unable to enter line-breaks into YouTube comments"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1446470"
       title: "Bug 1446470 - Parse @-moz-document url-prefix() on content."
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/RysotXvooV0/discussion"
@@ -24,4 +22,4 @@ aliases:
 
 この @ 規則対応は Firefox 59 の時点で既に Nightly と早期 Beta/DevEdition から削除されており、Firefox 61 ですべてのチャンネルから削除されました。
 
-例外は、[Firefox を対象とした CSS ハック](https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/) として使われてきた空の `url-prefix` 関数です。これは問題を避けるために引き続きパースされますが、いずれにしても将来的に削除される可能性があります。
+例外は、[Firefox を対象とした CSS ハック](https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/) として使われてきた空の `url-prefix` 関数です。これは問題を避けるため Release チャンネルでは引き続きパースされますが、近い将来主な互換性問題が解決したら削除されます。
