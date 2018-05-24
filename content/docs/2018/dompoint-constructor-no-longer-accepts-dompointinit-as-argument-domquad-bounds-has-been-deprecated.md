@@ -1,5 +1,5 @@
 ---
-title: "`DOMPoint` constructor no longer accepts `DOMPointInit` as argument"
+title: "`DOMPoint` constructor no longer accepts `DOMPointInit` as argument; `DOMQuad.bounds` has been deprecated"
 date: "2018-05-23T22:20:00-04:00"
 categories: ["css", "dom"]
 tags: []
@@ -9,6 +9,8 @@ references:
       title: "Bug 1186265 - Remove DOMPoint{,ReadOnly}(DOMPointInit) constructor, implement DOMPoint{,ReadOnly}.fromPoint"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/jwmkVmU4DNM/discussion"
       title: "Intent to ship: DOMPoint interface from its latest spec"
+aliases:
+    - "/en-CA/docs/2018/dompoint-constructor-no-longer-accepts-dompointinit-as-argument/"
 ---
 Firefox 62 has updated the implementation of the [`DOMPoint`](https://developer.mozilla.org/docs/Web/API/DOMPoint) and [`DOMPointReadOnly`](https://developer.mozilla.org/docs/Web/API/DOMPointReadOnly) interfaces to the current Geometry Interfaces Module draft spec.
 
@@ -23,3 +25,5 @@ let dp = new DOMPoint(x, y, z, w);
 // or
 let dp = DOMPoint.fromPoint({ x, y, z, w });
 ```
+
+The `bounds` property on the [`DOMQuad`](https://developer.mozilla.org/docs/Web/API/DOMQuad) interface is also considered deprecated as per the draft spec. It will be removed from Firefox in the near future once the alternative `getBounds` method, which has already been implemented in Chrome and Safari, is supported.
