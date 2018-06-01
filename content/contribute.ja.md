@@ -24,7 +24,7 @@ Firefox ユーザーがあなたの「壊れた」サイトを訪れる前に Fi
 
 ## ドキュメントの改善
 
-ドキュメントに間違いを見つけた場合、あるいは何かまだ文書化されていない問題を見つけた場合は、[ツイート](https://twitter.com/intent/tweet?text=@fxsitecompat&related=fxsitecompat) するか、[Issue を登録](https://github.com/fxsitecompat/www.fxsitecompat.com/issues/new) するか、あるいは各ページのフッターにある「ページの改善を提案」というリンクから直接プルリクエストを送って、私たちの有益な開発者リソースの改善にご協力ください。[Twitter](https://twitter.com/messages/compose?recipient_id=1707307399) を通じてダイレクトメッセージを送っていただくこともできます。
+ドキュメントに間違いを見つけた場合、あるいは何かまだ文書化されていない問題を見つけた場合は、[ツイート](https://twitter.com/intent/tweet?text=@fxsitecompat&related=fxsitecompat) するか、[Issue を登録](https://github.com/fxsitecompat/www.fxsitecompat.com/issues/new) するか、あるいは各ページのフッターにある「編集を提案」というリンクから直接プルリクエストを送って、私たちの有益な開発者リソースの改善にご協力ください。[Twitter](https://twitter.com/messages/compose?recipient_id=1707307399) を通じてダイレクトメッセージを送っていただくこともできます。
 
 ## 寄付
 

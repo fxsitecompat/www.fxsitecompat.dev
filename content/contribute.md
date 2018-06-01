@@ -24,7 +24,7 @@ Please report any regressions you encountered through one of the following ways:
 
 ## Improve the documents
 
-If you find a mistake on our document or something not covered yet, please [tweet us](https://twitter.com/intent/tweet?text=@fxsitecompat&related=fxsitecompat), [file an issue](https://github.com/fxsitecompat/www.fxsitecompat.com/issues/new), or send us a pull request directly from the "Improve this page" link on each page's footer to help us improve our useful developer resources. You can also send us a direct message via [Twitter](https://twitter.com/messages/compose?recipient_id=1707307399).
+If you find a mistake on our document or something not covered yet, please [tweet us](https://twitter.com/intent/tweet?text=@fxsitecompat&related=fxsitecompat), [file an issue](https://github.com/fxsitecompat/www.fxsitecompat.com/issues/new), or send us a pull request directly from the "Suggest an Edit" link on each page's footer to help us improve our useful developer resources. You can also send us a direct message via [Twitter](https://twitter.com/messages/compose?recipient_id=1707307399).
 
 ## Donate to us
 
