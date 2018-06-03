@@ -9,6 +9,8 @@ references:
       title: "Bug 879275 - Consider turning off -moz-box display types in untrusted stylesheets"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1288572"
       title: "Bug 1288572 - Hide -moz-prefixed display values from web content"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/aGHxNYK3Y5Y/discussion"
+      title: "Intent to unship: XUL display values from content pages"
 aliases:
     - "/en-CA/docs/2015/non-standard-css-display-types-will-be-removed/"
 ---
