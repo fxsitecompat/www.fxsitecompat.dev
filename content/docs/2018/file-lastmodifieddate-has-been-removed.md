@@ -10,4 +10,4 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/l-WY9qvfUNg/discussion"
       title: "Intent to unship: File.lastModifiedDate"
 ---
-The non-standard [`File.prototype.lastModifiedDate`](https://developer.mozilla.org/docs/Web/API/File/lastModifiedDate) property, [deprecated since Firefox 49](https://www.fxsitecompat.com/en-CA/docs/2016/file-lastmodifieddate-has-been-deprecated/), has been removed with Firefox 61. According to Mozilla's Telemetry, it's currently used in 0.01% of the pages. Use the standard [`lastModified`](https://developer.mozilla.org/docs/Web/API/File/lastModified) property instead.
+The non-standard [`File.prototype.lastModifiedDate`](https://developer.mozilla.org/docs/Web/API/File/lastModifiedDate) property, [deprecated since Firefox 49](https://www.fxsitecompat.com/en-CA/docs/2016/file-lastmodifieddate-has-been-deprecated/), has been removed with Firefox 61. According to Mozilla's [Telemetry](https://telemetry.mozilla.org/), it's currently used in 0.01% of the pages. Use the standard [`lastModified`](https://developer.mozilla.org/docs/Web/API/File/lastModified) property instead.

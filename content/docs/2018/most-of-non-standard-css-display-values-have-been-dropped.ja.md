@@ -24,7 +24,7 @@ aliases:
 * `-moz-popup`
 * `-moz-stack`
 
-当面、互換性問題への懸念から、以下の値は残されます。Firefox 開発者は [Telemetry](https://wiki.mozilla.org/Telemetry) を使って、これらの例外を廃止する前にウェブ上での使用状況を確認する予定です。
+当面、互換性問題への懸念から、以下の値は残されます。Firefox 開発者は [Telemetry](https://telemetry.mozilla.org/) を使って、これらの例外を廃止する前にウェブ上での使用状況を確認する予定です。
 
 * `-moz-box`
 * `-moz-inline-box`
