@@ -1,7 +1,7 @@
 ---
 title: "`DOMPoint` constructor no longer accepts `DOMPointInit` as argument; `DOMQuad.bounds` has been deprecated"
 date: "2018-05-23T22:20:00-04:00"
-categories: ["css", "dom"]
+categories: ["dom"]
 tags: []
 versions: ["62"]
 references:

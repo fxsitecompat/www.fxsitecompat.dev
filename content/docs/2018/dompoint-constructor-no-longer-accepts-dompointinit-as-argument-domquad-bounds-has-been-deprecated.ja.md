@@ -1,7 +1,7 @@
 ---
 title: "`DOMPoint` コンストラクターが `DOMPointInit` を引数として取らなくなり、`DOMQuad.bounds` は廃止予定となりました"
 date: "2018-05-23T22:20:00-04:00"
-categories: ["css", "dom"]
+categories: ["dom"]
 tags: []
 versions: ["62"]
 references:
