@@ -11,3 +11,5 @@ references:
       title: "Intent to unship: \"storage\" attribute in options for indexedDB.open()"
 ---
 Firefox 26 以降提供されていた [`indexedDB.open`](https://developer.mozilla.org/docs/Web/API/IDBFactory/open) メソッドの非標準 `storage` オプションが廃止予定と見なされ、Firefox 62 で削除される見通しとなりました。標準化された Storage API の [`navigator.storage.persist`](https://developer.mozilla.org/docs/Web/API/StorageManager/persist) メソッドで代用してください。このオプションは Firefox にしか実装されていないことから、互換性リスクは非常に低いはずです。
+
+**更新**: このオプションは [Firefox 61 で廃止されました](https://www.fxsitecompat.com/ja/docs/2018/storage-option-for-indexeddb-open-has-been-removed/)。
