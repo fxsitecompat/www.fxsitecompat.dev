@@ -3,7 +3,7 @@ title: "`keydown` and `keyup` events will soon be fired during IME composition"
 date: "2018-05-07T16:20:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["61"]
+versions: ["future"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1446401"
       title: "Bug 1446401 - Start to dispatch keydown/keyup events even during composition in Nightly and early Beta"

@@ -3,7 +3,7 @@ title: "Non-printable keys will soon stop firing `keypress` event"
 date: "2018-03-03T04:49:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["61"]
+versions: ["future"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1440189"
