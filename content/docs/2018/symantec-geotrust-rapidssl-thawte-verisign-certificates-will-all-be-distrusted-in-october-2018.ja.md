@@ -3,7 +3,7 @@ title: "Symantec、GeoTrust、RapidSSL、Thawte、Verisign 証明書への信頼
 date: "2018-06-05T12:53:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["future"]
+versions: ["63"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1460062"
