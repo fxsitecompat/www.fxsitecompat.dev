@@ -4,9 +4,12 @@ date: "2018-04-24T19:23:00-04:00"
 categories: ["audio-video", "dom"]
 tags: []
 versions: ["62"]
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1454889"
       title: "Bug 1454889 - Remove createObjectURL()'s MediaStream overload"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1483220"
+      title: "Bug 1483220 - Camera not found trying to stream on Facebook"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/o_0RoYoCmM4/discussion"
       title: "Intent to unship: URL.createObjectURL(MediaStream)"
 ---
@@ -22,3 +25,5 @@ video.src = URL.createObjectURL(stream);
 // Instead, do this
 video.srcObject = stream;
 ```
+
+**Update**: *Facebook Live* is not working on desktop due to this change.
