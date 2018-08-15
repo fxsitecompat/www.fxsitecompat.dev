@@ -10,7 +10,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/rujif05uOTo/discussion"
       title: "Intent to unship: overflow: -moz-scrollbars-* values"
 ---
-The following non-standard, prefixed values for the [`overflow`](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow) CSS property have been disabled by default in favour of the standard alternatives:
+The following non-standard, prefixed values for the [`overflow`](https://developer.mozilla.org/docs/Web/CSS/overflow) CSS property have been disabled by default in favour of the standard alternatives:
 
 * `-moz-scrollbars-none`
     * Use `overflow: hidden` instead

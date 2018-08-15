@@ -10,7 +10,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/rujif05uOTo/discussion"
       title: "Intent to unship: overflow: -moz-scrollbars-* values"
 ---
-以下に挙げる非標準の接頭辞付き [`overflow`](https://developer.mozilla.org/ja/docs/Web/CSS/overflow) CSS プロパティ値が、標準の値に置き換えられる形で、初期設定により無効化されました。
+以下に挙げる非標準の接頭辞付き [`overflow`](https://developer.mozilla.org/docs/Web/CSS/overflow) CSS プロパティ値が、標準の値に置き換えられる形で、初期設定により無効化されました。
 
 * `-moz-scrollbars-none`
     * `overflow: hidden` で代用してください
