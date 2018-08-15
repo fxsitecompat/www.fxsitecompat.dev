@@ -1,7 +1,7 @@
 ---
 title: "`navigator.platform` now returns `\"Win32\"` even on 64-bit Firefox"
 date: "2018-08-14T03:35:00-04:00"
-categories: ["misc"]
+categories: ["dom", "html"]
 tags: []
 versions: ["63"]
 references:
