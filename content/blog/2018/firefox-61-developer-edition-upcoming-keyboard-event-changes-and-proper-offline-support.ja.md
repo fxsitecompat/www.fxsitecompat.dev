@@ -1,6 +1,8 @@
 ---
 title: "Firefox 61 Developer Edition、近く予定されているキーボードイベント関連の変更、正しいオフライン対応"
 date: "2018-05-09T21:37:00-04:00"
+aliases:
+    - "/ja/blog/2018/firefox-61-developer-edition-upcoming-keyboard-event-changes-and/"
 ---
 Mozilla は [Firefox 61 Beta と Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) を公開しました。6 月下旬公開の最終版に備えて [Firefox 61 互換性情報](https://www.fxsitecompat.com/ja/versions/61/) を確認してください。
 

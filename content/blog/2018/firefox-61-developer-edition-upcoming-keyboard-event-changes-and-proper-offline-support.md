@@ -1,6 +1,8 @@
 ---
 title: "Firefox 61 Developer Edition, upcoming keyboard event changes, and proper offline support"
 date: "2018-05-09T21:37:00-04:00"
+aliases:
+    - "/en-CA/blog/2018/firefox-61-developer-edition-upcoming-keyboard-event-changes-and/"
 ---
 Mozilla has shipped [Firefox 61 Beta and Developer Edition](https://www.mozilla.org/firefox/channel/desktop/). Check out our [Firefox 61 compatibility notes](https://www.fxsitecompat.com/en-CA/versions/61/) to get prepared for the final version coming late June.
 
