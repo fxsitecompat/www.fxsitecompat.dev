@@ -30,3 +30,5 @@ aliases:
 
 * `-moz-box`
 * `-moz-inline-box`
+
+**更新**: `-moz-box` と `-moz-inline-box` も [Firefox 63 で廃止予定となりました](https://www.fxsitecompat.com/ja/docs/2018/display-moz-box-and-display-moz-inline-box-have-been-deprecated/).
