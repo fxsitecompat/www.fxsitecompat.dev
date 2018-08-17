@@ -15,8 +15,10 @@ references:
 * `-moz-scrollbars-none`
     * `overflow: hidden` で代用してください
 * `-moz-scrollbars-horizontal`
-    * `overflow: scroll hidden` もしくは `overflow-x: scroll; overflow-y: hidden` で代用してください
+    * `overflow-x: scroll; overflow-y: hidden` で代用してください
+    * [Firefox 63 以降](https://www.fxsitecompat.com/ja/docs/2018/overflow-shorthand-syntax-has-been-updated-to-swap-2-values/) では `overflow: hidden scroll` も使用可能です
 * `-moz-scrollbars-vertical`
-    * `overflow: hidden scroll` もしくは `overflow-x: hidden; overflow-y: scroll` で代用してください
+    * `overflow-x: hidden; overflow-y: scroll` で代用してください
+    * [Firefox 63 以降](https://www.fxsitecompat.com/ja/docs/2018/overflow-shorthand-syntax-has-been-updated-to-swap-2-values/) では `overflow: scroll hidden` も使用可能です
 
 これにより `-moz-hidden-unscrollable` がこのプロパティの唯一の接頭辞付き値となります。ただしこれは一般用ではありません。
