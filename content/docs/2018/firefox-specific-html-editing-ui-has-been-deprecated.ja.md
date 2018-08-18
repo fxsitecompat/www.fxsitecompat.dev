@@ -10,10 +10,18 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/6GDK3Kzu9q0/discussion"
       title: "Intent to disable (hide) Gecko specific editing UI of HTML editor by default"
 ---
-以下に挙げる [HTML リッチテキストエディター](https://developer.mozilla.org/docs/Web/Guide/HTML/Editable_content) 上の編集 UI 機能は、今のところ Firefox にしか実装されていませんが、廃止予定となったため、Firefox 63 の時点で Firefox Nightly と早期 Beta/DevEdition では初期設定により無効化されました。特に大きな問題がなければ、これらの機能は Firefox 64 ですべてのチャンネルから削除されます。
+以下に挙げる [HTML リッチテキストエディター](https://developer.mozilla.org/docs/Web/Guide/HTML/Editable_content) 上の編集 UI 機能は、今のところ Firefox にしか実装されていませんが、廃止予定となったため、Firefox 63 の時点で Firefox Nightly と早期 Beta/DevEdition では初期設定により無効化されました。特に大きな問題がなければ、これらの機能は Firefox 64 ですべてのチャンネルにおいて初期設定により無効化されます。
 
-1. `<img>`、`<table>`、絶対配置要素のオブジェクトサイズ変更
-2. インラインテーブル編集による列や行の追加・削除
-3. 絶対配置要素の位置変更ハンドル
+* `<img>`、`<table>`、絶対配置要素のオブジェクトサイズ変更
+* インラインテーブル編集による列や行の追加・削除
+* 絶対配置要素の位置変更ハンドル
 
-今のところ、1 と 2 は [`document.execCommand`](https://developer.mozilla.org/docs/Web/API/Document/execCommand) メソッドの `enableObjectResizing`、`enableInlineTableEditing` コマンドで無効化できます。3 を無効化する方法はありません。
+ウェブ開発者は今後も以下のように [`document.execCommand`](https://developer.mozilla.org/docs/Web/API/Document/execCommand) メソッドを使ってこれらの機能を有効化できますが、この UI は他のブラウザーでは利用できず、将来的には Firefox からも削除される可能性があることに留意してください。
+
+```js
+document.execCommand('enableObjectResizing', false, true);
+document.execCommand('enableInlineTableEditing', false, true);
+document.execCommand('enableAbsolutePositionEditor', false, true);
+```
+
+**更新**: この記事の初回草稿は、これらの機能が Firefox 64 で削除されるという記述をしていました。しかし、現在の計画では次回リリースで初期設定により無効化されるだけです。記事の内容はそれを受けて修正されました。
