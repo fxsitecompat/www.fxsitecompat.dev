@@ -1,5 +1,5 @@
 ---
-title: "`Date.prototype.toLocaleFormat()` has been removed"
+title: "`Date.toLocaleFormat()` has been removed"
 date: "2017-10-25T17:27:00-04:00"
 categories: ["javascript"]
 tags: []
@@ -9,6 +9,7 @@ references:
       title: "Bug 818634 - Remove support for Date.prototype.toLocaleFormat"
 aliases:
     - "/en-CA/docs/2015/date-prototype-tolocaleformat-will-be-removed/"
+    - "/en-CA/docs/2017/date-prototype-tolocaleformat-has-been-removed/"
 ---
 The support for the [`Date.prototype.toLocaleFormat`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat) method, deprecated since [Firefox 55](https://www.fxsitecompat.com/en-CA/docs/2017/date-prototype-tolocaleformat-has-been-deprecated/), has been removed with Firefox 58, because it failed to be standardized. No other browsers than Firefox implement the method.
 

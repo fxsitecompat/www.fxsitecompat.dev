@@ -1,5 +1,5 @@
 ---
-title: "`Date.prototype.toLocaleFormat()` が廃止予定となりました"
+title: "`Date.toLocaleFormat()` が廃止予定となりました"
 date: "2017-08-01T20:07:00-04:00"
 categories: ["javascript"]
 tags: []
@@ -9,6 +9,8 @@ references:
       title: "Bug 1299900 - Warn when Date.prototype.toLocaleFormat is used"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1344625"
       title: "Bug 1344625 - Turn on ENABLE_INTL_API=yes on Android's release build"
+aliases:
+    - "/ja/docs/2017/date-prototype-tolocaleformat-has-been-deprecated/"
 ---
 非標準 [`Date.prototype.toLocaleFormat`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat) メソッドへの対応が廃止予定となり、近い将来 [削除される](https://www.fxsitecompat.com/ja/docs/2015/date-prototype-tolocaleformat-will-be-removed/) こととなりました。Firefox 55 以降、コンソールにこのメソッドに対する警告が表示されます。
 

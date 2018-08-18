@@ -1,5 +1,5 @@
 ---
-title: "`Date.prototype.toLocaleFormat()` has been deprecated"
+title: "`Date.toLocaleFormat()` has been deprecated"
 date: "2017-08-01T20:07:00-04:00"
 categories: ["javascript"]
 tags: []
@@ -9,6 +9,8 @@ references:
       title: "Bug 1299900 - Warn when Date.prototype.toLocaleFormat is used"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1344625"
       title: "Bug 1344625 - Turn on ENABLE_INTL_API=yes on Android's release build"
+aliases:
+    - "/en-CA/docs/2017/date-prototype-tolocaleformat-has-been-deprecated/"
 ---
 The support for the non-standard [`Date.prototype.toLocaleFormat`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat) method is now considered deprecated and will be [removed](https://www.fxsitecompat.com/en-CA/docs/2015/date-prototype-tolocaleformat-will-be-removed/) in the near future. Firefox 55 and later shows a warning in the Console for the method.
 

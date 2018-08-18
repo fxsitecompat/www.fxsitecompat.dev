@@ -1,5 +1,5 @@
 ---
-title: "Support for `Event.prototype.srcElement` has been added"
+title: "Support for `Event.srcElement` has been added"
 date: "2018-05-08T16:17:00-04:00"
 categories: ["dom"]
 tags: []
@@ -14,6 +14,8 @@ references:
       title: "Bug 1444004 - Implement Event.srcElement on nightly only for now"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/y9KU21IBFvo/discussion"
       title: "Intent to ship: event.srcElement"
+aliases:
+    - "/en-CA/docs/2018/support-for-event-prototype-srcelement-has-been-added/"
 ---
 Firefox now supports the non-standard [`srcElement`](https://developer.mozilla.org/docs/Web/API/Event/srcElement) property on the `Event` interface for a better cross-browser compatibility. Firefox Nightly has already added the support since the version 60. It's the standard [`target`](https://developer.mozilla.org/docs/Web/API/Event/target) property's alias originated from Internet Explorer, which has been implemented in all other browsers by now.
 

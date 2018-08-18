@@ -1,5 +1,5 @@
 ---
-title: "`Object.prototype.watch()` has been deprecated"
+title: "`Object.watch()` has been deprecated"
 date: "2017-08-21T16:27:00-04:00"
 categories: ["javascript"]
 tags: []
@@ -10,6 +10,7 @@ references:
 aliases:
     - "/en-CA/docs/2015/object-prototype-watch-will-be-removed/"
     - "/en-CA/docs/2017/object-prototype-watch-will-be-removed/"
+    - "/en-CA/docs/2017/object-prototype-watch-has-been-deprecated/"
 ---
 The non-standard [`Object.prototype.watch`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/watch) and [`unwatch`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/unwatch) methods are now considered deprecated and will be removed in the near future. Firefox 57 and later shows a warning in the Console for these methods that are not supported by any other browsers. Use the standard [`Proxy`] (https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy) or [`Reflect`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect) object instead.
 

@@ -1,5 +1,5 @@
 ---
-title: "`SVGViewElement.prototype.viewTarget` has been removed"
+title: "`SVGViewElement.viewTarget` has been removed"
 date: "2018-04-25T18:18:00-04:00"
 categories: ["dom", "svg"]
 tags: []
@@ -9,6 +9,8 @@ references:
       title: "Bug 1455763 - Remove SVGViewElement.viewTarget"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/3rbtcFOcVjI/discussion"
       title: "Intent to unship: SVGViewElement.viewTarget"
+aliases:
+    - "/en-CA/docs/2018/svgviewelement-prototype-viewtarget-has-been-removed/"
 ---
 Firefox 61 has removed the `viewTarget` property from the [`SVGViewElement`](https://developer.mozilla.org/docs/Web/API/SVGViewElement) interface. It was defined in the SVG 1.1 spec but removed with SVG 2 due to lack of use. Also, Firefox didn't have the proper implementation, rather returning an error.
 

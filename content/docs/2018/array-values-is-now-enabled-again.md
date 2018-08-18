@@ -1,5 +1,5 @@
 ---
-title: "`Array.prototype.values()` is now enabled again"
+title: "`Array.values()` is now enabled again"
 date: "2018-02-11T00:08:00-05:00"
 categories: ["javascript"]
 tags: []
@@ -9,6 +9,8 @@ references:
       title: "Bug 1420101 - Array.prototype.values() does not exist"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/s92kdFNjL0U/discussion"
       title: "Intent to ship: Array.prototype.values"
+aliases:
+    - "/en-CA/docs/2018/array-prototype-values-is-now-enabled-again/"
 ---
 Firefox 60 has re-enabled the support for the standard [`Array.prototype.values`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/values) method, which was implemented with Firefox 48 but has been disabled other than on the Nightly channel due to [some compatibility issues](https://www.fxsitecompat.com/en-CA/docs/2016/array-prototype-values-breaks-some-legacy-apps/).
 

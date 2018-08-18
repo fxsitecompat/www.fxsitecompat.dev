@@ -1,5 +1,5 @@
 ---
-title: "`Object.prototype.watch()` が廃止予定となりました"
+title: "`Object.watch()` が廃止予定となりました"
 date: "2017-08-21T16:27:00-04:00"
 categories: ["javascript"]
 tags: []
@@ -10,6 +10,7 @@ references:
 aliases:
     - "/ja/docs/2015/object-prototype-watch-will-be-removed/"
     - "/ja/docs/2017/object-prototype-watch-will-be-removed/"
+    - "/ja/docs/2017/object-prototype-watch-has-been-deprecated/"
 ---
 非標準の [`Object.prototype.watch`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/watch)、[`unwatch`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/unwatch) メソッドは廃止予定となり、近い将来削除されることとなりました。Firefox 57 以降、他のどのブラウザーも対応していないこれらのメソッドに対する警告がコンソールに表示されます。標準の [`Proxy`] (https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy) あるいは [`Reflect`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect) オブジェクトを代わりに使用してください。
 
