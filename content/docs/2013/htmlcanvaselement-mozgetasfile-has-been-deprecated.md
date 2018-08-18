@@ -1,5 +1,5 @@
 ---
-title: "`HTMLCanvasElement.mozGetAsFile` has been deprecated"
+title: "`HTMLCanvasElement.mozGetAsFile()` has been deprecated"
 date: "2013-09-19T23:58:13-04:00"
 categories: ["canvas-webgl", "dom"]
 tags: []

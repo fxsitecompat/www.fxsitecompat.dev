@@ -1,5 +1,5 @@
 ---
-title: "`Node.isSupported` が削除されました"
+title: "`Node.isSupported()` が削除されました"
 date: "2013-02-24T03:44:31-05:00"
 categories: ["dom"]
 tags: []

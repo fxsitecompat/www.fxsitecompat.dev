@@ -1,5 +1,5 @@
 ---
-title: "`Object.prototype.watch` has been removed"
+title: "`Object.prototype.watch()` has been removed"
 date: "2017-10-24T16:27:00-04:00"
 categories: ["javascript"]
 tags: []

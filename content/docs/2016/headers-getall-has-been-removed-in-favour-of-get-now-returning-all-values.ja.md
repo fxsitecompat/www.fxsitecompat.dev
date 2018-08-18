@@ -1,5 +1,5 @@
 ---
-title: "`Headers.getAll` が削除され、代わりに `get` がすべての値を返すようになります"
+title: "`Headers.getAll()` が削除され、代わりに `get()` がすべての値を返すようになります"
 date: "2016-11-16T15:51:00-05:00"
 categories: ["dom"]
 tags: []

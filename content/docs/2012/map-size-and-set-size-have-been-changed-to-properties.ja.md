@@ -1,5 +1,5 @@
 ---
-title: "`Map.size`、`Set.size` がプロパティに変わりました"
+title: "`Map.size()`、`Set.size()` がプロパティに変わりました"
 date: "2012-12-03T03:54:45-05:00"
 categories: ["javascript"]
 tags: []

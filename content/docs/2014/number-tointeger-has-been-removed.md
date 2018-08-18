@@ -1,5 +1,5 @@
 ---
-title: "`Number.toInteger` has been removed"
+title: "`Number.toInteger()` has been removed"
 date: "2014-07-22T05:06:26-04:00"
 categories: ["javascript"]
 tags: []

@@ -1,5 +1,5 @@
 ---
-title: "`requestAnimationFrame` と `cancelAnimationFrame` の接頭辞が外れました"
+title: "`requestAnimationFrame()` と `cancelAnimationFrame()` の接頭辞が外れました"
 date: "2013-04-06T04:52:59-04:00"
 categories: ["dom"]
 tags: []

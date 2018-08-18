@@ -1,5 +1,5 @@
 ---
-title: "`PeerConnectionImpl.connectDataConnection` has been removed"
+title: "`PeerConnectionImpl.connectDataConnection()` has been removed"
 date: "2015-01-16T09:37:54-05:00"
 categories: ["audio-video"]
 tags: []

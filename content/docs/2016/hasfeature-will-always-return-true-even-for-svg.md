@@ -1,5 +1,5 @@
 ---
-title: "`hasFeature` will always return `true` even for SVG"
+title: "`hasFeature()` will always return `true` even for SVG"
 date: "2016-09-06T22:24:00-04:00"
 categories: ["dom", "svg"]
 tags: []

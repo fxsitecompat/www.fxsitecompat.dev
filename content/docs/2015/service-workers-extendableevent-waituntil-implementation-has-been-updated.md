@@ -1,5 +1,5 @@
 ---
-title: "Service Workers `ExtendableEvent.waitUntil` implementation has been updated"
+title: "Service Workers `ExtendableEvent.waitUntil()` implementation has been updated"
 date: "2015-09-25T00:21:00-04:00"
 categories: ["dom"]
 tags: []

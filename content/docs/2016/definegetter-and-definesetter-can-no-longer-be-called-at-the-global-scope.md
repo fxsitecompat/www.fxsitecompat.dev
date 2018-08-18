@@ -1,5 +1,5 @@
 ---
-title: "`__defineGetter__` and `__defineSetter__` can no longer be called at the global scope"
+title: "`__defineGetter__()` and `__defineSetter__()` can no longer be called at the global scope"
 date: "2016-03-12T19:11:00-05:00"
 categories: ["javascript"]
 tags: []

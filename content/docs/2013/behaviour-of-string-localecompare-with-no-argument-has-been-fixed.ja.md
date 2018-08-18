@@ -1,5 +1,5 @@
 ---
-title: "引数が指定されていない場合の `String.localeCompare` の挙動が修正されました"
+title: "引数が指定されていない場合の `String.localeCompare()` の挙動が修正されました"
 date: "2013-02-06T08:44:10-05:00"
 categories: ["javascript"]
 tags: []

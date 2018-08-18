@@ -1,5 +1,5 @@
 ---
-title: "`toLocaleString` may return different values than before"
+title: "`toLocaleString()` may return different values than before"
 date: "2014-02-07T11:57:09-05:00"
 categories: ["javascript"]
 tags: []

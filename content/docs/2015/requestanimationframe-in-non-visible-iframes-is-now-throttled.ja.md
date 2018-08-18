@@ -1,5 +1,5 @@
 ---
-title: "不可視 iframe 内の `requestAnimationFrame` が減速されるようになりました"
+title: "不可視 iframe 内の `requestAnimationFrame()` が減速されるようになりました"
 date: "2015-08-19T17:11:16-04:00"
 categories: ["html"]
 tags: []

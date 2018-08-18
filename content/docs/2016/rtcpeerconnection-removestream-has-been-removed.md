@@ -1,5 +1,5 @@
 ---
-title: "`RTCPeerConnection.removeStream` has been removed"
+title: "`RTCPeerConnection.removeStream()` has been removed"
 date: "2016-08-08T08:23:00-04:00"
 categories: ["audio-video"]
 tags: []

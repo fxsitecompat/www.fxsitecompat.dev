@@ -1,5 +1,5 @@
 ---
-title: "`String.prototype.contains` が `includes` に代わられ削除されました"
+title: "`String.prototype.contains()` が `includes()` に代わられ削除されました"
 date: "2016-04-13T09:30:00-07:00"
 categories: ["javascript"]
 tags: []

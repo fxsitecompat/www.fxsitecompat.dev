@@ -1,5 +1,5 @@
 ---
-title: "`mozApps.installPackage` has been disabled"
+title: "`mozApps.installPackage()` has been disabled"
 date: "2012-10-09T06:00:00-04:00"
 categories: ["dom"]
 tags: []

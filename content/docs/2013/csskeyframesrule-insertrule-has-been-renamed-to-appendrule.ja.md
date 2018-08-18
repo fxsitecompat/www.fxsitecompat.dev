@@ -1,5 +1,5 @@
 ---
-title: "`CSSKeyframesRule.insertRule` が `appendRule` に改名されました"
+title: "`CSSKeyframesRule.insertRule()` が `appendRule()` に改名されました"
 date: "2013-02-06T08:44:10-05:00"
 categories: ["dom"]
 tags: []

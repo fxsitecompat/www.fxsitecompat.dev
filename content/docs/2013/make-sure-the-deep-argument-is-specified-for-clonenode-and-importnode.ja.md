@@ -1,5 +1,5 @@
 ---
-title: "`cloneNode` と `importNode` の `deep` 引数は必ず指定してください"
+title: "`cloneNode()` と `importNode()` の `deep` 引数は必ず指定してください"
 date: "2013-12-09T02:32:17-05:00"
 categories: ["dom"]
 tags: []

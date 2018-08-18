@@ -1,5 +1,5 @@
 ---
-title: "`Date.prototype.toLocaleFormat` が廃止予定となりました"
+title: "`Date.prototype.toLocaleFormat()` が廃止予定となりました"
 date: "2017-08-01T20:07:00-04:00"
 categories: ["javascript"]
 tags: []

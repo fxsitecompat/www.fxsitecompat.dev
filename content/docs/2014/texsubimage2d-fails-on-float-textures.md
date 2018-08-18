@@ -1,5 +1,5 @@
 ---
-title: "`texSubImage2D` fails on float textures"
+title: "`texSubImage2D()` fails on float textures"
 date: "2014-02-07T11:57:09-05:00"
 categories: ["canvas-webgl"]
 tags: []

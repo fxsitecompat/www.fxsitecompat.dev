@@ -1,5 +1,5 @@
 ---
-title: "`Navigator.requestWakeLock` has been disabled except on Firefox OS"
+title: "`Navigator.requestWakeLock()` has been disabled except on Firefox OS"
 date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []

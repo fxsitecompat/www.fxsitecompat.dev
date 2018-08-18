@@ -1,5 +1,5 @@
 ---
-title: "Support for `Blob.mozSlice` has been dropped"
+title: "Support for `Blob.mozSlice()` has been dropped"
 date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []

@@ -1,5 +1,5 @@
 ---
-title: "Make sure the `deep` argument is specified for `cloneNode` and `importNode`"
+title: "Make sure the `deep` argument is specified for `cloneNode()` and `importNode()`"
 date: "2013-12-09T02:32:17-05:00"
 categories: ["dom"]
 tags: []

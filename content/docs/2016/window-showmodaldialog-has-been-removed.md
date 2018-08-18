@@ -1,5 +1,5 @@
 ---
-title: "`window.showModalDialog` has been removed"
+title: "`window.showModalDialog()` has been removed"
 date: "2016-06-08T09:07:00-04:00"
 categories: ["dom"]
 tags: []

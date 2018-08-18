@@ -1,5 +1,5 @@
 ---
-title: "`Event.getPreventDefault` has been removed"
+title: "`Event.getPreventDefault()` has been removed"
 date: "2017-11-15T10:25:00-05:00"
 categories: ["dom"]
 tags: []

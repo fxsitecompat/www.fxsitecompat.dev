@@ -1,5 +1,5 @@
 ---
-title: "`cloneNode` と `importNode` の既定動作が浅い複製になりました"
+title: "`cloneNode()` と `importNode()` の既定動作が浅い複製になりました"
 date: "2014-02-07T11:57:09-05:00"
 categories: ["dom"]
 tags: []

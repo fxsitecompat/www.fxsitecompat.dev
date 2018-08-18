@@ -1,5 +1,5 @@
 ---
-title: "`initCloseEvent` と `createEvent(\'CloseEvent\')` が削除されました"
+title: "`initCloseEvent()` と `createEvent(\'CloseEvent\')` が削除されました"
 date: "2015-06-13T15:20:46-04:00"
 categories: ["dom"]
 tags: []

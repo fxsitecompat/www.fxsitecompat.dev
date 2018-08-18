@@ -1,5 +1,5 @@
 ---
-title: "`Element.mozMatchesSelector` が削除されます"
+title: "`Element.mozMatchesSelector()` が削除されます"
 date: "2015-10-26T20:21:00-07:00"
 categories: ["dom"]
 tags: []

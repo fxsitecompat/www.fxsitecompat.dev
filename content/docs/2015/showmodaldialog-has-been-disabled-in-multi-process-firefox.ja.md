@@ -1,5 +1,5 @@
 ---
-title: "`showModalDialog` がマルチプロセス Firefox で無効化されました"
+title: "`showModalDialog()` がマルチプロセス Firefox で無効化されました"
 date: "2015-12-29T21:46:00-05:00"
 categories: ["dom"]
 tags: []

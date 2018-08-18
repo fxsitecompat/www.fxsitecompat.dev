@@ -1,5 +1,5 @@
 ---
-title: "`TouchList.identifiedTouch` has been removed"
+title: "`TouchList.identifiedTouch()` has been removed"
 date: "2016-04-27T06:28:00-04:00"
 categories: ["dom"]
 tags: []

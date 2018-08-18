@@ -1,5 +1,5 @@
 ---
-title: "`HTMLMediaElement.mozLoadFrom` が削除されました"
+title: "`HTMLMediaElement.mozLoadFrom()` が削除されました"
 date: "2013-05-19T07:35:00-04:00"
 categories: ["audio-video", "dom"]
 tags: []

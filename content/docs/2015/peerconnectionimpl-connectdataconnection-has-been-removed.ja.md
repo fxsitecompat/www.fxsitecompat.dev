@@ -1,5 +1,5 @@
 ---
-title: "`PeerConnectionImpl.connectDataConnection` が削除されました"
+title: "`PeerConnectionImpl.connectDataConnection()` が削除されました"
 date: "2015-01-16T09:37:54-05:00"
 categories: ["audio-video"]
 tags: []

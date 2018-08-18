@@ -1,5 +1,5 @@
 ---
-title: "`XMLHttpRequest.sendAsBinary` has been deprecated"
+title: "`XMLHttpRequest.sendAsBinary()` has been deprecated"
 date: "2014-04-03T19:31:02-04:00"
 categories: ["dom"]
 tags: []

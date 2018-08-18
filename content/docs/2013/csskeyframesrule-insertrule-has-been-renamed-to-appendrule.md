@@ -1,5 +1,5 @@
 ---
-title: "`CSSKeyframesRule.insertRule` has been renamed to `appendRule`"
+title: "`CSSKeyframesRule.insertRule()` has been renamed to `appendRule()`"
 date: "2013-02-06T08:44:10-05:00"
 categories: ["dom"]
 tags: []

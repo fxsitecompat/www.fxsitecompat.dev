@@ -1,5 +1,5 @@
 ---
-title: "`getElementsByTagName` が `tagName` ではなく `localName` に一致するようになりました"
+title: "`getElementsByTagName()` が `tagName` ではなく `localName` に一致するようになりました"
 date: "2015-10-23T02:32:00-07:00"
 categories: ["dom"]
 tags: []

@@ -1,5 +1,5 @@
 ---
-title: "`follow` 以外のリダイレクトモード時にリダイレクトが検出された場合、`fetch` と `Request` は例外を投げます"
+title: "`follow` 以外のリダイレクトモード時にリダイレクトが検出された場合、`fetch()` と `Request` は例外を投げます"
 date: "2016-05-10T20:30:00-04:00"
 categories: ["dom"]
 tags: []

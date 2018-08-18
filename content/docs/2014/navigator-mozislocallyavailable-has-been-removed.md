@@ -1,5 +1,5 @@
 ---
-title: "`Navigator.mozIsLocallyAvailable` has been removed"
+title: "`Navigator.mozIsLocallyAvailable()` has been removed"
 date: "2014-10-17T22:50:44-04:00"
 categories: ["dom"]
 tags: []

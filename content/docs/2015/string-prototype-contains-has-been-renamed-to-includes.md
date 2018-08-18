@@ -1,5 +1,5 @@
 ---
-title: "`String.prototype.contains` has been renamed to `includes`"
+title: "`String.prototype.contains()` has been renamed to `includes()`"
 date: "2015-04-27T13:17:23-04:00"
 categories: ["javascript"]
 tags: []

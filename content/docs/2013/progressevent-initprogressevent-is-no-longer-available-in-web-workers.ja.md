@@ -1,5 +1,5 @@
 ---
-title: "`ProgressEvent.initProgressEvent` が Web Worker 内で使用できなくなりました"
+title: "`ProgressEvent.initProgressEvent()` が Web Worker 内で使用できなくなりました"
 date: "2013-05-19T07:35:00-04:00"
 categories: ["dom"]
 tags: []

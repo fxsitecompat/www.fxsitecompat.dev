@@ -1,5 +1,5 @@
 ---
-title: "`String.match` と `String.replace` が `RegExp.lastIndex` をリセットするようになりました"
+title: "`String.match()` と `String.replace()` が `RegExp.lastIndex` をリセットするようになりました"
 date: "2013-10-08T20:15:35-04:00"
 categories: ["javascript"]
 tags: []

@@ -1,5 +1,5 @@
 ---
-title: "`fetch` and `Request` now throws if redirect is detected when in non-`follow` redirect mode"
+title: "`fetch()` and `Request` now throws if redirect is detected when in non-`follow` redirect mode"
 date: "2016-05-10T20:30:00-04:00"
 categories: ["dom"]
 tags: []

@@ -1,5 +1,5 @@
 ---
-title: "`Navigator.mozIsLocallyAvailable` が削除されました"
+title: "`Navigator.mozIsLocallyAvailable()` が削除されました"
 date: "2014-10-17T22:50:44-04:00"
 categories: ["dom"]
 tags: []

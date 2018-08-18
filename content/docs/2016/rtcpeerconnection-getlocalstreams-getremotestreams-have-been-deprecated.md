@@ -1,5 +1,5 @@
 ---
-title: "`RTCPeerConnection.getLocalStreams`, `getRemoteStreams` have been deprecated"
+title: "`RTCPeerConnection.getLocalStreams()`, `getRemoteStreams()` have been deprecated"
 date: "2016-05-25T15:17:00-04:00"
 categories: ["audio-video"]
 tags: []

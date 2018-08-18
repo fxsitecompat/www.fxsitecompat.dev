@@ -1,5 +1,5 @@
 ---
-title: "`parseInt` now parses leading-zero strings as decimal, not octal"
+title: "`parseInt()` now parses leading-zero strings as decimal, not octal"
 date: "2013-02-06T08:44:10-05:00"
 categories: ["javascript"]
 tags: []

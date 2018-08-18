@@ -1,5 +1,5 @@
 ---
-title: "`Permissions.query` の `userVisible` オプションが `userVisibleOnly` に改名されました"
+title: "`Permissions.query()` の `userVisible` オプションが `userVisibleOnly` に改名されました"
 date: "2016-04-24T06:34:00-04:00"
 categories: ["dom"]
 tags: []

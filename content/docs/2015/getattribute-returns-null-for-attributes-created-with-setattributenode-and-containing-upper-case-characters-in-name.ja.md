@@ -1,5 +1,5 @@
 ---
-title: "`setAttributeNode` で作成され名前に大文字を含む属性について `getAttribute` が `null` を返します"
+title: "`setAttributeNode` で作成され名前に大文字を含む属性について `getAttribute()` が `null` を返します"
 date: "2015-10-22T22:14:00-07:00"
 categories: ["dom"]
 tags: []

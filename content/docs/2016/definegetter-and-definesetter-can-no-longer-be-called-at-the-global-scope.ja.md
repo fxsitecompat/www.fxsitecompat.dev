@@ -1,5 +1,5 @@
 ---
-title: "`__defineGetter__` や `__defineSetter__` をグローバルスコープで呼び出すことはできなくなりました"
+title: "`__defineGetter__()` や `__defineSetter__()` をグローバルスコープで呼び出すことはできなくなりました"
 date: "2016-03-12T19:11:00-05:00"
 categories: ["javascript"]
 tags: []

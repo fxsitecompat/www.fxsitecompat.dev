@@ -1,5 +1,5 @@
 ---
-title: "`window.openDialog` が削除されました"
+title: "`window.openDialog()` が削除されました"
 date: "2014-06-09T02:46:54-04:00"
 categories: ["dom"]
 tags: []

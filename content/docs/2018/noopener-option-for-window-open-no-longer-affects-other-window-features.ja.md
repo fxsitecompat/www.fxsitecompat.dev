@@ -1,5 +1,5 @@
 ---
-title: "`window.open` の `noopener` オプションが他のウィンドウ特性に影響しなくなりました"
+title: "`window.open()` の `noopener` オプションが他のウィンドウ特性に影響しなくなりました"
 date: "2018-08-16T09:27:00-04:00"
 categories: ["dom"]
 tags: []

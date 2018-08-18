@@ -1,5 +1,5 @@
 ---
-title: "`Date.prototype.toLocaleFormat` が削除されました"
+title: "`Date.prototype.toLocaleFormat()` が削除されました"
 date: "2017-10-25T17:27:00-04:00"
 categories: ["javascript"]
 tags: []

@@ -1,5 +1,5 @@
 ---
-title: "`XMLHttpRequest.setRequestHeader` implementation has been fixed to comply with the spec"
+title: "`XMLHttpRequest.setRequestHeader()` implementation has been fixed to comply with the spec"
 date: "2013-02-06T08:44:10-05:00"
 categories: ["dom"]
 tags: []

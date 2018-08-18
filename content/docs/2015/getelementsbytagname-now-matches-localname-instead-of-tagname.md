@@ -1,5 +1,5 @@
 ---
-title: "`getElementsByTagName` now matches `localName` instead of `tagName`"
+title: "`getElementsByTagName()` now matches `localName` instead of `tagName`"
 date: "2015-10-23T02:32:00-07:00"
 categories: ["dom"]
 tags: []

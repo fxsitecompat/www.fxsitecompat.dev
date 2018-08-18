@@ -1,5 +1,5 @@
 ---
-title: "`IDBObjectStore.getAll` and related methods have been unprefixed"
+title: "`IDBObjectStore.getAll()` and related methods have been unprefixed"
 date: "2015-10-25T21:09:00-07:00"
 categories: ["dom"]
 tags: []

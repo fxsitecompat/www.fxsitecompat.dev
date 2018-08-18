@@ -1,5 +1,5 @@
 ---
-title: "`IDBObjectStore.getAll` と関連メソッドの接頭辞が外れました"
+title: "`IDBObjectStore.getAll()` と関連メソッドの接頭辞が外れました"
 date: "2015-10-25T21:09:00-07:00"
 categories: ["dom"]
 tags: []

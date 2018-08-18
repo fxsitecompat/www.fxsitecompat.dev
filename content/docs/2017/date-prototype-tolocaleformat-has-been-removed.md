@@ -1,5 +1,5 @@
 ---
-title: "`Date.prototype.toLocaleFormat` has been removed"
+title: "`Date.prototype.toLocaleFormat()` has been removed"
 date: "2017-10-25T17:27:00-04:00"
 categories: ["javascript"]
 tags: []

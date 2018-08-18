@@ -1,5 +1,5 @@
 ---
-title: "`TouchList.identifiedTouch` が削除されました"
+title: "`TouchList.identifiedTouch()` が削除されました"
 date: "2016-04-27T06:28:00-04:00"
 categories: ["dom"]
 tags: []

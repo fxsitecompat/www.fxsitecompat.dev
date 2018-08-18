@@ -1,5 +1,5 @@
 ---
-title: "`noopener` option for `window.open` no longer affects other window features"
+title: "`noopener` option for `window.open()` no longer affects other window features"
 date: "2018-08-16T09:27:00-04:00"
 categories: ["dom"]
 tags: []

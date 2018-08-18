@@ -1,5 +1,5 @@
 ---
-title: "`showModalDialog` が廃止予定となりました"
+title: "`showModalDialog()` が廃止予定となりました"
 date: "2013-12-09T02:32:17-05:00"
 categories: ["dom"]
 tags: []

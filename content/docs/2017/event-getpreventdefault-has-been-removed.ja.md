@@ -1,5 +1,5 @@
 ---
-title: "`Event.getPreventDefault` が削除されました"
+title: "`Event.getPreventDefault()` が削除されました"
 date: "2017-11-15T10:25:00-05:00"
 categories: ["dom"]
 tags: []

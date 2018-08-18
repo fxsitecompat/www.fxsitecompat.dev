@@ -1,5 +1,5 @@
 ---
-title: "`document.execCommand` for cut, copy and paste no longer throws"
+title: "`document.execCommand()` for cut, copy and paste no longer throws"
 date: "2015-06-13T15:20:46-04:00"
 categories: ["dom"]
 tags: []

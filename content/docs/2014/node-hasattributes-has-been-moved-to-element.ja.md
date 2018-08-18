@@ -1,5 +1,5 @@
 ---
-title: "`Node.hasAttributes` が `Element` へ移動されました"
+title: "`Node.hasAttributes()` が `Element` へ移動されました"
 date: "2014-10-17T22:50:44-04:00"
 categories: ["dom"]
 tags: []

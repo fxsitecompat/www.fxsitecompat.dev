@@ -1,5 +1,5 @@
 ---
-title: "`document.createAttribute` now lowercases the input"
+title: "`document.createAttribute()` now lowercases the input"
 date: "2015-12-16T10:27:00-05:00"
 categories: ["dom"]
 tags: []

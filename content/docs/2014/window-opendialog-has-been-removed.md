@@ -1,5 +1,5 @@
 ---
-title: "`window.openDialog` has been removed"
+title: "`window.openDialog()` has been removed"
 date: "2014-06-09T02:46:54-04:00"
 categories: ["dom"]
 tags: []

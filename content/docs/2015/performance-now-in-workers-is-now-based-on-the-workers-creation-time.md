@@ -1,5 +1,5 @@
 ---
-title: "`performance.now` in workers is now based on the worker's creation time"
+title: "`performance.now()` in workers is now based on the worker's creation time"
 date: "2015-12-17T14:39:00-05:00"
 categories: ["dom"]
 tags: []

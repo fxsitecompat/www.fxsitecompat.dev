@@ -1,5 +1,5 @@
 ---
-title: "`ArrayBuffer.slice` が廃止予定となりました"
+title: "`ArrayBuffer.slice()` が廃止予定となりました"
 date: "2016-11-16T19:34:00-05:00"
 categories: ["javascript"]
 tags: []

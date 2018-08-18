@@ -1,5 +1,5 @@
 ---
-title: "`NodeIterator.detach` が何もしなくなりました"
+title: "`NodeIterator.detach()` が何もしなくなりました"
 date: "2013-02-24T03:44:31-05:00"
 categories: ["dom"]
 tags: []

@@ -1,5 +1,5 @@
 ---
-title: "`String.prototype.quote` has been removed"
+title: "`String.prototype.quote()` has been removed"
 date: "2015-01-16T09:37:54-05:00"
 categories: ["javascript"]
 tags: []

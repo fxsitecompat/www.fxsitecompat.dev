@@ -1,5 +1,5 @@
 ---
-title: "複数のルールが指定された場合に `CSSStyleSheet.insertRule` が例外を投げるようになりました"
+title: "複数のルールが指定された場合に `CSSStyleSheet.insertRule()` が例外を投げるようになりました"
 date: "2013-02-06T08:44:10-05:00"
 categories: ["dom"]
 tags: []

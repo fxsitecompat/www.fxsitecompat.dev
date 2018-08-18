@@ -1,5 +1,5 @@
 ---
-title: "Network error for async XHR now fires `error` event instead of throwing, `getAllResponseHeaders` will be empty"
+title: "Network error for async XHR now fires `error` event instead of throwing, `getAllResponseHeaders()` will be empty"
 date: "2016-08-01T00:04:00-04:00"
 categories: ["dom"]
 tags: []

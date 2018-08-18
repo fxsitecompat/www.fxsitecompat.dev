@@ -1,5 +1,5 @@
 ---
-title: "`Object.prototype.watch` has been deprecated"
+title: "`Object.prototype.watch()` has been deprecated"
 date: "2017-08-21T16:27:00-04:00"
 categories: ["javascript"]
 tags: []

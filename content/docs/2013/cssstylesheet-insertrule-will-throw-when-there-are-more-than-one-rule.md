@@ -1,5 +1,5 @@
 ---
-title: "`CSSStyleSheet.insertRule` will throw when there are more than one rule"
+title: "`CSSStyleSheet.insertRule()` will throw when there are more than one rule"
 date: "2013-02-06T08:44:10-05:00"
 categories: ["dom"]
 tags: []

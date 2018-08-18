@@ -1,5 +1,5 @@
 ---
-title: "`getAttribute` returns `null` for attributes created with `setAttributeNode` and containing upper-case characters in name"
+title: "`getAttribute()` returns `null` for attributes created with `setAttributeNode` and containing upper-case characters in name"
 date: "2015-10-22T22:14:00-07:00"
 categories: ["dom"]
 tags: []

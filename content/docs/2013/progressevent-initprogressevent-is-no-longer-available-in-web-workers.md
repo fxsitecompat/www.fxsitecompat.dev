@@ -1,5 +1,5 @@
 ---
-title: "`ProgressEvent.initProgressEvent` is no longer available in Web Workers"
+title: "`ProgressEvent.initProgressEvent()` is no longer available in Web Workers"
 date: "2013-05-19T07:35:00-04:00"
 categories: ["dom"]
 tags: []

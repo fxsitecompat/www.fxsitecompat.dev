@@ -1,5 +1,5 @@
 ---
-title: "`ArrayBuffer.slice` が削除されました"
+title: "`ArrayBuffer.slice()` が削除されました"
 date: "2016-12-04T19:50:00-05:00"
 categories: ["javascript"]
 tags: []

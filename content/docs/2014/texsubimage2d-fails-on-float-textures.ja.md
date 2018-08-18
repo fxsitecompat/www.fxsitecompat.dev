@@ -1,5 +1,5 @@
 ---
-title: "`texSubImage2D` が浮動小数点テクスチャ上でエラーとなります"
+title: "`texSubImage2D()` が浮動小数点テクスチャ上でエラーとなります"
 date: "2014-02-07T11:57:09-05:00"
 categories: ["canvas-webgl"]
 tags: []

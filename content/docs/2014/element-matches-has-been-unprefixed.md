@@ -1,5 +1,5 @@
 ---
-title: "`Element.matches` has been unprefixed"
+title: "`Element.matches()` has been unprefixed"
 date: "2014-09-01T22:12:15-04:00"
 categories: ["dom"]
 tags: []

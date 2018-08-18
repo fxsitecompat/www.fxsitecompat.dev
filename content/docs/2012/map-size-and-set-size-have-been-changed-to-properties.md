@@ -1,5 +1,5 @@
 ---
-title: "`Map.size` and `Set.size` have been changed to properties"
+title: "`Map.size()` and `Set.size()` have been changed to properties"
 date: "2012-12-03T03:54:45-05:00"
 categories: ["javascript"]
 tags: []

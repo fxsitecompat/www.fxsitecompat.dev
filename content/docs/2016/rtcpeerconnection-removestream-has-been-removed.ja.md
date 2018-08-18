@@ -1,5 +1,5 @@
 ---
-title: "`RTCPeerConnection.removeStream` が削除されました"
+title: "`RTCPeerConnection.removeStream()` が削除されました"
 date: "2016-08-08T08:23:00-04:00"
 categories: ["audio-video"]
 tags: []

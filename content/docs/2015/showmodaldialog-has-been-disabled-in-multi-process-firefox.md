@@ -1,5 +1,5 @@
 ---
-title: "`showModalDialog` has been disabled in multi-process Firefox"
+title: "`showModalDialog()` has been disabled in multi-process Firefox"
 date: "2015-12-29T21:46:00-05:00"
 categories: ["dom"]
 tags: []

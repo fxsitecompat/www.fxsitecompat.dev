@@ -1,5 +1,5 @@
 ---
-title: "`XMLHttpRequest.setRequestHeader` の実装が仕様に準拠するよう修正されました"
+title: "`XMLHttpRequest.setRequestHeader()` の実装が仕様に準拠するよう修正されました"
 date: "2013-02-06T08:44:10-05:00"
 categories: ["dom"]
 tags: []

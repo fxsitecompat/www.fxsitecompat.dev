@@ -1,5 +1,5 @@
 ---
-title: "`RTCPeerConnection.getLocalStreams`、`getRemoteStreams` が廃止予定となりました"
+title: "`RTCPeerConnection.getLocalStreams()`、`getRemoteStreams()` が廃止予定となりました"
 date: "2016-05-25T15:17:00-04:00"
 categories: ["audio-video"]
 tags: []

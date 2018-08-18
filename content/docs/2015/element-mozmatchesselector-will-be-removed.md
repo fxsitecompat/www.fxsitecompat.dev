@@ -1,5 +1,5 @@
 ---
-title: "`Element.mozMatchesSelector` will be removed"
+title: "`Element.mozMatchesSelector()` will be removed"
 date: "2015-10-26T20:21:00-07:00"
 categories: ["dom"]
 tags: []

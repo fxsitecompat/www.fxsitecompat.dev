@@ -1,5 +1,5 @@
 ---
-title: "非同期 XHR のネットワークエラーが例外の代わりに `error` イベントを発生させるようになり、`getAllResponseHeaders` は空文字列を返します"
+title: "非同期 XHR のネットワークエラーが例外の代わりに `error` イベントを発生させるようになり、`getAllResponseHeaders()` は空文字列を返します"
 date: "2016-08-01T00:04:00-04:00"
 categories: ["dom"]
 tags: []

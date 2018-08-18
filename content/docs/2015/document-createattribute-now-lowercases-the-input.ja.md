@@ -1,5 +1,5 @@
 ---
-title: "`document.createAttribute` が引数を小文字に変換するようになりました"
+title: "`document.createAttribute()` が引数を小文字に変換するようになりました"
 date: "2015-12-16T10:27:00-05:00"
 categories: ["dom"]
 tags: []

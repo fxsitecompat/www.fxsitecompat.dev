@@ -1,5 +1,5 @@
 ---
-title: "`Navigator.requestWakeLock` が Firefox OS 以外で無効化されました"
+title: "`Navigator.requestWakeLock()` が Firefox OS 以外で無効化されました"
 date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []

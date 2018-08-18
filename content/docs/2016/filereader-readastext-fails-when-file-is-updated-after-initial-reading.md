@@ -1,5 +1,5 @@
 ---
-title: "`FileReader.readAsText` fails when file is updated after initial reading"
+title: "`FileReader.readAsText()` fails when file is updated after initial reading"
 date: "2016-04-06T18:19:00-04:00"
 categories: ["dom"]
 tags: []

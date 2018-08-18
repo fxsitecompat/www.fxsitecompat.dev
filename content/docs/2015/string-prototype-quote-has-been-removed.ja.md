@@ -1,5 +1,5 @@
 ---
-title: "`String.prototype.quote` が削除されました"
+title: "`String.prototype.quote()` が削除されました"
 date: "2015-01-16T09:37:54-05:00"
 categories: ["javascript"]
 tags: []

@@ -1,5 +1,5 @@
 ---
-title: "`Element.matches` の接頭辞が外れました"
+title: "`Element.matches()` の接頭辞が外れました"
 date: "2014-09-01T22:12:15-04:00"
 categories: ["dom"]
 tags: []

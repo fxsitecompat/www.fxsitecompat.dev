@@ -1,5 +1,5 @@
 ---
-title: "`mozRequestAnimationFrame` and related APIs have been removed"
+title: "`mozRequestAnimationFrame()` and related APIs have been removed"
 date: "2015-08-05T00:48:18-04:00"
 categories: ["dom"]
 tags: []

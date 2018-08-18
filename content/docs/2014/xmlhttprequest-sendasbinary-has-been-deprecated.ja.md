@@ -1,5 +1,5 @@
 ---
-title: "`XMLHttpRequest.sendAsBinary` が廃止予定となりました"
+title: "`XMLHttpRequest.sendAsBinary()` が廃止予定となりました"
 date: "2014-04-03T19:31:02-04:00"
 categories: ["dom"]
 tags: []

@@ -1,5 +1,5 @@
 ---
-title: "`ArrayBuffer.slice` has been deprecated"
+title: "`ArrayBuffer.slice()` has been deprecated"
 date: "2016-11-16T19:34:00-05:00"
 categories: ["javascript"]
 tags: []

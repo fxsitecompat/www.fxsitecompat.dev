@@ -1,5 +1,5 @@
 ---
-title: "`XMLHttpRequest.sendAsBinary` が削除されました"
+title: "`XMLHttpRequest.sendAsBinary()` が削除されました"
 date: "2015-03-17T14:02:59-04:00"
 categories: ["dom"]
 tags: []

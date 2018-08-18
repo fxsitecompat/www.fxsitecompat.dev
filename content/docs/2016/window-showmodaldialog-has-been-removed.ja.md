@@ -1,5 +1,5 @@
 ---
-title: "`window.showModalDialog` が削除されました"
+title: "`window.showModalDialog()` が削除されました"
 date: "2016-06-08T09:07:00-04:00"
 categories: ["dom"]
 tags: []

@@ -1,5 +1,5 @@
 ---
-title: "`HTMLCanvasElement.getContext` がオブジェクトでないコンテキスト属性を受け付けなくなりました"
+title: "`HTMLCanvasElement.getContext()` がオブジェクトでないコンテキスト属性を受け付けなくなりました"
 date: "2016-02-07T23:01:00-05:00"
 categories: ["canvas-webgl"]
 tags: []

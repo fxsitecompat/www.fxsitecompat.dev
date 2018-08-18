@@ -1,5 +1,5 @@
 ---
-title: "`HTMLCanvasElement.getContext` no longer accepts non-object context attributes"
+title: "`HTMLCanvasElement.getContext()` no longer accepts non-object context attributes"
 date: "2016-02-07T23:01:00-05:00"
 categories: ["canvas-webgl"]
 tags: []

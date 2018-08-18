@@ -1,5 +1,5 @@
 ---
-title: "Instantiation of `AnimationEvent` and `TransitionEvent` using `Document.createEvent` is no longer allowed"
+title: "Instantiation of `AnimationEvent` and `TransitionEvent` using `Document.createEvent()` is no longer allowed"
 date: "2013-04-06T04:52:59-04:00"
 categories: ["dom"]
 tags: []

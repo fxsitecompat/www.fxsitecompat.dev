@@ -1,5 +1,5 @@
 ---
-title: "`document.execCommand` が切り取り、コピー、貼り付けで例外を投げなくなりました"
+title: "`document.execCommand()` が切り取り、コピー、貼り付けで例外を投げなくなりました"
 date: "2015-06-13T15:20:46-04:00"
 categories: ["dom"]
 tags: []

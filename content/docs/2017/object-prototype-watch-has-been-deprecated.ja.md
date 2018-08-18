@@ -1,5 +1,5 @@
 ---
-title: "`Object.prototype.watch` が廃止予定となりました"
+title: "`Object.prototype.watch()` が廃止予定となりました"
 date: "2017-08-21T16:27:00-04:00"
 categories: ["javascript"]
 tags: []

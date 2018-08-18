@@ -1,5 +1,5 @@
 ---
-title: "`HTMLTableElement.insertRow` が列を常に `<tbody>` へ挿入するようになりました"
+title: "`HTMLTableElement.insertRow()` が列を常に `<tbody>` へ挿入するようになりました"
 date: "2014-06-09T02:46:54-04:00"
 categories: ["dom"]
 tags: []

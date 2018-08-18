@@ -1,5 +1,5 @@
 ---
-title: "Worker 内の `performance.now` がその Worker の作成時刻を基準とするようになりました"
+title: "Worker 内の `performance.now()` がその Worker の作成時刻を基準とするようになりました"
 date: "2015-12-17T14:39:00-05:00"
 categories: ["dom"]
 tags: []

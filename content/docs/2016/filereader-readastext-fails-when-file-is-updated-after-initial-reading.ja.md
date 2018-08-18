@@ -1,5 +1,5 @@
 ---
-title: "ファイルが初回読み取り後に更新された場合 `FileReader.readAsText` が動作しません"
+title: "ファイルが初回読み取り後に更新された場合 `FileReader.readAsText()` が動作しません"
 date: "2016-04-06T18:19:00-04:00"
 categories: ["dom"]
 tags: []

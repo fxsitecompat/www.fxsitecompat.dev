@@ -1,5 +1,5 @@
 ---
-title: "`Headers.getAll` has been removed in favour of `get` now returning all values"
+title: "`Headers.getAll()` has been removed in favour of `get()` now returning all values"
 date: "2016-11-16T15:51:00-05:00"
 categories: ["dom"]
 tags: []

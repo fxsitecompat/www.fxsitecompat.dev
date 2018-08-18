@@ -1,5 +1,5 @@
 ---
-title: "`Blob.mozSlice` の対応が廃止されました"
+title: "`Blob.mozSlice()` の対応が廃止されました"
 date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []

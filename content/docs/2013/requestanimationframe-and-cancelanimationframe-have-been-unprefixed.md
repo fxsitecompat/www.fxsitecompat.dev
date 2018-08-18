@@ -1,5 +1,5 @@
 ---
-title: "`requestAnimationFrame` and `cancelAnimationFrame` have been unprefixed"
+title: "`requestAnimationFrame()` and `cancelAnimationFrame()` have been unprefixed"
 date: "2013-04-06T04:52:59-04:00"
 categories: ["dom"]
 tags: []

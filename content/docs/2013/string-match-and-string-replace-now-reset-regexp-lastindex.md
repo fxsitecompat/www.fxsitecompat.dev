@@ -1,5 +1,5 @@
 ---
-title: "`String.match` and `String.replace` now reset `RegExp.lastIndex`"
+title: "`String.match()` and `String.replace()` now reset `RegExp.lastIndex`"
 date: "2013-10-08T20:15:35-04:00"
 categories: ["javascript"]
 tags: []

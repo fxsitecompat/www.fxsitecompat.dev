@@ -1,5 +1,5 @@
 ---
-title: "`mozApps.installPackage` が無効化されました"
+title: "`mozApps.installPackage()` が無効化されました"
 date: "2012-10-09T06:00:00-04:00"
 categories: ["dom"]
 tags: []

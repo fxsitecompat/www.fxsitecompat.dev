@@ -1,5 +1,5 @@
 ---
-title: "`toLocaleString` が従来と異なる値を返す可能性があります"
+title: "`toLocaleString()` が従来と異なる値を返す可能性があります"
 date: "2014-02-07T11:57:09-05:00"
 categories: ["javascript"]
 tags: []

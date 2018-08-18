@@ -1,5 +1,5 @@
 ---
-title: "`Document.createEvent` による `AnimationEvent` と `TransitionEvent` インスタンスの生成が認められなくなりました"
+title: "`Document.createEvent()` による `AnimationEvent` と `TransitionEvent` インスタンスの生成が認められなくなりました"
 date: "2013-04-06T04:52:59-04:00"
 categories: ["dom"]
 tags: []

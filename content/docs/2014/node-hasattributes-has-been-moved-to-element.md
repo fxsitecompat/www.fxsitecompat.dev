@@ -1,5 +1,5 @@
 ---
-title: "`Node.hasAttributes` has been moved to `Element`"
+title: "`Node.hasAttributes()` has been moved to `Element`"
 date: "2014-10-17T22:50:44-04:00"
 categories: ["dom"]
 tags: []

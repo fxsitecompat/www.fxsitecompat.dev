@@ -1,5 +1,5 @@
 ---
-title: "`Permissions.query`'s `userVisible` option has been renamed to `userVisibleOnly`"
+title: "`Permissions.query()`'s `userVisible` option has been renamed to `userVisibleOnly`"
 date: "2016-04-24T06:34:00-04:00"
 categories: ["dom"]
 tags: []

@@ -1,5 +1,5 @@
 ---
-title: "`HTMLMediaElement.mozLoadFrom` has been removed"
+title: "`HTMLMediaElement.mozLoadFrom()` has been removed"
 date: "2013-05-19T07:35:00-04:00"
 categories: ["audio-video", "dom"]
 tags: []
