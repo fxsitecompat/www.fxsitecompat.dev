@@ -18,3 +18,5 @@ references:
 [Firefox 58](https://www.fxsitecompat.com/ja/docs/2018/symantec-issued-certificates-will-soon-be-distrusted/) 以降、影響を受ける証明書に対してコンソール警告が表示されており、[Firefox 60](https://www.fxsitecompat.com/ja/docs/2018/symantec-certificates-issued-before-june-2016-are-now-distrusted/) では 2016 年 6 月より前に発行された証明書への信頼が既に失われています。Firefox 63 以降、発行日に関わらず、Symantec から発行された証明書を使ったサイトに対して「安全でない接続」のエラーページが表示されます。
 
 望まないエラーページを避けるため、それらのいずれかの証明書を使っているウェブマスターの皆さんは、できる限り早く [それを新しいものと交換する](https://www.symantec.com/connect/ja/blogs/symantec-ssltls) か、他の認証局から代わりの証明書を入手しなくてはなりません。私たちは、信頼できる証明書を無償で提供している [Let's Encrypt](https://letsencrypt.org/) を推奨します。
+
+**更新**: この変更は 8 月 14 日に [Firefox Nightly](https://blog.nightly.mozilla.org/2018/08/14/symantec-distrust-in-firefox-nightly-63/) 上で行われ、影響を受けるサイトは [Bug 1484006](https://bugzilla.mozilla.org/show_bug.cgi?id=1484006) で把握されています。
