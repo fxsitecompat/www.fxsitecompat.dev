@@ -1,5 +1,5 @@
 ---
-title: "`navigator.platform` が 64 ビット版 Firefox 上でも `\"Win32\"` を返すようになりました"
+title: "`navigator.platform` が 64 ビット版 Firefox 上でも `Win32` を返すようになりました"
 date: "2018-08-14T03:35:00-04:00"
 categories: ["dom", "html"]
 tags: []
