@@ -14,7 +14,7 @@ references:
 ---
 最新の CSS Logical Properties and Values 仕様に従い、Firefox 63 で以下の論理プロパティが改名されました。これらは今のところ Firefox にしか実装されておらず、まだ広く使われていないことから、この変更は移行期間なしに行われました。
 
-* [`offset-block-start`](https://developer.mozilla.org/docs/Web/CSS/offset-block-start) → `inset-block-start`
-* [`offset-block-end`](https://developer.mozilla.org/docs/Web/CSS/offset-block-end) → `inset-block-end`
-* [`offset-inline-start`](https://developer.mozilla.org/docs/Web/CSS/offset-inline-start) → `inset-inline-start`
-* [`offset-inline-end`](https://developer.mozilla.org/docs/Web/CSS/offset-inline-end) → `inset-inline-end`
+* `offset-block-start` → [`inset-block-start`](https://developer.mozilla.org/docs/Web/CSS/inset-block-start)
+* `offset-block-end` → [`inset-block-end`](https://developer.mozilla.org/docs/Web/CSS/inset-block-end)
+* `offset-inline-start` → [`inset-inline-start`](https://developer.mozilla.org/docs/Web/CSS/inset-inline-start)
+* `offset-inline-end` → [`inset-inline-end`](https://developer.mozilla.org/docs/Web/CSS/inset-inline-end)
