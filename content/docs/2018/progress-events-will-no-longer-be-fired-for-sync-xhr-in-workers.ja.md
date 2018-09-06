@@ -8,4 +8,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1459984"
       title: "Bug 1459984 - Avoid firing an event named progress with synchronous XMLHttpRequest"
 ---
-Firefox 63 以降、最新の `XMLHttpRequest` 仕様に従い、ワーカー内部の [同期リクエスト](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests#Synchronous_request) 上では [`progress`](https://developer.mozilla.org/docs/Web/Events/progress) イベントが発生しなくなります。メインスレッド上では、少なくとも Firefox 52 以降この種類のイベントは発生していません。この変更は非同期リクエストには影響しません。
+Firefox 63 以降、最新の `XMLHttpRequest` 仕様に従い、ワーカー内部の同期リクエスト上では [`progress`](https://developer.mozilla.org/docs/Web/Events/progress) イベントが発生しなくなります。メインスレッド上では、少なくとも Firefox 52 以降この種類のイベントは発生していません。ダウンロードやアップロードの [進捗状況を監視](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest#Monitoring_progress) したい場合は、この変更の影響を受けない非同期リクエストを用いる必要があります。
