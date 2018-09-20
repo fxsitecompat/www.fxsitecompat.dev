@@ -4,6 +4,7 @@ date: "2018-08-17T11:57:00-04:00"
 categories: ["css"]
 tags: []
 versions: ["63"]
+statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1481866"
       title: "Bug 1481866 - swap values of 2-value 'overflow' syntax so block is first and inline is second"
@@ -24,3 +25,5 @@ overflow: hidden scroll;
 Given that the shorthand syntax is still new and only implemented in the latest versions of Firefox and [Google Chrome](https://www.chromestatus.com/feature/5090725653905408) so far, the compatibility risk should be very low, hence the change.
 
 At the time of writing, the `overflow-block` and `overflow-inline` longhand properties are not implemented yet.
+
+**Update**: This change has been [reverted during the Beta period](https://bugzilla.mozilla.org/show_bug.cgi?id=1492567), because the latest spec proposes a different, backward-compatible behaviour than the swap.

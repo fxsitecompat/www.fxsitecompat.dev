@@ -4,6 +4,7 @@ date: "2018-08-17T11:57:00-04:00"
 categories: ["css"]
 tags: []
 versions: ["63"]
+statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1481866"
       title: "Bug 1481866 - swap values of 2-value 'overflow' syntax so block is first and inline is second"
@@ -24,3 +25,5 @@ overflow: hidden scroll;
 このショートハンド構文はまだ新しく、今のところ Firefox と [Google Chrome](https://www.chromestatus.com/feature/5090725653905408) の最新版にしか実装されていないことから、互換性リスクは非常に低いはずで、そのために変更が行われました。
 
 本稿執筆時点で、`overflow-block`、`overflow-inline` 両ロングハンドプロパティは未実装です。
+
+**更新**: 値の入れ替えとは異なる後方互換性に配慮した挙動が最新の仕様で提案されたことから、この変更は [ベータ期間中に取り消されました](https://bugzilla.mozilla.org/show_bug.cgi?id=1492567)。
