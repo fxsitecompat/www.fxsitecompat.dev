@@ -14,4 +14,6 @@ slug: "tools"
 
 基礎データが整ったところで、[Firefox 開発ツール](https://developer.mozilla.org/docs/Tools) 向け拡張機能の提供も行います。現在開かれているページ上で削除あるいは廃止予定となった機能が使われていた場合にその一覧が表示され、ウェブ開発は即座に修正することが可能となります。技術的制約から、今後公開されるデータセットに含まれるすべての機能をチェックすることは困難ですが、[HTML](https://www.fxsitecompat.com/ja/categories/html/)、[CSS](https://www.fxsitecompat.com/ja/categories/css/)、[JavaScript](https://www.fxsitecompat.com/ja/categories/javascript/)、[DOM](https://www.fxsitecompat.com/ja/categories/dom/) 内のほとんどの問題は列挙できるでしょう。
 
+Visual Studio Code 向けの拡張機能も計画しています。
+
 このチェッカーは、未対応の機能や他のブラウザーも扱うために外部の互換性データを一部活用する可能性があります。また、リグレッションアラートやレポーターといったいくつかのユーティリティによって利便性を向上させることも検討しています。
