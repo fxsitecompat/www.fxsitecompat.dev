@@ -7,10 +7,6 @@ hasCJKLanguage: true
 disablePathToLower: true
 copyright: "Kohei Yoshino and individual contributors."
 
-# https://gohugo.io/content-management/syntax-highlighting/
-pygmentsUseClasses: true
-pygmentsCodefences: true
-
 taxonomies:
     category: "categories"
     version: "versions"
