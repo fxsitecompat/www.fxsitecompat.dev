@@ -15,4 +15,4 @@ references:
 ---
 [`window.getComputedStyle`](https://developer.mozilla.org/docs/Web/API/Window/getComputedStyle) メソッドは従来、指定された要素のスタイルが取得できない場合に `null` を返すか例外を投げていました。こうしたエッジケースは例えば表示されていない `<iframe>` などで見られます。Firefox 62 以降、CSSOM 仕様や他のブラウザーの挙動との整合性を高めるため、このメソッドは、`length` プロパティに `0`、すべての宣言に空文字列を伴った `CSSStyleDeclaration` オブジェクトを返すようになります。
 
-**更新**: この変更により *Zyxel.com* に影響があり、ドロップダウンメニューが間違った位置に表示されています。
+**更新**: この変更により *Zendesk Web Widget* に影響があり、ドロップダウンメニューが間違った位置に表示されています。

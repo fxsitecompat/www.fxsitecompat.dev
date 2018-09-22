@@ -15,4 +15,4 @@ references:
 ---
 Previously, the [`window.getComputedStyle`](https://developer.mozilla.org/docs/Web/API/Window/getComputedStyle) method was returning `null` or throwing an exception when the style of the given element cannot be retrieved. Such edge cases can be seen with a hidden `<iframe>`, for instance. On Firefox 62 and later, to better align with the CSSOM spec and other browsers' behaviour, the method will return a `CSSStyleDeclaration` object which has `0` for the `length` property and an empty string for every declaration.
 
-**Update**: This change breaks *Zyxel.com* where dropdown menus are wrongly positioned.
+**Update**: This change breaks *Zendesk Web Widget* where dropdown menus are wrongly positioned.
