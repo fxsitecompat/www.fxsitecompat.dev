@@ -72,7 +72,7 @@
     text-align: left;
   }
 
-  strong {
+  th, strong {
     font-weight: 500;
   }
 
@@ -175,6 +175,10 @@
     margin: 1em 0 !important; /* Override prism.css */
     padding: 1em;
     background-color: #FFF !important; /* Override prism.css */
+  }
+
+  table {
+    background-color: #FFF !important;
   }
 
   a:link, a:visited {
