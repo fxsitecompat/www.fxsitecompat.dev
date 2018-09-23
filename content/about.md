@@ -32,3 +32,9 @@ While we may cover cross-browser compatibility or interoperability on our blog, 
 This initiative is led by [Kohei Yoshino](https://mozillians.org/u/kohei.yoshino), a long-time Mozilla contributor. He has been an active Mozilla community member since 2002, and also worked for now-gone Mozilla Japan Ltd. as a full-time employee from 2004 to 2012. Actually, our early documents were first written in Japanese as an internal project of Mozilla Japan Ltd.
 
 Help is always welcome! See the [Contribute](https://www.fxsitecompat.com/en-CA/contribute/) page for what you can do. If you have any questions or feedback, feel free to reach us out at any time via one of our social media or [email](mailto:kohei@fxsitecompat.com).
+
+## Acknowledgement
+
+While this project remains independent, we have been partially backed by Mozilla. As mentioned above, our early documents were created in-house. From January to June 2018, our documentation work was once again [funded by the Mozilla Corporation](https://www.fxsitecompat.com/en-CA/blog/2018/firefox-59-developer-edition-project-update-and-2-things-you-must-do-in-2018/).
+
+We also thank individuals who have supported our initiative by tipping generously or giving feedback!
