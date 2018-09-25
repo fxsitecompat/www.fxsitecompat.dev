@@ -20,3 +20,5 @@ As the last step in the ongoing multi-vendor distrust actions against Symantec d
 To avoid the unwanted error page, webmasters using any of these certificates have to [replace it with a new one](https://www.symantec.com/connect/blogs/information-replacement-symantec-ssltls-certificates) or obtain an alternative certificate from other CA as soon as possible. We recommend [Let's Encrypt](https://letsencrypt.org/) that offers trusted certificates for free.
 
 **Update**: The change has been made to [Firefox Nightly](https://blog.nightly.mozilla.org/2018/08/14/symantec-distrust-in-firefox-nightly-63/) on August 14, and affected sites are being tracked in [Bug 1484006](https://bugzilla.mozilla.org/show_bug.cgi?id=1484006). Firefox Beta and Developer Edition will be updated with the change on September 25.
+
+**Update 2** Given that there are still many affected sites, Firefox 63 Beta 9 shipping September 25 is not enabling the distrust by default. Mozilla engineers are watching the situation closely to decide when they should enable it.

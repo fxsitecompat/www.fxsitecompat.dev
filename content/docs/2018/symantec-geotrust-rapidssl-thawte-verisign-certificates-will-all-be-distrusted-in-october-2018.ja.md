@@ -20,3 +20,5 @@ references:
 望まないエラーページを避けるため、それらのいずれかの証明書を使っているウェブマスターの皆さんは、できる限り早く [それを新しいものと交換する](https://www.symantec.com/connect/ja/blogs/symantec-ssltls) か、他の認証局から代わりの証明書を入手しなくてはなりません。私たちは、信頼できる証明書を無償で提供している [Let's Encrypt](https://letsencrypt.org/) を推奨します。
 
 **更新**: この変更は 8 月 14 日に [Firefox Nightly](https://blog.nightly.mozilla.org/2018/08/14/symantec-distrust-in-firefox-nightly-63/) 上で行われ、影響を受けるサイトは [Bug 1484006](https://bugzilla.mozilla.org/show_bug.cgi?id=1484006) で把握されています。Firefox Beta および Developer Edition は 9 月 25 日にこの変更を伴って更新されます。
+
+**更新 2** 影響を受けるサイトがまだ多数存在することから、9 月 25 日公開の Firefox 63 Beta 9 はまだ初期設定で信頼取り消しを有効化していません。Mozilla のエンジニアは、いつ有効化すべきか決定するため、状況を注意深く見守っています。
