@@ -3,7 +3,7 @@ title: "`navigator.buildID` will be removed"
 date: "2015-10-25T21:43:00-07:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["future"]
+versions: ["64"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=583181"
       title: "Bug 583181 - Don't reveal navigator.buildID to every site on the web"
