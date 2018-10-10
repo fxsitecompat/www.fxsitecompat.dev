@@ -9,3 +9,5 @@ references:
       title: "Bug 1366415 - Unprefix autoGainControl and noiseSuppression constraints"
 ---
 The `autoGainControl` and `noiseSuppression` properties on the [`MediaTrackConstraints`](https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints) dictionary are now available unprefixed. These `moz`-prefixed versions will be removed in the near future.
+
+**Update**: The prefixed constraints have been [removed with Firefox 64](https://www.fxsitecompat.com/en-CA/docs/2018/prefixed-autogaincontrol-and-noisesuppression-media-track-constraints-have-been-removed/).
