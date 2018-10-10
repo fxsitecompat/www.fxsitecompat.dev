@@ -3,7 +3,7 @@ title: "Symantec, GeoTrust, RapidSSL, Thawte, Verisign certificates will all be 
 date: "2018-06-05T12:53:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["63"]
+versions: ["64"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1460062"
@@ -21,4 +21,6 @@ To avoid the unwanted error page, webmasters using any of these certificates hav
 
 **Update**: The change has been made to [Firefox Nightly](https://blog.nightly.mozilla.org/2018/08/14/symantec-distrust-in-firefox-nightly-63/) on August 14, and affected sites are being tracked in [Bug 1484006](https://bugzilla.mozilla.org/show_bug.cgi?id=1484006). Firefox Beta and Developer Edition will be updated with the change on September 25.
 
-**Update 2** Given that there are still many affected sites, Firefox 63 Beta 9 shipping September 25 is not enabling the distrust by default. Mozilla engineers are watching the situation closely to decide when they should enable it.
+**Update 2**: Given that there are still many affected sites, Firefox 63 Beta 9 shipping September 25 is not enabling the distrust by default. Mozilla engineers are watching the situation closely to decide when they should enable it.
+
+**Update 3**: Mozilla has officially announced that it will [postpone the distrust](https://blog.mozilla.org/security/2018/10/10/delaying-further-symantec-tls-certificate-distrust/) to Firefox 64 Beta shipping in mid-October.

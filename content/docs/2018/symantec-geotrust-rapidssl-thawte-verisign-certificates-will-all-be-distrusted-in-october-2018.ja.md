@@ -3,7 +3,7 @@ title: "Symantec、GeoTrust、RapidSSL、Thawte、Verisign 証明書への信頼
 date: "2018-06-05T12:53:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["63"]
+versions: ["64"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1460062"
@@ -21,4 +21,6 @@ references:
 
 **更新**: この変更は 8 月 14 日に [Firefox Nightly](https://blog.nightly.mozilla.org/2018/08/14/symantec-distrust-in-firefox-nightly-63/) 上で行われ、影響を受けるサイトは [Bug 1484006](https://bugzilla.mozilla.org/show_bug.cgi?id=1484006) で把握されています。Firefox Beta および Developer Edition は 9 月 25 日にこの変更を伴って更新されます。
 
-**更新 2** 影響を受けるサイトがまだ多数存在することから、9 月 25 日公開の Firefox 63 Beta 9 はまだ初期設定で信頼取り消しを有効化していません。Mozilla のエンジニアは、いつ有効化すべきか決定するため、状況を注意深く見守っています。
+**更新 2**: 影響を受けるサイトがまだ多数存在することから、9 月 25 日公開の Firefox 63 Beta 9 はまだ初期設定で信頼取り消しを有効化していません。Mozilla のエンジニアは、いつ有効化すべきか決定するため、状況を注意深く見守っています。
+
+**更新 3**: Mozilla は 10 月中旬公開の Firefox 64 Beta へ [信頼取り消しを延期する](https://blog.mozilla.org/security/2018/10/10/delaying-further-symantec-tls-certificate-distrust/) ことを正式に発表しました。
