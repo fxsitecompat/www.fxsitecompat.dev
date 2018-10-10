@@ -23,3 +23,5 @@ The following non-standard CSS pseudo-elements are now considered deprecated and
 * `::-moz-tree-row`
 * `::-moz-tree-separator`
 * `::-moz-tree-twisty`
+
+**Update**: These pseudo-elements have been [removed with Firefox 64](https://www.fxsitecompat.com/en-CA/docs/2018/display-moz-box-and-moz-tree-pseudo-elements-have-been-removed/).

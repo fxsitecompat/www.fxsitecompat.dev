@@ -32,3 +32,5 @@ For the meantime, the following values will be left due to concerns over compati
 * `-moz-inline-box`
 
 **Update**: `-moz-box` and `-moz-inline-box` are also [deprecated as of Firefox 63](https://www.fxsitecompat.com/en-CA/docs/2018/display-moz-box-and-display-moz-inline-box-have-been-deprecated/).
+
+**Update 2**: `-moz-box` and `-moz-inline-box` have been [removed with Firefox 64](https://www.fxsitecompat.com/en-CA/docs/2018/display-moz-box-and-moz-tree-pseudo-elements-have-been-removed/).
