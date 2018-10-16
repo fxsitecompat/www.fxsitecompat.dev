@@ -12,6 +12,8 @@ references:
       title: "Bug 1488417 - Even better error message on property access on undefined/null variable"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1490772"
       title: "Bug 1490772 - pro.beefree.io - blank page after 1259822 landed"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1498257"
+      title: "Bug 1498257 - Infinite loop loading Flipkart.com because the site's regex fails to match Firefox's JS error message"
 ---
 コンソール出力をウェブ開発者にとって分かりやすくする取り組みの一環として、`undefined` のプロパティへアクセスしようとした際に生成される JavaScript エラーメッセージが Firefox 63 と 64 で改善されました。例えば、
 
@@ -28,3 +30,5 @@ window.x.y
 この変更は一見したところ無害に見えますが、ページが完全に空白になってしまう問題のあるサイトが報告されました。原因は、独自のエラー処理用に正規表現で JavaScript エラーメッセージを解析しているサイトのコードであることが、Mozilla の開発者によって特定されました。連絡を受けたウェブマスターは Firefox 63 の最終リリース前に問題を修正しました。
 
 エラーメッセージの形式は ECMAScript 仕様で標準化されていないことから、ウェブ開発者はそれらをプログラム上で動的に使用することは避けるべきです。
+
+**更新**: *Flipkart* がこの変更の影響を受けることが判明しています。
