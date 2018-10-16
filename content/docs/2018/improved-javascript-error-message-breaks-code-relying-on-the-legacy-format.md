@@ -4,7 +4,7 @@ date: "2018-09-22T14:42:00-04:00"
 categories: ["javascript"]
 tags: []
 versions: ["63"]
-statuses: "affecting"
+statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1259822"
       title: "Bug 1259822 - Improve the error message produced when a user attempts to access a property of [something that evaluated to] undefined."
@@ -32,3 +32,5 @@ While these changes look harmless, there's a report of a broken site where the p
 Given that the format of error messages is not standardized in the ECMAScript spec, web developers are discouraged to use them programmatically.
 
 **Update**: *Flipkart* is known to be affected by this change.
+
+**Updated 2** This change has been backed out from Firefox 63 Release Candidate 2.

@@ -4,7 +4,7 @@ date: "2018-09-22T14:42:00-04:00"
 categories: ["javascript"]
 tags: []
 versions: ["63"]
-statuses: "affecting"
+statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1259822"
       title: "Bug 1259822 - Improve the error message produced when a user attempts to access a property of [something that evaluated to] undefined."
@@ -32,3 +32,5 @@ window.x.y
 エラーメッセージの形式は ECMAScript 仕様で標準化されていないことから、ウェブ開発者はそれらをプログラム上で動的に使用することは避けるべきです。
 
 **更新**: *Flipkart* がこの変更の影響を受けることが判明しています。
+
+**更新 2** この変更は Firefox 63 Release Candidate 2 からバックアウトされました。
