@@ -8,6 +8,8 @@ statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1460062"
       title: "Bug 1460062 - Enforce Symantec distrust in Firefox 63"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1496467"
+      title: "Bug 1496467 - Enable Symantec Distrust in Firefox 64 Beta"
     - url: "https://blog.mozilla.org/security/2018/03/12/distrust-symantec-tls-certificates/"
       title: "Mozilla Security Blog: Distrust of Symantec TLS Certificates"
     - url: "https://blog.mozilla.org/security/2018/07/30/update-on-the-distrust-of-symantec-tls-certificates/"
@@ -24,3 +26,5 @@ To avoid the unwanted error page, webmasters using any of these certificates hav
 **Update 2**: Given that there are still many affected sites, Firefox 63 Beta 9 shipping September 25 is not enabling the distrust by default. Mozilla engineers are watching the situation closely to decide when they should enable it.
 
 **Update 3**: Mozilla has officially announced that it will [postpone the distrust](https://blog.mozilla.org/security/2018/10/10/delaying-further-symantec-tls-certificate-distrust/) to Firefox 64 Beta shipping in mid-October.
+
+**Update 4**: The distrust is now enabled in Firefox 64 Beta. Webmasters still using one of affected certificates must act now.

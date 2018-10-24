@@ -8,6 +8,8 @@ statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1460062"
       title: "Bug 1460062 - Enforce Symantec distrust in Firefox 63"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1496467"
+      title: "Bug 1496467 - Enable Symantec Distrust in Firefox 64 Beta"
     - url: "https://blog.mozilla.org/security/2018/03/12/distrust-symantec-tls-certificates/"
       title: "Mozilla Security Blog: Distrust of Symantec TLS Certificates"
     - url: "https://blog.mozilla.org/security/2018/07/30/update-on-the-distrust-of-symantec-tls-certificates/"
@@ -24,3 +26,5 @@ references:
 **更新 2**: 影響を受けるサイトがまだ多数存在することから、9 月 25 日公開の Firefox 63 Beta 9 はまだ初期設定で信頼取り消しを有効化していません。Mozilla のエンジニアは、いつ有効化すべきか決定するため、状況を注意深く見守っています。
 
 **更新 3**: Mozilla は 10 月中旬公開の Firefox 64 Beta へ [信頼取り消しを延期する](https://blog.mozilla.org/security/2018/10/10/delaying-further-symantec-tls-certificate-distrust/) ことを正式に発表しました。
+
+**更新 4**: 信頼取り消しは Firefox 64 Beta で有効となりました。まだ影響を受ける証明書を使用しているウェブマスターの皆さんは、今すぐに行動を起こしてください。
