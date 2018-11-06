@@ -1,0 +1,11 @@
+---
+title: "`MediaStream.currentTime` has been removed"
+date: "2018-11-06T12:06:00-05:00"
+categories: ["audio-video", "dom"]
+tags: []
+versions: ["65"]
+references:
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1502927"
+      title: "Bug 1502927 - Remove MediaStream.currentTime"
+---
+Firefox 65 has removed the non-standard `currentTime` property from the `MediaStream` interface. It has never been standardized in the spec and never been implemented by other browsers, so the risk of the removal should be very low.
