@@ -15,6 +15,8 @@ references:
       title: "Bug 1491212 - Make Document.exitFullscreen() return a promise"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1492005"
       title: "Bug 1492005 - Deprecate prefixed Fullscreen API"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1504946"
+      title: "Bug 1504946 - Deprecate moz-prefixed fullscreen API"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/uizXjqHDmQ8/discussion"
       title: "Intent to ship: Unprefixed Fullscreen API"
 ---
@@ -53,3 +55,5 @@ The unprefixed [Fullscreen API](https://developer.mozilla.org/docs/Web/API/Fulls
 | Prefixed | Standard |
 | --- | --- |
 | `:-moz-full-screen` | [`:fullscreen`](https://developer.mozilla.org/docs/Web/CSS/:fullscreen) |
+
+**Update**: Firefox 65 and later will display a deprecation warning to some of these symbols in the console.
