@@ -11,3 +11,5 @@ references:
       title: "Intent to remove: isRemote member in WebRTC getStats() results"
 ---
 `RTCPeerConnection.prototype.getStats` メソッドがリモート統計用に返す `RTCRTPStreamStats` ディクショナリーの `isRemote` 真偽値メンバーが廃止予定とされ、Firefox 65 で削除されることとなりました。[WebRTC チームのブログ記事](https://blog.mozilla.org/webrtc/getstats-isremote-65/) で説明されている通り、代わりに `remoteId` を使用してください。
+
+**更新**: `isRemote` は [Firefox 66 で削除されます](https://bugzilla.mozilla.org/show_bug.cgi?id=1512517)。
