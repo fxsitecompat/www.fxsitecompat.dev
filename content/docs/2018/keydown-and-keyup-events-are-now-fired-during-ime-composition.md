@@ -1,18 +1,26 @@
 ---
-title: "`keydown` and `keyup` events will soon be fired during IME composition"
-date: "2018-05-07T16:20:00-04:00"
+title: "`keydown` and `keyup` events are now fired during IME composition"
+date: "2018-12-11T09:03:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["future"]
+versions: ["65"]
 references:
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=354358"
+      title: "Bug 354358 - keydown/keyup events should be dispatched even during composition (but keypress shouldn't be so)"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1446401"
       title: "Bug 1446401 - Start to dispatch keydown/keyup events even during composition in Nightly and early Beta"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1496288"
+      title: "Bug 1496288 - Ship Window.event, keyCode change, and keypress event handling changes"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/oZEz5JH9ZK8/discussion"
       title: "Intent to ship: Start to dispatch \"keydown\" and \"keyup\" events even if composing (only in Nightly and early Beta)"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/DrYa0gDxI5Q/discussion"
+      title: "Intent to ship: dispatching \"keydown\" and \"keyup\" events during IME composition"
+aliases:
+    - "/en-CA/docs/2018/keydown-and-keyup-events-will-soon-be-fired-during-ime-composition/"
 ---
-In the near future, to follow the [UI Events spec](https://w3c.github.io/uievents/) and other browsers' behaviour, Firefox will start dispatching the `keydown` and `keyup` events even when compositing with an [Input Method Editor](https://en.wikipedia.org/wiki/Input_method) (IME) is in progress. IME helper applications are used by Chinese, Japanese, Korean and Taiwanese (CJKT) people to input their native multibyte characters in text fields.
+In order to follow the [UI Events spec](https://w3c.github.io/uievents/) and other browsers' behaviour, Firefox now dispatches the `keydown` and `keyup` events even when compositing with an [Input Method Editor](https://en.wikipedia.org/wiki/Input_method) (IME) is in progress. IME helper applications are used by Chinese, Japanese, Korean and Taiwanese (CJKT) people to input their native multibyte characters in text fields.
 
-In the current release of Firefox, the following events will be fired when you'd like to input "絵" which means picture(s) in Japanese, for example:
+Previously, the following events would be fired when you'd like to input "絵" which means picture(s) in Japanese, for example:
 
 1. `keydown { isComposing: false, key: "e", keyCode: 69 }`
 1. `compositionstart { data: "" }`
@@ -24,7 +32,7 @@ In the current release of Firefox, the following events will be fired when you'd
 8. `input { isComposing: false }`
 9. `keyup { isComposing: false, key: "Enter", keyCode: 13 }`
 
-In the future releases, this will be:
+In Firefox 65 and later, this will be:
 
 1. `keydown { isComposing: false, key: "Process", keyCode: 229 }`
 2. `compositionstart { data: "" }`
@@ -58,4 +66,4 @@ $input.addEventListener('keydown', event => {
 });
 ```
 
-The new behaviour has already been enabled in the Nightly and early Beta/DevEdition channels as of Firefox 61. Web application developers are encouraged to test with one of the [pre-release builds](https://www.mozilla.org/firefox/channel/desktop/) so the app will continue working as expected for CJKT users. More detailed implementation note can be found in a [newsgroup post](https://groups.google.com/d/topic/mozilla.dev.platform/oZEz5JH9ZK8/discussion) by Mozilla's internationalization engineer.
+The new behaviour had been enabled in the Nightly and early Beta/DevEdition channels as of Firefox 61. Web application developers are encouraged to test their app so it will continue working as expected for CJKT users. More detailed implementation note can be found in a [newsgroup post](https://groups.google.com/d/topic/mozilla.dev.platform/oZEz5JH9ZK8/discussion) by Mozilla's internationalization engineer.
