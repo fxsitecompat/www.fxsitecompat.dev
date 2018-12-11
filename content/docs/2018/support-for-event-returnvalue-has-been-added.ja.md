@@ -4,7 +4,7 @@ date: "2018-08-14T19:14:00-04:00"
 categories: ["dom"]
 tags: []
 versions: ["63"]
-statuses: "affecting"
+statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=218415"
       title: "Bug 218415 - Request for window.event object added to DOM to ease cross browser scripting"
@@ -25,3 +25,5 @@ Firefox 63 で [`window.event`](https://developer.mozilla.org/docs/Web/API/Windo
 **更新**: [`Event.prototype.returnValue`](https://developer.mozilla.org/docs/Web/API/Event/returnValue) プロパティも Firefox 63 で追加されました。この記事のタイトルはそれに合わせて更新されました。
 
 **更新 2**: いくつかの互換性問題により `window.event` は Firefox 63 に追加されないことになりました。これは主に `keyCode` プロパティに Firefox が対応していないためです。`window.event` は Nightly 以外のチャンネルでは [無効化](https://bugzilla.mozilla.org/show_bug.cgi?id=1493869) されました。この記事のタイトルは再度更新されました。
+
+**更新 3**: `Event.returnValue` 対応は、一部ウェブアプリに影響を及ぼしたことから Firefox 64 で [一時的に無効化](https://bugzilla.mozilla.org/show_bug.cgi?id=1510985) されました。`keypress` イベントの互換性問題が解決された後、Firefox 65 で再度有効化されます。

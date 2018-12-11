@@ -4,7 +4,7 @@ date: "2018-08-14T19:14:00-04:00"
 categories: ["dom"]
 tags: []
 versions: ["63"]
-statuses: "affecting"
+statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=218415"
       title: "Bug 218415 - Request for window.event object added to DOM to ease cross browser scripting"
@@ -25,3 +25,5 @@ Note that the support for `srcElement` has already been [added with Firefox 62](
 **Update**: The [`Event.prototype.returnValue`](https://developer.mozilla.org/docs/Web/API/Event/returnValue) property has also been added with Firefox 63. The title of this post has been updated accordingly.
 
 **Update 2**: `window.event` is not going to ship with Firefox 63 due to several compatibility issues, mainly because Firefox doesn't support the `keyCode` property on it. Now `window.event` is [disabled](https://bugzilla.mozilla.org/show_bug.cgi?id=1493869) on non-Nightly channels. The title of this post has been updated again.
+
+**Update 3**: The support for `Event.returnValue` has been [temporarily disabled](https://bugzilla.mozilla.org/show_bug.cgi?id=1510985) in Firefox 64 due to some broken web apps. It will be enabled again with Firefox 65 after the `keypress` event's compatibility issue is solved.
