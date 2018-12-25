@@ -12,4 +12,4 @@ references:
 ---
 [`RTCStatsReport`](https://developer.mozilla.org/docs/Web/API/RTCStatsReport) を提供するコールバックベースの `RTCPeerConnection.prototype.getStats` メソッドは、WebRTC 仕様から削除され、Firefox からも近い将来削除されます。Firefox 53 以降のウェブコンソールでは、この旧バージョンに対して廃止予定の警告が表示されます。代わりに新しい [Promise バージョン](https://w3c.github.io/webrtc-pc/#getstats-example) を使用してください。
 
-**更新**: コールバックベースの `getStats` メソッドは [Firefox 66 で削除されます](https://bugzilla.mozilla.org/show_bug.cgi?id=1512517).
+**更新**: コールバックベースの `getStats` メソッドは [Firefox 66 で削除されました](https://www.fxsitecompat.com/ja/docs/2018/legacy-peerconnection-getstats-support-has-been-removed/).
