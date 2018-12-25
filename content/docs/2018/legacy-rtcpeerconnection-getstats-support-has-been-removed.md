@@ -1,5 +1,5 @@
 ---
-title: "Legacy `PeerConnection.getStats()` support has been removed"
+title: "Legacy `RTCPeerConnection.getStats()` support has been removed"
 date: "2018-12-25T01:19:00-05:00"
 categories: ["audio-video"]
 tags: []
@@ -9,6 +9,8 @@ references:
       title: "Bug 1328194 - Remove legacy PeerConnection.getStats and associated legacy stats type"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1380555"
       title: "Bug 1380555 - Refactor RTCInboundRTPStreamStats & RTCOutboundRTPStreamStats to catch up with the spec"
+aliases:
+    - "/en-CA/docs/2018/legacy-peerconnection-getstats-support-has-been-removed/"
 ---
 The implementation of the [`RTCPeerConnection.prototype.getStats`](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/getStats) method has been updated to the current spec with Firefox 66. The changes include:
 
