@@ -1,7 +1,7 @@
 ---
 title: "`style` 属性向け `xml:base` が無効化されました"
 date: "2017-03-26T02:51:00-04:00"
-categories: ["css", "dom"]
+categories: ["css", "misc"]
 tags: []
 versions: ["55"]
 references:
@@ -18,3 +18,5 @@ references:
 <div xml:base="https://example.com/"
      style="background:url(picture.jpg)"></div>
 ```
+
+**更新**: この属性対応は [Firefox 66](https://www.fxsitecompat.com/ja/docs/2018/xml-base-attribute-is-no-longer-supported/) で完全に削除されました。
