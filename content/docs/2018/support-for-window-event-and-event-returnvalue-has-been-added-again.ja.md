@@ -3,7 +3,7 @@ title: "`window.event` と `Event.returnValue` への対応が再度追加され
 date: "2018-12-24T19:40:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["65"]
+versions: ["66"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=218415"
@@ -24,3 +24,5 @@ Firefox 65 で、Internet Explorer 由来の [`window.event`](https://developer.
 Firefox 65 以降、`keypress` イベントの `keyCode` プロパティが `0` の場合、その値は `charCode` と同じになります。逆に、`charCode` が `0` の場合、その値は `keyCode` と同じになります。このミラーリング挙動は他のブラウザーと一致し、互換性問題の大半を解決するものと期待されていますが、既に [Google によって解決されている](https://github.com/google/closure-library/issues/932) *Closure Library* のように、ユーザーエージェント判別が別の問題を引き起こす可能性があります。
 
 ウェブ開発者はまた、これらの旧非標準プロパティをブラウザー判別に使うのを避けるべきです。
+
+**更新**: この変更は *Confluence* のコメントエディターにおける [入力問題](https://bugzilla.mozilla.org/show_bug.cgi?id=1514940) に対処するため [Firefox 66 へ延期されました](https://bugzilla.mozilla.org/show_bug.cgi?id=1520756)。

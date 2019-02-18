@@ -3,7 +3,7 @@ title: "Support for `window.event` and `Event.returnValue` has been added again"
 date: "2018-12-24T19:40:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["65"]
+versions: ["66"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=218415"
@@ -24,3 +24,5 @@ Firefox 65 has re-added the support for the Internet Explorer-derived [`window.e
 In Firefox 65 and later, when the `keyCode` property of the `keypress` event is `0`, the value will be the same as `charCode`. Conversely, when `charCode` is `0`, it will be the same as `keyCode`. Although this mirroring behaviour matches other browsers and is expected to solve most of the compatibility issues, user agent sniffing might cause another issues like the *Closure Library*, which has already been [solved by Google](https://github.com/google/closure-library/issues/932).
 
 Web developers are also discouraged to use these once-non-standard properties for browser detection.
+
+**Update**: This change has been [postponed to Firefox 66](https://bugzilla.mozilla.org/show_bug.cgi?id=1520756) to deal with an [input issue](https://bugzilla.mozilla.org/show_bug.cgi?id=1514940) in *Confluence*'s comment editor.
