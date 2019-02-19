@@ -4,6 +4,7 @@ date: "2019-02-18T18:55:00-05:00"
 categories: ["audio-video", "html"]
 tags: []
 versions: ["66"]
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1453862"
       title: "Bug 1453862 - Log to web console when autoplay blocked"
@@ -43,3 +44,5 @@ async function play_video() {
   }
 }
 ```
+
+**更新**: 現在の予定では、Firefox Beta で一度 [自動再生のブロックを無効化](https://bugzilla.mozilla.org/show_bug.cgi?id=1522923) した上で、[Shield Program](https://wiki.mozilla.org/Firefox/Shield) を通じて段階的にこの機能を展開していくことになっています。
