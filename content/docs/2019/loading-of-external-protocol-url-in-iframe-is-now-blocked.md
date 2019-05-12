@@ -12,6 +12,8 @@ references:
       title: "Bug 1514547 - Can't open roblox"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1522181"
       title: "Bug 1522181 - external protocol URLs blocking should be behind pref"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1527882"
+      title: "Bug 1527882 - Enable the blocking of external protocol URLs in iframes"
 ---
 On Firefox 66 and later, in order to avoid DoS-like attacks, external protocol URLs that don't return any data can no longer be loaded in an `<iframe>`. The affected protocols include `mailto` that could be used to open an email client, as shown below:
 
@@ -24,4 +26,4 @@ On Firefox 66 and later, in order to avoid DoS-like attacks, external protocol U
 
 Regular links like `<a href="mailto:...">` and JavaScript code like `location.href='mailto:...'` will continue working.
 
-**Update**: This change has been postponed to Firefox 67 so Mozilla developers can deal with site compatibility issues.
+**Update**: This change has been postponed to [Firefox 67](https://bugzilla.mozilla.org/show_bug.cgi?id=1527882) so Mozilla developers can deal with site compatibility issues.
