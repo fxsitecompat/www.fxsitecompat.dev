@@ -26,8 +26,4 @@ Please report any regressions you encountered through one of the following ways:
 
 If you find a mistake on our document or something not covered yet, please [tweet us](https://twitter.com/intent/tweet?text=@fxsitecompat&related=fxsitecompat), [file an issue](https://github.com/fxsitecompat/www.fxsitecompat.com/issues/new), or send us a pull request directly from the "Suggest an Edit" link on each page's footer to help us improve our useful developer resources. You can also send us a direct message via [Twitter](https://twitter.com/messages/compose?recipient_id=1707307399).
 
-## Donate to us
-
-If our resources are useful for you, please consider [making a small donation](https://www.paypal.me/kohei/3) via the project manager Kohei Yoshino. Your tipping helps ensure the sustainability of this independent community initiative by covering our server and domain costs. Thank you.
-
 Together, we build a better Web!

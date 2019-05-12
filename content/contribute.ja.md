@@ -26,8 +26,4 @@ Firefox ユーザーがあなたの「壊れた」サイトを訪れる前に Fi
 
 ドキュメントに間違いを見つけた場合、あるいは何かまだ文書化されていない問題を見つけた場合は、[ツイート](https://twitter.com/intent/tweet?text=@fxsitecompat&related=fxsitecompat) するか、[Issue を登録](https://github.com/fxsitecompat/www.fxsitecompat.com/issues/new) するか、あるいは各ページのフッターにある「編集を提案」というリンクから直接プルリクエストを送って、私たちの有益な開発者リソースの改善にご協力ください。[Twitter](https://twitter.com/messages/compose?recipient_id=1707307399) を通じてダイレクトメッセージを送っていただくこともできます。
 
-## 寄付
-
-私たちが提供するリソースがあなたの役に立っているなら、ぜひプロジェクトマネージャーの Kohei Yoshino を通じて [少額の寄付を行う](https://www.paypal.me/kohei/3) ことを検討してください。あなたの投げ銭はサーバーやドメインの費用に充てられ、この独立したコミュニティイニシアチブの持続可能性を確保するための助けとなります。どうぞよろしくお願いします。
-
 ともに、より良いウェブの世界を築きましょう！
