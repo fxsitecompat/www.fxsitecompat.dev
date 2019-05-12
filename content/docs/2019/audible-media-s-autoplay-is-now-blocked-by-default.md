@@ -14,6 +14,8 @@ references:
       title: "Bug 1478208 - Expose to web content whether autoplay is blocked"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1487844"
       title: "Bug 1487844 - Flip block autoplay prefs to turn the feature on"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1542921"
+      title: "Bug 1542921 - Turn on block autoplay in 67"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/39Q3fW3zl1E/discussion"
       title: "Intent to ship: block audible autoplay media intervention"
 ---
@@ -46,3 +48,5 @@ async function play_video() {
 ```
 
 **Update**: The current plan is [turning off blocking autoplay](https://bugzilla.mozilla.org/show_bug.cgi?id=1522923) once in Firefox Beta, then gradually rolling out the feature through the [Shield Program](https://wiki.mozilla.org/Firefox/Shield).
+
+**Update 2**: Autoplay is blocked by default in [Firefox 67](https://bugzilla.mozilla.org/show_bug.cgi?id=1542921) and later.

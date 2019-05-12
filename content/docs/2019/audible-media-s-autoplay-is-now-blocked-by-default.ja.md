@@ -14,6 +14,8 @@ references:
       title: "Bug 1478208 - Expose to web content whether autoplay is blocked"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1487844"
       title: "Bug 1487844 - Flip block autoplay prefs to turn the feature on"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1542921"
+      title: "Bug 1542921 - Turn on block autoplay in 67"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/39Q3fW3zl1E/discussion"
       title: "Intent to ship: block audible autoplay media intervention"
 ---
@@ -46,3 +48,5 @@ async function play_video() {
 ```
 
 **更新**: 現在の予定では、Firefox Beta で一度 [自動再生のブロックを無効化](https://bugzilla.mozilla.org/show_bug.cgi?id=1522923) した上で、[Shield Program](https://wiki.mozilla.org/Firefox/Shield) を通じて段階的にこの機能を展開していくことになっています。
+
+**更新 2**: 自動再生は [Firefox 67](https://bugzilla.mozilla.org/show_bug.cgi?id=1542921) 以降初期設定で無効化されています。
