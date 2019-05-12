@@ -4,7 +4,7 @@ title: "Developer Tools"
 description: "We are creating a couple of tools to make developers’ life easier."
 slug: "tools"
 ---
-## Compatibility Dataset
+## Compatibility Dataset
 
 Based on [our 700+ articles](https://www.fxsitecompat.com/en-CA/docs/), we will release a fresh, accurate site compatibility dataset that covers the status of the obsolete features on each Firefox channel including Nightly, Beta/DevEdition and ESR. The data will be available in the portable JSON format.
 
