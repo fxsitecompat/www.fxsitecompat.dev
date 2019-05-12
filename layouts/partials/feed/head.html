@@ -8,4 +8,4 @@
   <category term="{{ i18n "contentinfo_category" }}" />
   <icon>{{ $.Site.BaseURL }}images/template/favicon.png</icon>
   <logo>{{ $.Site.BaseURL }}images/template/logo-512.png</logo>{{ with .Site.Copyright }}
-  <rights>Copyright &#169; {{ . }}</rights>{{ end }}
+  <rights>Copyright &#169; {{ now.Format "2006" }} {{ . }}</rights>{{ end }}

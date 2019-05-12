@@ -2,7 +2,7 @@
       <div class="inner">
         <div class="col wide">
           <h1 itemprop="name">{{ i18n "contentinfo_organization" | safeHTML }}</h1>
-          <p id="copyright">Copyright &copy; <span itemprop="copyrightYear">{{ .Date.Format "2006" }}</span> <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person">{{ $.Site.Copyright }}{{ with $.Site.Params.Author.Name }}<meta itemprop="name" content="{{ . }}">{{ end }}</span> {{ i18n "contentinfo_legal" }}</p>
+          <p id="copyright">Copyright &copy; <span itemprop="copyrightYear">{{ now.Format "2006" }}</span> <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person">{{ $.Site.Copyright }}{{ with $.Site.Params.Author.Name }}<meta itemprop="name" content="{{ . }}">{{ end }}</span> {{ i18n "contentinfo_legal" }}</p>
           <p>{{ if .IsPage }}<a href="https://github.com/fxsitecompat/www.fxsitecompat.com/edit/master/content/{{ .File.Path }}">{{ i18n "contentinfo_contribute" }}</a> &middot;{{ end }}{{ range $.Translations }} <span id="translation" lang="{{ replace .Lang "en-ca" "en-CA" }}"><span itemprop="workTranslation" itemscope itemtype="http://schema.org/CreativeWork"><a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}" itemprop="url">{{ range where $.Site.Languages "Lang" (lower .Lang) }}{{ .LanguageName }}{{ end }}</a><meta itemprop="inLanguage" content="{{ replace .Lang "en-ca" "en-CA" }}"></span></span>{{ end }}</p>
         </div>
         <div class="col">
