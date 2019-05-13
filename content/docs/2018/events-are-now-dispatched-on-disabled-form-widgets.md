@@ -13,3 +13,5 @@ Starting with Firefox 65, form elements like `<input>`, `<textarea>`, `<button>`
 Given that the element is disabled and unfocusable, most of events such as `mousedown`, `mouseup`, `click`, `focus` and `input` won't be fired by regular user interactions, but `mouseover`, `mouseenter`, `mousemove`, `mouseout` and `mouseleave` will now be fired unlike the current version of Google Chrome, Apple Safari and Microsoft Edge.
 
 In order to avoid any unexpected behaviour, it might be better to always check the `disabled` property on the form element before further processing within your event handler.
+
+**Update**: CSS animation and transition events will also be fired on disabled elements on [Firefox 67](https://www.fxsitecompat.com/en-CA/docs/2019/css-animation-and-transition-events-are-now-fired-on-disabled-form-widgets/) and later.
