@@ -34,3 +34,5 @@ if ('ontouchstart' in window) {
 簡単なテストを行うには、Firefox 開発者ツールの [レスポンシブデザインモード](https://developer.mozilla.org/docs/Tools/Responsive_Design_Mode) を使って、タッチイベントをシミュレーションできます。タッチ判別の詳細は [この Mozilla Hacks の記事](https://hacks.mozilla.org/2013/04/detecting-touch-its-the-why-not-the-how/) を参照してください。
 
 **更新**: この変更により現在 *Ext JS 6* が正しく動作していません。
+
+**更新 2**: [Firefox 67](https://www.fxsitecompat.com/ja/docs/2019/legacy-touch-events-api-is-now-disabled-on-desktop/) 以降、デスクトップ上で旧式の Touch Events API が無効化されています。
