@@ -8,7 +8,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1319926"
       title: "Bug 1319926 - Warn when String generics are used"
 ---
-[JavaScript 1.6](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.6) で導入された非標準で Firefox 独自の [`Array` 汎用メソッド](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array#Array_generic_methods) と [`String` 汎用メソッド](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String#String_generic_methods) は廃止予定となり、[近い将来削除されることとなりました](https://www.fxsitecompat.com/ja/docs/2015/non-standard-array-string-generics-will-be-removed/)。これらの汎用・静的メソッドには以下のものが含まれます。
+[JavaScript 1.6](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.6) で導入された非標準で Firefox 独自の [`Array` 汎用メソッド](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array#Array_generic_methods) と [`String` 汎用メソッド](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String#String_generic_methods) は廃止予定となり、近い将来削除されることとなりました。これらの汎用・静的メソッドには以下のものが含まれます。
 
 * `Array.concat`
 * `Array.every`
@@ -85,3 +85,5 @@ String.prototype.replace.call(num, search, replace);
 * [`String.fromCharCode`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
 * [`String.fromCodePoint`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint)
 * [`String.raw`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/raw)
+
+**更新**: `String` 汎用メソッドは [Firefox 68 で削除されました](https://www.fxsitecompat.com/ja/docs/2019/non-standard-string-generics-have-been-removed/)。

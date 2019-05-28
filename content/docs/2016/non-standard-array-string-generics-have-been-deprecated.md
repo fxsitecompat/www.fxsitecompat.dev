@@ -8,7 +8,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1319926"
       title: "Bug 1319926 - Warn when String generics are used"
 ---
-The non-standard, Firefox-specific [`Array` generic methods](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array#Array_generic_methods) and [`String` generic methods](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String#String_generic_methods), introduced with [JavaScript 1.6](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.6), are now considered deprecated and will be [removed in the near future](https://www.fxsitecompat.com/en-CA/docs/2015/non-standard-array-string-generics-will-be-removed/). These generic/static methods include:
+The non-standard, Firefox-specific [`Array` generic methods](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array#Array_generic_methods) and [`String` generic methods](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String#String_generic_methods), introduced with [JavaScript 1.6](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.6), are now considered deprecated and will be removed in the near future. These generic/static methods include:
 
 * `Array.concat`
 * `Array.every`
@@ -85,3 +85,5 @@ Note that the standard instance methods on [`Array.prototype`](https://developer
 * [`String.fromCharCode`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
 * [`String.fromCodePoint`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint)
 * [`String.raw`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/raw)
+
+**Update**: `String` generics have been [removed with Firefox 68](https://www.fxsitecompat.com/en-CA/docs/2019/non-standard-string-generics-have-been-removed/).
