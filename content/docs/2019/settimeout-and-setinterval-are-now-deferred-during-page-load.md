@@ -16,3 +16,5 @@ Starting with Firefox 66, timers added with the `window.setTimeout` or `window.s
 While this change aims at improving the performance of complex web applications like *Google Docs*, unexpected race conditions could occur if the initialization code is not designed properly. One regression on the *Best Buy*'s website has been reported and later fixed by themselves, which was likely due to a change in the resource access order, according to a Mozilla developer.
 
 Remember that timers on the web are not so accurate. [It may take longer than specified](https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout#Reasons_for_delays_longer_than_specified) for various reasons, such as when the browser tab is in background.
+
+**Update**: [Firefox 68](https://www.fxsitecompat.com/en-CA/docs/2019/xhr-load-loadend-events-are-now-deferred-during-page-load/) has made a similar change to XHR final events.
