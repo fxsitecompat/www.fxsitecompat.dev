@@ -11,7 +11,7 @@ aliases:
     - "/ja/docs/2015/array-string-generics-will-be-removed/"
     - "/ja/docs/2015/non-standard-array-string-generics-will-be-removed/"
 ---
-[JavaScript 1.6](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.6) で導入され、[Firefox 53](https://www.fxsitecompat.com/ja/docs/2016/non-standard-array-string-generics-have-been-deprecated/) 以降廃止予定となっていた非標準の `String` 汎用メソッドが Firefox 68 で削除されました。これには以下のものが含まれます。
+[JavaScript 1.6](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.6) で導入され、[Firefox 53](https://www.fxsitecompat.com/ja/docs/2016/non-standard-string-generics-have-been-deprecated/) 以降廃止予定となっていた非標準の `String` 汎用メソッドが Firefox 68 で削除されました。これには以下のものが含まれます。
 
 * `String.charAt`
 * `String.charCodeAt`
@@ -46,4 +46,4 @@ aliases:
 * `String.fromCodePoint`
 * `String.raw`
 
-非標準 `Array` 汎用メソッドも近い将来削除されます。
+非標準 `Array` 汎用メソッドも [近い将来削除されます](https://www.fxsitecompat.com/ja/docs/2019/non-standard-array-generics-have-been-deprecated/)。
