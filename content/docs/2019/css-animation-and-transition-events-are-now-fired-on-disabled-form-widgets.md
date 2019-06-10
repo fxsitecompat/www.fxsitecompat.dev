@@ -1,7 +1,7 @@
 ---
 title: "CSS animation and transition events are now fired on disabled form widgets"
 date: "2019-05-12T21:29:00-04:00"
-categories: ["dom"]
+categories: ["css", "dom"]
 tags: []
 versions: ["67"]
 references:

@@ -1,7 +1,7 @@
 ---
 title: "無効化されたフォームウィジェット上で CSS アニメーションとトランジション関連のイベントが発生するようになりました"
 date: "2019-05-12T21:29:00-04:00"
-categories: ["dom"]
+categories: ["css", "dom"]
 tags: []
 versions: ["67"]
 references:
