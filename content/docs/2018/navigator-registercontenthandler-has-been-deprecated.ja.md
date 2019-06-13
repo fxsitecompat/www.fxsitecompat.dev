@@ -12,4 +12,4 @@ references:
 ---
 ブラウザーへ [フィードリーダーサービスを関連付ける](https://developer.mozilla.org/Firefox/Releases/2/Adding_feed_readers_to_Firefox) ために使うことができた [`navigator.registerContentHandler`](https://developer.mozilla.org/docs/Web/API/Navigator/registerContentHandler) メソッドが廃止予定となり、近い将来削除されることとなりました。Firefox 59 の時点で Nightly と早期 Beta/DevEdition では初期設定で無効化されています。これは HTML 仕様で標準化されていたものの、他のどのブラウザーもこの機能に対応しておらず、Firefox の実装も標準に準拠していませんでした。ウェブフィードの人気が低下していることから、削除に伴うリスクは少ないはずです。
 
-**更新**: このメソッドは [Firefox 62](https://www.fxsitecompat.com/ja/docs/2018/navigator-registercontenthandler-has-been-removed/) で削除されました。このドキュメントの初版では Firefox 59 について言及していましたが、その時点では Release チャンネルではまだ使用可能でした。
+**更新**: このメソッドは [Firefox 62](https://www.fxsitecompat.dev/ja/docs/2018/navigator-registercontenthandler-has-been-removed/) で削除されました。このドキュメントの初版では Firefox 59 について言及していましたが、その時点では Release チャンネルではまだ使用可能でした。

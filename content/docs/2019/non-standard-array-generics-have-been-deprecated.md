@@ -50,4 +50,4 @@ Note that the standard instance methods on [`Array.prototype`](https://developer
 * [`Array.isArray`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
 * [`Array.of`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/of)
 
-Note that `String` generics have already been [removed with Firefox 68](https://www.fxsitecompat.com/en-CA/docs/2019/non-standard-string-generics-have-been-removed/).
+Note that `String` generics have already been [removed with Firefox 68](https://www.fxsitecompat.dev/en-CA/docs/2019/non-standard-string-generics-have-been-removed/).

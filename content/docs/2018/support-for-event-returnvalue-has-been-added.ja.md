@@ -20,7 +20,7 @@ Firefox 63 で [`window.event`](https://developer.mozilla.org/docs/Web/API/Windo
 
 この変更はウェブ互換性の改善を意図していますが、この旧非標準プロパティを使用した一部のブラウザー判別コードはむしろ正常に動作しなくなることが予想されます。既に報告されている典型的な例は、Firefox では `0` を返す `event.keyCode` を巻き込んだもので、Mozilla のエンジニアが対応中です。他にも問題が発生する可能性があるため、あなたのコードをスキャンして、もし `window.event` が見つかった場合は、その機能が Firefox で動作することを確かめてください。
 
-なお、`srcElement` の対応は既に [Firefox 62 で追加](https://www.fxsitecompat.com/ja/docs/2018/support-for-event-prototype-srcelement-has-been-added/) されており、これも少なくとも 1 件の互換性問題をもたらしています。
+なお、`srcElement` の対応は既に [Firefox 62 で追加](https://www.fxsitecompat.dev/ja/docs/2018/support-for-event-prototype-srcelement-has-been-added/) されており、これも少なくとも 1 件の互換性問題をもたらしています。
 
 **更新**: [`Event.prototype.returnValue`](https://developer.mozilla.org/docs/Web/API/Event/returnValue) プロパティも Firefox 63 で追加されました。この記事のタイトルはそれに合わせて更新されました。
 

@@ -13,6 +13,6 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/l-WY9qvfUNg/discussion"
       title: "Intent to unship: File.lastModifiedDate"
 ---
-[Firefox 49 以降廃止予定となっていた](https://www.fxsitecompat.com/ja/docs/2016/file-lastmodifieddate-has-been-deprecated/) 非標準の [`File.prototype.lastModifiedDate`](https://developer.mozilla.org/docs/Web/API/File/lastModifiedDate) プロパティが Firefox 61 で削除されました。Mozilla の [Telemetry](https://telemetry.mozilla.org/) によれば、これは現在 0.01% のページで使用されています。代わりに標準の [`lastModified`](https://developer.mozilla.org/docs/Web/API/File/lastModified) プロパティを使ってください。
+[Firefox 49 以降廃止予定となっていた](https://www.fxsitecompat.dev/ja/docs/2016/file-lastmodifieddate-has-been-deprecated/) 非標準の [`File.prototype.lastModifiedDate`](https://developer.mozilla.org/docs/Web/API/File/lastModifiedDate) プロパティが Firefox 61 で削除されました。Mozilla の [Telemetry](https://telemetry.mozilla.org/) によれば、これは現在 0.01% のページで使用されています。代わりに標準の [`lastModified`](https://developer.mozilla.org/docs/Web/API/File/lastModified) プロパティを使ってください。
 
 **更新**: この変更により *Microsoft OneDrive* が正しいファイル変更日を表示していません。

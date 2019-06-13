@@ -17,4 +17,4 @@ Firefox 48 has added the support for the [`Array.prototype.values`](https://deve
 
 **Update**: The `values` method has been disabled with Firefox 49.0.2 to avoid compatibility issues, though it's still available on Firefox Nightly.
 
-**Update 2**: The method has been [re-enabled](https://www.fxsitecompat.com/en-CA/docs/2018/array-prototype-values-is-now-enabled-again/) with Firefox 60.
+**Update 2**: The method has been [re-enabled](https://www.fxsitecompat.dev/en-CA/docs/2018/array-prototype-values-is-now-enabled-again/) with Firefox 60.

@@ -14,4 +14,4 @@ references:
 aliases:
     - "/en-CA/docs/2015/expression-closure-support-will-be-removed/"
 ---
-The support for the non-standard [expression closures](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Expression_closures) (shorthand function syntax), [deprecated since Firefox 45](https://www.fxsitecompat.com/en-CA/docs/2015/expression-closures-are-now-deprecated/), has been removed with Firefox 60. Use the standard [arrow function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions) syntax instead.
+The support for the non-standard [expression closures](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Expression_closures) (shorthand function syntax), [deprecated since Firefox 45](https://www.fxsitecompat.dev/en-CA/docs/2015/expression-closures-are-now-deprecated/), has been removed with Firefox 60. Use the standard [arrow function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions) syntax instead.

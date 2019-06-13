@@ -8,7 +8,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1403413"
       title: "Bug 1403413 - Remove deprecated MOZ_ extension prefix aliases"
 ---
-The support for the following prefixed [WebGL extension](https://developer.mozilla.org/docs/Web/API/WebGL_API/Using_Extensions) aliases, deprecated for years since [Firefox 27](https://www.fxsitecompat.com/en-CA/docs/2013/prefixed-extensions-have-been-deprecated/), has been removed with Firefox 58. Use the standard extensions instead.
+The support for the following prefixed [WebGL extension](https://developer.mozilla.org/docs/Web/API/WebGL_API/Using_Extensions) aliases, deprecated for years since [Firefox 27](https://www.fxsitecompat.dev/en-CA/docs/2013/prefixed-extensions-have-been-deprecated/), has been removed with Firefox 58. Use the standard extensions instead.
 
 * `MOZ_WEBGL_lose_context`
 * `MOZ_WEBGL_compressed_texture_s3tc`

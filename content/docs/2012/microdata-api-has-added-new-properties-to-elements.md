@@ -15,4 +15,4 @@ Six Apart's *Movable Type* is known to be affected by this change. They have [fi
 
 If you'd like to add custom data to each element, it should be safer to use the [`HTMLElement.dataset`](https://developer.mozilla.org/docs/Web/API/HTMLElement/dataset) property rather than arbitrary properties. Firefox has also implemented the [`setUserData`](https://developer.mozilla.org/docs/Web/API/Node/setUserData) and [`getUserData`](https://developer.mozilla.org/docs/Web/API/Node/getUserData) methods that allow storing non-string data. However, those methods have been [deprecated](https://bugzilla.mozilla.org/show_bug.cgi?id=749981) in favour of the [`WeakMap`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap) object.
 
-**Update**: The Microdata API support has been [removed with Firefox 49](https://www.fxsitecompat.com/en-CA/docs/2016/microdata-api-has-been-removed/).
+**Update**: The Microdata API support has been [removed with Firefox 49](https://www.fxsitecompat.dev/en-CA/docs/2016/microdata-api-has-been-removed/).

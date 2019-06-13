@@ -2,7 +2,7 @@
 title: "Firefox 59 Developer Edition, project update, and 2 things you must do in 2018"
 date: "2018-01-25T12:34:00-05:00"
 ---
-Mozilla has shipped [Firefox 59 Beta and Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) last week. Check out our [Firefox 59 compatibility notes](https://www.fxsitecompat.com/en-CA/versions/59/) to get prepared for the final version coming this March. As with Firefox 58, more non-standard features are going away.
+Mozilla has shipped [Firefox 59 Beta and Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) last week. Check out our [Firefox 59 compatibility notes](https://www.fxsitecompat.dev/en-CA/versions/59/) to get prepared for the final version coming this March. As with Firefox 58, more non-standard features are going away.
 
 This is our first blog post in 2018 so we'd like to briefly summarize the things need to be done this year, by us and you.
 
@@ -18,7 +18,7 @@ Actually we are still making plans for this year but prioritizing the overdue si
 
 ### Move your site to HTTPS
 
-Last week Mozilla announced their intent to [require HTTPS](https://blog.mozilla.org/security/2018/01/15/secure-contexts-everywhere/) for all new features plus some existing features. The use of the Geolocation API has already been limited to secure sites since [Firefox 55](https://www.fxsitecompat.com/en-CA/docs/2017/use-of-geolocation-api-is-now-limited-to-secure-sites/). Application Cache and [WebVR](https://www.fxsitecompat.com/en-CA/docs/2017/webvr-can-no-longer-be-used-on-insecure-sites/) are the next, potentially followed by the Notifications, Web Crypto and Encrypted Media Extensions APIs.
+Last week Mozilla announced their intent to [require HTTPS](https://blog.mozilla.org/security/2018/01/15/secure-contexts-everywhere/) for all new features plus some existing features. The use of the Geolocation API has already been limited to secure sites since [Firefox 55](https://www.fxsitecompat.dev/en-CA/docs/2017/use-of-geolocation-api-is-now-limited-to-secure-sites/). Application Cache and [WebVR](https://www.fxsitecompat.dev/en-CA/docs/2017/webvr-can-no-longer-be-used-on-insecure-sites/) are the next, potentially followed by the Notifications, Web Crypto and Encrypted Media Extensions APIs.
 
 Even if you are not using any of these features, moving to HTTPS is no longer considered optional. [Let's encrypt](https://letsencrypt.org/) funded by Mozilla among others will offer [free wildcard certificates](https://letsencrypt.org/2017/07/06/wildcard-certificates-coming-jan-2018.html) starting from late February to make the transition even easier.
 

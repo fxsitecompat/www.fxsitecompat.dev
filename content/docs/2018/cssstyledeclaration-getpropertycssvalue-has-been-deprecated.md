@@ -20,4 +20,4 @@ The support for the [`getPropertyCSSValue`](https://developer.mozilla.org/docs/W
 
 **Update 2**: The method has been disabled also on Firefox Beta and Developer Edition as of Firefox 61.
 
-**Update 3**: The method has been [completely removed with Firefox 62](https://www.fxsitecompat.com/en-CA/docs/2018/cssstyledeclaration-getpropertycssvalue-has-been-removed/).
+**Update 3**: The method has been [completely removed with Firefox 62](https://www.fxsitecompat.dev/en-CA/docs/2018/cssstyledeclaration-getpropertycssvalue-has-been-removed/).

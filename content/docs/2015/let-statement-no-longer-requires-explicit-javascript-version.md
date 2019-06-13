@@ -16,4 +16,4 @@ Previously, the [`let`](https://developer.mozilla.org/docs/Web/JavaScript/Refere
 <script type="application/javascript;version=1.7"></script>
 ```
 
-The `let` statement has been standardized in ECMAScript 2015 (ES6) and therefore such a version is no longer required to use it. This change should be backward compatible, but [let us know](https://www.fxsitecompat.com/en-CA/contribute/) if you find any issues (pun intended). The non-standard JavaScript versioning will be [completely retired](https://www.fxsitecompat.com/en-CA/docs/2015/javascript-versions-will-be-retired/) in the near future.
+The `let` statement has been standardized in ECMAScript 2015 (ES6) and therefore such a version is no longer required to use it. This change should be backward compatible, but [let us know](https://www.fxsitecompat.dev/en-CA/contribute/) if you find any issues (pun intended). The non-standard JavaScript versioning will be [completely retired](https://www.fxsitecompat.dev/en-CA/docs/2015/javascript-versions-will-be-retired/) in the near future.

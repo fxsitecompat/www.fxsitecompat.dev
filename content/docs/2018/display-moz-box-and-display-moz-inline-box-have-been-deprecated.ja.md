@@ -12,6 +12,6 @@ references:
 ---
 CSS `display` プロパティ用の非標準値、`-moz-box` と `-moz-inline-box` が廃止予定となり、Firefox Nightly と早期 Beta/DevEdition では初期設定により無効化されました。特に大きな問題がなければ、これらの値は近々すべてのチャンネルから削除されます。
 
-なお、`-moz-grid` や `-moz-inline-grid` など `display` プロパティの他の非標準値は既に [Firefox 62 で廃止されています](https://www.fxsitecompat.com/ja/docs/2018/most-of-non-standard-css-display-values-have-been-dropped/)。
+なお、`-moz-grid` や `-moz-inline-grid` など `display` プロパティの他の非標準値は既に [Firefox 62 で廃止されています](https://www.fxsitecompat.dev/ja/docs/2018/most-of-non-standard-css-display-values-have-been-dropped/)。
 
-**更新**: これらの値は [Firefox 64 で削除されました](https://www.fxsitecompat.com/ja/docs/2018/display-moz-box-and-moz-tree-pseudo-elements-have-been-removed/)。
+**更新**: これらの値は [Firefox 64 で削除されました](https://www.fxsitecompat.dev/ja/docs/2018/display-moz-box-and-moz-tree-pseudo-elements-have-been-removed/)。

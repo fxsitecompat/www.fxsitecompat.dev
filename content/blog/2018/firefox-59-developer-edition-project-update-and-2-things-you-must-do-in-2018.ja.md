@@ -2,7 +2,7 @@
 title: "Firefox 59 Developer Edition、プロジェクト最新情報、あなたが 2018 年にすべき 2 つのこと"
 date: "2018-01-25T12:34:00-05:00"
 ---
-Mozilla は先週 [Firefox 59 Beta と Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) を公開しました。3 月公開の最終版に備えて [Firefox 59 互換性情報](https://www.fxsitecompat.com/ja/versions/59/) を確認してください。Firefox 58 と同様に、さらに多くの非標準機能が削除される予定です。
+Mozilla は先週 [Firefox 59 Beta と Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) を公開しました。3 月公開の最終版に備えて [Firefox 59 互換性情報](https://www.fxsitecompat.dev/ja/versions/59/) を確認してください。Firefox 58 と同様に、さらに多くの非標準機能が削除される予定です。
 
 これが 2018 年最初のブログ記事となるので、私たちやあなたが今年すべきことを簡単にまとめておきたいと思います。
 
@@ -18,7 +18,7 @@ Mozilla は先週 [Firefox 59 Beta と Developer Edition](https://www.mozilla.or
 
 ### HTTPS へのサイト移行
 
-Mozilla は先週、すべての新機能や一部既存機能について [HTTPS を必須とする](https://blog.mozilla.org/security/2018/01/15/secure-contexts-everywhere/) 方針を発表しました。Geolocation API の使用は既に [Firefox 55](https://www.fxsitecompat.com/ja/docs/2017/use-of-geolocation-api-is-now-limited-to-secure-sites/) 以降安全なサイトに制限されています。次の予定は Application Cache と [WebVR](https://www.fxsitecompat.com/ja/docs/2017/webvr-can-no-longer-be-used-on-insecure-sites/) で、それに Notifications、Web Crypto、Encrypted Media Extensions の各 API が続く可能性があります。
+Mozilla は先週、すべての新機能や一部既存機能について [HTTPS を必須とする](https://blog.mozilla.org/security/2018/01/15/secure-contexts-everywhere/) 方針を発表しました。Geolocation API の使用は既に [Firefox 55](https://www.fxsitecompat.dev/ja/docs/2017/use-of-geolocation-api-is-now-limited-to-secure-sites/) 以降安全なサイトに制限されています。次の予定は Application Cache と [WebVR](https://www.fxsitecompat.dev/ja/docs/2017/webvr-can-no-longer-be-used-on-insecure-sites/) で、それに Notifications、Web Crypto、Encrypted Media Extensions の各 API が続く可能性があります。
 
 もしあなたがこれらの機能のいずれも使用していない場合でも、HTTPS への移行はもはや任意とは見なされません。Mozilla などが資金を提供している [Let's encrypt](https://letsencrypt.org/) は、移行をさらに容易にするため、2 月下旬から [無料ワイルドカード証明書](https://letsencrypt.org/2017/07/06/wildcard-certificates-coming-jan-2018.html) の提供を開始します。
 

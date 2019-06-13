@@ -25,6 +25,6 @@ To enable the `jar` support for any reason on Firefox 45 and later, flip the `ne
 
 **Update 3**: Given that *iNotes* no longer relies on the `jar` support, Mozilla is planning to make it disabled again. Firefox 52 [Extended Support Release](https://www.mozilla.org/firefox/organizations/) (ESR) for organizations won't be affected by this change, so the older versions of *iNotes*, if any, can still be used on the ESR until <del>May</del> <ins>August</ins> 2018.
 
-**Update 4**: The JAR support has been disabled again with [Firefox 55](https://www.fxsitecompat.com/en-CA/docs/2015/jar-protocol-support-has-been-disabled-by-default/).
+**Update 4**: The JAR support has been disabled again with [Firefox 55](https://www.fxsitecompat.dev/en-CA/docs/2015/jar-protocol-support-has-been-disabled-by-default/).
 
-**Update 5** The remote JAR support has been [completely removed with Firefox 61](https://www.fxsitecompat.com/en-CA/docs/2018/remote-jar-support-has-been-completely-removed/).
+**Update 5** The remote JAR support has been [completely removed with Firefox 61](https://www.fxsitecompat.dev/en-CA/docs/2018/remote-jar-support-has-been-completely-removed/).

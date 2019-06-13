@@ -19,4 +19,4 @@ In order to respond to demands of enterprise users, the [`localfilelinks` policy
 
 The removal of [`allowclipboard` policy](http://kb.mozillazine.org/Granting_JavaScript_access_to_the_clipboard) support broke the copy/paste buttons on some rich text editors like *CKEditor*. The standard [Clipboard API](https://developer.mozilla.org/docs/Web/API/ClipboardEvent)'s click-to-copy support will be implemented in the near future. The general keyboard shortcuts, <kbd>Ctrl</kbd>+<kbd>C</kbd> and <kbd>Ctrl</kbd>+<kbd>V</kbd>, should always work.
 
-**Update**: The click-to-copy support has been [implemented with Firefox 41](https://www.fxsitecompat.com/en-CA/docs/2015/document-execcommand-for-cut-copy-and-paste-no-longer-throws/).
+**Update**: The click-to-copy support has been [implemented with Firefox 41](https://www.fxsitecompat.dev/en-CA/docs/2015/document-execcommand-for-cut-copy-and-paste-no-longer-throws/).

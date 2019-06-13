@@ -18,4 +18,4 @@ On the other hand, the prefixed method, which will be removed in the future, con
 
 The unprefixed [`cancelAnimationFrame`](https://developer.mozilla.org/docs/Web/API/window.cancelAnimationFrame) method has also been added. It has the same behaviour as the prefixed `mozCancelAnimationFrame` method. Those `moz`-prefixed methods will be removed in the future.
 
-**Update**: Those prefixed methods have been [removed with Firefox 42](https://www.fxsitecompat.com/en-CA/docs/2015/mozrequestanimationframe-and-related-apis-have-been-removed/).
+**Update**: Those prefixed methods have been [removed with Firefox 42](https://www.fxsitecompat.dev/en-CA/docs/2015/mozrequestanimationframe-and-related-apis-have-been-removed/).

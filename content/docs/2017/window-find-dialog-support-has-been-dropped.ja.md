@@ -12,7 +12,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/gn4364N4TlY/discussion"
       title: "window.find dialog feature broken in Firefox 53 (a.k.a., Late Intent to Unship: window.find's dialog support)"
 ---
-Firefox では、[`window.find`](https://developer.mozilla.org/docs/Web/API/Window/find) メソッドを使って、ユーザーが現在開いているページ上の文字列を見つけられるようにするダイアログを開くことが可能でした。このダイアログは、[`window.showModalDialog`](https://www.fxsitecompat.com/ja/docs/2016/window-showmodaldialog-has-been-removed/) と同様に、Firefox 48 で e10s と呼ばれているマルチプロセスモードが有効になって以降、機能していないことが判明しました。Firefox 53 以降、ブラウザー内で e10s が無効の場合にもこのダイアログは機能しません。
+Firefox では、[`window.find`](https://developer.mozilla.org/docs/Web/API/Window/find) メソッドを使って、ユーザーが現在開いているページ上の文字列を見つけられるようにするダイアログを開くことが可能でした。このダイアログは、[`window.showModalDialog`](https://www.fxsitecompat.dev/ja/docs/2016/window-showmodaldialog-has-been-removed/) と同様に、Firefox 48 で e10s と呼ばれているマルチプロセスモードが有効になって以降、機能していないことが判明しました。Firefox 53 以降、ブラウザー内で e10s が無効の場合にもこのダイアログは機能しません。
 
 こうしたページ内検索ダイアログを開くブラウザーは他にないことから、Mozilla 開発者は、機能を復元するよりも `aShowDialog` 引数への対応を明示的に削除することを決定しました。
 

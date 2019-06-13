@@ -10,4 +10,4 @@ references:
 aliases:
     - "/ja/docs/2015/event-getpreventdefault-will-be-removed/"
 ---
-[Firefox 16 以降廃止予定となっていた](https://www.fxsitecompat.com/ja/docs/2013/obsolete-event-methods-have-been-removed/) 非標準の `Event.prototype.getPreventDefault` メソッドは、標準の [`defaultPrevented`](https://developer.mozilla.org/docs/Web/API/Event/defaultPrevented) プロパティに置き換えられる形で、Firefox 59 で削除されました。
+[Firefox 16 以降廃止予定となっていた](https://www.fxsitecompat.dev/ja/docs/2013/obsolete-event-methods-have-been-removed/) 非標準の `Event.prototype.getPreventDefault` メソッドは、標準の [`defaultPrevented`](https://developer.mozilla.org/docs/Web/API/Event/defaultPrevented) プロパティに置き換えられる形で、Firefox 59 で削除されました。

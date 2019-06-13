@@ -10,4 +10,4 @@ references:
 ---
 The Content Security Policy (CSP) [`referrer`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/referrer) directive, used to specify how the [`Referer`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Referer) HTTP header works, is now deprecated and will be removed in the near future. It has already been removed from [Chrome 56](https://developers.google.com/web/updates/2016/12/chrome-56-deprecations) shipped this January. Use the [`Referrer-Policy`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Referrer-Policy) HTTP header instead.
 
-**Update**: The directive has been removed with [Firefox 62](https://www.fxsitecompat.com/en-CA/docs/2018/csp-referrer-directive-has-been-removed/).
+**Update**: The directive has been removed with [Firefox 62](https://www.fxsitecompat.dev/en-CA/docs/2018/csp-referrer-directive-has-been-removed/).

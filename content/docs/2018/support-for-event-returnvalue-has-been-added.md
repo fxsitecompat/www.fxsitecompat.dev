@@ -20,7 +20,7 @@ Firefox 63 has implemented the [`window.event`](https://developer.mozilla.org/do
 
 While this change aims at improving web compatibility, it's expected that certain browser detection code using the once-non-standard property will rather be broken. A typical case already reported involves `event.keyCode` returning `0` in Firefox, which is being solved by Mozilla engineers. There might be other issues, so please scan your code and, if `window.event` is found, make sure the functionality works with Firefox.
 
-Note that the support for `srcElement` has already been [added with Firefox 62](https://www.fxsitecompat.com/en-CA/docs/2018/support-for-event-prototype-srcelement-has-been-added/), and it also causes at least one compatibility issue.
+Note that the support for `srcElement` has already been [added with Firefox 62](https://www.fxsitecompat.dev/en-CA/docs/2018/support-for-event-prototype-srcelement-has-been-added/), and it also causes at least one compatibility issue.
 
 **Update**: The [`Event.prototype.returnValue`](https://developer.mozilla.org/docs/Web/API/Event/returnValue) property has also been added with Firefox 63. The title of this post has been updated accordingly.
 

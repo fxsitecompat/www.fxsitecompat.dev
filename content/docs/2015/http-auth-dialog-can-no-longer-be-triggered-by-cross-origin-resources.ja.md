@@ -23,4 +23,4 @@ Firefox はこれまで、他のブラウザーと同様に、[`<iframe>`](https
 
 **更新 2**: ホットフィックスアドオンとの競合を防ぐため、Firefox 41 で [設定名が変更され](https://bugzilla.mozilla.org/show_bug.cgi?id=1202421) `network.auth.subresource-http-auth-allow` になりました。取り得る値と既定値 (`2`) は変わりません。
 
-**更新 3**: [Firefox 59](https://www.fxsitecompat.com/ja/docs/2017/http-auth-dialog-can-no-longer-be-triggered-by-cross-origin-images/) で、クロスオリジンの画像に関してのみですが、この変更の一部が再度実装されました。
+**更新 3**: [Firefox 59](https://www.fxsitecompat.dev/ja/docs/2017/http-auth-dialog-can-no-longer-be-triggered-by-cross-origin-images/) で、クロスオリジンの画像に関してのみですが、この変更の一部が再度実装されました。

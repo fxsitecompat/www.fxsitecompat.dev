@@ -15,4 +15,4 @@ The Netscape-derived [legacy Crypto API](https://developer.mozilla.org/docs/Java
 
 **Update**: Feedbacks on Firefox 33 have revealed that various banks and government agencies are still using this legacy Crypto API, the `crypto.signText` method in particular. Therefore, Mozilla has decided to bring the API back with Firefox 34 and remove it again in the near future once a substitute Firefox extension is developed. Firefox 33 users can still re-enable the API by setting the `dom.unsafe_legacy_crypto.enabled` pref to `true`, and Firefox 31 ESR users are not affected by this change.
 
-**Update**: The legacy Crypto API has been [removed with Firefox 35](https://www.fxsitecompat.com/en-CA/docs/2014/legacy-crypto-api-has-been-removed/).
+**Update**: The legacy Crypto API has been [removed with Firefox 35](https://www.fxsitecompat.dev/en-CA/docs/2014/legacy-crypto-api-has-been-removed/).

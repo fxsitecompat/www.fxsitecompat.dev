@@ -14,4 +14,4 @@ references:
 aliases:
     - "/ja/docs/2015/expression-closure-support-will-be-removed/"
 ---
-[Firefox 45 以降廃止予定となっていた](https://www.fxsitecompat.com/ja/docs/2015/expression-closures-are-now-deprecated/) 非標準の [式クロージャー](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Expression_closures) (ショートハンド関数構文) は Firefox 60 で削除されました。代わりに標準の [アロー関数](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions) 構文を使用してください。
+[Firefox 45 以降廃止予定となっていた](https://www.fxsitecompat.dev/ja/docs/2015/expression-closures-are-now-deprecated/) 非標準の [式クロージャー](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Expression_closures) (ショートハンド関数構文) は Firefox 60 で削除されました。代わりに標準の [アロー関数](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions) 構文を使用してください。

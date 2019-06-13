@@ -19,4 +19,4 @@ The MSIE-derived [`MouseEvent.offsetX`](https://developer.mozilla.org/docs/Web/A
 
 **Update**: The Maps API issue has been fixed by Google.
 
-**Update**: Those properties have been disabled on mobile, both on Firefox for Android and Firefox OS, due to [another issue](https://bugzilla.mozilla.org/show_bug.cgi?id=1150284) on *Google Maps* regarding zooming, then [enabled with Firefox 43](https://bugzilla.mozilla.org/show_bug.cgi?id=1204841). If you find any other issue, please [let us know](https://www.fxsitecompat.com/en-CA/contribute/).
+**Update**: Those properties have been disabled on mobile, both on Firefox for Android and Firefox OS, due to [another issue](https://bugzilla.mozilla.org/show_bug.cgi?id=1150284) on *Google Maps* regarding zooming, then [enabled with Firefox 43](https://bugzilla.mozilla.org/show_bug.cgi?id=1204841). If you find any other issue, please [let us know](https://www.fxsitecompat.dev/en-CA/contribute/).

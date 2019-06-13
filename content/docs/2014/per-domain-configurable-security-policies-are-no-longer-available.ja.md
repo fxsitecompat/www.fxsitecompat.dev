@@ -19,4 +19,4 @@ Firefox の [設定可能セキュリティポリシー](http://kb.mozillazine.o
 
 [`allowclipboard` ポリシー](http://kb.mozillazine.org/Granting_JavaScript_access_to_the_clipboard) の廃止によって、*CKEditor* など一部のリッチテキストエディターにおいてコピーや貼り付けボタンが動作しなくなっています。標準 [Clipboard API](https://developer.mozilla.org/docs/Web/API/ClipboardEvent) の「クリックでコピー」対応が近い将来実装されます。<kbd>Ctrl</kbd>+<kbd>C</kbd>、<kbd>Ctrl</kbd>+<kbd>V</kbd> といった通常のキーボードショートカットは常に動作するはずです。
 
-**更新**: 「クリックでコピー」対応は [Firefox 41 で実装されました](https://www.fxsitecompat.com/ja/docs/2015/document-execcommand-for-cut-copy-and-paste-no-longer-throws/)。
+**更新**: 「クリックでコピー」対応は [Firefox 41 で実装されました](https://www.fxsitecompat.dev/ja/docs/2015/document-execcommand-for-cut-copy-and-paste-no-longer-throws/)。

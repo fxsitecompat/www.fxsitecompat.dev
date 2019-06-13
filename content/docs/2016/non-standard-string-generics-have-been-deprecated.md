@@ -54,6 +54,6 @@ Note that the standard instance methods on [`String.prototype`](https://develope
 * [`String.fromCodePoint`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint)
 * [`String.raw`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/raw)
 
-**Update**: `String` generics have been [removed with Firefox 68](https://www.fxsitecompat.com/en-CA/docs/2019/non-standard-string-generics-have-been-removed/).
+**Update**: `String` generics have been [removed with Firefox 68](https://www.fxsitecompat.dev/en-CA/docs/2019/non-standard-string-generics-have-been-removed/).
 
-**Update 2** The earlier version of this note mentioned `Array` generics as well, but `Array` generics have been officially deprecated since [Firefox 68](https://www.fxsitecompat.com/en-CA/docs/2016/non-array-string-generics-have-been-deprecated/), not Firefox 53. We have corrected the note.
+**Update 2** The earlier version of this note mentioned `Array` generics as well, but `Array` generics have been officially deprecated since [Firefox 68](https://www.fxsitecompat.dev/en-CA/docs/2016/non-array-string-generics-have-been-deprecated/), not Firefox 53. We have corrected the note.

@@ -12,4 +12,4 @@ references:
 ---
 Firefox 67 以降、`animationend` や `transitionend` などの CSS アニメーション、トランジション関連イベントが、`<input>`、`<textarea>`、`<button>`、`<select>` といったフォーム要素上で、それらが無効化されている場合にも発生するようになりました。
 
-そうした要素上でマウスイベントの発生を可能にした、[Firefox 65](https://www.fxsitecompat.com/ja/docs/2018/events-are-now-dispatched-on-disabled-form-widgets/) で行われた類似の変更と同様に、予期せぬ挙動を防ぐためイベントハンドラー内で `disabled` プロパティを確認した方が良いかもしれません。
+そうした要素上でマウスイベントの発生を可能にした、[Firefox 65](https://www.fxsitecompat.dev/ja/docs/2018/events-are-now-dispatched-on-disabled-form-widgets/) で行われた類似の変更と同様に、予期せぬ挙動を防ぐためイベントハンドラー内で `disabled` プロパティを確認した方が良いかもしれません。

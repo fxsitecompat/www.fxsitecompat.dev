@@ -12,4 +12,4 @@ references:
 aliases:
     - "/ja/docs/2018/registerprotocolhandler-can-no-longer-be-used-on-insecure-sites/"
 ---
-Firefox 62 以降、安全でないアプリケーションがプロトコルハンドラーとしてブラウザーへ登録されるのを防ぐため、非 HTTPS サイト上では [`navigator.registerProtocolHandler`](https://developer.mozilla.org/docs/Web/API/Navigator/registerProtocolHandler) メソッドが `undefined` となります。このセキュリティ制限は [バージョン 60](https://www.fxsitecompat.com/ja/docs/2018/support-for-registerprotocolhandler-on-insecure-sites-has-been-deprecated/) 以降の Firefox Nightly と早期 Beta/DevEdition には既に導入されています。
+Firefox 62 以降、安全でないアプリケーションがプロトコルハンドラーとしてブラウザーへ登録されるのを防ぐため、非 HTTPS サイト上では [`navigator.registerProtocolHandler`](https://developer.mozilla.org/docs/Web/API/Navigator/registerProtocolHandler) メソッドが `undefined` となります。このセキュリティ制限は [バージョン 60](https://www.fxsitecompat.dev/ja/docs/2018/support-for-registerprotocolhandler-on-insecure-sites-has-been-deprecated/) 以降の Firefox Nightly と早期 Beta/DevEdition には既に導入されています。

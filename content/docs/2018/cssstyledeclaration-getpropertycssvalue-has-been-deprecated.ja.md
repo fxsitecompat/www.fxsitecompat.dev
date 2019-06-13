@@ -20,4 +20,4 @@ references:
 
 **更新 2**: このメソッドは Firefox 61 以降 Firefox Beta および Developer Edition でも無効化されました。
 
-**更新 3**: このメソッドは [Firefox 62 で完全に削除されました](https://www.fxsitecompat.com/ja/docs/2018/cssstyledeclaration-getpropertycssvalue-has-been-removed/)。
+**更新 3**: このメソッドは [Firefox 62 で完全に削除されました](https://www.fxsitecompat.dev/ja/docs/2018/cssstyledeclaration-getpropertycssvalue-has-been-removed/)。

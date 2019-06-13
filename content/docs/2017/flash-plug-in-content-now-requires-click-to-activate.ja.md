@@ -19,7 +19,7 @@ references:
 aliases:
     - "/ja/docs/2016/flash-content-will-be-click-to-activate-in-2017/"
 ---
-Firefox で現在進行中の [NPAPI プラグイン廃止](https://www.fxsitecompat.com/ja/categories/plugins/) の一環として、Flash コンテンツは Firefox Nightly の初期設定で「クリックして有効化」となりました。この変更は、[`SharedArrayBuffer`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer)、[WebAssembly](https://developer.mozilla.org/docs/WebAssembly)、[WebGL 2.0](https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext) といった高度な標準技術がいくつか実装され、一般に使用できるようになったことを踏まえて行われました。
+Firefox で現在進行中の [NPAPI プラグイン廃止](https://www.fxsitecompat.dev/ja/categories/plugins/) の一環として、Flash コンテンツは Firefox Nightly の初期設定で「クリックして有効化」となりました。この変更は、[`SharedArrayBuffer`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer)、[WebAssembly](https://developer.mozilla.org/docs/WebAssembly)、[WebGL 2.0](https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext) といった高度な標準技術がいくつか実装され、一般に使用できるようになったことを踏まえて行われました。
 
 今のところ、Firefox 55 の Beta、Release 両チャンネルのユーザーへ段階的にこの変更を展開していく予定です。ウェブコンテンツ提供者は、最良のユーザー体験を提供するため、Flash 依存をやめるための明確な計画を立てるべきです。
 

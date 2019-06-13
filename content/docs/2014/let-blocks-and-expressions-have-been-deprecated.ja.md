@@ -12,6 +12,6 @@ references:
 ---
 非標準の [`let` ブロックと `let` 式](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/let#Non-standard_let_extensions) が廃止予定となりました。これら `let` 拡張機能への対応は、現時点では [ウェブコンソール](https://developer.mozilla.org/docs/Tools/Web_Console) に警告が表示されていますが、近い将来 Firefox から削除されます。
 
-**更新**: `let` 式への対応は [Firefox 41 で削除されました](https://www.fxsitecompat.com/ja/docs/2015/let-expression-support-has-been-dropped/)。
+**更新**: `let` 式への対応は [Firefox 41 で削除されました](https://www.fxsitecompat.dev/ja/docs/2015/let-expression-support-has-been-dropped/)。
 
-**更新**: `let` ブロックへの対応は早くて [Firefox 44 で削除されます](https://www.fxsitecompat.com/ja/docs/2015/let-block-support-will-be-dropped/)。
+**更新**: `let` ブロックへの対応は早くて [Firefox 44 で削除されます](https://www.fxsitecompat.dev/ja/docs/2015/let-block-support-will-be-dropped/)。

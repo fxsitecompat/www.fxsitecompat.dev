@@ -17,4 +17,4 @@ Firefox 48 で ECMAScript 2015 (ES6) の [`Array.prototype.values`](https://deve
 
 **更新**: 互換性問題を防ぐため `values` メソッドは Firefox 49.0.2 で無効化されました。ただし Firefox Nightly では引き続き使用可能です。
 
-**更新 2**: このメソッドは Firefox 60 で [再度有効化](https://www.fxsitecompat.com/ja/docs/2018/array-prototype-values-is-now-enabled-again/) されました。
+**更新 2**: このメソッドは Firefox 60 で [再度有効化](https://www.fxsitecompat.dev/ja/docs/2018/array-prototype-values-is-now-enabled-again/) されました。

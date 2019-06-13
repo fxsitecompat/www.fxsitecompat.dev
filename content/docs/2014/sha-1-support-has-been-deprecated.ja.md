@@ -11,4 +11,4 @@ references:
 ---
 [弱い SHA-1 ハッシュアルゴリズム](https://developer.mozilla.org/docs/Security/Weak_Signature_Algorithm) を使用した SSL 証明書への対応が廃止予定となりました。SHA-1 証明書が見つかった場合、[ウェブコンソールは警告を表示します](https://developer.mozilla.org/docs/Tools/Web_Console#Security_warnings_and_errors)。
 
-**更新** SHA-1 対応は [2017 年 1 月に無効化されます](https://www.fxsitecompat.com/ja/docs/2016/sha-1-certificates-issued-by-public-ca-will-no-longer-be-accepted/)。
+**更新** SHA-1 対応は [2017 年 1 月に無効化されます](https://www.fxsitecompat.dev/ja/docs/2016/sha-1-certificates-issued-by-public-ca-will-no-longer-be-accepted/)。

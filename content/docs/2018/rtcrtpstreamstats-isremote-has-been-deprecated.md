@@ -12,4 +12,4 @@ references:
 ---
 The `isRemote` boolean member of the `RTCRTPStreamStats` dictionary, returned from the `RTCPeerConnection.prototype.getStats` method for remote statistics, is now considered deprecated and will be removed with Firefox 65. Use `remoteId` instead as described in the [WebRTC team's blog post](https://blog.mozilla.org/webrtc/getstats-isremote-65/).
 
-**Update**: `isRemote` has been [removed with Firefox 66](https://www.fxsitecompat.com/en-CA/docs/2018/legacy-peerconnection-getstats-support-has-been-removed/).
+**Update**: `isRemote` has been [removed with Firefox 66](https://www.fxsitecompat.dev/en-CA/docs/2018/legacy-peerconnection-getstats-support-has-been-removed/).

@@ -20,7 +20,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/uizXjqHDmQ8/discussion"
       title: "Intent to ship: Unprefixed Fullscreen API"
 ---
-The unprefixed [Fullscreen API](https://developer.mozilla.org/docs/Web/API/Fullscreen_API) has been finally enabled by default in Firefox 64 on all the channels, after years of efforts to improve the cross-browser compatibility. The last unprefix attempt was made back in [Firefox 47](https://www.fxsitecompat.com/en-CA/docs/2016/fullscreen-api-has-been-unprefixed-in-non-release-builds/), which was soon cancelled except for the Nightly channel. The `moz`-prefixed API is now considered deprecated and will be removed in the future.
+The unprefixed [Fullscreen API](https://developer.mozilla.org/docs/Web/API/Fullscreen_API) has been finally enabled by default in Firefox 64 on all the channels, after years of efforts to improve the cross-browser compatibility. The last unprefix attempt was made back in [Firefox 47](https://www.fxsitecompat.dev/en-CA/docs/2016/fullscreen-api-has-been-unprefixed-in-non-release-builds/), which was soon cancelled except for the Nightly channel. The `moz`-prefixed API is now considered deprecated and will be removed in the future.
 
 [Google Chrome 71](https://groups.google.com/a/chromium.org/d/topic/blink-dev/ODzbWn-xRrQ/discussion) is also shipping the unprefixed API in December 2018, almost at the same time as the Firefox 64 release.
 

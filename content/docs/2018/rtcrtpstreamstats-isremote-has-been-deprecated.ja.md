@@ -12,4 +12,4 @@ references:
 ---
 `RTCPeerConnection.prototype.getStats` メソッドがリモート統計用に返す `RTCRTPStreamStats` ディクショナリーの `isRemote` 真偽値メンバーが廃止予定とされ、Firefox 65 で削除されることとなりました。[WebRTC チームのブログ記事](https://blog.mozilla.org/webrtc/getstats-isremote-65/) で説明されている通り、代わりに `remoteId` を使用してください。
 
-**更新**: `isRemote` は [Firefox 66 で削除されました](https://www.fxsitecompat.com/ja/docs/2018/legacy-peerconnection-getstats-support-has-been-removed/)。
+**更新**: `isRemote` は [Firefox 66 で削除されました](https://www.fxsitecompat.dev/ja/docs/2018/legacy-peerconnection-getstats-support-has-been-removed/)。

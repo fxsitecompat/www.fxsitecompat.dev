@@ -12,4 +12,4 @@ references:
 ---
 Firefox has maintained the legacy syntax support for the `-moz-transform` CSS property that allowed to use lengths or percentages for the `matrix` and `matrix3d` functions, e.g. `matrix(1, 2, 3, 4, 5px, 6%)`. As of Firefox 60, those special cases are no longer handled, and the `-moz`-prefixed property will be a simple alias of the standard [`transform`](https://developer.mozilla.org/docs/Web/CSS/transform) property, just like `-webkit-transform`.
 
-Note that the `-moz-transform` support will be [removed in the future](https://www.fxsitecompat.com/en-CA/docs/2015/prefixed-css-animations-transforms-transitions-support-will-be-removed/). Make sure you have the standard alternative.
+Note that the `-moz-transform` support will be [removed in the future](https://www.fxsitecompat.dev/en-CA/docs/2015/prefixed-css-animations-transforms-transitions-support-will-be-removed/). Make sure you have the standard alternative.

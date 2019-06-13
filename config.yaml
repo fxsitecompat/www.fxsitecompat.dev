@@ -1,6 +1,6 @@
 metaDataFormat: "yaml"
 disableHugoGeneratorInject: true
-baseURL: "https://www.fxsitecompat.com/"
+baseURL: "https://www.fxsitecompat.dev/"
 defaultContentLanguage: "en-CA"
 defaultContentLanguageInSubdir: true
 hasCJKLanguage: true
@@ -13,10 +13,10 @@ taxonomies:
     status: "statuses"
 
 params:
-    Domain: "FxSiteCompat.com"
+    Domain: "FxSiteCompat.dev"
     Author:
         Name: "Kohei Yoshino"
-        Email: "webmaster@fxsitecompat.com"
+        Email: "webmaster@fxsitecompat.dev"
         TwitterUserName: "koyoskeh"
     Publisher:
         TwitterUserName: "FxSiteCompat"

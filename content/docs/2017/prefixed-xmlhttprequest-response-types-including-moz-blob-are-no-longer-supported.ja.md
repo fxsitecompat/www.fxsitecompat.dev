@@ -16,4 +16,4 @@ aliases:
 ---
 [`XMLHttpRequest.prototype.responseType`](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType) プロパティによって返される、非標準で `moz` 接頭辞が付いている値、具体的には `moz-blob`、`moz-chunked-text` への対応が、[Telemetry](https://telemetry.mozilla.org/) でそれらの使用率が低いことが確認されたことから、Firefox 58 で削除されました。本稿執筆時点で `moz-chunked-arraybuffer` はまだ使用可能ですが、ウェブ開発者はこの非標準タイプの使用を避けるべきです。
 
-**更新** `moz-chunked-arraybuffer` は [Firefox 68 で削除されました](https://www.fxsitecompat.com/ja/docs/2019/xhr-moz-chunked-arraybuffer-response-type-is-no-longer-supported/)。
+**更新** `moz-chunked-arraybuffer` は [Firefox 68 で削除されました](https://www.fxsitecompat.dev/ja/docs/2019/xhr-moz-chunked-arraybuffer-response-type-is-no-longer-supported/)。

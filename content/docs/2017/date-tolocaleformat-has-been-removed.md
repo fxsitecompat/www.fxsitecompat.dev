@@ -11,7 +11,7 @@ aliases:
     - "/en-CA/docs/2015/date-prototype-tolocaleformat-will-be-removed/"
     - "/en-CA/docs/2017/date-prototype-tolocaleformat-has-been-removed/"
 ---
-The support for the [`Date.prototype.toLocaleFormat`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat) method, deprecated since [Firefox 55](https://www.fxsitecompat.com/en-CA/docs/2017/date-prototype-tolocaleformat-has-been-deprecated/), has been removed with Firefox 58, because it failed to be standardized. No other browsers than Firefox implement the method.
+The support for the [`Date.prototype.toLocaleFormat`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat) method, deprecated since [Firefox 55](https://www.fxsitecompat.dev/en-CA/docs/2017/date-prototype-tolocaleformat-has-been-deprecated/), has been removed with Firefox 58, because it failed to be standardized. No other browsers than Firefox implement the method.
 
 There are JavaScript libraries like [Sugar](https://sugarjs.com/) to achieve the same results. You can also use the standard [`toLocaleDateString`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString) method, which is a part of the [ECMAScript Internationalization API](https://hacks.mozilla.org/2014/12/introducing-the-javascript-internationalization-api/), as the following examples illustrate:
 

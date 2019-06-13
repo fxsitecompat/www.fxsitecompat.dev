@@ -15,4 +15,4 @@ references:
 
 **更新**: Firefox 33 について寄せられたフィードバックにより、多くの銀行や政府機関でこの旧式 Crypto API、特に `crypto.signText` メソッドが未だに使用されていることが明らかになりました。そのため Mozilla は、Firefox 34 でこの API を復活させ、近い将来に代替となる Firefox 拡張機能が拡張され次第、改めて削除することを決定しました。Firefox 33 ユーザーは、設定 `dom.unsafe_legacy_crypto.enabled` を `true` にすることで、API を再度有効化できます。また Firefox 31 ESR ユーザーはこの変更による影響を受けません。
 
-**更新**: 旧式 Crypto API は [Firefox 35 で削除されました](https://www.fxsitecompat.com/ja/docs/2014/legacy-crypto-api-has-been-removed/)。
+**更新**: 旧式 Crypto API は [Firefox 35 で削除されました](https://www.fxsitecompat.dev/ja/docs/2014/legacy-crypto-api-has-been-removed/)。

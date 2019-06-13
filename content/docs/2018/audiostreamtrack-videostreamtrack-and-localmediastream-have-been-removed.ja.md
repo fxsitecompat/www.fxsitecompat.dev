@@ -16,7 +16,7 @@ references:
 ---
 [`MediaStreamTrack`](https://developer.mozilla.org/docs/Web/API/MediaStreamTrack) のサブクラスだった `AudioStreamTrack`、`VideoStreamTrack` 両インターフェイスが Firefox 64 で削除されました。Firefox は 2014 年に Media Capture and Streams 仕様から削除されたこれらの古いインターフェイスに対応していた唯一のブラウザーでした。必要であれば、`MediaStreamTrack` オブジェクトの種類は [`kind`](https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/kind) プロパティを用いて判別可能です。
 
-[`LocalMediaStream`](https://developer.mozilla.org/docs/Web/API/LocalMediaStream) インターフェイスも同時に削除されました。[`getUserMedia`](https://developer.mozilla.org/docs/Web/API/MediaDevices/getUserMedia) メソッドは今後、Firefox にしか実装されていなかった `LocalMediaStream` の代わりに [`MediaStream`](https://developer.mozilla.org/docs/Web/API/MediaStream) オブジェクトを返します。[Firefox 44 以降廃止予定となっていた](https://www.fxsitecompat.com/ja/docs/2015/mediastream-stop-has-been-deprecated/) `stop` メソッドは、以下で示すように、`MediaStreamTrack` インターフェイス上の [`stop`](https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/stop) メソッドと置き換えられます。
+[`LocalMediaStream`](https://developer.mozilla.org/docs/Web/API/LocalMediaStream) インターフェイスも同時に削除されました。[`getUserMedia`](https://developer.mozilla.org/docs/Web/API/MediaDevices/getUserMedia) メソッドは今後、Firefox にしか実装されていなかった `LocalMediaStream` の代わりに [`MediaStream`](https://developer.mozilla.org/docs/Web/API/MediaStream) オブジェクトを返します。[Firefox 44 以降廃止予定となっていた](https://www.fxsitecompat.dev/ja/docs/2015/mediastream-stop-has-been-deprecated/) `stop` メソッドは、以下で示すように、`MediaStreamTrack` インターフェイス上の [`stop`](https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/stop) メソッドと置き換えられます。
 
 ```js
 navigator.mediaDevices.getUserMedia({

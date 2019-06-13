@@ -13,7 +13,7 @@ aliases:
 ---
 14 桁の数字から成る Firefox の識別子データを返す非標準の [`navigator.buildID`](https://developer.mozilla.org/docs/Web/API/Navigator/buildID) プロパティが `"20181001000000"` に固定されました。この変更はユーザープライバシー保護強化の一環として行われたものです。
 
-[Firefox 16](https://www.fxsitecompat.com/ja/docs/2012/ua-string-no-longer-contains-patch-level-version-number/) 以降、マイナーバージョン番号は、`navigator.userAgent` プロパティや `User-Agent` HTTP ヘッダーで取得可能なブラウザーのユーザーエージェント (UA) 文字列から除外されています。また、[Firefox 25](https://www.fxsitecompat.com/ja/docs/2015/build-id-in-ua-string-is-now-frozen-at-20100101/) 以降、UA 文字列内のビルド ID は `20100101` に固定されています。しかしながら、`navigator.buildID` プロパティは Firefox のマイナーリリースやプラットフォームによって異なる実際のビルド ID を露呈し続けていて、これはフィンガープリンティング要因となる恐れがありました。
+[Firefox 16](https://www.fxsitecompat.dev/ja/docs/2012/ua-string-no-longer-contains-patch-level-version-number/) 以降、マイナーバージョン番号は、`navigator.userAgent` プロパティや `User-Agent` HTTP ヘッダーで取得可能なブラウザーのユーザーエージェント (UA) 文字列から除外されています。また、[Firefox 25](https://www.fxsitecompat.dev/ja/docs/2015/build-id-in-ua-string-is-now-frozen-at-20100101/) 以降、UA 文字列内のビルド ID は `20100101` に固定されています。しかしながら、`navigator.buildID` プロパティは Firefox のマイナーリリースやプラットフォームによって異なる実際のビルド ID を露呈し続けていて、これはフィンガープリンティング要因となる恐れがありました。
 
 このプロパティは一部のウェブサイトでブラウザー判別のために使われている可能性があることから、ウェブコンテンツに対する非標準プロパティの露呈は理想的でないものの、削除される代わりに固定されることとなりました。
 

@@ -19,7 +19,7 @@ references:
 aliases:
     - "/en-CA/docs/2016/flash-content-will-be-click-to-activate-in-2017/"
 ---
-As part of the ongoing [NPAPI plug-in deprecation](https://www.fxsitecompat.com/en-CA/categories/plugins/) in Firefox, Flash content is now defaulted to click-to-activate in Firefox Nightly, after some advanced standard technologies including [`SharedArrayBuffer`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer), [WebAssembly](https://developer.mozilla.org/docs/WebAssembly) and [WebGL 2.0](https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext) have been implemented and shipped to public.
+As part of the ongoing [NPAPI plug-in deprecation](https://www.fxsitecompat.dev/en-CA/categories/plugins/) in Firefox, Flash content is now defaulted to click-to-activate in Firefox Nightly, after some advanced standard technologies including [`SharedArrayBuffer`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer), [WebAssembly](https://developer.mozilla.org/docs/WebAssembly) and [WebGL 2.0](https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext) have been implemented and shipped to public.
 
 The current plan is to roll out this change gradually to the Beta and Release channel user base of Firefox 55. Web publishers must have a clear plan to move away from any Flash dependency to offer the best possible user experience.
 

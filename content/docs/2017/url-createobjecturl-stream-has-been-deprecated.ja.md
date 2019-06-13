@@ -21,4 +21,4 @@ video.srcObject = stream;
 
 **更新**: Firefox 54 では [バグ](https://bugzilla.mozilla.org/show_bug.cgi?id=1369698) により廃止予定の警告が表示されません。Firefox 55 以降では正しく表示されます。
 
-**更新 2**: ストリーム引数対応は [Firefox 62 で廃止されました](https://www.fxsitecompat.com/ja/docs/2018/url-createobjecturl-no-longer-accepts-mediastream-as-argument/)。
+**更新 2**: ストリーム引数対応は [Firefox 62 で廃止されました](https://www.fxsitecompat.dev/ja/docs/2018/url-createobjecturl-no-longer-accepts-mediastream-as-argument/)。

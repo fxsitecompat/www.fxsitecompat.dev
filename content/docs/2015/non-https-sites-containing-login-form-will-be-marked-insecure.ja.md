@@ -23,4 +23,4 @@ references:
 
 **更新**: この機能は、ユーザーからさらなるフィードバックを集めるため、Firefox 50 の早期ベータ版でも有効化されました。
 
-**更新 2**: この警告は、[Firefox 51](https://www.fxsitecompat.com/ja/docs/2016/insecure-password-input-warning-will-be-enabled-by-default/) の時点で、リリース版も含めすべてのチャンネルにおいて初期設定で有効となっています。
+**更新 2**: この警告は、[Firefox 51](https://www.fxsitecompat.dev/ja/docs/2016/insecure-password-input-warning-will-be-enabled-by-default/) の時点で、リリース版も含めすべてのチャンネルにおいて初期設定で有効となっています。

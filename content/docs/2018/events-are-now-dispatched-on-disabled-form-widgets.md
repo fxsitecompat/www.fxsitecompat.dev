@@ -14,4 +14,4 @@ Given that the element is disabled and unfocusable, most of events such as `mous
 
 In order to avoid any unexpected behaviour, it might be better to always check the `disabled` property on the form element before further processing within your event handler.
 
-**Update**: CSS animation and transition events will also be fired on disabled elements on [Firefox 67](https://www.fxsitecompat.com/en-CA/docs/2019/css-animation-and-transition-events-are-now-fired-on-disabled-form-widgets/) and later.
+**Update**: CSS animation and transition events will also be fired on disabled elements on [Firefox 67](https://www.fxsitecompat.dev/en-CA/docs/2019/css-animation-and-transition-events-are-now-fired-on-disabled-form-widgets/) and later.

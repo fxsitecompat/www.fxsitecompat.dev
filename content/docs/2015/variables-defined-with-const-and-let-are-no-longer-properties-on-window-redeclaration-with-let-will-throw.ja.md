@@ -48,6 +48,6 @@ ECMAScript 2015 (ES6) 準拠の一環として、[`const`](https://developer.moz
 </script>
 ```
 
-なお、`let` 命令文は [明示的な JavaScript バージョンを必要としなくなりました](https://www.fxsitecompat.com/ja/docs/2015/let-statement-no-longer-requires-explicit-javascript-version/)。
+なお、`let` 命令文は [明示的な JavaScript バージョンを必要としなくなりました](https://www.fxsitecompat.dev/ja/docs/2015/let-statement-no-longer-requires-explicit-javascript-version/)。
 
 **更新**: Firefox 46 以降、変数の再宣言は、仕様に従って `TypeError` ではなく [`SyntaxError` を投げるようになりました](https://bugzilla.mozilla.org/show_bug.cgi?id=1198833)。

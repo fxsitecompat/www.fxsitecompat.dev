@@ -16,7 +16,7 @@ references:
 aliases:
     - "/en-CA/docs/2016/navigator-plugins-and-mimetypes-will-be-unenumerable/"
 ---
-The [`navigator.plugins`](https://developer.mozilla.org/docs/Web/API/NavigatorPlugins/plugins) and [`navigator.mimeTypes`](https://developer.mozilla.org/docs/Web/API/NavigatorPlugins/mimeTypes) properties, returning a [`PluginArray`](https://developer.mozilla.org/docs/Web/API/PluginArray) and `MimeTypeArray` object respectively, have been made unenumerable with Firefox 53, following the [removal of the plug-in support other than Flash](https://www.fxsitecompat.com/en-CA/docs/2016/plug-in-support-has-been-dropped-other-than-flash/) in Firefox 52.
+The [`navigator.plugins`](https://developer.mozilla.org/docs/Web/API/NavigatorPlugins/plugins) and [`navigator.mimeTypes`](https://developer.mozilla.org/docs/Web/API/NavigatorPlugins/mimeTypes) properties, returning a [`PluginArray`](https://developer.mozilla.org/docs/Web/API/PluginArray) and `MimeTypeArray` object respectively, have been made unenumerable with Firefox 53, following the [removal of the plug-in support other than Flash](https://www.fxsitecompat.dev/en-CA/docs/2016/plug-in-support-has-been-dropped-other-than-flash/) in Firefox 52.
 
 This change was originally planned for Firefox 28 to mitigate fingerprinting but cancelled due to considerable site compatibility issues.
 

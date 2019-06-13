@@ -10,4 +10,4 @@ references:
 ---
 [`MediaTrackConstraints`](https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints) ディクショナリー上の `autoGainControl`、`noiseSuppression` 両プロパティが接頭辞なしで使用可能となりました。それらの `moz` 接頭辞付きバージョンは近い将来削除されます。
 
-**更新**: 接頭辞付き制約は [Firefox 64 で削除されました](https://www.fxsitecompat.com/ja/docs/2018/prefixed-autogaincontrol-and-noisesuppression-media-track-constraints-have-been-removed/)。
+**更新**: 接頭辞付き制約は [Firefox 64 で削除されました](https://www.fxsitecompat.dev/ja/docs/2018/prefixed-autogaincontrol-and-noisesuppression-media-track-constraints-have-been-removed/)。

@@ -13,7 +13,7 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1307108"
       title: "Bug 1307108 - Enable async rendering by default on 49 using a system addon"
 ---
-[Firefox 49.0.2](https://www.mozilla.org/firefox/49.0.2/releasenotes/) has enabled asynchronous rendering of the Adobe Flash Player plug-in by default, aiming to improve the browser's stability and performance. It also solves the known issues on 64-bit Windows about [Stage 3D support](https://www.fxsitecompat.com/en-CA/docs/2016/flash-is-forced-windowless-mode-on-firefox-for-64-bit-windows-affecting-stage-3d/), [input method editors (IMEs)](https://bugzilla.mozilla.org/show_bug.cgi?id=1301486) and page scrolling.
+[Firefox 49.0.2](https://www.mozilla.org/firefox/49.0.2/releasenotes/) has enabled asynchronous rendering of the Adobe Flash Player plug-in by default, aiming to improve the browser's stability and performance. It also solves the known issues on 64-bit Windows about [Stage 3D support](https://www.fxsitecompat.dev/en-CA/docs/2016/flash-is-forced-windowless-mode-on-firefox-for-64-bit-windows-affecting-stage-3d/), [input method editors (IMEs)](https://bugzilla.mozilla.org/show_bug.cgi?id=1301486) and page scrolling.
 
 There are, however, [reports of various broken content](https://bugzilla.mozilla.org/showdependencytree.cgi?id=1229961&maxdepth=1&hide_resolved=0) including video players and games. Mozilla developers are investigating those issues.
 

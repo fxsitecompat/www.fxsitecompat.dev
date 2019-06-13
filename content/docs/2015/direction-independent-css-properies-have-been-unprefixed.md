@@ -25,6 +25,6 @@ As a part of the CSS3 Writing Modes implementation, various direction-independen
 | `-moz-padding-start`      | [`padding-inline-start`](https://developer.mozilla.org/docs/Web/CSS/padding-inline-start)           |
 | `-moz-padding-end`        | [`padding-inline-end`](https://developer.mozilla.org/docs/Web/CSS/padding-inline-start)             |
 
-Due to a bug, Firefox 41 still shows the prefixed properties on the Page Inspector, [`CSSRule.cssText`](https://developer.mozilla.org/docs/Web/API/CSSRule/cssText) and other APIs. This issue has been [fixed with Firefox 42](https://www.fxsitecompat.com/en-CA/docs/2015/cssrule-csstext-now-returns-unprefixed-writing-mode-aware-properties/).
+Due to a bug, Firefox 41 still shows the prefixed properties on the Page Inspector, [`CSSRule.cssText`](https://developer.mozilla.org/docs/Web/API/CSSRule/cssText) and other APIs. This issue has been [fixed with Firefox 42](https://www.fxsitecompat.dev/en-CA/docs/2015/cssrule-csstext-now-returns-unprefixed-writing-mode-aware-properties/).
 
 The support for the prefixed properties will be removed in the future.

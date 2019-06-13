@@ -29,6 +29,6 @@ references:
 
 このドキュメントは最新の状況に基づいて更新します。
 
-**更新**: [Firefox 55](https://www.fxsitecompat.com/ja/docs/2017/use-of-geolocation-api-is-now-limited-to-secure-sites/) 以降、Geolocation API の使用が安全なサイトに制限されました。
+**更新**: [Firefox 55](https://www.fxsitecompat.dev/ja/docs/2017/use-of-geolocation-api-is-now-limited-to-secure-sites/) 以降、Geolocation API の使用が安全なサイトに制限されました。
 
-**更新 2**: Mozilla は、すべての新機能や一部既存機能について [HTTPS を必須とする](https://blog.mozilla.org/security/2018/01/15/secure-contexts-everywhere/) 方針を 2018 年 1 月に発表しました。[Firefox 60](https://www.fxsitecompat.com/ja/docs/2017/webvr-can-no-longer-be-used-on-insecure-sites/) 以降、WebVR が安全でないサイト上では使用できなくなりました。
+**更新 2**: Mozilla は、すべての新機能や一部既存機能について [HTTPS を必須とする](https://blog.mozilla.org/security/2018/01/15/secure-contexts-everywhere/) 方針を 2018 年 1 月に発表しました。[Firefox 60](https://www.fxsitecompat.dev/ja/docs/2017/webvr-can-no-longer-be-used-on-insecure-sites/) 以降、WebVR が安全でないサイト上では使用できなくなりました。

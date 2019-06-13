@@ -11,7 +11,7 @@ aliases:
     - "/en-CA/docs/2015/array-string-generics-will-be-removed/"
     - "/en-CA/docs/2015/non-standard-array-string-generics-will-be-removed/"
 ---
-The non-standard `String` generic methods, introduced with [JavaScript 1.6](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.6) and deprecated since [Firefox 53](https://www.fxsitecompat.com/en-CA/docs/2016/non-standard-string-generics-have-been-deprecated/), have been removed with Firefox 68. This includes:
+The non-standard `String` generic methods, introduced with [JavaScript 1.6](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.6) and deprecated since [Firefox 53](https://www.fxsitecompat.dev/en-CA/docs/2016/non-standard-string-generics-have-been-deprecated/), have been removed with Firefox 68. This includes:
 
 * `String.charAt`
 * `String.charCodeAt`
@@ -46,4 +46,4 @@ The following standard static methods will remain available:
 * `String.fromCodePoint`
 * `String.raw`
 
-The non-standard `Array` generic methods will also be [removed in the near future](https://www.fxsitecompat.com/en-CA/docs/2019/non-standard-array-generics-have-been-deprecated/).
+The non-standard `Array` generic methods will also be [removed in the near future](https://www.fxsitecompat.dev/en-CA/docs/2019/non-standard-array-generics-have-been-deprecated/).

@@ -18,4 +18,4 @@ references:
 
 接頭辞なしの [`cancelAnimationFrame`](https://developer.mozilla.org/docs/Web/API/window.cancelAnimationFrame) メソッドも追加されました。これは接頭辞付き `mozCancelAnimationFrame` メソッドと同じ挙動となります。これらの `moz` 接頭辞付きメソッドは将来削除されます。
 
-**更新**: これらの接頭辞付きメソッドは [Firefox 42 で削除されました](https://www.fxsitecompat.com/ja/docs/2015/mozrequestanimationframe-and-related-apis-have-been-removed/)。
+**更新**: これらの接頭辞付きメソッドは [Firefox 42 で削除されました](https://www.fxsitecompat.dev/ja/docs/2015/mozrequestanimationframe-and-related-apis-have-been-removed/)。

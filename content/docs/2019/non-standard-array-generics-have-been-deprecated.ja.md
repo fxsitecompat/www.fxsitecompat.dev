@@ -50,4 +50,4 @@ Array.prototype.forEach.call(obj, callback);
 * [`Array.isArray`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
 * [`Array.of`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/of)
 
-なお、`String` 汎用メソッドは既に [Firefox 68 で削除されています](https://www.fxsitecompat.com/ja/docs/2019/non-standard-string-generics-have-been-removed/)。
+なお、`String` 汎用メソッドは既に [Firefox 68 で削除されています](https://www.fxsitecompat.dev/ja/docs/2019/non-standard-string-generics-have-been-removed/)。

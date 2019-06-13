@@ -22,6 +22,6 @@ At the same time, the `hasExtension` method will be removed from the [`SVGTests`
 
 **Update**: The latest SVG spec has restored the `getElementById` method so it won't be removed from Firefox.
 
-**Update 2**: `pixelUnitToMillimeterX` and similar properties have been [removed with Firefox 61](https://www.fxsitecompat.com/en-CA/docs/2018/pixelunittomillimeterx-and-similar-properties-have-been-removed-from-svgsvgelement/).
+**Update 2**: `pixelUnitToMillimeterX` and similar properties have been [removed with Firefox 61](https://www.fxsitecompat.dev/en-CA/docs/2018/pixelunittomillimeterx-and-similar-properties-have-been-removed-from-svgsvgelement/).
 
-**Update 3**: The `hasExtension` method has been [removed with Firefox 68](https://www.fxsitecompat.com/en-CA/docs/2019/hasextension-has-been-removed-from-some-svg-interfaces/).
+**Update 3**: The `hasExtension` method has been [removed with Firefox 68](https://www.fxsitecompat.dev/en-CA/docs/2019/hasextension-has-been-removed-from-some-svg-interfaces/).

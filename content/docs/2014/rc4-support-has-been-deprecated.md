@@ -17,4 +17,4 @@ references:
 ---
 The RC4 cipher suites are now considered insecure. RC4 is no longer offered in the first TLS handshakes, and the security UI in Firefox no longer calls it "high-grade encryption" but rather would say "encryption is not strong enough". The RC4 support will completely be removed from Mozilla products in the near future. Webmasters should upgrade their servers as soon as possible to utlize stronger cipher suites.
 
-**Update**: The RC4 support has been [disabled with Firefox 44](https://www.fxsitecompat.com/en-CA/docs/2015/rc4-is-now-completely-disabled-by-default/).
+**Update**: The RC4 support has been [disabled with Firefox 44](https://www.fxsitecompat.dev/en-CA/docs/2015/rc4-is-now-completely-disabled-by-default/).

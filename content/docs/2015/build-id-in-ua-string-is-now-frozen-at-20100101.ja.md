@@ -10,4 +10,4 @@ references:
     - url: "https://developer.mozilla.org/docs/Gecko_user_agent_string_reference"
       title: "Gecko ユーザーエージェント文字列リファレンス"
 ---
-HTTP `User-Agent` リクエストヘッダーや、[`navigator.userAgent`](https://developer.mozilla.org/docs/Web/API/NavigatorID/userAgent)、[`navigator.productSub`](https://developer.mozilla.org/docs/Web/API/Navigator/productSub) 各 DOM プロパティを通じて取得できる Firefox のビルド識別子が、ブラウザーのフィンガープリンティングの可能性を下げるため、`20100101` に固定されました。[`navigator.buildID`](https://developer.mozilla.org/docs/Web/API/Navigator/buildID) は引き続き正確なビルド識別子を返しますが、このプロパティを [将来的に削除する](https://www.fxsitecompat.com/ja/docs/2015/navigator-buildid-will-be-removed/) ことも検討されています。
+HTTP `User-Agent` リクエストヘッダーや、[`navigator.userAgent`](https://developer.mozilla.org/docs/Web/API/NavigatorID/userAgent)、[`navigator.productSub`](https://developer.mozilla.org/docs/Web/API/Navigator/productSub) 各 DOM プロパティを通じて取得できる Firefox のビルド識別子が、ブラウザーのフィンガープリンティングの可能性を下げるため、`20100101` に固定されました。[`navigator.buildID`](https://developer.mozilla.org/docs/Web/API/Navigator/buildID) は引き続き正確なビルド識別子を返しますが、このプロパティを [将来的に削除する](https://www.fxsitecompat.dev/ja/docs/2015/navigator-buildid-will-be-removed/) ことも検討されています。

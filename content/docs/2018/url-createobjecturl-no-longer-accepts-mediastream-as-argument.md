@@ -15,7 +15,7 @@ references:
 ---
 As of Firefox 62, the [`URL.createObjectURL`](https://developer.mozilla.org/docs/Web/API/URL/createObjectURL) static method no longer accepts a [`MediaStream`](https://developer.mozilla.org/docs/Web/API/MediaStream) object as the argument. According to the current specs, only a `Blob` or `MediaSource` object can be accepted.
 
-The stream argument support has been [deprecated since Firefox 54](https://www.fxsitecompat.com/en-CA/docs/2017/url-createobjecturl-stream-has-been-deprecated/). [Safari](https://bugs.webkit.org/show_bug.cgi?id=167518) has already made the change, and [Chrome](https://bugs.chromium.org/p/chromium/issues/detail?id=800767) may also follow soon.
+The stream argument support has been [deprecated since Firefox 54](https://www.fxsitecompat.dev/en-CA/docs/2017/url-createobjecturl-stream-has-been-deprecated/). [Safari](https://bugs.webkit.org/show_bug.cgi?id=167518) has already made the change, and [Chrome](https://bugs.chromium.org/p/chromium/issues/detail?id=800767) may also follow soon.
 
 Whenever you want to set a `MediaStream` object on a `<video>` or `<audio>` element, the [`HTMLMediaElement.prototype.srcObject`](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/srcObject) property should be used instead as below:
 

@@ -23,4 +23,4 @@ Source: [modules/libpref/init/all.js](https://dxr.mozilla.org/mozilla-central/so
 
 **Update 2**: In order to avoid conflict with the hotfix add-on, Firefox 41 has [renamed the preference](https://bugzilla.mozilla.org/show_bug.cgi?id=1202421) to `network.auth.subresource-http-auth-allow` while the possible values and default value (`2`) remain the same.
 
-**Update 3**: [Firefox 59](https://www.fxsitecompat.com/en-CA/docs/2017/http-auth-dialog-can-no-longer-be-triggered-by-cross-origin-images/) has reimplemented part of the change, but just for cross-origin images.
+**Update 3**: [Firefox 59](https://www.fxsitecompat.dev/en-CA/docs/2017/http-auth-dialog-can-no-longer-be-triggered-by-cross-origin-images/) has reimplemented part of the change, but just for cross-origin images.

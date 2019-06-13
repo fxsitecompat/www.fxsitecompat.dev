@@ -10,7 +10,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/6GDK3Kzu9q0/discussion"
       title: "Intent to disable (hide) Gecko specific editing UI of HTML editor by default"
 ---
-以下に挙げる [HTML リッチテキストエディター](https://developer.mozilla.org/docs/Web/Guide/HTML/Editable_content) 上の編集 UI 機能は、今のところ Firefox にしか実装されていませんが、W3C Editing Task Force の要請を受けて、Firefox 64 以降初期設定で無効化されました。これらは [廃止予定とされており](https://www.fxsitecompat.com/ja/docs/2018/firefox-specific-html-editing-ui-has-been-deprecated/)、既に Firefox 63 の時点で Firefox Nightly と早期 Beta/DevEdition では初期設定により無効化されています。
+以下に挙げる [HTML リッチテキストエディター](https://developer.mozilla.org/docs/Web/Guide/HTML/Editable_content) 上の編集 UI 機能は、今のところ Firefox にしか実装されていませんが、W3C Editing Task Force の要請を受けて、Firefox 64 以降初期設定で無効化されました。これらは [廃止予定とされており](https://www.fxsitecompat.dev/ja/docs/2018/firefox-specific-html-editing-ui-has-been-deprecated/)、既に Firefox 63 の時点で Firefox Nightly と早期 Beta/DevEdition では初期設定により無効化されています。
 
 * `<img>`、`<table>`、絶対配置要素のオブジェクトサイズ変更
 * インラインテーブル編集による列や行の追加・削除

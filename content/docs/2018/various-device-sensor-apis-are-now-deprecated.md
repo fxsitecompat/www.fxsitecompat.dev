@@ -16,4 +16,4 @@ The `devicelight`, `deviceproximity` and `userproximity` events are disabled by 
 
 The `deviceorientation` and `devicemotion` events, on the other hand, are still available given legitimate use cases including WebVR. Developers will be discussing more about the direction.
 
-**Update**: The ambient light and proximity sensor APIs have been disabled with [Firefox 62](https://www.fxsitecompat.com/en-CA/docs/2018/ambient-light-and-proximity-sensor-apis-have-been-disabled/) as planned.
+**Update**: The ambient light and proximity sensor APIs have been disabled with [Firefox 62](https://www.fxsitecompat.dev/en-CA/docs/2018/ambient-light-and-proximity-sensor-apis-have-been-disabled/) as planned.

@@ -12,7 +12,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/dwRNENReBuU/discussion"
       title: "Disabling document.createEvent(\"TouchEvent\"), document.createTouch* and ontouch* event handlers on desktop"
 ---
-Firefox 67 has followed [Chrome 70](https://www.chromestatus.com/feature/4764225348042752) to disable the legacy Touch Events API on desktop platforms, which had been available since [Firefox 52](https://fxsitecompat.com/en-CA/docs/2016/touch-event-support-has-been-re-enabled-on-windows-desktop/), because websites keep misusing the API for mobile detection, treating Firefox as a mobile browser on desktop and laptop computers with a touchscreen.
+Firefox 67 has followed [Chrome 70](https://www.chromestatus.com/feature/4764225348042752) to disable the legacy Touch Events API on desktop platforms, which had been available since [Firefox 52](https://www.fxsitecompat.dev/en-CA/docs/2016/touch-event-support-has-been-re-enabled-on-windows-desktop/), because websites keep misusing the API for mobile detection, treating Firefox as a mobile browser on desktop and laptop computers with a touchscreen.
 
 These are no longer available on desktop:
 

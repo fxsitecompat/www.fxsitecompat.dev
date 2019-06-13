@@ -8,4 +8,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1222903"
       title: "Bug 1222903 - Reject EV status for EV EE certs that are valid for longer than 27 months as well"
 ---
-Starting from [Firefox 42](https://www.fxsitecompat.com/en-CA/docs/2015/ev-certs-with-overly-long-validity-periods-will-be-treated-as-dv-certs/), EV certs valid for more than 39 months have been treated as DV certs. Firefox 45 has shortened this acceptable validity period to 27 months, since the EV SSL Certificate Guidelines is unlikely to be updated to extend the period to 39 months.
+Starting from [Firefox 42](https://www.fxsitecompat.dev/en-CA/docs/2015/ev-certs-with-overly-long-validity-periods-will-be-treated-as-dv-certs/), EV certs valid for more than 39 months have been treated as DV certs. Firefox 45 has shortened this acceptable validity period to 27 months, since the EV SSL Certificate Guidelines is unlikely to be updated to extend the period to 39 months.

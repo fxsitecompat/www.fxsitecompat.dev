@@ -48,6 +48,6 @@ Also, code evaluated with the [`eval`](https://developer.mozilla.org/docs/Web/Ja
 </script>
 ```
 
-Note that the `let` statement [no longer requires an explicit JavaScript version](https://www.fxsitecompat.com/en-CA/docs/2015/let-statement-no-longer-requires-explicit-javascript-version/).
+Note that the `let` statement [no longer requires an explicit JavaScript version](https://www.fxsitecompat.dev/en-CA/docs/2015/let-statement-no-longer-requires-explicit-javascript-version/).
 
 **Update**: Starting with Firefox 46, redeclaration of variables will [throw a `SyntaxError`](https://bugzilla.mozilla.org/show_bug.cgi?id=1198833) instead of `TypeError` as per the spec.

@@ -12,4 +12,4 @@ references:
 ---
 [環境光センサー](https://developer.mozilla.org/docs/Web/API/Ambient_Light_Events) と [近接センサー](https://developer.mozilla.org/docs/Web/API/Proximity_Events) API、具体的には [`devicelight`](https://developer.mozilla.org/docs/Web/Events/devicelight)、[`deviceproximity`](https://developer.mozilla.org/docs/Web/Events/deviceproximity)、[`userproximity`](https://developer.mozilla.org/docs/Web/Events/userproximity) イベントへの対応が、ユーザーのプライバシーと [同一オリジンポリシー](https://developer.mozilla.org/docs/Web/Security/Same-origin_policy) 違反を巡る懸念から、Firefox 62 以降初期設定で無効化されました。
 
-これらの API は、[バージョン 60](https://www.fxsitecompat.com/ja/docs/2018/various-device-sensor-apis-are-now-deprecated/) 以降 Nightly と早期 Beta/DevEdition チャンネルでは無効化されており、今のところ特に問題は報告されていません。現時点でブラウザー対応が非常に限られていることから、互換性への影響は軽微なはずです。
+これらの API は、[バージョン 60](https://www.fxsitecompat.dev/ja/docs/2018/various-device-sensor-apis-are-now-deprecated/) 以降 Nightly と早期 Beta/DevEdition チャンネルでは無効化されており、今のところ特に問題は報告されていません。現時点でブラウザー対応が非常に限られていることから、互換性への影響は軽微なはずです。

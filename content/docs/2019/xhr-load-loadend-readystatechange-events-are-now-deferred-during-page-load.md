@@ -10,4 +10,4 @@ references:
 ---
 Starting with Firefox 68, final events for `XMLHttpRequest` started during page load will be deferred until an idle time is available or the loading is complete. These events include `load`, `loadend` and `readystatechange` fired once the `readyState` property becomes `4`.
 
-Just like a similar change made to `setTimeout()` with [Firefox 66](https://www.fxsitecompat.com/en-CA/docs/2019/settimeout-and-setinterval-are-now-deferred-during-page-load/), this change aims at improving the performance of complex web applications like *Gmail*, but unexpected race conditions could occur if the initialization code is not designed properly.
+Just like a similar change made to `setTimeout()` with [Firefox 66](https://www.fxsitecompat.dev/en-CA/docs/2019/settimeout-and-setinterval-are-now-deferred-during-page-load/), this change aims at improving the performance of complex web applications like *Gmail*, but unexpected race conditions could occur if the initialization code is not designed properly.

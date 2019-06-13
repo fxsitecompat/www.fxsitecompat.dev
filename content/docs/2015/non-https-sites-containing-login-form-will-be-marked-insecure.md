@@ -23,4 +23,4 @@ Read [Tanvi Vyas' blog post](https://blog.mozilla.org/tanvi/2016/01/28/no-more-p
 
 **Update**: This feature has been enabled on the early Beta versions of Firefox 50 as well to collect more feedback from users.
 
-**Update 2**: As of [Firefox 51](https://www.fxsitecompat.com/en-CA/docs/2016/insecure-password-input-warning-will-be-enabled-by-default/), the warning is enabled by default on all channels including the Release version.
+**Update 2**: As of [Firefox 51](https://www.fxsitecompat.dev/en-CA/docs/2016/insecure-password-input-warning-will-be-enabled-by-default/), the warning is enabled by default on all channels including the Release version.

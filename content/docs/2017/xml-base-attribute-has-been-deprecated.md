@@ -14,4 +14,4 @@ references:
 ---
 The [`xml:base`](https://www.w3.org/TR/xmlbase/) attribute similar to the HTML [`<base>`](https://developer.mozilla.org/docs/Web/HTML/Element/base) element is now considered deprecated and will be removed in the near future. It was removed from the spec years ago and no other browsers support it at this time.
 
-**Update**: The attribute support has been removed with [Firefox 66](https://www.fxsitecompat.com/en-CA/docs/2018/xml-base-attribute-is-no-longer-supported/).
+**Update**: The attribute support has been removed with [Firefox 66](https://www.fxsitecompat.dev/en-CA/docs/2018/xml-base-attribute-is-no-longer-supported/).

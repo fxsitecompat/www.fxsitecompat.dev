@@ -22,6 +22,6 @@ aliases:
 
 **更新**: `getElementById` メソッドは最新の SVG 仕様で復活したため、Firefox から削除される予定はなくなりました。
 
-**更新 2**: `pixelUnitToMillimeterX` と関連プロパティは [Firefox 61 で削除されました](https://www.fxsitecompat.com/ja/docs/2018/pixelunittomillimeterx-and-similar-properties-have-been-removed-from-svgsvgelement/)。
+**更新 2**: `pixelUnitToMillimeterX` と関連プロパティは [Firefox 61 で削除されました](https://www.fxsitecompat.dev/ja/docs/2018/pixelunittomillimeterx-and-similar-properties-have-been-removed-from-svgsvgelement/)。
 
-**更新 3**: `hasExtension` メソッドは [Firefox 68 で削除されました](https://www.fxsitecompat.com/ja/docs/2019/hasextension-has-been-removed-from-some-svg-interfaces/)。
+**更新 3**: `hasExtension` メソッドは [Firefox 68 で削除されました](https://www.fxsitecompat.dev/ja/docs/2019/hasextension-has-been-removed-from-some-svg-interfaces/)。

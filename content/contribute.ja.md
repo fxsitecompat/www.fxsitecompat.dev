@@ -7,7 +7,7 @@ slug: "contribute"
 ## フォロー
 
 * **ソーシャルメディア**: [Twitter](https://twitter.com/FxSiteCompat) で私たちをフォローしてください。(これらのメディアでの情報発信は今のところ基本的に英語のみです)
-* **フィード**: このサイトの [Atom フィード](https://www.fxsitecompat.com/ja/index.xml) を購読してください。
+* **フィード**: このサイトの [Atom フィード](https://www.fxsitecompat.dev/ja/index.xml) を購読してください。
 
 ## サイトのテスト
 
@@ -20,10 +20,10 @@ Firefox ユーザーがあなたの「壊れた」サイトを訪れる前に Fi
 * **ソーシャルメディア**: 問題が起きているサイトの [URL ツイートしてください](https://twitter.com/intent/tweet?text=@fxsitecompat&related=fxsitecompat)。[Twitter](https://twitter.com/messages/compose?recipient_id=1707307399) を通じてダイレクトメッセージを送っていただくこともできます。
 * **GitHub**: GitHub アカウントをお持ちなら、私たちのレポジトリに [Issue を登録](https://github.com/fxsitecompat/reports/issues/new) するのが簡単かもしれません。
 * **Bugzilla**: Mozilla の Bugzilla アカウントをお持ちで、あなたの問題に該当する適切なコンポーネントが分かる場合は、直接 [バグを報告](https://bugzilla.mozilla.org/enter_bug.cgi?product=Core&keywords=regression%2C%20site-compat&cc=kohei.yoshino@gmail.com) してください。
-* **メール**: [bugs@fxsitecompat.com](mailto:bugs@fxsitecompat.com) までご一報ください。
+* **メール**: [bugs@fxsitecompat.dev](mailto:bugs@fxsitecompat.dev) までご一報ください。
 
 ## ドキュメントの改善
 
-ドキュメントに間違いを見つけた場合、あるいは何かまだ文書化されていない問題を見つけた場合は、[ツイート](https://twitter.com/intent/tweet?text=@fxsitecompat&related=fxsitecompat) するか、[Issue を登録](https://github.com/fxsitecompat/www.fxsitecompat.com/issues/new) するか、あるいは各ページのフッターにある「編集を提案」というリンクから直接プルリクエストを送って、私たちの有益な開発者リソースの改善にご協力ください。[Twitter](https://twitter.com/messages/compose?recipient_id=1707307399) を通じてダイレクトメッセージを送っていただくこともできます。
+ドキュメントに間違いを見つけた場合、あるいは何かまだ文書化されていない問題を見つけた場合は、[ツイート](https://twitter.com/intent/tweet?text=@fxsitecompat&related=fxsitecompat) するか、[Issue を登録](https://github.com/fxsitecompat/www.fxsitecompat.dev/issues/new) するか、あるいは各ページのフッターにある「編集を提案」というリンクから直接プルリクエストを送って、私たちの有益な開発者リソースの改善にご協力ください。[Twitter](https://twitter.com/messages/compose?recipient_id=1707307399) を通じてダイレクトメッセージを送っていただくこともできます。
 
 ともに、より良いウェブの世界を築きましょう！

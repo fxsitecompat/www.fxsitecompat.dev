@@ -16,4 +16,4 @@ aliases:
 <script type="application/javascript;version=1.7"></script>
 ```
 
-`let` 命令文は ECMAScript 2015 (ES6) で標準化されたため、そうしたバージョンを指定しなくても使えるようになりました。この変更は後方互換なはずですが、何か問題を見つけた場合は [お知らせください](https://www.fxsitecompat.com/ja/contribute/)。非標準の JavaScript バージョニングは近い将来 [完全に廃止されます](https://www.fxsitecompat.com/ja/docs/2015/javascript-versions-will-be-retired/)。
+`let` 命令文は ECMAScript 2015 (ES6) で標準化されたため、そうしたバージョンを指定しなくても使えるようになりました。この変更は後方互換なはずですが、何か問題を見つけた場合は [お知らせください](https://www.fxsitecompat.dev/ja/contribute/)。非標準の JavaScript バージョニングは近い将来 [完全に廃止されます](https://www.fxsitecompat.dev/ja/docs/2015/javascript-versions-will-be-retired/)。

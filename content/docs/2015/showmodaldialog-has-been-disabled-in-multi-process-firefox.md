@@ -13,8 +13,8 @@ references:
 ---
 The [`window.showModalDialog`](https://developer.mozilla.org/docs/Web/API/Window/showModalDialog) method has been unavailable when Firefox is running in the multi-process mode codenamed [Electrolysis](https://wiki.mozilla.org/Electrolysis) (*e10s*). At least *Office 365* and *Exchange 2016* were known to be broken due to an exception thrown by Firefox.
 
-Because it's technically difficult to support the functionality in *e10s* and the method has already been [deprecated since Firefox 28](https://www.fxsitecompat.com/en-CA/docs/2013/showmodaldialog-has-been-deprecated/), Firefox 46 hid `showModalDialog` from `window` rather than fixing the error. *Office 365* and *Exchange 2016* are now working again thanks to their feature detection.
+Because it's technically difficult to support the functionality in *e10s* and the method has already been [deprecated since Firefox 28](https://www.fxsitecompat.dev/en-CA/docs/2013/showmodaldialog-has-been-deprecated/), Firefox 46 hid `showModalDialog` from `window` rather than fixing the error. *Office 365* and *Exchange 2016* are now working again thanks to their feature detection.
 
-Currently, *e10s* is enabled by default only on Firefox Nightly and [Developer Edition](https://www.fxsitecompat.com/en-CA/docs/2015/multi-process-is-enabled-by-default-on-the-developer-edition/). Once *e10s* is enabled on all Firefox channels in mid-2016, the method will [no longer be available](https://www.fxsitecompat.com/en-CA/docs/2015/window-showmodaldialog-will-be-removed/) in Firefox.
+Currently, *e10s* is enabled by default only on Firefox Nightly and [Developer Edition](https://www.fxsitecompat.dev/en-CA/docs/2015/multi-process-is-enabled-by-default-on-the-developer-edition/). Once *e10s* is enabled on all Firefox channels in mid-2016, the method will [no longer be available](https://www.fxsitecompat.dev/en-CA/docs/2015/window-showmodaldialog-will-be-removed/) in Firefox.
 
-**Update**: The method is no longer available on [Firefox 48](https://www.fxsitecompat.com/en-CA/docs/2016/window-showmodaldialog-has-been-removed/) and later as *e10s* has been enabled by default.
+**Update**: The method is no longer available on [Firefox 48](https://www.fxsitecompat.dev/en-CA/docs/2016/window-showmodaldialog-has-been-removed/) and later as *e10s* has been enabled by default.

@@ -40,4 +40,4 @@ const p = new Proxy(o, {
 p.a = 3; // p.a は 2 から 3 へ変更されました
 ```
 
-**更新**: これらのメソッドは [Firefox 58](https://www.fxsitecompat.com/ja/docs/2017/object-prototype-watch-has-been-removed/) で削除されました。
+**更新**: これらのメソッドは [Firefox 58](https://www.fxsitecompat.dev/ja/docs/2017/object-prototype-watch-has-been-removed/) で削除されました。

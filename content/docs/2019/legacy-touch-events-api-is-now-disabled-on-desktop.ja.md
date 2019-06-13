@@ -12,7 +12,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/dwRNENReBuU/discussion"
       title: "Disabling document.createEvent(\"TouchEvent\"), document.createTouch* and ontouch* event handlers on desktop"
 ---
-Firefox 67 は [Chrome 70](https://www.chromestatus.com/feature/4764225348042752) に続いてデスクトッププラットフォーム上で旧式の Touch Events API を無効化しました。これは [Firefox 52](https://fxsitecompat.com/ja/docs/2016/touch-event-support-has-been-re-enabled-on-windows-desktop/) 以降使用可能となっていましたが、モバイル判別に誤用するサイトが後を絶たず、タッチスクリーンを備えたデスクトップパソコンやノートパソコン上で Firefox がモバイルブラウザーとして扱われてしまう場合があるためです。
+Firefox 67 は [Chrome 70](https://www.chromestatus.com/feature/4764225348042752) に続いてデスクトッププラットフォーム上で旧式の Touch Events API を無効化しました。これは [Firefox 52](https://www.fxsitecompat.dev/ja/docs/2016/touch-event-support-has-been-re-enabled-on-windows-desktop/) 以降使用可能となっていましたが、モバイル判別に誤用するサイトが後を絶たず、タッチスクリーンを備えたデスクトップパソコンやノートパソコン上で Firefox がモバイルブラウザーとして扱われてしまう場合があるためです。
 
 これらは今後デスクトップ上で使用できなくなります。
 

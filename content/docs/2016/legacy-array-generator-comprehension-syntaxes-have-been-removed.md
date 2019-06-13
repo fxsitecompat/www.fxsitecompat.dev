@@ -15,4 +15,4 @@ The support for the legacy, non-standard [array comprehensions](https://develope
 
 **Update**: The initial draft of this document said array/generator comprehensions would be removed, but the bug has been updated to only remove the legacy syntaxes for now.
 
-**Update 2**: The newer syntaxes couldn't be standardized either, and therefore, the implementation has been removed with [Firefox 58](https://www.fxsitecompat.com/en-CA/docs/2017/array-generator-comprehension-support-has-been-removed/).
+**Update 2**: The newer syntaxes couldn't be standardized either, and therefore, the implementation has been removed with [Firefox 58](https://www.fxsitecompat.dev/en-CA/docs/2017/array-generator-comprehension-support-has-been-removed/).

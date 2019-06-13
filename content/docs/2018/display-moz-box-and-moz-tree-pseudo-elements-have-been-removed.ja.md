@@ -12,7 +12,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/gbzTmE4uvJk/discussion"
       title: "Intent to unship: ::-moz-tree pseudo-elements."
 ---
-[Firefox 63 以降廃止予定となっていた](https://www.fxsitecompat.com/ja/docs/2018/display-moz-box-and-display-moz-inline-box-have-been-deprecated/) CSS `display` プロパティ用の非標準値、`-moz-box` と `-moz-inline-box`、また同じく [Firefox 63 以降廃止予定となっていた](https://www.fxsitecompat.com/ja/docs/2018/moz-tree-pseudo-elements-have-been-deprecated/) 以下の非標準 CSS 疑似要素が、 Firefox 64 以降ウェブコンテンツから使用できなくなりました。
+[Firefox 63 以降廃止予定となっていた](https://www.fxsitecompat.dev/ja/docs/2018/display-moz-box-and-display-moz-inline-box-have-been-deprecated/) CSS `display` プロパティ用の非標準値、`-moz-box` と `-moz-inline-box`、また同じく [Firefox 63 以降廃止予定となっていた](https://www.fxsitecompat.dev/ja/docs/2018/moz-tree-pseudo-elements-have-been-deprecated/) 以下の非標準 CSS 疑似要素が、 Firefox 64 以降ウェブコンテンツから使用できなくなりました。
 
 これらは既に廃止予定となった [XUL](https://developer.mozilla.org/docs/Mozilla/Tech/XUL) で記述されている Firefox のユーザーインターフェイス用に作られたもので、他のどのブラウザーも対応していません。削除に伴う互換性問題の報告も今のところありません。
 

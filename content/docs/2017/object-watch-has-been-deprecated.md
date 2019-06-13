@@ -40,4 +40,4 @@ const p = new Proxy(o, {
 p.a = 3; // p.a has been changed from 2 to 3
 ```
 
-**Update**: These methods have been removed with [Firefox 58](https://www.fxsitecompat.com/en-CA/docs/2017/object-prototype-watch-has-been-removed/).
+**Update**: These methods have been removed with [Firefox 58](https://www.fxsitecompat.dev/en-CA/docs/2017/object-prototype-watch-has-been-removed/).

@@ -16,4 +16,4 @@ references:
 
 一方、`deviceorientation`、`devicemotion` 両イベントは、WebVR を含めて妥当なユースケースがあることからまだ使用可能です。開発者はその方向性についてより詳しく議論する予定です。
 
-**更新**: 環境光・近接センサー API は、予定通り [Firefox 62](https://www.fxsitecompat.com/ja/docs/2018/ambient-light-and-proximity-sensor-apis-have-been-disabled/) で無効化されました。
+**更新**: 環境光・近接センサー API は、予定通り [Firefox 62](https://www.fxsitecompat.dev/ja/docs/2018/ambient-light-and-proximity-sensor-apis-have-been-disabled/) で無効化されました。

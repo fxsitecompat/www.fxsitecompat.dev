@@ -14,4 +14,4 @@ references:
 aliases:
     - "/ja/docs/2015/for-each-in-loop-support-will-be-removed/"
 ---
-[Firefox 37 以降廃止予定となっていた](https://www.fxsitecompat.com/ja/docs/2015/for-each-in-loops-are-now-deprecated/) [`for each...in`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for_each...in) 命令文は、ECMAScript 2015 (ES6) 仕様に含まれていないため、Firefox 57 で削除されました。Nightly チャンネルでは Firefox 53 以降既に無効化されています。標準の [`for...of`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for...of) 命令文で代用してください。
+[Firefox 37 以降廃止予定となっていた](https://www.fxsitecompat.dev/ja/docs/2015/for-each-in-loops-are-now-deprecated/) [`for each...in`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for_each...in) 命令文は、ECMAScript 2015 (ES6) 仕様に含まれていないため、Firefox 57 で削除されました。Nightly チャンネルでは Firefox 53 以降既に無効化されています。標準の [`for...of`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for...of) 命令文で代用してください。

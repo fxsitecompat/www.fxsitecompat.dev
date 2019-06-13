@@ -11,4 +11,4 @@ aliases:
     - "/en-CA/docs/2015/string-prototype-contains-will-be-removed/"
     - "/en-CA/docs/2016/string-prototype-contains-has-been-removed-in-favour-of-includes/"
 ---
-The support for the `String.prototype.contains` method, [deprecated since Firefox 40](https://www.fxsitecompat.com/en-CA/docs/2015/string-prototype-contains-has-been-renamed-to-includes/), has been removed. Due to site compatibility issues, it has been renamed to [`String.prototype.includes`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
+The support for the `String.prototype.contains` method, [deprecated since Firefox 40](https://www.fxsitecompat.dev/en-CA/docs/2015/string-prototype-contains-has-been-renamed-to-includes/), has been removed. Due to site compatibility issues, it has been renamed to [`String.prototype.includes`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/includes).

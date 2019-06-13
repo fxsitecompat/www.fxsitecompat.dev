@@ -19,7 +19,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/IWLLJmoGroA/discussion"
       title: "Intent to ship: set keyCode or charCode of \"keypress\" event to the other's non-zero value"
 ---
-Firefox 65 で、Internet Explorer 由来の [`window.event`](https://developer.mozilla.org/docs/Web/API/Window/event)、[`Event.prototype.returnValue`](https://developer.mozilla.org/docs/Web/API/Event/returnValue) 両プロパティへの対応が再度追加されました。これは一度 [Firefox 63](https://www.fxsitecompat.com/en-CA/docs/2018/support-for-event-returnvalue-has-been-added/) で投入されたものの、いくつかのサイト互換性問題から Nightly 以外のチャンネルではすぐに無効化されていました。
+Firefox 65 で、Internet Explorer 由来の [`window.event`](https://developer.mozilla.org/docs/Web/API/Window/event)、[`Event.prototype.returnValue`](https://developer.mozilla.org/docs/Web/API/Event/returnValue) 両プロパティへの対応が再度追加されました。これは一度 [Firefox 63](https://www.fxsitecompat.dev/en-CA/docs/2018/support-for-event-returnvalue-has-been-added/) で投入されたものの、いくつかのサイト互換性問題から Nightly 以外のチャンネルではすぐに無効化されていました。
 
 Firefox 65 以降、`keypress` イベントの `keyCode` プロパティが `0` の場合、その値は `charCode` と同じになります。逆に、`charCode` が `0` の場合、その値は `keyCode` と同じになります。このミラーリング挙動は他のブラウザーと一致し、互換性問題の大半を解決するものと期待されていますが、既に [Google によって解決されている](https://github.com/google/closure-library/issues/932) *Closure Library* のように、ユーザーエージェント判別が別の問題を引き起こす可能性があります。
 

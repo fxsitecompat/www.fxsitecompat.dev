@@ -186,7 +186,7 @@ recent_blog_posts:
 not_found_page_title:
     other: "Page Not Found"
 not_found_page_description:
-    other: "The page you are looking for could not be found. If you believe this is an error, please reach us out at webmaster@fxsitecompat.com."
+    other: "The page you are looking for could not be found. If you believe this is an error, please reach us out at webmaster@fxsitecompat.dev."
 
 # Feed
 feed_recent_content:

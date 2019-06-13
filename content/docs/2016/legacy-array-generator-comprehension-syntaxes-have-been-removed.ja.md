@@ -15,4 +15,4 @@ JavaScript [1.7](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaSc
 
 **更新**: このドキュメントの初期草稿では配列・ジェネレーター内包が削除されると記載していましたが、バグが更新され、差し当たり古い構文のみ削除されることになりました。
 
-**更新 2**: 新しい構文も標準化されなかったため、実装は [Firefox 58](https://www.fxsitecompat.com/ja/docs/2017/array-generator-comprehension-support-has-been-removed/) で削除されました。
+**更新 2**: 新しい構文も標準化されなかったため、実装は [Firefox 58](https://www.fxsitecompat.dev/ja/docs/2017/array-generator-comprehension-support-has-been-removed/) で削除されました。

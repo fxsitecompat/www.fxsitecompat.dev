@@ -186,7 +186,7 @@ recent_blog_posts:
 not_found_page_title:
     other: "ページが見つかりません"
 not_found_page_description:
-    other: "あなたがお探しのページは見つかりませんでした。もしこれが何か間違いだと思われる場合は、webmaster@fxsitecompat.com までご連絡ください。"
+    other: "あなたがお探しのページは見つかりませんでした。もしこれが何か間違いだと思われる場合は、webmaster@fxsitecompat.dev までご連絡ください。"
 
 # Feed
 feed_recent_content:

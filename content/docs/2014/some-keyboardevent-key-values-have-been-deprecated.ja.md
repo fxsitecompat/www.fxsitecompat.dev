@@ -10,4 +10,4 @@ references:
 ---
 [`KeyboardEvent.key`](https://developer.mozilla.org/docs/Web/API/KeyboardEvent.key) のいくつかの値が廃止予定となり、Firefox 34 での最新 DOM3 仕様に準拠した変更に先立ち [ウェブコンソール](https://developer.mozilla.org/docs/Tools/Web_Console) に警告が表示されるようになりました。これには、`Down`、`Left`、`Right`、`Up`、`Crsel`、`Del`、`Exsel`、`Menu`、`Esc`、`Nonconvert`、`HalfWidth`、`RomanCharacters`、`FullWidth`、`SelectMedia`、`MediaNextTrack`、`MediaPreviousTrack`、`Red`、`Green`、`Yellow`、`Blue`、`Live`、`Apps`、`FastFwd`、`Zoom`、`DeadKeys` が含まれます。キー値の完全な一覧は [`KeyboardEvent.key`](https://developer.mozilla.org/docs/Web/API/KeyboardEvent.key) ドキュメントを参照してください。
 
-**更新**: 廃止予定となっていたこれらのキー値 [Firefox 37 で削除されました](https://www.fxsitecompat.com/ja/docs/2015/keyboardevent-key-values-have-been-updated-for-the-latest-spec/)。
+**更新**: 廃止予定となっていたこれらのキー値 [Firefox 37 で削除されました](https://www.fxsitecompat.dev/ja/docs/2015/keyboardevent-key-values-have-been-updated-for-the-latest-spec/)。

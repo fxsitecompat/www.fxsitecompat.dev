@@ -14,6 +14,6 @@ aliases:
 ---
 The [Battery Status API](https://developer.mozilla.org/docs/Web/API/Battery_Status_API) implementation has been updated to match the [latest spec](https://www.w3.org/TR/battery-status/). The [`navigator.battery`](https://developer.mozilla.org/docs/Web/API/Navigator/battery) property is now deprecated in favour of the standardized [`navigator.getBattery`](https://developer.mozilla.org/docs/Web/API/Navigator/getBattery) method that returns a `Promise` resolved in a [`BatteryManager`](https://developer.mozilla.org/docs/Web/API/BatteryManager) instance. The `battery` property support will be removed in the future.
 
-**Update**: `navigator.battery` has been [removed with Firefox 50](https://www.fxsitecompat.com/en-CA/docs/2016/navigator-battery-has-been-removed-in-favour-of-async-getbattery-method/).
+**Update**: `navigator.battery` has been [removed with Firefox 50](https://www.fxsitecompat.dev/en-CA/docs/2016/navigator-battery-has-been-removed-in-favour-of-async-getbattery-method/).
 
-**Update**: The Battery Status API has been [removed with Firefox 52](https://www.fxsitecompat.com/en-CA/docs/2016/battery-status-api-has-been-removed/).
+**Update**: The Battery Status API has been [removed with Firefox 52](https://www.fxsitecompat.dev/en-CA/docs/2016/battery-status-api-has-been-removed/).

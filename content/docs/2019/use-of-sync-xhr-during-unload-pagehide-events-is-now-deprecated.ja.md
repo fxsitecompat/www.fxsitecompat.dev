@@ -10,4 +10,4 @@ references:
 ---
 Firefox 68 以降、同期 `XMLHttpRequest` が `unload` あるいは `pagehide` イベントリスナー内で使われていた場合、ユーザー体験を損なうことから、ウェブコンソールが警告を表示します。すべてのモダンブラウザーで使用可能となっている [`navigator.sendBeacon`](https://developer.mozilla.org/docs/Web/API/Navigator/sendBeacon) メソッドを代わりに使ってください。
 
-なお、[Firefox 30](https://www.fxsitecompat.com/ja/docs/2014/synchronous-xmlhttprequest-has-been-deprecated/) 以降、これらのイベント外での同期 `XMLHttpRequest` の使用に対しては警告が出されています。メインスレッド上でのリクエストがすべて非同期となっているかどうか、あなたのコードを再確認した方が良いでしょう。
+なお、[Firefox 30](https://www.fxsitecompat.dev/ja/docs/2014/synchronous-xmlhttprequest-has-been-deprecated/) 以降、これらのイベント外での同期 `XMLHttpRequest` の使用に対しては警告が出されています。メインスレッド上でのリクエストがすべて非同期となっているかどうか、あなたのコードを再確認した方が良いでしょう。

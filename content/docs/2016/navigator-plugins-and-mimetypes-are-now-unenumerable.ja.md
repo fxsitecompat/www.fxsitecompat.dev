@@ -16,7 +16,7 @@ references:
 aliases:
     - "/ja/docs/2016/navigator-plugins-and-mimetypes-will-be-unenumerable/"
 ---
-Firefox 52 で [Flash 以外のプラグイン対応が廃止](https://www.fxsitecompat.com/ja/docs/2016/plug-in-support-has-been-dropped-other-than-flash/) されたのに続いて、それぞれ [`PluginArray`](https://developer.mozilla.org/docs/Web/API/PluginArray)、`MimeTypeArray` オブジェクトを返す  [`navigator.plugins`](https://developer.mozilla.org/docs/Web/API/NavigatorPlugins/plugins)、[`navigator.mimeTypes`](https://developer.mozilla.org/docs/Web/API/NavigatorPlugins/mimeTypes) 両プロパティが Firefox 53 で列挙不能となりました。
+Firefox 52 で [Flash 以外のプラグイン対応が廃止](https://www.fxsitecompat.dev/ja/docs/2016/plug-in-support-has-been-dropped-other-than-flash/) されたのに続いて、それぞれ [`PluginArray`](https://developer.mozilla.org/docs/Web/API/PluginArray)、`MimeTypeArray` オブジェクトを返す  [`navigator.plugins`](https://developer.mozilla.org/docs/Web/API/NavigatorPlugins/plugins)、[`navigator.mimeTypes`](https://developer.mozilla.org/docs/Web/API/NavigatorPlugins/mimeTypes) 両プロパティが Firefox 53 で列挙不能となりました。
 
 この変更はフィンガープリンティングを緩和するため元々 Firefox 28 で予定されていましたが、無視できないサイト互換性問題により中止されていました。
 

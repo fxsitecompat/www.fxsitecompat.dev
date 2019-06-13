@@ -11,4 +11,4 @@ references:
 ---
 [ECMAScript for XML (E4X)](https://developer.mozilla.org/docs/E4X) has been deprecated and disabled in Firefox 17. Though the feature can be enabled by changing the value of a hidden preference `javascript.options.xml.content` to `true`, the implementation will be [completely removed](https://bugzilla.mozilla.org/show_bug.cgi?id=788293) from <del>Firefox 18</del> <ins>a near-future version of Firefox (the original plan was Firefox 18 but currently TBD)</ins>.
 
-**Update**: The E4X support has been [removed with Firefox 21](https://www.fxsitecompat.com/en-CA/docs/2013/e4x-support-has-been-completely-removed/).
+**Update**: The E4X support has been [removed with Firefox 21](https://www.fxsitecompat.dev/en-CA/docs/2013/e4x-support-has-been-completely-removed/).

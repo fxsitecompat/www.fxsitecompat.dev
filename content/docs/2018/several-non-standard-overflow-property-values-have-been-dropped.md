@@ -16,9 +16,9 @@ The following non-standard, prefixed values for the [`overflow`](https://develop
     * Use `overflow: hidden` instead
 * `-moz-scrollbars-horizontal`
     * Use `overflow-x: scroll; overflow-y: hidden` instead
-    * <del>`overflow: hidden scroll` can also be used on [Firefox 63 and later](https://www.fxsitecompat.com/en-CA/docs/2018/overflow-shorthand-syntax-has-been-updated-to-swap-2-values/)</del>
+    * <del>`overflow: hidden scroll` can also be used on [Firefox 63 and later](https://www.fxsitecompat.dev/en-CA/docs/2018/overflow-shorthand-syntax-has-been-updated-to-swap-2-values/)</del>
 * `-moz-scrollbars-vertical`
     * Use `overflow-x: hidden; overflow-y: scroll` instead
-    * <del>`overflow: scroll hidden` can also be used on [Firefox 63 and later](https://www.fxsitecompat.com/en-CA/docs/2018/overflow-shorthand-syntax-has-been-updated-to-swap-2-values/)</del>
+    * <del>`overflow: scroll hidden` can also be used on [Firefox 63 and later](https://www.fxsitecompat.dev/en-CA/docs/2018/overflow-shorthand-syntax-has-been-updated-to-swap-2-values/)</del>
 
 `-moz-hidden-unscrollable` is now the only prefixed value for the property, though it's not for general purposes.

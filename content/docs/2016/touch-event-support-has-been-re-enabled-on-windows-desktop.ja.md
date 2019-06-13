@@ -19,7 +19,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/6CGjsm1XpD4/discussion"
       title: "Intent to ship: TouchEvents (Windows), touch-action (all platforms), accessible caret"
 ---
-[Firefox 18 で導入](https://www.fxsitecompat.com/ja/docs/2012/moztouch-events-were-removed-in-favour-of-the-standard-touch-events/) されたものの様々なサイト互換性問題のため [Firefox 24 で無効化](https://www.fxsitecompat.com/ja/docs/2013/touch-events-support-has-been-temporarily-disabled-on-desktop/) されていた、Windows デスクトッププラットフォーム上での標準 [タッチイベント](https://developer.mozilla.org/docs/Web/API/Touch_events) 対応が、Firefox 52 で再び有効化されました。Firefox Nightly では Firefox 47 以降既に有効化されています。
+[Firefox 18 で導入](https://www.fxsitecompat.dev/ja/docs/2012/moztouch-events-were-removed-in-favour-of-the-standard-touch-events/) されたものの様々なサイト互換性問題のため [Firefox 24 で無効化](https://www.fxsitecompat.dev/ja/docs/2013/touch-events-support-has-been-temporarily-disabled-on-desktop/) されていた、Windows デスクトッププラットフォーム上での標準 [タッチイベント](https://developer.mozilla.org/docs/Web/API/Touch_events) 対応が、Firefox 52 で再び有効化されました。Firefox Nightly では Firefox 47 以降既に有効化されています。
 
 タッチパネル搭載端末では、[`Touch`](https://developer.mozilla.org/docs/Web/API/Touch)、[`TouchEvent`](https://developer.mozilla.org/docs/Web/API/TouchEvent)、[`TouchList`](https://developer.mozilla.org/docs/Web/API/TouchList) インターフェイスが、[`ontouchstart`](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchstart)、[`ontouchmove`](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchmove)、[`ontouchend`](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchend)、[`ontouchcancel`](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchcancel) プロパティとともに `window` 上に露呈されます。
 
@@ -35,4 +35,4 @@ if ('ontouchstart' in window) {
 
 **更新**: この変更により現在 *Ext JS 6* が正しく動作していません。
 
-**更新 2**: [Firefox 67](https://www.fxsitecompat.com/ja/docs/2019/legacy-touch-events-api-is-now-disabled-on-desktop/) 以降、デスクトップ上で旧式の Touch Events API が無効化されています。
+**更新 2**: [Firefox 67](https://www.fxsitecompat.dev/ja/docs/2019/legacy-touch-events-api-is-now-disabled-on-desktop/) 以降、デスクトップ上で旧式の Touch Events API が無効化されています。

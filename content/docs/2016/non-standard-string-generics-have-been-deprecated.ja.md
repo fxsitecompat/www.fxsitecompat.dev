@@ -54,6 +54,6 @@ String.prototype.replace.call(num, search, replace);
 * [`String.fromCodePoint`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint)
 * [`String.raw`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/raw)
 
-**更新**: `String` 汎用メソッドは [Firefox 68 で削除されました](https://www.fxsitecompat.com/ja/docs/2019/non-standard-string-generics-have-been-removed/)。
+**更新**: `String` 汎用メソッドは [Firefox 68 で削除されました](https://www.fxsitecompat.dev/ja/docs/2019/non-standard-string-generics-have-been-removed/)。
 
-**更新 2** この記事の初期バージョンは `Array` 汎用メソッドにも言及していましたが、`Array` 汎用メソッドは Firefox 53 ではなく [Firefox 68](https://www.fxsitecompat.com/ja/docs/2016/non-array-string-generics-have-been-deprecated/) 以降公式に廃止予定となりました。この記事は訂正済みです。
+**更新 2** この記事の初期バージョンは `Array` 汎用メソッドにも言及していましたが、`Array` 汎用メソッドは Firefox 53 ではなく [Firefox 68](https://www.fxsitecompat.dev/ja/docs/2016/non-array-string-generics-have-been-deprecated/) 以降公式に廃止予定となりました。この記事は訂正済みです。

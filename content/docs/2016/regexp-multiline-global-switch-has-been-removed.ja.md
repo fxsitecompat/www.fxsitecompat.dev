@@ -10,4 +10,4 @@ references:
 aliases:
     - "/ja/docs/2015/regexp-multiline-global-switch-will-be-removed/"
 ---
-[Firefox 46 以降廃止予定となっていた](https://www.fxsitecompat.com/ja/docs/2015/regexp-multiline-global-switch-has-been-deprecated/) [`RegExp`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp) オブジェクト上の非標準 `multiline` プロパティが、Firefox 48 で削除されました。`RegExp` リテラルとコンストラクターの `m` フラグを代わりに使用してください。なお、`RegExp` インスタンス上の標準 [`multiline`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/multiline) プロパティは削除されません。
+[Firefox 46 以降廃止予定となっていた](https://www.fxsitecompat.dev/ja/docs/2015/regexp-multiline-global-switch-has-been-deprecated/) [`RegExp`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp) オブジェクト上の非標準 `multiline` プロパティが、Firefox 48 で削除されました。`RegExp` リテラルとコンストラクターの `m` フラグを代わりに使用してください。なお、`RegExp` インスタンス上の標準 [`multiline`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/multiline) プロパティは削除されません。

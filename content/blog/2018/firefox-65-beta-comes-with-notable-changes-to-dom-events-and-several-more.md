@@ -2,7 +2,7 @@
 title: "Firefox 65 Beta comes with notable changes to DOM events and several more"
 date: "2018-12-24T22:05:00-05:00"
 ---
-Sorry for the late post! [Firefox 65 Beta and Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) have been available for the past 3 weeks. Check out our [Firefox 65 compatibility notes](https://www.fxsitecompat.com/en-CA/versions/65/) to get prepared for the final version coming late January.
+Sorry for the late post! [Firefox 65 Beta and Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) have been available for the past 3 weeks. Check out our [Firefox 65 compatibility notes](https://www.fxsitecompat.dev/en-CA/versions/65/) to get prepared for the final version coming late January.
 
 The upcoming release contains a batch of changes related to DOM events that you should be aware of. While the known issues found on major sites have been solved by now, there's a very good chance that one of these will affect you.
 

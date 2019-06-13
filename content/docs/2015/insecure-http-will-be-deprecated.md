@@ -29,6 +29,6 @@ Although there is no solid timeline yet, the deprecation of insecure HTTP will h
 
 We will update this document based on the most recent status.
 
-**Update**: As of [Firefox 55](https://www.fxsitecompat.com/en-CA/docs/2017/use-of-geolocation-api-is-now-limited-to-secure-sites/), Use of Geolocation API is now limited to secure sites.
+**Update**: As of [Firefox 55](https://www.fxsitecompat.dev/en-CA/docs/2017/use-of-geolocation-api-is-now-limited-to-secure-sites/), Use of Geolocation API is now limited to secure sites.
 
-**Update 2**: In January 2018, Mozilla announced their intent to [require HTTPS](https://blog.mozilla.org/security/2018/01/15/secure-contexts-everywhere/) for all new features plus some existing features. Starting with [Firefox 60](https://www.fxsitecompat.com/en-CA/docs/2017/webvr-can-no-longer-be-used-on-insecure-sites/), WebVR can no longer be used on insecure sites.
+**Update 2**: In January 2018, Mozilla announced their intent to [require HTTPS](https://blog.mozilla.org/security/2018/01/15/secure-contexts-everywhere/) for all new features plus some existing features. Starting with [Firefox 60](https://www.fxsitecompat.dev/en-CA/docs/2017/webvr-can-no-longer-be-used-on-insecure-sites/), WebVR can no longer be used on insecure sites.

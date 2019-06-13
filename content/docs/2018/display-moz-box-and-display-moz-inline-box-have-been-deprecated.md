@@ -12,6 +12,6 @@ references:
 ---
 The non-standard `-moz-box` and `-moz-inline-box` values for the CSS `display` property are now considered deprecated and disabled by default in Firefox Nightly and early Beta/DevEdition. Assuming no major issues arise, these values will be removed from all the channels in the near future.
 
-Note that other non-standard values for the `display` property, including `-moz-grid` and `-moz-inline-grid`, have already been [dropped with Firefox 62](https://www.fxsitecompat.com/en-CA/docs/2018/most-of-non-standard-css-display-values-have-been-dropped/).
+Note that other non-standard values for the `display` property, including `-moz-grid` and `-moz-inline-grid`, have already been [dropped with Firefox 62](https://www.fxsitecompat.dev/en-CA/docs/2018/most-of-non-standard-css-display-values-have-been-dropped/).
 
-**Update**: These values have been [removed with Firefox 64](https://www.fxsitecompat.com/en-CA/docs/2018/display-moz-box-and-moz-tree-pseudo-elements-have-been-removed/).
+**Update**: These values have been [removed with Firefox 64](https://www.fxsitecompat.dev/en-CA/docs/2018/display-moz-box-and-moz-tree-pseudo-elements-have-been-removed/).

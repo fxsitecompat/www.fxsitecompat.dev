@@ -10,4 +10,4 @@ references:
 ---
 [ウェブコンソール](https://developer.mozilla.org/docs/Tools/Web_Console) が、安全でなく廃止予定となっている SSL 3.0 プロトコルや RC4 暗号スイートを使ったサイト上で警告を表示するようになりました。ウェブマスターの皆さんには、サーバーを更新してより強力な暗号化を提供するよう強く推奨します。
 
-**更新**: SSLv3 対応は [Firefox 39 で削除されました](https://www.fxsitecompat.com/ja/docs/2015/sslv3-support-has-been-removed/)。
+**更新**: SSLv3 対応は [Firefox 39 で削除されました](https://www.fxsitecompat.dev/ja/docs/2015/sslv3-support-has-been-removed/)。

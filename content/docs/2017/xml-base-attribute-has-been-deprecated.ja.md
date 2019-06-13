@@ -14,4 +14,4 @@ references:
 ---
 HTML の [`<base>`](https://developer.mozilla.org/docs/Web/HTML/Element/base) 要素と似た [`xml:base`](https://www.w3.org/TR/xmlbase/) 属性が廃止予定となり、近い将来削除されることとなりました。これは何年も前に仕様から削除されており、現時点で他のどのブラウザーも対応していません。
 
-**更新**: この属性対応は [Firefox 66](https://www.fxsitecompat.com/ja/docs/2018/xml-base-attribute-is-no-longer-supported/) で削除されました。
+**更新**: この属性対応は [Firefox 66](https://www.fxsitecompat.dev/ja/docs/2018/xml-base-attribute-is-no-longer-supported/) で削除されました。

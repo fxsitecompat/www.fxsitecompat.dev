@@ -12,7 +12,7 @@ references:
 aliases:
     - "/en-CA/docs/2017/date-prototype-tolocaleformat-has-been-deprecated/"
 ---
-The support for the non-standard [`Date.prototype.toLocaleFormat`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat) method is now considered deprecated and will be [removed](https://www.fxsitecompat.com/en-CA/docs/2015/date-prototype-tolocaleformat-will-be-removed/) in the near future. Firefox 55 and later shows a warning in the Console for the method.
+The support for the non-standard [`Date.prototype.toLocaleFormat`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat) method is now considered deprecated and will be [removed](https://www.fxsitecompat.dev/en-CA/docs/2015/date-prototype-tolocaleformat-will-be-removed/) in the near future. Firefox 55 and later shows a warning in the Console for the method.
 
 There are JavaScript libraries like [Sugar](https://sugarjs.com/) to achieve the same results. You can also use the standard [`toLocaleDateString`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString) method, which is a part of the [ECMAScript Internationalization API](https://hacks.mozilla.org/2014/12/introducing-the-javascript-internationalization-api/), as the following examples illustrate:
 
@@ -45,4 +45,4 @@ There are JavaScript libraries like [Sugar](https://sugarjs.com/) to achieve the
 
 Note that the Intl API is available on Firefox 56 and later on Android, while the desktop version of Firefox has already added the support with Firefox 29.
 
-**Update**: This method has been removed with [Firefox 58](https://www.fxsitecompat.com/en-CA/docs/2017/date-prototype-tolocaleformat-has-been-removed/).
+**Update**: This method has been removed with [Firefox 58](https://www.fxsitecompat.dev/en-CA/docs/2017/date-prototype-tolocaleformat-has-been-removed/).

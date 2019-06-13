@@ -19,7 +19,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/6CGjsm1XpD4/discussion"
       title: "Intent to ship: TouchEvents (Windows), touch-action (all platforms), accessible caret"
 ---
-The support for the standard [touch events](https://developer.mozilla.org/docs/Web/API/Touch_events) on Windows desktop platforms, [introduced with Firefox 18](https://www.fxsitecompat.com/en-CA/docs/2012/moztouch-events-were-removed-in-favour-of-the-standard-touch-events/) but [disabled with Firefox 24](https://www.fxsitecompat.com/en-CA/docs/2013/touch-events-support-has-been-temporarily-disabled-on-desktop/) due to various site compatibility issues, is now enabled again with Firefox 52. On Firefox Nightly, this has already been enabled since Firefox 47.
+The support for the standard [touch events](https://developer.mozilla.org/docs/Web/API/Touch_events) on Windows desktop platforms, [introduced with Firefox 18](https://www.fxsitecompat.dev/en-CA/docs/2012/moztouch-events-were-removed-in-favour-of-the-standard-touch-events/) but [disabled with Firefox 24](https://www.fxsitecompat.dev/en-CA/docs/2013/touch-events-support-has-been-temporarily-disabled-on-desktop/) due to various site compatibility issues, is now enabled again with Firefox 52. On Firefox Nightly, this has already been enabled since Firefox 47.
 
 On touchscreen devices, the [`Touch`](https://developer.mozilla.org/docs/Web/API/Touch), [`TouchEvent`](https://developer.mozilla.org/docs/Web/API/TouchEvent) and [`TouchList`](https://developer.mozilla.org/docs/Web/API/TouchList) interfaces will be exposed on `window` along with the [`ontouchstart`](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchstart), [`ontouchmove`](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchmove), [`ontouchend`](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchend) and [`ontouchcancel`](https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchcancel) properties.
 
@@ -35,4 +35,4 @@ For a quick test, you can use the [Responsive Design Mode](https://developer.moz
 
 **Update**: *Ext JS 6* is currently broken due to this change.
 
-**Update 2**: The legacy Touch Events API has been disabled on desktop with [Firefox 67](https://www.fxsitecompat.com/en-CA/docs/2019/legacy-touch-events-api-is-now-disabled-on-desktop/).
+**Update 2**: The legacy Touch Events API has been disabled on desktop with [Firefox 67](https://www.fxsitecompat.dev/en-CA/docs/2019/legacy-touch-events-api-is-now-disabled-on-desktop/).

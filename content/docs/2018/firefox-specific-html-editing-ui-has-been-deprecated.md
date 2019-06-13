@@ -26,4 +26,4 @@ document.execCommand('enableAbsolutePositionEditor', false, true);
 
 **Update**: The initial draft of this article was saying that these features will be removed with Firefox 64. However, the current plan is only to be disabled by default with the upcoming release. The content has been corrected accordingly.
 
-**Update 2**: Starting with [Firefox 64](https://www.fxsitecompat.com/en-CA/docs/2018/firefox-specific-html-editing-ui-has-been-disabled-by-default/), these features are disabled by default on all the Firefox channels as planned.
+**Update 2**: Starting with [Firefox 64](https://www.fxsitecompat.dev/en-CA/docs/2018/firefox-specific-html-editing-ui-has-been-disabled-by-default/), these features are disabled by default on all the Firefox channels as planned.

@@ -16,6 +16,6 @@ references:
 * `candidateType` enum メンバーが改名されました。`serverreflexive`、`peerreflexive` と `relayed` はそれぞれ `srflx`、`prflx` と `relay` になりました。
 * `componentId` プロパティが削除されました。標準化された `transportId` プロパティはまだ Firefox では使えません。
 * `ipAddress` プロパティが `address` へ改名されました。
-* [廃止予定となっていた](https://www.fxsitecompat.com/ja/docs/2018/rtcicecandidatestats-mozlocaltransport-has-been-deprecated/) `mozLocalTransport` プロパティが `relayProtocol` へ改名されました。
+* [廃止予定となっていた](https://www.fxsitecompat.dev/ja/docs/2018/rtcicecandidatestats-mozlocaltransport-has-been-deprecated/) `mozLocalTransport` プロパティが `relayProtocol` へ改名されました。
 * `portNumber` プロパティが `port` へ改名されました。
 * `transport` プロパティが `protocol` へ改名されました。

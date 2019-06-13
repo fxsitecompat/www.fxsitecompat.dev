@@ -12,4 +12,4 @@ references:
 ---
 The prefixed values for the [`unicode-bidi`](https://developer.mozilla.org/docs/Web/CSS/unicode-bidi) CSS property, including `-moz-isolate`, `-moz-isolate-override` and `-moz-plaintext`, can now be used without the vendor prefix. The support for the prefixed values will be removed in the future.
 
-**Update**: The prefix support has been removed with [Firefox 54](https://www.fxsitecompat.com/en-CA/docs/2017/prefixed-unicode-bidi-values-are-no-longer-supported/).
+**Update**: The prefix support has been removed with [Firefox 54](https://www.fxsitecompat.dev/en-CA/docs/2017/prefixed-unicode-bidi-values-are-no-longer-supported/).

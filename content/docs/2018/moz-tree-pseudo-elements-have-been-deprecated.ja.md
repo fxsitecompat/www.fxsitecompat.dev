@@ -24,4 +24,4 @@ references:
 * `::-moz-tree-separator`
 * `::-moz-tree-twisty`
 
-**更新**: これらの疑似要素は [Firefox 64 で削除されました](https://www.fxsitecompat.com/ja/docs/2018/display-moz-box-and-moz-tree-pseudo-elements-have-been-removed/)。
+**更新**: これらの疑似要素は [Firefox 64 で削除されました](https://www.fxsitecompat.dev/ja/docs/2018/display-moz-box-and-moz-tree-pseudo-elements-have-been-removed/)。

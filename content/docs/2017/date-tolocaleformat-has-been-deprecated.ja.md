@@ -12,7 +12,7 @@ references:
 aliases:
     - "/ja/docs/2017/date-prototype-tolocaleformat-has-been-deprecated/"
 ---
-非標準 [`Date.prototype.toLocaleFormat`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat) メソッドへの対応が廃止予定となり、近い将来 [削除される](https://www.fxsitecompat.com/ja/docs/2015/date-prototype-tolocaleformat-will-be-removed/) こととなりました。Firefox 55 以降、コンソールにこのメソッドに対する警告が表示されます。
+非標準 [`Date.prototype.toLocaleFormat`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat) メソッドへの対応が廃止予定となり、近い将来 [削除される](https://www.fxsitecompat.dev/ja/docs/2015/date-prototype-tolocaleformat-will-be-removed/) こととなりました。Firefox 55 以降、コンソールにこのメソッドに対する警告が表示されます。
 
 例えば [Sugar](https://sugarjs.com/) のように同じ結果を得られる JavaScript ライブラリがあります。また、以下の例が示すように、[ECMAScript Internationalization API](https://hacks.mozilla.org/2014/12/introducing-the-javascript-internationalization-api/) の一部である標準の [`toLocaleDateString`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString) メソッドを使用することもできます。
 
@@ -45,4 +45,4 @@ aliases:
 
 なお、Intl API は Android では Firefox 56 以降で使用可能となっています。一方デスクトップ版 Firefox では Firefox 29 で既に対応が追加されています。
 
-**更新**: このメソッドは [Firefox 58](https://www.fxsitecompat.com/ja/docs/2017/date-prototype-tolocaleformat-has-been-removed/) で削除されました。
+**更新**: このメソッドは [Firefox 58](https://www.fxsitecompat.dev/ja/docs/2017/date-prototype-tolocaleformat-has-been-removed/) で削除されました。

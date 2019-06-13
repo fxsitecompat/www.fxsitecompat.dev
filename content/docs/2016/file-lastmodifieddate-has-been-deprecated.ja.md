@@ -10,4 +10,4 @@ references:
 ---
 [`File.prototype.lastModifiedDate`](https://developer.mozilla.org/docs/Web/API/File/lastModifiedDate) プロパティは廃止予定なり、将来的に削除されることとなりました。代わりに `lastModified` プロパティを使用してください。
 
-**更新**: このプロパティは [Firefox 61 で廃止されました](https://www.fxsitecompat.com/ja/docs/2018/file-lastmodifieddate-has-been-removed/)。
+**更新**: このプロパティは [Firefox 61 で廃止されました](https://www.fxsitecompat.dev/ja/docs/2018/file-lastmodifieddate-has-been-removed/)。
