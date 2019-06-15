@@ -17,3 +17,5 @@ references:
 * `element`、`elements`、`toggle`、`tri-state`: これらは未実装でした
 
 近い将来 `-moz-none` も削除され、プロパティの接頭辞が外れます。
+
+**更新**: [Firefox 69](https://www.fxsitecompat.dev/ja/docs/2018/non-standard-moz-user-select-values-have-been-removed/) でプロパティの接頭辞が外れました。

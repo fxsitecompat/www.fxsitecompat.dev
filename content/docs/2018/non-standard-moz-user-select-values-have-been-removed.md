@@ -17,3 +17,5 @@ The following Firefox-specific values have been removed from the [`-moz-user-sel
 * `element`, `elements`, `toggle`, `tri-state`: These were unimplemented
 
 In the near future, `-moz-none` will also be removed and the property will be unprefixed.
+
+**Update**: The property has been unprefixed with [Firefox 69](https://www.fxsitecompat.dev/en-CA/docs/2018/non-standard-moz-user-select-values-have-been-removed/).
