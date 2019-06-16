@@ -16,3 +16,5 @@ According to the current timeline, Firefox starts showing a user-visible warning
 Firefox for desktop has dropped the support for all other [NPAPI plug-ins](https://www.fxsitecompat.dev/en-CA/categories/plugins/) by the release of [Firefox 52](https://www.fxsitecompat.dev/en-CA/docs/2016/plug-in-support-has-been-dropped-other-than-flash/). Firefox for Android has already removed the Flash support with [Firefox 56](https://www.fxsitecompat.dev/en-CA/docs/2017/flash-plug-in-is-no-longer-supported-by-firefox-for-android/). Firefox for iOS is WebKit-based so it has never supported browser plug-ins.
 
 Websites still relying on Flash should have a solid migration plan not to miss the deadline. The [Flash to HTML5 migration guide](https://developer.mozilla.org/docs/Plugins/Flash_to_HTML5) on MDN provides more information about this topic.
+
+**Update**: [Firefox 69](https://www.fxsitecompat.dev/en-CA/docs/2019/flash-player-can-no-longer-always-be-activated/) has removed the "Always Activate" option as planned.
