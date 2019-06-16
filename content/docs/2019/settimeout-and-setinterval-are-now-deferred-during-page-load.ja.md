@@ -1,7 +1,7 @@
 ---
 title: "ページ読み込み中に `setTimeout()` や `setInterval()` が先送りされるようになりました"
 date: "2019-02-18T17:08:00-05:00"
-categories: ["misc"]
+categories: ["dom", "networking"]
 tags: []
 versions: ["66"]
 statuses: "affecting"
@@ -18,3 +18,5 @@ Firefox 66 以降、ページ読み込み中に `window.setTimeout` や `window.
 ウェブ上のタイマーはそれほど正確ではないということを忘れずにいましょう。ブラウザーのタブが背面にある場合など、様々な理由で [指定したよりも長く掛かる場合があります](https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout#Reasons_for_delays_longer_than_specified)。
 
 **更新**: [Firefox 68](https://www.fxsitecompat.dev/ja/docs/2019/xhr-load-loadend-events-are-now-deferred-during-page-load/) で XHR 最終イベントにも同様の変更が行われました。
+
+**更新 2**: [Firefox 69](https://www.fxsitecompat.dev/ja/docs/2019/resolving-promise-returned-by-fetch-is-now-deferred-during-page-load/) で `fetch()` にも同様の変更が行われました。
