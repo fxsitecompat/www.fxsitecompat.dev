@@ -27,3 +27,5 @@ let dp = DOMPoint.fromPoint({ x, y, z, w });
 ```
 
 The `bounds` property on the [`DOMQuad`](https://developer.mozilla.org/docs/Web/API/DOMQuad) interface is also considered deprecated as per the draft spec. It will be removed in the near future in favour of the `getBounds` method added with Firefox 62.
+
+**Update**: The `bounds` property has been removed with [Firefox 69](https://www.fxsitecompat.dev/en-CA/docs/2019/domquad-bounds-has-been-dropped-in-favour-of-getbounds/).

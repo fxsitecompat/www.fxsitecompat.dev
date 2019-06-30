@@ -27,3 +27,5 @@ let dp = DOMPoint.fromPoint({ x, y, z, w });
 ```
 
 [`DOMQuad`](https://developer.mozilla.org/docs/Web/API/DOMQuad) インターフェイス上の `bounds` プロパティも、同ドラフト仕様に従い廃止予定となりました。Firefox 62 で追加された `getBounds` メソッドに取って代わられる形で近い将来削除されます。
+
+**更新**: `bounds` プロパティは [Firefox 69](https://www.fxsitecompat.dev/ja/docs/2019/domquad-bounds-has-been-dropped-in-favour-of-getbounds/) で削除されました。
