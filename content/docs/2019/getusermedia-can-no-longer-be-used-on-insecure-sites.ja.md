@@ -20,3 +20,5 @@ Firefox 68 以降、[`MediaDevices`](https://developer.mozilla.org/docs/Web/API/
 近い将来、`navigator.mediaDevices` オブジェクトと `navigator.mozGetUserMedia` メソッドも、現行の Media Capture and Streams 仕様に従って安全なオリジンを必要とします。あなたのサイトを常に HTTPS で配信するようにしてください。
 
 **更新**: この記事の初版は `enumerateDevices` メソッドにも言及していましたが、これは Firefox 68 ではまだ使用可能です。フィードバックを受けてタイトルと説明を訂正し、WebRTC ブログへのリンクを追加しました。
+
+**更新 2**: [Firefox 69](https://www.fxsitecompat.dev/ja/docs/2019/navigator-mediadevices-and-navigator-mozgetusermedia-can-no-longer-be-used-on-insecure-sites/) 以降、`navigator.mediaDevices` オブジェクトと `navigator.mozGetUserMedia` メソッドは安全でないサイトでは使用できなくなりました。

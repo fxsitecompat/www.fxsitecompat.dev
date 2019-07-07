@@ -20,3 +20,5 @@ Starting with Firefox 68, the `getUserMedia` method on the [`MediaDevices`](http
 In the near future, the `navigator.mediaDevices` object and the `navigator.mozGetUserMedia` method will also require secure origins as per the current Media Capture and Streams spec. Make sure to always serve your site via HTTPS.
 
 **Update**: The initial version of this note mentioned the `enumerateDevices` method as well, but it's still available in Firefox 68. We have corrected the title and description according to feedback, and added a link to the WebRTC blog.
+
+**Update 2**: As of [Firefox 69](https://www.fxsitecompat.dev/en-CA/docs/2019/navigator-mediadevices-and-navigator-mozgetusermedia-can-no-longer-be-used-on-insecure-sites/), the `navigator.mediaDevices` object and the `navigator.mozGetUserMedia` method are no longer available to insecure sites.
