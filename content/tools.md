@@ -6,7 +6,7 @@ slug: "tools"
 ---
 ## Compatibility Dataset
 
-Based on [our 700+ articles](https://www.fxsitecompat.dev/en-CA/docs/), we will release a fresh, accurate site compatibility dataset that covers the status of the obsolete features on each Firefox channel including Nightly, Beta/DevEdition and ESR. The data will be available in the portable JSON format.
+Based on [our 800+ articles](https://www.fxsitecompat.dev/en-CA/docs/), we will release a fresh, accurate site compatibility dataset that covers the status of the obsolete features on each Firefox channel including Nightly, Beta/DevEdition and ESR. The data will be available in the portable JSON format.
 
 Obviously, we are not aiming at creating comprehensive browser support tables that can be seen on *MDN*, *Can I use* or *QuirksMode*, but with the per-channel deprecation details, we hope both Firefox developers and web developers will find our own dataset useful.
 
