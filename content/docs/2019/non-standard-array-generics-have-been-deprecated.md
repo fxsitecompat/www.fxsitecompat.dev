@@ -7,6 +7,8 @@ versions: ["68"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1536860"
       title: "Bug 1536860 - Add telemetry and warning for Array generics"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1558914"
+      title: "Bug 1558914 - Disable Array generics in Nightly"
 ---
 The non-standard, Firefox-specific [`Array` generic methods](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array#Array_generic_methods), introduced with [JavaScript 1.6](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.6), are now considered deprecated and will be removed in the near future. These generic/static methods include:
 
@@ -51,3 +53,5 @@ Note that the standard instance methods on [`Array.prototype`](https://developer
 * [`Array.of`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/of)
 
 Note that `String` generics have already been [removed with Firefox 68](https://www.fxsitecompat.dev/en-CA/docs/2019/non-standard-string-generics-have-been-removed/).
+
+**Update**: `Array` generics have been disabled in the Nightly channel as of Firefox 70.
