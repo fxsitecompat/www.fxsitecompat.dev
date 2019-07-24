@@ -13,4 +13,4 @@ references:
 
 単純な自己完結型の HTML ファイルは今後も表示できるかもしれませんが、構成ファイルを伴ったサイトをテストしたい場合はローカルサーバーを立ち上げることを強くお勧めします。[MAMP](https://www.mamp.info/) や [XAMPP](https://www.apachefriends.org/) といった簡単に使えるツールがありますし、[macOS](https://discussions.apple.com/docs/DOC-3083) には Apache サーバーが内蔵されています。
 
-**更新**: この変更は、ウェブフォント、ワーカー、XSLT など、他の様々なものにも影響を与えています。[Bug 1566172](https://bugzilla.mozilla.org/show_bug.cgi?id=1566172) にこうした事例のリストがあります。
+**更新**: この変更は、ウェブフォント、Worker、XSLT など、他の様々なものにも影響を与えています。[Bug 1566172](https://bugzilla.mozilla.org/show_bug.cgi?id=1566172) にこうした事例のリストがあります。
