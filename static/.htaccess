@@ -61,3 +61,7 @@ Header always append Content-Security-Policy "\
 Header always append Strict-Transport-Security max-age=31536000
 Header always append X-Content-Type-Options nosniff
 Header always append X-Frame-Options DENY
+
+<Files ~ "\.(json|xml)$">
+  Header always append Access-Control-Allow-Origin: *
+</Files>
