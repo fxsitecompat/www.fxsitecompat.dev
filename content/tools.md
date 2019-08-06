@@ -10,10 +10,14 @@ Based on [our 800+ articles](https://www.fxsitecompat.dev/en-CA/docs/), we will 
 
 Obviously, we are not aiming at creating comprehensive browser support tables that can be seen on *MDN*, *Can I use* or *QuirksMode*, but with the per-channel deprecation details, we hope both Firefox developers and web developers will find our own dataset useful.
 
-## Compatibility Checker
+## Firefox Extension
 
-With the fundamental data in hand, we will offer a [Firefox Developer Tools](https://developer.mozilla.org/docs/Tools) extension as well that shows a list of any removed or deprecated features used on the current page, so web developers can fix them right away. Due to technical limitations, it's not possible to check all the features covered in our upcoming dataset, but most issues in [HTML](https://www.fxsitecompat.dev/en-CA/categories/html/), [CSS](https://www.fxsitecompat.dev/en-CA/categories/css/), [JavaScript](https://www.fxsitecompat.dev/en-CA/categories/javascript/) and [DOM](https://www.fxsitecompat.dev/en-CA/categories/dom/) should be able to be flagged.
+We are developing a [Firefox extension](https://addons.mozilla.org/firefox/addon/site-compatibility-tools/) as a handy all-in-one tool for web developers to learn, check and report site compatibility issues directly within Firefox Developer Tools. The initial release makes it easier to access our documents and report compatibility issues.
 
-An extension for Visual Studio Code is also planned.
+With the fundamental dataset in hand, we will integrate a compatibility checker into the extension that shows a list of any removed or deprecated features used on the current page, so web developers can fix them right away. Due to technical limitations, it's not possible to check all the features covered in our upcoming dataset, but most issues in [HTML](https://www.fxsitecompat.dev/en-CA/categories/html/), [SVG](https://www.fxsitecompat.dev/en-CA/categories/svg/), [CSS](https://www.fxsitecompat.dev/en-CA/categories/css/), [JavaScript](https://www.fxsitecompat.dev/en-CA/categories/javascript/) and [DOM](https://www.fxsitecompat.dev/en-CA/categories/dom/) should be able to be flagged.
 
-The checker may utilize part of external compatibility data to deal with unsupported features as well as other browsers, and also enhance the functionality with some utilities like regression alerts and reporter.
+<img src="/images/screenshots/firefox-extension-large.png" alt="" width="800" height="450">
+
+## VS Code Extension
+
+We also have a plan to release an extension for Visual Studio Code.
