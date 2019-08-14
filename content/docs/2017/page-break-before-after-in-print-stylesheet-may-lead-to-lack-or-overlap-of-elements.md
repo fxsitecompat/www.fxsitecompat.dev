@@ -16,3 +16,5 @@ references:
 Firefox 56 has introduced a printing regression due to a performance enhancement, which is actually the same cause as of a [multi-column layout regression](https://www.fxsitecompat.dev/en-CA/docs/2017/certain-multi-column-layouts-may-balance-unevenly-or-lack-elements-randomly/) described separately.
 
 When an element has the [`page-break-before`](https://developer.mozilla.org/docs/Web/CSS/page-break-before) or [`page-break-after`](https://developer.mozilla.org/docs/Web/CSS/page-break-after) property specified in the print stylesheet, the following elements may disappear or overlap with the previous element. These issues only affect the document's print output, so the page is still rendered properly within the browser. Mozilla developers will look into the issues shortly.
+
+**Update**: This bug has been fixed with Firefox 70.

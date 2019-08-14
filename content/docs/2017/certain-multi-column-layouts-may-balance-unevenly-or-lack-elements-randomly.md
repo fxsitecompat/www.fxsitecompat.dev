@@ -14,3 +14,5 @@ references:
       title: "Bug 1411799 - Content of ::before/after pseudo elements randomly disappears when display:inline-block and float are used"
 ---
 Firefox 56 has introduced a regression on [CSS multi-column layouts](https://developer.mozilla.org/docs/Web/CSS/CSS_Columns) due to a performance enhancement. One report shows a two-column layout balanced unevenly. Another bug has been found ironically on this [FxSiteCompat.com](https://www.fxsitecompat.dev/en-CA/docs/) where `::before` pseudo-elements randomly disappear within a multi-column layout if combined with `display:inline-block` and `float:left`. Troublingly, the behaviour is capricious in both cases. Mozilla developers will look into the issues shortly.
+
+**Update**: This bug has been fixed with Firefox 70.

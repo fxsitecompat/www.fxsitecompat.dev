@@ -16,3 +16,5 @@ references:
 あるパフォーマンス改善が原因で印刷に関するリグレッションが Firefox 56 で発生しました。この原因は実のところ、別記事で解説している [マルチカラムレイアウトのリグレッション](https://www.fxsitecompat.dev/ja/docs/2017/certain-multi-column-layouts-may-balance-unevenly-or-lack-elements-randomly/) の原因と同じです。
 
 印刷用スタイルシートで要素に [`page-break-before`](https://developer.mozilla.org/docs/Web/CSS/page-break-before) あるいは [`page-break-after`](https://developer.mozilla.org/docs/Web/CSS/page-break-after) プロパティが指定されていると、それに続く要素が消えたり、前の要素と重なり合ったりする場合があります。これらの問題はドキュメントの印刷出力のみに影響し、ブラウザー内でのページの描画は問題ありません。Mozilla 開発者がじきに問題を調査します。
+
+**更新**: このバグは Firefox 70 で修正されました。
