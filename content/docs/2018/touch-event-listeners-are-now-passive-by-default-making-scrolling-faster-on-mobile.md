@@ -11,3 +11,5 @@ references:
 Starting with Firefox 61, `touchstart` and `touchmove` event listeners on `window`, `document` and `document.body` will be treated as passive by default, which means these events cannot be cancelled using [`preventDefault()`](https://developer.mozilla.org/docs/Web/API/Event/preventDefault) within the listeners unless you explicitly set [`addEventListener`](https://developer.mozilla.org/docs/Web/API/EventTarget/addEventListener)'s `passive` option `false`.
 
 The scrolling intervention aims to improve touch scrolling performance on mobile devices as described in [this article on the Google Developers site](https://developers.google.com/web/updates/2017/01/scrolling-intervention). Given that Chrome 56 shipped in January 2017 has already adopted the new behaviour, the compatibility risk should be low.
+
+**Update**: [Firefox 70](https://www.fxsitecompat.dev/en-CA/docs/2019/ontouchstart-ontouchmove-event-handlers-are-now-passive-by-default/) has made the same change to `ontouchstart` and `ontouchmove` event handers.
