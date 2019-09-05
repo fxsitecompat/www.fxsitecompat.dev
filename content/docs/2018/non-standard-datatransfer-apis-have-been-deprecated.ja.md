@@ -11,3 +11,5 @@ references:
 [`DataTransfer`](https://developer.mozilla.org/docs/Web/API/DataTransfer) インターフェイス上の非標準メソッド、`mozGetDataAt`、`mozSetDataAt`、`mozClearDataAt`、`mozTypesAt`、および `mozItemCount` プロパティは、Firefox 63 リリース時点で廃止予定とされ、Nightly チャンネル上では無効化されました。Telemetry で一般に使用されていないことが確認されたことから、これらの API は近い将来完全に廃止されます。
 
 `getData`、`setData`、`clearData` メソッド、および `items` プロパティといった標準 API で代用してください。
+
+**更新**: これらのメソッドとプロパティは [Firefox 71](https://www.fxsitecompat.dev/ja/docs/2019/non-standard-datatransfer-apis-have-been-removed/) で削除されました。

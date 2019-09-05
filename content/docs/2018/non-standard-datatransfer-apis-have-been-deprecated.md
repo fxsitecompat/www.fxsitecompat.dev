@@ -11,3 +11,5 @@ references:
 The non-standard `mozGetDataAt`, `mozSetDataAt`, `mozClearDataAt` and `mozTypesAt` methods on the [`DataTransfer`](https://developer.mozilla.org/docs/Web/API/DataTransfer) interface, along with the `mozItemCount` property, are now considered deprecated and disabled on the Nightly channel as of Firefox 63. Given that Telemetry proves no public usage, these APIs will be completely removed in the near future.
 
 Use the standard alternatives instead, including the `getData`, `setData` and `clearData` methods as well as the `items` property.
+
+**Update**: These methods and property have been removed with [Firefox 71](https://www.fxsitecompat.dev/en-CA/docs/2019/non-standard-datatransfer-apis-have-been-removed/).
