@@ -19,7 +19,6 @@ Firefox ユーザーがあなたの「壊れた」サイトを訪れる前に Fi
 
 * **ソーシャルメディア**: 問題が起きているサイトの [URL ツイートしてください](https://twitter.com/intent/tweet?text=@fxsitecompat&related=fxsitecompat)。[Twitter](https://twitter.com/messages/compose?recipient_id=1707307399) を通じてダイレクトメッセージを送っていただくこともできます。
 * **GitHub**: GitHub アカウントをお持ちなら、私たちのレポジトリに [Issue を登録](https://github.com/fxsitecompat/reports/issues/new) するのが簡単かもしれません。
-* **Bugzilla**: Mozilla の Bugzilla アカウントをお持ちで、あなたの問題に該当する適切なコンポーネントが分かる場合は、直接 [バグを報告](https://bugzilla.mozilla.org/enter_bug.cgi?product=Core&keywords=regression%2C%20site-compat&cc=kohei.yoshino@gmail.com) してください。
 * **メール**: [bugs@fxsitecompat.dev](mailto:bugs@fxsitecompat.dev) までご一報ください。
 
 ## ドキュメントの改善
