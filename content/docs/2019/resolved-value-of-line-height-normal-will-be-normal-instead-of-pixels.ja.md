@@ -9,6 +9,8 @@ references:
       title: "Bug 1536871 - Return the keyword value for line-height: normal in getComputedStyle."
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1579624"
       title: "Bug 1579624 - Turn the \"line-height computes as normal\" pref on for release users."
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/8uvGB3BCpl8/discussion"
+      title: "Intent to Ship: line-height returns normal as a resolved value."
 ---
 Firefox 71 以降、`line-height` CSS プロパティの [解析値](https://developer.mozilla.org/docs/Web/CSS/resolved_value) が、指定値が `normal` あるいは未定義の場合、実際の長さではなく `normal` となります。
 
