@@ -16,8 +16,8 @@ There are various known sites that trap users in the browser's [fullscreen mode]
 
 * Cancel any pending permission request when entering fullscreen mode
 * Exit fullscreen when a permission request is made while in fullscreen mode
-* Block add-on installations while in fullscreen mode (Firefox 68)
+* Block add-on installations while in fullscreen mode (since Firefox 68)
 
-It means, if you are developing a fullscreen application such as an immersive game, you need to make necessary permission requests before entering fullscreen mode, otherwise the user experience could be degraded.
+It means, if you're using the Fullscreen API for a custom video player, an immersive game or whatever, you need to make necessary permission requests before entering fullscreen mode, otherwise the user experience could be degraded.
 
 To better inform developers, Firefox 71 and later will log a warning in the web console when a permission request or fullscreen mode is cancelled.

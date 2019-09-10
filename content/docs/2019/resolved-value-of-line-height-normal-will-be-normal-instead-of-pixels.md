@@ -19,4 +19,4 @@ Starting with Firefox 71, the [resolved value](https://developer.mozilla.org/doc
 window.getComputedStyle(element).getPropertyValue('line-height');
 ```
 
-This change has already been made on the Nightly and early Beta channel since Firefox 69 after a [discussion](https://github.com/w3c/csswg-drafts/issues/3749) in the CSS Working Group, and Mozilla developers haven't seen compatibility issue reports so far. The new behaviour matches Google Chrome. Safari will make the same change soon.
+This change has already been made on the Nightly and early Beta channels since Firefox 69 after a [discussion](https://github.com/w3c/csswg-drafts/issues/3749) in the CSS Working Group, and Mozilla developers haven't seen compatibility issue reports so far. The new behaviour matches Google Chrome. Safari will make the same change soon.
