@@ -9,6 +9,8 @@ references:
       title: "Bug 1562881 - [Protections Panel] Remove \"i\" icon and make the shield icon persistent on the URL bar."
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/RzmOHmoksdU/discussion"
       title: "Intent to Ship: Show an indicator for insecure HTTP in the URL bar"
+    - url: "https://blog.mozilla.org/security/2019/10/15/improved-security-and-privacy-indicators-in-firefox-70/"
+      title: "Mozilla Security Blog: Improved Security and Privacy Indicators in Firefox 70"
 ---
 As part of the ongoing [insecure HTTP deprecation](https://www.fxsitecompat.dev/en-CA/docs/2015/insecure-http-will-be-deprecated/), Firefox 70 starts showing a broken padlock icon in the location bar whenever the user visits an insecure site, similarly to [Google Chrome](https://www.blog.google/products/chrome/milestone-chrome-security-marking-http-not-secure/) and [Safari](https://support.apple.com/en-us/HT208672) already showing a "not secure" label.
 
