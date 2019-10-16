@@ -23,3 +23,5 @@ if (storage) {
   storage.setItem(key, value);
 }
 ```
+
+**更新**: この変更は互換性に関する懸念から Firefox 70 で取り消されました。`window.localStorage` は再度 `SecurityError` を投げるようになります。
