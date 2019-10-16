@@ -11,16 +11,21 @@ references:
       title: "Bug 1548530 - Remove support for numalign/denomalign/align attributes"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1575870"
       title: "Bug 1575870 - Remove support for XLink on MathML elements"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1587570"
+      title: "Bug 1587570 - Remove support for the subscriptshift and superscriptshift attributes"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/vwAkuZIEhnY/discussion"
       title: "Intent to unship: MathML menclose notation \"radical\""
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/JnJVGTmIwPE/discussion"
       title: "Intent to unship: MathML alignment attributes"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/70NFnet82cU/discussion"
       title: "Intend to deprecate: XLink attributes on MathML elements"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/CAqw0Nxw6Pg/discussion"
+      title: "Intent to deprecate: MathML subscriptshift and superscriptshift attributes"
 ---
 As with [Firefox 70](https://www.fxsitecompat.dev/en-CA/docs/2019/various-legacy-mathml-features-have-been-deprecated-or-removed/), the MathML implementation has been updated with Firefox 71 for the current MathML Core (future MathML 4) spec. The following features are now deprecated, disabled in Firefox Nightly and will be removed in the future:
 
 * The `align` attribute on the [`<munderover>`](https://developer.mozilla.org/docs/Web/MathML/Element/munderover), [`<munder>`](https://developer.mozilla.org/docs/Web/MathML/Element/munder) and [`<mover>`](https://developer.mozilla.org/docs/Web/MathML/Element/mover) elements
 * The `denomalign` and `numalign` attributes on the [`<mfrac>`](https://developer.mozilla.org/docs/Web/MathML/Element/mfrac) element
 * The `radical` value for the [`<menclose>`](https://developer.mozilla.org/docs/Web/MathML/Element/menclose) element's `notation` attribute. Use the [`<msqrt>`](https://developer.mozilla.org/docs/Web/MathML/Element/msqrt) element instead
+* The `subscriptshift` and `superscriptshift` attributes on the [`<msubsup>`](https://developer.mozilla.org/docs/Web/MathML/Element/msubsup), [`<msub>`](https://developer.mozilla.org/docs/Web/MathML/Element/msub) and [`<msup>`](https://developer.mozilla.org/docs/Web/MathML/Element/msup) elements
 * [XLink](https://developer.mozilla.org/docs/Glossary/XLink) attributes on MathML elements: `xlink:actuate`, `xlink:href`, `xlink:show` and `xlink:type`. The `href` attribute can be used instead of `xlink:href`
