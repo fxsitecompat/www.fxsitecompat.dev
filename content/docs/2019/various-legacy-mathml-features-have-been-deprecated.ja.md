@@ -15,6 +15,8 @@ references:
       title: "Bug 1587570 - Remove support for the subscriptshift and superscriptshift attributes"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1587572"
       title: "Bug 1587572 - Remove support for the mfrac@bevelled attribute"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1587577"
+      title: "Bug 1587577 - Remove support for the mfenced element"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/vwAkuZIEhnY/discussion"
       title: "Intent to unship: MathML menclose notation \"radical\""
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/JnJVGTmIwPE/discussion"
@@ -25,6 +27,8 @@ references:
       title: "Intent to deprecate: MathML subscriptshift and superscriptshift attributes"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/9pEvlYn-Xyw/discussion"
       title: "Intent to deprecate: MathML bevelled attribute"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/DHO72glZxA0/discussion"
+      title: "Intent to deprecated: mfenced element"
 ---
 [Firefox 70](https://www.fxsitecompat.dev/ja/docs/2019/various-legacy-mathml-features-have-been-deprecated-or-removed/) と同様に、現行の MathML Core (将来の MathML 4) 仕様に合わせ、Firefox 71 で MathML 実装が更新されました。以下の機能は廃止予定とされたため、Firefox Nightly では無効化され、将来的に削除されます。
 
@@ -32,4 +36,5 @@ references:
 * [`<mfrac>`](https://developer.mozilla.org/docs/Web/MathML/Element/mfrac) 要素上の `bevelled`、`denomalign`、`numalign` 属性
 * [`<menclose>`](https://developer.mozilla.org/docs/Web/MathML/Element/menclose) 要素上の `notation` 属性向け `radical` 値。[`<msqrt>`](https://developer.mozilla.org/docs/Web/MathML/Element/msqrt) で代用してください
 * [`<msubsup>`](https://developer.mozilla.org/docs/Web/MathML/Element/msubsup)、[`<msub>`](https://developer.mozilla.org/docs/Web/MathML/Element/msub)、[`<msup>`](https://developer.mozilla.org/docs/Web/MathML/Element/msup) 要素上の `subscriptshift`、`superscriptshift` 両属性
+* [`<mfenced>`](https://developer.mozilla.org/docs/Web/MathML/Element/mfenced) 要素。[`<mrow>`](https://developer.mozilla.org/docs/Web/MathML/Element/mrow) と [`<mo>`](https://developer.mozilla.org/docs/Web/MathML/Element/mo) 要素で代用してください
 * MathML 要素上の [XLink](https://developer.mozilla.org/docs/Glossary/XLink) 属性: `xlink:actuate`、`xlink:href`、`xlink:show`、`xlink:type`。`xlink:href` の代わりに `href` 属性が使用可能です
