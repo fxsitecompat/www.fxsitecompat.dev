@@ -4,7 +4,7 @@ date: "2019-10-09T23:17:00-04:00"
 categories: ["audio-video"]
 tags: []
 versions: ["71"]
-statuses: "affecting"
+statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1225877"
       title: "Bug 1225877 - Parse latest a=simulcast and a=rid"
@@ -26,3 +26,5 @@ a=simulcast: send 8 recv 9
 ```
 
 現在、この変更により *Google Hangouts Meet* のビデオ通話が使用できなくなっています。
+
+**更新**: この変更は、各サービスが新たな挙動を受け入れるための時間を増やすため、Firefox 71 では取り消されました。Mozilla の開発者は Firefox 72 で再度変更を行う予定です。
