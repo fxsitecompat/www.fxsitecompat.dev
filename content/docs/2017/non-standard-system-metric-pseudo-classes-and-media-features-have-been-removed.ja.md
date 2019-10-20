@@ -45,3 +45,5 @@ references:
 * [`-moz-windows-theme`](https://developer.mozilla.org/docs/Web/CSS/@media/-moz-windows-theme)
 
 唯一の例外は [`-moz-touch-enabled`](https://developer.mozilla.org/docs/Web/CSS/@media/-moz-touch-enabled) メディア特性で、これは標準の代替仕様となる [Interaction Media Features](https://drafts.csswg.org/mediaqueries-4/#mf-interaction) が Firefox に実装されるまで残されます。
+
+**更新**: `-moz-touch-enabled` は [Firefox 71](https://www.fxsitecompat.dev/ja/docs/2019/moz-touch-enabled-media-feature-has-been-deprecated/) 以降廃止予定となっています。
