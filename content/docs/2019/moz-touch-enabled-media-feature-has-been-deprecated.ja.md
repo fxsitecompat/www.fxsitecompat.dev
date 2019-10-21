@@ -12,7 +12,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/SPmSiWfn1Ts/discussion"
       title: "Intent to unship: @media (-moz-touch-enabled)"
 ---
-[`-moz-touch-enabled`](https://developer.mozilla.org/docs/Web/CSS/@media/-moz-touch-enabled) CSS メディア特性が Firefox 71 以降の Nightly と早期 Beta/DevEdition チャンネルで無効化され、近い将来すべてのチャンネルから削除されることとなりました。標準の [Interaction Media Features](https://drafts.csswg.org/mediaqueries-4/#mf-interaction) が Firefox 64 以降使用可能となっている上、この非標準メディア特性を用いた *Modernizr* ライブラリの誤判別により少なくとも 1 つのサイトが Firefox 上でスクロールできない問題が判明していることから、この廃止予定が決まりました。
+[`-moz-touch-enabled`](https://developer.mozilla.org/docs/Web/CSS/@media/-moz-touch-enabled) CSS メディア特性が Firefox 71 以降の Nightly チャンネルで無効化され、近い将来すべてのチャンネルから削除されることとなりました。標準の [Interaction Media Features](https://drafts.csswg.org/mediaqueries-4/#mf-interaction) が Firefox 64 以降使用可能となっている上、この非標準メディア特性を用いた *Modernizr* ライブラリの誤判別により少なくとも 1 つのサイトが Firefox 上でスクロールできない問題が判明していることから、この廃止予定が決まりました。
 
 代わりとしては [`pointer`](https://developer.mozilla.org/docs/Web/CSS/@media/pointer) メディア特性を使用することができます。例えば、あなたのサイトのメディアクエリーに `-moz-touch-enabled:1` が含まれている場合、単純に `pointer:coarse` で置き換えてください。
 

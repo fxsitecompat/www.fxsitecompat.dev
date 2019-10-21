@@ -12,7 +12,7 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/SPmSiWfn1Ts/discussion"
       title: "Intent to unship: @media (-moz-touch-enabled)"
 ---
-The [`-moz-touch-enabled`](https://developer.mozilla.org/docs/Web/CSS/@media/-moz-touch-enabled) CSS media feature is now disabled in the Nightly and early Beta/DevEdition channels as of Firefox 71, and will be removed from all channels in the near future. The standard [Interaction Media Features](https://drafts.csswg.org/mediaqueries-4/#mf-interaction) have been supported since Firefox 64, and at least 1 site is known to be not scrollable in Firefox because of the *Modernizr* library's wrong detection using the non-standard media feature, hence the deprecation.
+The [`-moz-touch-enabled`](https://developer.mozilla.org/docs/Web/CSS/@media/-moz-touch-enabled) CSS media feature is now disabled in the Nightly channel as of Firefox 71, and will be removed from all channels in the near future. The standard [Interaction Media Features](https://drafts.csswg.org/mediaqueries-4/#mf-interaction) have been supported since Firefox 64, and at least 1 site is known to be not scrollable in Firefox because of the *Modernizr* library's wrong detection using the non-standard media feature, hence the deprecation.
 
 You can now use the [`pointer`](https://developer.mozilla.org/docs/Web/CSS/@media/pointer) media feature instead. For example, if you have `-moz-touch-enabled:1` in your media query, simply replace it with `pointer:coarse`.
 
