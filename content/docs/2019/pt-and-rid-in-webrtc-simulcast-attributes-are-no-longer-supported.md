@@ -3,8 +3,8 @@ title: "`pt=` and `rid=` in WebRTC simulcast attributes are no longer supported"
 date: "2019-10-09T23:17:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["71"]
-statuses: "reverted"
+versions: ["72"]
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1225877"
       title: "Bug 1225877 - Parse latest a=simulcast and a=rid"
@@ -25,6 +25,8 @@ has to be
 a=simulcast: send 8 recv 9
 ```
 
-Currently, video calls in *Google Hangouts Meet* are broken due to this change.
+Currently, video calls in *Google Hangouts Meet* and *Whereby* are broken due to this change.
 
 **Update**: This change has been reverted in Firefox 71 to give services more time to adopt the new behaviour. Mozilla developers are planning to redo the change with Firefox 72.
+
+**Update 2**: The change has been landed again to Firefox 72 after both *Google* and *Whereby* fixed their issue. If you run a similar service, please be sure to test it.
