@@ -13,6 +13,8 @@ references:
       title: "Intent to Ship: Require user interaction for notification permission prompts"
     - url: "https://blog.mozilla.org/futurereleases/2019/11/04/restricting-notification-permission-prompts-in-firefox/"
       title: "Restricting Notification Permission Prompts in Firefox - Future Releases"
+    - url: "https://hacks.mozilla.org/2019/11/upcoming-notification-permission-changes-in-firefox-72/"
+      title: "Upcoming notification permission changes in Firefox 72 - Mozilla Hacks"
 aliases:
     - "/ja/docs/2019/requesting-notification-permission-will-soon-require-user-interaction/"
 ---
