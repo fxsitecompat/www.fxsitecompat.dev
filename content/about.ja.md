@@ -35,6 +35,6 @@ Firefox サイト互換性ワーキンググループは、情報源となるサ
 
 ## 謝辞
 
-このプロジェクトは独立を保っていますが、部分的に Mozilla による支援を受けています。上に書いたように、初期のドキュメントは社内で作成されたものです。2018 年 1 月から 6 月まで、私たちの文書化作業は再び [Mozilla Corporation による資金提供を受けました](https://www.fxsitecompat.dev/ja/blog/2018/firefox-59-developer-edition-project-update-and-2-things-you-must-do-in-2018/)。
+このプロジェクトは独立を保っていますが、部分的に Mozilla による支援を受けています。上に書いたように、初期のドキュメントは旧一般社団法人 Mozilla Japan 社内で作成されたものです。2018 年 1 月から 6 月まで、私たちの文書化作業は再び [Mozilla Corporation による資金提供を受けました](https://www.fxsitecompat.dev/ja/blog/2018/firefox-59-developer-edition-project-update-and-2-things-you-must-do-in-2018/)。
 
 寄付やフィードバックの提供によってこのイニシアチブを支えてくれている個人の皆さんにも感謝します！

@@ -33,8 +33,8 @@ This initiative is led by [Kohei Yoshino](https://mozillians.org/u/kohei.yoshino
 
 Help is always welcome! See the [Contribute](https://www.fxsitecompat.dev/en-CA/contribute/) page for what you can do. If you have any questions or feedback, feel free to reach us out at any time via one of our social media or [email](mailto:kohei@fxsitecompat.dev).
 
-## Acknowledgement
+## Acknowledgements
 
-While this project remains independent, we have been partially backed by Mozilla. As mentioned above, our early documents were created in-house. From January to June 2018, our documentation work was once again [funded by the Mozilla Corporation](https://www.fxsitecompat.dev/en-CA/blog/2018/firefox-59-developer-edition-project-update-and-2-things-you-must-do-in-2018/).
+While this project remains independent, we have been partially backed by Mozilla. As mentioned above, our early documents were created in-house at now-gone Mozilla Japan Ltd. From January to June 2018, our documentation work was once again [funded by the Mozilla Corporation](https://www.fxsitecompat.dev/en-CA/blog/2018/firefox-59-developer-edition-project-update-and-2-things-you-must-do-in-2018/).
 
 We also thank individuals who have supported our initiative by tipping generously or giving feedback!
