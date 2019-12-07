@@ -17,3 +17,5 @@ references:
 代わりとしては [`pointer`](https://developer.mozilla.org/docs/Web/CSS/@media/pointer) メディア特性を使用することができます。例えば、あなたのサイトのメディアクエリーに `-moz-touch-enabled:1` が含まれている場合、単純に `pointer:coarse` で置き換えてください。
 
 これは Firefox に最後まで残った非標準システム測定メディア特性です。他のものは既に [Firefox 58](https://www.fxsitecompat.dev/ja/docs/2017/non-standard-system-metric-pseudo-classes-and-media-features-have-been-removed/) で削除されています。
+
+**更新**: このメディア特性は [Firefox 73](https://www.fxsitecompat.dev/ja/docs/2019/moz-touch-enabled-media-feature-has-been-removed/) で廃止されました。

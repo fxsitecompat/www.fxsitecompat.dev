@@ -17,3 +17,5 @@ The [`-moz-touch-enabled`](https://developer.mozilla.org/docs/Web/CSS/@media/-mo
 You can now use the [`pointer`](https://developer.mozilla.org/docs/Web/CSS/@media/pointer) media feature instead. For example, if you have `-moz-touch-enabled:1` in your media query, simply replace it with `pointer:coarse`.
 
 This is the last remaining non-standard system metric media feature in Firefox. Others had already been removed with [Firefox 58](https://www.fxsitecompat.dev/en-CA/docs/2017/non-standard-system-metric-pseudo-classes-and-media-features-have-been-removed/).
+
+**Update**: The media feature has been removed with [Firefox 73](https://www.fxsitecompat.dev/en-CA/docs/2019/moz-touch-enabled-media-feature-has-been-removed/).

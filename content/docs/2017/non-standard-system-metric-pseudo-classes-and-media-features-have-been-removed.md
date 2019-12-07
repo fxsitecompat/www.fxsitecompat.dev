@@ -47,3 +47,5 @@ The following media features have also been removed:
 The only exception is the [`-moz-touch-enabled`](https://developer.mozilla.org/docs/Web/CSS/@media/-moz-touch-enabled) media feature which will be kept until the standard alternative [Interaction Media Features](https://drafts.csswg.org/mediaqueries-4/#mf-interaction) are implemented in Firefox.
 
 **Update**: `-moz-touch-enabled` has been deprecated since [Firefox 71](https://www.fxsitecompat.dev/en-CA/docs/2019/moz-touch-enabled-media-feature-has-been-deprecated/).
+
+**Update 2**: `-moz-touch-enabled` has been removed with [Firefox 73](https://www.fxsitecompat.dev/en-CA/docs/2019/moz-touch-enabled-media-feature-has-been-removed/).
