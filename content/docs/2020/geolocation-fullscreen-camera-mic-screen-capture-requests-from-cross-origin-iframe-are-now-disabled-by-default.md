@@ -17,6 +17,8 @@ references:
       title: "Bug 1600883 - Enable Feature Policy allow attribute and permission delegation by default"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/BdFOMAuCGW8/discussion"
       title: "Intent to prototype: Delegate and restrict permission in third party context"
+aliases:
+    - "/en-CA/docs/2012/geolocation-fullscreen-camera-mic-screen-capture-requests-from-cross-origin-iframe-are-now-disabled-by-default/"
 ---
 Firefox 73 has added the support for [Feature Policy](https://developer.mozilla.org/docs/Web/HTTP/Feature_Policy) that allows web developers to control the behaviour of various web platform features and APIs. The new `allow` attribute on the `<iframe>` element can be used to control features within the `<iframe>`, where certain features are now disabled for third parties by default in an effort to avoid confusion for users.
 
@@ -25,7 +27,7 @@ These features can no longer be requested from cross-origin `<iframe>`s unless t
 * Geolocation API: [`geolocation`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/geolocation) directive
 * Fullscreen API: [`fullscreen`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/fullscreen) directive
 * Camera and mic access: [`camera`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/camera) and [`microphone`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/microphone) directives
-* Screen sharing and capturing: [`display-capture`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/display-capture) directive
+* Screen Capture API: [`display-capture`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/display-capture) directive
 
 So, for example, if you'd like to allow a third-party `<iframe>` to use the Geolocation API, you have to write something like this, otherwise their permission request will be silently blocked:
 
