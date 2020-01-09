@@ -22,7 +22,7 @@ aliases:
 ---
 Firefox 73 has added the support for [Feature Policy](https://developer.mozilla.org/docs/Web/HTTP/Feature_Policy) that allows web developers to control the behaviour of various web platform features and APIs. The new `allow` attribute on the `<iframe>` element can be used to control features within the `<iframe>`, where certain features are now disabled for third parties by default in an effort to avoid confusion for users.
 
-These features can no longer be requested from cross-origin `<iframe>`s unless the feature is explicitly enabled with the `allow` attribute:
+These features can no longer be used in cross-origin `<iframe>`s unless the feature is explicitly enabled with the `allow` attribute:
 
 * Geolocation API: [`geolocation`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/geolocation) directive
 * Fullscreen API: [`fullscreen`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/fullscreen) directive
@@ -35,7 +35,7 @@ So, for example, if you'd like to allow a third-party `<iframe>` to use the Geol
 <iframe src="https://maps.example.com/" allow="geolocation"></iframe>
 ```
 
-These features can no longer be requested from cross-origin `<iframe>`s unconditionally:
+These features can no longer be used in cross-origin `<iframe>`s even if you use the `allow` attribute:
 
 * Persistent storage via `navigator.storage.persist()`
 * Notifications API (since [Firefox 70](https://www.fxsitecompat.dev/en-CA/docs/2019/notification-permission-requests-from-cross-origin-iframe-are-now-disallowed/))

@@ -22,7 +22,7 @@ aliases:
 ---
 様々なウェブプラットフォーム機能や API の挙動をウェブ開発者が制御できるようにする [Feature Policy](https://developer.mozilla.org/docs/Web/HTTP/Feature_Policy) への対応が Firefox 73 で追加されました。`<iframe>` 要素上の新しい `allow` 要素を使うことで `<iframe>` 内の機能を制御できますが、ユーザーの混乱を防ぐため、サードパーティに対しては特定の機能が初期設定で無効化されるようになりました。
 
-以下の機能は、その機能が `allow` 属性で明示的に有効化されていない限り、クロスオリジン `<iframe>` からリクエストできなくなりました。
+以下の機能は、その機能が `allow` 属性で明示的に有効化されていない限り、クロスオリジン `<iframe>` 内で使用できなくなりました。
 
 * Geolocation API: [`geolocation`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/geolocation) ディレクティブ
 * Fullscreen API: [`fullscreen`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/fullscreen) ディレクティブ
@@ -35,7 +35,7 @@ aliases:
 <iframe src="https://maps.example.com/" allow="geolocation"></iframe>
 ```
 
-以下の機能は、無条件にクロスオリジン `<iframe>` からリクエストできなくなりました。
+以下の機能は `allow` 属性を使った場合でもクロスオリジン `<iframe>` 内で使用できなくなりました。
 
 * `navigator.storage.persist()` を通じた持続的ストレージ
 * Notifications API ([Firefox 70](https://www.fxsitecompat.dev/ja/docs/2019/notification-permission-requests-from-cross-origin-iframe-are-now-disallowed/) 以降)
