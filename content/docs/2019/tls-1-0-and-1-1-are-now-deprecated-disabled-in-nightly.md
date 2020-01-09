@@ -21,3 +21,5 @@ The support for [Transport Layer Security](https://developer.mozilla.org/docs/We
 Make sure to enable the newer versions of TLS on your server so it remains safe and available. See [this Mozilla Hacks blog post](https://hacks.mozilla.org/2019/05/tls-1-0-and-1-1-removal-update/) for more information.
 
 **Update**: Starting with Firefox 73, TLS 1.0 and 1.1 are disabled in the Beta channel as well.
+
+**Update 2**: [Firefox 74](https://www.fxsitecompat.dev/en-CA/docs/2020/tls-1-0-1-1-support-has-been-removed/) has removed the support from all the channels.

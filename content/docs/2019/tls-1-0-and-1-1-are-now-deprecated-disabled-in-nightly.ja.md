@@ -21,3 +21,5 @@ aliases:
 今後もあなたのサーバーが安全でアクセス可能となるよう、TLS の新バージョンが有効になっていることを確かめましょう。詳しくは [この Mozilla Hacks ブロク記事](https://hacks.mozilla.org/2019/05/tls-1-0-and-1-1-removal-update/) を参照してください。
 
 **更新**: Firefox 73 以降、TLS 1.0 と 1.1 は Beta チャンネルでも無効化されています。
+
+**更新 2**: [Firefox 74](https://www.fxsitecompat.dev/ja/docs/2020/tls-1-0-1-1-support-has-been-removed/) ですべてのチャンネルから対応が削除されました。
