@@ -15,3 +15,5 @@ references:
 [`column-count`](https://developer.mozilla.org/docs/Web/CSS/column-count)、[`column-fill`](https://developer.mozilla.org/docs/Web/CSS/column-fill)、[`column-gap`](https://developer.mozilla.org/docs/Web/CSS/column-gap)、[`column-rule`](https://developer.mozilla.org/docs/Web/CSS/column-rule)、[`column-rule-color`](https://developer.mozilla.org/docs/Web/CSS/column-rule-color)、[`column-rule-style`](https://developer.mozilla.org/docs/Web/CSS/column-rule-style)、[`column-rule-width`](https://developer.mozilla.org/docs/Web/CSS/column-rule-width)、[`column-width`](https://developer.mozilla.org/docs/Web/CSS/column-width)、[`columns`](https://developer.mozilla.org/docs/Web/CSS/columns) 各プロパティの接頭辞が Firefox 52 で外れました。`-moz` 接頭辞付きのプロパティはエイリアスとして残りますが、[近い将来削除されます](https://www.fxsitecompat.dev/ja/docs/2016/prefixed-css3-multi-column-properties-will-be-removed/)。
 
 なお、Firefox はまだ [`column-span`](https://developer.mozilla.org/docs/Web/CSS/column-span) プロパティには対応していません。
+
+**更新**: 接頭辞付きプロパティは [Firefox 74](https://www.fxsitecompat.dev/ja/docs/2020/prefixed-css-multi-column-properties-have-been-removed/) で廃止されました。
