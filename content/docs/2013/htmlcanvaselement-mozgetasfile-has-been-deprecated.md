@@ -9,3 +9,5 @@ references:
       title: "Bug 803612 – Add deprecation warnings for mozGetAsFile"
 ---
 The non-standard `mozGetAsFile` method on the [`HTMLCanvasElement`](https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement) interface is now deprecated and will be removed soon. The standard `toBlob` method can be used instead.
+
+**Update**: The method has been removed with [Firefox 74](https://www.fxsitecompat.dev/en-CA/docs/2020/htmlcanvaselement-mozgetasfile-has-been-removed/).
