@@ -7,6 +7,8 @@ versions: ["74"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1308636"
       title: "Bug 1308636 - Remove support for -moz-prefixed CSS multi-column properties"
+    - url: "https://groups.google.com/d/topic/mozilla.dev.platform/HsxXNTUmhrU/discussion"
+      title: "Intent to unship: -moz-prefixed multi-column properties and -moz-column-gap"
 aliases:
     - "/en-CA/docs/2016/prefixed-css3-multi-column-properties-will-be-removed/"
 ---
