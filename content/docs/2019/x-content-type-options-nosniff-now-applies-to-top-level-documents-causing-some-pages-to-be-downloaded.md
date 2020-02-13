@@ -28,3 +28,5 @@ There are a couple of sites known to be affected by this change, including *Micr
 **Update**: The change has been backed out from Firefox 71. Mozilla developers are planning to redo this in Firefox 72 with some tweaks.
 
 **Update 2**: The change has been landed again to Firefox 72. To mitigate the compatibility risk, the MIME type sniffing will be enabled when `X-Content-Type-Options` is set but no `Content-Type` is provided.
+
+**Update 3**: The empty `Content-Type` workaround has been removed with [Firefox 75](https://www.fxsitecompat.dev/en-CA/docs/2020/x-content-type-options-nosniff-is-now-enforced-even-if-content-type-is-not-given/).

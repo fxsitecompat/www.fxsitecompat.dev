@@ -28,3 +28,5 @@ Firefox 71 以降、ブラウザーセキュリティのさらなる向上を目
 **更新**: この変更は Firefox 71 からバックアウトされました。Mozilla 開発者は微調整を行いつつ Firefox 72 で再度変更を行う計画を立てています。
 
 **更新 2**: この変更は Firefox 72 へ再度投入されました。互換性リスクを緩和するため、`X-Content-Type-Options` が設定されているものの `Content-Type` が定義されていない場合は MIME タイプの自動判別が有効となります。
+
+**更新 3**: 空の `Content-Type` 回避策は [Firefox 75](https://www.fxsitecompat.dev/ja/docs/2020/x-content-type-options-nosniff-is-now-enforced-even-if-content-type-is-not-given/) で削除されました。
