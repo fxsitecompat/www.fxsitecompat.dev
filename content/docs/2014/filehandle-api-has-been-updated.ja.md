@@ -10,4 +10,4 @@ references:
 ---
 [FileHandle API](https://developer.mozilla.org/docs/Web/API/File_Handle_API) の実装が更新され、[`IDBDatabase.mozCreateFileHandle`](https://developer.mozilla.org/docs/Web/API/IDBDatabase.mozCreateFileHandle) メソッドは [`IDBDatabase.createMutableFile`](https://developer.mozilla.org/docs/Web/API/IDBDatabase.createMutableFile) に改名されました。また、[`FileHandle`](https://developer.mozilla.org/docs/Web/API/FileHandle)、[`LockedFile`](https://developer.mozilla.org/docs/Web/API/LockedFile) 両インターフェイスはそれぞれ [`IDBMutableFile`](https://developer.mozilla.org/docs/Web/API/IDBMutableFile)、[`IDBFileHandle`](https://developer.mozilla.org/docs/Web/API/IDBFileHandle) へ改名されました。ただし開発者がそれらのオブジェクト名を直接確認する必要はありません。
 
-**更新**: `mozCreateFileHandle` メソッドは [Firefox 74](https://local.fxsitecompat.dev/ja/docs/2020/idbdatabase-mozcreatefilehandle-has-been-removed/) で削除されました。
+**更新**: `mozCreateFileHandle` メソッドは [Firefox 74](https://www.fxsitecompat.dev/ja/docs/2020/idbdatabase-mozcreatefilehandle-has-been-removed/) で削除されました。

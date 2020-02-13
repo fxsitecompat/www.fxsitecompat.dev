@@ -10,4 +10,4 @@ references:
 ---
 The implementation of the [FileHandle API](https://developer.mozilla.org/docs/Web/API/File_Handle_API) has been updated. The [`IDBDatabase.mozCreateFileHandle`](https://developer.mozilla.org/docs/Web/API/IDBDatabase.mozCreateFileHandle) method has been renamed to [`IDBDatabase.createMutableFile`](https://developer.mozilla.org/docs/Web/API/IDBDatabase.createMutableFile). Also, the [`FileHandle`](https://developer.mozilla.org/docs/Web/API/FileHandle) and [`LockedFile`](https://developer.mozilla.org/docs/Web/API/LockedFile) interfaces have been respectively renamed to [`IDBMutableFile`](https://developer.mozilla.org/docs/Web/API/IDBMutableFile) and [`IDBFileHandle`](https://developer.mozilla.org/docs/Web/API/IDBFileHandle), though consumers don't have to check these object names.
 
-**Update**: The `mozCreateFileHandle` method has been removed with [Firefox 74](https://local.fxsitecompat.dev/en-CA/docs/2020/idbdatabase-mozcreatefilehandle-has-been-removed/).
+**Update**: The `mozCreateFileHandle` method has been removed with [Firefox 74](https://www.fxsitecompat.dev/en-CA/docs/2020/idbdatabase-mozcreatefilehandle-has-been-removed/).
