@@ -10,6 +10,6 @@ references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/PDYzBgRz8gk/discussion"
       title: "Intent to ship: a change to the initial value of image-orientation"
 ---
-Firefox 75 has changed the initial value of the [`image-orientation`](https://developer.mozilla.org/docs/Web/CSS/image-orientation) CSS property from `none` to `from-image`, which uses Exif data stored in an image for rotation. [Chrome 81](https://www.chromestatus.com/features/6313474512650240) is shipping the property on March 17 with defaulting to `from-image`, so any compatibility issue could be noticed before Firefox 75 goes out of beta on April 7. If you find certain pictures on your site not rotating property, you need to modify these image files with a photo editor.
+Firefox 75 has changed the initial value of the [`image-orientation`](https://developer.mozilla.org/docs/Web/CSS/image-orientation) CSS property from `none` to `from-image`, which uses Exif data stored in an image for rotation. [Chrome 81](https://www.chromestatus.com/features/6313474512650240) is shipping the property on March 17 with defaulting to `from-image`, so any compatibility issue could be noticed before Firefox 75 goes out of beta on April 7. If you find certain pictures on your site not rotating properly, you need to modify these image files with a photo editor.
 
 [Safari](https://bugs.webkit.org/show_bug.cgi?id=89052) is also shipping the property in the near future.
