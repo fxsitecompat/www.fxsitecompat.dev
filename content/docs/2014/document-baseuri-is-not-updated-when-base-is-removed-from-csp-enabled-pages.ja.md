@@ -9,4 +9,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1121857"
       title: "Bug 1121857 – document.baseURI does not get updated to document.location after base tag is removed from DOM for site with a CSP"
 ---
-[`<base>`](https://developer.mozilla.org/docs/Web/HTML/Element/base) 要素を使うと [`Node.baseURI`](https://developer.mozilla.org/docs/Web/API/Node.baseURI) プロパティの値を変更することができます。この要素が削除されると、`baseURI` は自動的に規定値である [`document.location`](https://developer.mozilla.org/docs/Web/API/document.location) に戻るはずですが、Firefox 35 では、ドキュメントの [CSP (Content Security Policy)](https://developer.mozilla.org/docs/Web/Security/CSP) が有効になっている場合、復元が行われません。この問題は Firefox 35.0.1 で修正されました。
+[`<base>`](https://developer.mozilla.org/docs/Web/HTML/Element/base) 要素を使うと [`Node.baseURI`](https://developer.mozilla.org/docs/Web/API/Node.baseURI) プロパティの値を変更することができます。この要素が削除されると、`baseURI` は自動的に既定値である [`document.location`](https://developer.mozilla.org/docs/Web/API/document.location) に戻るはずですが、Firefox 35 では、ドキュメントの [CSP (Content Security Policy)](https://developer.mozilla.org/docs/Web/Security/CSP) が有効になっている場合、復元が行われません。この問題は Firefox 35.0.1 で修正されました。
