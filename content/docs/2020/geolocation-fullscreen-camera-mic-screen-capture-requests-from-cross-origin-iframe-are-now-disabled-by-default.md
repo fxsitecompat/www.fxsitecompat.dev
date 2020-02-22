@@ -17,6 +17,8 @@ references:
       title: "Bug 1600883 - Enable Feature Policy allow attribute and permission delegation by default"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1610572"
       title: "Bug 1610572 - Disable Feature Policy for FF73"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1617219"
+      title: "Bug 1617219 - Enable Feature Policy & Permission Delegation for Release 74"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/BdFOMAuCGW8/discussion"
       title: "Intent to prototype: Delegate and restrict permission in third party context"
 aliases:
