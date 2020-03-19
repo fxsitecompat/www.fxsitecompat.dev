@@ -4,9 +4,12 @@ date: "2020-01-05T20:13:00-05:00"
 categories: ["audio-video", "dom", "privacy-security"]
 tags: []
 versions: ["74"]
+statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1483631"
       title: "Bug 1483631 - Restrict nested permission requests (camera/microphone/geolocation/screensharing) with Feature Policy"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1503694"
+      title: "Bug 1503694 - FeaturePolicy: Hangouts cannot access microphone from Gmail"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1579373"
       title: "Bug 1579373 - Disabling geolocation permissions by default in cross-origin iframes"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1583142"
@@ -46,3 +49,5 @@ aliases:
 * Vibration API ([Firefox 72](https://www.fxsitecompat.dev/ja/docs/2019/vibration-api-can-no-longer-be-used-from-cross-origin-iframe/) 以降)
 
 **Update**: この変更は Firefox 73 から 74 へ延期されました。
+
+**更新 2**: *Google Hangouts* がこの変更の影響を受けており、*Gmail* からのマイクアクセスが動作しません。
