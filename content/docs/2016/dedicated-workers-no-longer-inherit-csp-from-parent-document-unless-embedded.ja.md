@@ -13,4 +13,4 @@ references:
 
 一方、[埋め込み Worker](https://developer.mozilla.org/docs/Web/API/Web_Workers_API/Using_web_workers#Embedded_workers) は親ポリシーを継承しますが、[`Blob`](https://developer.mozilla.org/docs/Web/API/Blob/Blob) に `text/javascript` など有効なスクリプト用 MIME タイプを指定する必要があります。そうしないと、`script-src` の代わりに `default-src` ディレクティブがその Worker に適用され、予期せぬ CSP エラーにつながる可能性があります。この制約により [*Yandex.Disk* が Firefox 45 で正しく動作していません](https://bugzilla.mozilla.org/show_bug.cgi?id=1256148)。
 
-**Update**: *Yandex.Disk* の問題は Yandex チームによって修正されました。
+**更新**: *Yandex.Disk* の問題は Yandex チームによって修正されました。

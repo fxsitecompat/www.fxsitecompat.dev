@@ -48,6 +48,6 @@ aliases:
 * Notifications API ([Firefox 70](https://www.fxsitecompat.dev/ja/docs/2019/notification-permission-requests-from-cross-origin-iframe-are-now-disallowed/) 以降)
 * Vibration API ([Firefox 72](https://www.fxsitecompat.dev/ja/docs/2019/vibration-api-can-no-longer-be-used-from-cross-origin-iframe/) 以降)
 
-**Update**: この変更は Firefox 73 から 74 へ延期されました。
+**更新**: この変更は Firefox 73 から 74 へ延期されました。
 
 **更新 2**: *Google Hangouts* がこの変更の影響を受けており、*Gmail* からのマイクアクセスが動作しません。

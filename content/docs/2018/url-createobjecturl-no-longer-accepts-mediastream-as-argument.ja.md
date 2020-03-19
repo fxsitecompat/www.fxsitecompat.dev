@@ -26,4 +26,4 @@ video.src = URL.createObjectURL(stream);
 video.srcObject = stream;
 ```
 
-**Update**: この変更によりデスクトップ上で *Facebook Live* が動作していません。
+**更新**: この変更によりデスクトップ上で *Facebook Live* が動作していません。
