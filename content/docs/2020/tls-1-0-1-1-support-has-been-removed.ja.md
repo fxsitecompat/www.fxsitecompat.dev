@@ -21,4 +21,4 @@ references:
 
 あなたのウェブサーバー上で必ず TLS 1.2 か 1.3 を有効にしましょう。さもないと Firefox は [安全な接続ができませんでした](https://support.mozilla.org/kb/secure-connection-failed-firefox-did-not-connect) というエラーページを表示して、その新バージョンを使用していないサーバーへユーザーがアクセスするのをブロックします。詳しくは [この Mozilla Hacks ブロク記事](https://hacks.mozilla.org/2019/05/tls-1-0-and-1-1-removal-update/) を参照してください。
 
-**更新**: Mozilla は Firefox 74 と 75 Beta の TLS 1.0/1.1 対応を一時的に再有効化する方針です。設定変更は、既に公開されている Firefox 74 に対してはリモートで適用されます。これは、新型コロナウイルス (COVID-19) の流行を受けて、現在多くの人が在宅勤務を強いられオンラインツールに依存しており、また同様の理由で Google が TLS 1.0/1.1 対応を廃止する予定となっていた [Chrome 81 の公開を延期](https://blog.chromium.org/2020/03/upcoming-chrome-releases.html) したためです。状況が変わり次第このドキュメントを更新します。
+**更新**: Mozilla は Firefox 74 と 75 Beta の TLS 1.0/1.1 対応を一時的に再有効化する方針です。設定変更は、既に公開されている Firefox 74 に対してはリモートで適用されます。これは、新型コロナウイルス (COVID-19) の流行を受けて、現在多くの人が在宅勤務を強いられオンラインツールに依存していますが、一部の重要な政府機関サイトがまだ TLS 1.2 に対応していないためです。また COVID-19 を理由として、Google が [TLS 1.0/1.1 対応を廃止](https://www.chromestatus.com/feature/5759116003770368) する予定となっていた [Chrome 81 の公開を延期](https://blog.chromium.org/2020/03/upcoming-chrome-releases.html) しています。状況が変わり次第このドキュメントを更新します。

@@ -17,4 +17,4 @@ references:
 ---
 Firefox 75 で WebRTC における [Datagram Transport Layer Security](https://developer.mozilla.org/docs/Glossary/DTLS) (DTLS) の既定最小バージョンが 1.2 に引き上げられました。Mozilla によれば、98% 以上の WebRTC サービスが既に DTLS 1.2 を採用しています。もしまだ DTLS 1.0 を使用している場合は、今がアップグレードの時期です。
 
-**更新**: Mozilla は Firefox 75 Beta の DTLS 1.0 対応を一時的に再有効化する方針です。これは、新型コロナウイルス (COVID-19) の流行を受けて、現在多くの人が在宅勤務を強いられビデオ会議ソリューションに依存していますが、そうしたサービスのひとつである *Jitsi* がまだ DTLS 1.2 に対応していないためです。状況が変わり次第このドキュメントを更新します。
+**更新**: Mozilla は Firefox 75 Beta の DTLS 1.0 対応を一時的に再有効化する方針です。これは、新型コロナウイルス (COVID-19) の流行を受けて、現在多くの人が在宅勤務を強いられビデオ会議ソリューションに依存していますが、そうしたサービスのひとつである *Jitsi* がまだ DTLS 1.2 に対応していないためです。また COVID-19 を理由として、Google が [DTLS 1.0 対応を廃止](https://bugs.chromium.org/p/webrtc/issues/detail?id=10261) する予定となっていた [Chrome 82 の公開を延期](https://blog.chromium.org/2020/03/upcoming-chrome-releases.html) しています。状況が変わり次第このドキュメントを更新します。
