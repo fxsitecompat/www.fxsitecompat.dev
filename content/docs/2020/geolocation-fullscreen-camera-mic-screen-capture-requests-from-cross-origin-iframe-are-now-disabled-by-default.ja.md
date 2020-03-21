@@ -10,6 +10,8 @@ references:
       title: "Bug 1483631 - Restrict nested permission requests (camera/microphone/geolocation/screensharing) with Feature Policy"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1503694"
       title: "Bug 1503694 - FeaturePolicy: Hangouts cannot access microphone from Gmail"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1563758"
+      title: "Bug 1563758 - Fullscreen button is not functional on AOL websites"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1579373"
       title: "Bug 1579373 - Disabling geolocation permissions by default in cross-origin iframes"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1583142"
@@ -50,4 +52,4 @@ aliases:
 
 **更新**: この変更は Firefox 73 から 74 へ延期されました。
 
-**更新 2**: *Google Hangouts* がこの変更の影響を受けており、*Gmail* からのマイクアクセスが動作しません。
+**更新 2**: *Google Hangouts* がこの変更の影響を受けており、*Gmail* からのマイクアクセスが動作しません。また、*HuffPost*、*Engadget*、*TechCrunch* といった *AOL* が運営するウェブサイト上で動画プレーヤーの全画面表示ボタンが動作していません。

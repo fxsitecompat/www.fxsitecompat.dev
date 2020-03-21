@@ -10,6 +10,8 @@ references:
       title: "Bug 1483631 - Restrict nested permission requests (camera/microphone/geolocation/screensharing) with Feature Policy"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1503694"
       title: "Bug 1503694 - FeaturePolicy: Hangouts cannot access microphone from Gmail"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1563758"
+      title: "Bug 1563758 - Fullscreen button is not functional on AOL websites"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1579373"
       title: "Bug 1579373 - Disabling geolocation permissions by default in cross-origin iframes"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1583142"
@@ -50,4 +52,4 @@ These features can no longer be used in cross-origin `<iframe>`s even if you use
 
 **Update**: The change has been postponed from Firefox 73 to 74.
 
-**Update 2**: *Google Hangouts* is affected by this change, where mic access from *Gmail* doesn’t work.
+**Update 2**: *Google Hangouts* is affected by this change, where mic access from *Gmail* doesn’t work. Also, video players’ fullscreen button is not working on *AOL*-owned web properties including *HuffPost*, *Engadget* and *TechCrunch*.
