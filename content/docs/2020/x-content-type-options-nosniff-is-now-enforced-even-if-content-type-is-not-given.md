@@ -7,6 +7,8 @@ versions: ["75"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1594766"
       title: "Bug 1594766 - Decide whether to continue ignoring XCTO Nosniff when Content Type is Empty, or to enforce"
+    - url: "https://blog.mozilla.org/security/2020/04/07/firefox-75-will-respect-nosniff-for-page-loads/"
+      title: "Firefox 75 will respect ‘nosniff’ for Page Loads | Mozilla Security Blog"
 ---
 Since [Firefox 72](https://www.fxsitecompat.dev/en-CA/docs/2019/x-content-type-options-nosniff-now-applies-to-top-level-documents-causing-some-pages-to-be-downloaded/), the [`X-Content-Type-Options`](https://developer.mozilla.org/docs/Web/HTTP/Headers/X-Content-Type-Options) HTTP response header has been applied to top-level documents, but to mitigate the compatibility risk, the `nosniff` directive would be ignored when the `Content-Type` header is empty or not provided.
 
