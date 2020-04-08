@@ -4,7 +4,7 @@ date: "2020-02-17T15:07:00-04:00"
 categories: ["dom", "javascript", "privacy-security"]
 tags: []
 versions: ["75"]
-statuses: "reverted"
+statuses: "postponed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1523706"
       title: "Bug 1523706 - Consider strictly enforcing MIME checks for Worker scripts"

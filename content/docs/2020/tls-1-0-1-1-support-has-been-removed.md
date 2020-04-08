@@ -4,7 +4,7 @@ date: "2020-01-08T19:23:00-05:00"
 categories: ["networking", "privacy-security"]
 tags: []
 versions: ["74"]
-statuses: "reverted"
+statuses: "postponed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1606734"
       title: "Bug 1606734 - Disable TLS 1.0 and 1.1 by default"

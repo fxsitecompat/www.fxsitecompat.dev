@@ -53,6 +53,12 @@ status_affecting_description:
     other: "A change made for standard compliance, security or performance. A couple of sites were broken but those issues were or should be fixed by themselves."
 status_affecting_description_list:
     other: "This list contains changes made for standard compliance, security or performance. A couple of sites were broken but those issues were or should be fixed by themselves."
+status_postponed_label:
+    other: "Postponed"
+status_postponed_description:
+    other: "A change made for standard compliance, security or performance, which has since been postponed to a future release to mitigate the risk of site breakage."
+status_postponed_description_list:
+    other: "This list contains changes made for standard compliance, security or performance, which have since been postponed to a future release to mitigate the risk of site breakage."
 status_reverted_label:
     other: "Reverted"
 status_reverted_description:

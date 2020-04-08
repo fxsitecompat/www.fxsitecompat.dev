@@ -4,7 +4,7 @@ date: "2020-02-17T13:56:00-05:00"
 categories: ["css"]
 tags: []
 versions: ["75"]
-statuses: "reverted"
+statuses: "postponed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1607667"
       title: "Bug 1607667 - [css-images] Consider changing initial value of 'image-orientation' to from-image"

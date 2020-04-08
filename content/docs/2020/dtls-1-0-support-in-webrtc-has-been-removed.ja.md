@@ -4,7 +4,7 @@ date: "2020-02-19T20:27:00-05:00"
 categories: ["audio-video", "networking", "privacy-security"]
 tags: []
 versions: ["75"]
-statuses: "reverted"
+statuses: "postponed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1615445"
       title: "Bug 1615445 - Set minimum DTLS version to 1.2"

@@ -53,6 +53,12 @@ status_affecting_description:
     other: "標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更。少数のサイトに影響を及ぼしたものの、それらの問題はサイト側で修正されたか、されるべきです。"
 status_affecting_description_list:
     other: "このリストには、標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更が含まれます。少数のサイトに影響を及ぼしたものの、それらの問題はサイト側で修正されたか、されるべきです。"
+status_postponed_label:
+    other: "延期"
+status_postponed_description:
+    other: "サイトに不具合をもたらす可能性を最小限に留めるため、一度は行われたものの今後のバージョンに実施が延期された、標準準拠、セキュリティもしくはパフォーマンス改善のための変更です。"
+status_postponed_description_list:
+    other: "このリストには、サイトに不具合をもたらす可能性を最小限に留めるため、一度は行われたものの今後のバージョンに実施が延期された、標準準拠、セキュリティもしくはパフォーマンス改善のための変更が含まれます。"
 status_reverted_label:
     other: "取り消し"
 status_reverted_description:
