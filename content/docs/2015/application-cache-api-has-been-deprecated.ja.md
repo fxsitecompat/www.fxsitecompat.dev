@@ -13,3 +13,5 @@ references:
 ウェブアプリケーションの [オフライン対応](https://developer.mozilla.org/Apps/Build/Offline) を可能にする HTML5 の [Application Cache API](https://developer.mozilla.org/docs/Web/HTML/Using_the_application_cache) (AppCache) が廃止予定と見なされ、[将来的に Firefox から削除されることとなりました](https://www.fxsitecompat.dev/ja/docs/2016/application-cache-support-will-be-removed/)。ウェブ開発者の皆さんには、代替策として [Service Worker](https://developer.mozilla.org/docs/Web/API/Service_Worker_API) を学ぶことをお勧めします。それによって、よりリッチでシームレスなオフラインユーザー体験を近いうちに提供できるようになります。この新しい API は、まだすべての機能が実装されているわけではありませんが、既に [Firefox Developer Edition](https://www.mozilla.org/firefox/developer/) でテスト可能となっています。なお、Service Worker が登録されている場合、AppCache は無視されます。
 
 **更新**: Service Worker API は Firefox 44 で正式公開となり、Beta、Release 両チャンネルでも利用可能となりました。
+
+**更新 2**: AppCache ストレージは [Firefox 77](https://www.fxsitecompat.dev/ja/docs/2020/application-cache-storage-has-been-removed/) で廃止されました。
