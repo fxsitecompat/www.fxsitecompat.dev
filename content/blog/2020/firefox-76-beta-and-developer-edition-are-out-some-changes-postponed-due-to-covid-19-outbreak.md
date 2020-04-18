@@ -10,8 +10,8 @@ While Mozilla maintains the [rapid release schedule](https://wiki.mozilla.org/Re
 
 * [Removing TLS 1.0/1.1 support](https://www.fxsitecompat.dev/en-CA/docs/2020/tls-1-0-1-1-support-has-been-removed/)
 * [Removing DTLS 1.0 support from WebRTC](https://www.fxsitecompat.dev/en-CA/docs/2020/dtls-1-0-support-in-webrtc-has-been-removed/)
-* Removing FTP support (coming soon to Firefox Nightly)
+* [Removing FTP support](https://www.fxsitecompat.dev/en-CA/docs/2020/ftp-support-will-be-removed/)
 * [Enforcing MIME check for worker scripts](https://www.fxsitecompat.dev/en-CA/docs/2020/worker-scripts-with-wrong-mime-type-will-be-blocked-from-loading-with-worker-or-sharedworker/)
 * [Rotating JPEG images](https://www.fxsitecompat.dev/en-CA/docs/2020/jpeg-images-are-now-rotated-by-default-according-to-exif-data/)
 
-These changes will be made later this year once the situation is improved. We’ll keep you posted.
+These changes will be made later this year once the situation improves. We’ll keep you posted.

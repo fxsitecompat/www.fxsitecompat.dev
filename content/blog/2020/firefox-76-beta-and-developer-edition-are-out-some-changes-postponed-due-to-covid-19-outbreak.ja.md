@@ -10,7 +10,7 @@ Mozilla は高速リリーススケジュールを維持していますが、サ
 
 * [TLS 1.0/1.1 対応の廃止](https://www.fxsitecompat.dev/ja/docs/2020/tls-1-0-1-1-support-has-been-removed/)
 * [WebRTC の DTLS 1.0 対応の廃止](https://www.fxsitecompat.dev/ja/docs/2020/dtls-1-0-support-in-webrtc-has-been-removed/)
-* FTP 対応の廃止 (まもなく Firefox Nightly では実施)
+* [FTP 対応の廃止](https://www.fxsitecompat.dev/ja/docs/2020/ftp-support-will-be-removed/)
 * [ワーカースクリプトの MIME 判別強制](https://www.fxsitecompat.dev/ja/docs/2020/worker-scripts-with-wrong-mime-type-will-be-blocked-from-loading-with-worker-or-sharedworker/)
 * [JPEG 画像の回転](https://www.fxsitecompat.dev/ja/docs/2020/jpeg-images-are-now-rotated-by-default-according-to-exif-data/)
 
