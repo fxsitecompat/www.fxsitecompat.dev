@@ -21,7 +21,7 @@ RewriteCond %{QUERY_STRING} cx=006388931142546140887:uidl4-zslfu
 RewriteRule ^(en-CA|ja)/search/$ https://cse.google.com/cse [L]
 
 # Obsolete taxonomies
-RewriteRule ^(en-CA|ja)/versions/(\w+/)?$ /$1/releases/$2 [R=301,L]
+RewriteRule ^(en-CA|ja)/versions/(.*) /$1/releases/$2 [R=301,L]
 
 # Obsolete categories
 RewriteRule ^(en-CA|ja)/categories/event-handling/?$ /$1/categories/dom/ [R=301,L]
