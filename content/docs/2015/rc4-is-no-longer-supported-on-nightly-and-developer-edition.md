@@ -3,7 +3,7 @@ title: "RC4 is no longer supported on Nightly and Developer Edition"
 date: "2015-09-23T06:18:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["42"]
+versions: ["42", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1201023"

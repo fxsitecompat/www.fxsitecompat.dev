@@ -3,7 +3,7 @@ title: "Array/generator comprehension support has been removed"
 date: "2017-11-10T10:03:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["58"]
+versions: ["58", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1414340"
       title: "Bug 1414340 - Remove ES draft array/generator comprehensions"

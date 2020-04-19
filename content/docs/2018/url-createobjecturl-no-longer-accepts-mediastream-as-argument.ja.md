@@ -3,7 +3,7 @@ title: "`URL.createObjectURL()` が `MediaStream` を引数として受け付け
 date: "2018-04-24T19:23:00-04:00"
 categories: ["audio-video", "dom"]
 tags: []
-versions: ["62"]
+versions: ["62", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1454889"

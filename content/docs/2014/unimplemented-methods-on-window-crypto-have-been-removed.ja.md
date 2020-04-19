@@ -3,7 +3,7 @@ title: "`window.crypto` の未実装メソッドが削除されました"
 date: "2014-04-03T19:31:02-04:00"
 categories: ["dom"]
 tags: []
-versions: ["31"]
+versions: ["31", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=897359"
       title: "Bug 897359 – Remove unimplemented method in nsCrypto"

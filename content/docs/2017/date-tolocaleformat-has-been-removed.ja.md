@@ -3,7 +3,7 @@ title: "`Date.toLocaleFormat()` が削除されました"
 date: "2017-10-25T17:27:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["58"]
+versions: ["58", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=818634"
       title: "Bug 818634 - Remove support for Date.prototype.toLocaleFormat"

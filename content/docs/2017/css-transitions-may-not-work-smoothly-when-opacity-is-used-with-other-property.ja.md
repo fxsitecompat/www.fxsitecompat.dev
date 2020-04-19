@@ -3,7 +3,7 @@ title: "`opacity` が他のプロパティとともに使われた場合、CSS �
 date: "2017-03-21T19:50:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["52"]
+versions: ["52", "52-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1318697"

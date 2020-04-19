@@ -3,7 +3,7 @@ title: "`navigator.platform` now returns `Win32` even on 64-bit Firefox"
 date: "2018-08-14T03:35:00-04:00"
 categories: ["dom", "html"]
 tags: []
-versions: ["63"]
+versions: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1472618"
       title: "Bug 1472618 - navigator.platform returns \"Win64\" in Firefox on Win64 OS but \"Win32\" in Chrome and Edge"

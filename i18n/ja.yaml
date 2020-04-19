@@ -151,6 +151,8 @@ version_index_page_title_future:
     other: "今後予定されている変更"
 version_index_page_description:
     other: '<time datetime="{{.date}}">{{.date_localized}}</time> に公開された Firefox {{.version}} に含まれる変更点に関する互換性情報を参照できます。'
+version_index_page_description_esr:
+    other: '<time datetime="{{.date}}">{{.date_localized}}</time> に公開された Firefox {{.version}} 延長サポート版 (ESR) に含まれる変更点に関する互換性情報を参照できます。'
 version_index_page_description_upcoming:
     other: '現在 <a href="https://www.mozilla.org/firefox/channel/desktop/#{{.channel}}"><em>{{.channel_localized}}</em></a> チャンネルで提供され <time datetime="{{.date}}">{{.date_localized}}</time> 公開予定の Firefox {{.version}} に含まれる変更点に関する互換性情報を参照できます。'
 version_index_page_description_secondary:
@@ -171,7 +173,7 @@ status_index_page_title:
 # Single document page
 published:
     other: "公開日"
-version:
+versions:
     other: "バージョン"
 categories:
     other: "カテゴリー"

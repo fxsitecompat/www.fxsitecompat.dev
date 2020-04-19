@@ -3,7 +3,7 @@ title: "非表示の `<input>` 要素上ではフォームバリデーション�
 date: "2017-03-10T13:42:00-05:00"
 categories: ["dom", "html"]
 tags: []
-versions: ["53"]
+versions: ["53", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1319078"
       title: "Bug 1319078 - Form validation should account for the visibility/focusability of the input element"

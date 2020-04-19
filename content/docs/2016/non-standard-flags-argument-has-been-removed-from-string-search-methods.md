@@ -3,7 +3,7 @@ title: "Non-standard `flags` argument has been removed from `String` search meth
 date: "2016-05-10T10:34:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["49"]
+versions: ["49", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1108382"

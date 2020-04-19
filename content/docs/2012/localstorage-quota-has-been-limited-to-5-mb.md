@@ -3,7 +3,7 @@ title: "`localStorage` quota has been limited to 5 MB"
 date: "2012-12-03T03:53:26-05:00"
 categories: ["dom"]
 tags: []
-versions: ["18"]
+versions: ["18", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=776416"
       title: "Bug 776416 – Remove exceptions to 5MB quota rule in localStorage"

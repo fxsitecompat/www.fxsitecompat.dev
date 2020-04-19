@@ -3,7 +3,7 @@ title: "制約的 `RTCOfferOptions` への対応が打ち切られました"
 date: "2015-09-09T15:49:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["43"]
+versions: ["43", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1063808"
       title: "Bug 1063808 - createOffer options spec-change to RTCOfferOptions abruptly breaks things in 33"

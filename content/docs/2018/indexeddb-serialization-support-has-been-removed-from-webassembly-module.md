@@ -3,7 +3,7 @@ title: "IndexedDB serialization support has been removed from `WebAssembly.Modul
 date: "2018-08-16T10:25:00-04:00"
 categories: ["misc"]
 tags: []
-versions: ["63"]
+versions: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1469395"
       title: "Bug 1469395 - Remove WebAssembly.Module IndexedDB serialization support"

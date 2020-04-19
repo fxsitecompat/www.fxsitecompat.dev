@@ -3,7 +3,7 @@ title: "`mozIndexedDB` が削除されました"
 date: "2015-02-27T04:21:22-05:00"
 categories: ["dom"]
 tags: []
-versions: ["38"]
+versions: ["38", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=975699"
       title: "Bug 975699 – Remove mozIndexedDB again"

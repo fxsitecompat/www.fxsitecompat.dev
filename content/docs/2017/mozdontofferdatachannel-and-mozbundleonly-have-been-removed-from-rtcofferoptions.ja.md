@@ -3,7 +3,7 @@ title: "`RTCOfferOptions` から `mozDontOfferDataChannel` と `mozBundleOnly` �
 date: "2017-07-20T13:08:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["56"]
+versions: ["56", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1196974"
       title: "Bug 1196974 - Remove mozDontOfferDataChannel/mozBundleOnly from RTCOfferOptions"

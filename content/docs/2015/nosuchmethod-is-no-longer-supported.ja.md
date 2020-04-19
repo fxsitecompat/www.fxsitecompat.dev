@@ -3,7 +3,7 @@ title: "`__noSuchMethod__` 対応が打ち切られました"
 date: "2015-09-22T09:37:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["44"]
+versions: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=683218"
       title: "Bug 683218 - can we remove __noSuchMethod__, use proxies instead?"

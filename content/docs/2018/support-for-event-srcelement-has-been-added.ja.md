@@ -3,7 +3,7 @@ title: "`Event.srcElement` への対応が追加されました"
 date: "2018-05-08T16:17:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["62"]
+versions: ["62", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=453968"

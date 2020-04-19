@@ -3,7 +3,7 @@ title: "Web Storage, IndexedDB, Cache API now obey third-party cookies preferenc
 date: "2015-10-24T16:10:00-07:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["43"]
+versions: ["43", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=536509"
       title: "Bug 536509 - localStorage does not obey \"third-party cookies\" pref"

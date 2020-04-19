@@ -3,7 +3,7 @@ title: "Support for EME on insecure contexts has been deprecated"
 date: "2017-05-04T17:21:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["55"]
+versions: ["55", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1322517"
       title: "Bug 1322517 - [EME] Remove support for EME on insecure contexts"

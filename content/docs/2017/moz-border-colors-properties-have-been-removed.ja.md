@@ -3,7 +3,7 @@ title: "`-moz-border-*-colors` プロパティが削除されました"
 date: "2017-12-06T11:20:00-05:00"
 categories: ["css"]
 tags: []
-versions: ["59"]
+versions: ["59", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1417200"
       title: "Bug 1417200 - Make -moz-border-*-colors chrome only"

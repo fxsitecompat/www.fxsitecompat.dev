@@ -3,7 +3,7 @@ title: "`XHR.getAllResponseHeaders()` now returns header names in lowercase"
 date: "2018-09-27T15:18:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["64"]
+versions: ["64", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1398718"
       title: "Bug 1398718 - Remove default pref-off for lowercase header names in XHR.getAllResponseHeaders()"

@@ -3,7 +3,7 @@ title: "`setTimeout()`/`setInterval()` are now deferred during page load"
 date: "2019-02-18T17:08:00-05:00"
 categories: ["dom", "networking"]
 tags: []
-versions: ["66"]
+versions: ["66", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1270059"

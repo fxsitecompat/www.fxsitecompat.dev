@@ -3,7 +3,7 @@ title: "間違った Referrer Policy 実装が修正されました"
 date: "2015-09-21T21:07:00-04:00"
 categories: ["html", "privacy-security"]
 tags: []
-versions: ["41"]
+versions: ["41", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1163743"
       title: "Bug 1163743 - (referrer policy) origin-when-crossorigin should have a hyphen in cross-origin"

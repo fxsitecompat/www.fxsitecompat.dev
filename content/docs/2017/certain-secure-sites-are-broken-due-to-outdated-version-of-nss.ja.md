@@ -3,7 +3,7 @@ title: "NSS の旧バージョンが原因で一部のセキュアなサイト�
 date: "2017-01-11T17:12:00-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["51"]
+versions: ["51", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1317857"

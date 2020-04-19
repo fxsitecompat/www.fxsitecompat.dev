@@ -3,7 +3,7 @@ title: "`const` が更新され ES6 準拠となりました"
 date: "2014-12-19T11:15:21-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["36"]
+versions: ["36", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=611388"
       title: "Bug 611388 – const should be block-scoped and an initializer should be required"

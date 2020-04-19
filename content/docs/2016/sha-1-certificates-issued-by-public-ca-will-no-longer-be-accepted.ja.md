@@ -3,7 +3,7 @@ title: "公的認証局によって発行された SHA-1 証明書は受け入�
 date: "2016-10-24T13:13:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["52"]
+versions: ["52", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1302140"

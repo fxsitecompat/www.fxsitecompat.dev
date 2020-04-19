@@ -3,7 +3,7 @@ title: "`event.timeStamp` now returns `DOMHighResTimeStamp` on Nightly/Aurora fo
 date: "2015-09-09T15:11:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["43"]
+versions: ["43", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1026803"

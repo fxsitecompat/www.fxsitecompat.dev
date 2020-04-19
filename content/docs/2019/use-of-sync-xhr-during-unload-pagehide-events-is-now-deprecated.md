@@ -3,7 +3,7 @@ title: "Use of sync XHR during `unload`, `pagehide` events is now deprecated"
 date: "2019-06-09T03:55:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["68"]
+versions: ["68", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=980902"
       title: "Bug 980902 - Warn about use of sync XHR during unload and pagehide events"

@@ -3,7 +3,7 @@ title: "Images with `id` no longer appear as `window` properties"
 date: "2015-10-21T00:53:00-07:00"
 categories: ["dom"]
 tags: []
-versions: ["42"]
+versions: ["42", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=959992"
       title: "Bug 959992 - Firefox 26 creates enumerable properties on window for ids of <img> tags"

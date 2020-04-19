@@ -3,7 +3,7 @@ title: "`MouseEvent.offsetX`/`Y` が実装されましたが、Google Maps API �
 date: "2015-07-13T10:05:10-04:00"
 categories: ["dom"]
 tags: []
-versions: ["39"]
+versions: ["39", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=69787"

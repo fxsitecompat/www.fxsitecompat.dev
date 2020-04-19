@@ -3,7 +3,7 @@ title: "Legacy Crypto API has been removed"
 date: "2014-10-17T22:50:44-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["35"]
+versions: ["35", "38-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1030963"

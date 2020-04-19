@@ -3,7 +3,7 @@ title: "`-moz-user-input:enabled` and `disabled` are no longer supported"
 date: "2018-02-16T10:39:00-05:00"
 categories: ["css"]
 tags: []
-versions: ["60"]
+versions: ["60", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1405087"
       title: "Bug 1405087 - JavaScript: The \"click ()\" event isn`t executing from the script after deleting/setting to \"false\" the \"disabled\" prop of the element \"input type = submit\""

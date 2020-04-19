@@ -3,7 +3,7 @@ title: "テキストボックスに自動でフォーカスが当たったとき
 date: "2016-09-16T00:43:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["51"]
+versions: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1287655"
       title: "Bug 1287655 - input/textarea selectionStart, selectionEnd should return cursor position when selection is empty"

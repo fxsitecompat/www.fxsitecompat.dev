@@ -3,7 +3,7 @@ title: "Flash の読み込みが HTTP/HTTPS からに制限されました"
 date: "2017-03-10T16:44:00-05:00"
 categories: ["plugins", "privacy-security"]
 tags: []
-versions: ["55"]
+versions: ["55", "60-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1335475"

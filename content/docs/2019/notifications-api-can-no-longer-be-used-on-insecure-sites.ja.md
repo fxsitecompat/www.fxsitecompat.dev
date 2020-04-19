@@ -3,7 +3,7 @@ title: "Notifications API が安全でないサイトでは使用できなくな
 date: "2019-05-13T01:47:00-04:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["67"]
+versions: ["67", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1429432"
       title: "Bug 1429432 - Consider making Notifications require SecureContext"

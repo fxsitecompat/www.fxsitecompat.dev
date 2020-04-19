@@ -3,7 +3,7 @@ title: "`window.event` と `Event.returnValue` への対応が再度追加され
 date: "2018-12-24T19:40:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["66"]
+versions: ["66", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=218415"

@@ -3,7 +3,7 @@ title: "`ArrayBuffer.slice()` has been deprecated"
 date: "2016-11-16T19:34:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["52"]
+versions: ["52", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1316913"
       title: "Bug 1316913 - Warn about ArrayBuffer.slice"

@@ -3,7 +3,7 @@ title: "`Node.hasAttributes()` has been moved to `Element`"
 date: "2014-10-17T22:50:44-04:00"
 categories: ["dom"]
 tags: []
-versions: ["35"]
+versions: ["35", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1055773"
       title: "Bug 1055773 – Move hasAttributes() to Element"

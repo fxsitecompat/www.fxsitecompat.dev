@@ -3,7 +3,7 @@ title: "アニメーション GIF が当初縮小され隠されていた場合�
 date: "2015-12-18T18:27:00-05:00"
 categories: ["misc"]
 tags: []
-versions: ["43"]
+versions: ["43", "45-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1233403"

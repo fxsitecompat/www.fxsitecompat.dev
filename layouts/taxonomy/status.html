@@ -22,7 +22,7 @@
             <p itemprop="description">{{ $description }}</p>
           </header>{{ range $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}{{ with $pages := where .Pages "Params.statuses" $status }}
           <section>
-            <h2>{{ if eq $version "future" }}{{ i18n "version_future" }}{{ else }}Firefox {{ $version }}{{ end }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ printf "channel_%s" . | i18n }}</em>{{ end }}</h2>
+            <h2>{{ $.Scratch.Set "version" $version }}{{ partial "version-label/with-channel" $ }}</h2>
             <ul>{{ range $pages }}
               <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}">{{ .Title | markdownify | replaceRE "([a-z])([A-Z\\.])" "$1<wbr>$2" | safeHTML }}</a></li>{{ end }}
             </ul>

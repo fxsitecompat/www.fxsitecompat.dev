@@ -3,7 +3,7 @@ title: "Some Flash contents including games and video players are broken on Fire
 date: "2017-08-29T19:02:00-04:00"
 categories: ["plugins"]
 tags: []
-versions: ["55"]
+versions: ["55", "60-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1340934"

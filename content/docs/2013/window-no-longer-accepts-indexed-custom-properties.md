@@ -3,7 +3,7 @@ title: "`window` no longer accepts indexed custom properties"
 date: "2013-02-06T08:44:10-05:00"
 categories: ["dom"]
 tags: []
-versions: ["21"]
+versions: ["21", "24-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=828787"

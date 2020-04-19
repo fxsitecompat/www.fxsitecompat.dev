@@ -3,7 +3,7 @@ title: "ほとんどの非標準 CSS `display` 値が廃止されました"
 date: "2018-06-02T20:25:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["62"]
+versions: ["62", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=879275"
       title: "Bug 879275 - Consider turning off -moz-box display types in untrusted stylesheets"

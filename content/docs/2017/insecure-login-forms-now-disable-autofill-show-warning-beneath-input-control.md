@@ -3,7 +3,7 @@ title: "Insecure login forms now disable autofill, show warning beneath input co
 date: "2017-01-19T12:25:00-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["52"]
+versions: ["52", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1217152"
       title: "Bug 1217152 - Flip prefs to disable login autofill on HTTP and enable the warning on insecure login fields"

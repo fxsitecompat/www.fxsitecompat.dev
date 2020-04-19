@@ -3,7 +3,7 @@ title: "無効化されたフォームウィジェット上で CSS アニメー�
 date: "2019-05-12T21:29:00-04:00"
 categories: ["css", "dom"]
 tags: []
-versions: ["67"]
+versions: ["67", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1530239"
       title: "Bug 1530239 - css transition events must fire even if an element is disabled"

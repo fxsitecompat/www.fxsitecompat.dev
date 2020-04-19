@@ -3,7 +3,7 @@ title: "`KeyboardEvent.key` の値が変更されました"
 date: "2014-02-07T11:57:09-05:00"
 categories: ["dom"]
 tags: []
-versions: ["29"]
+versions: ["29", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=912858"
       title: "Bug 912858 – Implement KeyboardEvent.key for printable keys (except dead key handling)"

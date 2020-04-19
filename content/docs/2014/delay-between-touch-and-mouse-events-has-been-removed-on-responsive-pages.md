@@ -3,7 +3,7 @@ title: "Delay between touch and mouse events has been removed on responsive page
 date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []
-versions: ["30"]
+versions: ["30", "31-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=941995"

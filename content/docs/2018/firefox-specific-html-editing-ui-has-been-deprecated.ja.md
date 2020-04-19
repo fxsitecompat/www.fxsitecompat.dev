@@ -3,7 +3,7 @@ title: "Firefox 固有の HTML 編集 UI が廃止予定となりました"
 date: "2018-08-17T13:28:00-04:00"
 categories: ["html"]
 tags: []
-versions: ["63"]
+versions: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1449564"
       title: "Bug 1449564 - Disable table/image resizers in default"

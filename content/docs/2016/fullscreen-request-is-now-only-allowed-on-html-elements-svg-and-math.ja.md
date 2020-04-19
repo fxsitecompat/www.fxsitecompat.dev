@@ -3,7 +3,7 @@ title: "全画面表示リクエストが HTML 要素、`<svg>`、`<math>` の�
 date: "2016-10-16T03:06:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["52"]
+versions: ["52", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1305928"
       title: "Bug 1305928 - Fullscreen request should only be allowed for HTML element, <svg>, and <math>"

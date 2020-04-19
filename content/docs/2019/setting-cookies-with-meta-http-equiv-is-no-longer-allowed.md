@@ -3,7 +3,7 @@ title: "Setting cookies with `<meta http-equiv>` is no longer allowed"
 date: "2019-05-28T00:20:00-04:00"
 categories: ["html", "privacy-security"]
 tags: []
-versions: ["68"]
+versions: ["68", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1457503"
       title: "Bug 1457503 - Remove <meta http-equiv=set-cookie> support"

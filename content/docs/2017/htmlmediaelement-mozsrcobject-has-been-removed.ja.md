@@ -3,7 +3,7 @@ title: "`HTMLMediaElement.mozSrcObject` が削除されました"
 date: "2017-10-24T15:57:00-04:00"
 categories: ["audio-video", "dom"]
 tags: []
-versions: ["58"]
+versions: ["58", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1183495"
       title: "Bug 1183495 - Remove mozSrcObject alias to srcObject soon"

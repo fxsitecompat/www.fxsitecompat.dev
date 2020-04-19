@@ -3,7 +3,7 @@ title: "Flex items are not sorted according to `order` if separated by abspos si
 date: "2017-03-14T20:13:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["52"]
+versions: ["52", "52-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1345873"

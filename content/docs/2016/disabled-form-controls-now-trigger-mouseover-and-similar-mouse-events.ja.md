@@ -3,7 +3,7 @@ title: "無効化されているフォームコントロール上で `mouseover`
 date: "2016-04-23T23:51:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["44"]
+versions: ["44", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=218093"

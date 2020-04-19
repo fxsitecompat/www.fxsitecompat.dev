@@ -3,7 +3,7 @@ title: "Legacy iterator protocol has been removed"
 date: "2017-09-20T18:52:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["57"]
+versions: ["57", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1098412"
       title: "Bug 1098412 - Remove __iterator__ and the legacy Iterator constructor"

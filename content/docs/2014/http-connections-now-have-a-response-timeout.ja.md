@@ -3,7 +3,7 @@ title: "HTTP 接続にレスポンスタイムアウトが設定されました"
 date: "2014-02-07T11:57:09-05:00"
 categories: ["networking"]
 tags: []
-versions: ["29"]
+versions: ["29", "31-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=947391"

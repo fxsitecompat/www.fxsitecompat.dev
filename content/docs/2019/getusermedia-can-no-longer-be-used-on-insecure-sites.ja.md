@@ -3,7 +3,7 @@ title: "`getUserMedia()` が安全でないサイトでは使用できなくな�
 date: "2019-05-28T02:56:00-04:00"
 categories: ["audio-video", "privacy-security"]
 tags: []
-versions: ["68"]
+versions: ["68", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1335740"

@@ -3,7 +3,7 @@ title: "`MozNamedAttrMap` has been renamed to `NamedNodeMap`"
 date: "2014-09-01T22:12:15-04:00"
 categories: ["dom"]
 tags: []
-versions: ["34"]
+versions: ["34", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1055467"
       title: "Bug 1055467 – Rename MozNamedAttrMap to NamedNodeMap"

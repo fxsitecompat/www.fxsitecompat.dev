@@ -3,7 +3,7 @@ title: "`RTCRtpTransceiver.mid` now returns media ID without prefix"
 date: "2018-08-31T04:03:00-04:00"
 categories: ["audio-video", "dom"]
 tags: []
-versions: ["63"]
+versions: ["63", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1476600"

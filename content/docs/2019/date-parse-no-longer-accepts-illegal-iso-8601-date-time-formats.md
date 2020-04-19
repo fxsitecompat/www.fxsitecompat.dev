@@ -3,7 +3,7 @@ title: "`Date.parse()` no longer accepts illegal ISO 8601 date/time formats"
 date: "2019-06-10T00:44:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["68"]
+versions: ["68", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1500748"
       title: "Bug 1500748 - Date.parse accepts illegal non-zero-padded ISO8601 format"

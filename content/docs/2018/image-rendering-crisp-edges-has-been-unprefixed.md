@@ -3,7 +3,7 @@ title: "`image-rendering:crisp-edges` has been unprefixed"
 date: "2018-10-31T23:50:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["65"]
+versions: ["65", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1496617"
       title: "Bug 1496617 - Unprefix `image-rendering: crisp-edges`"

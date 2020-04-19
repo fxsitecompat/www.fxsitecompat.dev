@@ -3,7 +3,7 @@ title: "`toLocaleString()` が従来と異なる値を返す可能性があり�
 date: "2014-02-07T11:57:09-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["29"]
+versions: ["29", "31-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=837963"

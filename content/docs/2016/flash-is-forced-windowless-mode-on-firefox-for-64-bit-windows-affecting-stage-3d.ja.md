@@ -3,7 +3,7 @@ title: "64 ビット Windows 版 Firefox では Flash がウィンドウレス�
 date: "2016-06-10T20:23:00-04:00"
 categories: ["plugins"]
 tags: []
-versions: ["47"]
+versions: ["47", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1271398"

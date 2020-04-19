@@ -3,7 +3,7 @@ title: "`XMLHttpRequest` が HTML ドキュメントを `application/xml` では
 date: "2015-10-23T02:04:00-07:00"
 categories: ["dom"]
 tags: []
-versions: ["44"]
+versions: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=918771"
       title: "Bug 918771 - XMLHttpRequest (XHR) send() of an HTML document sends it as application/xml, not text/html"

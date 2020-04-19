@@ -3,7 +3,7 @@ title: "一部の CSS 関連インターフェイスが削除されました"
 date: "2013-10-08T20:15:35-04:00"
 categories: ["dom"]
 tags: []
-versions: ["27"]
+versions: ["27", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=872934"
       title: "Bug 872934 – convert style sheet change event interfaces to Web IDL and stick [NoInterfaceObject] on them"

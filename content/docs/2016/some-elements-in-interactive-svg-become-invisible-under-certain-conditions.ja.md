@@ -3,7 +3,7 @@ title: "インタラクティブな SVG 内の一部要素が特定の状況で�
 date: "2016-03-24T17:36:00-04:00"
 categories: ["svg"]
 tags: []
-versions: ["45"]
+versions: ["45", "45-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1258650"

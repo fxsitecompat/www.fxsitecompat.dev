@@ -3,7 +3,7 @@ title: "Iterator implementation has been updated to the latest spec"
 date: "2013-10-08T20:15:35-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["27"]
+versions: ["27", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=881226"
       title: "Bug 881226 – Change {Array, Map, Set} iterator methods to mach the latest spec"

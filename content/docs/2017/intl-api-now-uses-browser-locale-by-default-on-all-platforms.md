@@ -3,7 +3,7 @@ title: "Intl API now uses browser locale by default on all platforms"
 date: "2017-06-20T01:37:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["55"]
+versions: ["55", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1346674"
       title: "Bug 1346674 - Migrate all uses of nsILocaleService::GetApplicationLocale to mozILocaleService::GetAppLocale"

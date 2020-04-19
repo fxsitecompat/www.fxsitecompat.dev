@@ -3,7 +3,7 @@ title: "`XMLHttpRequest` が大きな blob を破損データとして返す場�
 date: "2017-03-27T13:11:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["52"]
+versions: ["52", "52-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1349862"

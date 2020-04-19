@@ -3,7 +3,7 @@ title: "Legacy `-moz-transform` syntax support has been removed"
 date: "2018-02-20T01:31:00-05:00"
 categories: ["css"]
 tags: []
-versions: ["60"]
+versions: ["60", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1438297"
       title: "Bug 1438297 - Unship the legacy syntax for -moz-transform."

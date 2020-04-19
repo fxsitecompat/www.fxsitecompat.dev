@@ -3,7 +3,7 @@ title: "Non-standard `flags` argument of `String` methods has been disabled in n
 date: "2016-02-08T05:13:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["47"]
+versions: ["47", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1245801"

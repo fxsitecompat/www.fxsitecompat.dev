@@ -3,7 +3,7 @@ title: "安全でないパスワード入力警告が初期設定で有効とな
 date: "2016-12-03T14:54:00-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["51"]
+versions: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1319119"
       title: "Bug 1319119 - Turn on Insecure Password Warning in Firefox Release"

@@ -3,7 +3,7 @@ title: "Cache API が不成功レスポンスを却下するようになりま�
 date: "2016-02-05T15:09:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["46"]
+versions: ["46", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1244764"
       title: "Bug 1244764 - Cache .add() and .addAll() should reject if any response is not ok()"

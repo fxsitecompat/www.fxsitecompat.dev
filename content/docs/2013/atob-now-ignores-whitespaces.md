@@ -3,7 +3,7 @@ title: "`atob` now ignores whitespaces"
 date: "2013-10-08T20:15:35-04:00"
 categories: ["dom"]
 tags: []
-versions: ["27"]
+versions: ["27", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=711180"
       title: "Bug 711180 – atob should ignore whitespace"

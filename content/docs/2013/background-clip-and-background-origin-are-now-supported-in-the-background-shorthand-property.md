@@ -3,7 +3,7 @@ title: "`background-clip` and `background-origin` are now supported in the `back
 date: "2013-02-24T03:44:31-05:00"
 categories: ["css"]
 tags: []
-versions: ["22"]
+versions: ["22", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=570896"
       title: "Bug 570896 - Add support for different background-origin and background-clip in background shorthand"

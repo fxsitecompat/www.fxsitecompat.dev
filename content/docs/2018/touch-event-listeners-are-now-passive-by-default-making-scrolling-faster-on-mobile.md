@@ -3,7 +3,7 @@ title: "Touch event listeners are now passive by default, making scrolling faste
 date: "2018-04-25T18:02:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["61"]
+versions: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1449268"
       title: "Bug 1449268 - Treat document-level touch event listeners as passive. (Chrome scrolling intervention)"

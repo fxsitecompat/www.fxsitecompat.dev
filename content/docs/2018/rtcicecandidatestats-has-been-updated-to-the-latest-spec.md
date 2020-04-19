@@ -3,7 +3,7 @@ title: "`RTCIceCandidateStats` has been updated to the latest spec"
 date: "2018-12-12T08:22:00-05:00"
 categories: ["audio-video", "dom"]
 tags: []
-versions: ["65"]
+versions: ["65", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1324788"
       title: "Bug 1324788 - Update RTCIceCandidateStats to spec"

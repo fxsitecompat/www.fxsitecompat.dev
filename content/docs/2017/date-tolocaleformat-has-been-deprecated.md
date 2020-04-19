@@ -3,7 +3,7 @@ title: "`Date.toLocaleFormat()` has been deprecated"
 date: "2017-08-01T20:07:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["55"]
+versions: ["55", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1299900"
       title: "Bug 1299900 - Warn when Date.prototype.toLocaleFormat is used"

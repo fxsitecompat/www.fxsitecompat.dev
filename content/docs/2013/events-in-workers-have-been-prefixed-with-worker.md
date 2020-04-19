@@ -3,7 +3,7 @@ title: "Events in workers have been prefixed with `Worker`"
 date: "2013-07-14T19:12:37-04:00"
 categories: ["dom"]
 tags: []
-versions: ["25"]
+versions: ["25", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=887236"
       title: "Bug 887236 – prefix the current events in workers with \"Worker\""

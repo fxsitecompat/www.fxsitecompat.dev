@@ -3,7 +3,7 @@ title: "`MediaStream.stop()` has been deprecated"
 date: "2015-10-01T16:06:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["44"]
+versions: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1103188"
       title: "Bug 1103188 - Implement MediaStream.addTrack()/removeTrack()"

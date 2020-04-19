@@ -3,7 +3,7 @@ title: "Proxy API が最新の仕様に合わせて更新されました"
 date: "2012-12-03T03:53:26-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["18"]
+versions: ["18", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=703537"
       title: "Bug 703537 – Implement Harmony direct proxies"

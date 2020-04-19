@@ -3,7 +3,7 @@ title: "`const` や `let` で定義された変数は `window` 上のプロパ�
 date: "2015-10-13T20:37:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["44"]
+versions: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=589199"
       title: "Bug 589199 - Add an extra scope chain object for top-level script execution, encountered just before the global object, containing top-level |let| declaration bindings"

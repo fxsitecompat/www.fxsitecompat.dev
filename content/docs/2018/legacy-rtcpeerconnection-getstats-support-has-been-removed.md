@@ -3,7 +3,7 @@ title: "Legacy `RTCPeerConnection.getStats()` support has been removed"
 date: "2018-12-25T01:19:00-05:00"
 categories: ["audio-video"]
 tags: []
-versions: ["66"]
+versions: ["66", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1328194"
       title: "Bug 1328194 - Remove legacy PeerConnection.getStats and associated legacy stats type"

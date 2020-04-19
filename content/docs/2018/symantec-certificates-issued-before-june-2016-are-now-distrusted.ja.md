@@ -3,7 +3,7 @@ title: "2016 年 6 月より前に発行された Symantec 証明書の信頼が
 date: "2018-03-12T14:12:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["60"]
+versions: ["60", "60-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1434300"

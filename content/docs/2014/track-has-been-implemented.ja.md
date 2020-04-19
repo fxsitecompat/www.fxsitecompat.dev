@@ -3,7 +3,7 @@ title: "`<track>` が実装されました"
 date: "2014-04-03T19:31:02-04:00"
 categories: ["html"]
 tags: []
-versions: ["31"]
+versions: ["31", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=629350"
       title: "Bug 629350 – Implement the track element"

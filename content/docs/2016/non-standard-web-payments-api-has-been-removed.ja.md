@@ -3,7 +3,7 @@ title: "非標準の Web Payments API が削除されました"
 date: "2016-03-28T14:28:00-05:00"
 categories: ["misc"]
 tags: []
-versions: ["51"]
+versions: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1252570"
       title: "Bug 1252570 - Remove mozPay"

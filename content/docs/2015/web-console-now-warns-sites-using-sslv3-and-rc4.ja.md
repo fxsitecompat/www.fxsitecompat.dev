@@ -3,7 +3,7 @@ title: "ウェブコンソールが SSLv3 や RC4 を使用したサイトで警
 date: "2015-01-16T09:37:54-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["37"]
+versions: ["37", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1092835"
       title: "Bug 1092835 – Log usage of weak ciphers in the console"

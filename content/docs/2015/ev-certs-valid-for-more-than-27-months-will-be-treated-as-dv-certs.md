@@ -3,7 +3,7 @@ title: "EV certs valid for more than 27 months will be treated as DV certs"
 date: "2015-11-16T22:08:00-08:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["45"]
+versions: ["45", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1222903"
       title: "Bug 1222903 - Reject EV status for EV EE certs that are valid for longer than 27 months as well"

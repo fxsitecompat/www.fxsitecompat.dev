@@ -3,7 +3,7 @@ title: "ジェネレーターが例外を投げる代わりに `IteratorResult` 
 date: "2014-02-07T11:57:09-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["29"]
+versions: ["29", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=958951"
       title: "Bug 958951 – Return IteratorResult object for completed generators instead of throwing"

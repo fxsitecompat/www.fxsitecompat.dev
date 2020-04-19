@@ -3,7 +3,7 @@ title: "`displaystyle` is no longer inherited from the root `<math>` element"
 date: "2014-02-07T11:57:09-05:00"
 categories: ["misc"]
 tags: []
-versions: ["29"]
+versions: ["29", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=838506"
       title: "Bug 838506 – Refactor implementation of displaystyle using a -moz-display-style property"

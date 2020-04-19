@@ -3,7 +3,7 @@ title: "`X-Content-Duration` header for Ogg media is no longer supported"
 date: "2015-09-15T23:38:00-04:00"
 categories: ["audio-video", "networking"]
 tags: []
-versions: ["41"]
+versions: ["41", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1160695"
       title: "Bug 1160695 - Clean up duration tracking and use mirroring for cross-thread access"

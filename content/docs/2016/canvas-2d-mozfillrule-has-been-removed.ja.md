@@ -3,7 +3,7 @@ title: "Canvas 2D `mozFillRule` が削除されました"
 date: "2016-08-11T00:41:00-04:00"
 categories: ["canvas-webgl"]
 tags: []
-versions: ["51"]
+versions: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=826619"
       title: "Bug 826619 - Unprefix mozFillRule"

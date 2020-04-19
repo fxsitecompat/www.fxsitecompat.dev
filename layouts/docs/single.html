@@ -9,8 +9,8 @@
     <meta property="og:title" content="{{ $title | html }}{{ partial "status-label/suffix" . }}">
     <meta property="og:description" content="{{ $description | safeHTML }} ...">
     <meta name="description" content="{{ $description | safeHTML }} ...">
-    <meta name="twitter:label1" content="{{ i18n "version" }}">
-    <meta name="twitter:data1" content="{{ if eq $version "future" }}{{ i18n "version_future" }}{{ else }}Firefox {{ $version }}{{ end }}">
+    <meta name="twitter:label1" content="{{ i18n "versions" }}">
+    <meta name="twitter:data1" content="{{ range $i, $version := .Params.versions }}{{ if $i }}, {{ end }}{{ $.Scratch.Set "version" $version }}{{ partial "version-label/without-channel" $ }}{{ end }}">
     <meta name="twitter:label2" content="{{ i18n "categories" }}">
     <meta name="twitter:data2" content="{{ range $i, $category := .Params.categories }}{{ if $i }}, {{ end }}{{ replace $category "-" "_" | printf "category_%s" | i18n }}{{ end }}">
   </head>
@@ -22,7 +22,7 @@
         <p>
           <a href="/{{ $.Site.LanguageCode }}/">{{ i18n "section_home" }}</a>
           <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="/{{ $.Site.LanguageCode }}/docs/" rel="index" itemprop="item"><span itemprop="name">{{ i18n "section_docs" }}</span></a><meta itemprop="position" content="1"></span>
-          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="/{{ $.Site.LanguageCode }}/versions/{{ $version }}/" rel="up" itemprop="item"><span itemprop="name">{{ if eq $version "future" }}{{ i18n "version_future" }}{{ else }}Firefox {{ $version }}{{ end }}</span>{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ printf "channel_%s" . | i18n }}</em>{{ end }}</a><meta itemprop="position" content="2"></span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="/{{ $.Site.LanguageCode }}/versions/{{ $version }}/" rel="up" itemprop="item"><span itemprop="name">{{ $.Scratch.Set "version" $version }}{{ partial "version-label/without-channel" $ }}</span>{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ printf "channel_%s" . | i18n }}</em>{{ end }}</a><meta itemprop="position" content="2"></span>
         </p>
       </div>
     </nav>
@@ -32,7 +32,9 @@
         <article itemscope itemtype="http://schema.org/TechArticle" itemref="meta-general copyright translation">
           <header>
             <h1>{{ partial "status-label/prefix-itemprop" . }}<span itemprop="headline">{{ .Title | markdownify | replaceRE "([a-z])([A-Z\\.])" "$1<wbr>$2" | safeHTML }}</span></h1>
-            <p>{{ i18n "published" }}: <time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time> | {{ i18n "categories" }}: <span class="categories">{{ range $i, $category := .Params.categories }}{{ if $i }}, {{ end }}<span itemprop="keywords"><a href="/{{ $.Site.LanguageCode }}/categories/{{ $category }}/">{{ replace $category "-" "_" | printf "category_%s" | i18n }}</a></span>{{ end }}</span></p>
+            <p>{{ i18n "published" }}: <time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time></p>
+            <p>{{ i18n "categories" }}: {{ range $i, $category := .Params.categories }}{{ if $i }}, {{ end }}<span itemprop="keywords"><a href="/{{ $.Site.LanguageCode }}/categories/{{ $category }}/">{{ replace $category "-" "_" | printf "category_%s" | i18n }}</a></span>{{ end }}</p>
+            <p>{{ i18n "versions" }}: {{ range $i, $version := .Params.versions }}{{ if $i }}, {{ end }}<a href="/{{ $.Site.LanguageCode }}/versions/{{ $version }}/">{{ $.Scratch.Set "version" $version }}{{ partial "version-label/without-channel" $ }}</a>{{ end }}</p>
           </header>
           <div>
             <section>
@@ -50,7 +52,15 @@
           </div>
         </article>
         <nav class="nocontent">
-          <h2>{{ if eq $version "future" }}{{ i18n "docs_for_version_future" }}{{ else }}{{ i18n "docs_for_version" (dict "version" $version) }}{{ end }}</h2>
+          <h2>
+            {{- if eq $version "future" -}}
+              {{ i18n "docs_for_version_future" }}
+            {{- else if strings.HasSuffix $version "-esr" -}}
+              {{ i18n "docs_for_version" (dict "version" (printf "%s ESR" (strings.TrimSuffix "-esr" $version))) }}
+            {{- else -}}
+              {{ i18n "docs_for_version" (dict "version" $version) }}
+            {{- end -}}
+          </h2>
           <ul>{{ range $.Site.Pages }}{{ if in .Params.versions $version }}
             <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}">{{ .Title | markdownify | replaceRE "([a-z])([A-Z\\.])" "$1<wbr>$2" | safeHTML }}</a></li>{{ end }}{{ end }}
           </ul>

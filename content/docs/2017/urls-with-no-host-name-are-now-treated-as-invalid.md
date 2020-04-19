@@ -3,7 +3,7 @@ title: "URLs with no host name are now treated as invalid"
 date: "2017-02-22T20:24:00-05:00"
 categories: ["html", "networking"]
 tags: []
-versions: ["54"]
+versions: ["54", "60-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1275746"

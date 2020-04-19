@@ -3,7 +3,7 @@ title: "`geolocation` property of the `navigator` object is now absent if the AP
 date: "2013-07-14T19:12:37-04:00"
 categories: ["dom"]
 tags: []
-versions: ["25"]
+versions: ["25", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=884921"
       title: "Bug 884921 – Align navigator.geolocation with spec"

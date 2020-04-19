@@ -3,7 +3,7 @@ title: "UA 文字列内のビルド ID が `20100101` に固定されました"
 date: "2015-10-27T01:35:00-07:00"
 categories: ["dom", "networking", "privacy-security"]
 tags: []
-versions: ["25"]
+versions: ["25", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=728773"
       title: "Bug 728773 - Always freeze the build ID in the UA string at 20100101"

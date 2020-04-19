@@ -3,7 +3,7 @@ title: "`cloneNode()` と `importNode()` の既定動作が浅い複製になり
 date: "2014-02-07T11:57:09-05:00"
 categories: ["dom"]
 tags: []
-versions: ["29"]
+versions: ["29", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=937461"
       title: "Bug 937461 – Make cloneNode/importNode with the \"deep\" arg not passed default to shallow cloning"

@@ -3,7 +3,7 @@ title: "Method definitions now require curly brackets, cannot be constructors"
 date: "2015-06-13T15:20:46-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["41"]
+versions: ["41", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1150855"
       title: "Bug 1150855 - Method definitions require curly brackets"

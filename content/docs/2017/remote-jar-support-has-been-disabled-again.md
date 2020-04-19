@@ -3,7 +3,7 @@ title: "Remote JAR support has been disabled again"
 date: "2017-04-05T08:46:00-04:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["55"]
+versions: ["55", "60-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1255139"

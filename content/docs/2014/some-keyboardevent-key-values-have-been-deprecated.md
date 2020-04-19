@@ -3,7 +3,7 @@ title: "Some `KeyboardEvent.key` values have been deprecated"
 date: "2014-07-22T05:06:26-04:00"
 categories: ["dom"]
 tags: []
-versions: ["33"]
+versions: ["33", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1024864"
       title: "Bug 1024864 – For renaming some key values of KeyboardEvent.key on 33, we should warn it on the Console"

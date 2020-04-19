@@ -3,7 +3,7 @@ title: "不正な `list-style-type` が順序なしではなく順序付きリ�
 date: "2014-07-22T05:06:26-04:00"
 categories: ["css"]
 tags: []
-versions: ["33"]
+versions: ["33", "38-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1027647"

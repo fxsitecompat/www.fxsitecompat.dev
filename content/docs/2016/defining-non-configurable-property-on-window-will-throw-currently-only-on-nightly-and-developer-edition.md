@@ -3,7 +3,7 @@ title: "Defining non-configurable property on `window` will throw (currently onl
 date: "2016-04-10T01:08:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["42"]
+versions: ["42", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1107443"

@@ -3,7 +3,7 @@ title: "`searchParams` が `URL` 専用となりました"
 date: "2015-11-28T19:24:00-08:00"
 categories: ["dom"]
 tags: []
-versions: ["45"]
+versions: ["45", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1213815"
       title: "Bug 1213815 - searchParams is just on URL"

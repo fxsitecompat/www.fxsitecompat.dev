@@ -3,7 +3,7 @@ title: "64-bit Firefox for Windows is officially available, Flash and Silverligh
 date: "2015-06-13T15:20:46-04:00"
 categories: ["plugins"]
 tags: []
-versions: ["43"]
+versions: ["43", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1180792"

@@ -3,7 +3,7 @@ title: "Non-standard `DataTransfer` APIs have been deprecated"
 date: "2018-09-06T05:19:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["63"]
+versions: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1453153"
       title: "Bug 1453153 - Add a pref to disable the DataTransfer moz*At APIs for content"

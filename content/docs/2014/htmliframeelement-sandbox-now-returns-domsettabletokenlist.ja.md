@@ -3,7 +3,7 @@ title: "`HTMLIFrameElement.sandbox` は `DOMSettableTokenList` を返すよう�
 date: "2014-02-07T11:57:09-05:00"
 categories: ["dom"]
 tags: []
-versions: ["29"]
+versions: ["29", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=845057"
       title: "Bug 845057 – Fix the type of HTMLIFrameElement.sandbox"

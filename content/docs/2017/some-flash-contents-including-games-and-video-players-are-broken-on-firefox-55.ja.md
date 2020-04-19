@@ -3,7 +3,7 @@ title: "Firefox 55 でゲームや動画プレーヤーなど一部の Flash コ
 date: "2017-08-29T19:02:00-04:00"
 categories: ["plugins"]
 tags: []
-versions: ["55"]
+versions: ["55", "60-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1340934"

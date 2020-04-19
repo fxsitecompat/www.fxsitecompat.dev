@@ -3,7 +3,7 @@ title: "XHR 向け `Accept` ヘッダーが簡素化されました"
 date: "2016-09-07T02:26:00-04:00"
 categories: ["networking"]
 tags: []
-versions: ["51"]
+versions: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=918752"
       title: "Bug 918752 - [XHR2] Default Accept: header more complex than */*"

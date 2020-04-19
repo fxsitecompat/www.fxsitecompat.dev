@@ -1,7 +1,7 @@
 ---
 title: "配信元が異なるリソースから HTTP 認証ダイアログを表示できなくなりました"
 date: "2015-04-27T13:17:23-04:00"
-categories: ["networking", "privacy-security"]
+categories: ["networking"]
 tags: []
 versions: ["40"]
 statuses: "reverted"

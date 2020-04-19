@@ -3,7 +3,7 @@ title: "`navigator.registerContentHandler()` has been removed"
 date: "2018-05-09T22:43:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["62"]
+versions: ["62", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1460481"
       title: "Bug 1460481 - Disable registerContentHandler() in stable"

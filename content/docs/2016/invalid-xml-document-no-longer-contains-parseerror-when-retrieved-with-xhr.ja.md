@@ -3,7 +3,7 @@ title: "不正な XML 文書を XHR で取得した際に `<parseerror>` が含�
 date: "2016-08-30T04:24:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["51"]
+versions: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=289714"
       title: "Bug 289714 - Loaded-as-data XML documents should not generate <parsererror>"

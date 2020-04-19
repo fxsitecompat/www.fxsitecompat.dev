@@ -3,7 +3,7 @@ title: "Legacy non-standard drag events have been removed"
 date: "2016-07-13T14:30:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["50"]
+versions: ["50", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1162050"

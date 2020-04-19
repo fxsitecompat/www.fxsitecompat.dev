@@ -3,7 +3,7 @@ title: "不可視 iframe 内の `requestAnimationFrame()` が減速されるよ�
 date: "2015-08-19T17:11:16-04:00"
 categories: ["html"]
 tags: []
-versions: ["40"]
+versions: ["40", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1145439"

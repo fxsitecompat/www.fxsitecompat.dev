@@ -3,7 +3,7 @@ title: "Touch events support has been temporarily disabled on desktop"
 date: "2013-05-19T07:35:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["24"]
+versions: ["24", "24-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=888304"

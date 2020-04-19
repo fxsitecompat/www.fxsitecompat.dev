@@ -3,7 +3,7 @@ title: "Parenthesized destructuring patterns are no longer allowed"
 date: "2015-06-13T15:20:46-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["41"]
+versions: ["41", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1146136"
       title: "Bug 1146136 - Parenthesized AssignmentPatterns are not a valid LHS"

@@ -3,7 +3,7 @@ title: "`<altGlyph>` 対応が打ち切られました"
 date: "2016-05-10T19:51:00-04:00"
 categories: ["svg"]
 tags: []
-versions: ["49"]
+versions: ["49", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1260032"
       title: "Bug 1260032 - drop support for altGlyph"

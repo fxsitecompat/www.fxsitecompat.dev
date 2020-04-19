@@ -3,7 +3,7 @@ title: "`getAttribute()` returns `null` for attributes created with `setAttribut
 date: "2015-10-22T22:14:00-07:00"
 categories: ["dom"]
 tags: []
-versions: ["38"]
+versions: ["38", "38-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1165851"

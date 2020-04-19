@@ -3,7 +3,7 @@ title: "`::selection` pseudo-element has been unprefixed"
 date: "2018-05-10T12:36:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["62"]
+versions: ["62", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=509958"
       title: "Bug 509958 - Remove the -moz prefix from ::selection"

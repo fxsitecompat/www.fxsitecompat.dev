@@ -3,7 +3,7 @@ title: "可変アイテム上の `min-width`/`height` の初期値が `auto` へ
 date: "2014-09-01T22:12:15-04:00"
 categories: ["css"]
 tags: []
-versions: ["34"]
+versions: ["34", "38-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=984711"

@@ -3,7 +3,7 @@ title: "`navigator.battery` has been removed in favour of async `getBattery` met
 date: "2016-06-07T10:08:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["50"]
+versions: ["50", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1259335"
       title: "Bug 1259335 - Remove deprecated navigator.battery API"

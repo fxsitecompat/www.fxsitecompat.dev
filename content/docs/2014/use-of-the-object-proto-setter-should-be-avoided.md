@@ -3,7 +3,7 @@ title: "Use of the `Object.__proto__` setter should be avoided"
 date: "2014-03-21T04:50:04-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["30"]
+versions: ["30", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=948227"
       title: "Bug 948227 – Make the Object.prototype.__proto__ setter warn about perf impact when used, and suggest alternatives"

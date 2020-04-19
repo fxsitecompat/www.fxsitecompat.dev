@@ -3,7 +3,7 @@ title: "Non-HTTP XHR now returns `200` status code"
 date: "2014-10-17T22:50:44-04:00"
 categories: ["dom"]
 tags: []
-versions: ["35"]
+versions: ["35", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=716491"
       title: "Bug 716491 – Investigate the status code for non-HTTP XHR."

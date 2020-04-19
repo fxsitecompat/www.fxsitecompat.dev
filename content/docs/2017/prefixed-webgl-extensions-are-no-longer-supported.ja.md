@@ -3,7 +3,7 @@ title: "接頭辞付き WebGL 拡張機能の対応が打ち切られました"
 date: "2017-11-08T16:43:00-05:00"
 categories: ["canvas-webgl"]
 tags: []
-versions: ["58"]
+versions: ["58", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1403413"
       title: "Bug 1403413 - Remove deprecated MOZ_ extension prefix aliases"

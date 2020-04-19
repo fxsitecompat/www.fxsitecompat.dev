@@ -18,7 +18,7 @@
           <p itemprop="description">{{ i18n "all_versions_page_description" }}</p>
         </header>
         <ul class="taxonomy terms">{{ range $key, $value := .Data.Terms.Alphabetical.Reverse }}{{ $version := $value.Name }}
-          <li><a href="/{{ $.Site.LanguageCode }}/versions/{{ $version }}/">{{ if eq $version "future" }}{{ i18n "version_future" }}{{ else }}Firefox {{ $version }}{{ end }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ printf "channel_%s" . | i18n }}</em>{{ end }}</a></li>{{ end }}
+          <li><a href="/{{ $.Site.LanguageCode }}/versions/{{ $version }}/">{{ $.Scratch.Set "version" $version }}{{ partial "version-label/with-channel" $ }}</a></li>{{ end }}
         </ul>
       </section>
     </main>

@@ -3,7 +3,7 @@ title: "`Blob.mozSlice()` の対応が廃止されました"
 date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []
-versions: ["30"]
+versions: ["30", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=961804"
       title: "Bug 961804 – Drop support for Blob.mozSlice"

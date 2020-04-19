@@ -3,7 +3,7 @@ title: "`document.open()` の非標準 `type` 引数対応が廃止されまし�
 date: "2018-06-03T21:42:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["61"]
+versions: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1444872"
       title: "Bug 1444872 - Remove processing for document.open()'s type parameter"

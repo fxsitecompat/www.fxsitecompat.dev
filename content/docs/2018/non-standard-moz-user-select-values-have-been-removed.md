@@ -3,7 +3,7 @@ title: "Non-standard `-moz-user-select` values have been removed"
 date: "2018-11-21T17:08:00-05:00"
 categories: ["css"]
 tags: []
-versions: ["65"]
+versions: ["65", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1492958"
       title: "Bug 1492958 - [css-ui] Unship -moz/webkit-user-select values not supported by other UAs / spec"

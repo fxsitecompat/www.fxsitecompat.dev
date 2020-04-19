@@ -3,7 +3,7 @@ title: "Audio Data API has been disabled"
 date: "2013-12-09T02:32:17-05:00"
 categories: ["audio-video"]
 tags: []
-versions: ["28"]
+versions: ["28", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=927245"
       title: "Bug 927245 – Remove deprecated Audio Data API implementation"

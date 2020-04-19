@@ -3,7 +3,7 @@ title: "`showModalDialog()` has been disabled in multi-process Firefox"
 date: "2015-12-29T21:46:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["46"]
+versions: ["46", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1077002"

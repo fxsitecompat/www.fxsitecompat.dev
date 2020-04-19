@@ -3,7 +3,7 @@ title: "Worker scripts with wrong MIME type will be blocked from loading with `i
 date: "2019-05-13T04:06:00-04:00"
 categories: ["dom", "javascript", "privacy-security"]
 tags: []
-versions: ["67"]
+versions: ["67", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1514680"
       title: "Bug 1514680 - Consider strictly enforcing MIME checks for `importScripts()`."

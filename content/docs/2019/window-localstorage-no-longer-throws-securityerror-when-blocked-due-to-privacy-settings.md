@@ -3,7 +3,7 @@ title: "`window.localStorage` no longer throws `SecurityError` when blocked due 
 date: "2019-05-13T02:15:00-04:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["67"]
+versions: ["67", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1529396"
       title: "Bug 1529396 - Consider relaxing the exception-throwing semantics of window.localStorage when a privacy check fails"

@@ -3,7 +3,7 @@ title: "FYI: Preferences to prevent non-SSL contents on SSL pages from loading h
 date: "2012-12-03T03:53:26-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["18"]
+versions: ["18", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=62178"
       title: "Bug 62178 – implement mechanism to prevent sending insecure requests from a secure context"

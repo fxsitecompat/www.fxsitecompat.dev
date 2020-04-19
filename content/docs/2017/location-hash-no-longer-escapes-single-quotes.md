@@ -3,7 +3,7 @@ title: "`location.hash` no longer escapes single quotes"
 date: "2017-09-21T02:20:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["57"]
+versions: ["57", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1386683"
       title: "Bug 1386683 - Firefox escapes single quote when accessing window.location properties via javascript"

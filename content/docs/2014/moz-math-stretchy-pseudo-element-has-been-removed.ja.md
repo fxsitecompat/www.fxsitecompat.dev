@@ -3,7 +3,7 @@ title: "`::-moz-math-stretchy` 疑似要素が削除されました"
 date: "2014-04-03T19:31:02-04:00"
 categories: ["css"]
 tags: []
-versions: ["31"]
+versions: ["31", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1000879"
       title: "Bug 1000879 – Remove the ::-moz-math-stretchy pseudo-element."

@@ -3,7 +3,7 @@ title: "`String.contains()` has been removed in favour of `includes()`"
 date: "2016-04-13T09:30:00-07:00"
 categories: ["javascript"]
 tags: []
-versions: ["48"]
+versions: ["48", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1103588"
       title: "Bug 1103588 - Remove String.prototype.contains"

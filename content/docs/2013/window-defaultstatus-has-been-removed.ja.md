@@ -3,7 +3,7 @@ title: "`window.defaultStatus` が削除されました"
 date: "2013-04-06T04:52:59-04:00"
 categories: ["dom"]
 tags: []
-versions: ["23"]
+versions: ["23", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=862917"
       title: "Bug 862917 – Remove window.defaultStatus"

@@ -3,7 +3,7 @@ title: "`<select>` value is now properly updated when non-existent option is pro
 date: "2016-04-24T08:25:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["46"]
+versions: ["46", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1203668"

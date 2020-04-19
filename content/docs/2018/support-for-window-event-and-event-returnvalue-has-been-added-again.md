@@ -3,7 +3,7 @@ title: "Support for `window.event` and `Event.returnValue` has been added again"
 date: "2018-12-24T19:40:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["66"]
+versions: ["66", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=218415"

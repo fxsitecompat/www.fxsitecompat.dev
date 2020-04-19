@@ -3,7 +3,7 @@ title: "Audio Data API が削除されました"
 date: "2014-04-03T19:31:02-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["31"]
+versions: ["31", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=927245"
       title: "Bug 927245 – Remove deprecated Audio Data API implementation"

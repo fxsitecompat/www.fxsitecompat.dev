@@ -3,7 +3,7 @@ title: "接頭辞付き Pointer Lock API が削除されました"
 date: "2016-07-31T17:13:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["50"]
+versions: ["50", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=991899"
       title: "Bug 991899 - Unprefix pointer lock"

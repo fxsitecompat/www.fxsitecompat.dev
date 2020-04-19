@@ -3,7 +3,7 @@ title: "`navigator.plugins` と `mimeTypes` が列挙不能となりました"
 date: "2016-11-15T17:05:13-05:00"
 categories: ["dom", "plugins"]
 tags: []
-versions: ["53"]
+versions: ["53", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=757726"
       title: "Bug 757726 - disallow enumeration of navigator.plugins"

@@ -3,7 +3,7 @@ title: "テーブルから `cols`、`layout` 両プロパティの実装が削�
 date: "2013-02-06T08:44:10-05:00"
 categories: ["dom"]
 tags: []
-versions: ["21"]
+versions: ["21", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=835169"
       title: "Bug 835169 – Do we need support for the table[cols] attribute?"

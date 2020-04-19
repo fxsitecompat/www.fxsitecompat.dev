@@ -3,7 +3,7 @@ title: "Firefox 固有の HTML 編集 UI が初期設定で無効化されまし
 date: "2018-09-22T13:05:00-04:00"
 categories: ["html"]
 tags: []
-versions: ["64"]
+versions: ["64", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1490641"
       title: "Bug 1490641 - Disable all Gecko specific UIs by default in release build"

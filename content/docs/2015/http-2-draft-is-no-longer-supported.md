@@ -3,7 +3,7 @@ title: "HTTP/2 draft is no longer supported"
 date: "2015-09-16T11:54:00-04:00"
 categories: ["networking"]
 tags: []
-versions: ["41"]
+versions: ["41", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1132357"
       title: "Bug 1132357 - remove h2-draft support starting in gecko-40"

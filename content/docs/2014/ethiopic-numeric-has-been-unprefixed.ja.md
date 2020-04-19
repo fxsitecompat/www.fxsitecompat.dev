@@ -3,7 +3,7 @@ title: "`ethiopic-numeric` の接頭辞が外れました"
 date: "2014-07-22T05:06:26-04:00"
 categories: ["css"]
 tags: []
-versions: ["33"]
+versions: ["33", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=985825"
       title: "Bug 985825 – Unprefix -moz-ethiopic-numeric"

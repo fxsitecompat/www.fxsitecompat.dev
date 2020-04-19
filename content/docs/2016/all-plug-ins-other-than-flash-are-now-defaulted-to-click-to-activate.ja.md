@@ -3,7 +3,7 @@ title: "Flash 以外すべてのプラグインが初期設定で「クリック
 date: "2016-04-30T07:25:00-04:00"
 categories: ["plugins"]
 tags: []
-versions: ["47"]
+versions: ["47", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1263630"

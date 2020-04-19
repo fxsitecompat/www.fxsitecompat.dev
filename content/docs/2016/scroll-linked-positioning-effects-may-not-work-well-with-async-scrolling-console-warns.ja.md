@@ -3,7 +3,7 @@ title: "スクロール連動位置合わせは非同期スクロールと相性
 date: "2016-01-07T09:01:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["46"]
+versions: ["46", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1229052"
       title: "Bug 1229052 - Log a warning if webpage is updating positioning properties during a scroll event listener"

@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 {{ $version := .Title | urlize | lower }}
-{{ $title := i18n "version_index_page_title" (dict "version" $version) }}
-{{ $title_future := i18n "version_index_page_title_future" }}
 
 {{- if eq $version "future" -}}
+  {{- i18n "version_index_page_title_future" | $.Scratch.Set "title" -}}
   {{- i18n "version_index_page_description_future" | $.Scratch.Set "description" -}}
+{{- else if strings.HasSuffix $version "-esr" -}}
+  {{- $version := strings.TrimSuffix "-esr" $version -}}
+  {{- i18n "version_index_page_title" (dict "version" (printf "%s ESR" $version)) | $.Scratch.Set "title" -}}
+  {{- $date := index $.Site.Data.firefox.dates $version -}}
+  {{- $date_localized := (time $date).Format $.Site.Params.DateFormat.Localized -}}
+  {{- i18n "version_index_page_description_esr" (dict "version" $version "date" $date "date_localized" $date_localized) | $.Scratch.Set "description" -}}
 {{- else -}}
+  {{- i18n "version_index_page_title" (dict "version" $version) | $.Scratch.Set "title" -}}
   {{- $date := index $.Site.Data.firefox.dates $version -}}
   {{- $date_localized := (time $date).Format $.Site.Params.DateFormat.Localized -}}
   {{- with index $.Site.Data.firefox.versions $version -}}
@@ -15,12 +21,13 @@
     {{- i18n "version_index_page_description" (dict "version" $version "date" $date "date_localized" $date_localized) | $.Scratch.Set "description" -}}
   {{- end -}}
 {{- end -}}
+{{- $title := $.Scratch.Get "title" -}}
 {{- $description := $.Scratch.Get "description" -}}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
-    <title>{{ if eq $version "future" }}{{ $title_future }}{{ else }}{{ $title }}{{ end }} | {{ $.Site.Title }}</title>
-    <meta property="og:title" content="{{ if eq $version "future" }}{{ $title_future }}{{ else }}{{ $title }}{{ end }}">
+    <title>{{ $title | plainify }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ $title | plainify }}">
     <meta property="og:description" content="{{ $description | plainify }}">
     <meta name="description" content="{{ $description | plainify }}">
   </head>
@@ -32,7 +39,7 @@
       <div class="inner">
         <section>
           <header>
-            <h1 itemprop="name">{{ if eq $version "future" }}{{ $title_future }}{{ else }}{{ $title }}{{ end }}</h1>
+            <h1 itemprop="name">{{ $title | plainify }}</h1>
             <p itemprop="description">{{ $description | safeHTML }} {{ if ne $version "future" }}{{ i18n "version_index_page_description_secondary" (dict "version" $version) | safeHTML }}{{ end }}</p>
           </header>{{ range $category, $taxonomy := $.Site.Taxonomies.categories }}
           <section>
@@ -44,8 +51,8 @@
         </section>
         <nav class="nocontent">
           <h2>{{ i18n "browse_version" }}</h2>
-          <ul class="taxonomy terms">{{ range first 4 $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}
-            <li><a href="/{{ $.Site.LanguageCode }}/versions/{{ $version }}/">{{ if eq $version "future" }}{{ i18n "version_future" }}{{ else }}Firefox {{ $version }}{{ end }}{{ with index $.Site.Data.firefox.versions $version }} <em class="channel">{{ printf "channel_%s" . | i18n }}</em>{{ end }}</a></li>{{ end }}
+          <ul class="taxonomy terms">{{ range first 5 $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}
+            <li><a href="/{{ $.Site.LanguageCode }}/versions/{{ $version }}/">{{ $.Scratch.Set "version" $version }}{{ partial "version-label/with-channel" $ }}</a></li>{{ end }}
             <li><a href="/{{ $.Site.LanguageCode }}/versions/">{{ i18n "browse_all_versions" }}</a></li>
           </ul>
         </nav>

@@ -151,6 +151,8 @@ version_index_page_title_future:
     other: "Future Planned Changes"
 version_index_page_description:
     other: 'Browse our compatibility notes about the changes in Firefox {{.version}} released on <time datetime="{{.date}}">{{.date_localized}}</time>.'
+version_index_page_description_esr:
+    other: 'Browse our compatibility notes about the changes in Firefox {{.version}} Extended Support Release (ESR) released on <time datetime="{{.date}}">{{.date_localized}}</time>.'
 version_index_page_description_upcoming:
     other: 'Browse our compatibility notes about the changes in Firefox {{.version}}, currently offered on the <a href="https://www.mozilla.org/firefox/channel/desktop/#{{.channel}}"><em>{{.channel_localized}}</em></a> channel and scheduled to be released on <time datetime="{{.date}}">{{.date_localized}}</time>.'
 version_index_page_description_secondary:
@@ -171,8 +173,8 @@ status_index_page_title:
 # Single document page
 published:
     other: "Published"
-version:
-    other: "Version"
+versions:
+    other: "Versions"
 categories:
     other: "Categories"
 description:

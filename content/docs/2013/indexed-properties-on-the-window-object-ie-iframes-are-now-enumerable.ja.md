@@ -3,7 +3,7 @@ title: "`window` オブジェクト上のインデックス付きプロパティ
 date: "2013-02-06T08:44:10-05:00"
 categories: ["dom"]
 tags: []
-versions: ["21"]
+versions: ["21", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=823228"
       title: "Bug 823228 - Move indexed properties from nsWindowSH::GetProperty to the outer window proxy"

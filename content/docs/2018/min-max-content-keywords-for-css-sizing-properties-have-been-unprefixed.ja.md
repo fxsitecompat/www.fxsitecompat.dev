@@ -3,7 +3,7 @@ title: "CSS サイズ関連プロパティ用の `min`/`max-content` キーワ�
 date: "2018-12-25T00:32:00-05:00"
 categories: ["css"]
 tags: []
-versions: ["66"]
+versions: ["66", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1322780"
       title: "Bug 1322780 - Unprefix min-content and max-content keywords"

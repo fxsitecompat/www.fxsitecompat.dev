@@ -3,7 +3,7 @@ title: "ICO 画像の実サイズとして最大リソースが採用される�
 date: "2015-09-25T03:09:00-04:00"
 categories: ["misc"]
 tags: []
-versions: ["43"]
+versions: ["43", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1201796"
       title: "Bug 1201796 - Add downscale-during-decode support for the ICO decoder"

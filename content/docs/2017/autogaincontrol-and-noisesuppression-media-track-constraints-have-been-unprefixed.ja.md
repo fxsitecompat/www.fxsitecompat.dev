@@ -3,7 +3,7 @@ title: "`autoGainControl`、`noiseSuppression` メディアトラック制約の
 date: "2017-05-21T23:41:00-05:00"
 categories: ["audio-video"]
 tags: []
-versions: ["55"]
+versions: ["55", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1366415"
       title: "Bug 1366415 - Unprefix autoGainControl and noiseSuppression constraints"

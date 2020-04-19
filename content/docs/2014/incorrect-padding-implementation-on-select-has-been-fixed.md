@@ -3,7 +3,7 @@ title: "Incorrect `padding` implementation on `<select>` has been fixed"
 date: "2014-03-21T04:50:04-04:00"
 categories: ["css"]
 tags: []
-versions: ["30"]
+versions: ["30", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=963970"
       title: "Bug 963970 – Arrow of drop-down list should not be affected by padding"

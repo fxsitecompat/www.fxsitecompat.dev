@@ -3,7 +3,7 @@ title: "`storage` option for `indexedDB.open()` has been deprecated"
 date: "2018-03-07T22:16:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["60"]
+versions: ["60", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1442560"
       title: "Bug 1442560 - Warn about deprecation of storage: persistent"

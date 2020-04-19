@@ -3,7 +3,7 @@ title: "Preloaded stylesheets are not applied to the page"
 date: "2017-10-24T19:10:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["56"]
+versions: ["56", "60-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1405761"

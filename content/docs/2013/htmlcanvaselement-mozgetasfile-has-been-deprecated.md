@@ -3,7 +3,7 @@ title: "`HTMLCanvasElement.mozGetAsFile()` has been deprecated"
 date: "2013-09-19T23:58:13-04:00"
 categories: ["canvas-webgl", "dom"]
 tags: []
-versions: ["26"]
+versions: ["26", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=803612"
       title: "Bug 803612 – Add deprecation warnings for mozGetAsFile"

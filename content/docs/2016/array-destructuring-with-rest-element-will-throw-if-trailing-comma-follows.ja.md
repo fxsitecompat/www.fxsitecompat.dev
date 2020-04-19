@@ -3,7 +3,7 @@ title: "配列分割代入で残余要素の末尾にコンマが続いた場合
 date: "2016-10-23T17:55:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["52"]
+versions: ["52", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1041341"
       title: "Bug 1041341 - Make `[...rest,] = []` a SyntaxError"

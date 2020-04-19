@@ -3,7 +3,7 @@ title: "Firefox 60 ESR では Service Worker とプッシュ通知が無効化�
 date: "2018-05-06T18:00:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["60"]
+versions: ["60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1457915"
       title: "Bug 1457915 - disable service workers and push notification on 60 ESR"

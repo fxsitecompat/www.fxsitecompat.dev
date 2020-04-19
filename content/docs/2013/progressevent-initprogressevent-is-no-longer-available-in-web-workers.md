@@ -3,7 +3,7 @@ title: "`ProgressEvent.initProgressEvent()` is no longer available in Web Worker
 date: "2013-05-19T07:35:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["24"]
+versions: ["24", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=870466"
       title: "Bug 870466 – Remove initProgressEvent from workers too"

@@ -3,7 +3,7 @@ title: "配信元が異なる画像から HTTP 認証ダイアログを表示で
 date: "2017-12-06T14:19:00-05:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["59"]
+versions: ["59", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1357835"
       title: "Bug 1357835 - Add a pref to disable HTTP Auth on 3rd party images"

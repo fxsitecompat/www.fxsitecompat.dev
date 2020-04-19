@@ -3,7 +3,7 @@ title: "`DOMPoint` コンストラクターが `DOMPointInit` を引数として
 date: "2018-05-23T22:20:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["62"]
+versions: ["62", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1186265"
       title: "Bug 1186265 - Remove DOMPoint{,ReadOnly}(DOMPointInit) constructor, implement DOMPoint{,ReadOnly}.fromPoint"

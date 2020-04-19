@@ -3,7 +3,7 @@ title: "Loading of external protocol URL in `<iframe>` is now blocked"
 date: "2019-02-18T21:28:00-05:00"
 categories: ["misc"]
 tags: []
-versions: ["67"]
+versions: ["67", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=167475"

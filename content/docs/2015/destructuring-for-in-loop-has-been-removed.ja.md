@@ -3,7 +3,7 @@ title: "分割代入型 `for-in` ループが削除されました"
 date: "2015-04-27T13:17:23-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["40"]
+versions: ["40", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1083498"
       title: "Bug 1083498 - Remove SpiderMonkey support for destructuring for-in (JS1.7-only language extension)"

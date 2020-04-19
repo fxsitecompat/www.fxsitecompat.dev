@@ -3,7 +3,7 @@ title: "`hasFeature()` will always return `true` even for SVG"
 date: "2016-09-06T22:24:00-04:00"
 categories: ["dom", "svg"]
 tags: []
-versions: ["51"]
+versions: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=984778"
       title: "Bug 984778 - Make hasFeature() always return true (even for SVG)"

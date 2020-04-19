@@ -3,7 +3,7 @@ title: "Java に初期設定で Click-to-Activate が適用されます"
 date: "2013-09-19T23:58:13-04:00"
 categories: ["plugins"]
 tags: []
-versions: ["26"]
+versions: ["26", "31-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=899080"

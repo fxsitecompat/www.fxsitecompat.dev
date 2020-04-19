@@ -3,7 +3,7 @@ title: "Prefixed `-moz-initial` is no longer supported"
 date: "2013-05-19T07:35:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["24"]
+versions: ["24", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=807184"
       title: "Bug 807184 – Remove support for prefixed \"-moz-initial\" CSS keyword, now that we support it unprefixed"

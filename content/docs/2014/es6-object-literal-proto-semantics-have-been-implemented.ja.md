@@ -3,7 +3,7 @@ title: "ES6 オブジェクトリテラル `__proto__` セマンティクスが�
 date: "2014-10-17T22:50:44-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["35"]
+versions: ["35", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1061853"
       title: "Bug 1061853 – Implement ES6 object-literal __proto__ restrictions/semantics"

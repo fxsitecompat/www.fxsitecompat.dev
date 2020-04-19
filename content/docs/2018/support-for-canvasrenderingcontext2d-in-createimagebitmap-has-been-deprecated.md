@@ -3,7 +3,7 @@ title: "Support for `CanvasRenderingContext2D` in `createImageBitmap()` has been
 date: "2018-10-27T00:09:00-04:00"
 categories: ["canvas-webgl", "dom"]
 tags: []
-versions: ["65"]
+versions: ["65", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1502304"
       title: "Bug 1502304 - Deprecated CanvasRenderingContext2D in CreateImageBitmap"

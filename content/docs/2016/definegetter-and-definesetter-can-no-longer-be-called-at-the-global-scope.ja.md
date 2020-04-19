@@ -3,7 +3,7 @@ title: "`__defineGetter__()` や `__defineSetter__()` をグローバルスコ�
 date: "2016-03-12T19:11:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["48"]
+versions: ["48", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1253016"
       title: "Bug 1253016 - Remove legacy __defineGetter__/__defineSetter__ this behavior"

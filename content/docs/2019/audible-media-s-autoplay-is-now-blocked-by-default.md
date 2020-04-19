@@ -3,7 +3,7 @@ title: "Audible media's autoplay is now blocked by default"
 date: "2019-02-18T18:55:00-05:00"
 categories: ["audio-video", "html"]
 tags: []
-versions: ["66"]
+versions: ["66", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1453862"

@@ -3,7 +3,7 @@ title: "Symantec certificates issued before June 2016 are now distrusted"
 date: "2018-03-12T14:12:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["60"]
+versions: ["60", "60-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1434300"

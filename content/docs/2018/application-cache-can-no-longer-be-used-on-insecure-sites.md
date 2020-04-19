@@ -3,7 +3,7 @@ title: "Application Cache can no longer be used on insecure sites"
 date: "2018-05-10T12:54:00-04:00"
 categories: ["html", "privacy-security"]
 tags: []
-versions: ["62"]
+versions: ["62", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1460478"
       title: "Bug 1460478 - Disable support for AppCache over insecure contexts for stable"

@@ -3,7 +3,7 @@ title: "Cache backend has been overhauled"
 date: "2014-06-09T02:46:54-04:00"
 categories: ["networking"]
 tags: []
-versions: ["32"]
+versions: ["32", "38-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=913806"

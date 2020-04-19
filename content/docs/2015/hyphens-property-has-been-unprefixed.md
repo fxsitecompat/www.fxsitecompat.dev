@@ -3,7 +3,7 @@ title: "`hyphens` property has been unprefixed"
 date: "2015-09-15T09:19:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["43"]
+versions: ["43", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=953408"
       title: "Bug 953408 - Unprefix -moz-hyphens"

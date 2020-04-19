@@ -3,7 +3,7 @@ title: "安全でないサイトでの Application Cache 対応が廃止予定�
 date: "2018-02-02T01:29:00-05:00"
 categories: ["html", "privacy-security"]
 tags: []
-versions: ["60"]
+versions: ["60", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1354175"
       title: "Bug 1354175 - Remove access to AppCache in insecure contexts"

@@ -3,7 +3,7 @@ title: "不正な `<track kind>` は `subtitles` ではなく `metadata` とし�
 date: "2016-05-10T12:24:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["49"]
+versions: ["49", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1269712"
       title: "Bug 1269712 - A <track kind=invalid> should behave like metadata, not subtitles"

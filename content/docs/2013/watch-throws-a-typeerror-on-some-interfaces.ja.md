@@ -3,7 +3,7 @@ title: "一部のインターフェイス上で `watch()` が `TypeError` を投
 date: "2013-04-06T04:52:59-04:00"
 categories: ["dom"]
 tags: []
-versions: ["23"]
+versions: ["23", "24-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=903332"

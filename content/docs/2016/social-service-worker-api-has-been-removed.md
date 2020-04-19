@@ -3,7 +3,7 @@ title: "Social Service Worker API has been removed"
 date: "2016-08-15T16:46:00-04:00"
 categories: ["misc"]
 tags: []
-versions: ["48"]
+versions: ["48", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=898706"
       title: "Bug 898706 - [meta] Remove social FrameWorker"

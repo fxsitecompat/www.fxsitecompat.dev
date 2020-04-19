@@ -3,7 +3,7 @@ title: "`offset-*` 論理プロパティが `inset-*` に改名されました"
 date: "2018-08-15T02:08:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["63"]
+versions: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1464782"
       title: "Bug 1464782 - [css-logical] rename offset-* properties to inset-block-start, inset-block-end, inset-inline-start and inset-inline-end"

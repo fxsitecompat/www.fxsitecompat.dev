@@ -3,7 +3,7 @@ title: "`<select>` 上のドロップダウン矢印が再度 `-moz-appearance:n
 date: "2014-10-17T22:50:44-04:00"
 categories: ["css"]
 tags: []
-versions: ["35"]
+versions: ["35", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=649849"
       title: "Bug 649849 – Make -moz-appearance:none on a combobox remove the dropdown button"

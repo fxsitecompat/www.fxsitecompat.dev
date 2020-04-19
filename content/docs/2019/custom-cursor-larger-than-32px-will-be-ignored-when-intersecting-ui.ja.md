@@ -3,7 +3,7 @@ title: "32px より大きい独自カーソルは UI 上では無視されるよ
 date: "2019-05-13T14:47:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["67"]
+versions: ["67", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1445844"
       title: "Bug 1445844 - Custom cursor goes outside the bounds of the web content in \"malware\" website"

@@ -3,7 +3,7 @@ title: "`document.createAttribute()` now lowercases the input"
 date: "2015-12-16T10:27:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["44"]
+versions: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1176313"
       title: "Bug 1176313 - Make Attr follow the spec again"

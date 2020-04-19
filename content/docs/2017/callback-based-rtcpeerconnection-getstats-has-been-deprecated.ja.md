@@ -3,7 +3,7 @@ title: "コールバックベースの `RTCPeerConnection.getStats()` が廃止�
 date: "2017-03-11T21:04:00-05:00"
 categories: ["audio-video"]
 tags: []
-versions: ["53"]
+versions: ["53", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1323095"
       title: "Bug 1323095 - Add deprecation warnings to callback-based pc.getStats()"

@@ -3,7 +3,7 @@ title: "WebP 画像対応が追加されました"
 date: "2018-11-15T09:40:00-05:00"
 categories: ["misc"]
 tags: []
-versions: ["65"]
+versions: ["65", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1294490"
       title: "Bug 1294490 - Implement WebP image support"

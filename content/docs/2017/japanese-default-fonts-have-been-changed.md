@@ -3,7 +3,7 @@ title: "Japanese default fonts have been changed"
 date: "2017-09-20T14:23:00-04:00"
 categories: ["misc"]
 tags: []
-versions: ["57"]
+versions: ["57", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=548311"
       title: "Bug 548311 - Default Japanese font should be Meiryo or Yu Gothic for modern Windows"

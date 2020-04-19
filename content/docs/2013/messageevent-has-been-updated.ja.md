@@ -3,7 +3,7 @@ title: "`MessageEvent` が更新されました"
 date: "2013-09-19T23:58:13-04:00"
 categories: ["dom"]
 tags: []
-versions: ["26"]
+versions: ["26", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=848294"
       title: "Bug 848294 – Update MessageEvent to be compatible with the spec"

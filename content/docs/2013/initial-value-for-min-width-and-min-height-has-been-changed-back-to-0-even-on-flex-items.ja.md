@@ -3,7 +3,7 @@ title: "`min-width` と `min-height` の初期値が (flexbox アイテム上で
 date: "2013-02-24T03:44:31-05:00"
 categories: ["css"]
 tags: []
-versions: ["22"]
+versions: ["22", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=848539"
       title: "Bug 848539 – Remove support for \"min-width: auto\" and \"min-height: auto\", since they\'re being dropped from flexbox spec"

@@ -3,7 +3,7 @@ title: "Returning non-object value from `iterator.next()` will throw"
 date: "2016-08-14T16:17:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["51"]
+versions: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1016936"
       title: "Bug 1016936 - Iteration: throw if the value returned by iterator.next() is not an object"

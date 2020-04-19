@@ -3,7 +3,7 @@ title: "接頭辞付き Page Visibility API が削除されました"
 date: "2016-09-07T18:11:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["51"]
+versions: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=812701"
       title: "Bug 812701 - Drop the prefixed version of visibility API"

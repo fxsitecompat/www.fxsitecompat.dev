@@ -3,7 +3,7 @@ title: "Non-SSL active content on SSL pages is blocked by default"
 date: "2013-04-06T04:52:59-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["23"]
+versions: ["23", "24-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=834836"

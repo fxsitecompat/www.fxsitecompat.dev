@@ -3,7 +3,7 @@ title: "予測先読み機能が iframe 内で重複 HTTP リクエストを行�
 date: "2017-03-30T11:38:00-04:00"
 categories: ["networking"]
 tags: []
-versions: ["52"]
+versions: ["52", "52-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1349921"

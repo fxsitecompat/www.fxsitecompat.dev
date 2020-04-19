@@ -3,7 +3,7 @@ title: "When `undefined` is passed as an argument, the default parameter will be
 date: "2013-01-03T03:53:26-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["18"]
+versions: ["18", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=781422"
       title: "Bug 781422 – parameters should get defaults whenever they are undefined"

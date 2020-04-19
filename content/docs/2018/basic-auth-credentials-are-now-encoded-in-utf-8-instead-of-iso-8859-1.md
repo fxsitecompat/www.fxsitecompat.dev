@@ -3,7 +3,7 @@ title: "Basic auth credentials are now encoded in UTF-8 instead of ISO-8859-1"
 date: "2018-04-06T22:35:00-04:00"
 categories: ["networking"]
 tags: []
-versions: ["59"]
+versions: ["59", "60-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1419658"

@@ -3,7 +3,7 @@ title: "`:-moz-dir` 擬似クラスが廃止されました"
 date: "2016-11-25T18:48:00-05:00"
 categories: ["css"]
 tags: []
-versions: ["53"]
+versions: ["53", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1270406"
       title: "Bug 1270406 - remove pseudo class :-moz-dir after :dir is shipped"

@@ -3,7 +3,7 @@ title: "サンドボックス化した `iframe` 内では `document.domain` の�
 date: "2013-09-19T23:58:13-04:00"
 categories: ["dom"]
 tags: []
-versions: ["26"]
+versions: ["26", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=907892"
       title: "Bug 907892 – Disallow setting document.domain in sandboxed iframes"

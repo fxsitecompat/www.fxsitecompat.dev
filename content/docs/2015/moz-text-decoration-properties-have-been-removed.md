@@ -3,7 +3,7 @@ title: "`-moz-text-decoration-*` properties have been removed"
 date: "2015-04-27T13:17:23-04:00"
 categories: ["css"]
 tags: []
-versions: ["40"]
+versions: ["40", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1097922"
       title: "Bug 1097922 - Remove temporary aliases for -moz-text-decoration-*."

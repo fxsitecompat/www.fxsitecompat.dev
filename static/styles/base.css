@@ -508,8 +508,13 @@
     vertical-align: .3em;
   }
 
-  body.single.article main article h1 + p {
+  body.single.article main article h1 ~ p {
+    margin: 0;
     font-size: 14px;
+  }
+
+  body.single.article main article section {
+    margin-top: 16px;
   }
 
   body.single.article main .inner > nav,

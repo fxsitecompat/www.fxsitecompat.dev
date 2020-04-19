@@ -3,7 +3,7 @@ title: "`Array.keys()` and `Array.entries()` have been implemented"
 date: "2013-12-09T02:32:17-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["28"]
+versions: ["28", "31-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=894658"

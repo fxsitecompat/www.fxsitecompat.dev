@@ -3,7 +3,7 @@ title: "正規表現のキャプチャ動作が変更されました"
 date: "2014-09-01T22:12:15-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["34"]
+versions: ["34", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=369778"
       title: "Bug 369778 – Javascript regular expression captures broken with alternation in some cases."

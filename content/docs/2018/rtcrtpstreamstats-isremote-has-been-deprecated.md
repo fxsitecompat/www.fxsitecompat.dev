@@ -3,7 +3,7 @@ title: "`RTCRTPStreamStats.isRemote` has been deprecated"
 date: "2018-08-14T20:27:00-04:00"
 categories: ["audio-video", "dom"]
 tags: []
-versions: ["63"]
+versions: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1393306"
       title: "Bug 1393306 - Add deprecation warning for removal of stat.isRemote in 65."

@@ -3,7 +3,7 @@ title: "Network error for async XHR now fires `error` event instead of throwing,
 date: "2016-08-01T00:04:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["50"]
+versions: ["50", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=709991"
       title: "Bug 709991 - [XHR2] Cross-origin XHR with username/password in URL throws"

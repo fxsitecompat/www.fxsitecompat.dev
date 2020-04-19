@@ -3,7 +3,7 @@ title: "`RTCPeerConnection.getLocalStreams()`、`getRemoteStreams()` が廃止�
 date: "2016-05-25T15:17:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["49"]
+versions: ["49", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1271669"
       title: "Bug 1271669 - Allow any MediaStream to be passed to RTCPeerConnection.addTrack"

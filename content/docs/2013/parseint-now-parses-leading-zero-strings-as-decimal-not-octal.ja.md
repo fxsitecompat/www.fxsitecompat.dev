@@ -3,7 +3,7 @@ title: "`parseInt()` が 0 で始まる文字列を 8 進数でなく 10 進数�
 date: "2013-02-06T08:44:10-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["21"]
+versions: ["21", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=786135"
       title: "Bug 786135 – Make parseInt(\"042\") === 42, now that other engines are moving that way"

@@ -3,7 +3,7 @@ title: "XBL 関連のメソッドが削除されました"
 date: "2013-09-19T23:58:13-04:00"
 categories: ["dom"]
 tags: []
-versions: ["26"]
+versions: ["26", "31-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=912322"

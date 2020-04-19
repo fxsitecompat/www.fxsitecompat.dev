@@ -3,7 +3,7 @@ title: "`MediaKeySession.keySystem` has been removed"
 date: "2017-04-24T01:20:00-04:00"
 categories: ["audio-video", "dom"]
 tags: []
-versions: ["54"]
+versions: ["54", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1016162"
       title: "Bug 1016162 - [EME] Encrypted Media Extensions base DOM API"

@@ -3,7 +3,7 @@ title: "`window` 上での変更不能プロパティ定義が例外となりま
 date: "2016-04-10T01:08:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["42"]
+versions: ["42", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1107443"

@@ -3,7 +3,7 @@ title: "一部の `RTCPeerConnection` メソッドが近々コールバック必
 date: "2014-10-17T22:50:44-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["35"]
+versions: ["35", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1064088"
       title: "Bug 1064088 – PeerConnection should log deprecation warnings when required callbacks are missing."

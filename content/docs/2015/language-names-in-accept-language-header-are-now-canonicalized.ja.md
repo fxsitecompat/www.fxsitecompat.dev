@@ -3,7 +3,7 @@ title: "`Accept-Language` ヘッダー内の言語名が常に正規化される
 date: "2015-10-27T00:50:00-07:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["36"]
+versions: ["36", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1054739"
       title: "Bug 1054739 - Reduce HTTP Accept-Language Entropy"

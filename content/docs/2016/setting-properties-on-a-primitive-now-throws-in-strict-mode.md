@@ -3,7 +3,7 @@ title: "Setting properties on a primitive now throws in strict mode"
 date: "2016-03-28T12:25:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["46"]
+versions: ["46", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=603201"
       title: "Bug 603201 - Strict getters on primitive wrapper prototypes receive wrapped |this| values"

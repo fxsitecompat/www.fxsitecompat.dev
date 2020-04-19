@@ -3,7 +3,7 @@ title: "Non-standard `String` generics have been deprecated"
 date: "2016-12-10T17:45:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["53"]
+versions: ["53", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1319926"
       title: "Bug 1319926 - Warn when String generics are used"

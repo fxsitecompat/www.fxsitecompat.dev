@@ -3,7 +3,7 @@ title: "Service Worker が Firefox 45 ESR で無効化されました"
 date: "2016-03-07T10:52:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["45"]
+versions: ["45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1232029"
       title: "Bug 1232029 - disable service workers in 45 ESR"

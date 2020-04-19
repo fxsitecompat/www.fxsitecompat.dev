@@ -3,7 +3,7 @@ title: "`-moz-text-blink` has been removed in favour of `-moz-text-decoration-li
 date: "2013-09-19T23:58:13-04:00"
 categories: ["css"]
 tags: []
-versions: ["26"]
+versions: ["26", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=812995"
       title: "Bug 812995 – add \'blink\' to -moz-text-decoration-line and drop -moz-text-blink"

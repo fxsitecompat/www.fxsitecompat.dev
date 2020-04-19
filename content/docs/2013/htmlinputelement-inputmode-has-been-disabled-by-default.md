@@ -3,7 +3,7 @@ title: "`HTMLInputElement.inputmode` has been disabled by default"
 date: "2013-02-06T08:44:10-05:00"
 categories: ["dom"]
 tags: []
-versions: ["21"]
+versions: ["21", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=857355"
       title: "Bug 857355 – Hide HTMLInputElement\'s inputMode API behind a pref and only turn it on for Aurora/Nightly"

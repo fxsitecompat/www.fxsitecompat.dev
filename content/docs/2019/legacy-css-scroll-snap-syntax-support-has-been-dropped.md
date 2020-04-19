@@ -3,7 +3,7 @@ title: "Legacy CSS Scroll Snap syntax support has been dropped"
 date: "2019-05-28T05:04:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["68"]
+versions: ["68", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1312163"
       title: "Bug 1312163 - Update 'scroll-snap-type' to the latest specification and drop support for 'scroll-snap-type-x' and 'scroll-snap-type-y'"

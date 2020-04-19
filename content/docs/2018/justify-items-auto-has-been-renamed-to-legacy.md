@@ -3,7 +3,7 @@ title: "`justify-items:auto` has been renamed to `legacy`"
 date: "2018-05-07T19:25:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["61"]
+versions: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1363875"
       title: "Bug 1363875 - [css-align] Rename `auto` to `legacy` for `justify-items`"

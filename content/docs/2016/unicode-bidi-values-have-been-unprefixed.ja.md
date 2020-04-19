@@ -3,7 +3,7 @@ title: "`unicode-bidi` の値から接頭辞が外れました"
 date: "2016-07-04T14:29:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["50"]
+versions: ["50", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1141895"
       title: "Bug 1141895 - Unprefix values of unicode-bidi"

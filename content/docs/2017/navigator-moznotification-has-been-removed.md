@@ -3,7 +3,7 @@ title: "`navigator.mozNotification` has been removed"
 date: "2017-12-09T00:36:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["59"]
+versions: ["59", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=952453"
       title: "Bug 952453 - Remove mozNotification (DesktopNotification) API"

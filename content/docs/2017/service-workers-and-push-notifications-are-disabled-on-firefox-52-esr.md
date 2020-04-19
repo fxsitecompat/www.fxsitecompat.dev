@@ -3,7 +3,7 @@ title: "Service workers and push notifications are disabled on Firefox 52 ESR"
 date: "2017-02-09T16:58:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["52"]
+versions: ["52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1338144"
       title: "Bug 1338144 - disable service workers and push notifications on 52 ESR"

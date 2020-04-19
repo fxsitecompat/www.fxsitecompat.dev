@@ -3,7 +3,7 @@ title: "`for-each-in` loops are now deprecated"
 date: "2015-01-16T09:37:54-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["37"]
+versions: ["37", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1083467"
       title: "Bug 1083467 – Add console warnings for E4X for-each"

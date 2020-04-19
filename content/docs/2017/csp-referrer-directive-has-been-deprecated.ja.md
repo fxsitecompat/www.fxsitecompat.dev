@@ -3,7 +3,7 @@ title: "CSP `referrer` ディレクティブが廃止予定となりました"
 date: "2017-03-10T16:09:00-05:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["52"]
+versions: ["52", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1303682"
       title: "Bug 1303682 - Add deprecation warning before removing 'referrer' directive from CSP"

@@ -3,7 +3,7 @@ title: "Non-standard system metric pseudo-classes and media features have been r
 date: "2017-10-06T10:12:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["58"]
+versions: ["58", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1396066"
       title: "Bug 1396066 - Avoid exposing :-moz-system-metric stuff in content pages."

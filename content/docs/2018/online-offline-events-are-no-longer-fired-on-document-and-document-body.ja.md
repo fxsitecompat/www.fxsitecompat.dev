@@ -3,7 +3,7 @@ title: "`online`/`offline` イベントが `document` と `document.body` 上で
 date: "2018-05-08T18:25:00-04:00"
 categories: ["dom", "html"]
 tags: []
-versions: ["61"]
+versions: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1457166"
       title: "Bug 1457166 - Figure out what's the right target of the online / offline events."

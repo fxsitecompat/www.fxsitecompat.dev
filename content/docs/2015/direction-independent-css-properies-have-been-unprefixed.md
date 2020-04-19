@@ -3,7 +3,7 @@ title: "Direction-independent CSS properies have been unprefixed"
 date: "2015-09-24T14:26:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["41"]
+versions: ["41", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1138384"
       title: "Bug 1138384 - enable CSS writing-mode support in release channels"

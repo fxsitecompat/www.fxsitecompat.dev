@@ -3,7 +3,7 @@ title: "`document.createEvent()` no longer supports various obsolete events"
 date: "2017-06-07T08:07:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["55"]
+versions: ["55", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1251198"
       title: "Bug 1251198 - Align document.createEvent() supported events with spec"

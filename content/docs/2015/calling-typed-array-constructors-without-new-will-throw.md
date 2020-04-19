@@ -3,7 +3,7 @@ title: "Calling typed array constructors without `new` will throw"
 date: "2015-10-14T16:00:00-07:00"
 categories: ["javascript"]
 tags: []
-versions: ["44"]
+versions: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=980945"
       title: "Bug 980945 - Typed array constructors should not work without \"new\" per spec"

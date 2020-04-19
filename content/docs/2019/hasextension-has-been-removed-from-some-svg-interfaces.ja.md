@@ -3,7 +3,7 @@ title: "一部の SVG インターフェイスから `hasExtension()` が削除�
 date: "2019-05-27T23:39:00-04:00"
 categories: ["svg"]
 tags: []
-versions: ["68"]
+versions: ["68", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1133175"
       title: "Bug 1133175 - remove SVGTests.hasExtension"

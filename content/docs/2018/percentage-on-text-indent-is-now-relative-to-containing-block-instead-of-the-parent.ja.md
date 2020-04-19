@@ -3,7 +3,7 @@ title: "`text-indent` 上のパーセンテージが内包ブロックの親で�
 date: "2018-11-21T17:41:00-05:00"
 categories: ["css"]
 tags: []
-versions: ["65"]
+versions: ["65", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1453298"

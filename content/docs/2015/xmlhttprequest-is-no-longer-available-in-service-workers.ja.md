@@ -3,7 +3,7 @@ title: "`XMLHttpRequest` は Service Worker 内で使用できなくなりまし
 date: "2015-10-23T01:34:00-07:00"
 categories: ["dom"]
 tags: []
-versions: ["44"]
+versions: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=931243"
       title: "Bug 931243 - XMLHttpRequest should be disabled on ServiceWorkers"

@@ -3,7 +3,7 @@ title: "`Proxy` has been changed to be a function"
 date: "2013-07-14T19:12:37-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["25"]
+versions: ["25", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=788172"
       title: "Bug 788172 – Proxy is not a function (typeof Proxy should be \'function\')"

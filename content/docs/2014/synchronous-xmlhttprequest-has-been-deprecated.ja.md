@@ -3,7 +3,7 @@ title: "同期 `XMLHttpRequest` が廃止予定となりました"
 date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []
-versions: ["30"]
+versions: ["30", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=969671"
       title: "Bug 969671 – Warn about use of sync XHR in the main thread"

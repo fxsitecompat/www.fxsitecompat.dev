@@ -3,7 +3,7 @@ title: "ECMAScript `arguments` 実装が更新されました"
 date: "2015-09-24T17:00:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["43"]
+versions: ["43", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=889158"
       title: "Bug 889158 - Calling an arrow function shouldn't create an 'arguments' binding"

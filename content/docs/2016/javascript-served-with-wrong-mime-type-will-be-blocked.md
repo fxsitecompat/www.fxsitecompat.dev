@@ -3,7 +3,7 @@ title: "JavaScript served with wrong MIME type will be blocked"
 date: "2016-09-07T01:38:00-04:00"
 categories: ["javascript", "privacy-security"]
 tags: []
-versions: ["51"]
+versions: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1288361"
       title: "Bug 1288361 - Return a network error for requests whose type is \"script\" and response has a MIME type that starts with image/"

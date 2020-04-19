@@ -3,7 +3,7 @@ title: "`RegExp.multiline` グローバルスイッチが削除されました"
 date: "2016-03-23T05:30:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["48"]
+versions: ["48", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1219757"
       title: "Bug 1219757 - Remove nonstandard RegExp.multiline global switch"

@@ -3,7 +3,7 @@ title: "`::placeholder` pseudo-element and `:placeholder-shown` pseudo-class hav
 date: "2016-09-07T18:29:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["51"]
+versions: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1069012"
       title: "Bug 1069012 - unprefix :placeholder-shown pseudo-class and ::placeholder pseudo-element"

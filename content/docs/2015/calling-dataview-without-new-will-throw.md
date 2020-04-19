@@ -3,7 +3,7 @@ title: "Calling `DataView` without `new` will throw"
 date: "2015-04-27T13:17:23-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["40"]
+versions: ["40", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1142279"
       title: "Bug 1142279 – DataView should require `new`"

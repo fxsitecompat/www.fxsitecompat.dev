@@ -3,7 +3,7 @@ title: "CSS3 Flexible Box has been enabled by default, but still disabled on the
 date: "2012-12-29T08:29:30-05:00"
 categories: ["css"]
 tags: []
-versions: ["20"]
+versions: ["20", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=783409"
       title: "Bug 783409 – Turn on CSS flexbox in builds by default (by enabling pref, build flag, etc)"

@@ -3,7 +3,7 @@ title: "`fetch()` and `Request` now throws if redirect is detected when in non-`
 date: "2016-05-10T20:30:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["49"]
+versions: ["49", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1243792"
       title: "Bug 1243792 - add fetch Response.redirected and additional security restrictions"

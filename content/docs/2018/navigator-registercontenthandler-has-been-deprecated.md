@@ -3,7 +3,7 @@ title: "`navigator.registerContentHandler()` has been deprecated"
 date: "2018-01-06T04:26:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["59"]
+versions: ["59", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1398169"
       title: "Bug 1398169 - Remove registerContentHandler()"

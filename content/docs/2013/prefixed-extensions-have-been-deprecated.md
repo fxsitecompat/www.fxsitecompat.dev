@@ -3,7 +3,7 @@ title: "Prefixed extensions have been deprecated"
 date: "2013-10-08T20:15:35-04:00"
 categories: ["canvas-webgl"]
 tags: []
-versions: ["27"]
+versions: ["27", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=924176"
       title: "Bug 924176 – Warn on prefixed WebGL extensions usage (deprecated)"

@@ -3,7 +3,7 @@ title: "Certificate verification backend has been overhauled"
 date: "2014-04-03T19:31:02-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["31"]
+versions: ["31", "31-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=915930"

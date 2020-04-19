@@ -3,7 +3,7 @@ title: "`x-moz-errormessage` attribute is no longer supported"
 date: "2018-12-25T00:08:00-05:00"
 categories: ["html"]
 tags: []
-versions: ["66"]
+versions: ["66", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1513890"
       title: "Bug 1513890 - Remove 'x-moz-errormessage' attribute"

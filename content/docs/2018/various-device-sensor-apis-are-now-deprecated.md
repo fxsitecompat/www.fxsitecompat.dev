@@ -3,7 +3,7 @@ title: "Various device sensor APIs are now deprecated"
 date: "2018-03-02T20:53:00-05:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["60"]
+versions: ["60", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1359076"
       title: "Bug 1359076 - Disable devicelight, deviceproximity and userproximity events"

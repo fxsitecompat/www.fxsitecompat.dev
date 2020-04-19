@@ -3,7 +3,7 @@ title: "`TouchList.identifiedTouch()` が削除されました"
 date: "2016-04-27T06:28:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["49"]
+versions: ["49", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1188539"
       title: "Bug 1188539 - Remove the deprecated TouchList::identifiedTouch method"

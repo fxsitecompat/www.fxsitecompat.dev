@@ -3,7 +3,7 @@ title: "サードパーティ Cookie ブロック時に様々なサイトが正�
 date: "2016-03-11T12:58:00-05:00"
 categories: ["dom", "plugins", "privacy-security"]
 tags: []
-versions: ["45"]
+versions: ["45", "45-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1254856"

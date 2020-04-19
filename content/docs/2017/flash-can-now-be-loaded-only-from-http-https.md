@@ -3,7 +3,7 @@ title: "Flash can now be loaded only from HTTP/HTTPS"
 date: "2017-03-10T16:44:00-05:00"
 categories: ["plugins", "privacy-security"]
 tags: []
-versions: ["55"]
+versions: ["55", "60-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1335475"
