@@ -3,7 +3,7 @@ title: "Rounded objects with fixed background image are not trimmed properly"
 date: "2015-12-18T17:37:00-05:00"
 categories: ["css"]
 tags: []
-versions: ["43"]
+releases: ["43"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1232939"

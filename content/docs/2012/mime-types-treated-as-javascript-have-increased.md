@@ -3,7 +3,7 @@ title: "MIME types treated as JavaScript have increased"
 date: "2012-12-03T03:50:54-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["17"]
+releases: ["17"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=672814"
       title: "Bug 672814 – Increase the set of script @type values that nsScriptLoader treats as JavaScript"

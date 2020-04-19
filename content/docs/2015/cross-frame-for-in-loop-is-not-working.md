@@ -3,7 +3,7 @@ title: "Cross-frame `for-in` loop is not working"
 date: "2015-10-22T22:58:00-07:00"
 categories: ["javascript"]
 tags: []
-versions: ["37"]
+releases: ["37"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1152550"

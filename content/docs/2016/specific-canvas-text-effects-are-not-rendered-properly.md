@@ -3,7 +3,7 @@ title: "Specific Canvas text effects are not rendered properly"
 date: "2016-10-03T16:54:00-04:00"
 categories: ["canvas-webgl"]
 tags: []
-versions: ["49"]
+releases: ["49"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1304539"

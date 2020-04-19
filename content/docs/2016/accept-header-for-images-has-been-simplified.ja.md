@@ -3,7 +3,7 @@ title: "画像向け `Accept` ヘッダーが簡素化されました"
 date: "2016-03-10T08:02:00-05:00"
 categories: ["networking"]
 tags: []
-versions: ["47", "52-esr"]
+releases: ["47", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1249474"
       title: "Bug 1249474 - Accept header sent for images prevents w3.org from serving us SVG images in W3C's style sheet"

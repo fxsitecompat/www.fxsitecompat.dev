@@ -3,7 +3,7 @@ title: "SHA-1 certificates issued by public CA will no longer be accepted"
 date: "2016-10-24T13:13:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["52", "52-esr"]
+releases: ["52", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1302140"

@@ -3,7 +3,7 @@ title: "`Response`'s default `statusText` has become empty string"
 date: "2019-05-13T04:32:00-04:00"
 categories: ["dom", "networking"]
 tags: []
-versions: ["67", "68-esr"]
+releases: ["67", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1508996"
       title: "Bug 1508996 - Change Response's statusText's default"

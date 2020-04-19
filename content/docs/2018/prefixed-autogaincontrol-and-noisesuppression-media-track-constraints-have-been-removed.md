@@ -3,7 +3,7 @@ title: "Prefixed `autoGainControl` and `noiseSuppression` media track constraint
 date: "2018-10-10T11:36:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["64", "68-esr"]
+releases: ["64", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1496714"
       title: "Bug 1496714 - Consider enabling AGC by default"

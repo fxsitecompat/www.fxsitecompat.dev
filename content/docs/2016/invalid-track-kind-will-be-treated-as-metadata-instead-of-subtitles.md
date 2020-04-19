@@ -3,7 +3,7 @@ title: "Invalid `<track kind>` will be treated as `metadata` instead of `subtitl
 date: "2016-05-10T12:24:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["49", "52-esr"]
+releases: ["49", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1269712"
       title: "Bug 1269712 - A <track kind=invalid> should behave like metadata, not subtitles"

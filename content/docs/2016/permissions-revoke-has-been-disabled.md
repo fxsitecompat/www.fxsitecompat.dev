@@ -3,7 +3,7 @@ title: "`Permissions.revoke()` has been disabled"
 date: "2016-08-17T13:50:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["51", "52-esr"]
+releases: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1295877"
       title: "Bug 1295877 - Put Permissions API .revoke() behind a pref"

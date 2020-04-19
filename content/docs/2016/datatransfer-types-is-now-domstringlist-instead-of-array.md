@@ -3,7 +3,7 @@ title: "`DataTransfer.types` is now `DOMStringList` instead of `Array`"
 date: "2016-12-16T02:13:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["52", "52-esr"]
+releases: ["52", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1298243"

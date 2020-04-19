@@ -3,7 +3,7 @@ title: "Reserved words are no longer allowed as function names"
 date: "2013-09-19T23:58:13-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["26", "31-esr"]
+releases: ["26", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=907958"
       title: "Bug 907958 – Restrict function names to non-keywords"

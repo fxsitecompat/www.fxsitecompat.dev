@@ -3,7 +3,7 @@ title: "Most of Firefox-specific `-moz-appearance` values have been removed"
 date: "2018-10-23T10:25:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["64", "68-esr"]
+releases: ["64", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1496720"
       title: "Bug 1496720 - [css-compat] Unship -moz/webkit-appearance values not supported by other UAs / spec"

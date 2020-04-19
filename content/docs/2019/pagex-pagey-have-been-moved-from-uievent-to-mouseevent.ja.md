@@ -3,7 +3,7 @@ title: "`pageX`/`pageY` が `UIEvent` から `MouseEvent` へ移されました"
 date: "2019-07-06T22:22:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["69"]
+releases: ["69"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1178763"
       title: "Bug 1178763 - TouchEvent.pageX/pageY should be undefined"

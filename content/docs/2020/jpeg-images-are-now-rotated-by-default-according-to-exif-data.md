@@ -3,7 +3,7 @@ title: "JPEG images are now rotated by default according to Exif data"
 date: "2020-02-17T13:56:00-05:00"
 categories: ["css"]
 tags: []
-versions: ["75"]
+releases: ["75"]
 statuses: "postponed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1607667"

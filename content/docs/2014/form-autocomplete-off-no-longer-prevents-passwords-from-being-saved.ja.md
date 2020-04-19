@@ -3,7 +3,7 @@ title: "`<form autocomplete=\"off\">` がパスワードの保存を抑止しな
 date: "2014-03-21T04:50:04-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["30", "31-esr"]
+releases: ["30", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=956906"
       title: "Bug 956906 – ignore autocomplete=\"off\" when offering to save passwords via the password manager"

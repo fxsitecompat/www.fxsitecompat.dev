@@ -3,7 +3,7 @@ title: "`event.timeStamp` now returns `DOMHighResTimeStamp` by default"
 date: "2017-02-20T23:45:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["54", "60-esr"]
+releases: ["54", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1026804"
       title: "Bug 1026804 - Make Event.timeStamp return a DOMHighResTimeStamp by default (switch on pref)"

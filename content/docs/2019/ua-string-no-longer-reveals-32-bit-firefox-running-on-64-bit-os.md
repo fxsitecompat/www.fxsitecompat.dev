@@ -3,7 +3,7 @@ title: "UA string no longer reveals 32-bit Firefox running on 64-bit OS"
 date: "2019-07-07T01:03:00-04:00"
 categories: ["networking"]
 tags: []
-versions: ["69"]
+releases: ["69"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1559747"
       title: "Bug 1559747 - User-Agent string needn't reveal a user is running 32-bit Firefox on a 64-bit OS"

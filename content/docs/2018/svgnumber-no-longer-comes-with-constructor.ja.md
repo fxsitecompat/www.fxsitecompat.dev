@@ -3,7 +3,7 @@ title: "`SVGNumber` のコンストラクターが廃止されました"
 date: "2018-04-25T12:33:00-04:00"
 categories: ["dom", "svg"]
 tags: []
-versions: ["61", "68-esr"]
+releases: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1455940"
       title: "Bug 1455940 - Remove constructor from SVGNumber"

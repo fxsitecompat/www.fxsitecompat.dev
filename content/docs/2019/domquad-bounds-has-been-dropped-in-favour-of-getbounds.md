@@ -3,7 +3,7 @@ title: "`DOMQuad.bounds` has been dropped in favour of `getBounds()`"
 date: "2019-06-29T22:49:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["69"]
+releases: ["69"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1454622"
       title: "Bug 1454622 - Change DOMQuad bounds to getBounds() as per specification"

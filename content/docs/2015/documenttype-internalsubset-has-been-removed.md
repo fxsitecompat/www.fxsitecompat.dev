@@ -3,7 +3,7 @@ title: "`DocumentType.internalSubset` has been removed"
 date: "2015-10-20T15:37:00-07:00"
 categories: ["dom"]
 tags: []
-versions: ["44", "45-esr"]
+releases: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=801545"
       title: "Bug 801545 - Remove obsolete attribute: DocumentType.internalSubset"

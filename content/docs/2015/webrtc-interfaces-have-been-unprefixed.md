@@ -3,7 +3,7 @@ title: "WebRTC interfaces have been unprefixed"
 date: "2015-09-25T02:46:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["44", "45-esr"]
+releases: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1155923"
       title: "Bug 1155923 - Unprefix WebRTC"

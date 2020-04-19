@@ -3,7 +3,7 @@ title: "Some non-essential Flash plug-in content will be blocked"
 date: "2016-08-20T16:36:00-04:00"
 categories: ["plugins"]
 tags: []
-versions: ["49", "52-esr"]
+releases: ["49", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1275591"
       title: "Bug 1275591 - Enable plugin content blocking by default"

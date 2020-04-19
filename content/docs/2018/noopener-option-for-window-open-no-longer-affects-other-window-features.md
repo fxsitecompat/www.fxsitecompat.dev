@@ -3,7 +3,7 @@ title: "`noopener` option for `window.open()` no longer affects other window fea
 date: "2018-08-16T09:27:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["63", "68-esr"]
+releases: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1419960"
       title: "Bug 1419960 - Make the noopener window feature not affect whether other window features are enabled"

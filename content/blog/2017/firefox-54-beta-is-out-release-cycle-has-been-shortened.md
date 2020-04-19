@@ -5,9 +5,9 @@ aliases:
     - "/en-CA/blog/2017/firefox-54-beta-is-out/"
     - "/en-CA/blog/2017/firefox-beta-is-out-release-cycle-has-been-shortened/"
 ---
-Mozilla has shipped [Firefox 54 Beta](https://www.mozilla.org/firefox/channel/desktop/) last Friday. Check out our [Firefox 54 compatibility notes](https://www.fxsitecompat.dev/en-CA/versions/54/) to get prepared for the final version.
+Mozilla has shipped [Firefox 54 Beta](https://www.mozilla.org/firefox/channel/desktop/) last Friday. Check out our [Firefox 54 compatibility notes](https://www.fxsitecompat.dev/en-CA/releases/54/) to get prepared for the final version.
 
-Because of the [release cycle evolution](https://hacks.mozilla.org/2017/04/simplifying-firefox-release-channels/) recently announced, Firefox Developer Edition is now based on the Beta channel instead of its own Aurora (Alpha) channel. Firefox Nightly also remains 55 until mid June, that means there would be more changes than what you currently see in the [Firefox 55 compatibility notes](https://www.fxsitecompat.dev/en-CA/versions/55/).
+Because of the [release cycle evolution](https://hacks.mozilla.org/2017/04/simplifying-firefox-release-channels/) recently announced, Firefox Developer Edition is now based on the Beta channel instead of its own Aurora (Alpha) channel. Firefox Nightly also remains 55 until mid June, that means there would be more changes than what you currently see in the [Firefox 55 compatibility notes](https://www.fxsitecompat.dev/en-CA/releases/55/).
 
 While the streamlined release process will deliver new features more quickly to end users, web developers now have less time to make changes to the sites, if needed, to be compatible with the latest release. To be more precise, you will only get 6 to 8 weeks before Developer Edition becomes the final version, where it previously took 12 weeks.
 

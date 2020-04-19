@@ -3,7 +3,7 @@ title: "IDN URL が適切にリダイレクトされません"
 date: "2015-10-21T02:40:00-07:00"
 categories: ["networking"]
 tags: []
-versions: ["36", "42"]
+releases: ["36", "42"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1142083"

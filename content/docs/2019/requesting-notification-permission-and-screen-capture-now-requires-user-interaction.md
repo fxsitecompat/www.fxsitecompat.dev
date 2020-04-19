@@ -3,7 +3,7 @@ title: "Requesting notification permission and screen capture now requires user 
 date: "2019-11-11T20:16:00-05:00"
 categories: ["audio-video", "dom"]
 tags: []
-versions: ["72"]
+releases: ["72"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1524619"

@@ -3,7 +3,7 @@ title: "`-moz-touch-enabled` media feature has been deprecated"
 date: "2019-10-20T13:19:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["71"]
+releases: ["71"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1035774"
       title: "Bug 1035774 - Implement Interaction Media Features including pointer:coarse that replaces non-standard -moz-touch-enabled"

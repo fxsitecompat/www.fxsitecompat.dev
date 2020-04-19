@@ -3,7 +3,7 @@ title: "非リリースビルドで Fullscreen API の接頭辞が外れまし�
 date: "2016-02-17T09:21:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["47", "52-esr"]
+releases: ["47", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=743198"

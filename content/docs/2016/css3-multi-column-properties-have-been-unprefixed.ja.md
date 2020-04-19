@@ -3,7 +3,7 @@ title: "CSS3 マルチカラムプロパティの接頭辞が外れました"
 date: "2016-10-10T20:34:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["52", "52-esr"]
+releases: ["52", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1300895"
       title: "Bug 1300895 - Unprefix css3 multi-column properties (and add back -moz prefixed versions as aliases, for now)"

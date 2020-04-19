@@ -3,7 +3,7 @@ title: "`image/webp` has been added to default HTTP `Accept` header"
 date: "2019-11-16T11:43:00-05:00"
 categories: ["networking"]
 tags: []
-versions: ["72"]
+releases: ["72"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1544231"
       title: "Bug 1544231 - Missing 'image/webp' in default navigation value of the 'Accept' header"

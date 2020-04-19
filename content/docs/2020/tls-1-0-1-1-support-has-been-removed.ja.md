@@ -3,7 +3,7 @@ title: "TLS 1.0/1.1 対応が廃止されました"
 date: "2020-01-08T19:23:00-05:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["74"]
+releases: ["74"]
 statuses: "postponed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1606734"

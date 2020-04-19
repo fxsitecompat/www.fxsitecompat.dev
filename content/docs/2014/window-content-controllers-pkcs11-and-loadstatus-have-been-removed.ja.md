@@ -3,7 +3,7 @@ title: "`window._content`、`controllers`、`pkcs11`、`LoadStatus` が削除さ
 date: "2014-02-07T11:57:09-05:00"
 categories: ["dom"]
 tags: []
-versions: ["29"]
+releases: ["29"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=946564"

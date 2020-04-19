@@ -3,7 +3,7 @@ title: "Service Worker Cache API added several global objects"
 date: "2015-06-13T15:20:46-04:00"
 categories: ["dom"]
 tags: []
-versions: ["41", "45-esr"]
+releases: ["41", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=940273"
       title: "Bug 940273 - Implement Cache and CacheStorage for ServiceWorkers"

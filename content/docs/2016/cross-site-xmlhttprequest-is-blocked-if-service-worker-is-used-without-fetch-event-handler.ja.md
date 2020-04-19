@@ -3,7 +3,7 @@ title: "Service Worker が `fetch` イベントハンドラーなしに使われ
 date: "2016-02-07T22:27:00-05:00"
 categories: ["dom", "networking"]
 tags: []
-versions: ["44"]
+releases: ["44"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1243453"

@@ -3,7 +3,7 @@ title: "ドメイン別設定可能セキュリティポリシーは利用でき
 date: "2014-02-07T11:57:09-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["29", "31-esr"]
+releases: ["29", "31-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=913734"

@@ -3,7 +3,7 @@ title: "`jar` protocol support has been disabled by default"
 date: "2015-11-04T13:03:00-08:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["45", "45-esr"]
+releases: ["45", "45-esr"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1215235"

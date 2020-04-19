@@ -3,7 +3,7 @@ title: "参考: 接頭辞付きプロパティを無効化する設定が追加�
 date: "2012-12-03T03:54:45-05:00"
 categories: ["css"]
 tags: []
-versions: ["19", "24-esr"]
+releases: ["19", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=804944"
       title: "Bug 804944 – add preferences for sets of CSS prefixed properties"

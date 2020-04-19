@@ -1,8 +1,0 @@
-{{- $version := $.Scratch.Get "version" -}}
-{{- if eq $version "future" -}}
-  {{ i18n "version_future" }}
-{{- else if strings.HasSuffix $version "-esr" -}}
-  Firefox {{ strings.TrimSuffix "-esr" $version }} <em class="channel">ESR</em>
-{{- else -}}
-  Firefox {{ $version }} {{ with index $.Site.Data.firefox.versions $version }}<em class="channel">{{ printf "channel_%s" . | i18n }}</em>{{ end }}
-{{- end -}}

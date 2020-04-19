@@ -3,7 +3,7 @@ title: "Shadow DOM v0 API の一部が削除されました"
 date: "2019-05-12T22:11:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["67", "68-esr"]
+releases: ["67", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1535438"
       title: "Bug 1535438 - Remove Shadow DOM v0 APIs"

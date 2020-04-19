@@ -1,5 +1,5 @@
 # Firefox releases
-versions:
+releases:
     "76": "beta"
     "77": "nightly"
 

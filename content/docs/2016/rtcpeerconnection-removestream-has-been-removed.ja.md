@@ -3,7 +3,7 @@ title: "`RTCPeerConnection.removeStream()` が削除されました"
 date: "2016-08-08T08:23:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["51", "52-esr"]
+releases: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1213441"
       title: "Bug 1213441 - Remove RTCPeerConnection.removeStream for good."

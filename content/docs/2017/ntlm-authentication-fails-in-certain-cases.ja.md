@@ -3,7 +3,7 @@ title: "NTLM 認証が HTTPS サイトに対して失敗する場合がありま
 date: "2017-03-14T20:40:00-04:00"
 categories: ["networking"]
 tags: []
-versions: ["52", "52-esr"]
+releases: ["52", "52-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1346392"

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+{{ $release := .Title | urlize | lower }}
+
+{{- if eq $release "future" -}}
+  {{- i18n "release_index_page_title_future" | $.Scratch.Set "title" -}}
+  {{- i18n "release_index_page_description_future" | $.Scratch.Set "description" -}}
+{{- else if strings.HasSuffix $release "-esr" -}}
+  {{- $release := strings.TrimSuffix "-esr" $release -}}
+  {{- i18n "release_index_page_title" (dict "release" (printf "%s ESR" $release)) | $.Scratch.Set "title" -}}
+  {{- $date := index $.Site.Data.firefox.dates $release -}}
+  {{- $date_localized := (time $date).Format $.Site.Params.DateFormat.Localized -}}
+  {{- i18n "release_index_page_description_esr" (dict "release" $release "date" $date "date_localized" $date_localized) | $.Scratch.Set "description" -}}
+{{- else -}}
+  {{- i18n "release_index_page_title" (dict "release" $release) | $.Scratch.Set "title" -}}
+  {{- $date := index $.Site.Data.firefox.dates $release -}}
+  {{- $date_localized := (time $date).Format $.Site.Params.DateFormat.Localized -}}
+  {{- with index $.Site.Data.firefox.releases $release -}}
+    {{- $channel := . }}
+    {{- i18n "release_index_page_description_upcoming" (dict "release" $release "channel" $channel "channel_localized" (printf "channel_%s" $channel | i18n) "date" $date "date_localized" $date_localized) | $.Scratch.Set "description" -}}
+  {{- else -}}
+    {{- i18n "release_index_page_description" (dict "release" $release "date" $date "date_localized" $date_localized) | $.Scratch.Set "description" -}}
+  {{- end -}}
+{{- end -}}
+{{- $title := $.Scratch.Get "title" -}}
+{{- $description := $.Scratch.Get "description" -}}
+<html lang="{{ $.Site.LanguageCode }}">
+  <head>
+{{ partial "head.html" . }}
+    <title>{{ $title | plainify }} | {{ $.Site.Title }}</title>
+    <meta property="og:title" content="{{ $title | plainify }}">
+    <meta property="og:description" content="{{ $description | plainify }}">
+    <meta name="description" content="{{ $description | plainify }}">
+  </head>
+  <body class="list docs term release" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright translation">
+{{ partial "header.html" . }}
+{{ partial "search.html" . }}
+{{ partial "breadcrumbs/docs.html" . }}
+    <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
+      <div class="inner">
+        <section>
+          <header>
+            <h1 itemprop="name">{{ $title | plainify }}</h1>
+            <p itemprop="description">{{ $description | safeHTML }} {{ if ne $release "future" }}{{ i18n "release_index_page_description_secondary" (dict "release" $release) | safeHTML }}{{ end }}</p>
+          </header>{{ range $category, $taxonomy := $.Site.Taxonomies.categories }}
+          <section>
+            <h2>{{ replace $category "-" "_" | printf "category_%s" | i18n }}</h2>
+            <ul>{{ range $taxonomy.Pages }}{{ if in .Params.releases $release }}
+              <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}">{{ .Title | markdownify | replaceRE "([a-z])([A-Z\\.])" "$1<wbr>$2" | safeHTML }}</a></li>{{ end }}{{ end }}
+            </ul>
+          </section>{{ end }}
+        </section>
+        <nav class="nocontent">
+          <h2>{{ i18n "browse_release" }}</h2>
+          <ul class="taxonomy terms">{{ range first 5 $.Site.Taxonomies.releases.Alphabetical.Reverse }}{{ $release := .Name }}
+            <li><a href="/{{ $.Site.LanguageCode }}/releases/{{ $release }}/">{{ $.Scratch.Set "release" $release }}{{ partial "release-label/with-channel" $ }}</a></li>{{ end }}
+            <li><a href="/{{ $.Site.LanguageCode }}/releases/">{{ i18n "browse_all_releases" }}</a></li>
+          </ul>
+        </nav>
+      </div>
+    </main>
+{{ partial "footer.html" . }}
+  </body>
+</html>

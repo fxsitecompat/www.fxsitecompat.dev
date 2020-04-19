@@ -3,7 +3,7 @@ title: "Firefox 68 ESR では Service Worker とプッシュ通知が無効化�
 date: "2019-06-06T23:19:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["68-esr"]
+releases: ["68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1557565"
       title: "Bug 1557565 - Disable Service Workers and push under ESR68 but not under Fennec"

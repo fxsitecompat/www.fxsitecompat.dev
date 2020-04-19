@@ -3,7 +3,7 @@ title: "Errors on colours and lengths are now only allowed for specific properti
 date: "2012-12-03T03:50:54-05:00"
 categories: ["css"]
 tags: []
-versions: ["17"]
+releases: ["17"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=774122"

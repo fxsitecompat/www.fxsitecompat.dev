@@ -3,7 +3,7 @@ title: "様々なインターフェイスが `window` 上で使用できなく�
 date: "2013-07-14T19:12:37-04:00"
 categories: ["dom"]
 tags: []
-versions: ["25", "31-esr"]
+releases: ["25", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=898817"
       title: "Bug 898817 – Stop exposing nsIDOM* interfaces on the global automatically"

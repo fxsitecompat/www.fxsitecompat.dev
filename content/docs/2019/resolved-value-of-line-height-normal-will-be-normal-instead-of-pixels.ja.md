@@ -3,7 +3,7 @@ title: "`line-height:normal` の解析値がピクセルではなく `normal` �
 date: "2019-09-09T13:35:00-04:00"
 categories: ["css", "dom"]
 tags: []
-versions: ["71"]
+releases: ["71"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1536871"
       title: "Bug 1536871 - Return the keyword value for line-height: normal in getComputedStyle."

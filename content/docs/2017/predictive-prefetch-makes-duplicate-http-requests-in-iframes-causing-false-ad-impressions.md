@@ -3,7 +3,7 @@ title: "Predictive prefetch makes duplicate HTTP requests in iframes, causing fa
 date: "2017-03-30T11:38:00-04:00"
 categories: ["networking"]
 tags: []
-versions: ["52", "52-esr"]
+releases: ["52", "52-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1349921"

@@ -3,7 +3,7 @@ title: "`DOMMatrix.scaleNonUniformSelf()` が `scaleSelf()` に置き換えら�
 date: "2019-07-06T21:58:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["69"]
+releases: ["69"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1560119"
       title: "Bug 1560119 - Remove DOMMatrix.prototype.scaleNonUniformSelf()"

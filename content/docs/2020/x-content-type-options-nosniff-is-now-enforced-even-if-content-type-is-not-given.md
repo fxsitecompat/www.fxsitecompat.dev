@@ -3,7 +3,7 @@ title: "`X-Content-Type-Options:nosniff` is now enforced even if `Content-Type` 
 date: "2020-02-12T23:28:00-05:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["75"]
+releases: ["75"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1594766"
       title: "Bug 1594766 - Decide whether to continue ignoring XCTO Nosniff when Content Type is Empty, or to enforce"

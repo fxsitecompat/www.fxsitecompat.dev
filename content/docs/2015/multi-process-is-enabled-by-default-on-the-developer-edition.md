@@ -3,7 +3,7 @@ title: "Multi-process is enabled by default on the Developer Edition"
 date: "2015-08-05T00:48:18-04:00"
 categories: ["misc"]
 tags: []
-versions: ["43", "45-esr"]
+releases: ["43", "45-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1188605"

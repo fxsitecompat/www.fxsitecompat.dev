@@ -3,7 +3,7 @@ title: "ES6 準拠の `let` で変数の再宣言が許容されなくなりま�
 date: "2014-10-17T22:50:44-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["35", "38-esr"]
+releases: ["35", "38-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1001090"

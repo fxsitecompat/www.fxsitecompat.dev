@@ -7,8 +7,8 @@ section_docs:
     other: ドキュメント
 section_categories:
     other: カテゴリー
-section_versions:
-    other: バージョン
+section_releases:
+    other: リリース
 section_about:
     other: 概要
 
@@ -18,8 +18,8 @@ channel_nightly:
 channel_beta:
     other: "Beta / Developer Edition"
 
-# Versions
-version_future:
+# Releases
+future_release:
     other: "今後"
 
 # Categories
@@ -56,21 +56,21 @@ status_affecting_description_list:
 status_postponed_label:
     other: "延期"
 status_postponed_description:
-    other: "サイトに不具合をもたらす可能性を最小限に留めるため、一度は行われたものの今後のバージョンに実施が延期された、標準準拠、セキュリティもしくはパフォーマンス改善のための変更です。"
+    other: "サイトに不具合をもたらす可能性を最小限に留めるため、一度は行われたものの今後のリリースに実施が延期された、標準準拠、セキュリティもしくはパフォーマンス改善のための変更です。"
 status_postponed_description_list:
-    other: "このリストには、サイトに不具合をもたらす可能性を最小限に留めるため、一度は行われたものの今後のバージョンに実施が延期された、標準準拠、セキュリティもしくはパフォーマンス改善のための変更が含まれます。"
+    other: "このリストには、サイトに不具合をもたらす可能性を最小限に留めるため、一度は行われたものの今後のリリースに実施が延期された、標準準拠、セキュリティもしくはパフォーマンス改善のための変更が含まれます。"
 status_reverted_label:
     other: "取り消し"
 status_reverted_description:
-    other: "標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更。相当数のサイトに影響を及ぼしたため、この変更は Firefox の後継バージョンで撤回されました。"
+    other: "標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更。相当数のサイトに影響を及ぼしたため、この変更は Firefox の後継リリースで撤回されました。"
 status_reverted_description_list:
-    other: "このリストには、標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更が含まれます。相当数のサイトに影響を及ぼしたため、これらの変更は Firefox の後継バージョンで撤回されました。"
+    other: "このリストには、標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更が含まれます。相当数のサイトに影響を及ぼしたため、これらの変更は Firefox の後継リリースで撤回されました。"
 status_regressed_label:
     other: "リグレッション"
 status_regressed_description:
-    other: "意図せず取り込まれ後日発見されたサイト互換性問題。ひとつもしくは複数のサイトに影響を及ぼしたため、このリグレッションは Firefox の後継バージョンで修正されました。"
+    other: "意図せず取り込まれ後日発見されたサイト互換性問題。ひとつもしくは複数のサイトに影響を及ぼしたため、このリグレッションは Firefox の後継リリースで修正されました。"
 status_regressed_description_list:
-    other: "このリストには、意図せず取り込まれ後日発見されたサイト互換性問題が含まれます。ひとつもしくは複数のサイトに影響を及ぼしたため、これらのリグレッションは Firefox の後継バージョンで修正されました。なお、一部の問題はまだ文書化されていません。"
+    other: "このリストには、意図せず取り込まれ後日発見されたサイト互換性問題が含まれます。ひとつもしくは複数のサイトに影響を及ぼしたため、これらのリグレッションは Firefox の後継リリースで修正されました。なお、一部の問題はまだ文書化されていません。"
 
 # Meta
 contentinfo_organization:
@@ -101,12 +101,12 @@ documents:
     other: "ドキュメント"
 browse_category:
     other: "カテゴリー別に参照"
-browse_version:
-    other: "バージョン別に参照"
+browse_release:
+    other: "リリース別に参照"
 browse_status:
     other: "ステータス別に参照"
-browse_all_versions:
-    other: "過去のバージョン"
+browse_all_releases:
+    other: "過去のリリース"
 home_page_tagline:
     other: "<span>ともに、より良い</span><span>ウェブを築こう</span>"
 home_page_description:
@@ -138,27 +138,27 @@ all_statuses_page_title:
 all_statuses_page_description:
     other: "すべての Firefox サイト互換性ドキュメントを、影響あり、取り消し、リグレッションなどの問題ステータスごとに参照できます。"
 
-# All versions page
-all_versions_page_title:
-    other: "バージョン別にドキュメントを参照"
-all_versions_page_description:
+# All releases page
+all_releases_page_title:
+    other: "リリース別にドキュメントを参照"
+all_releases_page_description:
     other: "すべての Firefox サイト互換性ドキュメントを、最新のプレリリース版まで、メジャーリリースごとに参照できます。"
 
-# Version index page
-version_index_page_title:
-    other: "Firefox {{.version}} サイト互換性情報"
-version_index_page_title_future:
+# Release index page
+release_index_page_title:
+    other: "Firefox {{.release}} サイト互換性情報"
+release_index_page_title_future:
     other: "今後予定されている変更"
-version_index_page_description:
-    other: '<time datetime="{{.date}}">{{.date_localized}}</time> に公開された Firefox {{.version}} に含まれる変更点に関する互換性情報を参照できます。'
-version_index_page_description_esr:
-    other: '<time datetime="{{.date}}">{{.date_localized}}</time> に公開された Firefox {{.version}} 延長サポート版 (ESR) に含まれる変更点に関する互換性情報を参照できます。'
-version_index_page_description_upcoming:
-    other: '現在 <a href="https://www.mozilla.org/firefox/channel/desktop/#{{.channel}}"><em>{{.channel_localized}}</em></a> チャンネルで提供され <time datetime="{{.date}}">{{.date_localized}}</time> 公開予定の Firefox {{.version}} に含まれる変更点に関する互換性情報を参照できます。'
-version_index_page_description_secondary:
+release_index_page_description:
+    other: '<time datetime="{{.date}}">{{.date_localized}}</time> に公開された Firefox {{.release}} に含まれる変更点に関する互換性情報を参照できます。'
+release_index_page_description_esr:
+    other: '<time datetime="{{.date}}">{{.date_localized}}</time> に公開された Firefox {{.release}} 延長サポート版 (ESR) に含まれる変更点に関する互換性情報を参照できます。'
+release_index_page_description_upcoming:
+    other: '現在 <a href="https://www.mozilla.org/firefox/channel/desktop/#{{.channel}}"><em>{{.channel_localized}}</em></a> チャンネルで提供され <time datetime="{{.date}}">{{.date_localized}}</time> 公開予定の Firefox {{.release}} に含まれる変更点に関する互換性情報を参照できます。'
+release_index_page_description_secondary:
     other: 'このリストは、さらなる変更が行われたり新たなリグレッションが発見された場合には更新されますので、ぜひ <a href="/ja/index.xml">サイトのフィード</a> を購読してください。'
-version_index_page_description_future:
-    other: 'Firefox の今後のバージョンで予定されている変更点に関する互換性情報を参照できます。このリストは、さらなる変更が計画された場合には更新されますので、<a href="/ja/index.xml">サイトのフィード</a> を購読し、最新情報を入手してください。今のうちに備えて、あなたのサイトをできる限り優れたものにしましょう！'
+release_index_page_description_future:
+    other: 'Firefox の今後のリリースで予定されている変更点に関する互換性情報を参照できます。このリストは、さらなる変更が計画された場合には更新されますので、<a href="/ja/index.xml">サイトのフィード</a> を購読し、最新情報を入手してください。今のうちに備えて、あなたのサイトをできる限り優れたものにしましょう！'
 
 # Category index page
 category_index_page_title:
@@ -173,17 +173,17 @@ status_index_page_title:
 # Single document page
 published:
     other: "公開日"
-versions:
-    other: "バージョン"
+releases:
+    other: "リリース"
 categories:
     other: "カテゴリー"
 description:
     other: "概要"
 references:
     other: "参考資料"
-docs_for_version:
-    other: "Firefox {{.version}} 互換性情報"
-docs_for_version_future:
+docs_for_release:
+    other: "Firefox {{.release}} 互換性情報"
+docs_for_future_release:
     other: "今後予定されている変更"
 
 # Single blog page

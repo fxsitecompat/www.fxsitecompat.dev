@@ -3,7 +3,7 @@ title: "SMIL `accessKey` support has been removed"
 date: "2017-12-12T15:31:00-05:00"
 categories: ["svg"]
 tags: []
-versions: ["59", "60-esr"]
+releases: ["59", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1423098"
       title: "Bug 1423098 - Remove support for SMIL's accessKey feature"

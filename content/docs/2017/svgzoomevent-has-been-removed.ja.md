@@ -3,7 +3,7 @@ title: "`SVGZoomEvent` が削除されました"
 date: "2017-04-05T16:56:00-04:00"
 categories: ["dom", "svg"]
 tags: []
-versions: ["55", "60-esr"]
+releases: ["55", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1314388"
       title: "Bug 1314388 - Remove SVGZoomEvent"

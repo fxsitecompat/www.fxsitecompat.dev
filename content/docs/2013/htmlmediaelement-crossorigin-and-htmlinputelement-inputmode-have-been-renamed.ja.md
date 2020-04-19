@@ -3,7 +3,7 @@ title: "`HTMLMediaElement.crossorigin` と `HTMLInputElement.inputmode` が改�
 date: "2013-02-24T03:44:31-05:00"
 categories: ["audio-video", "dom"]
 tags: []
-versions: ["22", "24-esr"]
+releases: ["22", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=847370"
       title: "Bug 847370 – HTMLMediaElement - crossOrigin vs crossorigin"

@@ -3,7 +3,7 @@ title: "様々な古い MathML 機能が廃止予定となりました"
 date: "2019-10-07T08:03:00-04:00"
 categories: ["misc"]
 tags: []
-versions: ["71"]
+releases: ["71"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1548522"
       title: "Bug 1548522 - Remove support for the menclose's \"radical\" notation"

@@ -4,8 +4,8 @@ date: "2016-12-04T15:30:00-05:00"
 ---
 Mozilla は [Firefox 51 Beta と 52 Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) をそれぞれ 11 月 16 日と 21 日にリリースしました。このブログ記事はもっと早く投稿すべきでした。今週行われる Mozilla All Hands (当プロジェクトのマネージャー [Kohei](https://mozillians.org/u/kohei.yoshino/) はボランティアとして参加します) やそれに続くホリデーシーズンのため、[Firefox 51 は 1 月下旬まで公開されません](https://release.mozilla.org/firefox/50/2016/11/22/Firefox50-planned-dot-release.html)。それはともかく、各バージョンのサイト互換性情報を見てみてください。
 
-* [Firefox 51 サイト互換性情報](https://www.fxsitecompat.dev/ja/versions/51/)
-* [Firefox 52 サイト互換性情報](https://www.fxsitecompat.dev/ja/versions/52/)
+* [Firefox 51 サイト互換性情報](https://www.fxsitecompat.dev/ja/releases/51/)
+* [Firefox 52 サイト互換性情報](https://www.fxsitecompat.dev/ja/releases/52/)
 
 以下にいくつか重要なポイントをまとめました。
 

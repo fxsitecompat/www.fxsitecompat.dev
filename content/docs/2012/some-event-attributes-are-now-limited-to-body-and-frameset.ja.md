@@ -3,7 +3,7 @@ title: "一部のイベント属性が `body`/`frameset` 要素専用になり�
 date: "2012-12-03T03:54:45-05:00"
 categories: ["dom"]
 tags: []
-versions: ["19", "24-esr"]
+releases: ["19", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=809765"
       title: "Bug 809765 – Stop compiling the beforeunload attribute into an event handler on elements other than <body> and <frameset>"

@@ -3,7 +3,7 @@ title: "`@-moz-document url-prefix()` CSS ハックは使えなくなります"
 date: "2018-06-05T17:57:00-04:00"
 categories: ["css", "privacy-security"]
 tags: []
-versions: ["future"]
+releases: ["future"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1449753"

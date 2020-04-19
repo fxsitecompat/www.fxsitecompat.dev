@@ -3,7 +3,7 @@ title: "`FileReaderSync` is no longer available in service workers"
 date: "2018-05-08T19:17:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["61", "68-esr"]
+releases: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1405552"
       title: "Bug 1405552 - Do not expose FileReaderSync to serviceworkers, to match the spec."

@@ -3,7 +3,7 @@ title: "`window.showModalDialog()` が削除されました"
 date: "2016-06-08T09:07:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["48", "52-esr"]
+releases: ["48", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=981796"

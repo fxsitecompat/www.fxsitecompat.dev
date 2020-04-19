@@ -3,7 +3,7 @@ title: "IME 変換中にも `keydown`、`keyup` イベントが発生するよ�
 date: "2018-12-11T09:03:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["65", "68-esr"]
+releases: ["65", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=354358"
       title: "Bug 354358 - keydown/keyup events should be dispatched even during composition (but keypress shouldn't be so)"

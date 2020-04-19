@@ -3,7 +3,7 @@ title: "Documents in `<frame>` or `<object>` can no longer request fullscreen"
 date: "2015-10-13T02:44:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["44", "45-esr"]
+releases: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1212299"
       title: "Bug 1212299 - Forbid documents inside <frame> and <object> from requesting fullscreen"

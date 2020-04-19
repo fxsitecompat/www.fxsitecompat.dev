@@ -3,7 +3,7 @@ title: "`<style>` の `type` 属性が厳密に解釈されるようになりま
 date: "2020-03-11T01:27:00-04:00"
 categories: ["css", "html"]
 tags: []
-versions: ["75"]
+releases: ["75"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1614329"
       title: "Bug 1614329 - style element's type attribute isn't parsed per the HTML spec rules"

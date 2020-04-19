@@ -3,7 +3,7 @@ title: "`-moz-touch-enabled` media feature has been removed"
 date: "2019-12-07T17:00:00-05:00"
 categories: ["css"]
 tags: []
-versions: ["73"]
+releases: ["73"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1486964"
       title: "Bug 1486964 - Drop -moz-touch-enabled"

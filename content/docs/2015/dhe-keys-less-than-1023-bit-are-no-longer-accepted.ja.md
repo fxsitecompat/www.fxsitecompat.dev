@@ -3,7 +3,7 @@ title: "1023 ビット未満の DHE キーは受け入れられなくなりま�
 date: "2015-03-17T14:02:59-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["39", "45-esr"]
+releases: ["39", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1138554"

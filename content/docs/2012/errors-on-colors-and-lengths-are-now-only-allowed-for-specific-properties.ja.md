@@ -3,7 +3,7 @@ title: "色や長さに関する誤記の許容が特定のプロパティに制
 date: "2012-12-03T03:50:54-05:00"
 categories: ["css"]
 tags: []
-versions: ["17"]
+releases: ["17"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=774122"

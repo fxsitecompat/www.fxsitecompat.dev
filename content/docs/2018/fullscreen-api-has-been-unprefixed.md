@@ -3,7 +3,7 @@ title: "Fullscreen API has been unprefixed"
 date: "2018-09-23T00:24:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["64", "68-esr"]
+releases: ["64", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1188256"
       title: "Bug 1188256 - Make Element.requestFullscreen() return a promise"

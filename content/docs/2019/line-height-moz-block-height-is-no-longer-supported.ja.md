@@ -3,7 +3,7 @@ title: "`line-height:-moz-block-height` への対応が廃止されました"
 date: "2019-05-28T04:06:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["68", "68-esr"]
+releases: ["68", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1540093"
       title: "Bug 1540093 - Unship line-height: -moz-block-height."

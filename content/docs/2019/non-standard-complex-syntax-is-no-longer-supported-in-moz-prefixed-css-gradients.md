@@ -3,7 +3,7 @@ title: "Non-standard complex syntax is no longer supported in `-moz`-prefixed CS
 date: "2019-06-09T21:50:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["68", "68-esr"]
+releases: ["68", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1547939"
       title: "Bug 1547939 - Consider simplifying -moz-linear-gradient parsing"

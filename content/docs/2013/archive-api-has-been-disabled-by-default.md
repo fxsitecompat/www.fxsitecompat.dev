@@ -3,7 +3,7 @@ title: "Archive API has been disabled by default"
 date: "2013-01-03T03:50:54-05:00"
 categories: ["dom"]
 tags: []
-versions: ["17"]
+releases: ["17"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=795930"
       title: "Bug 795930 – ArchiveReader should live behind a pref"

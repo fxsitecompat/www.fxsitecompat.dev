@@ -3,7 +3,7 @@ title: "FTP 対応が廃止されます"
 date: "2020-04-10T02:21:00-04:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["future"]
+releases: ["future"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1570155"
       title: "Bug 1570155 - How many people use FTP?"

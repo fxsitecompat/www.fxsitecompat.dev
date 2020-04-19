@@ -3,7 +3,7 @@ title: "Firefox 55 では特定のサイトでファイルアップロードが�
 date: "2017-08-22T13:24:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["55"]
+releases: ["55"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1383518"

@@ -3,7 +3,7 @@ title: "`FileReader.readAsText()` fails when file is updated after initial readi
 date: "2016-04-06T18:19:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["45", "45-esr"]
+releases: ["45", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1260606"

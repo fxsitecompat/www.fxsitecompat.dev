@@ -3,7 +3,7 @@ title: "Whitespaces are no longer allowed in cookie names"
 date: "2016-01-31T02:11:00-05:00"
 categories: ["javascript", "networking"]
 tags: []
-versions: ["44"]
+releases: ["44"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1244505"

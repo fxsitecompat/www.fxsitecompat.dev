@@ -3,7 +3,7 @@ title: "`scrollX`、`scrollY`、`pageXOffset`、`pageYOffset` が整数の代わ
 date: "2017-03-18T22:09:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["55", "60-esr"]
+releases: ["55", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1151421"
       title: "Bug 1151421 - Make window.pageYOffset/pageXOffset/scrollX/scrollY double, not integers"

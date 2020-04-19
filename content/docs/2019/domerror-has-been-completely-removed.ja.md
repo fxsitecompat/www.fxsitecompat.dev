@@ -3,7 +3,7 @@ title: "`DOMError` が完全に削除されました"
 date: "2019-06-17T18:30:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["69"]
+releases: ["69"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1558387"
       title: "Bug 1558387 - Remove DOMError constructor"

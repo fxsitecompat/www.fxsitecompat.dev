@@ -3,7 +3,7 @@ title: "`DataView.length` が `3` から `1` に変わりました"
 date: "2018-12-21T04:02:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["65", "68-esr"]
+releases: ["65", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1334813"
       title: "Bug 1334813 - Should DataView.length be 1 ?"

@@ -3,7 +3,7 @@ title: "`Headers.getAll()` has been removed in favour of `get()` now returning a
 date: "2016-11-16T15:51:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["52", "52-esr"]
+releases: ["52", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1278275"
       title: "Bug 1278275 - Headers.get should incorporate getAll behaviour"

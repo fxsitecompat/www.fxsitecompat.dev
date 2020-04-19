@@ -3,7 +3,7 @@ title: "WebRTC SDP オファーに `mid` プロパティが必須となりまし
 date: "2018-10-16T10:12:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["63", "68-esr"]
+releases: ["63", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1483338"

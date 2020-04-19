@@ -3,7 +3,7 @@ title: "Deferred scripts will now be executed after stylesheets are loaded"
 date: "2020-04-06T23:15:00-04:00"
 categories: ["css", "html", "javascript"]
 tags: []
-versions: ["76"]
+releases: ["76"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1622235"
       title: "Bug 1622235 - <script defer> should wait for stylesheet loads."

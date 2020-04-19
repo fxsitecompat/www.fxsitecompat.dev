@@ -3,7 +3,7 @@ title: "SHA-1 support has been deprecated"
 date: "2014-12-19T11:15:21-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["36", "38-esr"]
+releases: ["36", "38-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1068949"

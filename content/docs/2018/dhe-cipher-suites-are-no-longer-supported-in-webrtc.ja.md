@@ -3,7 +3,7 @@ title: "WebRTC における DHE 暗号スイート対応が廃止されました
 date: "2018-10-27T01:09:00-04:00"
 categories: ["audio-video", "privacy-security"]
 tags: []
-versions: ["65", "68-esr"]
+releases: ["65", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1227519"
       title: "Bug 1227519 - Establish deprecation date for DHE cipher suites in WebRTC"

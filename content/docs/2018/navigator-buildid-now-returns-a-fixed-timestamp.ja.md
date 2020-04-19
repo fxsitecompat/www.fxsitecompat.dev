@@ -3,7 +3,7 @@ title: "`navigator.buildID` が固定タイムスタンプを返すようにな�
 date: "2018-10-10T03:44:00-04:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["64", "68-esr"]
+releases: ["64", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=583181"
       title: "Bug 583181 - Don't reveal navigator.buildID to every site on the web"

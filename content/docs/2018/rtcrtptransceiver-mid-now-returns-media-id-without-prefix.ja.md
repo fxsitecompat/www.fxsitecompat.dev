@@ -3,7 +3,7 @@ title: "`RTCRtpTransceiver.mid` が接頭辞なしのメディア ID を返す�
 date: "2018-08-31T04:03:00-04:00"
 categories: ["audio-video", "dom"]
 tags: []
-versions: ["63", "68-esr"]
+releases: ["63", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1476600"

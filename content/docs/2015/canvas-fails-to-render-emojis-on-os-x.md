@@ -3,7 +3,7 @@ title: "Canvas fails to render emojis on OS X"
 date: "2015-10-03T22:54:00-04:00"
 categories: ["canvas-webgl"]
 tags: []
-versions: ["41", "45-esr"]
+releases: ["41", "45-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1209480"

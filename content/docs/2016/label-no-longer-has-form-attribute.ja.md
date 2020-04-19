@@ -3,7 +3,7 @@ title: "`<label>` の `form` 属性が廃止されました"
 date: "2016-06-03T04:39:00-04:00"
 categories: ["dom", "html"]
 tags: []
-versions: ["49", "52-esr"]
+releases: ["49", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1268852"
       title: "Bug 1268852 - Spec change: Remove <label form> and redefine label.form IDL attribute"

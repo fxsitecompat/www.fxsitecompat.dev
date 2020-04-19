@@ -3,7 +3,7 @@ title: "Background images specified with `-moz-element()` are not updated"
 date: "2012-12-03T03:54:45-05:00"
 categories: ["css"]
 tags: []
-versions: ["19", "24-esr"]
+releases: ["19", "24-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=909157"

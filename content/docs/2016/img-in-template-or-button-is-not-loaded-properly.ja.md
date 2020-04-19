@@ -3,7 +3,7 @@ title: "`<template>` や `<button>` 内の `<img>` が正しく読み込まれ�
 date: "2016-12-04T21:15:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["50"]
+releases: ["50"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1317901"

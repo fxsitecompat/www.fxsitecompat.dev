@@ -3,7 +3,7 @@ title: "`SVGViewElement.viewTarget` が削除されました"
 date: "2018-04-25T18:18:00-04:00"
 categories: ["dom", "svg"]
 tags: []
-versions: ["61", "68-esr"]
+releases: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1455763"
       title: "Bug 1455763 - Remove SVGViewElement.viewTarget"

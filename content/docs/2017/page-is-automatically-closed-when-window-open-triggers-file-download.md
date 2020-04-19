@@ -3,7 +3,7 @@ title: "Page is automatically closed when `window.open()` triggers file download
 date: "2017-06-20T19:43:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["54"]
+releases: ["54"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1373109"

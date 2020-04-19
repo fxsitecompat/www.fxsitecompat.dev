@@ -3,7 +3,7 @@ title: "`String` 検索メソッドから非標準 `flags` 引数が削除され
 date: "2016-05-10T10:34:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["49", "52-esr"]
+releases: ["49", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1108382"

@@ -3,7 +3,7 @@ title: "UA 文字列にパッチレベルのバージョン番号まで含まれ
 date: "2012-10-09T06:00:00-04:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["16"]
+releases: ["16"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=728831"
       title: "Bug 728831 – Don’t expose the Firefox patch level (13.X.Y) in the UA string, only show the major version (13.X)"

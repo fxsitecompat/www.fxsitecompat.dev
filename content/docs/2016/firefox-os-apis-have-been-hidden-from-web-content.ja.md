@@ -3,7 +3,7 @@ title: "Firefox OS API がウェブコンテンツから隠されました"
 date: "2016-03-16T12:14:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["48", "52-esr"]
+releases: ["48", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1043562"
       title: "Bug 1043562 - Remove the dom.mozContacts.enabled pref and hide the MozContact API from code with insufficient privileges"

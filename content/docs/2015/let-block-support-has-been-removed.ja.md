@@ -3,7 +3,7 @@ title: "`let` ブロック対応が削除されました"
 date: "2015-10-24T22:00:00-07:00"
 categories: ["javascript"]
 tags: []
-versions: ["44", "45-esr"]
+releases: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1167029"
       title: "Bug 1167029 - Remove SpiderMonkey support for let blocks"

@@ -3,7 +3,7 @@ title: "`this` in getter/setter doesn't work as expected in certain circumstance
 date: "2016-01-02T12:42:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["41"]
+releases: ["41"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1232269"

@@ -3,7 +3,7 @@ title: "Several non-standard `overflow` property values have been dropped"
 date: "2018-08-14T14:08:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["63", "68-esr"]
+releases: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1481125"
       title: "Bug 1481125 - Tracking -moz-scrollbars-none when creating webcompat issues."

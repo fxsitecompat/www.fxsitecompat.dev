@@ -3,7 +3,7 @@ title: "Geolocation, fullscreen, camera, mic, screen capture requests from cross
 date: "2020-01-05T20:13:00-05:00"
 categories: ["audio-video", "dom", "privacy-security"]
 tags: []
-versions: ["74"]
+releases: ["74"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1483631"

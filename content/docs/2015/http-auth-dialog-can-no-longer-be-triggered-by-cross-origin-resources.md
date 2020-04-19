@@ -3,7 +3,7 @@ title: "HTTP auth dialog can no longer be triggered by cross-origin resources"
 date: "2015-04-27T13:17:23-04:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["40"]
+releases: ["40"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=647010"

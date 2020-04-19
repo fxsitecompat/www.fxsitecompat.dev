@@ -3,7 +3,7 @@ title: "ES6 array methods have been added"
 date: "2013-07-14T19:12:37-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["25", "31-esr"]
+releases: ["25", "31-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=885553"

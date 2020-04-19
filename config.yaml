@@ -9,7 +9,7 @@ copyright: "Kohei Yoshino and individual contributors."
 
 taxonomies:
     category: "categories"
-    version: "versions"
+    release: "releases"
     status: "statuses"
 
 params:

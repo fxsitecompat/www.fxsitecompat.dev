@@ -3,7 +3,7 @@ title: "Legacy CSP implementation has been removed"
 date: "2014-07-22T05:06:26-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["33", "38-esr"]
+releases: ["33", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=949533"
       title: "Bug 949533 – Remove non-standard CSP parser and X-Content-Security-Policy header support"

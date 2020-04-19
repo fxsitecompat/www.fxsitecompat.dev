@@ -3,7 +3,7 @@ title: "参考: SSL ページでの非 SSL コンテンツの読み込みを禁�
 date: "2012-12-03T03:53:26-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["18", "24-esr"]
+releases: ["18", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=62178"
       title: "Bug 62178 – implement mechanism to prevent sending insecure requests from a secure context"

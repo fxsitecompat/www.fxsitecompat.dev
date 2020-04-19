@@ -3,7 +3,7 @@ title: "`grid-gap`、`grid-row-gap`、`grid-column-gap` プロパティの接頭
 date: "2018-05-07T13:51:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["61", "68-esr"]
+releases: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1398482"
       title: "Bug 1398482 - [css-grid] Drop the \"grid-\" prefix from the grid-gap, grid-row-gap, and grid-column-gap properties"

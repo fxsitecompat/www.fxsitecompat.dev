@@ -3,7 +3,7 @@ title: "Windows 64 ビット版 Firefox が正式公開、対応プラグイン�
 date: "2015-06-13T15:20:46-04:00"
 categories: ["plugins"]
 tags: []
-versions: ["43", "45-esr"]
+releases: ["43", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1180792"

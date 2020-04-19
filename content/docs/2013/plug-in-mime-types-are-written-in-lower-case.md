@@ -3,7 +3,7 @@ title: "Plug-in MIME types are written in lower-case"
 date: "2013-12-09T02:32:17-05:00"
 categories: ["dom", "plugins"]
 tags: []
-versions: ["28"]
+releases: ["28"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=206659"

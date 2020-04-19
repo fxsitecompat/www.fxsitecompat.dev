@@ -3,7 +3,7 @@ title: "`sidebar` link type is no longer supported"
 date: "2018-08-14T23:45:00-04:00"
 categories: ["html"]
 tags: []
-versions: ["63", "68-esr"]
+releases: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1452645"
       title: "Bug 1452645 - Remove \"Open in Sidebar\" feature"

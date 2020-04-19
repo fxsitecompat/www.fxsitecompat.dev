@@ -3,7 +3,7 @@ title: "Plug-in support has been dropped other than Flash"
 date: "2016-10-04T00:57:00-07:00"
 categories: ["plugins"]
 tags: []
-versions: ["52"]
+releases: ["52"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1269807"

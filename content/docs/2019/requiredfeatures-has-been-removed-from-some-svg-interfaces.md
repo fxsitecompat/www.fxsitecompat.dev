@@ -3,7 +3,7 @@ title: "`requiredFeatures` has been removed from some SVG interfaces"
 date: "2019-07-07T01:48:00-04:00"
 categories: ["svg"]
 tags: []
-versions: ["69"]
+releases: ["69"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1295404"
       title: "Bug 1295404 - remove requiredFeatures from SVGTests"

@@ -3,7 +3,7 @@ title: "WebVR API が安全でないサイト上では使用できなくなり�
 date: "2020-02-18T19:38:00-05:00"
 categories: ["misc", "privacy-security"]
 tags: []
-versions: ["73"]
+releases: ["73"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1381645"
       title: "Bug 1381645 - Restrict access to WebVR to HTTPS only sites."

@@ -3,7 +3,7 @@ title: "CSS 変数の接頭辞が変更されました"
 date: "2014-04-03T19:31:02-04:00"
 categories: ["css"]
 tags: []
-versions: ["31", "31-esr"]
+releases: ["31", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=985838"
       title: "Bug 985838 – change \"var-\" prefix of CSS Variables to \"--\""

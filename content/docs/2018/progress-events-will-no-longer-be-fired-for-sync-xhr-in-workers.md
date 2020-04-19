@@ -3,7 +3,7 @@ title: "`progress` events will no longer be fired for sync XHR in workers"
 date: "2018-09-06T01:36:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["63", "68-esr"]
+releases: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1459984"
       title: "Bug 1459984 - Avoid firing an event named progress with synchronous XMLHttpRequest"

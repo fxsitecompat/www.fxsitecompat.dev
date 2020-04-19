@@ -3,7 +3,7 @@ title: "透過 RGBA カラー値が `transparent` キーワードへ変換され
 date: "2017-02-21T18:30:00-05:00"
 categories: ["css", "dom"]
 tags: []
-versions: ["54", "60-esr"]
+releases: ["54", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1339394"
       title: "Bug 1339394 - Don't serialize transparent colors to \"transparent\" keyword in various cases"

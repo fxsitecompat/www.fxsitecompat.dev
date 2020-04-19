@@ -3,7 +3,7 @@ title: "E4X が無効化されました"
 date: "2012-12-03T03:50:54-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["17"]
+releases: ["17"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=778851"

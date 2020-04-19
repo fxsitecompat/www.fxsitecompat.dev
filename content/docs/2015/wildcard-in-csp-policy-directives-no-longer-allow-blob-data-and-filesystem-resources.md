@@ -3,7 +3,7 @@ title: "Wildcard in CSP policy directives no longer allows `blob:`, `data:` and 
 date: "2015-04-27T13:17:23-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["40", "45-esr"]
+releases: ["40", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1086999"

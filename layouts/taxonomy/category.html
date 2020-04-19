@@ -21,9 +21,9 @@
           <header>
             <h1 itemprop="name">{{ $title }}</h1>
             <p itemprop="description">{{ $description }}</p>
-          </header>{{ range $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}
+          </header>{{ range $.Site.Taxonomies.releases.Alphabetical.Reverse }}{{ $release := .Name }}
           <section>
-            <h2>{{ $.Scratch.Set "version" $version }}{{ partial "version-label/with-channel" $ }}</h2>
+            <h2>{{ $.Scratch.Set "release" $release }}{{ partial "release-label/with-channel" $ }}</h2>
             <ul>{{ range .Pages }}{{ if in .Params.categories $category }}
               <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}">{{ .Title | markdownify | replaceRE "([a-z])([A-Z\\.])" "$1<wbr>$2" | safeHTML }}</a></li>{{ end }}{{ end }}
             </ul>

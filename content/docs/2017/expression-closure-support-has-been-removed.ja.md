@@ -3,7 +3,7 @@ title: "式クロージャー対応が廃止されました"
 date: "2017-12-26T10:51:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["60", "60-esr"]
+releases: ["60", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1083458"
       title: "Bug 1083458 - Remove SpiderMonkey support for expression closures (shorthand function syntax)"

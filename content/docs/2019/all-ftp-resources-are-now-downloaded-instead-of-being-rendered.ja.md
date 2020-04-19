@@ -3,7 +3,7 @@ title: "すべての FTP リソースはレンダリングされずダウンロ�
 date: "2019-08-13T17:39:00-04:00"
 categories: ["networking"]
 tags: []
-versions: ["70"]
+releases: ["70"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1560699"
       title: "Bug 1560699 - Consider downloading ftp:// resources rather than rendering them."

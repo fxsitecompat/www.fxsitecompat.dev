@@ -4,8 +4,8 @@ date: "2016-03-11T22:01:00-05:00"
 ---
 Mozilla has shipped [Firefox 46 Beta and 47 Developer Edition](https://www.mozilla.org/firefox/channel/) today. Check out our [site compatibility documents](https://www.fxsitecompat.dev/en-CA/docs/) for each version and [let us know](https://www.fxsitecompat.dev/en-CA/contribute/) if you noticed any other changes.
 
-* [Firefox 46 Site Compatibility](https://www.fxsitecompat.dev/en-CA/versions/46/)
-* [Firefox 47 Site Compatibility](https://www.fxsitecompat.dev/en-CA/versions/47/)
+* [Firefox 46 Site Compatibility](https://www.fxsitecompat.dev/en-CA/releases/46/)
+* [Firefox 47 Site Compatibility](https://www.fxsitecompat.dev/en-CA/releases/47/)
 
 Firefox 45 released this Tuesday has at least 3 site compatibility regressions described in the following articles. If you encountered any other issues, ping us immediately.
 

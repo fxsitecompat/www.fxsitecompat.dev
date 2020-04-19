@@ -3,7 +3,7 @@ title: "`setAttributeNode` で作成され名前に大文字を含む属性に�
 date: "2015-10-22T22:14:00-07:00"
 categories: ["dom"]
 tags: []
-versions: ["38", "38-esr"]
+releases: ["38", "38-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1165851"

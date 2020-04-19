@@ -3,7 +3,7 @@ title: "RC4 support has been completely removed"
 date: "2016-11-17T20:01:00-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["50", "52-esr"]
+releases: ["50", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1268728"

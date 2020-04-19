@@ -3,7 +3,7 @@ title: "`CSSStyleDeclaration.getPropertyCSSValue()` has been deprecated"
 date: "2018-03-16T18:09:00-04:00"
 categories: ["css", "dom"]
 tags: []
-versions: ["61", "68-esr"]
+releases: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=474655"
       title: "Bug 474655 - warn when nsIDOMCSSStyleDeclaration::GetPropertyCSSValue is called"

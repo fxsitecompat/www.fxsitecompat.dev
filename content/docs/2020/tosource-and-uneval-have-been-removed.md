@@ -3,7 +3,7 @@ title: "`toSource()` and `uneval()` have been removed"
 date: "2020-01-11T01:37:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["74"]
+releases: ["74"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1565170"
       title: "Bug 1565170 - Disable toSource/uneval in non-chrome code"

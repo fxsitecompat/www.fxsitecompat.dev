@@ -3,7 +3,7 @@ title: "Serializing and transferring non-origin-clean `ImageBitmap` are now disa
 date: "2020-02-10T23:07:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["74"]
+releases: ["74"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1604694"
       title: "Bug 1604694 - Disallow serializing and transferring non-origin-clean ImageBitmap"

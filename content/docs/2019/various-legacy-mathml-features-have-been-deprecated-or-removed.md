@@ -3,7 +3,7 @@ title: "Various legacy MathML features have been deprecated or removed"
 date: "2019-09-05T01:34:00-04:00"
 categories: ["misc"]
 tags: []
-versions: ["70"]
+releases: ["70"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1548524"
       title: "Bug 1548524 - Remove attributes deprecated from MathML3"

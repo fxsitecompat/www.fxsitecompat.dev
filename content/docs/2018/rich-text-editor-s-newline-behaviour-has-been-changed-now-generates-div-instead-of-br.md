@@ -3,7 +3,7 @@ title: "Rich text editor's newline behaviour has been changed, now generates `<d
 date: "2018-02-16T10:30:00-05:00"
 categories: ["dom", "html"]
 tags: []
-versions: ["60", "60-esr"]
+releases: ["60", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1297414"
       title: "Bug 1297414 - Generate <p>/<div> for newlines, not <br> (defaultParagraphSeparator)"

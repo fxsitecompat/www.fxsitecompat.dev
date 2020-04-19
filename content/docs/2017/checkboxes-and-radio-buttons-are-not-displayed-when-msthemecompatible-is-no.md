@@ -3,7 +3,7 @@ title: "Checkboxes and radio buttons are not displayed when `MSThemeCompatible` 
 date: "2017-06-17T01:45:00-04:00"
 categories: ["html"]
 tags: []
-versions: ["54"]
+releases: ["54"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=169373"

@@ -3,7 +3,7 @@ title: "`display:-moz-box` と `::-moz-tree` 疑似要素が廃止されまし�
 date: "2018-10-10T07:46:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["64", "68-esr"]
+releases: ["64", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1496961"
       title: "Bug 1496961 - Let some XUL unshipping prefs ride the trains."

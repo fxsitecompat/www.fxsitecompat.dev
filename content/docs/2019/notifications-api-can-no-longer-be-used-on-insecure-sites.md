@@ -3,7 +3,7 @@ title: "Notifications API can no longer be used on insecure sites"
 date: "2019-05-13T01:47:00-04:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["67", "68-esr"]
+releases: ["67", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1429432"
       title: "Bug 1429432 - Consider making Notifications require SecureContext"

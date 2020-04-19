@@ -2,9 +2,9 @@
 title: "500 documents and beyond"
 date: "2016-03-24T21:56:00-04:00"
 ---
-In the last few days, we have analyzed a couple of new bugs filed for [Firefox 45](https://www.fxsitecompat.dev/en-CA/versions/45/), identified them as regressions, and posted documents on those issues. Consequently, our project has reached another milestone with [500 documents](https://www.fxsitecompat.dev/en-CA/docs/) as of today.
+In the last few days, we have analyzed a couple of new bugs filed for [Firefox 45](https://www.fxsitecompat.dev/en-CA/releases/45/), identified them as regressions, and posted documents on those issues. Consequently, our project has reached another milestone with [500 documents](https://www.fxsitecompat.dev/en-CA/docs/) as of today.
 
-That's a big number for the compatibility reports for one single software. That's a long journey of a legendary browser. That's a great hope for the maximum interoperability on the Web. Simply put, Firefox has dropped the most of the non-standard, legacy features over the last several years. While it still takes some time to solve the [rest](https://www.fxsitecompat.dev/en-CA/versions/future/), *we hope you will never see another 500 documents*.
+That's a big number for the compatibility reports for one single software. That's a long journey of a legendary browser. That's a great hope for the maximum interoperability on the Web. Simply put, Firefox has dropped the most of the non-standard, legacy features over the last several years. While it still takes some time to solve the [rest](https://www.fxsitecompat.dev/en-CA/releases/future/), *we hope you will never see another 500 documents*.
 
 So what's next?
 

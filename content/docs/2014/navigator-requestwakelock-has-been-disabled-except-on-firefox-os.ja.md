@@ -3,7 +3,7 @@ title: "`Navigator.requestWakeLock()` が Firefox OS 以外で無効化されま
 date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []
-versions: ["30", "31-esr"]
+releases: ["30", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=963366"
       title: "Bug 963366 – Hide navigator.requestWakeLock and MozWakeLock from the web except on Firefox OS"

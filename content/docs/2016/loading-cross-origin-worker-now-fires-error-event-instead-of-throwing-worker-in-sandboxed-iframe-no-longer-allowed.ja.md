@@ -3,7 +3,7 @@ title: "クロスオリジンの Worker 読み込みが例外の代わりに `er
 date: "2016-04-02T01:39:00-04:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["45", "45-esr"]
+releases: ["45", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1218433"

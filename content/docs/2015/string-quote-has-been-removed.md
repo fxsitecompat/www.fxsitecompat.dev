@@ -3,7 +3,7 @@ title: "`String.quote()` has been removed"
 date: "2015-01-16T09:37:54-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["37", "38-esr"]
+releases: ["37", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1103181"
       title: "Bug 1103181 – Remove String.prototype.quote"

@@ -3,7 +3,7 @@ title: "Prefixed Page Visibility API has been removed"
 date: "2016-09-07T18:11:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["51", "52-esr"]
+releases: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=812701"
       title: "Bug 812701 - Drop the prefixed version of visibility API"

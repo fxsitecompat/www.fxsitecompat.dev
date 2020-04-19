@@ -3,7 +3,7 @@ title: "Firefox 41 以降で MP3 ストリーミング再生に問題が生じ�
 date: "2016-01-02T13:37:00-05:00"
 categories: ["audio-video"]
 tags: []
-versions: ["41"]
+releases: ["41"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1222866"

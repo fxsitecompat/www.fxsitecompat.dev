@@ -3,7 +3,7 @@ title: "`CSSRule.cssText` が接頭辞なしの `writing-mode` 関連プロパ�
 date: "2015-09-22T11:24:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["42", "45-esr"]
+releases: ["42", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1118103"
       title: "Bug 1118103 - swap the aliasing direction of -moz-margin-start <-> margin-inline-start etc."

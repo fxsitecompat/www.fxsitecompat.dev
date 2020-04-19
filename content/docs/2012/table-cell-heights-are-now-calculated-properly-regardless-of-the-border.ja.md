@@ -3,7 +3,7 @@ title: "ボーダーによってテーブルセルの高さが変わる問題が
 date: "2012-10-09T06:00:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["16"]
+releases: ["16"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=248239"
       title: "Bug 248239 – borders and padding on the top and bottom of table cells reduce the height"

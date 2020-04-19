@@ -3,7 +3,7 @@ title: "Global variables with the same name as `window` properties now call the 
 date: "2014-04-03T19:31:02-04:00"
 categories: ["dom"]
 tags: []
-versions: ["31", "31-esr"]
+releases: ["31", "31-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=932322"

@@ -3,7 +3,7 @@ title: "`getComputedStyle()` がスタイルを取得できない場合に `null
 date: "2018-08-15T02:35:00-04:00"
 categories: ["css", "dom"]
 tags: []
-versions: ["62", "68-esr"]
+releases: ["62", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1467722"

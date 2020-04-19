@@ -3,7 +3,7 @@ title: "3-valued CSS position is no longer supported except for `background-posi
 date: "2019-07-11T23:27:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["70"]
+releases: ["70"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1559276"
       title: "Bug 1559276 - Retiring support for 3-valued <position> (excluding background)"

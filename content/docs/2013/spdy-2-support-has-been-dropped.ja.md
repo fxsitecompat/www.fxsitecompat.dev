@@ -3,7 +3,7 @@ title: "SPDY/2 対応が削除されました"
 date: "2013-12-09T02:32:17-05:00"
 categories: ["networking"]
 tags: []
-versions: ["28", "31-esr"]
+releases: ["28", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=912550"
       title: "Bug 912550 – remove spdy/2 support"

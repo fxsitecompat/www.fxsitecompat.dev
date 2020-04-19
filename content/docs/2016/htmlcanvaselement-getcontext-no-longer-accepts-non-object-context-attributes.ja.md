@@ -3,7 +3,7 @@ title: "`HTMLCanvasElement.getContext()` がオブジェクトでないコンテ
 date: "2016-02-07T23:01:00-05:00"
 categories: ["canvas-webgl"]
 tags: []
-versions: ["44"]
+releases: ["44"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=645792"

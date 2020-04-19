@@ -3,7 +3,7 @@ title: "`getElementsByTagName()` が `tagName` ではなく `localName` に一�
 date: "2015-10-23T02:32:00-07:00"
 categories: ["dom"]
 tags: []
-versions: ["44"]
+releases: ["44"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=492933"

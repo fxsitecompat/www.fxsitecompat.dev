@@ -3,7 +3,7 @@ title: "専用 Worker は、埋め込み型を除き、親ドキュメントか�
 date: "2016-03-13T11:59:00-04:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["45", "45-esr"]
+releases: ["45", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1223647"

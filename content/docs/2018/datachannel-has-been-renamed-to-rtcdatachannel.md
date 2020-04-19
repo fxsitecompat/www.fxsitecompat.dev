@@ -3,7 +3,7 @@ title: "`DataChannel` has been renamed to `RTCDataChannel`"
 date: "2018-03-03T11:46:00-05:00"
 categories: ["audio-video", "dom"]
 tags: []
-versions: ["60", "60-esr"]
+releases: ["60", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1173851"
       title: "Bug 1173851 - Rename DataChannel to RTCDataChannel per specification"

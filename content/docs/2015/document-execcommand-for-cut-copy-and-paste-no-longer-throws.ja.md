@@ -3,7 +3,7 @@ title: "`document.execCommand()` が切り取り、コピー、貼り付けで�
 date: "2015-06-13T15:20:46-04:00"
 categories: ["dom"]
 tags: []
-versions: ["41", "45-esr"]
+releases: ["41", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1012662"
       title: "Bug 1012662 - Allow document.execCommand(\"cut\"/\"copy\") to be used within the context of user generated events"

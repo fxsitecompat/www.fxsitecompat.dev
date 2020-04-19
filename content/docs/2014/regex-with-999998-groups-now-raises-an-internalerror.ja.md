@@ -3,7 +3,7 @@ title: "999998 以上のグループを持つ正規表現が `InternalError` を
 date: "2014-02-07T11:57:09-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["29"]
+releases: ["29"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=953013"

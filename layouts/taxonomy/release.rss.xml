@@ -1,7 +1,7 @@
-{{ $version := .Title | urlize | lower }}
+{{ $release := .Title | urlize | lower }}
 <feed xmlns="http://www.w3.org/2005/Atom">
 {{ partial "feed/head" . }}
   <title>{{ .Title }}</title>
-  <subtitle>{{ with index $.Site.Data.firefox.versions $version }}{{ printf "channel_%s" . | i18n }}{{ end }}</subtitle>
+  <subtitle>{{ with index $.Site.Data.firefox.releases $release }}{{ printf "channel_%s" . | i18n }}{{ end }}</subtitle>
 {{ range first 50 (where .Data.Pages "Section" "ne" "").ByDate.Reverse }}{{ partial "feed/entry" . }}{{ end }}
 </feed>

@@ -3,7 +3,7 @@ title: "WebRTC サイマルキャスト属性内の `pt=` と `rid=` は非対�
 date: "2019-10-09T23:17:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["72"]
+releases: ["72"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1225877"

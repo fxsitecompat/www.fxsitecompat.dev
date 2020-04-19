@@ -3,7 +3,7 @@ title: "`window.content` が削除されます"
 date: "2017-09-13T07:19:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["future"]
+releases: ["future"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=864845"
       title: "Bug 864845 - Make window.content chrome-only in nightly"

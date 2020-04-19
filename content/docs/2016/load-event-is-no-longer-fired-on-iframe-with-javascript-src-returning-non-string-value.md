@@ -3,7 +3,7 @@ title: "`load` event is no longer fired on `<iframe>` with JavaScript `src` retu
 date: "2016-10-16T01:05:00-04:00"
 categories: ["dom", "javascript"]
 tags: []
-versions: ["49"]
+releases: ["49"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1268047"

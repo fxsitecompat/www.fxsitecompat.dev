@@ -3,7 +3,7 @@ title: "SSL ページ上での非 SSL アクティブコンテンツは初期設
 date: "2013-04-06T04:52:59-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["23", "24-esr"]
+releases: ["23", "24-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=834836"

@@ -3,7 +3,7 @@ title: "`feed`、`pcast` 両プロトコルへの対応が打ち切られまし�
 date: "2017-12-26T10:36:00-05:00"
 categories: ["misc"]
 tags: []
-versions: ["59", "60-esr"]
+releases: ["59", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1420622"
       title: "Bug 1420622 - Remove Feed and Pcast related protocols"

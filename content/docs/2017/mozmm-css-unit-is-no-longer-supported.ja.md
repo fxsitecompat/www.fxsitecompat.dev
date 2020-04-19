@@ -3,7 +3,7 @@ title: "`mozmm` CSS 単位への対応が打ち切られました"
 date: "2017-11-15T11:25:00-05:00"
 categories: ["css"]
 tags: []
-versions: ["59", "60-esr"]
+releases: ["59", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1416564"
       title: "Bug 1416564 - Try to remove the mozmm CSS unit"

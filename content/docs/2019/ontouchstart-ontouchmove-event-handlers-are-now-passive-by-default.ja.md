@@ -3,7 +3,7 @@ title: "`ontouchstart`、`ontouchmove` イベントハンドラーが標準で�
 date: "2019-09-04T23:51:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["70"]
+releases: ["70"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1574223"
       title: "Bug 1574223 - Consider treating document level ontouchmove as passive"

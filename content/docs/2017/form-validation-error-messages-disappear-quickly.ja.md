@@ -3,7 +3,7 @@ title: "フォームバリデーションエラーメッセージが即座に消
 date: "2017-04-24T00:42:00-04:00"
 categories: ["dom", "html"]
 tags: []
-versions: ["53"]
+releases: ["53"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1358487"

@@ -3,7 +3,7 @@ title: "`for-each-in` ループ対応が廃止されました"
 date: "2017-08-08T07:32:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["57", "60-esr"]
+releases: ["57", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1293205"
       title: "Bug 1293205 - Warn about non-standard for-each regardless of JS version number"

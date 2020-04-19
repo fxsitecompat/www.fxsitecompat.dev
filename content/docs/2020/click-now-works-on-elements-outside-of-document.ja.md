@@ -3,7 +3,7 @@ title: "`click()` が `document` 外の要素上でも動作するようにな�
 date: "2020-02-17T23:48:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["75"]
+releases: ["75"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1610821"
       title: "Bug 1610821 - Ensure click() works on input elements which are disconnected from a document"

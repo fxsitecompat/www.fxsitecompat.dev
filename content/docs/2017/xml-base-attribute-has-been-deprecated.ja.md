@@ -3,7 +3,7 @@ title: "`xml:base` 属性が廃止予定となりました"
 date: "2017-02-21T20:16:00-05:00"
 categories: ["misc"]
 tags: []
-versions: ["53", "60-esr"]
+releases: ["53", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=903372"
       title: "Bug 903372 - Remove support for xml:base"

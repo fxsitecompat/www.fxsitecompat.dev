@@ -3,7 +3,7 @@ title: "Equifax 1024 ビットルート証明書への信頼が打ち切られ�
 date: "2015-10-24T22:41:00-07:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["44", "45-esr"]
+releases: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1156844"
       title: "Bug 1156844 - Turn off Trust bits for Equifax Secure Certificate Authority 1024-bit root certificate"

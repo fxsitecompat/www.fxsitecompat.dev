@@ -8,7 +8,7 @@
     </author>{{ end }}
     <content type="html">{{ "<![CDATA[" | safeHTML }}{{ if eq .Section "docs" }}
       <p>
-        <strong>{{ i18n "versions" }}</strong>: {{ range $i, $version := .Params.versions }}{{ if $i }}, {{ end }}<a href="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/versions/{{ $version }}/">{{ $.Scratch.Set "version" $version }}{{ partial "version-label/without-channel" $ }}</a>{{ end }}<br>
+        <strong>{{ i18n "releases" }}</strong>: {{ range $i, $release := .Params.releases }}{{ if $i }}, {{ end }}<a href="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/releases/{{ $release }}/">{{ $.Scratch.Set "release" $release }}{{ partial "release-label/without-channel" $ }}</a>{{ end }}<br>
         <strong>{{ i18n "categories" }}</strong>: {{ range $i, $category := .Params.categories }}{{ if $i }}, {{ end }}<a href="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/categories/{{ $category }}/">{{ replace $category "-" "_" | printf "category_%s" | i18n }}</a>{{ end }}<br>
       </p>
       <h2>{{ i18n "description" }}</h2>

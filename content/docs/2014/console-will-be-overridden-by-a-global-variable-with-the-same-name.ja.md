@@ -3,7 +3,7 @@ title: "`console` が同名のグローバル変数によって上書きされ�
 date: "2014-03-21T04:50:04-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["30"]
+releases: ["30"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=965860"

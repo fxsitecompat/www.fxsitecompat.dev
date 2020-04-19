@@ -3,7 +3,7 @@ title: "Workers will no longer dispatch `close` event"
 date: "2016-09-02T03:32:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["51", "52-esr"]
+releases: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=790919"
       title: "Bug 790919 - Don't dispatch close event, and remove onclose"

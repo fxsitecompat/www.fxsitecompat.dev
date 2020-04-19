@@ -3,7 +3,7 @@ title: "Legacy generator function is no longer allowed in method definitions"
 date: "2016-08-08T08:58:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["51", "52-esr"]
+releases: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1199296"
       title: "Bug 1199296 - Don't allow legacy generator yield in method definitions"

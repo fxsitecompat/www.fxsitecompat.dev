@@ -3,7 +3,7 @@ title: "MathML `<mfenced>` 要素が廃止されました"
 date: "2020-01-05T17:02:00-05:00"
 categories: ["misc"]
 tags: []
-versions: ["73"]
+releases: ["73"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1603773"
       title: "Bug 1603773 - Disable the MathML mfenced element by default in all builds"

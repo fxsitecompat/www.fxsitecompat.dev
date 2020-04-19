@@ -3,7 +3,7 @@ title: "`Array.values()` が再度有効化されました"
 date: "2018-02-11T00:08:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["60", "60-esr"]
+releases: ["60", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1420101"
       title: "Bug 1420101 - Array.prototype.values() does not exist"

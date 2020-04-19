@@ -3,7 +3,7 @@ title: "`text-align-last` has been unprefixed"
 date: "2016-05-30T09:38:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["49", "52-esr"]
+releases: ["49", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1039541"
       title: "Bug 1039541 - Unprefix -moz-text-align-last"

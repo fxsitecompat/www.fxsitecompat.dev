@@ -3,7 +3,7 @@ title: "一部の暗号スイートが無効化されました"
 date: "2014-07-22T05:06:26-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["33", "38-esr"]
+releases: ["33", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1036765"
       title: "Bug 1036765 – Disable cipher suites that are not in the \"Browser Cipher Suite\" proposal that are still enabled"

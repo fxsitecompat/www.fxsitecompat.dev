@@ -3,7 +3,7 @@ title: "Improved JavaScript error message breaks code relying on the legacy form
 date: "2018-09-22T14:42:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["63"]
+releases: ["63"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1259822"

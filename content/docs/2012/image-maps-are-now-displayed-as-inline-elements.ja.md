@@ -3,7 +3,7 @@ title: "イメージマップがインライン要素として表示されるよ
 date: "2012-12-03T03:50:54-05:00"
 categories: ["css"]
 tags: []
-versions: ["17"]
+releases: ["17"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=607267"
       title: "Bug 607267 – Image maps are display:block, but the HTML spec says they should be inline"

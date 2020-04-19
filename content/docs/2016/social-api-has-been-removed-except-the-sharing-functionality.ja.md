@@ -3,7 +3,7 @@ title: "共有機能以外の Social API が削除されました"
 date: "2016-08-15T14:58:00-04:00"
 categories: ["misc"]
 tags: []
-versions: ["51", "52-esr"]
+releases: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1289549"
       title: "Bug 1289549 - SocialAPI deprecation"

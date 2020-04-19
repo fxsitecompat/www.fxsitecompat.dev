@@ -3,7 +3,7 @@ title: "`pixelUnitToMillimeterX` and similar properties have been removed from `
 date: "2018-04-22T17:47:00-04:00"
 categories: ["dom", "svg"]
 tags: []
-versions: ["61", "68-esr"]
+releases: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1133172"
       title: "Bug 1133172 - remove SVGSVGElement.{pixel,screenPixel}UnitToMillimeter{X,Y}"

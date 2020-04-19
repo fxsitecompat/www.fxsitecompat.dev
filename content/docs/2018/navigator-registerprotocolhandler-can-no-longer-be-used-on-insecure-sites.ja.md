@@ -3,7 +3,7 @@ title: "`navigator.registerProtocolHandler()` が安全でないサイトでは�
 date: "2018-05-11T14:47:00-04:00"
 categories: ["html", "privacy-security"]
 tags: []
-versions: ["62", "68-esr"]
+releases: ["62", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1460506"
       title: "Bug 1460506 - registerProtocolHandler require SecureContext in stable"

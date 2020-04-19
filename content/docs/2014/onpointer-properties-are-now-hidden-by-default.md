@@ -3,7 +3,7 @@ title: "`onpointer*` properties are now hidden by default"
 date: "2014-09-01T22:12:15-04:00"
 categories: ["dom"]
 tags: []
-versions: ["34", "38-esr"]
+releases: ["34", "38-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1017086"

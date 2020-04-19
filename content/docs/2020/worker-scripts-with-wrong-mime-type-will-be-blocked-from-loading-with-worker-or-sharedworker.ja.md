@@ -3,7 +3,7 @@ title: "誤った MIME タイプの Worker スクリプトは `Worker()` や `Sh
 date: "2020-02-17T15:07:00-04:00"
 categories: ["dom", "javascript", "privacy-security"]
 tags: []
-versions: ["75"]
+releases: ["75"]
 statuses: "postponed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1523706"

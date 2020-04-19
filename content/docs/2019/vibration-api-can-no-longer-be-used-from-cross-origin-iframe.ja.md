@@ -3,7 +3,7 @@ title: "Vibration API がクロスオリジン `<iframe>` から使用できな�
 date: "2019-11-13T07:53:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["72"]
+releases: ["72"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1591113"
       title: "Bug 1591113 - Remove support for third-party vibrate"

@@ -3,7 +3,7 @@ title: "1024 ビット SSL 証明書の信頼が打ち切られました"
 date: "2015-02-27T04:21:22-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["38", "38-esr"]
+releases: ["38", "38-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=881553"

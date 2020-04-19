@@ -3,7 +3,7 @@ title: "Notification permission requests from cross-origin `<iframe>` are now di
 date: "2019-08-13T14:24:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["70"]
+releases: ["70"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1560741"
       title: "Bug 1560741 - Disallow notification permission requests from cross-origin iframes"

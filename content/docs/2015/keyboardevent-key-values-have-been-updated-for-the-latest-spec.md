@@ -3,7 +3,7 @@ title: "`KeyboardEvent.key` values have been updated for the latest spec"
 date: "2015-01-16T09:37:54-05:00"
 categories: ["dom"]
 tags: []
-versions: ["37", "38-esr"]
+releases: ["37", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=900372"
       title: "Bug 900372 – Update key names for the latest D3E draft"

@@ -3,7 +3,7 @@ title: "Flash Player を常に有効化することができなくなりまし�
 date: "2019-06-15T23:03:00-04:00"
 categories: ["plugins"]
 tags: []
-versions: ["69"]
+releases: ["69"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1519434"
       title: "Bug 1519434 - Remove \"Always Activate\" and \"Remember this decision\" Flash options in Firefox 69"

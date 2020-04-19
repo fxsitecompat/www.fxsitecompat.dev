@@ -3,7 +3,7 @@ title: "外部プロトコル URL の `<iframe>` への読み込みがブロッ�
 date: "2019-02-18T21:28:00-05:00"
 categories: ["misc"]
 tags: []
-versions: ["67", "68-esr"]
+releases: ["67", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=167475"

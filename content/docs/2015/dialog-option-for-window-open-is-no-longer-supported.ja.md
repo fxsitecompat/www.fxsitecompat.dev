@@ -3,7 +3,7 @@ title: "`window.open()` の `dialog` オプションは非対応となりまし�
 date: "2015-10-06T00:25:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["44", "45-esr"]
+releases: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1095236"
       title: "Bug 1095236 - [e10s] window.open(..., ..., \"dialog=1\") breaks with e10s enabled"

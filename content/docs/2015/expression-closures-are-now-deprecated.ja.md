@@ -3,7 +3,7 @@ title: "式クロージャーが廃止予定となりました"
 date: "2015-11-03T14:14:00-08:00"
 categories: ["javascript"]
 tags: []
-versions: ["45", "45-esr"]
+releases: ["45", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=995610"
       title: "Bug 995610 – Add console warnings for expression closures (shorthand function syntax)"

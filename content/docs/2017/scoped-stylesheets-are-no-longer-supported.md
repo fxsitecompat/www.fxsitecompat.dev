@@ -3,7 +3,7 @@ title: "Scoped stylesheets are no longer supported"
 date: "2017-07-13T22:33:00-04:00"
 categories: ["css", "html"]
 tags: []
-versions: ["55", "60-esr"]
+releases: ["55", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1291515"
       title: "Bug 1291515 - disable <style scoped> in content documents"

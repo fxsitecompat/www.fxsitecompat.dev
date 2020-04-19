@@ -3,7 +3,7 @@ title: "`File.lastModifiedDate` has been removed"
 date: "2018-05-04T13:53:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["61", "68-esr"]
+releases: ["61", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1458883"

@@ -3,7 +3,7 @@ title: "安全でない HTTP は廃止予定となります"
 date: "2015-10-27T16:00:00-07:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["future"]
+releases: ["future"]
 statuses: "affecting"
 references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/GDSnSI9inOo/discussion"

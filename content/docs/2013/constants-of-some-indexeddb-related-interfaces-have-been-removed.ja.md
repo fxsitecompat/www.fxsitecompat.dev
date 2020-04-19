@@ -3,7 +3,7 @@ title: "一部 IndexedDB 関連インターフェイスの定数が削除され�
 date: "2013-07-14T19:12:37-04:00"
 categories: ["dom"]
 tags: []
-versions: ["25", "31-esr"]
+releases: ["25", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=887524"
       title: "Bug 887524 – Move IDBRequest to WebIDL"

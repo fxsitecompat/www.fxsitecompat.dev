@@ -3,7 +3,7 @@ title: "`NamedNodeMap` が `MozNamedAttrMap` へ改名されました"
 date: "2013-02-24T03:44:31-05:00"
 categories: ["dom"]
 tags: []
-versions: ["22", "24-esr"]
+releases: ["22", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=847195"
       title: "Bug 847195 – Make NamedNodeMap only deal with Attrs"

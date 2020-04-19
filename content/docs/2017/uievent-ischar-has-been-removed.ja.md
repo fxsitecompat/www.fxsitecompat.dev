@@ -3,7 +3,7 @@ title: "`UIEvent.isChar` が削除されました"
 date: "2017-03-18T21:48:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["55", "60-esr"]
+releases: ["55", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1347073"
       title: "Bug 1347073 - Get rid of UIEvent.isChar because no other browsers support it"

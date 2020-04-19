@@ -3,7 +3,7 @@ title: "`RTCIceCredentialType` から `token` が削除されました"
 date: "2019-06-09T05:25:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["68", "68-esr"]
+releases: ["68", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1529595"
       title: "Bug 1529595 - Remove \"token\" from RTCIceCredentialType"

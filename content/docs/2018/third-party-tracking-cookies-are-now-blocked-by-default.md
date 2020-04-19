@@ -3,7 +3,7 @@ title: "Third-party tracking cookies are now blocked by default"
 date: "2018-11-22T01:28:00-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["65"]
+releases: ["65"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1492549"

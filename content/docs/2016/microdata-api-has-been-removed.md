@@ -3,7 +3,7 @@ title: "Microdata API has been removed"
 date: "2016-05-24T09:20:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["49", "52-esr"]
+releases: ["49", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=909633"
       title: "Bug 909633 - Remove HTML Microdata API"

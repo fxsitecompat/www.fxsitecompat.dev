@@ -3,7 +3,7 @@ title: "CSS transitions may not work smoothly when `opacity` is used with other 
 date: "2017-03-21T19:50:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["52", "52-esr"]
+releases: ["52", "52-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1318697"

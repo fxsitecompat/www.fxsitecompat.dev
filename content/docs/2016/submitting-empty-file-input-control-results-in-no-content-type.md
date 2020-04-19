@@ -3,7 +3,7 @@ title: "Submitting empty file input control results in no `Content-Type`"
 date: "2016-04-11T13:12:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["45", "45-esr"]
+releases: ["45", "45-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1255735"

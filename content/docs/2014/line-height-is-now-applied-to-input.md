@@ -3,7 +3,7 @@ title: "`line-height` is now applied to `<input>`"
 date: "2014-03-21T04:50:04-04:00"
 categories: ["css"]
 tags: []
-versions: ["30", "31-esr"]
+releases: ["30", "31-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=349259"

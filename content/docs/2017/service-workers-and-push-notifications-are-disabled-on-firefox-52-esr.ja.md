@@ -3,7 +3,7 @@ title: "Firefox 52 ESR では Service Worker とプッシュ通知が無効化�
 date: "2017-02-09T16:58:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["52-esr"]
+releases: ["52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1338144"
       title: "Bug 1338144 - disable service workers and push notifications on 52 ESR"

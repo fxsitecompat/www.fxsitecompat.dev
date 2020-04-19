@@ -3,7 +3,7 @@ title: "デスクトップ版および Android 版 Firefox から Web App Runtim
 date: "2016-02-09T08:19:00-05:00"
 categories: ["misc"]
 tags: []
-versions: ["47", "52-esr"]
+releases: ["47", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1235869"
       title: "Bug 1235869 - Remove support for WebRT"

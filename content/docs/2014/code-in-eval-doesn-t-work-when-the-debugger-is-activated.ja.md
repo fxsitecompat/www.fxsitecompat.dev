@@ -3,7 +3,7 @@ title: "デバッガー有効時に `eval` 内のコードが動作しません 
 date: "2014-03-21T04:50:04-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["30"]
+releases: ["30"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=998908"

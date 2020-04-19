@@ -3,7 +3,7 @@ title: "`<script>` with version parameter will no longer be loaded"
 date: "2018-02-23T19:19:00-05:00"
 categories: ["html", "javascript"]
 tags: []
-versions: ["59", "60-esr"]
+releases: ["59", "60-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=867609"

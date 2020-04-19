@@ -2,6 +2,6 @@
 title: "Firefox 68 が XHR を含む様々な変更を伴って 1 か月以内にリリース"
 date: "2019-06-10T10:47:00-04:00"
 ---
-現在 Beta チャンネルで提供されていて 7 月 9 日にリリースされる [Firefox 68 のサイト互換性情報](https://www.fxsitecompat.dev/ja/versions/68/) をまとめました。ご覧の通り、中でも `XMLHttpRequest` にいくつかの変更が行われています。業務アプリの開発者は、Firefox 68 が次の延長サポート版 (ESR) となるものの、従来の ESR と同様に Service Worker とプッシュ通知が無効化される点に留意すべきでしょう。
+現在 Beta チャンネルで提供されていて 7 月 9 日にリリースされる [Firefox 68 のサイト互換性情報](https://www.fxsitecompat.dev/ja/releases/68/) をまとめました。ご覧の通り、中でも `XMLHttpRequest` にいくつかの変更が行われています。業務アプリの開発者は、Firefox 68 が次の延長サポート版 (ESR) となるものの、従来の ESR と同様に Service Worker とプッシュ通知が無効化される点に留意すべきでしょう。
 
 もし何か他の問題に気づいたらお知らせください！ 私たちはまもなく Firefox 69 の互換性情報にも取り掛かる予定です。

@@ -3,7 +3,7 @@ title: "`CSSStyleDeclaration.getPropertyCSSValue()` and related interfaces have 
 date: "2018-05-08T16:01:00-04:00"
 categories: ["css", "dom"]
 tags: []
-versions: ["62", "68-esr"]
+releases: ["62", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1408301"
       title: "Bug 1408301 - unship CSSStyleDeclaration::getPropertyCSSValue"

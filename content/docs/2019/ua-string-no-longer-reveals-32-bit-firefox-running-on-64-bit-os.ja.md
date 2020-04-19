@@ -3,7 +3,7 @@ title: "UA 文字列が 64 ビット版 OS 上で 32 ビット版 Firefox が実
 date: "2019-07-07T01:03:00-04:00"
 categories: ["networking"]
 tags: []
-versions: ["69"]
+releases: ["69"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1559747"
       title: "Bug 1559747 - User-Agent string needn't reveal a user is running 32-bit Firefox on a 64-bit OS"

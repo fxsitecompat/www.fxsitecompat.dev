@@ -3,7 +3,7 @@ title: "`String.match()` and `String.replace()` now reset `RegExp.lastIndex`"
 date: "2013-10-08T20:15:35-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["27", "31-esr"]
+releases: ["27", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=501739"
       title: "Bug 501739 – String match and replace methods do not update global regexp lastIndex per ES3&5"

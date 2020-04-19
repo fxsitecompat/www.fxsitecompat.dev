@@ -3,7 +3,7 @@ title: "`window.open()` がイベントごとに一度しか呼び出せなく�
 date: "2018-12-21T00:52:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["65", "68-esr"]
+releases: ["65", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=675574"
       title: "Bug 675574 - Do not allow more than one call to window.open() when we allow popups"

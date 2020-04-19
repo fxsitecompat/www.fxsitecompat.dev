@@ -3,7 +3,7 @@ title: "一部のウェブフォントがより厳格なバリデーションの
 date: "2016-02-03T13:19:00-05:00"
 categories: ["misc"]
 tags: []
-versions: ["44", "45-esr"]
+releases: ["44", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1244693"

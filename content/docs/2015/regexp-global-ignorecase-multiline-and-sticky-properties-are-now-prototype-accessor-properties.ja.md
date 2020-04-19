@@ -3,7 +3,7 @@ title: "`RegExp` の `global`、`ignoreCase`、`multiline`、`sticky` プロパ�
 date: "2015-02-27T04:21:22-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["38", "38-esr"]
+releases: ["38", "38-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1120169"

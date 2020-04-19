@@ -3,7 +3,7 @@ title: "Flash plug-in support will be removed in 2020"
 date: "2018-06-05T15:17:00-04:00"
 categories: ["plugins"]
 tags: []
-versions: ["future"]
+releases: ["future"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1455897"

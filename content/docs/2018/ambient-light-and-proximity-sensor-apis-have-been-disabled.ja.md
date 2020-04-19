@@ -3,7 +3,7 @@ title: "環境光・近接センサー API が無効化されました"
 date: "2018-05-18T00:15:00-04:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["62", "68-esr"]
+releases: ["62", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1462308"
       title: "Bug 1462308 - Disable devicelight, deviceproximity and userproximity events from stable"

@@ -3,7 +3,7 @@ title: "ローカルファイルがそれぞれ別のオリジンを与えられ
 date: "2019-07-15T12:29:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["68", "68-esr"]
+releases: ["68", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://www.mozilla.org/en-US/security/advisories/mfsa2019-21/#CVE-2019-11730"

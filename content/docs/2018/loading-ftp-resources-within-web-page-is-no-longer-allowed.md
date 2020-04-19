@@ -3,7 +3,7 @@ title: "Loading FTP resources within web page is no longer allowed"
 date: "2018-04-06T20:32:00-04:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["61", "68-esr"]
+releases: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1404744"
       title: "Bug 1404744 - Block ftp subresource requests inside http(s) pages"

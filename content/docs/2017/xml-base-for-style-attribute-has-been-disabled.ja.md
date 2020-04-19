@@ -3,7 +3,7 @@ title: "`style` 属性向け `xml:base` が無効化されました"
 date: "2017-03-26T02:51:00-04:00"
 categories: ["css", "misc"]
 tags: []
-versions: ["55", "60-esr"]
+releases: ["55", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1349024"
       title: "Bug 1349024 - Turn off xml:base for style attribute by default on aurora and nightly"

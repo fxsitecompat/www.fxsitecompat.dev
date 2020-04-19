@@ -4,8 +4,8 @@ date: "2016-04-30T12:38:00-04:00"
 ---
 Mozilla は今週、[Firefox 47 Beta と 48 Developer Edition](https://www.mozilla.org/firefox/channel/) を公開しました。私たちがバージョンごとにまとめている [サイト互換性ドキュメント](https://www.fxsitecompat.dev/ja/docs/) に目を通してください。
 
-* [Firefox 47 サイト互換性情報](https://www.fxsitecompat.dev/ja/versions/47/)
-* [Firefox 48 サイト互換性情報](https://www.fxsitecompat.dev/ja/versions/48/)
+* [Firefox 47 サイト互換性情報](https://www.fxsitecompat.dev/ja/releases/47/)
+* [Firefox 48 サイト互換性情報](https://www.fxsitecompat.dev/ja/releases/48/)
 
 今週火曜日に公開された Firefox 46 のリグレッションを見つけるためいくつかの情報源を監視していますが、幸い今のところ重大な問題は見つかっていません。ただし、以下のような WebGL のリグレッションと `<input>` バリデーションエラーが発見されています。
 

@@ -3,7 +3,7 @@ title: "Mootools 1.2.x is not compatible with Firefox 18 and newer"
 date: "2012-12-03T03:53:26-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["18", "24-esr"]
+releases: ["18", "24-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=789036"

@@ -3,7 +3,7 @@ title: "RSS/Atom feed preview has been removed"
 date: "2018-10-23T01:07:00-04:00"
 categories: ["misc"]
 tags: []
-versions: ["64", "68-esr"]
+releases: ["64", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1477667"
       title: "Bug 1477667 - [meta] Remove feed reader and live bookmarks support from Firefox"

@@ -3,7 +3,7 @@ title: "Browser UI can no longer be controlled with `window.open()` features par
 date: "2020-04-06T22:48:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["76"]
+releases: ["76"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1507375"
       title: "Bug 1507375 - Can we drop window.open's feature parameter which controls UI parts visibility?"

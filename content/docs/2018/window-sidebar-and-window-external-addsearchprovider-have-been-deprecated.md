@@ -3,7 +3,7 @@ title: "`window.sidebar` and `window.external.AddSearchProvider()` have been dep
 date: "2018-10-31T22:32:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["65", "68-esr"]
+releases: ["65", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1503551"
       title: "Bug 1503551 - Make window.external.AddSearchProvider a dummy function"

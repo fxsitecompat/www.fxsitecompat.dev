@@ -3,7 +3,7 @@ title: "`Object.watch()` has been removed"
 date: "2017-10-24T16:27:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["58", "60-esr"]
+releases: ["58", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=638054"
       title: "Bug 638054 - JavaScript Object.prototype.watch should be removed, once an adequate debugger-only replacement exists"

@@ -3,7 +3,7 @@ title: "Insecure password input warning has been enabled by default"
 date: "2016-12-03T14:54:00-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["51", "52-esr"]
+releases: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1319119"
       title: "Bug 1319119 - Turn on Insecure Password Warning in Firefox Release"

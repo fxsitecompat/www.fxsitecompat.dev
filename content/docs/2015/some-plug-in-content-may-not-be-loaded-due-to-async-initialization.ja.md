@@ -3,7 +3,7 @@ title: "非同期初期化のため一部のプラグインコンテンツが読
 date: "2015-08-12T22:39:43-04:00"
 categories: ["plugins"]
 tags: []
-versions: ["40"]
+releases: ["40"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1116806"

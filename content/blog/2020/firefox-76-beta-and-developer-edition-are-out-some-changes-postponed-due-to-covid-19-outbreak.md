@@ -2,7 +2,7 @@
 title: "Firefox 76 Beta and Developer Edition are out, some changes postponed due to COVID-19 outbreak"
 date: "2020-04-07T22:28:00-04:00"
 ---
-Mozilla has shipped [Firefox 76 Beta and Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) today with [only a few changes related to site compatibility](https://www.fxsitecompat.dev/en-CA/versions/76/).
+Mozilla has shipped [Firefox 76 Beta and Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) today with [only a few changes related to site compatibility](https://www.fxsitecompat.dev/en-CA/releases/76/).
 
 As you may already know, the current COVID-19 pandemic is more or less affecting the development of Firefox along with other browsers. During this unusual time, a huge number of people around the world are working and studying at home, using a desktop browser [including Firefox](https://blog.mozilla.org/data/2020/03/30/opening-data-to-understand-social-distancing/), and relying on various online resources.
 

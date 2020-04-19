@@ -2,7 +2,7 @@
 title: "Firefox 60 Developer Edition、より安全なウェブへ向けた一歩、JavaScript ライブラリの互換性"
 date: "2018-03-19T20:13:00-04:00"
 ---
-Mozilla は [Firefox 60 Beta と Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) を公開しました。5 月上旬公開の最終版に備えて [Firefox 60 互換性情報](https://www.fxsitecompat.dev/ja/versions/60/) を確認してください。
+Mozilla は [Firefox 60 Beta と Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) を公開しました。5 月上旬公開の最終版に備えて [Firefox 60 互換性情報](https://www.fxsitecompat.dev/ja/releases/60/) を確認してください。
 
 見ての通り、安全なコンテキストの必須化や [Symantec 証明書無効化措置の第 1 弾](https://www.fxsitecompat.dev/ja/docs/2018/symantec-certificates-issued-before-june-2016-are-now-distrusted/) など、いくつかのセキュリティ関連の変更があります。GeoTrust、RapidSSL、Symantec、Thawte あるいは Verisign ブランドの付いた SSL/TLS サーバー証明書を使っている場合、あなたのサイト上で「安全でない接続」エラーページを避けるため、直ちに行動を起こしてください。まだ何も証明書を持っていないなら、[Let's Encrypt](https://letsencrypt.org/) から無料で手に入れましょう。
 

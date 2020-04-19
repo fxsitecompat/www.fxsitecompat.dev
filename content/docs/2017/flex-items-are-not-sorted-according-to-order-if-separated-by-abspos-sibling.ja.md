@@ -3,7 +3,7 @@ title: "可変アイテムが絶対配置要素で分離された場合、`order
 date: "2017-03-14T20:13:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["52", "52-esr"]
+releases: ["52", "52-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1345873"

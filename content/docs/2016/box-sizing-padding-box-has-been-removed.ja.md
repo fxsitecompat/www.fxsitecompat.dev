@@ -3,7 +3,7 @@ title: "`box-sizing:padding-box` が削除されました"
 date: "2016-06-19T11:57:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["50", "52-esr"]
+releases: ["50", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1166728"
       title: "Bug 1166728 - remove box-sizing: padding-box"

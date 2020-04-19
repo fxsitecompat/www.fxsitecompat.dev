@@ -3,7 +3,7 @@ title: "HTTP Public Key Pinning への対応が打ち切られました"
 date: "2019-11-14T16:54:00-05:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["72"]
+releases: ["72"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1412438"
       title: "Bug 1412438 - consider removal of HTTP Public Key Pinning (HPKP)"

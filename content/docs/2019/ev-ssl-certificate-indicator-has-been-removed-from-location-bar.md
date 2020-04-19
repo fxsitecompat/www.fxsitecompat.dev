@@ -3,7 +3,7 @@ title: "EV SSL certificate indicator has been removed from location bar"
 date: "2019-09-04T22:40:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["70"]
+releases: ["70"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1572936"
       title: "Bug 1572936 - Move EV cert UI out of URL Bar"

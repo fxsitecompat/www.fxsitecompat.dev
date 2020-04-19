@@ -3,7 +3,7 @@ title: "`localName`、`namespaceURI`、`prefix` プロパティが `Node` から
 date: "2016-04-24T01:37:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["48", "52-esr"]
+releases: ["48", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1055776"
       title: "Bug 1055776 - Investigate moving namespaceURI, prefix, and localName to Element and Attr"

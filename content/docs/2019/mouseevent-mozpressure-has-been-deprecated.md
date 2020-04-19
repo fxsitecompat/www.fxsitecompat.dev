@@ -3,7 +3,7 @@ title: "`MouseEvent.mozPressure` has been deprecated"
 date: "2019-05-28T03:35:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["68", "68-esr"]
+releases: ["68", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1165211"
       title: "Bug 1165211 - Deprecate MouseEvent.mozPressure"

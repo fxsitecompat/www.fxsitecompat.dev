@@ -3,7 +3,7 @@ title: "`FetchEvent.isReload` has been removed"
 date: "2020-01-26T20:38:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["74"]
+releases: ["74"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1264175"
       title: "Bug 1264175 - Remove FetchEvent.isReload"

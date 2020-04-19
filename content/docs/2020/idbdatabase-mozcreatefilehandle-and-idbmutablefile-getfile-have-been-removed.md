@@ -3,7 +3,7 @@ title: "`IDBDatabase.mozCreateFileHandle()` and `IDBMutableFile.getFile()` have 
 date: "2020-01-14T21:26:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["74"]
+releases: ["74"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1024312"
       title: "Bug 1024312 - Deprecate mozCreateFileHandle() in favor of createMutableFile()"

@@ -3,7 +3,7 @@ title: "Non-standard `Array` generics have been removed"
 date: "2019-09-30T16:46:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["71"]
+releases: ["71"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1222547"
       title: "Bug 1222547 - Remove Array generics"

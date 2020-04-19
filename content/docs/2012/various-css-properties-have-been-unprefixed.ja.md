@@ -3,7 +3,7 @@ title: "多くの CSS プロパティから接頭辞が外れました"
 date: "2012-10-09T06:00:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["16"]
+releases: ["16"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=762302"
       title: "Bug 762302 – [css3-animations] unprefix CSS Animation properties and @keyframes rule"

@@ -3,7 +3,7 @@ title: "Firefox-specific HTML editing UI has been deprecated"
 date: "2018-08-17T13:28:00-04:00"
 categories: ["html"]
 tags: []
-versions: ["63", "68-esr"]
+releases: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1449564"
       title: "Bug 1449564 - Disable table/image resizers in default"

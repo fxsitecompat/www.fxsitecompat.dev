@@ -3,7 +3,7 @@ title: "`contentStyleType` と `contentScriptType` プロパティが削除さ�
 date: "2012-12-29T08:29:30-05:00"
 categories: ["svg"]
 tags: []
-versions: ["20", "24-esr"]
+releases: ["20", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=819731"
       title: "Bug 819731 – remove contentStyleType and contentScriptType from SVGSVGElement"

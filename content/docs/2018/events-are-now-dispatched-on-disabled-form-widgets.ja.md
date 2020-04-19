@@ -3,7 +3,7 @@ title: "無効化されたフォームウィジェット上でイベントが発
 date: "2018-12-20T23:22:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["65", "68-esr"]
+releases: ["65", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=329509"
       title: "Bug 329509 - Do not prevent event dispatching even if there is no prescontext or (form) element is disabled"

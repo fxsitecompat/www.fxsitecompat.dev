@@ -3,7 +3,7 @@ title: "`VideoPlaybackQuality.corruptedVideoFrames` が廃止されました"
 date: "2020-01-06T22:46:00-05:00"
 categories: ["audio-video"]
 tags: []
-versions: ["73"]
+releases: ["73"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1602163"
       title: "Bug 1602163 - VideoPlaybackQuality corruptedFrames deprecated"

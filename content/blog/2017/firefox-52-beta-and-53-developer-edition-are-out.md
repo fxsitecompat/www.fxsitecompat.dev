@@ -4,8 +4,8 @@ date: "2017-01-30T15:17:00-05:00"
 ---
 Mozilla has shipped [Firefox 52 Beta and 53 Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) last week. We're still reading through all the changes but our [site compatibility documents](https://www.fxsitecompat.dev/en-CA/docs/) should already be covering the most:
 
-* [Firefox 52 Site Compatibility](https://www.fxsitecompat.dev/en-CA/versions/52/)
-* [Firefox 53 Site Compatibility](https://www.fxsitecompat.dev/en-CA/versions/53/)
+* [Firefox 52 Site Compatibility](https://www.fxsitecompat.dev/en-CA/releases/52/)
+* [Firefox 53 Site Compatibility](https://www.fxsitecompat.dev/en-CA/releases/53/)
 
 As mentioned in the [previous post](https://www.fxsitecompat.dev/en-CA/blog/2016/firefox-51-beta-and-52-developer-edition-come-with-some-important-changes/), Firefox 52 will bring the following major changes you should be aware of:
 

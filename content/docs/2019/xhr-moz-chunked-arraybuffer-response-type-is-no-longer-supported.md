@@ -3,7 +3,7 @@ title: "XHR `moz-chunked-arraybuffer` response type is no longer supported"
 date: "2019-05-28T06:06:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["68", "68-esr"]
+releases: ["68", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1120171"
       title: "Bug 1120171 - Remove support for moz-prefixed XHR responseTypes (moz-blob, moz-chunked-text, and moz-chunked-arraybuffer)"

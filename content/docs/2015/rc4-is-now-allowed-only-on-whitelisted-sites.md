@@ -3,7 +3,7 @@ title: "RC4 is now allowed only on whitelisted sites"
 date: "2015-09-25T00:54:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["43"]
+releases: ["43"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1201024"

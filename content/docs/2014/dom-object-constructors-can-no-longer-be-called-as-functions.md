@@ -3,7 +3,7 @@ title: "DOM object constructors can no longer be called as functions"
 date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []
-versions: ["30", "31-esr"]
+releases: ["30", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=916644"
       title: "Bug 916644 – Disallow calling WebIDL constructors as functions on the web"

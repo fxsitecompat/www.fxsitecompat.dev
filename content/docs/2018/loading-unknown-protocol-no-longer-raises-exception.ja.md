@@ -3,7 +3,7 @@ title: "未知のプロトコルの読み込みが例外を発生させなくな
 date: "2018-10-23T12:18:00-04:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["64", "68-esr"]
+releases: ["64", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=680300"
       title: "Bug 680300 - Restrict discoverability of protocol handlers [Tor 1623]"

@@ -3,7 +3,7 @@ title: "Disabled form controls now trigger `mouseover` and similar mouse events"
 date: "2016-04-23T23:51:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["44", "45-esr"]
+releases: ["44", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=218093"

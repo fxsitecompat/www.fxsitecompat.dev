@@ -3,7 +3,7 @@ title: "`BigInt` literals for non-octal digits are no longer allowed"
 date: "2019-08-13T15:41:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["70"]
+releases: ["70"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1568619"
       title: "Bug 1568619 - Disallow BigInt literals for Annex-B non-octal digits"

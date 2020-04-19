@@ -3,7 +3,7 @@ title: "`storage` option for `indexedDB.open()` has been removed"
 date: "2018-06-03T23:20:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["61", "68-esr"]
+releases: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1354500"
       title: "Bug 1354500 - Remove the proprietary persistent indexedDB permission"

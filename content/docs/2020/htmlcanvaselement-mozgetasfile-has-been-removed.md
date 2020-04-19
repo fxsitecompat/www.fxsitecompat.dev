@@ -3,7 +3,7 @@ title: "`HTMLCanvasElement.mozGetAsFile()` has been removed"
 date: "2020-01-20T20:22:00-05:00"
 categories: ["canvas-webgl", "dom"]
 tags: []
-versions: ["74"]
+releases: ["74"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1588980"
       title: "Bug 1588980 - Unship HTMLCanvasElement.mozGetAsFile()"

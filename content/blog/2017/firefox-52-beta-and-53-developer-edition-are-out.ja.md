@@ -4,8 +4,8 @@ date: "2017-01-30T15:17:00-05:00"
 ---
 Mozilla は先週、[Firefox 52 Beta と 53 Developer Edition](https://www.mozilla.org/firefox/channel/) を公開しました。私たちはまだすべての変更に目を通しているところですが、[サイト互換性ドキュメント](https://www.fxsitecompat.dev/ja/docs/) は既にほとんどの変更を網羅しているはずです。
 
-* [Firefox 52 サイト互換性情報](https://www.fxsitecompat.dev/ja/versions/52/)
-* [Firefox 53 サイト互換性情報](https://www.fxsitecompat.dev/ja/versions/53/)
+* [Firefox 52 サイト互換性情報](https://www.fxsitecompat.dev/ja/releases/52/)
+* [Firefox 53 サイト互換性情報](https://www.fxsitecompat.dev/ja/releases/53/)
 
 [前回の記事](https://www.fxsitecompat.dev/ja/blog/2016/firefox-51-beta-and-52-developer-edition-come-with-some-important-changes/) で挙げた通り、Firefox 52 ではあなたが知っておくべき以下の重要な変更が予定されています。
 

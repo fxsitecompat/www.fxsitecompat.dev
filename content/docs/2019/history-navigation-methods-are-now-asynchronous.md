@@ -3,7 +3,7 @@ title: "History navigation methods are now asynchronous"
 date: "2019-10-07T10:50:00-04:00"
 categories: ["html"]
 tags: []
-versions: ["70"]
+releases: ["70"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1563587"

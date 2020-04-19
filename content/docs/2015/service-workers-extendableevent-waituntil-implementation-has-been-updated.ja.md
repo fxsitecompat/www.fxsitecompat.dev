@@ -3,7 +3,7 @@ title: "Service Worker の `ExtendableEvent.waitUntil()` 実装が更新され�
 date: "2015-09-25T00:21:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["43", "45-esr"]
+releases: ["43", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1189644"
       title: "Bug 1189644 - \"Harness status: Timeout\" when running \"extendable-event-waituntil.https.html\" test"

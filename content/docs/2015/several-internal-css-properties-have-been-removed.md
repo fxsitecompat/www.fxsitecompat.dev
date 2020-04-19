@@ -3,7 +3,7 @@ title: "Several internal CSS properties have been removed"
 date: "2015-10-07T01:49:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["44", "45-esr"]
+releases: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1207002"
       title: "Bug 1207002 - Restrict MathML-related internal properties to only be accessible in UA sheets"

@@ -3,7 +3,7 @@ title: "Data URLs are now treated as unique origins"
 date: "2018-01-24T10:37:00-05:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["57", "60-esr"]
+releases: ["57", "60-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1324406"

@@ -3,7 +3,7 @@ title: "`navigator.mediaDevices` and `navigator.mozGetUserMedia()` can no longer
 date: "2019-07-06T20:43:00-04:00"
 categories: ["audio-video", "privacy-security"]
 tags: []
-versions: ["69"]
+releases: ["69"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1528031"

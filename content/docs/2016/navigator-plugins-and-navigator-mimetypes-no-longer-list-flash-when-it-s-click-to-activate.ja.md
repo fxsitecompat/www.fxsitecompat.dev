@@ -3,7 +3,7 @@ title: "Flash が「クリックして有効化」時は `navigator.plugins` や
 date: "2016-06-30T17:20:00-04:00"
 categories: ["dom", "plugins"]
 tags: []
-versions: ["50"]
+releases: ["50"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1186948"

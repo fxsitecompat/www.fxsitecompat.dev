@@ -7,8 +7,8 @@ section_docs:
     other: Documents
 section_categories:
     other: Categories
-section_versions:
-    other: Versions
+section_releases:
+    other: Releases
 section_about:
     other: About
 
@@ -18,8 +18,8 @@ channel_nightly:
 channel_beta:
     other: "Beta / Developer Edition"
 
-# Versions
-version_future:
+# Releases
+future_release:
     other: "Future"
 
 # Categories
@@ -101,12 +101,12 @@ documents:
     other: "Documents"
 browse_category:
     other: "Browse by Category"
-browse_version:
-    other: "Browse by Version"
+browse_release:
+    other: "Browse by Release"
 browse_status:
     other: "Browse by Status"
-browse_all_versions:
-    other: "Previous Versions"
+browse_all_releases:
+    other: "Previous Releases"
 home_page_tagline:
     other: "<span>Together, We Build</span> <span>a Better Web</span>"
 home_page_description:
@@ -138,26 +138,26 @@ all_statuses_page_title:
 all_statuses_page_description:
     other: "Browse all our Firefox site compatibility documents by issue status, including Affecting, Regression and Reverted."
 
-# All versions page
-all_versions_page_title:
-    other: "Browse Documents by Version"
-all_versions_page_description:
+# All releases page
+all_releases_page_title:
+    other: "Browse Documents by Release"
+all_releases_page_description:
     other: "Browse all our Firefox site compatibility documents by major release, up to the latest pre-release version."
 
-# Version index page
-version_index_page_title:
-    other: "Firefox {{.version}} Site Compatibility"
-version_index_page_title_future:
+# Release index page
+release_index_page_title:
+    other: "Firefox {{.release}} Site Compatibility"
+release_index_page_title_future:
     other: "Future Planned Changes"
-version_index_page_description:
-    other: 'Browse our compatibility notes about the changes in Firefox {{.version}} released on <time datetime="{{.date}}">{{.date_localized}}</time>.'
-version_index_page_description_esr:
-    other: 'Browse our compatibility notes about the changes in Firefox {{.version}} Extended Support Release (ESR) released on <time datetime="{{.date}}">{{.date_localized}}</time>.'
-version_index_page_description_upcoming:
-    other: 'Browse our compatibility notes about the changes in Firefox {{.version}}, currently offered on the <a href="https://www.mozilla.org/firefox/channel/desktop/#{{.channel}}"><em>{{.channel_localized}}</em></a> channel and scheduled to be released on <time datetime="{{.date}}">{{.date_localized}}</time>.'
-version_index_page_description_secondary:
+release_index_page_description:
+    other: 'Browse our compatibility notes about the changes in Firefox {{.release}} released on <time datetime="{{.date}}">{{.date_localized}}</time>.'
+release_index_page_description_esr:
+    other: 'Browse our compatibility notes about the changes in Firefox {{.release}} Extended Support Release (ESR) released on <time datetime="{{.date}}">{{.date_localized}}</time>.'
+release_index_page_description_upcoming:
+    other: 'Browse our compatibility notes about the changes in Firefox {{.release}}, currently offered on the <a href="https://www.mozilla.org/firefox/channel/desktop/#{{.channel}}"><em>{{.channel_localized}}</em></a> channel and scheduled to be released on <time datetime="{{.date}}">{{.date_localized}}</time>.'
+release_index_page_description_secondary:
     other: 'This list will be updated when a further change is made or a new regression is found, so make sure to subscribe to our <a href="/en-CA/index.xml">site feed</a>.'
-version_index_page_description_future:
+release_index_page_description_future:
     other: 'Browse our compatibility notes about the changes to be made with future Firefox releases. This list will be updated when a further change is planned, so subscribe to our <a href="/en-CA/index.xml">site feed</a> for updates. Be prepared today to make your site as great as possible!'
 
 # Category index page
@@ -173,17 +173,17 @@ status_index_page_title:
 # Single document page
 published:
     other: "Published"
-versions:
-    other: "Versions"
+releases:
+    other: "Releases"
 categories:
     other: "Categories"
 description:
     other: "Description"
 references:
     other: "References"
-docs_for_version:
-    other: "Firefox {{.version}} Compatibility"
-docs_for_version_future:
+docs_for_release:
+    other: "Firefox {{.release}} Compatibility"
+docs_for_future_release:
     other: "Future Planned Changes"
 
 # Single blog page

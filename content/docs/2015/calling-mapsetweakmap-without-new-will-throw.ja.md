@@ -3,7 +3,7 @@ title: "`new` なしで `Map`/`Set`/`WeakMap` を呼び出すと例外が投げ�
 date: "2015-08-05T00:48:18-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["42", "45-esr"]
+releases: ["42", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1083752"
       title: "Bug 1083752 - Calling Map/Set/WeakMap() (without `new`) should throw"

@@ -3,7 +3,7 @@ title: "古い配列・ジェネレーター内包構文が削除されました
 date: "2016-01-07T01:11:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["46", "52-esr"]
+releases: ["46", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1220564"
       title: "Bug 1220564 - Remove legacy array/generator comprehension."

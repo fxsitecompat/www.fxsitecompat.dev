@@ -3,7 +3,7 @@ title: "Flash プラグイン対応は 2020 年に廃止されます"
 date: "2018-06-05T15:17:00-04:00"
 categories: ["plugins"]
 tags: []
-versions: ["future"]
+releases: ["future"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1455897"

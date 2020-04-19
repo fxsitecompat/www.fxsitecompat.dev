@@ -3,7 +3,7 @@ title: "SVG サイトアイコンに対応、ただし `<link>` の順番には�
 date: "2015-06-13T15:20:46-04:00"
 categories: ["html"]
 tags: []
-versions: ["41", "45-esr"]
+releases: ["41", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=366324"

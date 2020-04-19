@@ -3,7 +3,7 @@ title: "Canvas 2D `imageSmoothingEnabled` の接頭辞が外れました"
 date: "2016-09-04T01:23:00-04:00"
 categories: ["canvas-webgl"]
 tags: []
-versions: ["51", "52-esr"]
+releases: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=768072"
       title: "Bug 768072 - Implement imageSmoothingEnabled and deprecate mozImageSmoothingEnabled"

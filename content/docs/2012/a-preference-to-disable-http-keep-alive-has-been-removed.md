@@ -3,7 +3,7 @@ title: "A Preference to disable HTTP Keep-Alive has been removed"
 date: "2012-12-03T03:50:54-05:00"
 categories: ["networking"]
 tags: []
-versions: ["17"]
+releases: ["17"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=770331"
       title: "Bug 770331 – Remove HTTP Keep-Alive disable pref"

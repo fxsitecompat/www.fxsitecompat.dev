@@ -3,7 +3,7 @@ title: "Some non-standard events can no longer be created"
 date: "2020-02-10T22:03:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["74"]
+releases: ["74"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1610819"

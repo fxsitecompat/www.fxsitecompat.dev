@@ -3,7 +3,7 @@ title: "Legacy generator support has been removed"
 date: "2017-11-08T15:15:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["58", "60-esr"]
+releases: ["58", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1083476"
       title: "Bug 1083476 - Add console warnings for JS1.7 legacy generators"

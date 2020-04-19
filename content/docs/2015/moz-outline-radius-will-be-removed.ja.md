@@ -3,7 +3,7 @@ title: "`-moz-outline-radius` が削除されます"
 date: "2015-10-27T18:02:00-07:00"
 categories: ["css"]
 tags: []
-versions: ["future"]
+releases: ["future"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=315209"
       title: "Bug 315209 - outline should follow shape of border-radius (remove -moz-outline-radius)"

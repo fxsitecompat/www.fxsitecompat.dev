@@ -3,7 +3,7 @@ title: "Legacy Touch Events API is now disabled on desktop"
 date: "2019-05-12T23:43:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["67", "68-esr"]
+releases: ["67", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1412485"
       title: "Bug 1412485 - Consider removing some parts of touch event APIs on desktop"

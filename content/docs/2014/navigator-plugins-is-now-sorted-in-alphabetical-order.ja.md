@@ -3,7 +3,7 @@ title: "`navigator.plugins` の並び替えがアルファベット順になり�
 date: "2014-09-01T22:12:15-04:00"
 categories: ["dom", "plugins"]
 tags: []
-versions: ["34", "38-esr"]
+releases: ["34", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=793978"
       title: "Bug 793978 – Sort navigator.plugins array to avoid exposing user-identifying plugin file order"

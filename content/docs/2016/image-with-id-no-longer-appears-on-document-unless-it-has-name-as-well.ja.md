@@ -3,7 +3,7 @@ title: "`id` 付き画像は `name` も指定されていない限り `document`
 date: "2016-03-10T12:15:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["45", "45-esr"]
+releases: ["45", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1223523"
       title: "Bug 1223523 - Named getter on document should not return images with empty name"

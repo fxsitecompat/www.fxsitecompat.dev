@@ -3,7 +3,7 @@ title: "`srcset` が動的に変更された際に画像が更新されない場
 date: "2016-03-24T15:26:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["45", "45-esr"]
+releases: ["45", "45-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1259482"

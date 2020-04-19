@@ -3,7 +3,7 @@ title: "`<input pattern>` now sets `u` flag for regular expressions"
 date: "2016-04-30T11:13:00-04:00"
 categories: ["html"]
 tags: []
-versions: ["46", "52-esr"]
+releases: ["46", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1227906"

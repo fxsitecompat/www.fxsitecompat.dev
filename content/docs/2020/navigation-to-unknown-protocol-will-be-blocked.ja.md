@@ -3,7 +3,7 @@ title: "未知のプロトコルへのページ遷移はブロックされます
 date: "2020-04-07T02:02:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["76"]
+releases: ["76"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1528305"
       title: "Bug 1528305 - Behavior on meta and location.href redirects to an unknown protocol can break pages."

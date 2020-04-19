@@ -3,7 +3,7 @@ title: "XHR でファイルをアップロードする際、`filename` の先頭
 date: "2016-11-30T23:34:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["50"]
+releases: ["50"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1319088"

@@ -3,7 +3,7 @@ title: "`window.sidebar` will be removed"
 date: "2015-10-25T22:07:00-07:00"
 categories: ["dom"]
 tags: []
-versions: ["future"]
+releases: ["future"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1428302"
       title: "Bug 1428302 - Remove or standardize window.sidebar"

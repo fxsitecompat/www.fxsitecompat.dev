@@ -3,7 +3,7 @@ title: "`DataContainerEvent`, `BrowserFeedWriter`, `EventListenerInfo` and `XPat
 date: "2014-04-03T19:31:02-04:00"
 categories: ["dom"]
 tags: []
-versions: ["31", "31-esr"]
+releases: ["31", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=980134"
       title: "Bug 980134 – Hide DataContainerEvent from content"

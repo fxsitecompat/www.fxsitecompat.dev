@@ -3,7 +3,7 @@ title: "`RegExp.multiline` global switch has been deprecated"
 date: "2015-12-19T00:43:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["46", "52-esr"]
+releases: ["46", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1220457"
       title: "Bug 1220457 - Show deprecation warning for non-standard RegExp.multiline."

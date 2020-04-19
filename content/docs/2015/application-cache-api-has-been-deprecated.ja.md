@@ -3,7 +3,7 @@ title: "Application Cache API が廃止予定となりました"
 date: "2015-09-25T01:55:00-04:00"
 categories: ["html"]
 tags: []
-versions: ["44", "45-esr"]
+releases: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1204581"
       title: "Bug 1204581 - Add a deprecation notice for AppCache if service worker fetch interception is enabled"

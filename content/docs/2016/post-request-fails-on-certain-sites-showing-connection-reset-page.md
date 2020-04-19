@@ -3,7 +3,7 @@ title: "POST request fails on certain sites, showing connection reset page"
 date: "2016-05-20T19:14:00-04:00"
 categories: ["networking"]
 tags: []
-versions: ["46"]
+releases: ["46"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1269055"

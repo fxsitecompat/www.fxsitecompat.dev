@@ -3,7 +3,7 @@ title: "Web Crypto API が安全でないサイト上では使用できなくな
 date: "2020-02-12T00:16:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["75"]
+releases: ["75"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1333140"
       title: "Bug 1333140 - Require [SecureContext] for Web Crypto"

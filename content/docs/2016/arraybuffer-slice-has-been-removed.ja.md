@@ -3,7 +3,7 @@ title: "`ArrayBuffer.slice()` が削除されました"
 date: "2016-12-04T19:50:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["53", "60-esr"]
+releases: ["53", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1313112"
       title: "Bug 1313112 - Deprecate and remove ArrayBuffer.slice"

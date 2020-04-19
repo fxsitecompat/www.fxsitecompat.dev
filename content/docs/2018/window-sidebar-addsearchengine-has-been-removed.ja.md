@@ -3,7 +3,7 @@ title: "`window.sidebar.addSearchEngine()` が削除されました"
 date: "2018-01-06T03:47:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["59", "60-esr"]
+releases: ["59", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=862147"
       title: "Bug 862147 - remove window.external.addSearchEngine"

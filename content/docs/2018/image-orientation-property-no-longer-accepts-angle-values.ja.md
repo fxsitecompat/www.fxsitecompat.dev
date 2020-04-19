@@ -3,7 +3,7 @@ title: "`image-orientation` プロパティが角度の値を受け付けなく�
 date: "2018-08-14T23:13:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["63", "68-esr"]
+releases: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1473450"
       title: "Bug 1473450 - remove <angle> values from image-orientation"

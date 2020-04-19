@@ -3,7 +3,7 @@ title: "`SVGSVGElement` からいくつかのプロパティが削除されま�
 date: "2015-10-28T01:11:00-07:00"
 categories: ["svg"]
 tags: []
-versions: ["future"]
+releases: ["future"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1133173"
       title: "Bug 1133173 - remove SVGSVGElement.getElementById"

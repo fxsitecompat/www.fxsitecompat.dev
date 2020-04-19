@@ -3,7 +3,7 @@ title: "`<applet>` support has been dropped"
 date: "2017-07-13T21:19:00-04:00"
 categories: ["dom", "html", "plugins"]
 tags: []
-versions: ["56", "60-esr"]
+releases: ["56", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1279218"
       title: "Bug 1279218 - Remove <applet> element"

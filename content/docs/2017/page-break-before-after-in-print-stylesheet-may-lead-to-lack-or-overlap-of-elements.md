@@ -3,7 +3,7 @@ title: "`page-break-before`/`after` in print stylesheet may lead to lack or over
 date: "2017-11-10T03:43:00-05:00"
 categories: ["css"]
 tags: []
-versions: ["56", "60-esr"]
+releases: ["56", "60-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1308876"

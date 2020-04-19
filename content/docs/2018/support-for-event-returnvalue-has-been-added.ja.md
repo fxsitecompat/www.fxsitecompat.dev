@@ -3,7 +3,7 @@ title: "`Event.returnValue` への対応が追加されました"
 date: "2018-08-14T19:14:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["63"]
+releases: ["63"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=218415"

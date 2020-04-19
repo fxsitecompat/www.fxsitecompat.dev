@@ -36,11 +36,11 @@
             <aside role="search" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
 {{ partial "searchbox.html" . }}
             </aside>
-            <section id="sec-docs-version">
-              <h3>{{ i18n "browse_version" }}</h3>
-              <ul>{{ range first 5 $.Site.Taxonomies.versions.Alphabetical.Reverse }}{{ $version := .Name }}
-                <li><a href="/{{ $.Site.LanguageCode }}/versions/{{ $version }}/">{{ $.Scratch.Set "version" $version }}{{ partial "version-label/with-channel" $ }}</a></li>{{ end }}
-                <li><a href="/{{ $.Site.LanguageCode }}/versions/">{{ i18n "browse_all_versions" }}</a></li>
+            <section id="sec-docs-release">
+              <h3>{{ i18n "browse_release" }}</h3>
+              <ul>{{ range first 5 $.Site.Taxonomies.releases.Alphabetical.Reverse }}{{ $release := .Name }}
+                <li><a href="/{{ $.Site.LanguageCode }}/releases/{{ $release }}/">{{ $.Scratch.Set "release" $release }}{{ partial "release-label/with-channel" $ }}</a></li>{{ end }}
+                <li><a href="/{{ $.Site.LanguageCode }}/releases/">{{ i18n "browse_all_releases" }}</a></li>
               </ul>
             </section>
             <section id="sec-docs-category">

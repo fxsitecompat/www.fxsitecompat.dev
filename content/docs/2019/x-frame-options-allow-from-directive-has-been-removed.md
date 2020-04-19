@@ -3,7 +3,7 @@ title: "`X-Frame-Options: Allow-From` directive has been removed"
 date: "2019-10-08T17:17:00-04:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["70"]
+releases: ["70"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1301529"
       title: "Bug 1301529 - Misleading console message for X-Frame-Options Allow-From mismatch (remove X-Frame-Options: allow-from)"

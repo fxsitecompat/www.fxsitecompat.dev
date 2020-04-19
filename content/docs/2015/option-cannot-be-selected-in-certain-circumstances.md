@@ -3,7 +3,7 @@ title: "`<option>` cannot be selected in certain circumstances"
 date: "2015-08-16T03:45:05-04:00"
 categories: ["html"]
 tags: []
-versions: ["40"]
+releases: ["40"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1194733"

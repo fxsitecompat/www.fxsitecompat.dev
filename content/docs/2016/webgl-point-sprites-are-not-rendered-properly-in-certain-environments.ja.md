@@ -3,7 +3,7 @@ title: "WebGL のポイントスプライトが特定の環境で正しく描画
 date: "2016-04-29T05:20:00-04:00"
 categories: ["canvas-webgl"]
 tags: []
-versions: ["46"]
+releases: ["46"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1268096"

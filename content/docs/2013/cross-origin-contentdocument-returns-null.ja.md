@@ -3,7 +3,7 @@ title: "クロスオリジン `contentDocument` が `null` を返します"
 date: "2013-04-06T04:52:59-04:00"
 categories: ["dom"]
 tags: []
-versions: ["23", "24-esr"]
+releases: ["23", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=829872"
       title: "Bug 829872 – Consider returning null from contentDocument getters when the caller does not subsume the document"

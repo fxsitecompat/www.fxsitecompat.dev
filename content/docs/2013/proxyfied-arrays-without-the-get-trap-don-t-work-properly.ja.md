@@ -3,7 +3,7 @@ title: "`get` トラップを伴わないプロキシ化配列が正しく動作
 date: "2013-02-06T08:44:10-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["21", "24-esr"]
+releases: ["21", "24-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=895223"

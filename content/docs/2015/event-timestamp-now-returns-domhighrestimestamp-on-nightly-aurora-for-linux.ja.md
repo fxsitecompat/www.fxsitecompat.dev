@@ -3,7 +3,7 @@ title: "Linux 版 Nightly/Aurora で `event.timeStamp` が `DOMHighResTimeStamp`
 date: "2015-09-09T15:11:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["43", "45-esr"]
+releases: ["43", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1026803"

@@ -3,7 +3,7 @@ title: "引数が指定されていない場合の `String.localeCompare()` の�
 date: "2013-02-06T08:44:10-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["21", "24-esr"]
+releases: ["21", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=789393"
       title: "Bug 789393 – String.prototype.localeCompare() with no argument always returns 0"

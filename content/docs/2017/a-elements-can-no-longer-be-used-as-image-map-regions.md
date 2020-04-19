@@ -3,7 +3,7 @@ title: "`<a>` elements can no longer be used as image map regions"
 date: "2017-11-09T09:12:00-05:00"
 categories: ["html"]
 tags: []
-versions: ["58", "60-esr"]
+releases: ["58", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1317937"
       title: "Bug 1317937 - Stop supporting <a> as <area> in image maps (Assertion failure: !aContent->GetPrimaryFrame() || aState.mCreatingExtraFrames || aContent->NodeInfo()->NameAtom() == nsGkAtoms::area, at nsCSSFrameConstructor.cpp:5687)"

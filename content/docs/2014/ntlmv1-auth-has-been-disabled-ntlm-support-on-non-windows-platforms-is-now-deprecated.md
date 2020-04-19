@@ -3,7 +3,7 @@ title: "NTLMv1 auth has been disabled, NTLM support on non-Windows platforms is 
 date: "2014-03-21T04:50:04-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["30", "31-esr"]
+releases: ["30", "31-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=828183"

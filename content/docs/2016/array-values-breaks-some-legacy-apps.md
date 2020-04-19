@@ -3,7 +3,7 @@ title: "`Array.values()` breaks some legacy apps"
 date: "2016-09-21T21:07:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["48"]
+releases: ["48"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1299593"

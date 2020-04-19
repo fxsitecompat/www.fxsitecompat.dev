@@ -3,7 +3,7 @@ title: "全画面表示中は許可リクエストを出せなくなりました
 date: "2019-09-05T06:42:00-04:00"
 categories: ["misc"]
 tags: []
-versions: ["70"]
+releases: ["70"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1412561"
       title: "Bug 1412561 - Add-on installation should be blocked when in full-screen mode"

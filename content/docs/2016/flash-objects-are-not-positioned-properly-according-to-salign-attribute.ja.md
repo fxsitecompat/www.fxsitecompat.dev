@@ -3,7 +3,7 @@ title: "Flash オブジェクトが `salign` 属性に従って適切に配置�
 date: "2016-10-24T10:41:00-04:00"
 categories: ["plugins"]
 tags: []
-versions: ["49"]
+releases: ["49"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1307694"

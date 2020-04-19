@@ -3,7 +3,7 @@ title: "`Function.caller` now returns `null` for strict, async, generator functi
 date: "2020-02-13T22:52:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["75"]
+releases: ["75"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1610206"
       title: "Bug 1610206 - Restrict functions returned by Function#caller"

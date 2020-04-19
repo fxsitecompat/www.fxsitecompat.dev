@@ -3,7 +3,7 @@ title: "接頭辞付き CSS アニメーション、トランスフォーム、�
 date: "2015-10-27T20:01:00-07:00"
 categories: ["css"]
 tags: []
-versions: ["future"]
+releases: ["future"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=770560"
       title: "Bug 770560 - Remove support for prefixed transforms"

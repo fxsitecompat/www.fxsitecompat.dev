@@ -3,7 +3,7 @@ title: "TLS 1.0 と 1.1 が廃止予定となり、Nightly では無効化され
 date: "2019-09-27T22:53:00-04:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["71"]
+releases: ["71"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1579270"
       title: "Bug 1579270 - Disable TLS 1.0 and 1.1 for Nightly"

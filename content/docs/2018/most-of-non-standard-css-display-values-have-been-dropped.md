@@ -3,7 +3,7 @@ title: "Most of non-standard CSS `display` values have been dropped"
 date: "2018-06-02T20:25:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["62", "68-esr"]
+releases: ["62", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=879275"
       title: "Bug 879275 - Consider turning off -moz-box display types in untrusted stylesheets"

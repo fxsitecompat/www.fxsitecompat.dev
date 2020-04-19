@@ -3,7 +3,7 @@ title: "CSP が有効になっているページから `<base>` が削除され�
 date: "2014-10-17T22:50:44-04:00"
 categories: ["dom"]
 tags: []
-versions: ["35"]
+releases: ["35"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1121857"

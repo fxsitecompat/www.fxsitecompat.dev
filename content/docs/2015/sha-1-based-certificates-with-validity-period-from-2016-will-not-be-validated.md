@@ -3,7 +3,7 @@ title: "SHA-1-based certificates with validity period from 2016 will not be vali
 date: "2015-09-13T21:46:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["48", "52-esr"]
+releases: ["48", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=942515"
       title: "Bug 942515 - Show Untrusted Connection Error for SHA-1-based SSL certificates with notBefore >= 2016-01-01"

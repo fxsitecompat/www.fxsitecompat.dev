@@ -3,7 +3,7 @@ title: "NPN support has been removed"
 date: "2017-02-06T19:16:00-05:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["53", "60-esr"]
+releases: ["53", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1248198"
       title: "Bug 1248198 - Drop NPN support"

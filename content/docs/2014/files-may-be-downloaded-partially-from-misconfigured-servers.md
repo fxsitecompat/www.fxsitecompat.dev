@@ -3,7 +3,7 @@ title: "Files may be downloaded partially from misconfigured servers"
 date: "2014-07-22T05:06:26-04:00"
 categories: ["networking"]
 tags: []
-versions: ["33"]
+releases: ["33"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1083090"

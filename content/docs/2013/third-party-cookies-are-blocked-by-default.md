@@ -3,7 +3,7 @@ title: "Third-party cookies are blocked by default"
 date: "2013-02-24T03:44:31-05:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["22"]
+releases: ["22"]
 statuses: "postponed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=818340"

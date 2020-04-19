@@ -3,7 +3,7 @@ title: "Loading insecure content within plug-in embedded on secure site has been
 date: "2018-03-09T12:04:00-05:00"
 categories: ["plugins", "privacy-security"]
 tags: []
-versions: ["60", "60-esr"]
+releases: ["60", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1441794"
       title: "Bug 1441794 - Add deprecation warning to OBJECT_SUBREQUEST for stable releases"

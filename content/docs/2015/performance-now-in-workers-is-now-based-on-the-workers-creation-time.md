@@ -3,7 +3,7 @@ title: "`performance.now()` in workers is now based on the worker's creation tim
 date: "2015-12-17T14:39:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["45"]
+releases: ["45"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1169068"

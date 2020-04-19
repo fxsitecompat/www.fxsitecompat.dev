@@ -3,7 +3,7 @@ title: "Firefox のロケーションバーが安全でないサイトに対し�
 date: "2019-07-21T21:13:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["70"]
+releases: ["70"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1562881"
       title: "Bug 1562881 - [Protections Panel] Remove \"i\" icon and make the shield icon persistent on the URL bar."

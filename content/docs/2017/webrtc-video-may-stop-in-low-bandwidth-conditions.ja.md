@@ -3,7 +3,7 @@ title: "低帯域環境で WebRTC 動画が止まってしまう場合があり�
 date: "2017-10-24T18:21:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["56"]
+releases: ["56"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1403714"

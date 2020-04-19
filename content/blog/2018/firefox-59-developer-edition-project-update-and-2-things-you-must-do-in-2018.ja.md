@@ -2,7 +2,7 @@
 title: "Firefox 59 Developer Edition、プロジェクト最新情報、あなたが 2018 年にすべき 2 つのこと"
 date: "2018-01-25T12:34:00-05:00"
 ---
-Mozilla は先週 [Firefox 59 Beta と Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) を公開しました。3 月公開の最終版に備えて [Firefox 59 互換性情報](https://www.fxsitecompat.dev/ja/versions/59/) を確認してください。Firefox 58 と同様に、さらに多くの非標準機能が削除される予定です。
+Mozilla は先週 [Firefox 59 Beta と Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) を公開しました。3 月公開の最終版に備えて [Firefox 59 互換性情報](https://www.fxsitecompat.dev/ja/releases/59/) を確認してください。Firefox 58 と同様に、さらに多くの非標準機能が削除される予定です。
 
 これが 2018 年最初のブログ記事となるので、私たちやあなたが今年すべきことを簡単にまとめておきたいと思います。
 

@@ -3,7 +3,7 @@ title: "DH algorithm support has been removed from Web Crypto API"
 date: "2019-11-14T07:33:00-05:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["72"]
+releases: ["72"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1564509"
       title: "Bug 1564509 - Remove support for DH from WebCrypto API (not in spec)"

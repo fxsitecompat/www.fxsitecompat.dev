@@ -3,7 +3,7 @@ title: "スタイルの動的更新時に CSS カスケーディングがうま�
 date: "2015-10-04T22:08:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["41"]
+releases: ["41"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1209603"

@@ -3,7 +3,7 @@ title: "`-moz-text-align-last` プロパティが廃止されました"
 date: "2016-11-29T03:30:41-05:00"
 categories: ["css"]
 tags: []
-versions: ["53", "60-esr"]
+releases: ["53", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1276808"
       title: "Bug 1276808 - Remove prefixed -moz-text-align-last"

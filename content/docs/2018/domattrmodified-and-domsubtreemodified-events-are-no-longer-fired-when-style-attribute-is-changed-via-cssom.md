@@ -3,7 +3,7 @@ title: "`DOMAttrModified` and `DOMSubtreeModified` events are no longer fired wh
 date: "2018-05-23T21:22:00-04:00"
 categories: ["css", "dom"]
 tags: []
-versions: ["62", "68-esr"]
+releases: ["62", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1460295"
       title: "Bug 1460295 - unresponsive visiting login page on eqbank.ca"

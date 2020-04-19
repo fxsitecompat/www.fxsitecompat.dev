@@ -3,7 +3,7 @@ title: "`moz-blob` などの接頭辞付き `XMLHttpRequest` レスポンスタ�
 date: "2017-10-03T05:38:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["58", "60-esr"]
+releases: ["58", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1120171"
       title: "Bug 1120171 - Remove support for moz-prefixed XHR responseTypes"

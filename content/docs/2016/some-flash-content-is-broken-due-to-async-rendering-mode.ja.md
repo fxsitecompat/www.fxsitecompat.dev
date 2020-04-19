@@ -3,7 +3,7 @@ title: "非同期レンダリングモードにより一部の Flash コンテ�
 date: "2016-10-24T09:51:00-04:00"
 categories: ["plugins"]
 tags: []
-versions: ["49"]
+releases: ["49"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1229961"

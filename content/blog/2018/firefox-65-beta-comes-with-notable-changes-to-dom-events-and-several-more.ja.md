@@ -2,7 +2,7 @@
 title: "Firefox 65 Beta で DOM イベントやその他いくつかの重要な変更が行われています"
 date: "2018-12-24T22:05:00-05:00"
 ---
-投稿が遅くなって済みません！ [Firefox 65 Beta と Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) が今日までに 3 週間公開されています。1 月下旬公開の最終版に備えて [Firefox 65 互換性情報](https://www.fxsitecompat.dev/ja/versions/65/) を確認してください。
+投稿が遅くなって済みません！ [Firefox 65 Beta と Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) が今日までに 3 週間公開されています。1 月下旬公開の最終版に備えて [Firefox 65 互換性情報](https://www.fxsitecompat.dev/ja/releases/65/) を確認してください。
 
 この次期バージョンには皆さんが知っておくべき DOM イベントに関する一連の変更が含まれています。メジャーサイト上で発見された既知の問題は解決済みですが、これらの変更のいずれかがあなたに影響を及ぼす可能性は十分にあります。
 

@@ -3,7 +3,7 @@ title: "`font-feature-settings` has been unprefixed while the newly enabled `fon
 date: "2014-09-01T22:12:15-04:00"
 categories: ["css"]
 tags: []
-versions: ["34", "38-esr"]
+releases: ["34", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=835191"
       title: "Bug 835191 – Unprefix -moz-font-feature-settings"

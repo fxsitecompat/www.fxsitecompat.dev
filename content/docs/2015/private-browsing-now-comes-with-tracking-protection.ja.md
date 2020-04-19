@@ -3,7 +3,7 @@ title: "プライベートブラウジングにトラッキング保護機能が
 date: "2015-09-29T21:32:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["42", "45-esr"]
+releases: ["42", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1029886"
       title: "Bug 1029886 - tracking bug for tracking protection"

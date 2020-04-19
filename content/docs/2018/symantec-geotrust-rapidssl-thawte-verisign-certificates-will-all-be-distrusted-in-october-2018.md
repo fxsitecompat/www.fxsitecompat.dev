@@ -3,7 +3,7 @@ title: "Symantec, GeoTrust, RapidSSL, Thawte, Verisign certificates will all be 
 date: "2018-06-05T12:53:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["64", "68-esr"]
+releases: ["64", "68-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1460062"

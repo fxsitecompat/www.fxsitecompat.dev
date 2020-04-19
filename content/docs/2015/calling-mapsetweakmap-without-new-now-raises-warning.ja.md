@@ -3,7 +3,7 @@ title: "`new` なしで `Map`/`Set`/`WeakMap` を呼び出した場合に警告�
 date: "2015-02-27T04:21:22-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["38", "38-esr"]
+releases: ["38", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1062075"
       title: "Bug 1108930 – Throw for ES6 built-in constructors called without `new`"

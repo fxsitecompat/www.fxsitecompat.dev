@@ -3,7 +3,7 @@ title: "Android 版 Firefox で Flash プラグイン対応が打ち切られま
 date: "2017-09-21T01:08:00-04:00"
 categories: ["plugins"]
 tags: []
-versions: ["56", "60-esr"]
+releases: ["56", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1381916"
       title: "Bug 1381916 - Remove support for plugins (flash)"

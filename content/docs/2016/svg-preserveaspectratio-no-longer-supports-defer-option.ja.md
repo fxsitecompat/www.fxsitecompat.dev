@@ -3,7 +3,7 @@ title: "SVG `preserveAspectRatio` の `defer` オプションが廃止されま�
 date: "2016-08-03T10:40:00-04:00"
 categories: ["svg"]
 tags: []
-versions: ["50", "52-esr"]
+releases: ["50", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1280425"
       title: "Bug 1280425 - Drop support for SVG <image preserveAspectRatio=\"defer ...\">"

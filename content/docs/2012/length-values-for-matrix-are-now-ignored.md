@@ -3,7 +3,7 @@ title: "Length values for `matrix()` are now ignored"
 date: "2012-10-09T06:00:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["16"]
+releases: ["16"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=719054"
       title: "Bug 719054 – matrix() and matrix3d() with length units should be parse errors"

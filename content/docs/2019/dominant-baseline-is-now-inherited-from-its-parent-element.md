@@ -3,7 +3,7 @@ title: "`dominant-baseline` is now inherited from its parent element"
 date: "2019-07-21T20:10:00-04:00"
 categories: ["css", "svg"]
 tags: []
-versions: ["70"]
+releases: ["70"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1353164"
       title: "Bug 1353164 - dominant-baseline will become inherited in SVG 2 (and CSS Inline 3)"

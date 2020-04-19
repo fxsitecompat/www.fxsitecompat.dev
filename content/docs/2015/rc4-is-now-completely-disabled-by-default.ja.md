@@ -3,7 +3,7 @@ title: "RC4 が初期設定で完全に無効化されました"
 date: "2015-10-20T14:47:00-07:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["44", "45-esr"]
+releases: ["44", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=999544"

@@ -3,7 +3,7 @@ title: "303 and 307 redirects after 302 are not followed"
 date: "2015-10-20T21:42:00-07:00"
 categories: ["networking"]
 tags: [""]
-versions: ["39"]
+releases: ["39"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1196882"

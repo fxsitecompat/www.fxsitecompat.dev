@@ -2,7 +2,7 @@
 title: "Firefox 60 Developer Edition, one step toward a safer web, and JavaScript library compatibility"
 date: "2018-03-19T20:13:00-04:00"
 ---
-Mozilla has shipped [Firefox 60 Beta and Developer Edition](https://www.mozilla.org/firefox/channel/desktop/). Check out our [Firefox 60 compatibility notes](https://www.fxsitecompat.dev/en-CA/versions/60/) to get prepared for the final version coming early May.
+Mozilla has shipped [Firefox 60 Beta and Developer Edition](https://www.mozilla.org/firefox/channel/desktop/). Check out our [Firefox 60 compatibility notes](https://www.fxsitecompat.dev/en-CA/releases/60/) to get prepared for the final version coming early May.
 
 As you'll see, there are several security-related changes including secure context requirements along with the [first round of the Symantec certificate distrust actions](https://www.fxsitecompat.dev/en-CA/docs/2018/symantec-certificates-issued-before-june-2016-are-now-distrusted/). If you have a SSL/TLS server certificate with the GeoTrust, RapidSSL, Symantec, Thawte or Verisign brand, take an immediate action to avoid Insecure Connection error pages on your site. Don't have any certificate yet? Get yours from [Let's Encrypt](https://letsencrypt.org/) today, for free.
 

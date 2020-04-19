@@ -3,7 +3,7 @@ title: "`RTCDataChannel.stream` has been removed"
 date: "2016-06-24T14:06:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["50", "52-esr"]
+releases: ["50", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=878945"
       title: "Bug 878945 - Update DataChannel WebIDL to match spec changes (renaming dictionary values)"

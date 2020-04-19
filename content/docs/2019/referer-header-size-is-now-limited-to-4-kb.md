@@ -3,7 +3,7 @@ title: "`Referer` header size is now limited to 4 KB"
 date: "2019-07-11T23:03:00-04:00"
 categories: ["networking"]
 tags: []
-versions: ["70"]
+releases: ["70"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1557346"
       title: "Bug 1557346 - Experiment limit `referer` header length"

@@ -3,7 +3,7 @@ title: "Setting `document.domain` doesn't change the port, may cause permission 
 date: "2016-09-25T01:23:00-04:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["48"]
+releases: ["48"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1292522"

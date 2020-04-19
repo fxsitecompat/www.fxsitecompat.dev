@@ -3,7 +3,7 @@ title: "Non-standard `DataTransfer` APIs have been removed"
 date: "2019-09-05T18:13:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["71"]
+releases: ["71"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1345192"
       title: "Bug 1345192 - Consider removing gecko-only DataTransfer APIs"

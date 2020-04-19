@@ -3,7 +3,7 @@ title: "Application Cache storage has been removed"
 date: "2020-04-17T08:01:00-04:00"
 categories: ["html"]
 tags: []
-versions: ["77"]
+releases: ["77"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1237782"
       title: "Bug 1237782 - Remove support for appcache storage in Nightly and early beta"

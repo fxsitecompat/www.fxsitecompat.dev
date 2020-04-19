@@ -3,7 +3,7 @@ title: "`SVGDocument` has been removed"
 date: "2016-10-05T07:06:00-04:00"
 categories: ["dom", "svg"]
 tags: []
-versions: ["52", "52-esr"]
+releases: ["52", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1293786"
       title: "Bug 1293786 - Remove SVGDocument"

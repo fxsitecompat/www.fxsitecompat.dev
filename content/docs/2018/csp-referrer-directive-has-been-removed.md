@@ -3,7 +3,7 @@ title: "CSP `referrer` directive has been removed"
 date: "2018-05-08T17:17:00-04:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["62", "68-esr"]
+releases: ["62", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1302449"
       title: "Bug 1302449 - deprecating the \"referrer\" directive in CSP"

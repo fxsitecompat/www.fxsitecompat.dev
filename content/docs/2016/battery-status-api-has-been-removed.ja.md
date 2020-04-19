@@ -3,7 +3,7 @@ title: "Battery Status API が削除されました"
 date: "2016-10-28T23:57:00-04:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["52", "52-esr"]
+releases: ["52", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1313580"
       title: "Bug 1313580 - Remove web content access to Battery API"

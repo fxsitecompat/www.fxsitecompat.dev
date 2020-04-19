@@ -3,7 +3,7 @@ title: "`<object>` の `typemustmatch` 属性が廃止されました"
 date: "2019-05-28T00:20:00-04:00"
 categories: ["dom", "html"]
 tags: []
-versions: ["68", "68-esr"]
+releases: ["68", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1548773"
       title: "Bug 1548773 - Remove support for typemustmatch"

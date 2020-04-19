@@ -3,7 +3,7 @@ title: "`VTTCue.positionAlign` now uses `PositionAlignSetting` instead of `Align
 date: "2016-06-10T09:07:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["49", "52-esr"]
+releases: ["49", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1276129"
       title: "Bug 1276129 - [webvtt] Use PositionAlignSetting type for VTTCue's positionAlign"

@@ -3,7 +3,7 @@ title: "`CSS` インターフェイスの型が `function` から `object` へ�
 date: "2018-05-07T21:30:00-04:00"
 categories: ["css", "dom"]
 tags: []
-versions: ["61", "68-esr"]
+releases: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1455805"
       title: "Bug 1455805 - Make \"CSS\" a namespace, not interface"

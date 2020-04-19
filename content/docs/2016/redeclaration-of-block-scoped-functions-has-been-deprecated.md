@@ -3,7 +3,7 @@ title: "Redeclaration of block-scoped functions has been deprecated"
 date: "2016-01-24T17:52:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["46", "52-esr"]
+releases: ["46", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1071646"
       title: "Bug 1071646 - Implement ES6 block-level functions"

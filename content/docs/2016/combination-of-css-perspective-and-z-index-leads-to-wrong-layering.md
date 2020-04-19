@@ -3,7 +3,7 @@ title: "Combination of CSS `perspective` and `z-index` leads to wrong layering"
 date: "2016-05-03T14:05:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["46"]
+releases: ["46"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1269184"

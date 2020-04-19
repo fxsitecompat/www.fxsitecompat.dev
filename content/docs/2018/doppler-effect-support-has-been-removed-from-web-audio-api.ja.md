@@ -3,7 +3,7 @@ title: "Web Audio API からドップラー効果対応が削除されました"
 date: "2018-09-06T16:31:00-04:00"
 categories: ["audio-video", "dom"]
 tags: []
-versions: ["63", "68-esr"]
+releases: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1148354"
       title: "Bug 1148354 - Remove the doppler effect from the PannerNode"

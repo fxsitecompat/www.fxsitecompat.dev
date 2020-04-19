@@ -3,7 +3,7 @@ title: "`clear` method has been removed from `WeakMap` and `WeakSet`"
 date: "2016-01-12T19:13:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["46", "52-esr"]
+releases: ["46", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1101817"
       title: "Bug 1101817 - Remove Weak{Map,Set}.prototype.clear"

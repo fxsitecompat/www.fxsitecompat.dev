@@ -3,7 +3,7 @@ title: "Fetch API と Service Worker Cache API によっていくつかのグロ
 date: "2015-03-17T14:02:59-04:00"
 categories: ["dom"]
 tags: []
-versions: ["39", "45-esr"]
+releases: ["39", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1133861"

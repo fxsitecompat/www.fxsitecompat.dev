@@ -3,7 +3,7 @@ title: "`@-moz-document` 対応が空の `url-prefix()` を除いて打ち切ら
 date: "2018-03-18T16:09:00-04:00"
 categories: ["css", "privacy-security"]
 tags: []
-versions: ["61", "68-esr"]
+releases: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1035091"
       title: "Bug 1035091 - limit @-moz-document to user and UA sheets (Makes it useless for exfiltration in CSS-injection attacks)"

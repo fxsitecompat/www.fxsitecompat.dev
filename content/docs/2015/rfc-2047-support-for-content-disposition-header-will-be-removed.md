@@ -3,7 +3,7 @@ title: "RFC 2047 support for `Content-Disposition` header will be removed"
 date: "2015-10-27T14:25:00-07:00"
 categories: ["networking"]
 tags: []
-versions: ["future"]
+releases: ["future"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=601933"

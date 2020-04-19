@@ -3,7 +3,7 @@ title: "古いイベントメソッドが削除されました"
 date: "2013-05-19T07:35:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["24", "24-esr"]
+releases: ["24", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=673919"
       title: "Bug 673919 – Remove routeEvent, enableExternalCapture and disableExternalCapture"

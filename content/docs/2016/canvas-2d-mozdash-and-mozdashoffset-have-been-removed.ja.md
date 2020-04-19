@@ -3,7 +3,7 @@ title: "Canvas 2D の `mozDash` と `mozDashOffset` が削除されました"
 date: "2016-10-04T11:26:00-04:00"
 categories: ["canvas-webgl"]
 tags: []
-versions: ["52", "52-esr"]
+releases: ["52", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=931389"
       title: "Bug 931389 - Deprecate and remove CanvasRenderingContext2D.mozDash/mozDashOffset"

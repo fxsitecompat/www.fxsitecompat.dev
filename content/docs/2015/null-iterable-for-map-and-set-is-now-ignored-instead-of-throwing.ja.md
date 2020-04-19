@@ -3,7 +3,7 @@ title: "`Map` と `Set` の `null` 引数が例外を投げる代わりに無視
 date: "2015-01-16T09:37:54-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["37", "38-esr"]
+releases: ["37", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1092538"
       title: "Bug 1092538 – Ignore `null` iterable in Map, Set, WeakMap and WeakSet constructors"

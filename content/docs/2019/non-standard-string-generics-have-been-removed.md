@@ -3,7 +3,7 @@ title: "Non-standard `String` generics have been removed"
 date: "2019-05-28T05:38:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["68", "68-esr"]
+releases: ["68", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1222552"
       title: "Bug 1222552 - Remove String generics"

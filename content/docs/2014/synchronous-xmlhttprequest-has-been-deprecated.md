@@ -3,7 +3,7 @@ title: "Synchronous `XMLHttpRequest` has been deprecated"
 date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []
-versions: ["30", "31-esr"]
+releases: ["30", "31-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=969671"
       title: "Bug 969671 – Warn about use of sync XHR in the main thread"

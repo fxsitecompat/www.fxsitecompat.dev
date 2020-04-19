@@ -3,7 +3,7 @@ title: "`#RGBA` カラー値への対応により、従来無効だった値が�
 date: "2016-05-30T09:38:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["49", "52-esr"]
+releases: ["49", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=567283"

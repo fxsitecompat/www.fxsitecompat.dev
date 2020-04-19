@@ -3,7 +3,7 @@ title: "CSS `perspective` と `z-index` の組み合わせが間違った重ね�
 date: "2016-05-03T14:05:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["46"]
+releases: ["46"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1269184"

@@ -3,7 +3,7 @@ title: "`X-Content-Type-Options: nosniff` がトップレベルドキュメン�
 date: "2019-10-21T19:11:00-04:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["72"]
+releases: ["72"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1580607"

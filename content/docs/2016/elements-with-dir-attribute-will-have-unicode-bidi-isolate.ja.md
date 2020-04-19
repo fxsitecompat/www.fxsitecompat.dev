@@ -3,7 +3,7 @@ title: "`dir` 属性付き要素に `unicode-bidi:isolate` が適用されます
 date: "2016-03-07T11:46:00-05:00"
 categories: ["css", "html"]
 tags: []
-versions: ["47", "52-esr"]
+releases: ["47", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1218706"
       title: "Bug 1218706 - Make unicode-bidi: isolate the default for elements with a dir attribute"

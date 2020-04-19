@@ -3,7 +3,7 @@ title: "Untrusted `submit` event can no longer trigger form submission"
 date: "2019-07-06T23:06:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["69"]
+releases: ["69"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1370630"

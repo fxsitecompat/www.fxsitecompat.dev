@@ -3,7 +3,7 @@ title: "RFC 2047 encoding support for HTTP header field parameters has been remo
 date: "2013-02-24T03:44:31-05:00"
 categories: ["misc"]
 tags: []
-versions: ["22"]
+releases: ["22"]
 statuses: "postponed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=601933"

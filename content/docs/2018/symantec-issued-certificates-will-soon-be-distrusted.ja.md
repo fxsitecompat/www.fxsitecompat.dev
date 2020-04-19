@@ -3,7 +3,7 @@ title: "Symantec から発行された証明書の信頼が近く失われます
 date: "2018-03-02T21:48:00-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["58", "60-esr"]
+releases: ["58", "60-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1409259"

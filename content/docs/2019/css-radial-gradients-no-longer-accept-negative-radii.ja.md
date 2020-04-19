@@ -3,7 +3,7 @@ title: "CSS 円形グラデーションが負の半径を受け付けなくな�
 date: "2019-10-02T17:07:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["71"]
+releases: ["71"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1583736"
       title: "Bug 1583736 - CSS radial-gradient should not accept negative radii"

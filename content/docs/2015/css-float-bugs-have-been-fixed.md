@@ -3,7 +3,7 @@ title: "CSS `float` bugs have been fixed"
 date: "2015-09-23T07:14:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["42", "45-esr"]
+releases: ["42", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=451791"

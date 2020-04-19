@@ -3,7 +3,7 @@ title: "Non-standard `Array` generics have been deprecated"
 date: "2019-06-09T06:34:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["68", "68-esr"]
+releases: ["68", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1536860"
       title: "Bug 1536860 - Add telemetry and warning for Array generics"

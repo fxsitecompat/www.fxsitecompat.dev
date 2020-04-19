@@ -3,7 +3,7 @@ title: "Social API has been completely removed"
 date: "2017-08-17T11:17:00-04:00"
 categories: ["misc"]
 tags: []
-versions: ["57", "60-esr"]
+releases: ["57", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1388902"
       title: "Bug 1388902 - Shut down the last of socialapi"

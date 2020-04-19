@@ -3,7 +3,7 @@ title: "`Object.watch()` が廃止予定となりました"
 date: "2017-08-21T16:27:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["57", "60-esr"]
+releases: ["57", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=934669"
       title: "Bug 934669 - Deprecate Object.prototype.{,un}watch, and make them warn when used"

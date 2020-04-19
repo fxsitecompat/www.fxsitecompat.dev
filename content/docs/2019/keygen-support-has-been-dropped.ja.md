@@ -3,7 +3,7 @@ title: "`<keygen>` 対応が廃止されました"
 date: "2019-06-13T20:06:00-04:00"
 categories: ["dom", "html", "privacy-security"]
 tags: []
-versions: ["69"]
+releases: ["69"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1315460"
       title: "Bug 1315460 - Remove support for HTML Keygen"

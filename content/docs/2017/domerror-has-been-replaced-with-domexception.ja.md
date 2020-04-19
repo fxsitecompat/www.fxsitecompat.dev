@@ -3,7 +3,7 @@ title: "`DOMError` が `DOMException` に置き換えられました"
 date: "2017-10-03T04:30:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["58", "60-esr"]
+releases: ["58", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1120178"
       title: "Bug 1120178 - Remove DOMError"

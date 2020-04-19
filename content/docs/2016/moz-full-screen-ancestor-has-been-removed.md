@@ -3,7 +3,7 @@ title: "`:-moz-full-screen-ancestor` has been removed"
 date: "2016-06-30T17:33:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["50", "52-esr"]
+releases: ["50", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1199529"
       title: "Bug 1199529 - Remove :-moz-full-screen-ancestor pseudo-class selector"

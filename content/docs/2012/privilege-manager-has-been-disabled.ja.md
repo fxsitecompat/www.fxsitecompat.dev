@@ -3,7 +3,7 @@ title: "特権管理機能が無効化されました"
 date: "2012-12-03T03:50:54-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["17"]
+releases: ["17"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=757046"

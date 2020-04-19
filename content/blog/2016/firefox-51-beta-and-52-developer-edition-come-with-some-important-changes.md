@@ -4,8 +4,8 @@ date: "2016-12-04T15:30:00-05:00"
 ---
 Mozilla has shipped [Firefox 51 Beta and 52 Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) on November 16 and 21 respectively. Sorry we haven't posted this earlier! Due to the Mozilla All Hands happening this week (our project manager [Kohei](https://mozillians.org/u/kohei.yoshino/) will be there as a volunteer) and upcoming holiday season, [Firefox 51 won't hit the streets until late January](https://release.mozilla.org/firefox/50/2016/11/22/Firefox50-planned-dot-release.html). Anyway, take a look at our site compatibility documents for each version:
 
-* [Firefox 51 Site Compatibility](https://www.fxsitecompat.dev/en-CA/versions/51/)
-* [Firefox 52 Site Compatibility](https://www.fxsitecompat.dev/en-CA/versions/52/)
+* [Firefox 51 Site Compatibility](https://www.fxsitecompat.dev/en-CA/releases/51/)
+* [Firefox 52 Site Compatibility](https://www.fxsitecompat.dev/en-CA/releases/52/)
 
 Here are some highlights:
 

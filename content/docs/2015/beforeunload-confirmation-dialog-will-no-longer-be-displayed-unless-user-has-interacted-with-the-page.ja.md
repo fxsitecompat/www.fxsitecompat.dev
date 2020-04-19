@@ -3,7 +3,7 @@ title: "`beforeunload` 確認ダイアログはユーザーがページ上で操
 date: "2015-09-29T10:25:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["44", "45-esr"]
+releases: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=636905"
       title: "Bug 636905 - Don't allow onbeforeunload dialog unless I have interacted with the page"

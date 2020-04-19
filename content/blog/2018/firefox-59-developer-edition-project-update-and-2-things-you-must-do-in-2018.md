@@ -2,7 +2,7 @@
 title: "Firefox 59 Developer Edition, project update, and 2 things you must do in 2018"
 date: "2018-01-25T12:34:00-05:00"
 ---
-Mozilla has shipped [Firefox 59 Beta and Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) last week. Check out our [Firefox 59 compatibility notes](https://www.fxsitecompat.dev/en-CA/versions/59/) to get prepared for the final version coming this March. As with Firefox 58, more non-standard features are going away.
+Mozilla has shipped [Firefox 59 Beta and Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) last week. Check out our [Firefox 59 compatibility notes](https://www.fxsitecompat.dev/en-CA/releases/59/) to get prepared for the final version coming this March. As with Firefox 58, more non-standard features are going away.
 
 This is our first blog post in 2018 so we'd like to briefly summarize the things need to be done this year, by us and you.
 

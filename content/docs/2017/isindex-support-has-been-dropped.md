@@ -3,7 +3,7 @@ title: "`<isindex>` support has been dropped"
 date: "2017-07-13T21:35:00-04:00"
 categories: ["html"]
 tags: []
-versions: ["56", "60-esr"]
+releases: ["56", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1266495"
       title: "Bug 1266495 - Consider removing <isindex> from the parser and form submission [tor 18914]"

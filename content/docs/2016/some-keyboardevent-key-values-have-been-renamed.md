@@ -3,7 +3,7 @@ title: "Some `KeyboardEvent.key` values have been renamed"
 date: "2016-06-10T09:54:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["49", "52-esr"]
+releases: ["49", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1272578"
       title: "Bug 1272578 - [UI Events-key] Rename VolumeDown, VolumeUp and VolumeMute to AudioVolumeDown, AudioVolumeUp and AudioVolumeMute"

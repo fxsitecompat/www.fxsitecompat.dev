@@ -3,7 +3,7 @@ title: "非標準 `text` イベントが IME 変換中に発生しなくなり�
 date: "2018-11-30T02:45:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["65", "68-esr"]
+releases: ["65", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1288640"
       title: "Bug 1288640 - Stop dispatching \"text\" event in web contents"

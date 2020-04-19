@@ -3,7 +3,7 @@ title: "非標準の Simple Push API が削除されました"
 date: "2016-09-03T10:52:00-04:00"
 categories: ["misc"]
 tags: []
-versions: ["51", "52-esr"]
+releases: ["51", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1296579"
       title: "Bug 1296579 - Remove the SimplePush API"

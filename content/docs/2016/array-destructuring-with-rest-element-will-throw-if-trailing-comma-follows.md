@@ -3,7 +3,7 @@ title: "Array destructuring with rest element will throw if trailing comma follo
 date: "2016-10-23T17:55:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["52", "52-esr"]
+releases: ["52", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1041341"
       title: "Bug 1041341 - Make `[...rest,] = []` a SyntaxError"

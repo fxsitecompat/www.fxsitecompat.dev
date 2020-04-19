@@ -3,7 +3,7 @@ title: "New WoSign and StartCom certificates will no longer be accepted"
 date: "2016-10-25T09:17:00-04:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["51", "52-esr"]
+releases: ["51", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1309707"

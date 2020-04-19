@@ -3,7 +3,7 @@ title: "Flexbox has been unprefixed"
 date: "2012-12-03T03:54:45-05:00"
 categories: ["css"]
 tags: []
-versions: ["19", "24-esr"]
+releases: ["19", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=801098"
       title: "Bug 801098 – Unprefix CSS3 flexbox"

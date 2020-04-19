@@ -3,7 +3,7 @@ title: "CSS `position:fixed` now always creates stacking context"
 date: "2015-10-03T11:43:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["44", "45-esr"]
+releases: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1179288"
       title: "Bug 1179288 - change position:fixed so it always creates a stacking context"

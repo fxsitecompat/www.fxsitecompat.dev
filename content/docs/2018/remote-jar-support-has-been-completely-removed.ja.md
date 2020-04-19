@@ -3,7 +3,7 @@ title: "リモート JAR 対応が完全に廃止されました"
 date: "2018-04-09T16:12:00-04:00"
 categories: ["networking", "privacy-security"]
 tags: []
-versions: ["61", "68-esr"]
+releases: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1427726"
       title: "Bug 1427726 - Remove remote jar support (currently behind a disabled about:config pref)"

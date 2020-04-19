@@ -3,7 +3,7 @@ title: "Nested `contenteditable` elements cannot be selected nor edited properly
 date: "2015-07-07T13:46:34-04:00"
 categories: ["html"]
 tags: []
-versions: ["39"]
+releases: ["39"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1181130"

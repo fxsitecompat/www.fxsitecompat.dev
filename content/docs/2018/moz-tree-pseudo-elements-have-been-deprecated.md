@@ -3,7 +3,7 @@ title: "`::-moz-tree` pseudo-elements have been deprecated"
 date: "2018-08-14T21:29:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["63", "68-esr"]
+releases: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1480054"
       title: "Bug 1480054 - Don't allow tree pseudos with arguments in content."

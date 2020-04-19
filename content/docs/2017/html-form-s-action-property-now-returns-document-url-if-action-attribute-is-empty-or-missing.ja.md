@@ -3,7 +3,7 @@ title: "HTML フォームの `action` 属性が空か未設定の場合、`actio
 date: "2017-11-10T00:54:00-05:00"
 categories: ["dom", "html"]
 tags: []
-versions: ["56", "60-esr"]
+releases: ["56", "60-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1366361"

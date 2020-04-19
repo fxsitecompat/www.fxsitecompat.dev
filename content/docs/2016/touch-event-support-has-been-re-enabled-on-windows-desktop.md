@@ -3,7 +3,7 @@ title: "Touch event support has been re-enabled on Windows desktop"
 date: "2016-10-06T08:23:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["52", "52-esr"]
+releases: ["52", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=806805"

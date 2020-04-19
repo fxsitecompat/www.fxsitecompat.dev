@@ -3,7 +3,7 @@ title: "`window.find()` dialog support has been dropped"
 date: "2017-04-18T17:18:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["53", "60-esr"]
+releases: ["53", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=672395"
       title: "Bug 672395 - Let's kill window.find()"

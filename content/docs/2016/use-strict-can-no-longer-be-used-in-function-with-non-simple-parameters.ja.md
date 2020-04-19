@@ -3,7 +3,7 @@ title: "単純でない引数を伴った関数内で `use strict` を使用で�
 date: "2016-10-25T10:28:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["52", "52-esr"]
+releases: ["52", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1272784"
       title: "Bug 1272784 - |function f(a = 1) { \"use strict\"; }| should throw Early Error."

@@ -3,7 +3,7 @@ title: "`-moz-calc()` が廃止されました"
 date: "2017-01-18T10:27:00-05:00"
 categories: ["css"]
 tags: []
-versions: ["53", "60-esr"]
+releases: ["53", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1331296"
       title: "Bug 1331296 - Remove support for -moz-calc()"

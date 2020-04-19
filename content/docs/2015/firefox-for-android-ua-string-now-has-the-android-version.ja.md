@@ -3,7 +3,7 @@ title: "Android 版 Firefox の UA 文字列に Android のバージョンが含
 date: "2015-06-13T15:20:46-04:00"
 categories: ["networking"]
 tags: []
-versions: ["41", "45-esr"]
+releases: ["41", "45-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1169772"

@@ -3,7 +3,7 @@ title: "`user-select` の接頭辞が外れました"
 date: "2019-06-15T19:33:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["69"]
+releases: ["69"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1492739"
       title: "Bug 1492739 - Consider unprefixing -moz-user-select"

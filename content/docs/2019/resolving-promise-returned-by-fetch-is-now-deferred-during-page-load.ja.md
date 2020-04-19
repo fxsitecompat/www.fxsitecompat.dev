@@ -3,7 +3,7 @@ title: "ページ読み込み中に `fetch()` によって返された `Promise`
 date: "2019-06-15T21:58:00-04:00"
 categories: ["dom", "networking"]
 tags: []
-versions: ["69"]
+releases: ["69"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1538516"
       title: "Bug 1538516 - Resolve the Promise returned by fetch() later during page loads"

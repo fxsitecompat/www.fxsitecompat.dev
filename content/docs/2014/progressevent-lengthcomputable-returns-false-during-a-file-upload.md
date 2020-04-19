@@ -3,7 +3,7 @@ title: "`ProgressEvent.lengthComputable` returns `false` during a file upload"
 date: "2014-02-07T11:57:09-05:00"
 categories: ["dom"]
 tags: []
-versions: ["29"]
+releases: ["29"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1009640"

@@ -3,7 +3,7 @@ title: "`IDBObjectStore.getAll()` and related methods have been unprefixed"
 date: "2015-10-25T21:09:00-07:00"
 categories: ["dom"]
 tags: []
-versions: ["44", "45-esr"]
+releases: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=920633"
       title: "Bug 920633 - Add getAllKeys to IDBObjectStore"

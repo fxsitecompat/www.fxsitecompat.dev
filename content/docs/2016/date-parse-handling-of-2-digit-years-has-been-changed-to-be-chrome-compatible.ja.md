@@ -3,7 +3,7 @@ title: "`Date.parse` による 2 桁年の扱いが Chrome 互換に変更され
 date: "2016-05-28T02:47:00-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["49", "52-esr"]
+releases: ["49", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1265136"
       title: "Bug 1265136 - new Date(<mm/dd/yy>) behaves differently in Firefox vs Chrome/Safari"

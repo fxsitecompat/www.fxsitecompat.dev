@@ -3,7 +3,7 @@ title: "Enter key on `<select>` no longer fires the `keypress` event"
 date: "2014-02-07T11:57:09-05:00"
 categories: ["dom"]
 tags: []
-versions: ["29"]
+releases: ["29"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=935876"

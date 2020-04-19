@@ -3,7 +3,7 @@ title: "`overflow` ショートハンド構文が更新され、2 つの値が�
 date: "2018-08-17T11:57:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["63"]
+releases: ["63"]
 statuses: "reverted"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1481866"

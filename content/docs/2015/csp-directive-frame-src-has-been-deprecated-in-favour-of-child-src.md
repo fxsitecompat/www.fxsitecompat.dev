@@ -3,7 +3,7 @@ title: "CSP directive `frame-src` has been deprecated in favour of `child-src`"
 date: "2015-11-17T14:08:00-08:00"
 categories: ["dom", "privacy-security"]
 tags: []
-versions: ["45", "45-esr"]
+releases: ["45", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1045891"
       title: "Bug 1045891 - Implement CSP 1.1 child-src directive"

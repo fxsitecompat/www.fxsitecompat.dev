@@ -3,7 +3,7 @@ title: "`let` 命令文が明示的な JavaScript バージョンを必要とし
 date: "2015-10-28T02:02:00-07:00"
 categories: ["javascript"]
 tags: []
-versions: ["44", "45-esr"]
+releases: ["44", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=855665"
       title: "Bug 855665 - Enable let without version=1.7+"

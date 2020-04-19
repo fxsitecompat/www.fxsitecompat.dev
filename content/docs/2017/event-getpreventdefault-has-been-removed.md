@@ -3,7 +3,7 @@ title: "`Event.getPreventDefault()` has been removed"
 date: "2017-11-15T10:25:00-05:00"
 categories: ["dom"]
 tags: []
-versions: ["59", "60-esr"]
+releases: ["59", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=691151"
       title: "Bug 691151 - Remove Event.prototype.getPreventDefault"

@@ -3,7 +3,7 @@ title: "Several APIs have been unprefixed"
 date: "2012-10-09T06:00:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["16"]
+releases: ["16"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=726378"
       title: "Bug 726378 – Unprefix IndexedDB"

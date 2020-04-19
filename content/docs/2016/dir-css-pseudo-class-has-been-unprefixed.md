@@ -3,7 +3,7 @@ title: "`:dir` CSS pseudo-class has been unprefixed"
 date: "2016-05-10T13:02:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["49", "52-esr"]
+releases: ["49", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=859301"
       title: "Bug 859301 - Unprefix css4 :dir"

@@ -3,7 +3,7 @@ title: "Flash プラグインコンテンツは有効化のためクリックが
 date: "2017-05-17T22:06:00-05:00"
 categories: ["plugins"]
 tags: []
-versions: ["55", "60-esr"]
+releases: ["55", "60-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1317856"

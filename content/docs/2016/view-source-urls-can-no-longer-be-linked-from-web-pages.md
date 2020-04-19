@@ -3,7 +3,7 @@ title: "`view-source:` URLs can no longer be linked from Web pages"
 date: "2016-01-30T20:41:00-05:00"
 categories: ["privacy-security"]
 tags: []
-versions: ["47", "52-esr"]
+releases: ["47", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1172165"
       title: "Bug 1172165 - Don't let web pages link to view-source: URLs"

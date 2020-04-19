@@ -3,7 +3,7 @@ title: "ページ読み込み中に XHR `load`、`loadend`、`readystatechange` 
 date: "2019-06-09T03:18:00-04:00"
 categories: ["dom", "networking"]
 tags: []
-versions: ["68", "68-esr"]
+releases: ["68", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1538364"
       title: "Bug 1538364 - Consider firing the load/loadend/final readyState events for XHR later during page load (after page load event if possible)"

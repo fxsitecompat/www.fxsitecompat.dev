@@ -3,7 +3,7 @@ title: "`RTCStatsReport` が `Map` のようなオブジェクトになりまし
 date: "2016-04-10T23:00:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["48", "52-esr"]
+releases: ["48", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1213056"
       title: "Bug 1213056 - Change RTCStatsReport to be maplike."

@@ -3,7 +3,7 @@ title: "Sherlock 検索プラグイン対応が廃止予定となりました"
 date: "2013-05-19T07:35:00-04:00"
 categories: ["misc"]
 tags: []
-versions: ["24", "24-esr"]
+releases: ["24", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=862143"
       title: "Bug 877135 – stop loading Sherlock files from disk"

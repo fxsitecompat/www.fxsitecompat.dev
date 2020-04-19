@@ -3,7 +3,7 @@ title: "WebRTC video may stop in low-bandwidth conditions"
 date: "2017-10-24T18:21:00-04:00"
 categories: ["audio-video"]
 tags: []
-versions: ["56"]
+releases: ["56"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1403714"

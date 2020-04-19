@@ -3,7 +3,7 @@ title: "`<table>`'s size and position now take `<caption>` into account"
 date: "2018-09-06T03:18:00-04:00"
 categories: ["css", "dom"]
 tags: []
-versions: ["63", "68-esr"]
+releases: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=820891"
       title: "Bug 820891 - Table's caption element not taken into account for table's offsetTop and offsetHeight values"

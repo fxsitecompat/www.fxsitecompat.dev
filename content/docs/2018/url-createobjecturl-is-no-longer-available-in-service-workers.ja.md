@@ -3,7 +3,7 @@ title: "`URL.createObjectURL()` は Service Worker 内で使用できなくな�
 date: "2018-08-14T13:30:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["63", "68-esr"]
+releases: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1264182"
       title: "Bug 1264182 - remove URL.createObjectURL from ServiceWorker"

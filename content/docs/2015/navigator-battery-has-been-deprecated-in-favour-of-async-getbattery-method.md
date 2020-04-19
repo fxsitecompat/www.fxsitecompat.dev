@@ -3,7 +3,7 @@ title: "`navigator.battery` has been deprecated in favour of async `getBattery` 
 date: "2015-09-13T23:41:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["43", "45-esr"]
+releases: ["43", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1047119"
       title: "Bug 1047119 - Update Battery Status API to match latest Editors draft: navigator.getBattery(), etc"

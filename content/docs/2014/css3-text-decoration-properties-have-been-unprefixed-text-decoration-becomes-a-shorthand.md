@@ -3,7 +3,7 @@ title: "CSS3 Text Decoration properties have been unprefixed, `text-decoration` 
 date: "2014-12-19T11:15:21-05:00"
 categories: ["css"]
 tags: []
-versions: ["36", "38-esr"]
+releases: ["36", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=825004"
       title: "Bug 825004 – [css-text-decor-3] Unprefix CSS3 Text Decoration"

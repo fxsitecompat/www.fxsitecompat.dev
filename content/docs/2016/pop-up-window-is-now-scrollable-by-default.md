@@ -3,7 +3,7 @@ title: "Pop-up window is now scrollable by default"
 date: "2016-05-25T13:52:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["49", "52-esr"]
+releases: ["49", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1257887"
       title: "Bug 1257887 - Consider changing the default for whether a window opened through window.open() to be scrollable"

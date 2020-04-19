@@ -3,7 +3,7 @@ title: "Latin-1 のみの文字列に対する正規表現がパフォーマン�
 date: "2014-07-22T05:06:26-04:00"
 categories: ["javascript"]
 tags: []
-versions: ["33"]
+releases: ["33"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1081175"

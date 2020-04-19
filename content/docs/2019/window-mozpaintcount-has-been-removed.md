@@ -3,7 +3,7 @@ title: "`window.mozPaintCount` has been removed"
 date: "2019-10-29T07:50:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["72"]
+releases: ["72"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1591968"
       title: "Bug 1591968 - Consider removing window.mozPaintCount."

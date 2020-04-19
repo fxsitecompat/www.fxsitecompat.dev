@@ -3,7 +3,7 @@ title: "`XHR.getAllResponseHeaders()` の値に含まれる改行コードが変
 date: "2012-12-03T03:50:54-05:00"
 categories: ["dom"]
 tags: []
-versions: ["17"]
+releases: ["17"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=730925"
       title: "Bug 730925 – XHR.getAllResponseHeaders should use CRLF, not LF per spec"

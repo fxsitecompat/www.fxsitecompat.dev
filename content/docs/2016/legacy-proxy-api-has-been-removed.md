@@ -3,7 +3,7 @@ title: "Legacy Proxy API has been removed"
 date: "2016-03-12T18:44:00-05:00"
 categories: ["javascript"]
 tags: []
-versions: ["48", "52-esr"]
+releases: ["48", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=892903"
       title: "Bug 892903 - Remove Proxy.create and Proxy.createFunction"

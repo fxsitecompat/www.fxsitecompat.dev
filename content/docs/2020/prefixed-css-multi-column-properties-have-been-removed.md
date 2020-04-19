@@ -3,7 +3,7 @@ title: "Prefixed CSS multi-column properties have been removed"
 date: "2020-01-16T22:03:00-05:00"
 categories: ["css"]
 tags: []
-versions: ["74"]
+releases: ["74"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1308636"
       title: "Bug 1308636 - Remove support for -moz-prefixed CSS multi-column properties"

@@ -3,7 +3,7 @@ title: "`display:-moz-box` and `display:-moz-inline-box` have been deprecated"
 date: "2018-08-14T21:04:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["63", "68-esr"]
+releases: ["63", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1477553"
       title: "Bug 1477553 - Hide display: -moz-box and display: -moz-inline-box from content in Nightly / early beta."

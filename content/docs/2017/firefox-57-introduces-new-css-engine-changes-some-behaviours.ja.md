@@ -3,7 +3,7 @@ title: "Firefox 57 で新しい CSS エンジンが導入され、一部挙動�
 date: "2017-09-27T03:42:00-04:00"
 categories: ["css"]
 tags: []
-versions: ["57", "60-esr"]
+releases: ["57", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1365771"
       title: "Bug 1365771 - stylo: Tracking bug for behavior changes in stylo"

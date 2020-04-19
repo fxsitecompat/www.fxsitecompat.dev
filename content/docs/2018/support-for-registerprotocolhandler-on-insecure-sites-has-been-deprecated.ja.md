@@ -3,7 +3,7 @@ title: "安全でないサイトでの `registerProtocolHandler()` 対応が廃�
 date: "2018-02-11T00:01:00-05:00"
 categories: ["html", "privacy-security"]
 tags: []
-versions: ["60", "60-esr"]
+releases: ["60", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1429732"
       title: "Bug 1429732 - Consider making registerProtocolHandler require SecureContext"

@@ -3,7 +3,7 @@ title: "Invalid `list-style-type` now leads to ordered list instead of unordered
 date: "2014-07-22T05:06:26-04:00"
 categories: ["css"]
 tags: []
-versions: ["33", "38-esr"]
+releases: ["33", "38-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1027647"

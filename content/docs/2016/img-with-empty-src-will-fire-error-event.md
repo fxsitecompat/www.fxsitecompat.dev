@@ -3,7 +3,7 @@ title: "`<img>` with empty `src` will fire `error` event"
 date: "2016-09-15T22:39:00-04:00"
 categories: ["dom"]
 tags: []
-versions: ["51", "52-esr"]
+releases: ["51", "52-esr"]
 statuses: "affecting"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=599975"

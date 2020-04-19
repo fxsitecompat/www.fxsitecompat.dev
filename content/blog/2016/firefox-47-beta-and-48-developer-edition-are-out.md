@@ -4,8 +4,8 @@ date: "2016-04-30T12:38:00-04:00"
 ---
 Mozilla has shipped [Firefox 47 Beta and 48 Developer Edition](https://www.mozilla.org/firefox/channel/) this week. Check out our [site compatibility documents](https://www.fxsitecompat.dev/en-CA/docs/) for each version:
 
-* [Firefox 47 Site Compatibility](https://www.fxsitecompat.dev/en-CA/versions/47/)
-* [Firefox 48 Site Compatibility](https://www.fxsitecompat.dev/en-CA/versions/48/)
+* [Firefox 47 Site Compatibility](https://www.fxsitecompat.dev/en-CA/releases/47/)
+* [Firefox 48 Site Compatibility](https://www.fxsitecompat.dev/en-CA/releases/48/)
 
 We're monitoring several sources to find regressions in Firefox 46 released this Tuesday but fortunately we haven't seen any serious problems so far. However, a WebGL regression and an `<input>` validation error have been discovered:
 

@@ -4,7 +4,7 @@ date: "2018-05-09T21:37:00-04:00"
 aliases:
     - "/ja/blog/2018/firefox-61-developer-edition-upcoming-keyboard-event-changes-and/"
 ---
-Mozilla は [Firefox 61 Beta と Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) を公開しました。6 月下旬公開の最終版に備えて [Firefox 61 互換性情報](https://www.fxsitecompat.dev/ja/versions/61/) を確認してください。
+Mozilla は [Firefox 61 Beta と Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) を公開しました。6 月下旬公開の最終版に備えて [Firefox 61 互換性情報](https://www.fxsitecompat.dev/ja/releases/61/) を確認してください。
 
 ブラウザーのキーボードイベント処理に関して近々予定されている変更が 2 件あります。[1 つ目](https://www.fxsitecompat.dev/ja/docs/2018/keydown-and-keyup-events-will-soon-be-fired-during-ime-composition/) は東アジアのユーザーに対応しているアプリケーションに影響する潜在的な可能性を持ったものですが、[2 つ目](https://www.fxsitecompat.dev/ja/docs/2018/non-printable-keys-will-soon-stop-firing-keypress-event/) については *Google Docs* など人気アプリケーションも正常に動作しなくなることが判明しています。ウェブ開発者の皆さんには、これらを確認して、[プレリリース版](https://www.mozilla.org/firefox/channel/desktop/) のいずれかで新たな挙動をテストするよう強く推奨します。
 

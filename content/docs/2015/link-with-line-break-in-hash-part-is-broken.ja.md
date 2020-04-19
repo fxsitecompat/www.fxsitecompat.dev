@@ -3,7 +3,7 @@ title: "ハッシュ部分に改行を含むリンクが壊れています"
 date: "2015-10-20T21:43:00-07:00"
 categories: ["networking"]
 tags: [""]
-versions: ["38", "38-esr"]
+releases: ["38", "38-esr"]
 statuses: "regressed"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1189852"
