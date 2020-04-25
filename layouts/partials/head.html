@@ -6,17 +6,16 @@
     <meta property="og:type" content="website">{{ end }}
     <meta property="og:site_name" content="{{ $.Site.Title }}">
     <meta property="og:locale" content="{{ $.Site.Params.FacebookLangCode }}">
-    <meta property="og:url" content="{{ replace .Permalink "/en-ca/" "/en-CA/" }}">
+    <meta property="og:url" content="{{ partial "link/absolute" . }}">
     <meta property="og:image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{ $.Site.Params.Publisher.TwitterUserName }}">
     <meta name="twitter:creator" content="@{{ $.Site.Params.Author.TwitterUserName }}">
-    <link rel="canonical" hreflang="{{ $.Site.LanguageCode }}" href="{{ replace .Permalink "/en-ca/" "/en-CA/" }}">
-    <link rel="alternate" hreflang="x-default" href="{{ replace .Permalink .LanguagePrefix "" }}">
-    <link rel="alternate" hreflang="{{ $.Site.LanguageCode }}" href="{{ replace .Permalink "/en-ca/" "/en-CA/" }}" title="{{ $.Site.Language.LanguageName }}">{{ range $.Translations }}
-    <link rel="alternate" hreflang="{{ replace .Lang "en-ca" "en-CA" }}" href="{{ replace .Permalink "/en-ca/" "/en-CA/" }}" title="{{ range where $.Site.Languages "Lang" (lower .Lang) }}{{ .LanguageName }}{{ end }}">{{ end }}
+    <link rel="canonical" hreflang="{{ $.Site.LanguageCode }}" href="{{ partial "link/absolute" . }}">
+    <link rel="alternate" hreflang="x-default" href="{{ replace .Permalink .Site.LanguagePrefix "" }}">
+    <link rel="alternate" hreflang="{{ $.Site.LanguageCode }}" href="{{ partial "link/absolute" . }}" title="{{ $.Site.Language.LanguageName }}">{{ range $.Translations }}
+    <link rel="alternate" hreflang="{{ replace .Lang "en-ca" "en-CA" }}" href="{{ partial "link/absolute" . }}" title="{{ range where $.Site.Languages "Lang" (lower .Lang) }}{{ .LanguageName }}{{ end }}">{{ end }}
     <link rel="stylesheet" href="/styles/base.css?v=2020041908">
     <link rel="stylesheet" href="/styles/prism.css?v=1.15.0">
     <link rel="icon" type="image/png" href="/images/template/favicon.png">
     <link rel="alternate" type="application/atom+xml" href="/{{ $.Site.LanguageCode }}/index.xml" title="{{ $.Site.Title }}">
-    <link rel="search" type="application/opensearchdescription+xml" href="/{{ $.Site.LanguageCode }}/search/index.xml" title="{{ $.Site.Params.Domain }}">

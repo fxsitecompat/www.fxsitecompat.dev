@@ -39,7 +39,7 @@
         <section>
           <h2>{{ i18n "all_documents" }}</h2>
           <ul>{{ range .Data.Pages }}
-            <li>{{ partial "status-label/prefix-em" . }}<a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}">{{ .Title | markdownify | replaceRE "([a-z])([A-Z\\.])" "$1<wbr>$2" | safeHTML }}</a></li>{{ end }}
+            <li>{{ partial "status-label/prefix-em" . }}<a href="{{ partial "link/relative" . }}">{{ .Title | markdownify | replaceRE "([a-z])([A-Z\\.])" "$1<wbr>$2" | safeHTML }}</a></li>{{ end }}
           </ul>
         </section>
       </section>

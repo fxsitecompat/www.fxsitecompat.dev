@@ -3,5 +3,5 @@
 {{ partial "feed/head" . }}
   <title>{{ .Title }}</title>
   <subtitle>{{ with index $.Site.Data.firefox.releases $release }}{{ printf "channel_%s" . | i18n }}{{ end }}</subtitle>
-{{ range first 50 (where .Data.Pages "Section" "ne" "").ByDate.Reverse }}{{ partial "feed/entry" . }}{{ end }}
+{{ range first 50 (where .Pages "Section" "ne" "").ByDate.Reverse }}{{ partial "feed/entry" . }}{{ end }}
 </feed>

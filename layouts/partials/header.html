@@ -1,4 +1,4 @@
-    <meta itemprop="url" content="{{ replace .Permalink "/en-ca/" "/en-CA/" }}">
+    <meta itemprop="url" content="{{ partial "link/absolute" . }}">
     <div id="meta-general">
       <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
       <meta itemprop="genre" content="{{ i18n "contentinfo_category" }}">

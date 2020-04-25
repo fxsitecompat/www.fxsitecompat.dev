@@ -19,7 +19,7 @@
         <section>
           <h2>{{ .Key }}</h2>
           <ul>{{ range .Pages }}
-            <li><a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}">{{ .Title | safeHTML }}</a></li>{{ end }}
+            <li><a href="{{ partial "link/relative" . }}">{{ .Title | safeHTML }}</a></li>{{ end }}
           </ul>
         </section>{{ end }}
       </section>

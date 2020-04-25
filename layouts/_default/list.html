@@ -16,7 +16,7 @@
           <h1 itemprop="name">{{ .Title }}</h1>
         </header>
         <ul>{{ range .Data.Pages }}
-          <li><a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}">{{ .Title | markdownify }}</a></li>{{ end }}
+          <li><a href="{{ partial "link/relative" . }}">{{ .Title | markdownify }}</a></li>{{ end }}
         </ul>
       </section>
     </main>

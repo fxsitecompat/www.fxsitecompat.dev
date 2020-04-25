@@ -19,10 +19,10 @@
       <div id="main-content">
         <div class="inner">
           <section id="sec-blog" itemscope itemtype="http://schema.org/Blog">
-            <h2 itemprop="name">{{ i18n "latest_blog_post" }}</h2>{{ range first 1 (where .Data.Pages "Section" "blog") }}
+            <h2 itemprop="name">{{ i18n "latest_blog_post" }}</h2>{{ range first 1 (where $.Site.RegularPages "Section" "blog") }}
             <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
               <header>
-                <h3 itemprop="headline"><a href="{{ replace .Permalink "/en-ca/" "/en-CA/" | relURL }}" rel="bookmark" itemprop="url">{{ .Title }}</a></h3>
+                <h3 itemprop="headline"><a href="{{ partial "link/relative" . }}" rel="bookmark" itemprop="url">{{ .Title }}</a></h3>
                 <p><time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time></p>
                 <meta itemprop="image" content="{{ $.Site.BaseURL }}images/template/logo-512.png">
               </header>

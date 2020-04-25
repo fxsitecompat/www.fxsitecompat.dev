@@ -2,5 +2,5 @@
 {{ partial "feed/head" . }}
   <title>{{ .Title }}</title>
   <subtitle>{{ i18n "feed_recent_content" (dict "section" .Title) }}</subtitle>
-{{ range first 50 (where .Data.Pages "Section" "ne" "").ByDate.Reverse }}{{ partial "feed/entry" . }}{{ end }}
+{{ range first 50 (where .Pages "Section" "ne" "").ByDate.Reverse }}{{ partial "feed/entry" . }}{{ end }}
 </feed>

@@ -1,5 +1,5 @@
   <entry>
-    <id>{{ .Permalink }}</id>
+    <id>{{ partial "link/absolute" . }}</id>
     <title>{{ replace .Title "`" "" }}{{ partial "status-label/suffix" . }}</title>
     <updated>{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}</updated>{{ with $.Site.Params.Author.Name }}
     <author>
@@ -19,6 +19,6 @@
       </ul>{{ else }}
       {{ .Content }}{{ end }}
     {{ "]]>" | safeHTML }}</content>
-    <link rel="alternate" href="{{ .Permalink }}" />{{ range .Params.categories }}
+    <link rel="alternate" href="{{ partial "link/absolute" . }}" />{{ range .Params.categories }}
     <category term="{{ replace . "-" "_" | printf "category_%s" | i18n }}" />{{ end }}
   </entry>
