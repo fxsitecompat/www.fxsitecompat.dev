@@ -7,6 +7,11 @@ hasCJKLanguage: true
 disablePathToLower: true
 copyright: "Kohei Yoshino and individual contributors."
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 mediaTypes:
   application/atom+xml:
     suffixes:
