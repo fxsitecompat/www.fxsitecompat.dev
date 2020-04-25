@@ -1,0 +1,15 @@
+{
+  {{- $version := .Title | urlize | lower }}
+  {{- $.Scratch.Set "version" $version }}
+  {{- partial "meta/release" $ }}
+  {{- partial "feed/head.json" $ }}
+  "title": {{ $.Scratch.Get "title" | plainify | jsonify }},
+  "description": {{ $.Scratch.Get "description" | plainify | jsonify }},
+  "items": [
+  {{- range $i, $entry := first 50 (where .Pages "Section" "ne" "").ByDate.Reverse }}
+    {{- if $i }}, {{ end }}
+    {{- partial "feed/entry.json" . }}
+  {{- end }}
+  ],
+  "_release": {{ partial "feed/release.json" $ }}
+}

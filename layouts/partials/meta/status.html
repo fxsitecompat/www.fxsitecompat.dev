@@ -1,0 +1,5 @@
+{{ $slug := $.Scratch.Get "slug" }}
+{{ $status := i18n (printf "status_%s_label" $slug) }}
+{{ i18n "status_index_page_title" (dict "status" $status) | $.Scratch.Set "title" }}
+{{ printf "status_%s_description_list" $slug | i18n | $.Scratch.Set "description" }}
+{{ $.Scratch.Set "status" $status }}

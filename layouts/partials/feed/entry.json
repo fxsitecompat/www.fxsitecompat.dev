@@ -1,0 +1,40 @@
+  {
+    "id": {{ partial "link/absolute" . | jsonify }},
+    "url": {{ partial "link/absolute" . | jsonify }},
+    "title": {{ replace .Title "`" "" | jsonify }},
+    "date_published": {{ .Date.Format $.Site.Params.DateFormat.ISO8601 | jsonify }},
+    {{- if eq .Section "docs" }}
+    "content_html": {{ partial "feed/doc" . | jsonify }},
+    "tags": [
+    {{- range $i, $category := .Params.categories }}
+      {{- if $i }}, {{ end }}
+      {{ replace $category "-" "_" | printf "category_%s" | i18n | jsonify }}
+    {{- end }}
+    ],
+    "_title_html": {{ .Title | markdownify | jsonify }},
+    {{- with $.Params.statuses }}
+    "_status": {
+      "link": {{ printf "%s%s/statuses/%s/" $.Site.BaseURL $.Site.LanguageCode . | jsonify }},
+      "name": {{ printf "status_%s_label" . | i18n | jsonify }}
+    },
+    {{- end }}
+    "_releases": [
+      {{- range $i, $version := .Params.releases }}
+      {{- $.Scratch.Set "version" $version }}
+        {{- if $i }}, {{ end }}
+        {{ partial "feed/release.json" $ }}
+      {{- end }}
+    ],
+    "_categories": [
+      {{- range $i, $category := .Params.categories }}
+        {{- if $i }}, {{ end }}
+        {
+          "link": {{ printf "%s%s/categories/%s/" $.Site.BaseURL $.Site.LanguageCode . | jsonify }},
+          "name": {{ replace . "-" "_" | printf "category_%s" | i18n | jsonify }}
+        }
+      {{- end }}
+    ]
+    {{- else }}
+    "content_html": {{ .Content | jsonify }}
+    {{- end }}
+  }

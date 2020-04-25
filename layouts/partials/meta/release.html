@@ -1,0 +1,21 @@
+{{ $version := $.Scratch.Get "version" }}
+{{- if eq $version "future" -}}
+  {{- i18n "release_index_page_title_future" | $.Scratch.Set "title" -}}
+  {{- i18n "release_index_page_description_future" | $.Scratch.Set "description" -}}
+{{- else if strings.HasSuffix $version "-esr" -}}
+  {{- $version := strings.TrimSuffix "-esr" $version -}}
+  {{- i18n "release_index_page_title" (dict "release" (printf "%s ESR" $version)) | $.Scratch.Set "title" -}}
+  {{- $date := index $.Site.Data.firefox.dates $version -}}
+  {{- $date_localized := (time $date).Format $.Site.Params.DateFormat.Localized -}}
+  {{- i18n "release_index_page_description_esr" (dict "release" $version "date" $date "date_localized" $date_localized) | $.Scratch.Set "description" -}}
+{{- else -}}
+  {{- i18n "release_index_page_title" (dict "release" $version) | $.Scratch.Set "title" -}}
+  {{- $date := index $.Site.Data.firefox.dates $version -}}
+  {{- $date_localized := (time $date).Format $.Site.Params.DateFormat.Localized -}}
+  {{- with index $.Site.Data.firefox.releases $version -}}
+    {{- $channel := . }}
+    {{- i18n "release_index_page_description_upcoming" (dict "release" $version "channel" $channel "channel_localized" (printf "channel_%s" $channel | i18n) "date" $date "date_localized" $date_localized) | $.Scratch.Set "description" -}}
+  {{- else -}}
+    {{- i18n "release_index_page_description" (dict "release" $version "date" $date "date_localized" $date_localized) | $.Scratch.Set "description" -}}
+  {{- end -}}
+{{- end -}}

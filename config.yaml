@@ -20,15 +20,19 @@ outputs:
   home:
     - "Atom"
     - "HTML"
+    - "JSON"
   section:
     - "Atom"
     - "HTML"
+    - "JSON"
   taxonomyTerm:
     - "Atom"
     - "HTML"
+    - "JSON"
   taxonomy:
     - "Atom"
     - "HTML"
+    - "JSON"
 
 taxonomies:
     category: "categories"

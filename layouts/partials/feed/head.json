@@ -1,0 +1,10 @@
+  "version": "https://jsonfeed.org/version/1",
+  "home_page_url": {{ with .OutputFormats.Get "HTML" }}{{ partial "link/absolute" . | jsonify }}{{ end }},
+  "feed_url": {{ with .OutputFormats.Get "JSON" }}{{ partial "link/absolute" . | jsonify }}{{ end }},
+  "logo": "{{ $.Site.BaseURL }}images/template/logo-512.png",
+  "favicon": "{{ $.Site.BaseURL }}images/template/favicon.png",
+  {{- with $.Site.Params.Author.Name }}
+  "author": {
+    "name": {{ . | jsonify }}
+  },
+  {{- end }}

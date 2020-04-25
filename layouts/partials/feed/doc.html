@@ -1,9 +1,9 @@
       <p>
         <strong>{{ i18n "releases" }}</strong>:
-        {{- range $i, $release := .Params.releases }}
+        {{- range $i, $version := .Params.releases }}
         {{- if $i }}, {{ end }}
-        <a href="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/releases/{{ $release }}/">
-          {{- $.Scratch.Set "release" $release }}{{ partial "release-label/without-channel" $ -}}
+        <a href="{{ $.Site.BaseURL }}{{ $.Site.LanguageCode }}/releases/{{ $version }}/">
+          {{- $.Scratch.Set "version" $version }}{{ partial "release-label/without-channel" $ -}}
         </a>
         {{- end }}
         <br>

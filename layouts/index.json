@@ -1,0 +1,11 @@
+{
+  {{- partial "feed/head.json" $ }}
+  "title": {{ $.Site.Title | jsonify }},
+  "description": {{ i18n "contentinfo_description" | jsonify }},
+  "items": [
+  {{- range $i, $entry := first 50 (where $.Site.RegularPages "Section" "ne" "") }}
+    {{- if $i }}, {{ end }}
+    {{- partial "feed/entry.json" . }}
+  {{- end }}
+  ]
+}

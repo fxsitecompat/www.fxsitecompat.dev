@@ -19,8 +19,8 @@
         </header>
         <section>
           <h2>{{ i18n "browse_release" }}</h2>
-          <ul class="taxonomy terms">{{ range first 5 $.Site.Taxonomies.releases.Alphabetical.Reverse }}{{ $release := .Name }}
-            <li><a href="/{{ $.Site.LanguageCode }}/releases/{{ $release }}/">{{ $.Scratch.Set "release" $release }}{{ partial "release-label/with-channel" $ }}</a></li>{{ end }}
+          <ul class="taxonomy terms">{{ range first 5 $.Site.Taxonomies.releases.Alphabetical.Reverse }}{{ $version := .Name }}
+            <li><a href="/{{ $.Site.LanguageCode }}/releases/{{ $version }}/">{{ $.Scratch.Set "version" $version }}{{ partial "release-label/with-channel" $ }}</a></li>{{ end }}
             <li><a href="/{{ $.Site.LanguageCode }}/releases/">{{ i18n "browse_all_releases" }}</a></li>
           </ul>
         </section>

@@ -1,8 +1,8 @@
-{{- $release := $.Scratch.Get "release" -}}
-{{- if eq $release "future" -}}
+{{- $version := $.Scratch.Get "version" -}}
+{{- if eq $version "future" -}}
   {{ i18n "future_release" }}
-{{- else if strings.HasSuffix $release "-esr" -}}
-  Firefox {{ strings.TrimSuffix "-esr" $release }} ESR
+{{- else if strings.HasSuffix $version "-esr" -}}
+  Firefox {{ strings.TrimSuffix "-esr" $version }} ESR
 {{- else -}}
-  Firefox {{ $release }}
+  Firefox {{ $version }}
 {{- end -}}

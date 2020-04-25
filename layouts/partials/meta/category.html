@@ -1,0 +1,5 @@
+{{- $slug := $.Scratch.Get "slug" }}
+{{- $category := replace $slug "-" "_" | printf "category_%s" | i18n | string }}
+{{- i18n "category_index_page_title" (dict "category" $category) | $.Scratch.Set "title" }}
+{{- i18n "category_index_page_description" (dict "category" $category) | $.Scratch.Set "description" }}
+{{- $.Scratch.Set "category" $category }}

@@ -1,0 +1,26 @@
+{
+  {{- partial "feed/head.json" $ }}
+  "title": {{ i18n "all_statuses_page_title" | jsonify }},
+  "description": {{ i18n "all_statuses_page_description" | jsonify }},
+  "items": [
+  {{- range $i, $_ := (where .Pages "Section" "ne" "").ByDate.Reverse }}
+    {{- $slug := .Title | urlize | lower }}
+    {{- $.Scratch.Set "slug" $slug }}
+    {{- partial "meta/status" $ }}
+    {{- $title := $.Scratch.Get "title" -}}
+    {{- $description := $.Scratch.Get "description" -}}
+    {{- $status := $.Scratch.Get "status" -}}
+    {{- if $i }}, {{ end }}
+    {
+      "id": {{ with .OutputFormats.Get "HTML" }}{{ partial "link/absolute" . | jsonify }}{{ end }},
+      "url": {{ with .OutputFormats.Get "HTML" }}{{ partial "link/absolute" . | jsonify }}{{ end }},
+      "title": {{ $title | jsonify }},
+      "date_published": {{ .Date.Format $.Site.Params.DateFormat.ISO8601 | jsonify }},
+      "content_html": {{ $description | jsonify }},
+      "_status": {
+        "name": {{ $status | jsonify }}
+      }
+    }
+  {{- end }}
+  ]
+}

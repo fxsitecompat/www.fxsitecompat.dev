@@ -17,8 +17,8 @@
           <h1 itemprop="name">{{ i18n "all_releases_page_title" }}</h1>
           <p itemprop="description">{{ i18n "all_releases_page_description" }}</p>
         </header>
-        <ul class="taxonomy terms">{{ range $key, $value := .Data.Terms.Alphabetical.Reverse }}{{ $release := $value.Name }}
-          <li><a href="/{{ $.Site.LanguageCode }}/releases/{{ $release }}/">{{ $.Scratch.Set "release" $release }}{{ partial "release-label/with-channel" $ }}</a></li>{{ end }}
+        <ul class="taxonomy terms">{{ range $key, $value := .Data.Terms.Alphabetical.Reverse }}{{ $version := $value.Name }}
+          <li><a href="/{{ $.Site.LanguageCode }}/releases/{{ $version }}/">{{ $.Scratch.Set "version" $version }}{{ partial "release-label/with-channel" $ }}</a></li>{{ end }}
         </ul>
       </section>
     </main>

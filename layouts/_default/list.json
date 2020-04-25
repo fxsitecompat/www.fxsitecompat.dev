@@ -1,0 +1,11 @@
+{
+  {{- partial "feed/head.json" $ }}
+  "title": {{ .Title | jsonify }},
+  "description": {{ i18n "feed_recent_content" (dict "section" .Title) | jsonify }},
+  "items": [
+  {{- range $i, $entry := first 50 (where .Pages "Section" "ne" "").ByDate.Reverse }}
+    {{- if $i }}, {{ end }}
+    {{- partial "feed/entry.json" . }}
+  {{- end }}
+  ]
+}

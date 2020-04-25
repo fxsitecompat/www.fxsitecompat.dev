@@ -1,0 +1,9 @@
+{
+  {{- $version := $.Scratch.Get "version" }}
+  "name": {{ partial "release-label/without-channel" $ | jsonify }},
+  "version": {{ $version | jsonify }},
+  "link": {{ printf "%s%s/releases/%s/" $.Site.BaseURL $.Site.LanguageCode $version | jsonify }}
+  {{- with index $.Site.Data.firefox.releases $version }},
+  "channel": {{ printf "channel_%s" . | i18n | jsonify }}
+  {{- end }}
+}

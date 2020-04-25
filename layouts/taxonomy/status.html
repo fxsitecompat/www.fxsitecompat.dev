@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-{{ $status := .Title | urlize | lower }}
-{{ $title := i18n "status_index_page_title" (dict "status" (i18n (printf "status_%s_label" $status))) }}
-{{ $description := printf "status_%s_description_list" $status | i18n }}
+{{ $slug := .Title | urlize | lower }}
+{{- $.Scratch.Set "slug" $slug }}
+{{- partial "meta/status" . }}
+{{- $title := $.Scratch.Get "title" -}}
+{{- $description := $.Scratch.Get "description" -}}
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
 {{ partial "head.html" . }}
@@ -20,9 +22,9 @@
           <header>
             <h1 itemprop="name">{{ $title }}</h1>
             <p itemprop="description">{{ $description }}</p>
-          </header>{{ range $.Site.Taxonomies.releases.Alphabetical.Reverse }}{{ $release := .Name }}{{ with $pages := where .Pages "Params.statuses" $status }}
+          </header>{{ range $.Site.Taxonomies.releases.Alphabetical.Reverse }}{{ $version := .Name }}{{ with $pages := where .Pages "Params.statuses" $slug }}
           <section>
-            <h2>{{ $.Scratch.Set "release" $release }}{{ partial "release-label/with-channel" $ }}</h2>
+            <h2>{{ $.Scratch.Set "version" $version }}{{ partial "release-label/with-channel" $ }}</h2>
             <ul>{{ range $pages }}
               <li>{{ partial "status-label/prefix-em" . }}<a href="{{ partial "link/relative" . }}">{{ .Title | markdownify | replaceRE "([a-z])([A-Z\\.])" "$1<wbr>$2" | safeHTML }}</a></li>{{ end }}
             </ul>
@@ -30,8 +32,8 @@
         </section>
         <nav class="nocontent">
           <h2>{{ i18n "browse_status" }}</h2>
-          <ul class="taxonomy terms">{{ range $status, $taxonomy := $.Site.Taxonomies.statuses }}
-            <li><a href="/{{ $.Site.LanguageCode }}/statuses/{{ $status }}/">{{ printf "status_%s_label" $status | i18n }}</a></li>{{ end }}
+          <ul class="taxonomy terms">{{ range $slug, $taxonomy := $.Site.Taxonomies.statuses }}
+            <li><a href="/{{ $.Site.LanguageCode }}/statuses/{{ $slug }}/">{{ printf "status_%s_label" $slug | i18n }}</a></li>{{ end }}
           </ul>
         </nav>
       </div>
