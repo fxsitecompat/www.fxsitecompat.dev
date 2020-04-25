@@ -7,6 +7,29 @@ hasCJKLanguage: true
 disablePathToLower: true
 copyright: "Kohei Yoshino and individual contributors."
 
+mediaTypes:
+  application/atom+xml:
+    suffixes:
+      - xml
+
+outputFormats:
+  Atom:
+    mediaType: application/atom+xml
+
+outputs:
+  home:
+    - "Atom"
+    - "HTML"
+  section:
+    - "Atom"
+    - "HTML"
+  taxonomyTerm:
+    - "Atom"
+    - "HTML"
+  taxonomy:
+    - "Atom"
+    - "HTML"
+
 taxonomies:
     category: "categories"
     release: "releases"

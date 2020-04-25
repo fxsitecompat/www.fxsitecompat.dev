@@ -1,0 +1,8 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+{{- partial "feed/head.atom.xml" . }}
+  <title>{{ $.Site.Title }}</title>
+  <subtitle>{{ i18n "contentinfo_description" }}</subtitle>
+{{- range first 50 (where $.Site.RegularPages "Section" "ne" "") }}
+  {{- partial "feed/entry.atom.xml" . }}
+{{- end }}
+</feed>

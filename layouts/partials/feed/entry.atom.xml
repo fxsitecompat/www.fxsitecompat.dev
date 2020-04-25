@@ -1,0 +1,26 @@
+  <entry>
+    <id>{{ partial "link/absolute" . }}</id>
+    <title>{{ replace .Title "`" "" }}{{ partial "status-label/suffix" . }}</title>
+    <updated>{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}</updated>
+    {{- with $.Site.Params.Author.Name }}
+    <author>
+      <name>{{ . }}</name>
+      {{- with $.Site.Params.Author.Email }}
+      <email>{{ . }}</email>
+      {{- end }}
+    </author>
+    {{- end }}
+    <content type="html">
+    {{ "<![CDATA[" | safeHTML }}
+    {{- if eq .Section "docs" }}
+      {{- partial "feed/doc" . }}
+    {{- else }}
+      {{- .Content }}
+    {{- end }}
+    {{ "]]>" | safeHTML }}
+    </content>
+    <link rel="alternate" href="{{ with .OutputFormats.Get "HTML" }}{{ partial "link/absolute" . }}{{ end }}" />
+    {{- range .Params.categories }}
+    <category term="{{ replace . "-" "_" | printf "category_%s" | i18n }}" />
+    {{- end }}
+  </entry>

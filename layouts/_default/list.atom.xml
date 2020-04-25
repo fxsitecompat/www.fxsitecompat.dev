@@ -1,6 +1,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
-{{ partial "feed/head" . }}
+{{- partial "feed/head.atom.xml" . }}
   <title>{{ .Title }}</title>
   <subtitle>{{ i18n "feed_recent_content" (dict "section" .Title) }}</subtitle>
-{{ range first 50 (where .Pages "Section" "ne" "").ByDate.Reverse }}{{ partial "feed/entry" . }}{{ end }}
+{{- range first 50 (where .Pages "Section" "ne" "").ByDate.Reverse }}
+  {{- partial "feed/entry.atom.xml" . }}
+{{- end }}
 </feed>
