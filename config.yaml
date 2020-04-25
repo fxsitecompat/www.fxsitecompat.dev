@@ -16,10 +16,15 @@ mediaTypes:
   application/atom+xml:
     suffixes:
       - xml
+  application/opensearchdescription+xml:
+    suffixes:
+      - xml
 
 outputFormats:
   Atom:
     mediaType: application/atom+xml
+  OpenSearch:
+    mediaType: application/opensearchdescription+xml
 
 outputs:
   home:
