@@ -13,6 +13,9 @@
     <meta name="twitter:data1" content="{{ range $i, $version := .Params.releases }}{{ if $i }}, {{ end }}{{ $.Scratch.Set "version" $version }}{{ partial "release-label/without-channel" $ }}{{ end }}">
     <meta name="twitter:label2" content="{{ i18n "categories" }}">
     <meta name="twitter:data2" content="{{ range $i, $category := .Params.categories }}{{ if $i }}, {{ end }}{{ replace $category "-" "_" | printf "category_%s" | i18n }}{{ end }}">
+    {{- range $.Site.RegularPages }}{{ if in .Params.releases $version }}
+    <link rel="prefetch" href="{{ partial "link/relative" . }}" as="document">
+    {{- end }}{{ end }}
   </head>
   <body class="single docs article" itemscope itemtype="http://schema.org/ItemPage" itemref="copyright translation">
 {{ partial "header.html" . }}

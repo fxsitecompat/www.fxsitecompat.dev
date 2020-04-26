@@ -11,6 +11,9 @@
     <meta property="og:title" content="{{ $title | plainify }}">
     <meta property="og:description" content="{{ $description | plainify }}">
     <meta name="description" content="{{ $description | plainify }}">
+    {{- range .Pages }}
+    <link rel="prefetch" href="{{ partial "link/relative" . }}" as="document">
+    {{- end }}
   </head>
   <body class="list docs term release" itemscope itemtype="http://schema.org/CollectionPage" itemref="copyright translation">
 {{ partial "header.html" . }}

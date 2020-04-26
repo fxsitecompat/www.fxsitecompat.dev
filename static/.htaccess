@@ -62,10 +62,11 @@ ExpiresByType application/json "access plus 1 hour"
 
 # Security
 Header always append Content-Security-Policy "\
-  default-src 'none';\
+  default-src 'self';\
   font-src 'self';\
   form-action 'self' https://cse.google.com;\
   img-src 'self' https://www.google-analytics.com;\
+  prefetch-src 'self';\
   script-src 'self' https://www.google-analytics.com;\
   style-src 'self' 'unsafe-inline';\
 "
