@@ -23,6 +23,5 @@
       </div>
     </footer>
     {{- $base_js := resources.Get "scripts/base.js" }}
-    {{- $prism_js := resources.Get "scripts/prism.js" }}
-    {{- $script := slice $base_js $prism_js | resources.Concat "scripts/bundle.js" | fingerprint }}
+    {{- $script := slice $base_js | resources.Concat "scripts/bundle.js" | fingerprint }}
     <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>

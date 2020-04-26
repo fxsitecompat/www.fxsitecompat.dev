@@ -82,7 +82,7 @@
   }
 
   code, kbd {
-    font-family: 'Fira Mono', monospace !important; /* Override prism.css */
+    font-family: 'Fira Mono', monospace;
     font-weight: 500;
     letter-spacing: -.05ex;
   }
@@ -177,9 +177,8 @@
 
   pre {
     overflow: auto;
-    margin: 1em 0 !important; /* Override prism.css */
+    margin: 1em 0;
     padding: 1em;
-    background-color: #FFF !important; /* Override prism.css */
   }
 
   table {
