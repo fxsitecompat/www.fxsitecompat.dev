@@ -29,7 +29,7 @@
 
     <main role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
       <div class="inner">
-        <article itemscope itemtype="http://schema.org/TechArticle" itemref="meta-general copyright translation">
+        <article itemscope itemtype="http://schema.org/Article" itemref="meta-general copyright translation">
           <header>
             <h1>{{ partial "status-label/prefix-itemprop" . }}<span itemprop="headline">{{ .Title | markdownify | replaceRE "([a-z])([A-Z\\.])" "$1<wbr>$2" | safeHTML }}</span></h1>
             <p>{{ i18n "published" }}: <time datetime="{{ .Date.Format $.Site.Params.DateFormat.ISO8601 }}" itemprop="datePublished">{{ .Date.Format $.Site.Params.DateFormat.Localized }}</time></p>

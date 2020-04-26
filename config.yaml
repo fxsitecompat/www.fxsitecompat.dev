@@ -55,8 +55,6 @@ params:
         Name: "Kohei Yoshino"
         Email: "webmaster@fxsitecompat.dev"
         TwitterUserName: "koyoskeh"
-    Publisher:
-        TwitterUserName: "FxSiteCompat"
     GoogleSiteSearchID: "006388931142546140887:uidl4-zslfu"
 
 Languages:
@@ -65,6 +63,9 @@ Languages:
         languageName: "English"
         weight: 1
         title: "Firefox Site Compatibility"
+        Publisher:
+            Name: "Firefox Site Compatibility Working Group"
+            TwitterUserName: "FxSiteCompat"
         GoogleSiteSearchLangCode: "en"
         FacebookLangCode: "en_US"
         DateFormat:
@@ -113,8 +114,11 @@ Languages:
     ja:
         languageCode: "ja"
         languageName: "日本語"
-        title: "Firefox サイト互換性情報"
         weight: 2
+        title: "Firefox サイト互換性情報"
+        Publisher:
+            Name: "Firefox Site Compatibility ワーキンググループ"
+            TwitterUserName: "FxSiteCompat"
         GoogleSiteSearchLangCode: "ja"
         FacebookLangCode: "ja_JP"
         DateFormat:
