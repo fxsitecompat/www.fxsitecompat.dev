@@ -4,7 +4,7 @@
     "title": {{ replace .Title "`" "" | jsonify }},
     "date_published": {{ .Date.Format $.Site.Params.DateFormat.ISO8601 | jsonify }},
     {{- if eq .Section "docs" }}
-    "content_html": {{ partial "feed/doc" . | jsonify }},
+    "content_html": {{ partial "feed/doc" . | replaceRE "\\s+" " " | jsonify }},
     "tags": [
     {{- range $i, $category := .Params.categories }}
       {{- if $i }}, {{ end }}
@@ -35,6 +35,6 @@
       {{- end }}
     ]
     {{- else }}
-    "content_html": {{ .Content | jsonify }}
+    "content_html": {{ .Content | replaceRE "\\s+" " " | jsonify }}
     {{- end }}
   }

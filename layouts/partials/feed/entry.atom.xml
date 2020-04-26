@@ -11,13 +11,13 @@
     </author>
     {{- end }}
     <content type="html">
-    {{ "<![CDATA[" | safeHTML }}
+    {{- "<![CDATA[" | safeHTML }}
     {{- if eq .Section "docs" }}
-      {{- partial "feed/doc" . }}
+      {{- partial "feed/doc" . | replaceRE "\\s+" " " | safeHTML }}
     {{- else }}
-      {{- .Content }}
+      {{- .Content | replaceRE "\\s+" " " | safeHTML }}
     {{- end }}
-    {{ "]]>" | safeHTML }}
+    {{- "]]>" | safeHTML }}
     </content>
     <link rel="alternate" href="{{ with .OutputFormats.Get "HTML" }}{{ partial "link/absolute" . }}{{ end }}" />
     {{- range .Params.categories }}

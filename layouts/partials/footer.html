@@ -22,5 +22,7 @@
         </div>
       </div>
     </footer>
-    <script src="/scripts/base.js?v=20180512" defer></script>
-    <script src="/scripts/prism.js?v=1.15.0" defer></script>
+    {{- $base_js := resources.Get "scripts/base.js" }}
+    {{- $prism_js := resources.Get "scripts/prism.js" }}
+    {{- $script := slice $base_js $prism_js | resources.Concat "scripts/bundle.js" | fingerprint }}
+    <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
