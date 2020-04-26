@@ -61,7 +61,7 @@
               {{ i18n "docs_for_release" (dict "release" $version) }}
             {{- end -}}
           </h2>
-          <ul>{{ range $.Site.Pages }}{{ if in .Params.releases $version }}
+          <ul>{{ range $.Site.RegularPages }}{{ if in .Params.releases $version }}
             <li>{{ partial "status-label/prefix-em" . }}<a href="{{ partial "link/relative" . }}">{{ .Title | markdownify | replaceRE "([a-z])([A-Z\\.])" "$1<wbr>$2" | safeHTML }}</a></li>{{ end }}{{ end }}
           </ul>
         </nav>

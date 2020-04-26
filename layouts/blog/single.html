@@ -32,7 +32,7 @@
         </article>
         <nav class="nocontent">
           <h2>{{ i18n "recent_blog_posts" }}</h2>
-          <ul>{{ range first 5 (where $.Site.Pages "Section" "blog") }}
+          <ul>{{ range first 5 (where $.Site.RegularPages "Section" "blog") }}
             <li><a href="{{ partial "link/relative" . }}">{{ .Title | markdownify }}</a></li>{{ end }}
           </ul>
         </nav>
