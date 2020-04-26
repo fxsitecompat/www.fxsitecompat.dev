@@ -50,7 +50,10 @@ RewriteRule ^(en-CA|ja)/ /$1/404.html [L]
 FileETag None
 Header always append Cache-Control private
 Header always append Vary Accept-Language
-AddOutputFilterByType DEFLATE text/html text/css application/javascript
+<IfModule brotli_module>
+SetOutputFilter BROTLI_COMPRESS
+SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-brotli
+</IfModule>
 ExpiresActive On
 ExpiresDefault "access plus 1 year"
 ExpiresByType text/html "access plus 6 hours"
