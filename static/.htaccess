@@ -42,9 +42,12 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*) /en-CA/$1 [R=302,L]
 
 # 404 Not Found
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(en-CA|ja)/ /$1/404.html [L]
+<If "%{REQUEST_URI} =~ m#^/ja/#">
+  ErrorDocument 404 /ja/404.html
+</If>
+<Else>
+  ErrorDocument 404 /en-CA/404.html
+</Else>
 
 # Performance
 FileETag None
