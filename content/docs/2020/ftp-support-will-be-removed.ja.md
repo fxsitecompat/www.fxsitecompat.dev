@@ -13,6 +13,8 @@ references:
       title: "Bug 1622409 - Put FTP code behind a pref"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/FqCZUT9ay_o/discussion"
       title: "Intent to unship: FTP protocol implementation"
+supported_tools:
+  firefox_extension: true
 ---
 セキュリティ上の理由から、Mozilla は 2021 年に Firefox の FTP サポートを廃止する予定です。FTP は安全でないプロトコルで、現時点で使用率は非常に低くなっています (Mozilla によれば 0.05%)。Firefox の非常に古い実装を維持するのは困難であり、FTPS 対応が追加される予定もありません。
 

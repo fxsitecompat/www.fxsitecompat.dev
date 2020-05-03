@@ -7,5 +7,7 @@ releases: ["future"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=725646"
       title: "Bug 725646 - Remove support for the hspace/vspace attributes on table"
+supported_tools:
+  firefox_extension: true
 ---
 The support for the `hspace` and `vspace` attributes on the [`<table>`](https://developer.mozilla.org/docs/Web/HTML/Element/table) element will be removed in the near future. In Firefox, those attributes are usable only in the [Quirks mode](https://developer.mozilla.org/docs/Mozilla_Quirks_Mode_Behavior).

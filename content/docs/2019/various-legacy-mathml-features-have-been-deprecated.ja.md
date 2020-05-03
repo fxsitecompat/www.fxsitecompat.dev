@@ -29,6 +29,8 @@ references:
       title: "Intent to deprecate: MathML bevelled attribute"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/DHO72glZxA0/discussion"
       title: "Intent to deprecated: mfenced element"
+supported_tools:
+  firefox_extension: true
 ---
 [Firefox 70](https://www.fxsitecompat.dev/ja/docs/2019/various-legacy-mathml-features-have-been-deprecated-or-removed/) と同様に、現行の MathML Core (将来の MathML 4) 仕様に合わせ、Firefox 71 で MathML 実装が更新されました。以下の機能は廃止予定とされたため、Firefox Nightly では無効化され、将来的に削除されます。
 

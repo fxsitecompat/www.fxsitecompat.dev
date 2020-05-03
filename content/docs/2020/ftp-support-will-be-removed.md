@@ -13,6 +13,8 @@ references:
       title: "Bug 1622409 - Put FTP code behind a pref"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/FqCZUT9ay_o/discussion"
       title: "Intent to unship: FTP protocol implementation"
+supported_tools:
+  firefox_extension: true
 ---
 For security reasons, Mozilla is planning to remove the FTP support from Firefox in 2021. It’s an insecure protocol, and the usage rate is very low at this time (0.05% according to Mozilla). It’s difficult to maintain the very old implementation in Firefox, and there’s no plan to add the support for FTPS.
 

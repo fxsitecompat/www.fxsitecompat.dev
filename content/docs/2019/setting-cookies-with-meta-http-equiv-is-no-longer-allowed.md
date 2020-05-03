@@ -11,6 +11,8 @@ references:
       title: "Intent to unship http-equiv cookies"
 aliases:
     - "/en-CA/docs/2018/setting-cookies-with-meta-http-equiv-will-no-longer-be-allowed/"
+supported_tools:
+  firefox_extension: true
 ---
 The HTML `<meta>` element provides an equivalent ability to sending certain HTTP response headers via the `http-equiv` attribute, which can even be used to set new cookies or override existing cookies.
 

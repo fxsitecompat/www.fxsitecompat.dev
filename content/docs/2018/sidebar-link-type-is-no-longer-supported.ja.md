@@ -9,6 +9,8 @@ references:
       title: "Bug 1452645 - Remove \"Open in Sidebar\" feature"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/7YXZLzvq6Qg/discussion"
       title: "Intent to Unship: <a rel=\"sidebar\"> support"
+supported_tools:
+  firefox_extension: true
 ---
 ユーザーが後からブラウザーのサイドバーで開かれるリンクをブックマークできるようにしていた `sidebar` リンクタイプへの対応が Firefox 63 で削除されました。同じことをする `window.sidebar.addPanel` メソッドは既に [Firefox 23 で廃止されています](https://www.fxsitecompat.dev/ja/docs/2013/ability-to-add-a-sidebar-panel-has-been-dropped/)。
 

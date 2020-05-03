@@ -9,5 +9,7 @@ references:
       title: "Bug 1279218 - Remove <applet> element"
 aliases:
     - "/en-CA/docs/2016/applet-support-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 The support for the deprecated [`<applet>`](https://developer.mozilla.org/docs/Web/HTML/Element/applet) HTML element and `HTMLAppletElement` DOM interface has been removed with Firefox 56, making it an [`HTMLUnknownElement`](https://developer.mozilla.org/docs/Web/API/HTMLUnknownElement). The Java plug-in support has already been dropped with [Firefox 52](https://www.fxsitecompat.dev/en-CA/docs/2016/plug-in-support-has-been-dropped-other-than-flash/) except for the ESR channel for enterprise users. The [`document.applets`](https://developer.mozilla.org/docs/Web/API/Document/applets) DOM property will be kept for backward compatibility but always return an empty collection.

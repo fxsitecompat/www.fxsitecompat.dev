@@ -46,6 +46,14 @@
                 {{ replace .Content $.Site.BaseURL "/" | safeHTML }}
               </div>
             </section>
+            {{- with .Params.supported_tools }}
+            <section>
+              <h2>{{ i18n "tools" }}</h2>
+              {{- if eq .firefox_extension true }}
+              <p>{{ i18n "tools_firefox_extension" | safeHTML }}</p>
+              {{- end }}
+            </section>
+            {{- end }}
             <section>
               <h2>{{ i18n "references" }}</h2>
               <ul>{{ range .Params.references }}

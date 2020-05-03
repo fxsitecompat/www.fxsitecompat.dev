@@ -179,6 +179,10 @@ categories:
     other: "カテゴリー"
 description:
     other: "概要"
+tools:
+    other: "ツール"
+tools_firefox_extension:
+    other: 'これは当プロジェクトが提供している <a href="https://addons.mozilla.org/firefox/addon/site-compatibility-tools/">Firefox 開発者ツール拡張機能</a> の互換性チェッカーでテスト可能です。'
 references:
     other: "参考資料"
 docs_for_release:

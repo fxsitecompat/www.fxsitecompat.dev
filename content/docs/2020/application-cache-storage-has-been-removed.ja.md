@@ -17,6 +17,8 @@ references:
 aliases:
     - "/ja/docs/2016/application-cache-support-will-be-removed/"
     - "/ja/docs/2019/application-cache-storage-has-been-removed-in-nightly-and-early-beta/"
+supported_tools:
+  firefox_extension: true
 ---
 [Firefox 44](https://www.fxsitecompat.dev/ja/docs/2015/application-cache-api-has-been-deprecated/) 以降廃止予定となっており、Firefox 71 以降既に Nightly と早期 Beta チャンネルでは廃止されている [HTML Application Cache](https://developer.mozilla.org/docs/Web/HTML/Using_the_application_cache) (AppCache) のブラウザーストレージは、Firefox 77 以降すべてのチャンネルで利用できなくなりました。
 

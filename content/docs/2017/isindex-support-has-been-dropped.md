@@ -11,5 +11,7 @@ references:
       title: "Intent to remove: <isindex>"
 aliases:
     - "/en-CA/docs/2016/isindex-support-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 The support for the obsolete [`<isindex>`](https://developer.mozilla.org/docs/Web/HTML/Element/isindex) HTML element and `<input name="isindex">` has been removed with Firefox 56. It has already been removed from the HTML standard and other browsers.

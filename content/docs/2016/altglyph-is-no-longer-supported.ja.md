@@ -9,5 +9,7 @@ references:
       title: "Bug 1260032 - drop support for altGlyph"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/LcN2jd9gGiM/discussion"
       title: "Intent to unship support for altGlyph"
+supported_tools:
+  firefox_extension: true
 ---
 [`<altGlyph>`](https://developer.mozilla.org/docs/Web/SVG/Element/altGlyph) 要素は SVG2 仕様から削除されたため、Firefox での対応も打ち切られました。この要素は代わりに使用できる [`<tspan>`](https://developer.mozilla.org/docs/Web/SVG/Element/tspan) のエイリアスとなっていました。

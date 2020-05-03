@@ -37,6 +37,8 @@ references:
       title: "Intent to unship: Legacy MathML syntax for numbers"
 aliases:
     - "/ja/docs/2019/mode-attribute-on-math-has-been-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 現行の MathML Core (将来の MathML 4) 仕様へ準拠する作業に進捗があり、Firefox 70 で MathML 実装が更新されました。
 

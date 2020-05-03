@@ -9,5 +9,7 @@ references:
       title: "Bug 1513890 - Remove 'x-moz-errormessage' attribute"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/LDNiOssSN3U/discussion"
       title: "Intent to unship: x-moz-errormessage attribute"
+supported_tools:
+  firefox_extension: true
 ---
 [フォームバリデーション](https://developer.mozilla.org/docs/Learn/HTML/Forms/Form_validation) に失敗したときに表示する任意のエラーメッセージを指定できるようにしていた HTML `<input>` 要素の非標準 `x-moz-errormessage` 属性への対応が Firefox 66 で廃止されました。標準の [`setCustomValidity`](https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/setCustomValidity) メソッドで代用可能です。

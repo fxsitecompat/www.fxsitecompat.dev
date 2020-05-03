@@ -9,5 +9,7 @@ references:
       title: "Bug 1603773 - Disable the MathML mfenced element by default in all builds"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/SJFrpa-UmQk/discussion"
       title: "Intent to unship: MathML mfenced element"
+supported_tools:
+  firefox_extension: true
 ---
 The MathML [`<mfenced>`](https://developer.mozilla.org/docs/Web/MathML/Element/mfenced) element deprecated since [Firefox 71](https://www.fxsitecompat.dev/en-CA/docs/2019/various-legacy-mathml-features-have-been-deprecated/) has been removed with Firefox 73. Use the [`<mrow>`](https://developer.mozilla.org/docs/Web/MathML/Element/mrow) and [`<mo>`](https://developer.mozilla.org/docs/Web/MathML/Element/mo) elements instead.

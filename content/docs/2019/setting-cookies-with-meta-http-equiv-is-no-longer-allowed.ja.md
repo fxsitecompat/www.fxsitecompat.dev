@@ -11,6 +11,8 @@ references:
       title: "Intent to unship http-equiv cookies"
 aliases:
     - "/ja/docs/2018/setting-cookies-with-meta-http-equiv-will-no-longer-be-allowed/"
+supported_tools:
+  firefox_extension: true
 ---
 HTML `<meta>` 要素は、その `http-equiv` 属性を通じて、特定の HTTP レスポンスヘッダーを送信するのと同等の機能を提供しており、これを使って新たな Cookie を設定したり既存の Cookie を上書きしたりすることも可能です。
 

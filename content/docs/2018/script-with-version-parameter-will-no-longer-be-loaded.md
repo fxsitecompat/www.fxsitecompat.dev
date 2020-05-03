@@ -14,6 +14,8 @@ references:
       title: "Bug 1428745 - Remove support for version parameter from script loader"
 aliases:
     - "/en-CA/docs/2015/javascript-versions-will-be-retired/"
+supported_tools:
+  firefox_extension: true
 ---
 Traditionally, Firefox has required an explicit `version` parameter for the `<script>` element's `type` attribute to use the advanced features of JavaScript [1.7](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.7) and [1.8](https://developer.mozilla.org/docs/Web/JavaScript/New_in_JavaScript/1.8).
 

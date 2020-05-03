@@ -179,6 +179,10 @@ categories:
     other: "Categories"
 description:
     other: "Description"
+tools:
+    other: "Tools"
+tools_firefox_extension:
+    other: 'This can be tested with our <a href="https://addons.mozilla.org/firefox/addon/site-compatibility-tools/">Firefox Developer Tools extension</a>’s compatibilty checker.'
 references:
     other: "References"
 docs_for_release:

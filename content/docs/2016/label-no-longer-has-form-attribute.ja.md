@@ -9,6 +9,8 @@ references:
       title: "Bug 1268852 - Spec change: Remove <label form> and redefine label.form IDL attribute"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/8TyeUQOn6qQ/discussion"
       title: "Intent to implement and ship: spec changes to the .form property and \"form\" attribute on <label> elements"
+supported_tools:
+  firefox_extension: true
 ---
 最新の HTML 仕様によれば、[`<label>`](https://developer.mozilla.org/docs/Web/HTML/Element/label) 要素はどの `<form>` とも関連付けられなくなりました。これを受けて、HTML5 で導入された `<label>` 上の `form` 属性への対応は Firefox 49 で削除されました。
 
