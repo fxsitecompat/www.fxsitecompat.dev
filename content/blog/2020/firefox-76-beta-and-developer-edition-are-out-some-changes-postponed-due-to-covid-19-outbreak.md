@@ -12,6 +12,6 @@ While Mozilla maintains the [rapid release schedule](https://wiki.mozilla.org/Re
 * [Removing DTLS 1.0 support from WebRTC](https://www.fxsitecompat.dev/en-CA/docs/2020/dtls-1-0-support-in-webrtc-has-been-removed/)
 * [Removing FTP support](https://www.fxsitecompat.dev/en-CA/docs/2020/ftp-support-will-be-removed/)
 * [Enforcing MIME check for worker scripts](https://www.fxsitecompat.dev/en-CA/docs/2020/worker-scripts-with-wrong-mime-type-will-be-blocked-from-loading-with-worker-or-sharedworker/)
-* [Rotating JPEG images](https://www.fxsitecompat.dev/en-CA/docs/2020/jpeg-images-are-now-rotated-by-default-according-to-exif-data/)
+* <del>[Rotating JPEG images](https://www.fxsitecompat.dev/en-CA/docs/2020/jpeg-images-are-now-rotated-by-default-according-to-exif-data/)</del>
 
 These changes will be made later this year once the situation improves. We’ll keep you posted.
